@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- デザイントークン(和紙×墨×深紅の新聞トーン) ---- */
+:root {
+  --c-paper: 247 243 234;      /* 生成りの紙 */
+  --c-surface: 253 251 245;    /* カード面 */
+  --c-ink: 38 35 29;           /* 本文の墨 */
+  --c-ink-strong: 23 21 17;    /* 見出し・強罫線 */
+  --c-muted: 110 104 88;       /* 補助テキスト */
+  --c-rule: 216 209 193;       /* 罫線 */
+  --c-accent: 155 47 42;       /* 深紅(題字・強調) */
+  --c-link: 31 78 121;         /* 藍(リンク) */
+  --c-up: 183 52 43;           /* 騰落: 上昇=赤(日本市場の慣習) */
+  --c-down: 45 110 158;        /* 騰落: 下落=青 */
+}
+
+.dark {
+  --c-paper: 24 22 19;
+  --c-surface: 34 31 26;
+  --c-ink: 224 218 204;
+  --c-ink-strong: 245 241 232;
+  --c-muted: 159 152 136;
+  --c-rule: 63 58 48;
+  --c-accent: 218 110 100;
+  --c-link: 133 176 219;
+  --c-up: 233 122 110;
+  --c-down: 116 176 219;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  @apply bg-accent/20;
+}
+
+/* 見出し用: 日本語プロポーショナル詰め */
+.tracking-palt {
+  font-feature-settings: 'palt' 1;
+}
+
+/* 数字の桁揃え */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* 横スクロール領域のスクロールバー非表示 */
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* アンカー着地位置(スティッキーナビ分の余白) */
+.anchor-target {
+  scroll-margin-top: 3.5rem;
+}
+
+/* ---- 深掘り記事(Markdown)の組版 ---- */
+.frontier-prose {
+  --tw-prose-body: rgb(var(--c-ink));
+  --tw-prose-headings: rgb(var(--c-ink-strong));
+  --tw-prose-bold: rgb(var(--c-ink-strong));
+  --tw-prose-links: rgb(var(--c-link));
+  --tw-prose-quotes: rgb(var(--c-muted));
+  --tw-prose-quote-borders: rgb(var(--c-rule));
+  --tw-prose-bullets: rgb(var(--c-accent));
+  --tw-prose-counters: rgb(var(--c-accent));
+  --tw-prose-hr: rgb(var(--c-rule));
+  --tw-prose-th-borders: rgb(var(--c-rule));
+  --tw-prose-td-borders: rgb(var(--c-rule));
+  --tw-prose-code: rgb(var(--c-ink-strong));
+  max-width: none;
+}
+.frontier-prose p,
+.frontier-prose li {
+  line-height: 1.95;
+  font-size: 0.925rem;
+}
+.frontier-prose h2 {
+  @apply font-serif tracking-palt;
+  font-size: 1.2rem;
+  margin-top: 2.2em;
+  margin-bottom: 0.9em;
+  padding-left: 0.75rem;
+  border-left: 3px solid rgb(var(--c-accent));
+  line-height: 1.5;
+}
+.frontier-prose h3 {
+  @apply font-serif tracking-palt;
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+.frontier-prose a {
+  text-underline-offset: 3px;
+}
+.frontier-prose strong {
+  font-weight: 700;
+}
