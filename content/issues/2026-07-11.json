@@ -1,0 +1,452 @@
+{
+  "date": "2026-07-11",
+  "edition": 3,
+  "generated_at": "2026-07-11T14:04:41+09:00",
+  "masthead_note": "ホルムズ、円、AIメモリー。リスクは価格から制度と資本へ移る",
+  "market_snapshot": {
+    "as_of": "7月10日 東京・NY市場終値、7月11日朝確認",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "68,695.73円",
+        "change": "+1.4%",
+        "direction": "up",
+        "note": "国内投資回帰期待とAI株反発で上昇"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "161.57円",
+        "change": "-0.81円",
+        "direction": "down",
+        "note": "円高方向。GPIFなど国内投資回帰への思惑"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.77%",
+        "direction": "down",
+        "note": "財務相発言後に債券買い戻し"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.568%",
+        "change": "+0.091pt/週",
+        "direction": "up",
+        "note": "CPIとWarsh議会証言を控え高止まり"
+      },
+      {
+        "label": "WTI原油",
+        "value": "71.41ドル",
+        "change": "+4.0%/週",
+        "direction": "up",
+        "note": "ホルムズ緊張で週間上昇"
+      },
+      {
+        "label": "ブレント原油",
+        "value": "76.01ドル",
+        "change": "+5.4%/週",
+        "direction": "up",
+        "note": "中東リスクプレミアムが残る"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "欧州がホルムズ海峡の任意航行サービス料案を検討。米国はイランに安全通航の公約を要求",
+      "ref": "hormuz-fee-plan"
+    },
+    {
+      "text": "片山財務相がGPIFなどに国内資産投資を促す姿勢。円とJGBは買い戻された",
+      "ref": "gpif-domestic-investment"
+    },
+    {
+      "text": "米10年債は4.568%へ上昇。来週の米CPIとWarsh議長証言が次の金利材料",
+      "ref": "us-cpi-yields"
+    },
+    {
+      "text": "SK Hynixの米ADRは初日12.8%高。AIメモリー需要が資本市場でも主役に",
+      "ref": "sk-hynix-nasdaq"
+    },
+    {
+      "text": "AIデータセンターの電力・水利用の透明性要求が拡大。企業開示の差が規制リスクに",
+      "ref": "ai-transparency-water"
+    },
+    {
+      "text": "PepsiCoは北米消費の弱さを示す。燃料高が低価格スナック需要にも影を落とす",
+      "ref": "pepsico-demand"
+    },
+    {
+      "text": "EU AI法は透明性義務の8月適用へ。生成AIの表示・マーキング対応が実務課題",
+      "ref": "eu-ai-act-transparency"
+    }
+  ],
+  "top_story": {
+    "id": "hormuz-fee-plan",
+    "headline": "ホルムズ、任意航行料案が浮上",
+    "dek": "欧州とオマーンは、強制通行料ではなく航行支援サービスへの任意拠出という設計を探る。海峡の支配権をめぐる争いは、原油価格だけでなく国際海洋法と保険料の問題になった。",
+    "importance": 3,
+    "facts": [
+      "Guardianは11日、欧州がホルムズ海峡で任意の航行支援サービス料を認める案を検討していると報じた",
+      "英国のLammy副首相は強制通行料の導入は破滅的だと述べ、オマーンも国際航行海峡での通過料に反対している",
+      "米当局者はイランに対し、ホルムズ海峡が開かれ船舶が攻撃されないと公に表明するよう求めている",
+      "米中央軍は5月以降、800隻超の商船と3億8000万バレルの原油通過を支援したと主張している",
+      "IMO理事会ではイラン非難決議案が出たが、中国とロシアは一方的だとして支持しなかった"
+    ],
+    "why_it_matters": "前号までの焦点は、通航量と原油価格だった。今日の新しさは、ホルムズ危機が「誰が通航秩序を設計するか」という制度問題へ移った点である。強制料や航路許可が既成事実化すれば、物理的な封鎖がなくても保険料、用船料、在庫積み増しを通じて日本の輸入コストを押し上げる。",
+    "implications": "市場は一時的な戦闘停止だけではリスクプレミアムを消しにくい。日本企業は原油スポット価格だけでなく、海上保険、LNG調達、迂回輸送コストを来期予算に織り込む必要が出てくる可能性がある。",
+    "sources": [
+      {
+        "title": "Europe considering proposals to allow navigational fees in strait of Hormuz",
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/jul/11/europe-considers-proposals-navigational-fees-strait-of-hormuz-iran-us"
+      },
+      {
+        "title": "Oil Posts Weekly Gains on Renewed Middle East Skirmishes",
+        "publisher": "Wall Street Journal",
+        "url": "https://www.wsj.com/finance/commodities-futures/oil-falls-on-prospects-u-s-iran-tensions-may-be-contained-5a767f46"
+      }
+    ],
+    "tags": ["ホルムズ海峡", "原油", "海洋安全保障"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "gpif-domestic-investment",
+          "headline": "GPIF国内回帰論、円とJGBを下支え",
+          "dek": "為替介入ではなく、国内資金の配分で円安を抑えるという発想だ。",
+          "importance": 3,
+          "facts": [
+            "片山財務相は、GPIFを含む国内機関投資家に日本の証券への投資を増やす方策を検討していると示唆した",
+            "WSJは、この発言後に円が1ドル=162.38円から161.57円へ上昇したと報じた",
+            "同報道によると、日経平均は1.4%高の68,695.73円となり、JGB利回りは全般に低下した",
+            "FTは、GPIFの資産配分変更には政府内の広い合意が必要だと伝えた"
+          ],
+          "why_it_matters": "円安対策はこれまで口先介入、実弾介入、日銀利上げの三択として見られてきた。国内年金資金の日本資産回帰を促す発想は、為替市場へ直接ぶつけるのではなく、構造的な円売り圧力を弱める政策である。",
+          "implications": "実際の配分変更がなければ一過性の思惑で終わる。ただし、GPIFや企業年金の国内債・国内株比率が上がるなら、JGBの消化力と円の需給を同時に支える可能性がある。",
+          "sources": [
+            {
+              "title": "Japan Wants GPIF to Boost Domestic Investments",
+              "publisher": "Wall Street Journal",
+              "url": "https://www.wsj.com/finance/investing/japan-wants-gpif-to-boost-domestic-investments-8599bd37"
+            },
+            {
+              "title": "Japan finance minister urges giant pension fund to invest more at home",
+              "publisher": "Financial Times",
+              "url": "https://www.ft.com/content/f06e2bec-bab6-4633-a88f-376729fdc914"
+            }
+          ],
+          "tags": ["GPIF", "円安", "日本国債"]
+        },
+        {
+          "id": "us-cpi-yields",
+          "headline": "米10年債4.568%、CPI待ち",
+          "importance": 2,
+          "facts": [
+            "WSJは、米10年債利回りが10日までの週に0.091ポイント上昇し4.568%になったと報じた",
+            "市場は来週発表の米6月CPIを待っており、総合CPIは3.8%、コアCPIは2.8%との予想が示されている",
+            "中東情勢による原油高と、FRB議長Kevin Warshの議会証言が金利材料として意識されている",
+            "WTI原油は週末に71.41ドル、ブレントは76.01ドルで終え、週間ではそれぞれ4.0%、5.4%上昇した"
+          ],
+          "why_it_matters": "米金利は雇用減速だけでは下がらず、エネルギーと関税、AI投資の物価圧力を同時に見ている。米CPIが下振れなければ、円安圧力と日本の長期金利上昇は再び結びつきやすい。",
+          "sources": [
+            {
+              "title": "Treasury Yields Rise Ahead of Inflation Data, Warsh Hearings",
+              "publisher": "Wall Street Journal",
+              "url": "https://www.wsj.com/finance/investing/jgbs-edge-higher-tracking-gains-in-u-s-treasurys-2cb325e7"
+            },
+            {
+              "title": "Oil Posts Weekly Gains on Renewed Middle East Skirmishes",
+              "publisher": "Wall Street Journal",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-falls-on-prospects-u-s-iran-tensions-may-be-contained-5a767f46"
+            }
+          ],
+          "tags": ["米金利", "CPI", "原油"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "sk-hynix-nasdaq",
+          "headline": "SK Hynix米上場、初日12.8%高",
+          "dek": "HBM不足は、半導体企業の資金調達イベントにもなった。",
+          "importance": 3,
+          "facts": [
+            "SK Hynixの米ADRは10日のWall Street初日に12.8%上昇した",
+            "APは、ADR価格が149ドルで決まり、170ドルで寄り付き、168.01ドルで引けたと報じた",
+            "同社は米国上場で265億ドルを調達し、外国企業による米国IPOとして過去最大規模になった",
+            "SK HynixはHBMの主要供給者で、Nvidiaとの関係や米Indiana州の生産拠点計画が注目されている"
+          ],
+          "why_it_matters": "AIメモリーの争点は、受注残や価格だけでなく、資本市場からどれだけ長期資金を集められるかへ広がった。HBMは増産に高度な設備と時間を要するため、資金調達力が供給力そのものになる。",
+          "implications": "日本の半導体材料、製造装置、電子部品企業にとって、SK Hynixの評価はAIサプライチェーン全体の資本コストを測る指標になる。熱狂が続けば設備投資は伸びるが、過剰投資の反動も大きくなる。",
+          "sources": [
+            {
+              "title": "SK Hynix rises nearly 13% in debut on Wall Street as demand for memory chips soars amid AI frenzy",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/73f13a85ae00e30bad0540281bbe44f3"
+            },
+            {
+              "title": "SK Hynix soars 14% after the red-hot memory maker's US debut",
+              "publisher": "Business Insider",
+              "url": "https://www.businessinsider.com/sk-hynix-stock-price-skhyv-ipo-26-billion-offering-nasdaq-2026-7"
+            }
+          ],
+          "tags": ["SK Hynix", "HBM", "AI半導体"]
+        },
+        {
+          "id": "ai-transparency-water",
+          "headline": "AIデータセンター、環境開示が焦点に",
+          "importance": 2,
+          "facts": [
+            "Axiosは、Google、Amazon、Microsoftなどに対し、AIインフラの電力・水利用開示を求める圧力が強まっていると報じた",
+            "国連のGuterres事務総長は、データセンターの炭素、水、土地利用を含む環境フットプリントの公表を企業に求めている",
+            "FTは、データセンターの電力消費が昨年448TWhに達し、4年以内に倍増する見通しだと伝えた",
+            "企業ごとの開示方法はばらつきが大きく、地域別の電源構成や水利用を比較しにくい"
+          ],
+          "why_it_matters": "AIの環境負荷は、単なるESG開示ではなく、データセンターの立地許認可、電力契約、顧客調達基準に直結する。透明性が不足すれば、自治体や大口顧客からの反発が投資計画を遅らせる。",
+          "sources": [
+            {
+              "title": "AI boom puts Big Tech's transparency to the test",
+              "publisher": "Axios",
+              "url": "https://www.axios.com/2026/07/10/ai-big-tech-transparency-electricity-water-use"
+            },
+            {
+              "title": "The billionaire dreaming of AI data centres in the desert",
+              "publisher": "Financial Times",
+              "url": "https://www.ft.com/content/2f46b60d-fef3-48bb-93ba-45bc71df8703"
+            }
+          ],
+          "tags": ["AIデータセンター", "環境開示", "電力"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "pepsico-demand",
+          "headline": "PepsiCo、北米消費の弱さを示す",
+          "importance": 2,
+          "facts": [
+            "PepsiCoの2026年4〜6月期売上高は前年同期比6.4%増の242億ドルとなり、市場予想を上回った",
+            "APは、北米でガソリン高と家計不安がコンビニなどでの衝動買いを抑えたと伝えた",
+            "北米飲料の販売量は4%減り、北米スナック販売量は横ばいだった",
+            "同社は小容量・低価格包装やセット販売を強め、海外では欧州のWorld Cup販促が支えになった"
+          ],
+          "why_it_matters": "消費者の弱さは高額耐久財だけに出るわけではない。燃料費が上がると、スナックや飲料のような低単価商品でも数量が伸びにくくなり、生活防衛が広がっていることを示す。",
+          "implications": "日本企業にとっても、値上げ耐性はカテゴリーごとに急速に割れる可能性がある。食品・日用品では、単価維持より容量、販促、流通チャネルの再設計が重要になる。",
+          "sources": [
+            {
+              "title": "PepsiCo says economic concerns weighed on customers in North American during recent quarter",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/e6c14072c80e1b58a4a284eac13871c2"
+            }
+          ],
+          "tags": ["消費", "食品", "米企業決算"]
+        },
+        {
+          "id": "astrazeneca-wainua",
+          "headline": "AstraZeneca、心疾患薬試験で失敗",
+          "importance": 1,
+          "facts": [
+            "WSJは、AstraZenecaとIonisの心疾患薬Wainuaが第3相試験の主要評価項目を達成できなかったと報じた",
+            "AstraZeneca株は一時10%下落し、時価総額で230億ポンド相当が失われた",
+            "競合薬を持つBridgeBio PharmaとAlnylam Pharmaceuticalsには相対的な追い風となった",
+            "同社は2030年に売上高800億ドルを目指す計画を掲げている"
+          ],
+          "why_it_matters": "大型製薬企業の成長計画は、既存薬の伸びだけでなく後期開発パイプラインに依存する。第3相の失敗は、研究開発費の回収可能性とM&Aによる補完圧力を同時に高める。",
+          "sources": [
+            {
+              "title": "Health Care Roundup: Market Talk",
+              "publisher": "Wall Street Journal",
+              "url": "https://www.wsj.com/business/health-care-roundup-market-talk-0e1f437b"
+            }
+          ],
+          "tags": ["医薬品", "臨床試験", "AstraZeneca"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "china-slbm-pacific",
+          "headline": "中国SLBM、太平洋島しょ国に波紋",
+          "importance": 2,
+          "facts": [
+            "APは、中国が6日に南太平洋へ向けて原子力潜水艦から弾道ミサイルを試射したと報じた",
+            "ミサイルは模擬弾頭を搭載し、南太平洋非核地帯の内側に着弾したとされる",
+            "豪州、ニュージーランド、日本、米国は懸念を表明し、米国務省は中国の核戦力拡大を批判した",
+            "専門家は、米国へ向けた海洋配備型核抑止能力の誇示だと見ている"
+          ],
+          "why_it_matters": "中国の核抑止は、地上配備ミサイルから潜水艦を含む三本柱へ移りつつある。南太平洋での試射は、台湾海峡だけでなく太平洋島しょ国の安全保障秩序にも中国の軍事活動が入り込むことを意味する。",
+          "sources": [
+            {
+              "title": "China test-launches a ballistic missile in the South Pacific and raises regional concerns",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/36963889390c8a08079165d8a63e4960"
+            }
+          ],
+          "tags": ["中国", "SLBM", "太平洋"]
+        },
+        {
+          "id": "nato-ankara-defense",
+          "headline": "NATO Ankara、欧州防衛負担を再確認",
+          "importance": 2,
+          "facts": [
+            "APは、AnkaraでのNATO首脳会議が米国の欧州防衛姿勢の変化を背景に開かれたと報じた",
+            "議題には欧州・カナダの防衛投資拡大、Ukraine支援、米軍の欧州配備見直しが含まれた",
+            "Trump大統領はNATO同盟国に対し、Iranでの米軍行動への協力や負担増を強く求めている",
+            "首脳会議はArticle 5の集団防衛を再確認しつつ、米国依存を減らす欧州側の課題を浮き彫りにした"
+          ],
+          "why_it_matters": "米国が中東とインド太平洋へ注意を割くほど、欧州は自前の防衛力を増やさざるを得ない。日本にとっても、米国の同盟資源が複数正面で消耗することは、インド太平洋の抑止計画に影響する。",
+          "sources": [
+            {
+              "title": "What to know about NATO's summit in Turkey as America steps back from its defense of Europe",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/1be2097870a203c28469246077da4fd1"
+            },
+            {
+              "title": "Nato's carnival of Trumpian caprice",
+              "publisher": "Financial Times",
+              "url": "https://www.ft.com/content/7e42d7fb-5d11-49b0-bc53-b2655f86b924"
+            }
+          ],
+          "tags": ["NATO", "欧州防衛", "Ukraine"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-ai-act-transparency",
+          "headline": "EU AI法、透明性義務が8月適用へ",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は、AI Actの透明性ルールが2026年8月に適用されると説明している",
+            "生成AIの提供者は、AI生成コンテンツが識別できるようにする義務を負う",
+            "深刻な権利・安全リスクを持つ高リスクAIには、リスク管理、ログ、文書化、人間の監督などの義務が課される",
+            "GPAIモデルの義務は2025年8月から適用され、透明性、著作権、安全・セキュリティの実務指針が公表済みである"
+          ],
+          "why_it_matters": "日本企業がEU向けにAI機能を組み込む場合、モデル開発者でなくても透明性義務の影響を受ける。生成物の表示、ログ保存、利用者への説明が、製品設計と契約条項に入ってくる。",
+          "sources": [
+            {
+              "title": "AI Act",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+            }
+          ],
+          "tags": ["EU AI法", "透明性", "生成AI"]
+        },
+        {
+          "id": "eu-ai-cyber-plan",
+          "headline": "EU、AIとサイバーの行動計画を提示",
+          "importance": 1,
+          "facts": [
+            "欧州委員会のAI Actページは、2026年7月のCybersecurity and AI行動計画が先端AIモデルのリスクに対応する枠組みだと説明している",
+            "同計画は、加盟国、企業、公的機関がエネルギー、交通、医療、金融、行政など重要部門でAIを安全に試験・導入することを支援する",
+            "欧州委員会とENISAは、サイバー目的で先端AIシステムへ安全にアクセスするための設計図を作る方針である",
+            "AI OfficeはAI Actの実装、監督、執行で中心的役割を担う"
+          ],
+          "why_it_matters": "AI規制はモデルの禁止・許可だけでなく、重要インフラで安全に検証する能力の問題へ移っている。EUで標準化が進めば、日本企業もサイバー検証、レッドチーム、第三者評価の証跡を求められやすくなる。",
+          "sources": [
+            {
+              "title": "AI Act",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+            },
+            {
+              "title": "European AI Office",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+            }
+          ],
+          "tags": ["AI規制", "サイバーセキュリティ", "EU"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "SK Hynixの米上場は何を変えるか",
+    "dek": "AIメモリー不足は、半導体工場だけでなく資本市場のテーマになった。HBMを握る企業がなぜ米国で資金を集めるのかを解く。",
+    "tags": ["HBM", "ADR", "AI半導体"],
+    "reading_minutes": 5,
+    "body_md": "## HBMは資本を食う技術になった\n\nAI半導体の主役はGPUだけではない。大規模モデルの学習や推論では、演算器にデータを送り込むメモリー帯域が性能を決める。HBMはDRAMを縦に積み、GPUの近くに置いて大量のデータを高速にやり取りする部品である。SK Hynixが米国市場で大きく評価されたのは、このボトルネックを握っているからだ。\n\nただしHBMは、需要が強いからすぐ増やせる商品ではない。先端パッケージング、EUV露光、検査、歩留まり改善、顧客ごとの認証が必要になる。工場を建て、装置を入れ、人材を集め、顧客のGPUロードマップに合わせるには数年単位の投資が要る。つまりHBM不足は技術制約であると同時に、資本制約でもある。\n\n## なぜ米国市場なのか\n\nSK HynixのADR上場は、米国投資家がAIインフラの中核部品へ直接アクセスしたいという需要に応えたものだ。米国にはNvidia、クラウド大手、AIスタートアップ、データセンター金融の中心がある。そこで資金を集めれば、同社は顧客と投資家の両方に対し、AIサプライチェーンの中核企業だと示せる。\n\nADRは外国企業の株式を米国市場で売買しやすくする仕組みである。投資家にとっては韓国市場の口座や為替手続きを意識せずに買える利点がある。企業にとっては流動性を増やし、資本コストを下げる狙いがある。AI投資が数千億ドル規模へ膨らむ中で、どの企業が安く長期資金を調達できるかは競争力そのものになる。\n\n## メモリー市況の二面性\n\nメモリーは歴史的に市況産業だ。価格が上がると各社が増産し、やがて供給過剰で価格が崩れる。AIブームでもこの力学は消えない。むしろ、調達資金が大きいほど設備投資の振れも大きくなり、将来の過剰供給リスクは増える。\n\n一方で、今回のサイクルには従来と違う点がある。HBMは汎用DRAMより顧客仕様への依存が強く、GPUメーカーやクラウド事業者の長期計画と結びつきやすい。短期のPC・スマホ需要より、データセンター建設、電力契約、AIモデルの更新計画に連動する。メモリー価格を見るだけでは、需給の粘り強さを読み違える可能性がある。\n\nこの違いは金融面にも表れる。従来のメモリー投資は、価格上昇を見て設備を増やし、価格下落で投資を止める循環が強かった。AI向けHBMでは、顧客が数年先のGPU世代とデータセンター計画を先に決めるため、供給側も長期資金を確保しなければならない。米国上場は、その長期契約と設備投資を市場に見せる舞台でもある。\n\n## 日本企業への読み替え\n\n日本企業に直接効くのは、SK Hynixの株価そのものではない。重要なのは、HBM増産が装置、材料、基板、検査、電源部品、冷却まで波及する点である。AIサーバー向けのMLCCや高性能基板、半導体製造装置は、日本企業が強い領域だ。HBMメーカーが資金を得れば、これらのサプライヤーにも受注機会が広がる。\n\n同時に、顧客側にはコスト上昇が来る。HBMが高止まりすれば、AIサーバーの価格は下がりにくくなり、クラウド利用料や企業のAI導入コストに反映される。AIは生産性を高める技術である一方、移行期には設備投資と部材価格を押し上げる。SK Hynixの上場は、この二面性が株式市場に刻まれた出来事だ。\n\n## 見るべき指標\n\n次に見るべきは、初日の株価ではない。調達資金がどの工場・装置・地域に向かうか、Nvidiaなど主要顧客との供給契約がどれだけ長期化するか、SamsungやMicronが同じペースで増産するかである。HBM価格が高いまま供給が増えれば、AI投資はさらに広がる。価格が急落すれば、今回の熱狂は過剰投資の始まりだったことになる。",
+    "sources": [
+      {
+        "title": "SK Hynix rises nearly 13% in debut on Wall Street as demand for memory chips soars amid AI frenzy",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/73f13a85ae00e30bad0540281bbe44f3"
+      },
+      {
+        "title": "Samsung Earnings, SK Hynix Listing Will Test AI-Fueled Tech Rally",
+        "publisher": "Barron's",
+        "url": "https://www.barrons.com/articles/samsung-earnings-stock-price-aa517f82"
+      },
+      {
+        "title": "SK Hynix soars 14% after the red-hot memory maker's US debut",
+        "publisher": "Business Insider",
+        "url": "https://www.businessinsider.com/sk-hynix-stock-price-skhyv-ipo-26-billion-offering-nasdaq-2026-7"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "ホルムズ問題は価格ショックから制度ショックへ移っている。航行料や航路許可の設計次第で、原油価格が落ち着いても保険料と物流費の上振れが残る可能性がある",
+      "GPIF国内回帰論は、円安対策の手段が為替市場介入から国内資本配分へ広がったことを示す。実行が伴えばJGBの需給と円相場を同時に支える",
+      "SK Hynixの米上場は、AI半導体サイクルが資本市場の調達力に依存し始めた証拠である。日本の装置・材料企業には追い風だが、過剰投資の反動も監視が必要だ",
+      "AIデータセンターの環境開示は、今後の顧客選別基準になる。電力・水・土地利用を説明できない事業者は、立地と販売の両面で不利になり得る"
+    ],
+    "watchlist": [
+      {
+        "item": "ホルムズ海峡の航行料案とIMO・Oman協議",
+        "why": "強制料でなく任意サービス料に落ち着くかが、海上保険と用船料を左右する",
+        "horizon": "随時"
+      },
+      {
+        "item": "GPIF・企業年金の国内資産配分に関する政府発言",
+        "why": "発言だけか、実際の資金フロー変更に進むかで円とJGBの持続力が変わる",
+        "horizon": "来週"
+      },
+      {
+        "item": "米6月CPI",
+        "why": "原油高とAI投資が物価に残るかを確認する。上振れれば米金利と円安圧力が戻る",
+        "horizon": "7月14日"
+      },
+      {
+        "item": "SK Hynix上場後の資金使途とHBM契約",
+        "why": "AIメモリーの供給拡大が長期契約に裏付けられているかを見る",
+        "horizon": "7月下旬"
+      },
+      {
+        "item": "EU AI法の透明性義務適用準備",
+        "why": "生成AI表示、ログ、GPAI文書化が日本企業のEU向け実装に入る",
+        "horizon": "8月2日"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "ADR",
+      "reading": "米国預託証券",
+      "definition": "外国企業の株式を米国市場で売買しやすくする証券。投資家はドル建てで取引でき、企業は米国投資家から資金を集めやすくなる。"
+    },
+    {
+      "term": "HBM",
+      "reading": "エイチビーエム",
+      "definition": "High Bandwidth Memoryの略。DRAMを積層し、GPUなどの近くで大量データを高速に渡すメモリー。AIの学習・推論性能を左右する。"
+    },
+    {
+      "term": "GPAI",
+      "reading": "汎用AI",
+      "definition": "General-Purpose AIの略。多様な用途に使える基盤モデルを指す。EU AI法では透明性、著作権、安全性に関する義務の対象になる。"
+    },
+    {
+      "term": "用船料",
+      "definition": "船舶を借りて輸送に使うための料金。海峡リスクや保険料が上がると用船料も上昇し、原油やLNGの輸入コストに波及する。"
+    }
+  ]
+}
