@@ -1,0 +1,438 @@
+{
+  "date": "2026-07-12",
+  "edition": 4,
+  "generated_at": "2026-07-12T09:01:01+09:00",
+  "masthead_note": "ホルムズは価格から通航権へ。AI投資は電力と決算を試す",
+  "market_snapshot": {
+    "as_of": "7月10日 東京・NY市場終値、7月12日朝確認",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "68,695.73円",
+        "change": "+1.4%",
+        "direction": "up",
+        "note": "前営業日終値。国内資金回帰期待とAI関連株が支え"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "161.57円",
+        "change": "-0.81円",
+        "direction": "down",
+        "note": "円高方向。年金資金の国内投資観測でドルが対円下落"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.77%",
+        "direction": "down",
+        "note": "財務相発言後の買い戻し水準"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.568%",
+        "change": "+0.091pt/週",
+        "direction": "up",
+        "note": "5月22日以来の高水準。米CPI待ち"
+      },
+      {
+        "label": "WTI原油",
+        "value": "71.41ドル",
+        "change": "+4.0%/週",
+        "direction": "up",
+        "note": "ホルムズ緊張で週間上昇"
+      },
+      {
+        "label": "ブレント原油",
+        "value": "76.01ドル",
+        "change": "+5.4%/週",
+        "direction": "up",
+        "note": "中東リスクプレミアムが残る"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,575.39",
+        "change": "+0.4%",
+        "direction": "up",
+        "note": "AI関連買いで週末に上昇"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "イランがホルムズ海峡を再び閉鎖と表明。無許可航路の船舶へ警告射撃したと主張",
+      "ref": "hormuz-closed-again"
+    },
+    {
+      "text": "IMFは2026年世界成長率を3.0%へ下方修正。エネルギー高をAI投資が一部相殺",
+      "ref": "imf-growth-downgrade"
+    },
+    {
+      "text": "米10年債は4.568%。14日の米CPIとWarsh議会証言が次の金利材料",
+      "ref": "us-cpi-warsh-yields"
+    },
+    {
+      "text": "AI電力需要でガス火力回帰が進む一方、米州政府はデータセンターの再エネ義務を模索",
+      "ref": "ai-power-clean-rules"
+    },
+    {
+      "text": "Microsoft、Amazon、Googleの排出量は119百万トン。AI建設ブームがネットゼロ目標を圧迫",
+      "ref": "big-tech-emissions"
+    },
+    {
+      "text": "S&P500決算は22%増益予想。銀行、TSMC、ASMLがAI相場の持続力を測る",
+      "ref": "sp500-earnings-bar"
+    },
+    {
+      "text": "EU AI法は8月の透明性義務を前に実装段階。生成AI表示とログ設計が焦点",
+      "ref": "eu-ai-act-marking"
+    }
+  ],
+  "top_story": {
+    "id": "hormuz-closed-again",
+    "headline": "イラン、ホルムズ再閉鎖を表明",
+    "dek": "無許可航路を使った船舶に警告射撃したとして、イランは海峡の管理権を改めて主張した。危機の焦点は、原油価格だけでなく国際海峡を誰がどう管理するかへ移った。",
+    "importance": 3,
+    "facts": [
+      "APは12日、イランがホルムズ海峡を再び閉鎖したと表明し、無許可航路を使った船舶に警告射撃したと報じた",
+      "イランとオマーンの外相は11日、ホルムズ海峡で船舶の安全通航を確保する仕組みを協議した",
+      "米国はイランに対し、海峡が開かれ船舶が攻撃されないと公に表明するよう求めている",
+      "Guardianは、欧州とオマーンが強制通行料ではなく任意の航行支援サービス料案を検討していると報じた",
+      "APによると、戦争前には世界で取引される石油・天然ガスの約5分の1が同海峡を通過していた"
+    ],
+    "why_it_matters": "ホルムズ問題は、単なる軍事緊張や原油先物の材料ではなくなった。イランが航路承認や通航料の権限を既成事実化すれば、通航量が戻っても保険料、用船料、決済条件に制度リスクが残る。日本は中東エネルギーへの依存が高く、海峡の法的安定性が輸入物価と企業の調達計画に直結する。",
+    "implications": "市場は一時的な停戦報道だけではリスクプレミアムを消しにくい。商社、電力、海運、化学は、原油価格の単価だけでなく、航路指定、船舶保険、LNGの代替調達、在庫日数を同時に見直す必要がある。",
+    "sources": [
+      {
+        "title": "Iran says Strait of Hormuz closed after warning shot against vessel",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/iran-united-states-trump-khamenei-funeral-533b52cf249314ba1d9b5f9a30b1ca43"
+      },
+      {
+        "title": "Europe considering proposals to allow navigation fees in strait of Hormuz",
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/jul/11/europe-considers-proposals-navigational-fees-strait-of-hormuz-iran-us"
+      }
+    ],
+    "tags": ["ホルムズ海峡", "原油", "海洋法"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "imf-growth-downgrade",
+          "headline": "IMF、世界成長率3.0%へ下方修正",
+          "dek": "エネルギーショックは想定より吸収されたが、インフレ沈静化は止まった。",
+          "importance": 3,
+          "facts": [
+            "IMFは2026年の世界成長率見通しを3.0%とし、4月時点の3.1%から下方修正した",
+            "2025年の世界成長率は3.5%で、2027年は3.4%へ回復すると見込む",
+            "IMFは、イラン戦争に伴うエネルギーショックが下押し要因だが、AIなど技術投資が一部相殺していると説明した",
+            "同見通しは、ホルムズ海峡が7月下旬に再開し、来年3月までに通常の通商へ戻ることを前提にしている"
+          ],
+          "why_it_matters": "世界経済は、地政学ショックとAI投資の二つの力に同時に引っ張られている。エネルギー輸入国には交易条件の悪化、AI投資国には設備投資の押し上げが出るため、国ごとの差が広がりやすい。",
+          "implications": "日本には、輸入インフレとAI関連輸出・設備投資の追い風が同時に来る。原油高が長引けば実質所得を削る一方、半導体装置・電力インフラ・素材の需要は底堅くなり得る。",
+          "sources": [
+            {
+              "title": "IMF warns Iran war energy shock is cooling global growth as oil prices jump",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/imf-world-economy-war-ai-5df2a8eb775b94bb6de1067fd694f6f0"
+            }
+          ],
+          "tags": ["IMF", "世界経済", "原油"]
+        },
+        {
+          "id": "us-cpi-warsh-yields",
+          "headline": "米10年債4.568%、CPI待ち",
+          "importance": 2,
+          "facts": [
+            "WSJは、米10年債利回りが10日までの週に0.091ポイント上昇し4.568%になったと報じた",
+            "米2年債利回りは同じ週に0.078ポイント上昇し4.208%となった",
+            "WSJ調査では、14日発表の米6月CPIは総合が前年比3.8%、コアが2.8%へ鈍化すると見込まれている",
+            "Warsh FRB議長は15日に下院、16日に上院で証言する予定である"
+          ],
+          "why_it_matters": "米金利は、雇用減速だけでは下がらない局面にある。原油、関税、AI関連のメモリー・電力価格が物価に残れば、利下げではなく利上げ確率が再び意識され、円安と日本の長期金利に波及する。",
+          "sources": [
+            {
+              "title": "Treasury Yields Rise Ahead of Inflation Data, Warsh Hearings",
+              "publisher": "Wall Street Journal",
+              "url": "https://www.wsj.com/finance/investing/jgbs-edge-higher-tracking-gains-in-u-s-treasurys-2cb325e7"
+            }
+          ],
+          "tags": ["米金利", "CPI", "FRB"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "ai-power-clean-rules",
+          "headline": "AI電力需要、ガス火力回帰を誘発",
+          "dek": "データセンターの速度要求に再エネ建設が追いつかず、州政府は義務化と送電制度の再設計に動く。",
+          "importance": 2,
+          "facts": [
+            "APは、AIの電力需要増により米国で天然ガス火力発電所の建設ブームが起きていると報じた",
+            "ニューヨーク州の法案は、大型データセンターに2030年から再エネ基準を課し、2040年に90%以上を再エネにする案である",
+            "ミシガン、オレゴン、ミネソタは過去18カ月に、データセンター電力と既存の脱炭素目標を整合させる法律を成立させた",
+            "Googleはネバダ、ミネソタなどで自社調達のクリーン電源を送電網へ接続する仕組みを進めている"
+          ],
+          "why_it_matters": "AIインフラの制約はGPUから電力接続へ広がった。データセンターが自前電源を持つか、送電網費用を誰が負担するかは、クラウド価格、地域電力料金、企業の脱炭素目標を同時に左右する。",
+          "implications": "日本でも、北海道・九州などのデータセンター誘致は電力制度の問題になる。単に土地を用意するだけではなく、再エネ接続、調整力、系統増強費の負担ルールを先に設計する必要がある。",
+          "sources": [
+            {
+              "title": "Renewable energy supporters want clean energy to power data centers",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/data-centers-ai-artificial-intelligence-renewable-energy-7995717f506914fc181a07d32d1867a5"
+            }
+          ],
+          "tags": ["AIデータセンター", "電力", "再エネ"]
+        },
+        {
+          "id": "big-tech-emissions",
+          "headline": "Big Tech排出量、仏国の3分の1に",
+          "importance": 2,
+          "facts": [
+            "Guardianは、Microsoft、Amazon、Googleの合計排出量が2026年3月期に119百万トンCO2相当になったと報じた",
+            "3社の合計排出量は前年度の約101百万トンから約18%増え、フランスの年間排出量の約3分の1に相当する",
+            "Microsoftの排出量は25%増、Googleは18%増、Amazonは16%増で、各社はデータセンター建設やサプライチェーンを主因に挙げた",
+            "同記事は、世界の大手テック企業が2026年にAIデータセンターへ7650億ドルを投じる見通しを紹介した"
+          ],
+          "why_it_matters": "AIの環境負荷は、電力使用量だけでなく建設資材、サーバー、冷却設備、炭素クレジットの需給まで含む。クラウド利用企業は、自社の排出量を外部委託で見えにくくしているだけだと批判されやすい。",
+          "sources": [
+            {
+              "title": "Datacentres drive up big tech's carbon emissions to a third of those of France",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/jul/11/microsoft-amazon-google-datacentre-carbon-emissions-france"
+            }
+          ],
+          "tags": ["AI", "環境開示", "クラウド"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "sp500-earnings-bar",
+          "headline": "S&P500決算、22%増益の高い壁",
+          "dek": "来週から米4〜6月期決算が本格化する。AI投資を利益で説明できるかが焦点になる。",
+          "importance": 2,
+          "facts": [
+            "MarketWatchは、S&P500企業の4〜6月期EPSが前年同期比22%増と見込まれていると報じた",
+            "同記事は、決算前に利益予想が上方修正された点を異例だと指摘した",
+            "IBDは、来週の注目決算にJPMorgan、Goldman Sachs、Bank of America、TSMC、ASML、GEなどを挙げた",
+            "14日の米CPI、Warsh FRB議長の議会証言、米小売売上高も同じ週の市場材料である"
+          ],
+          "why_it_matters": "株価はAI設備投資の継続を織り込んできた。ここからは、投資額そのものではなく、銀行の信用損失、半導体の受注、ソフトウェア価格、消費の底堅さが同時に問われる。",
+          "implications": "日本株では、AI関連の装置・素材だけでなく、米金利と円相場に敏感な輸出株の選別が強まりやすい。好決算でも設備投資の回収時期が見えなければ、バリュエーション調整は起こり得る。",
+          "sources": [
+            {
+              "title": "The bar is high for S&P 500 earnings",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/the-bar-is-high-for-s-p-500-earnings-but-these-as-yet-unrewarded-sectors-are-where-real-surprises-could-be-hiding-b79874d9"
+            },
+            {
+              "title": "Stock Market Week Ahead: Watching Big Banks, Warsh, TSMC For Signals",
+              "publisher": "Investor's Business Daily",
+              "url": "https://www.investors.com/research/investing-action-plan/stock-market-big-banks-ge-tsmc-asml-sp-500-nasdaq/"
+            }
+          ],
+          "tags": ["米決算", "AI投資", "S&P500"]
+        },
+        {
+          "id": "meta-canada-datacenter",
+          "headline": "Meta、カナダAI拠点に91億ドル",
+          "importance": 2,
+          "facts": [
+            "APは、Metaがカナダ初のAIデータセンターに91億ドル超を投資すると報じた",
+            "建設地はアルバータ州Sturgeon Countyで、同社にとって米国外最大のデータセンターになる",
+            "施設はPembina Pipelineなどが開発する932MWの天然ガス火力発電所から電力供給を受ける計画である",
+            "Metaは周辺水源から取水しない閉ループ冷却を使い、道路や水道など地域インフラへ4200万ドルを投じるとしている"
+          ],
+          "why_it_matters": "大型テックは、電力網の空き容量を待つのではなく、自前の発電・冷却・地域インフラを束ねてAI拠点を作り始めた。これはクラウド事業者が電力開発者にもなることを意味する。",
+          "implications": "日本で同種の投資を誘致する場合、企業の投資額だけでなく、発電燃料、系統接続、地元インフラ費、排出量の帰属まで契約に織り込む必要がある。",
+          "sources": [
+            {
+              "title": "Meta plans billions for first AI data center in Canada, largest outside US",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/meta-ai-data-center-canada-922a7d15ab730ec53b934269fc00a0fa"
+            }
+          ],
+          "tags": ["Meta", "AIデータセンター", "電力"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "china-slbm-regional-response",
+          "headline": "中国SLBM、日豪NZが懸念表明",
+          "importance": 2,
+          "facts": [
+            "中国海軍は6日、南太平洋で原子力潜水艦から長距離弾道ミサイルを試射した",
+            "APによると、ミサイルは模擬弾頭を搭載し、南太平洋非核地帯内に落下した",
+            "豪州、日本、ニュージーランドは懸念を表明し、日本政府は中国の軍事活動の透明性不足を問題視した",
+            "APは専門家の見方として、中国の核抑止が陸上ミサイル中心から海洋配備へ広がっていると伝えた"
+          ],
+          "why_it_matters": "中国が海洋配備型の核抑止を誇示するほど、米中競争は台湾海峡だけでなく南太平洋の島しょ国外交と海域管理へ広がる。日本にとっては、南西諸島防衛と太平洋シーレーンの一体管理が重要になる。",
+          "sources": [
+            {
+              "title": "China test-launches a ballistic missile in the South Pacific and raises regional concerns",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/china-missile-test-submarine-36963889390c8a08079165d8a63e4960"
+            }
+          ],
+          "tags": ["中国", "SLBM", "太平洋"]
+        },
+        {
+          "id": "gulf-us-credibility",
+          "headline": "ホルムズ緊張、湾岸の対米信頼を揺らす",
+          "importance": 2,
+          "facts": [
+            "WSJは、イランがホルムズ海峡の支配を地域覇権の中核とみなし、制裁緩和より地政学的利得を重視していると報じた",
+            "同記事は、湾岸諸国が米国の抑止に不安を抱き、実利的にイランとの接触を深めていると伝えた",
+            "Guardianは、IMO理事会でイランを非難する動議が出たが、中国とロシアは一方的だとして支持しなかったと報じた",
+            "米中央軍は5月以降、800隻超の商船と3億8000万バレルの原油通過を支援したと主張している"
+          ],
+          "why_it_matters": "海峡秩序の弱体化は、米国の軍事力だけで解ける問題ではなくなっている。湾岸諸国が米国、イラン、中国、ロシアの間で均衡を取るほど、エネルギー輸送のルールは多国間交渉に依存する。",
+          "sources": [
+            {
+              "title": "Aspiring to Regional Domination, Iran Is Ready to Escalate Over Hormuz",
+              "publisher": "Wall Street Journal",
+              "url": "https://www.wsj.com/world/middle-east/https-www-wsj-com-world-middle-east-iran-deal-strait-of-hormuz-b027c30f-580ee99f"
+            },
+            {
+              "title": "Europe considering proposals to allow navigation fees in strait of Hormuz",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/11/europe-considers-proposals-navigational-fees-strait-of-hormuz-iran-us"
+            }
+          ],
+          "tags": ["湾岸", "米国", "イラン"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-ai-act-marking",
+          "headline": "EU AI法、生成AI表示が実装段階へ",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は、AI Actの透明性ルールが2026年8月に適用されると説明している",
+            "生成AIの提供者は、AI生成コンテンツが識別できるようにする義務を負う",
+            "欧州委員会は6月10日、AI生成コンテンツのマーキングとラベリングに関するCode of Practiceを公表した",
+            "AI ActのGPAIモデル義務は2025年8月から適用され、透明性、著作権、安全・セキュリティの実務指針が整備されている"
+          ],
+          "why_it_matters": "EU向けのAI機能は、モデル提供者だけでなく、生成AIを組み込む製品・メディア・業務システムにも表示と証跡の設計を求める。後付けの注記ではなく、生成物の保存、ログ、利用者通知をプロダクト仕様に入れる段階である。",
+          "sources": [
+            {
+              "title": "AI Act",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+            }
+          ],
+          "tags": ["EU AI法", "生成AI", "透明性"]
+        },
+        {
+          "id": "data-center-energy-policy",
+          "headline": "米州政府、データセンター電力規制へ",
+          "importance": 1,
+          "facts": [
+            "APは、ニューヨーク、カリフォルニア、イリノイ、ニュージャージー、ペンシルベニア、バージニアなどでデータセンターの電力法案が出ていると報じた",
+            "ミシガン州は大型データセンターが税制優遇を受ける条件として、6年以内に90%のクリーンエネルギー要件を満たすことを求めた",
+            "コロラド州規制当局は、大口需要家が自前のクリーン電源を建設し送電網へ接続するプログラムを電力会社に作らせた",
+            "ジョージア州でも、企業がクリーン電源を作り送電網へ接続できる合意が州規制当局に承認された"
+          ],
+          "why_it_matters": "データセンター規制は、環境規制と産業誘致の境界にある。大口需要家に電源調達を認める制度は、独占電力会社の収益、家庭料金、再エネ開発の優先順位を変える。",
+          "sources": [
+            {
+              "title": "Renewable energy supporters want clean energy to power data centers",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/data-centers-ai-artificial-intelligence-renewable-energy-7995717f506914fc181a07d32d1867a5"
+            }
+          ],
+          "tags": ["データセンター規制", "電力政策", "再エネ"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "ホルムズ海峡の通航権はなぜ制度リスクになったか",
+    "dek": "海峡が開いているか閉じているかだけでは足りない。誰が航路を決め、費用を集め、安全を保証するのかが、エネルギー価格の次の変数になる。",
+    "tags": ["ホルムズ海峡", "海洋法", "エネルギー安全保障"],
+    "reading_minutes": 5,
+    "body_md": "## 価格ショックから制度ショックへ\n\nホルムズ海峡のニュースは、これまで原油価格の上下として読まれがちだった。閉鎖なら原油高、交渉再開なら原油安という反応である。しかし今回の焦点は、海峡を物理的に通れるかだけではない。イランが「無許可航路」という言葉を使い、航路承認や通航料の権限を主張している点が重要である。\n\n通航の自由が曖昧になれば、船は通れてもリスクは消えない。海運会社は保険料を上げ、用船者は安全な船を取り合い、荷主は在庫を厚くする。原油先物が落ち着いても、物流費と契約条件にはリスクプレミアムが残る。制度ショックとは、価格表に直接出ないルールの不確実性が、取引コストとして残る状態である。\n\n## 国際海峡の基本線\n\n国連海洋法条約は、国際航行に使われる海峡について通過通航権を定めている。条約上、該当する海峡では全ての船舶と航空機が、継続的かつ迅速に通過する目的で通航でき、その通航は妨げられてはならない。沿岸国は安全のため航路や分離通航方式を指定できるが、それは国際的な規則に沿い、実質的に通過通航を妨げるものであってはならない。\n\nここに今回の争点がある。安全のために航路を整理することと、沿岸国が通航の許可権を持つことは違う。任意の航行支援サービス料と、強制的な通行料も違う。オマーンや欧州が探る妥協案は、マラッカ海峡のように利用国と沿岸国が安全・環境対策へ任意拠出する仕組みに近い。イランが求める支配権がそこに収まるかはまだ不透明だ。\n\n## なぜ日本に効くのか\n\n日本にとってホルムズは遠い海峡ではない。中東からの原油・LNG輸入、石化原料、海運保険、電力料金に直結する。重要なのは、危機が起きた瞬間のスポット価格だけではなく、契約更改時の前提が変わることだ。安全な航路が限定されれば、船腹の回転は落ちる。保険が高くなれば、同じ原油でも着荷価格は上がる。決済や通航手続きが政治化すれば、調達担当者は価格より確実性を優先する。\n\n企業の実務では、輸入価格、為替、在庫日数、代替調達、船舶保険を別々に見ていては遅い。海峡の制度リスクはこれらを同時に動かす。電力会社や商社だけでなく、ナフサを使う化学、燃料費に敏感な物流、航空、素材にも波及する。さらに金融面では、輸入企業のヘッジ期間や在庫評価にも影響する。調達の不確実性が長く残れば、企業は安い契約よりも確実な契約を選び、コスト構造は恒常的に重くなる。\n\n## 任意拠出は解決策か\n\n任意の航行支援料は、強制通行料よりは国際法との摩擦が小さい。航路標識、監視、救難、環境対策に利用国が拠出する形なら、海峡の安全を共同財として維持する理屈が立つ。日本もマラッカ海峡でこうした協力に関わってきた。\n\nただし、任意と強制の境界は運用で曖昧になる。支払わない船が遅らされる、特定国船だけが検査される、航路承認が政治交渉に使われるなら、それは通航料とほぼ同じ効果を持つ。市場が見るべきは、制度の名前ではなく、船会社が自由に航路を選べるか、費用が透明か、IMOなど国際機関の関与があるかである。\n\n## 次に見る指標\n\n次の焦点は、ホルムズを通った船の数だけではない。イランとオマーンの協議で、航路指定が国際的な枠組みに乗るか。IMOで中国とロシアを含む合意が作れるか。米国が護衛や通航支援をどこまで続けるか。保険料と用船料が原油価格の下落に遅れて下がるか。これらが、海峡が本当に正常化したかを示す。\n\nホルムズ危機は、エネルギー安全保障が燃料の量だけでなく、ルールの信頼性に依存することを示した。海峡の制度が揺らぐと、グローバル化の前提である安い輸送と予測可能な契約が同時に揺らぐ。",
+    "sources": [
+      {
+        "title": "Iran says Strait of Hormuz closed after warning shot against vessel",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/iran-united-states-trump-khamenei-funeral-533b52cf249314ba1d9b5f9a30b1ca43"
+      },
+      {
+        "title": "Europe considering proposals to allow navigation fees in strait of Hormuz",
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/jul/11/europe-considers-proposals-navigational-fees-strait-of-hormuz-iran-us"
+      },
+      {
+        "title": "United Nations Convention on the Law of the Sea - Part III",
+        "publisher": "United Nations",
+        "url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/part3.htm"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "ホルムズ問題は、原油価格よりも航路承認、保険料、通航支援費の制度設計が重要になった。価格が落ち着いても物流コストの上振れが残る可能性がある",
+      "AI投資は、半導体だけでなく電力制度と排出量の制約にぶつかっている。クラウド利用企業も、価格と環境負荷の両方を調達基準に入れる必要がある",
+      "米決算シーズンは、AI投資の継続力を利益で確認する局面になる。22%増益予想を満たせなければ、金利高の中でハイテク株の選別が強まる",
+      "IMF見通しは、エネルギー輸入国とAI投資国の分岐を示している。日本は輸入インフレの痛みとAIサプライチェーン需要の追い風を同時に受ける"
+    ],
+    "watchlist": [
+      {
+        "item": "ホルムズ海峡の船舶通航数と保険料",
+        "why": "再閉鎖表明が実際の物流費と原油・LNG調達にどこまで残るかを見る",
+        "horizon": "随時"
+      },
+      {
+        "item": "米6月CPIとWarsh議会証言",
+        "why": "原油、AI関連価格、関税が物価に残れば米金利と円安圧力が戻る",
+        "horizon": "7月14〜16日"
+      },
+      {
+        "item": "米大型銀行・TSMC・ASML決算",
+        "why": "信用、半導体受注、AI設備投資の採算を同時に確認する",
+        "horizon": "今週"
+      },
+      {
+        "item": "AIデータセンターの電力調達規制",
+        "why": "州政府の再エネ義務と自前電源接続がクラウド価格と立地競争を左右する",
+        "horizon": "7月下旬"
+      },
+      {
+        "item": "EU AI法の透明性義務",
+        "why": "生成AI表示、マーキング、ログ保存を製品仕様に落とし込めるかが焦点",
+        "horizon": "8月2日"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "通過通航権",
+      "definition": "国際航行に使われる海峡を、船舶や航空機が継続的かつ迅速に通過する権利。沿岸国は安全措置を取れるが、実質的に通航を妨げてはならない。"
+    },
+    {
+      "term": "用船料",
+      "definition": "船舶を借りて輸送に使うための料金。地政学リスクや保険料が上がると用船料も上がり、原油やLNGの着荷価格に波及する。"
+    },
+    {
+      "term": "クリーンエネルギー要件",
+      "definition": "データセンターなど大口需要家に、一定割合以上の電力を再エネや無排出電源で賄うことを求める制度。電力料金と投資誘致の条件になる。"
+    },
+    {
+      "term": "マーキング",
+      "definition": "AI生成コンテンツであることを人間または機械が識別できるように付与する表示や信号。EU AI法の透明性義務で重要になる。"
+    }
+  ]
+}
