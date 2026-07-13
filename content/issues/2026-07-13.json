@@ -1,0 +1,460 @@
+{
+  "date": "2026-07-13",
+  "edition": 5,
+  "generated_at": "2026-07-13T20:41:27+09:00",
+  "masthead_note": "ホルムズは通航急減へ。AI投資は電力網と決算で試される",
+  "market_snapshot": {
+    "as_of": "7月13日 東京市場終値・欧米時間午前確認",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "67,242.73円",
+        "change": "-1.9%",
+        "direction": "down",
+        "note": "米イラン再衝突と韓国半導体株安が重荷"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "162.01円",
+        "change": "+0.29円",
+        "direction": "up",
+        "note": "ドル高・円安方向。原油高で輸入インフレ懸念"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.740%",
+        "change": "-0.02pt",
+        "direction": "down",
+        "note": "GPIF国内回帰観測で買いが続く"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.570%",
+        "change": "+0.002pt",
+        "direction": "up",
+        "note": "中東再拡大とCPI待ちで高止まり"
+      },
+      {
+        "label": "WTI原油",
+        "value": "72.92ドル",
+        "change": "+2.1%",
+        "direction": "up",
+        "note": "ホルムズ攻撃後に上昇"
+      },
+      {
+        "label": "ブレント原油",
+        "value": "77.72ドル",
+        "change": "+2.3%",
+        "direction": "up",
+        "note": "一時5%近く上昇"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米国とイランがホルムズ海峡の支配を互いに主張。通航数は急減し原油が上昇",
+      "ref": "hormuz-us-iran-escalation"
+    },
+    {
+      "text": "日経平均は1.9%安。韓国半導体株急落と中東リスクがAI相場を冷やした",
+      "ref": "asia-market-ai-shock"
+    },
+    {
+      "text": "10年JGBは2.740%へ低下。GPIF国内投資観測は円と国債の下支え材料",
+      "ref": "gpif-jgb-repatriation"
+    },
+    {
+      "text": "TSMCの6月売上高は4426.8億台湾ドル。AI需要で過去最高月商を更新",
+      "ref": "tsmc-record-june"
+    },
+    {
+      "text": "FERCはAIデータセンターの系統接続迅速化を指示。費用負担が政策論点に",
+      "ref": "ferc-ai-grid-order"
+    },
+    {
+      "text": "米大手銀行、ASML、TSMCの決算が今週集中。AI投資と信用コストを測る週",
+      "ref": "earnings-cpi-week"
+    },
+    {
+      "text": "データセンター反対運動は49州へ拡大。電力料金・水利用が産業誘致の制約に",
+      "ref": "data-center-opposition"
+    }
+  ],
+  "top_story": {
+    "id": "hormuz-us-iran-escalation",
+    "headline": "ホルムズ通航急減、米イラン再衝突",
+    "dek": "イランの商船攻撃をきっかけに米国が大規模攻撃を実施し、イランは湾岸の米軍関連施設へ反撃した。焦点は航行料案から、実際に船が通れるかへ戻った。",
+    "importance": 3,
+    "facts": [
+      "APは13日、米国とイランがホルムズ海峡の支配をそれぞれ主張したと報じた",
+      "米中央軍は、イラン国内の防空、レーダー、ミサイル・ドローン、小型艇関連施設など数十カ所を攻撃したと説明した",
+      "イランはバーレーン、クウェート、ヨルダンなど米軍が駐留・利用する地域への攻撃を実施したとされる",
+      "Guardianは、Kplerデータとして12日のホルムズ通航が14隻に落ち、少なくとも1カ月で最低水準だったと伝えた",
+      "APによると、ブレント原油は一時5%近く上昇し、欧州時間朝には2.3%高の77.72ドル、WTIは2.1%高の72.92ドルだった"
+    ],
+    "why_it_matters": "前号ではホルムズの争点を、航行料や航路承認という制度問題として扱った。今日の差分は、その制度争いが軍事行動と実通航の減少に戻った点である。海峡を通る船の数が減れば、原油価格だけでなく、保険料、用船料、LNG到着時期、企業の在庫政策が同時に揺れる。",
+    "implications": "日本企業は、原油価格の水準だけでなく、船舶がトランスポンダーを切って動くような不透明な物流状態をリスクとして見る必要がある。商社、電力、化学、航空は、スポット価格のヘッジと並行して、航路・保険・在庫日数のシナリオを更新する局面である。",
+    "sources": [
+      {
+        "title": "US and Iran vie for control of Strait of Hormuz in latest attacks",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/iran-us-hormuz-strait-war-july-13-2026-6c2c44cfdd089d6393d18fa5930ed620"
+      },
+      {
+        "title": "Iran launches attacks on American military facilities in Bahrain and Kuwait after fresh US strikes",
+        "publisher": "The Guardian",
+        "url": "https://www.theguardian.com/world/live/2026/jul/13/us-iran-strikes-middle-east-strait-of-hormuz-military-latest-news-updates"
+      },
+      {
+        "title": "Oil prices jump more than 2% and world shares are mixed",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/stocks-markets-iran-trump-ai-2d6744b09c68b5473d0bc8584b89e60e"
+      }
+    ],
+    "tags": ["ホルムズ海峡", "原油", "米イラン"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "gpif-jgb-repatriation",
+          "headline": "GPIF観測、10年JGBを2.740%へ",
+          "dek": "中東リスクで米金利は高止まりする一方、日本国債には国内資金回帰への期待が残った。",
+          "importance": 3,
+          "facts": [
+            "WSJは13日、10年JGB利回りが2ベーシスポイント低下して2.740%になったと報じた",
+            "5年JGB利回りは1ベーシスポイント低下して1.970%、20年JGB利回りは4ベーシスポイント低下して3.710%だった",
+            "片山財務相は10日、GPIFを含む年金資金に日本の金融資産への投資を促す施策を検討すると述べた",
+            "WSJによると、JPMorganのストラテジストはGPIFが外貨建て資産の一部を円建て資産へ戻す可能性に言及した"
+          ],
+          "why_it_matters": "日本の長期金利は、米金利と原油だけでなく、国内の買い手が戻るかに左右される局面にある。GPIFや企業年金の国内債・国内株比率が実際に動けば、円安対策と国債需給対策が同じ政策線上に並ぶ。",
+          "implications": "ただし、現時点では発言と観測が中心で、資産配分の変更は確認されていない。円とJGBの買い戻しが続くかは、政府内の合意、GPIFの基本ポートフォリオ、企業年金の実際のフローで判断する必要がある。",
+          "sources": [
+            {
+              "title": "U.S. Treasury Yields Edge Higher but Off Day's Peaks",
+              "publisher": "Wall Street Journal",
+              "url": "https://www.wsj.com/finance/jgbs-rise-on-prospects-of-increased-inflows-into-domestic-securities-ca00140a"
+            },
+            {
+              "title": "Japan pension fund strategy may redraw global bond and currency markets",
+              "publisher": "Economic Times",
+              "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-japan-pension-fund-strategy-may-redraw-global-bond-and-currency-markets/articleshow/132359410.cms"
+            }
+          ],
+          "tags": ["GPIF", "日本国債", "円"]
+        },
+        {
+          "id": "earnings-cpi-week",
+          "headline": "米CPIと銀行決算、金利の次の関門",
+          "importance": 2,
+          "facts": [
+            "Barron'sは、14日に米CPI、15日にPPI、17日に小売売上高が発表されると整理した",
+            "同記事は、Bank of America、Citigroup、JPMorgan Chase、Goldman Sachs、Wells Fargoが14日に決算を発表するとした",
+            "APは、原油高がエネルギー費とインフレ見通しを曇らせていると伝えた",
+            "WSJは、米10年債利回りが13日に4.570%へ小幅上昇したと報じた"
+          ],
+          "why_it_matters": "中東再拡大は、米CPIの直前にエネルギー価格を押し上げた。インフレ指標が下振れなければ、FRBの利上げ観測、ドル高、円安、日本の長期金利に再び同じ方向の圧力がかかる。",
+          "sources": [
+            {
+              "title": "Inflation, Netflix, Wells Fargo, Bank of America, ASML, J&J, and More to Watch This Week",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/articles/inflation-bank-of-america-wells-fargo-goldman-asml-j-j-and-more-to-watch-this-week-71bddc40"
+            },
+            {
+              "title": "U.S. Treasury Yields Edge Higher but Off Day's Peaks",
+              "publisher": "Wall Street Journal",
+              "url": "https://www.wsj.com/finance/jgbs-rise-on-prospects-of-increased-inflows-into-domestic-securities-ca00140a"
+            }
+          ],
+          "tags": ["米CPI", "米金利", "銀行決算"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "tsmc-record-june",
+          "headline": "TSMC月商、AI需要で過去最高",
+          "dek": "6月売上は前年比67%増。AI半導体の需要は、地政学リスクと株価調整の中でも実需を示した。",
+          "importance": 3,
+          "facts": [
+            "MarketWatchは、TSMCの6月純売上高が4426.8億台湾ドルとなり、前年比67%増だったと報じた",
+            "4〜6月期売上高は1.27兆台湾ドル、約400億ドルとなった",
+            "同社は16日に4〜6月期決算を発表する予定である",
+            "MarketWatchは、Goldman SachsやJPMorganが先端ノードの需給逼迫を理由にTSMCの利益見通しを引き上げたと伝えた"
+          ],
+          "why_it_matters": "AI相場は、株価の熱狂と実需を分けて見る段階に入った。TSMCの月次売上は、Nvidia、Apple、AMDなどの先端チップ需要がまだ強いことを示す一方、供給制約が価格上昇として顧客に返る可能性もある。",
+          "implications": "日本の製造装置、材料、精密部品には受注機会が続く可能性が高い。ただし、AI株全体が地政学リスクで売られる局面では、売上の強さとバリュエーション調整が同時に起こり得る。",
+          "sources": [
+            {
+              "title": "TSMC just reported a record month for revenue ahead of critical earnings report on Thursday",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/tsmc-just-reported-a-record-month-for-revenue-ahead-of-critical-earnings-report-on-thursday-508195fd"
+            }
+          ],
+          "tags": ["TSMC", "AI半導体", "先端ノード"]
+        },
+        {
+          "id": "ferc-ai-grid-order",
+          "headline": "FERC、AI電力接続の迅速化を指示",
+          "importance": 2,
+          "facts": [
+            "APは、FERCが6地域の送電網運用者に対し、AIデータセンターなど大口需要家の系統接続を秩序立って迅速化するよう指示したと報じた",
+            "同命令では、データセンター側が接続に必要な系統増強費を全額負担する",
+            "対象地域の系統運用者は、30日以内に十分な電力確保の方針、60日以内に大口需要家の統合計画を示す必要がある",
+            "EPRIのデータでは、データセンターは現在米電力需要の約5%を占め、2035年までに3倍になる可能性がある"
+          ],
+          "why_it_matters": "AIの制約はGPU不足から電力接続へ移った。接続を速めるだけでは、発電所建設、送電線増強、家庭向け料金への転嫁、再エネ義務との整合を解けない。",
+          "implications": "日本のデータセンター誘致でも、土地や税制だけでは足りない。大口需要家が増強費をどう負担し、ピーク時に負荷を落とせるかを契約に入れなければ、地域電力料金への反発が強まる可能性がある。",
+          "sources": [
+            {
+              "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/power-electricity-ai-plants-data-centers-grid-506e3d206871111f15c3c62fc5368be5"
+            }
+          ],
+          "tags": ["AIデータセンター", "FERC", "電力網"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "asia-market-ai-shock",
+          "headline": "韓国半導体株急落、AI相場に冷水",
+          "importance": 2,
+          "facts": [
+            "APは13日、東京の日経平均が1.9%安の67,242.73円、韓国KOSPIが9%安の6,806.93になったと報じた",
+            "SK Hynixはソウル市場で15.4%下落し、Samsung Electronicsは10.7%下落した",
+            "SK Hynixは前営業日の米国上場初日に13%近く上昇していた",
+            "APは、AI関連株の高いバリュエーションと供給過剰懸念が市場の重荷になったと伝えた"
+          ],
+          "why_it_matters": "AI半導体の実需が強くても、株価は地政学リスクと過剰投資懸念に弱い。メモリーやファウンドリーの設備投資は数年単位で動くため、短期の株価調整が投資計画をすぐ止めるわけではないが、資本コストは上がる。",
+          "sources": [
+            {
+              "title": "Oil prices jump more than 2% and world shares are mixed",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/stocks-markets-iran-trump-ai-2d6744b09c68b5473d0bc8584b89e60e"
+            }
+          ],
+          "tags": ["韓国株", "SK Hynix", "AI相場"]
+        },
+        {
+          "id": "asml-tsmc-earnings",
+          "headline": "ASML・TSMC決算、AI投資を検証",
+          "importance": 2,
+          "facts": [
+            "MarketWatchは、ASMLが今週の欧州ハイテク決算の先陣を切ると報じた",
+            "アナリスト予想では、ASMLの4〜6月期売上高は前年同期比15%増の88.1億ユーロ、EPSは6.80ユーロとされる",
+            "TSMCは16日に4〜6月期決算を発表する予定で、6月売上高は過去最高だった",
+            "Barron'sは、今週はASML、TSMC、Netflix、GE Aerospaceなどの決算も注目材料だと整理した"
+          ],
+          "why_it_matters": "AI設備投資は、クラウド企業の支出計画だけでなく、EUV露光装置、先端ノード、先端パッケージングの受注に現れる。ASMLとTSMCのコメントは、AIサイクルが2027年以降も続くかを測る一次材料になる。",
+          "sources": [
+            {
+              "title": "ASML is kicking off tech earnings. Here's what to expect from Europe's biggest semiconductor supplier.",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/asml-is-kicking-off-tech-earnings-heres-what-to-expect-from-europes-biggest-semiconductor-supplier-378e3cba"
+            },
+            {
+              "title": "Inflation, Netflix, Wells Fargo, Bank of America, ASML, J&J, and More to Watch This Week",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/articles/inflation-bank-of-america-wells-fargo-goldman-asml-j-j-and-more-to-watch-this-week-71bddc40"
+            }
+          ],
+          "tags": ["ASML", "TSMC", "決算"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "gulf-retaliation-spread",
+          "headline": "イラン反撃、湾岸の米軍施設へ拡大",
+          "importance": 3,
+          "facts": [
+            "Guardianは、イラン革命防衛隊がバーレーンとクウェートの米軍施設、オマーンのレーダー、ヨルダンの基地施設を攻撃したと報じた",
+            "ヨルダン軍はイランから発射された4発のミサイルを撃墜し、被害はなかったと説明した",
+            "クウェート軍は自国空域で敵対的な飛翔体を迎撃していると発表した",
+            "米国とイランの仲介にはパキスタン、カタール、エジプトが関与しているが、60日間の暫定合意は弱まっている"
+          ],
+          "why_it_matters": "ホルムズ危機は、海峡周辺だけでなく湾岸全体の米軍プレゼンスを巻き込む段階に入った。湾岸諸国が戦場化を避けるため米国、イラン、仲介国の間で距離を取るほど、通航秩序の回復は軍事力だけではなく外交の成否に依存する。",
+          "sources": [
+            {
+              "title": "Iran launches attacks on American military facilities in Bahrain and Kuwait after fresh US strikes",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/jul/13/us-iran-strikes-middle-east-strait-of-hormuz-military-latest-news-updates"
+            },
+            {
+              "title": "US and Iran vie for control of Strait of Hormuz in latest attacks",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/iran-us-hormuz-strait-war-july-13-2026-6c2c44cfdd089d6393d18fa5930ed620"
+            }
+          ],
+          "tags": ["湾岸", "米軍", "イラン"]
+        },
+        {
+          "id": "hormuz-shipping-lanes",
+          "headline": "イラン、北側航路利用を要求",
+          "importance": 2,
+          "facts": [
+            "Guardianは、イランが海峡北側のイラン沿岸に近い航路を設定し、船舶にその利用を求めていると報じた",
+            "同記事は、イランがこの航路設定を通行料や料金を正当化する根拠にし得ると説明した",
+            "米中央軍は、ホルムズ海峡は世界貿易の重要回廊であり、イランは支配していないと主張した",
+            "EUのKaja Kallas上級代表は、ホルムズ海峡は開かれ、航行の自由が尊重されなければならないと述べた"
+          ],
+          "why_it_matters": "航路指定は技術的な安全管理にも見えるが、実際には主権と料金徴収の論点になる。通航の自由が特定航路・特定手続きに縛られれば、国際海峡のルールが事実上書き換わる。",
+          "sources": [
+            {
+              "title": "Iran launches attacks on American military facilities in Bahrain and Kuwait after fresh US strikes",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/jul/13/us-iran-strikes-middle-east-strait-of-hormuz-military-latest-news-updates"
+            },
+            {
+              "title": "US and Iran vie for control of Strait of Hormuz in latest attacks",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/iran-us-hormuz-strait-war-july-13-2026-6c2c44cfdd089d6393d18fa5930ed620"
+            }
+          ],
+          "tags": ["航行の自由", "海洋法", "ホルムズ海峡"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "data-center-opposition",
+          "headline": "AIデータセンター反対、49州へ拡大",
+          "importance": 2,
+          "facts": [
+            "The Vergeは、Data Center Watchの調査として、2026年1〜3月に米国で少なくとも75件、総額1300億ドルのデータセンター計画が遅延または阻止されたと報じた",
+            "同調査では、反対団体が2025年末の396から2026年1〜3月末に833へ増え、49州に広がった",
+            "米議会では、データセンターが電気料金を押し上げたり環境を損なったりしない法律ができるまで新設を止める案が出ている",
+            "Ratepayer Protection ActやGRID Actなど、データセンターの電力費負担や系統からの切り離しを求める案も議論されている"
+          ],
+          "why_it_matters": "AIインフラは国家競争力の柱とされる一方、地域住民にとっては電気料金、水、騒音、景観、税優遇の問題である。許認可のボトルネックは、GPU調達より読みにくい投資リスクになっている。",
+          "sources": [
+            {
+              "title": "The fight against AI data centers is just beginning",
+              "publisher": "The Verge",
+              "url": "https://www.theverge.com/column/963346/ai-data-centers-fight"
+            }
+          ],
+          "tags": ["AIデータセンター", "電力料金", "地域規制"]
+        },
+        {
+          "id": "ai-grid-flexibility-research",
+          "headline": "AI計算を電力調整力にする研究進む",
+          "importance": 1,
+          "facts": [
+            "arXivに6月、AIデータセンターの計算負荷を系統状況に応じて制御する研究が相次いで公開された",
+            "Power-Flexible AI Data Centersは、GPUクラスターがピーク時に負荷を下げる複数の柔軟性を実証したとする",
+            "Inference as Flexibilityは、LLM推論のバッチサイズ制御と蓄電池を組み合わせ、蓄電池の放電エネルギーを71%減らしたと報告した",
+            "AI Data Centers and Power System Sustainabilityは、AIデータセンターの集中立地が系統柔軟性と脱炭素計画に影響すると整理した"
+          ],
+          "why_it_matters": "データセンターを固定的な大口負荷とみなすと、送電網増強と発電所建設だけが解になる。計算処理を時間・地域でずらせるなら、AIインフラは電力システムの負担だけでなく調整力にもなり得る。",
+          "sources": [
+            {
+              "title": "Power-Flexible AI Data Centers: A New Paradigm for Grid-Responsive Compute",
+              "publisher": "arXiv",
+              "url": "https://arxiv.org/abs/2606.25098"
+            },
+            {
+              "title": "Inference as Flexibility: Ramp Management for Transmission-Connected AI Data Centres",
+              "publisher": "arXiv",
+              "url": "https://arxiv.org/abs/2606.21833"
+            },
+            {
+              "title": "AI Data Centers and Power System Sustainability",
+              "publisher": "arXiv",
+              "url": "https://arxiv.org/abs/2606.21064"
+            }
+          ],
+          "tags": ["電力調整力", "AI推論", "系統運用"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AIデータセンターの系統接続はなぜ政策争点になったか",
+    "dek": "AIのボトルネックはGPUだけではない。電力網につなぐ順番、費用負担、負荷制御が、クラウド価格と地域政治を左右し始めた。",
+    "tags": ["AIデータセンター", "電力網", "系統接続"],
+    "reading_minutes": 5,
+    "body_md": "## GPU不足の次に来たもの\n\nAIブームの初期には、制約はGPUとHBMだった。どの企業がNvidiaの最新チップを確保できるか、どのメモリーメーカーがHBMを供給できるかが焦点だった。しかし大型データセンターの建設が進むと、次の制約は電力網になった。土地と資金があっても、数百MWから1GW級の負荷を送電網へ接続できなければ、計算資源は動かない。\n\n米FERCが系統運用者に接続迅速化を求めたのは、この制約が産業政策になったからである。AIの競争力を支えるには、電力を早くつなぐ必要がある。一方で、送電線や変電所を増強する費用を誰が負担するのか、家庭や中小企業の電気料金へ転嫁されないのか、州の再エネ目標と矛盾しないのかが同時に問われる。\n\n## 系統接続は何を決めるか\n\n系統接続とは、発電所や大口需要家を送電網につなぐための技術・契約・費用負担の手続きである。データセンターの場合、問題は単にコンセントを増やすことではない。ピーク時にどれだけ電力を使うか、近くの送電線に余裕があるか、停電時にどう切り離すか、必要な変電設備を誰が建てるかまで決める。\n\nAIデータセンターは通常の工場より負荷が大きく、稼働率も高い。さらに学習ジョブは数日から数週間続くため、電力を安定して使う。地域の電力会社から見れば、これは新しい大口顧客であると同時に、急に現れる巨大負荷である。既存の料金制度や送電計画は、これほど速い需要増を前提にしていなかった。\n\n## 速さと公平性の衝突\n\n接続を速めれば、AI投資は進む。クラウド事業者、半導体メーカー、建設会社、自治体には追い風になる。しかし、速さだけを優先すると、送電網増強や発電所建設の費用が一般需要家へ回る恐れがある。そこでFERCの命令は、データセンター側が接続に必要な系統増強費を負担するという線を引いた。\n\nそれでも問題は残る。送電網は一つの共有インフラであり、特定企業のための増強が地域全体の信頼度を高めることもあれば、逆に混雑を作ることもある。電源を自前で建てる場合も、ガス火力なら排出量が増え、再エネなら系統安定化の設備が必要になる。料金の公平性、脱炭素、産業誘致は簡単には両立しない。\n\n## 計算を調整力に変えられるか\n\nここで新しい論点になるのが、AI計算そのものを電力調整力にできるかである。すべてのAI処理が同じ緊急度ではない。利用者への応答が必要な推論は遅らせにくいが、学習やバッチ処理の一部は時間や地域をずらせる可能性がある。研究では、GPUクラスターがピーク時に負荷を下げたり、推論のバッチサイズを変えて電力の急変を抑えたりする仕組みが検討されている。\n\nこれが実用化すれば、データセンターは固定的な電力消費者ではなく、条件付きの柔軟な需要家になる。電力が余る時間に学習を進め、系統が逼迫すれば一部を止める。複数地域のクラウド拠点に処理を移せるなら、電力価格や炭素排出の低い地域へ計算を寄せることもできる。ただし、金融取引、医療、顧客対応のように遅延を許しにくい処理では限界がある。\n\n## 日本への読み替え\n\n日本でも、北海道、九州、関西などでデータセンター誘致が進む。重要なのは、電力が安い場所に建てればよいという単純な話ではない。再エネの出力変動、送電線の空き、系統増強費、地元自治体の水利用、災害時の復旧計画まで含めて、事業の採算が決まる。\n\n政策側は、AIインフラを成長投資として支援しつつ、費用を地域の一般利用者に押し付けない設計を求められる。企業側は、電力使用量を隠すのではなく、ピーク削減、再エネ調達、非常時の負荷制御を契約に入れる必要がある。AIの競争は、モデルの性能だけでなく、電力網と共存できる運用能力を競う段階に入った。",
+    "sources": [
+      {
+        "title": "Federal regulators order grid operators to speed power to energy-hungry AI data centers",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/power-electricity-ai-plants-data-centers-grid-506e3d206871111f15c3c62fc5368be5"
+      },
+      {
+        "title": "The fight against AI data centers is just beginning",
+        "publisher": "The Verge",
+        "url": "https://www.theverge.com/column/963346/ai-data-centers-fight"
+      },
+      {
+        "title": "Power-Flexible AI Data Centers: A New Paradigm for Grid-Responsive Compute",
+        "publisher": "arXiv",
+        "url": "https://arxiv.org/abs/2606.25098"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "ホルムズ危機は、制度交渉から実通航の減少へ再び悪化した。原油価格が一時的に落ち着いても、保険料と船腹需給の上振れが残る可能性がある",
+      "GPIF国内回帰論は、円安とJGB需給を同時に支える政策シグナルである。ただし実際の配分変更が確認されるまでは、相場材料としての寿命は限られる",
+      "TSMCの記録的月商はAI実需の強さを示す一方、韓国半導体株の急落は過剰投資と高バリュエーションへの警戒を示した。実需と株価は分けて見る局面である",
+      "AIデータセンターは、電力網の接続順、増強費負担、地域料金への影響が投資リスクになった。クラウド価格には電力制度の差が反映されやすくなる"
+    ],
+    "watchlist": [
+      {
+        "item": "ホルムズ海峡の通航数と船舶保険料",
+        "why": "攻撃再拡大が実物流と原油・LNG調達費に残るかを確認する",
+        "horizon": "随時"
+      },
+      {
+        "item": "米6月CPIとPPI",
+        "why": "原油高が物価見通しを再び押し上げるかを測る",
+        "horizon": "7月14〜15日"
+      },
+      {
+        "item": "Warsh FRB議長の議会証言",
+        "why": "中東リスク下で利上げ・利下げどちらの反応関数を示すかを見る",
+        "horizon": "7月15〜16日"
+      },
+      {
+        "item": "ASML・TSMC決算",
+        "why": "AI設備投資が先端装置とファウンドリー売上にどこまで続くかを確認する",
+        "horizon": "7月16日前後"
+      },
+      {
+        "item": "FERC系統接続命令への地域運用者回答",
+        "why": "AIデータセンターの費用負担と接続速度の実務ルールが見え始める",
+        "horizon": "7月下旬〜8月"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "系統接続",
+      "definition": "発電所や大口需要家を送電網につなぐ手続き。変電設備、送電線容量、費用負担、停止時のルールを含み、AIデータセンターでは投資の前提になる。"
+    },
+    {
+      "term": "大口需要家",
+      "definition": "大量の電力を継続的に使う企業や施設。AIデータセンターは都市規模の電力を使う例があり、料金制度や送電計画に影響する。"
+    },
+    {
+      "term": "先端ノード",
+      "definition": "半導体の微細な製造世代を指す言葉。AIチップでは3nm、2nmなどの先端ノードが性能と消費電力を左右し、TSMCやASMLの業績に直結する。"
+    },
+    {
+      "term": "調整力",
+      "definition": "電力の需給バランスを保つために、発電や需要を増減できる能力。AI計算を時間・地域でずらせれば、データセンターも調整力の一部になり得る。"
+    }
+  ]
+}
