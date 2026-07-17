@@ -1,0 +1,533 @@
+{
+  "date": "2026-07-17",
+  "edition": 7,
+  "generated_at": "2026-07-17T21:24:53+09:00",
+  "masthead_note": "AI相場は実需と採算の分岐点へ。ホルムズはインフラ攻撃で悪化",
+  "market_snapshot": {
+    "as_of": "7月17日 東京市場終値・欧米時間午前確認",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "64,141.12円",
+        "change": "-4.03%",
+        "direction": "down",
+        "note": "AI・半導体株安で調整局面入り"
+      },
+      {
+        "label": "TOPIX",
+        "value": "3,919.21",
+        "change": "-2.72%",
+        "direction": "down",
+        "note": "リスク回避が大型株全体へ波及"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "162.40円",
+        "direction": "up",
+        "note": "中東リスク下でも円安圏で推移"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.53%前後",
+        "change": "-0.07pt程度",
+        "direction": "down",
+        "note": "PPI鈍化後の買いとリスク回避"
+      },
+      {
+        "label": "ブレント原油",
+        "value": "85.87ドル",
+        "change": "+2.0%",
+        "direction": "up",
+        "note": "ホルムズ緊張で1カ月ぶり高値圏"
+      },
+      {
+        "label": "WTI原油",
+        "value": "80.73ドル",
+        "change": "+2.3%",
+        "direction": "up",
+        "note": "米イラン衝突拡大を織り込む"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "前日比-1.5%",
+        "direction": "down",
+        "note": "16日終値。半導体・メモリー株が重荷"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "日経平均は4.03%安。AI・半導体株の利益確定が世界同時のリスク回避に変わった",
+      "ref": "ai-stock-reversal-nikkei"
+    },
+    {
+      "text": "TSMCは最高益でも売られた。追加1000億ドルの米投資がAI投資採算への疑念を強めた",
+      "ref": "tsmc-capex-ai-test"
+    },
+    {
+      "text": "ASMLは通期見通しを上方修正。EUV能力増強はAI需要の実需を示すが、供給拡大リスクも増す",
+      "ref": "asml-capacity-upgrade"
+    },
+    {
+      "text": "米PPIは前月比0.3%低下、小売売上高は0.2%増。物価鈍化と消費底堅さが同時に出た",
+      "ref": "us-ppi-retail-fed"
+    },
+    {
+      "text": "米軍はイラン南部の橋・港湾設備を攻撃。ホルムズ危機は通航秩序からインフラ戦へ悪化",
+      "ref": "hormuz-infrastructure-war"
+    },
+    {
+      "text": "習近平氏はAI国際協力を提唱。MoonshotのKimi K3公開でオープンAI競争が再燃",
+      "ref": "china-ai-governance-kimi"
+    },
+    {
+      "text": "EU AI法の透明性義務は8月2日適用へ。生成物マーキングは製品設計上の期限になった",
+      "ref": "eu-ai-transparency-deadline"
+    }
+  ],
+  "top_story": {
+    "id": "ai-stock-reversal-nikkei",
+    "headline": "AI株総崩れ、日経4%安",
+    "dek": "TSMCとASMLの好決算にも市場は売りで反応した。AI投資は不足から過剰へ、焦点が変わり始めた。",
+    "importance": 3,
+    "facts": [
+      "Reutersは、17日の日経平均が4.03%安の64,141.12円で終え、6月25日の最高値から11.3%下落したと報じた",
+      "TOPIXは2.72%安の3,919.21で引けた",
+      "日本時間午後には日経平均の下げ幅が一時4,100円を超え、62,704.60まで下げた",
+      "APは、キオクシアが16.1%安、東京エレクトロンが8.2%安、アドバンテストが7.2%安、ソフトバンクグループが9%安だったと伝えた",
+      "台湾市場は6.5%安、TSMCは7.3%安となり、香港のZ.aiは28.5%下落した"
+    ],
+    "why_it_matters": "前号までのAI半導体テーマは、TSMC売上やASML受注が強いかを確認する段階だった。今日の差分は、強い決算そのものが株価を支えられなくなった点である。投資家の関心は、AI需要の有無から、設備投資がどこまで増えれば採算を壊すかへ移った。",
+    "implications": "日本株では、東京エレクトロン、アドバンテスト、キオクシア、ソフトバンクのようなAI関連大型株が指数を大きく動かす。AIインフラの実需が残っても、株価は資本支出、供給能力、低コスト中国モデルの登場を織り込んで調整し得る。製造装置・素材企業を見る時は、受注増と顧客の投資回収期間を同時に確認する必要がある。",
+    "sources": [
+      {
+        "title": "Japan's Nikkei slides into correction zone on tech selloff, Middle East conflict",
+        "publisher": "Reuters / MarketScreener",
+        "url": "https://ae.marketscreener.com/news/japan-s-nikkei-slides-into-correction-zone-on-tech-selloff-middle-east-conflict-ce7f5ed3d18bf02c"
+      },
+      {
+        "title": "World shares slide following an AI-led retreat on Wall Street",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/stocks-markets-ai-iran-trump-rates-65449e9565fba441a617f9517e097f5a"
+      },
+      {
+        "title": "東京株式（大引け）＝2694円安と大幅続落、AI・半導体関連が軒並み安",
+        "publisher": "株探",
+        "url": "https://s.kabutan.jp/news/n202607170998/"
+      }
+    ],
+    "tags": ["AI株", "日経平均", "半導体", "TSMC"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "us-ppi-retail-fed",
+          "headline": "米PPI低下、消費は底堅く",
+          "dek": "卸売物価はエネルギー安で低下したが、ガソリンを除く小売は強い。Fedは利下げに急ぎにくい。",
+          "importance": 3,
+          "facts": [
+            "米労働省は、6月のPPI最終需要が前月比0.3%低下したと発表した",
+            "最終需要財は1.4%低下し、最終需要サービスは0.2%上昇した",
+            "PPIは前年同月比では5.5%上昇し、食品・エネルギー・貿易を除く指数は前月比0.1%上昇だった",
+            "米商務省は、6月の小売・外食売上高が前月比0.2%増の7,686億ドルだったと発表した",
+            "APは、ガソリンスタンドを除く小売売上高が0.7%増、オンライン販売が1.9%増だったと報じた"
+          ],
+          "why_it_matters": "PPIの下振れは、6月CPIに続いてインフレ鈍化を示す。ただし小売売上高は、ガソリン安で全体が抑えられただけで、基調的な消費は崩れていない。物価は弱いが需要は弱くないという組み合わせは、Fedが即座に緩和へ傾く材料にはなりにくい。",
+          "implications": "日本には、米金利とドル円の両方で波及する。米インフレ鈍化は米10年債利回りを下げるが、消費の底堅さと中東発の原油高が残れば、ドル高・円安の戻りも速い。輸入企業は、6月指標だけでコスト低下を前提にしない方がよい。",
+          "sources": [
+            {
+              "title": "Producer Price Index News Release - 2026 M06 Results",
+              "publisher": "U.S. Bureau of Labor Statistics",
+              "url": "https://www.bls.gov/news.release/archives/ppi_07152026.htm"
+            },
+            {
+              "title": "Advance Monthly Sales for Retail and Food Services",
+              "publisher": "U.S. Census Bureau",
+              "url": "https://www.census.gov/retail/sales.html?source=forbes"
+            },
+            {
+              "title": "Retail sales up just 0.2% in June, but excluding business at the gas pump, shoppers are resilient",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/65f5a2476b28c19ebdada5ec287160d8"
+            }
+          ],
+          "tags": ["米PPI", "米小売売上高", "Fed", "ドル円"]
+        },
+        {
+          "id": "fed-hawkish-oil-yields",
+          "headline": "Fed高官、鈍化指標でもタカ派維持",
+          "importance": 2,
+          "facts": [
+            "MarketWatchは17日、Jefferson副議長、Loganダラス連銀総裁、Schmidカンザスシティ連銀総裁がインフレ警戒姿勢を示したと伝えた",
+            "Logan総裁は16日、インフレ抑制のためにやや高い金利が望ましいとの考えを示した",
+            "APは、Warsh議長が議会証言で高インフレへの容認はないと述べたが、次の政策判断は示さなかったと報じた",
+            "米10年債利回りは16日に4.596%へ上昇した後、17日欧州時間には4.53%近辺へ低下した"
+          ],
+          "why_it_matters": "Fed内では、6月のCPI・PPIを一時的なガソリン安と見るか、基調インフレ低下と見るかで見方が割れている。ホルムズ情勢で原油が再上昇しているため、中央銀行は過去の物価より次の供給ショックを重く見る可能性がある。",
+          "sources": [
+            {
+              "title": "Jefferson and two regional Fed presidents delivered a hawkish message",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-strikes-iran-sixth-night-tech-sell-off/card/jefferson-and-two-regional-fed-presidents-delivered-a-hawkish-message-wQmP2VGTrVarK3LgTXS0"
+            },
+            {
+              "title": "Warsh says Fed has 'no tolerance' for high inflation but provides no hints on next move",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/4a1da547d64ae3d54fba29161b213601"
+            },
+            {
+              "title": "Stock Futures Drop as Tech Selloff Gathers Pace",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-071726/card/stock-futures-drop-as-tech-selloff-gathers-pace-jceEc7prRJTqBa7maU1w"
+            }
+          ],
+          "tags": ["FRB", "米金利", "原油"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "tsmc-capex-ai-test",
+          "headline": "TSMC最高益、投資増で株安",
+          "dek": "AI需要は強い。だが市場は、追加1000億ドルの米投資と600億ドル超の設備投資を重く見た。",
+          "importance": 3,
+          "facts": [
+            "TSMCの4〜6月期売上高は402.0億ドルで、同社ガイダンス上限に達した",
+            "同社の4〜6月期粗利益率は67.7%、営業利益率は60.3%だった",
+            "Reutersは、TSMCの4〜6月期純利益が前年同期比77%増の7,066億台湾ドル、約220億ドルだったと報じた",
+            "同社は7〜9月期売上高を446億〜458億ドルと見込む",
+            "複数報道によると、TSMCは米国投資を1000億ドル追加し、米国での投資総額を2650億ドルへ引き上げる"
+          ],
+          "why_it_matters": "TSMCの決算はAIチップ需要の強さを裏付けた。一方で、株価が下落したことは、投資家が売上成長だけでなく設備投資の回収可能性を見始めたことを示す。AI需要が強いほど投資額も膨らみ、将来の供給過剰リスクが大きくなる。",
+          "implications": "日本の装置・材料メーカーには短期的な受注追い風が続く可能性がある。ただし、顧客であるファウンドリーの投資採算が悪化すれば、2027年以降の発注タイミングや価格交渉は厳しくなる。AI半導体は成長市場であると同時に、資本集約度が急上昇する市場である。",
+          "sources": [
+            {
+              "title": "Financial Results - 2026Q2",
+              "publisher": "TSMC",
+              "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+            },
+            {
+              "title": "TSMC Q2 profit jumps 77% to record, far surpasses expectations",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/tsmc-q2-profit-jumps-77-to-record-far-surpasses-expectations-4794649"
+            },
+            {
+              "title": "Taiwan Semiconductor Tops Q2 Targets On Leading-Edge Chip Demand",
+              "publisher": "Investor's Business Daily",
+              "url": "https://www.investors.com/news/technology/tsm-stock-taiwan-semiconductor-q2-2026-earnings/"
+            }
+          ],
+          "tags": ["TSMC", "AI半導体", "設備投資", "米国投資"]
+        },
+        {
+          "id": "asml-capacity-upgrade",
+          "headline": "ASML、AI需要で能力増強へ",
+          "importance": 2,
+          "facts": [
+            "ASMLは4〜6月期の総純売上高を93.26億ユーロ、純利益を29.18億ユーロと発表した",
+            "同社は2026年通期売上高見通しを430億〜450億ユーロ、粗利益率を54〜56%へ引き上げた",
+            "Reutersは、ASMLがEUVとDUVの生産能力を今後2年でそれぞれ30%拡大する方針だと報じた",
+            "ASMLは7〜9月期売上高を110億〜120億ユーロ、粗利益率を55〜57%と見込む"
+          ],
+          "why_it_matters": "ASMLは先端半導体の供給制約を測る一次指標である。EUV能力増強は、TSMC、Samsung、SK Hynix、MicronがAI向け能力をさらに増やす前提で動いていることを意味する。需要の強さと供給拡大リスクは同じニュースの表裏である。",
+          "sources": [
+            {
+              "title": "ASML reports €9.3 billion total net sales and €2.9 billion net income in Q2 2026",
+              "publisher": "ASML / GlobeNewswire",
+              "url": "https://www.globenewswire.com/news-release/2026/07/15/3327450/0/en/ASML-reports-9-3-billion-total-net-sales-and-2-9-billion-net-income-in-Q2-2026.html"
+            },
+            {
+              "title": "ASML raises 2026 forecast, expands capacity on AI chip demand",
+              "publisher": "Reuters / Euronext",
+              "url": "https://live.euronext.com/en/financial-news/asml-capacity-upgrade-soothes-ai-chip-bottleneck-fears"
+            }
+          ],
+          "tags": ["ASML", "EUV", "AI投資"]
+        },
+        {
+          "id": "china-ai-governance-kimi",
+          "headline": "中国、Kimi K3でAI開放路線を強調",
+          "importance": 2,
+          "facts": [
+            "APは、習近平国家主席が上海の世界AI大会でAIの開発と統治は国際協力で進めるべきだと述べたと報じた",
+            "中国は途上国向けに今後5年間で5,000件のAI研修機会を提供すると表明した",
+            "APによると、29カ国が中国とWorld Artificial Intelligence Cooperation Organizationの設立に署名した",
+            "Moonshot AIはKimi K3を公開し、2.8兆パラメーターのオープンソースモデルになると説明している",
+            "APは、HuaweiがAtlas 950 SuperPoDを会場で展示したと伝えた"
+          ],
+          "why_it_matters": "中国のAI戦略は、米国型の閉じた高性能モデルと輸出管理に対し、オープンソース、低価格、グローバルサウス支援を組み合わせる構図を強めている。Kimi K3の実力が持続すれば、AI利用企業の調達価格とモデル選択に圧力をかける。",
+          "implications": "日本企業にとっては、中国製AIを直接使うかどうかだけが論点ではない。中国モデルが世界の価格基準を下げれば、米国モデルの単価、半導体需要、クラウド投資回収に波及する。安全保障上使えない領域と、コスト面で無視できない領域を分けて考える必要がある。",
+          "sources": [
+            {
+              "title": "China's Xi calls for more global efforts to guide AI, chides US for its curbs on tech sharing",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/df4cfc7e1b260e765b5449b6d71a48e5"
+            },
+            {
+              "title": "China's open-weight Kimi model stuns AI world with frontier-level results",
+              "publisher": "Axios",
+              "url": "https://www.axios.com/2026/07/16/moonshot-kimi-ai-china-model-openai-anthropic"
+            }
+          ],
+          "tags": ["中国AI", "Moonshot", "Kimi", "オープンソース"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "netflix-guidance-ad-ai",
+          "headline": "Netflix、増益でも見通し嫌気",
+          "importance": 2,
+          "facts": [
+            "APは、Netflixの4〜6月期利益が34億ドル、1株利益が80セントだったと報じた",
+            "売上高は前年同期比13%増の125.6億ドルで、FactSet予想の125.8億ドルを小幅に下回った",
+            "同社は7〜9月期売上高成長率を約12%と見込み、アナリスト予想の約13%を下回った",
+            "Netflixは2026年の広告収入を約30億ドルと見込むと説明した",
+            "同社は大規模言語モデルを使った検索改善や音声検索機能の追加にも言及した"
+          ],
+          "why_it_matters": "Netflixは値上げ、広告、ライブイベント、AI検索を同時に進めているが、市場は成長率の鈍化に敏感になっている。AI相場の調整は半導体だけでなく、AI機能を成長ストーリーに組み込むメディア企業にも波及する。",
+          "sources": [
+            {
+              "title": "Netflix posts higher Q2 results but shares drop due to lukewarm forecast",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/6a02a255f46c66f9f8ec512d09eaa545"
+            },
+            {
+              "title": "Netflix shares fell 8% after it turned in lukewarm earnings",
+              "publisher": "Business Insider",
+              "url": "https://www.businessinsider.com/netflix-second-quarter-earnings-engagement-report-short-form-video-2026-7"
+            }
+          ],
+          "tags": ["Netflix", "広告", "生成AI", "決算"]
+        },
+        {
+          "id": "blackrock-record-aum",
+          "headline": "BlackRock、運用資産15兆ドル超",
+          "importance": 2,
+          "facts": [
+            "BlackRockは4〜6月期の希薄化後EPSを12.19ドル、調整後EPSを13.91ドルと発表した",
+            "同社の運用資産残高は15.3兆ドルとなり、過去12カ月の純流入は8,680億ドルだった",
+            "4〜6月期の純流入は1,920億ドルで、ETF、プライベート市場、アクティブ債券、体系的株式に広がった",
+            "売上高は前年同期比31%増、テクノロジーサービス・サブスクリプション収入は13%増だった",
+            "同社は四半期自社株買い計画を4.5億ドルから5.5億ドルへ引き上げる"
+          ],
+          "why_it_matters": "金利・地政学・AI株調整で市場が揺れても、資産運用業にはETFとオルタナティブへの構造的な資金流入が続いている。BlackRockの数字は、個別相場の不安とは別に、資産運用プラットフォームへの集中が進むことを示す。",
+          "sources": [
+            {
+              "title": "BlackRock Reports Second Quarter 2026 Diluted EPS of $12.19, or $13.91 as adjusted",
+              "publisher": "BlackRock",
+              "url": "https://www.blackrock.com/corporate/newsroom/press-releases/article/corporate-one/press-releases/blackrock-reports-second-quarter-2026"
+            }
+          ],
+          "tags": ["BlackRock", "ETF", "資産運用", "Aladdin"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "hormuz-infrastructure-war",
+          "headline": "ホルムズ危機、橋・港湾攻撃へ",
+          "dek": "米軍はイラン南部の橋、電力施設、港湾塔を攻撃。海峡危機は物流ルールから国家インフラの破壊へ進んだ。",
+          "importance": 3,
+          "facts": [
+            "APは、米軍が17日未明にイラン南部の橋、エネルギー施設、Chabahar港の塔を攻撃したと報じた",
+            "イラン国営テレビは、Hormozgan州Bandar Khamirの橋への攻撃で少なくとも7人が死亡したと伝えた",
+            "米中央軍は、17日朝までに6夜連続の空爆を終えたと説明した",
+            "APによると、イラン保健省は最近の米軍攻撃で少なくとも38人が死亡し、400人超が負傷したと発表した",
+            "Lloyd's List Intelligenceは、月初のホルムズ貨物輸送が週次で約4分の1減ったと説明した"
+          ],
+          "why_it_matters": "ホルムズ問題は、通航料、航路指定、保険料という制度リスクから、港湾・橋・電力を狙うインフラ戦へ悪化した。インフラ攻撃は船舶の通航だけでなく、イラン国内の物流、湾岸諸国の安全保障、エネルギー供給全体を巻き込む。",
+          "implications": "日本の電力、石化、海運、商社は、原油価格だけでなく到着遅延、保険、港湾処理、代替パイプライン能力を同じリスク表に入れる必要がある。外交面では、米国の海上封鎖やインフラ攻撃をどこまで支持するかが、自由航行原則との緊張を生む。",
+          "sources": [
+            {
+              "title": "US hits bridges and a key port as its Iran campaign expands",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/iran-us-hormuz-strait-war-july-17-2026-2ad0cfe592eb258cb15a9eb04411d58a"
+            },
+            {
+              "title": "Iranian airport and bridges hit as US forces board ship amid ports blockade",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/jul/17/us-iran-war-strait-of-hormuz-donald-trump-israel-lebanon-latest-news-updates"
+            }
+          ],
+          "tags": ["ホルムズ海峡", "米イラン", "原油", "海上封鎖"]
+        },
+        {
+          "id": "gulf-retaliation-qatar-kuwait",
+          "headline": "イラン反撃、カタール・クウェートへ",
+          "importance": 2,
+          "facts": [
+            "APは、イランが17日にカタール、バーレーン、クウェートなど米国同盟国へミサイル攻撃を行ったと報じた",
+            "カタール内務省は、ミサイル攻撃の落下物で子ども1人が負傷したと説明した",
+            "クウェート当局は、イランの攻撃で発電・海水淡水化施設が損傷したと発表した",
+            "ヨルダン軍は、17日朝にイランから発射されたミサイル3発を迎撃したと説明した",
+            "UKMTOは、オマーンのKhasab沖19海里でタンカーが飛翔体に被弾し、軽微な損傷を受けたと発表した"
+          ],
+          "why_it_matters": "湾岸諸国は、米軍基地の受け入れ国であると同時に、仲介やエネルギー輸出の担い手でもある。カタールやクウェートが直接攻撃対象になると、停戦仲介の余地が狭まり、LNG・原油・水インフラの安全コストが上がる。",
+          "sources": [
+            {
+              "title": "US hits bridges and a key port as its Iran campaign expands",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/iran-us-hormuz-strait-war-july-17-2026-2ad0cfe592eb258cb15a9eb04411d58a"
+            },
+            {
+              "title": "Tanker hit by unknown projectile off Oman coast - UKMTO",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/jul/17/us-iran-war-strait-of-hormuz-donald-trump-israel-lebanon-latest-news-updates"
+            }
+          ],
+          "tags": ["湾岸", "カタール", "クウェート", "LNG"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-ai-transparency-deadline",
+          "headline": "EU AI透明性義務、署名期限迫る",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は、AI生成コンテンツ透明性Code of PracticeがAI法50条の表示・マーキング義務対応を支援すると説明している",
+            "同コードは、AI生成・操作された音声、画像、動画、テキストの機械可読マーキングと検出を扱う",
+            "AI法50条2項・4項の透明性義務は、2026年8月2日から適用される",
+            "欧州委員会は、初期署名者リストに入るための署名フォーム提出期限を7月22日18時CESTとしている",
+            "既に市場投入されたAIシステムには2026年12月2日までの移行期間がある"
+          ],
+          "why_it_matters": "透明性義務は、生成AIサービスのUI表示だけではない。機械可読マーキング、ディープフェイク表示、公共的関心事項を伝えるAI生成テキストのラベル、証明可能な遵守プロセスまで含む。期限は制度対応ではなく、製品設計と運用ログの期限である。",
+          "implications": "日本企業がEU向けにAI機能を出す場合、8月2日までに対象システム、生成物の種類、ラベル表示、メタデータ、編集責任の所在を整理する必要がある。既存システムの移行期間があっても、新規機能は後付け対応が難しい。",
+          "sources": [
+            {
+              "title": "Code of Practice on Transparency of AI-Generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/faqs/code-practice-transparency-ai-generated-content"
+            },
+            {
+              "title": "Signing the Code of Practice on transparency of AI-generated content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-code-practice-transparency-ai-generated-content"
+            }
+          ],
+          "tags": ["EU AI法", "透明性", "マーキング", "生成AI"]
+        },
+        {
+          "id": "us-state-ai-safety",
+          "headline": "米AI安全規制、州主導で収束へ",
+          "importance": 1,
+          "facts": [
+            "OpenAIは15日、カリフォルニア、ニューヨーク、イリノイのフロンティアAI安全法制が共通基準の形成を進めているとの見解を公表した",
+            "同社は、州の動きが連邦レベルの標準形成につながる「reverse federalism」と説明した",
+            "WIREDは、Anthropicが高度AIシステムの第三者安全監査や、危険なモデル公開を止める権限を含む強い規制を支持していると報じた",
+            "Anthropicは、規制対象を大規模な開発者に絞るべきだとしている"
+          ],
+          "why_it_matters": "米国のAI規制は、連邦政府が一枚岩の制度を先に作る形ではなく、州法と企業自主基準が先行している。日本企業が米国AIを使う場合、契約相手の州、モデル提供地域、監査義務で条件が変わる可能性がある。",
+          "sources": [
+            {
+              "title": "The US is advancing AI safety through state and federal action",
+              "publisher": "OpenAI",
+              "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action/"
+            },
+            {
+              "title": "Here's Why Anthropic Is Pushing States to Regulate AI Faster",
+              "publisher": "WIRED",
+              "url": "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster"
+            }
+          ],
+          "tags": ["AI安全", "米州法", "フロンティアAI"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "オープンウェイトAIはなぜ半導体相場を揺らすのか",
+    "dek": "MoonshotのKimi K3は、モデル競争だけでなくAI半導体株の採算認識も揺らした。オープンモデルは需要を増やすのか、価格を壊すのか。",
+    "tags": ["オープンウェイトAI", "半導体", "中国AI", "クラウド"],
+    "reading_minutes": 5,
+    "body_md": "## 好決算でも売られた理由\n\nTSMCとASMLの決算は、数字だけ見れば強かった。TSMCは4〜6月期に402億ドルの売上高を出し、粗利益率は67.7%に達した。ASMLも通期売上高見通しを引き上げ、EUVとDUVの生産能力をさらに増やす構えを示した。AI向け半導体の実需があることは、むしろ確認された。\n\nそれでも半導体株は売られた。理由は、需要の強さがそのまま株価材料にならなくなったためである。AI企業とクラウド企業が巨額投資を続けるほど、ファウンドリー、装置、メモリーの能力増強も膨らむ。投資家は、いつ不足が解消し、いつ供給過剰に変わるかを考え始めた。AI相場は、不足を買う段階から、投資回収を問う段階へ移った。\n\n## オープンウェイトAIとは何か\n\nオープンウェイトAIとは、モデルの重みを外部に公開し、利用者が自社環境やクラウド上で動かせるAIを指す。完全なオープンソースとは限らず、学習データや訓練手法まで公開されない場合もある。それでもAPIだけで使う閉じたモデルより、利用者は運用コスト、データ管理、改変の自由度を持ちやすい。\n\n中国のMoonshotが公開したKimi K3は、この文脈で注目された。2.8兆パラメーター級の大規模モデルをオープンに近い形で出すという説明は、米国の閉じた高性能モデルに対する価格競争を意識させる。DeepSeekショックの時と同じく、市場は「少ないコストで高性能が出るなら、GPU投資は過剰ではないか」と反応する。\n\n## 需要を増やす力と単価を下げる力\n\nオープンモデルは、半導体需要を減らすだけではない。むしろ導入企業が増え、推論利用が広がれば、GPU、メモリー、ストレージ、ネットワーク需要は増える。自社データセンターで動かす企業や、国ごとにデータを閉じたい政府機関にとって、オープンウェイトは導入の障壁を下げる。\n\n一方で、価格を下げる力も強い。閉じたAPIモデルが高い料金を維持できるのは、性能差、信頼性、安全性、開発者体験があるからである。オープンモデルが十分に高性能になれば、顧客は高額APIをすべての用途に使う必要がなくなる。高性能モデルは最重要業務へ、安価なオープンモデルは社内検索、文書処理、コード補助へ、という使い分けが進む。\n\nこの分化はクラウド企業の採算に効く。AI需要の総量は増えても、単位あたり収入が下がれば、GPU投資の回収期間は延びる。半導体メーカーには出荷増として見えるが、クラウド側には利幅低下として見える可能性がある。市場が気にしているのは、このずれである。\n\n## 中国の外交カードとしてのAI\n\n習近平氏が世界AI大会で国際協力を強調したことも重要である。中国は、米国の輸出管理や安全保障審査に対し、オープンモデル、低価格、途上国支援を組み合わせている。5,000件のAI研修機会や、29カ国が関わるAI協力組織は、技術標準と利用国の囲い込みを狙う外交カードである。\n\nこれは単なる宣伝ではない。グローバルサウスの企業や政府にとって、米国製AIは高価で、提供地域や利用審査の制約もある。中国モデルが十分に使えるなら、コストと主権の面で魅力がある。米国が安全保障を理由にモデルアクセスを絞るほど、中国は開放性を売りにしやすくなる。\n\n## 日本企業への示唆\n\n日本企業は、米国モデルと中国モデルを単純に性能表で比べればよいわけではない。顧客データ、知財、輸出管理、サイバー安全、EU AI法の透明性義務まで含めて、用途ごとに使えるモデルを選ぶ必要がある。基幹業務や機密データでは米欧の監査可能なモデルを選び、社内効率化ではコストの低いオープンモデルを検証する、といった分け方が現実的になる。\n\n半導体株を見る視点も変わる。AIモデルが増えれば計算需要は増えるが、モデル単価が下がるほど、クラウドとAI企業の投資回収は厳しくなる。装置や材料の受注が強い時ほど、最終顧客がその計算資源でどれだけ収益を上げられるかを見なければならない。オープンウェイトAIは、AIの普及を進める力であると同時に、AI投資の価格前提を壊す力でもある。",
+    "sources": [
+      {
+        "title": "China's Xi calls for more global efforts to guide AI, chides US for its curbs on tech sharing",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/df4cfc7e1b260e765b5449b6d71a48e5"
+      },
+      {
+        "title": "China's open-weight Kimi model stuns AI world with frontier-level results",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/07/16/moonshot-kimi-ai-china-model-openai-anthropic"
+      },
+      {
+        "title": "Financial Results - 2026Q2",
+        "publisher": "TSMC",
+        "url": "https://investor.tsmc.com/english/quarterly-results/2026/q2"
+      },
+      {
+        "title": "ASML reports €9.3 billion total net sales and €2.9 billion net income in Q2 2026",
+        "publisher": "ASML / GlobeNewswire",
+        "url": "https://www.globenewswire.com/news-release/2026/07/15/3327450/0/en/ASML-reports-9-3-billion-total-net-sales-and-2-9-billion-net-income-in-Q2-2026.html"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "AI半導体は実需が残っていても、設備投資と低価格モデルの組み合わせで株価の前提が変わり始めた",
+      "米PPI鈍化と小売の底堅さは、Fedに緩和ではなく様子見を促す。円安圧力は原油と米金利の両方で残る可能性がある",
+      "ホルムズ危機はインフラ攻撃へ悪化し、原油価格だけでなく湾岸の水・電力・港湾機能まで企業リスクに入った",
+      "EU AI法の透明性義務は、生成物表示をマーケティング表示ではなく機械可読なプロダクト設計問題へ変える"
+    ],
+    "watchlist": [
+      {
+        "item": "AI半導体株の調整が決算本番へ広がるか",
+        "why": "TSMC・ASMLの好決算でも売られた市場が、米大型テック決算をどう読むかを見る",
+        "horizon": "7月下旬"
+      },
+      {
+        "item": "ホルムズ海峡の通航数と保険料",
+        "why": "インフラ攻撃と海上封鎖が、原油・LNG・船腹需給にどこまで残るかを確認する",
+        "horizon": "随時"
+      },
+      {
+        "item": "Fedの7月FOMC",
+        "why": "PPI鈍化、消費底堅さ、原油高をどう政策判断に反映するかを見る",
+        "horizon": "7月28〜29日"
+      },
+      {
+        "item": "EU AI透明性コードの初期署名者",
+        "why": "8月2日適用前に主要AI企業がマーキング・ラベル実務をどう固めるかを見る",
+        "horizon": "7月22日〜8月2日"
+      },
+      {
+        "item": "中国Kimi K3の実運用評価",
+        "why": "ベンチマークではなく企業導入コストと米国モデル価格への影響を確認する",
+        "horizon": "7月下旬〜8月"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "オープンウェイトAI",
+      "definition": "モデルの重みを外部に公開し、利用者が自社環境で動かせるAI。完全なオープンソースとは限らないが、API専用モデルより運用自由度が高い。"
+    },
+    {
+      "term": "EUV",
+      "reading": "イーユーブイ",
+      "definition": "極端紫外線露光。先端半導体の微細回路を作る装置技術で、ASMLが独占的に供給する。AIチップの先端ノード増産に不可欠である。"
+    },
+    {
+      "term": "PPI",
+      "reading": "ピー・ピー・アイ",
+      "definition": "生産者物価指数。企業が受け取る価格の変化を示し、消費者物価やFedの重視するPCE物価に先行して効くことがある。"
+    },
+    {
+      "term": "機械可読マーキング",
+      "definition": "AI生成物であることを人間の表示だけでなく、メタデータや透かしなど機械が検出できる形で埋め込む方法。EU AI法対応で焦点になる。"
+    }
+  ]
+}
