@@ -1,0 +1,480 @@
+{
+  "date": "2026-07-19",
+  "edition": 8,
+  "generated_at": "2026-07-19T09:32:34+09:00",
+  "masthead_note": "ホルムズ危機は水インフラへ拡大。AI相場は決算で採算検証へ",
+  "market_snapshot": {
+    "as_of": "7月17日 東京・NY終値、7月18日中東情勢確認",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "64,141.12円",
+        "change": "-4.03%",
+        "direction": "down",
+        "note": "6月25日高値から11.3%安、調整局面"
+      },
+      {
+        "label": "TOPIX",
+        "value": "3,919.21",
+        "change": "-2.72%",
+        "direction": "down",
+        "note": "AI・半導体売りが大型株へ波及"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "162円台前半",
+        "direction": "flat",
+        "note": "中東リスクでも円買いは限定的"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.70%",
+        "change": "-0.02pt",
+        "direction": "down",
+        "note": "国内資産回帰観測後も高止まり"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.55%",
+        "change": "-0.02pt",
+        "direction": "down",
+        "note": "株安時の債券買いが優勢"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,457.69",
+        "change": "-1.0%",
+        "direction": "down",
+        "note": "AI株安で週間下落"
+      },
+      {
+        "label": "ブレント原油",
+        "value": "88.10ドル",
+        "change": "+4.6%",
+        "direction": "up",
+        "note": "週間約16%高、ホルムズ懸念"
+      },
+      {
+        "label": "WTI原油",
+        "value": "82.44ドル",
+        "change": "+4.4%",
+        "direction": "up",
+        "note": "1カ月ぶり80ドル台定着"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米軍はイラン直接攻撃で2人死亡、1人不明と発表。ホルムズ危機は米兵被害の段階へ進んだ",
+      "ref": "hormuz-us-troop-kuwait-water"
+    },
+    {
+      "text": "クウェートの淡水化・石油施設が被弾。原油だけでなく水と電力が湾岸リスクの中心になった",
+      "ref": "hormuz-us-troop-kuwait-water"
+    },
+    {
+      "text": "S&P500は1.0%安、Nasdaqは1.4%安。AI株売りはチップからNetflixやSpaceXへ広がった",
+      "ref": "ai-selloff-weekend"
+    },
+    {
+      "text": "米消費者心理は54.4へ改善。ただしガソリン安が支えで、原油高が続けば反転し得る",
+      "ref": "us-consumer-sentiment-gasoline"
+    },
+    {
+      "text": "AlphabetとIntel決算がAI相場の次の試験に。市場は売上より設備投資の効率を見る",
+      "ref": "big-tech-earnings-capex"
+    },
+    {
+      "text": "EU AI透明性コードの初期署名期限は7月27日。8月2日の義務適用前の実務期限が固まった",
+      "ref": "eu-ai-code-july27"
+    }
+  ],
+  "top_story": {
+    "id": "hormuz-us-troop-kuwait-water",
+    "headline": "ホルムズ戦争、水インフラへ拡大",
+    "dek": "米軍はイランの直接攻撃で2人死亡と発表。クウェートでは淡水化施設が連日攻撃され、原油危機は生活インフラ危機へ広がった。",
+    "importance": 3,
+    "facts": [
+      "APは18日、ヨルダンの米軍基地へのイランのドローン・ミサイル攻撃で米兵2人が死亡し、1人が行方不明、4人が病院へ搬送されたと報じた",
+      "米軍によると、開戦後の米軍死者は16人、負傷者は430人超に達した",
+      "米中央軍は、7夜連続の攻撃でイランの監視拠点、軍事物流、地下兵器庫、海上能力を攻撃したと説明した",
+      "クウェート当局とKuwait Petroleum Corporationは、18日に水淡水化施設と石油施設が攻撃され、石油施設で複数の負傷者、淡水化施設で火災が出たと説明した",
+      "クウェートは飲料水の90%を淡水化に依存しており、同国の淡水化施設への攻撃は2日連続だった"
+    ],
+    "why_it_matters": "前号までの焦点は、海峡の通航数、保険料、港湾・橋への攻撃だった。今日の差分は、米兵死者と湾岸の水インフラ攻撃が同時に出た点である。ホルムズ危機は船舶と原油価格だけでなく、米軍基地、発電、淡水化、航空網を巻き込む地域インフラ戦へ変わった。",
+    "implications": "日本企業は、原油価格だけをストレスシナリオに置くとリスクを過小評価する可能性がある。LNG・原油の到着遅延、湾岸港湾の稼働率、保険料、乗員安全、クウェートやカタールの水・電力制約を同じ表で見る必要がある。外交面では、自由航行を守る米軍行動への支持と、民生インフラ被害への距離の取り方が難しくなる。",
+    "sources": [
+      {
+        "title": "US military says 2 troops are dead and 1 is missing after Iran attacks a base in Jordan",
+        "publisher": "AP / Local 10",
+        "url": "https://www.local10.com/news/world/2026/07/18/us-military-says-2-troops-are-dead-and-1-is-missing-after-iran-attacks-a-base-in-jordan/"
+      },
+      {
+        "title": "Iran hits second power and water plant in Kuwait after another night of US strikes",
+        "publisher": "The National",
+        "url": "https://www.thenationalnews.com/news/gulf/2026/07/18/iran-hits-second-power-and-water-plant-in-kuwait-after-another-night-of-us-strikes/"
+      }
+    ],
+    "tags": ["ホルムズ海峡", "米イラン", "クウェート", "淡水化", "原油"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "ai-selloff-weekend",
+          "headline": "AI株安、米国市場も週間下落",
+          "dek": "半導体株の売りが週末の米国市場を押し下げた。原油高も重なり、リスク回避は東京からNYへ連鎖した。",
+          "importance": 3,
+          "facts": [
+            "APは17日、S&P500が1.0%安の7,457.69、Dowが0.8%安の52,146.42、Nasdaqが1.4%安の25,520.24で終えたと報じた",
+            "Nvidiaは2.2%安、Applied Materialsは5.6%安、Micronは0.5%安で終えた",
+            "台北指数は6.5%安、東京市場は4%安、上海市場は3%安となった",
+            "Netflixは決算後に7.3%安、Intuitive Surgicalは14.1%安、SpaceXは5.4%安となった",
+            "ブレント原油は4.6%高の88.10ドルで決済し、米10年債利回りは4.55%へ低下した"
+          ],
+          "why_it_matters": "AI株の調整は、半導体メーカーだけの利益確定ではなく、AIを成長物語にしてきたソフト、メディア、宇宙関連へ広がった。債券利回りは低下したが、原油高が続けばインフレ期待と金利の再上昇が株価を再び圧迫し得る。",
+          "implications": "日本株では、半導体装置、メモリー、ソフトバンクグループの値動きが指数全体を左右する構造が続く。次の確認点は、AI需要の有無ではなく、設備投資がどの程度の収益を生み、原油高を吸収できるかである。",
+          "sources": [
+            {
+              "title": "The sell-off for AI stars worsens, while oil prices keep jumping",
+              "publisher": "AP / NY1",
+              "url": "https://ny1.com/nyc/manhattan/ap-top-news/2026/07/17/asian-shares-sink-with-tokyo-down-nearly-5-as-slumping-ai-stocks-drag-world-markets-lower"
+            },
+            {
+              "title": "Japan's Nikkei slides into correction zone on tech selloff, Middle East conflict",
+              "publisher": "Reuters / MarketScreener",
+              "url": "https://ae.marketscreener.com/news/japan-s-nikkei-slides-into-correction-zone-on-tech-selloff-middle-east-conflict-ce7f5ed3d18bf02c"
+            }
+          ],
+          "tags": ["AI株", "Nasdaq", "半導体", "原油"]
+        },
+        {
+          "id": "us-consumer-sentiment-gasoline",
+          "headline": "米消費者心理、ガソリン安で改善",
+          "importance": 2,
+          "facts": [
+            "ミシガン大学の7月速報値では、消費者心理指数が54.4となり、6月の49.5から9.9%上昇した",
+            "現況指数は54.9で前月比15.1%上昇し、期待指数は54.0で前月比6.5%上昇した",
+            "APは、ガソリン価格の低下が消費者心理を支えた一方、原油高が続けば改善が反転し得ると伝えた",
+            "米Census Bureauは、6月の小売・外食売上高が7,686億ドルで前月比0.2%増、前年比6.7%増だったと発表した",
+            "Fed Beige Bookは、5月下旬から6月にかけて11地区で経済活動が小幅から緩やかに拡大したと整理した"
+          ],
+          "why_it_matters": "米国の需要は崩れていないが、改善の一部はガソリン安という可逆的な要因に依存している。ホルムズ情勢で原油が再上昇すれば、消費者心理、実質所得、Fedの利上げ判断が同時に悪化する可能性がある。",
+          "sources": [
+            {
+              "title": "Surveys of Consumers",
+              "publisher": "University of Michigan",
+              "url": "https://www.sca.isr.umich.edu/?os=ios"
+            },
+            {
+              "title": "Advance Monthly Sales for Retail and Food Services",
+              "publisher": "U.S. Census Bureau",
+              "url": "https://www.census.gov/retail/sales.html?source=forbes"
+            },
+            {
+              "title": "Beige Book - July 2026",
+              "publisher": "Federal Reserve",
+              "url": "https://www.federalreserve.gov/monetarypolicy/beigebook202607-summary.htm"
+            }
+          ],
+          "tags": ["米消費", "ガソリン", "Fed", "小売売上高"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "kimi-k3-open-weight-test",
+          "headline": "Kimi K3、7月27日に重み公開へ",
+          "dek": "中国Moonshotの2.8兆パラメーターモデルは、AI株安の心理的な引き金になった。実力検証は公開後に始まる。",
+          "importance": 2,
+          "facts": [
+            "MarketWatchは、Moonshot AIのKimi K3がArenaのFrontend Code leaderboardで首位に立ったと報じた",
+            "同記事によると、MoonshotはKimi K3を2.8兆パラメーターの世界最大級オープンモデルと説明している",
+            "Moonshotはモデルの重みを7月27日までに公開する方針を示した",
+            "APは、Kimi K3の登場が低コスト中国モデルへの警戒を強め、AI関連株売りの一因になったと伝えた"
+          ],
+          "why_it_matters": "Kimi K3は、前号で扱ったオープンウェイトAIの続報である。新しい点は、株式市場の反応だけでなく、7月27日の重み公開という検証可能な期限が見えたことだ。ベンチマークの宣伝から、実際の自社運用コスト、安全性、商用制約の確認へ焦点が移る。",
+          "implications": "日本企業は、公開直後の性能比較だけで採用を決めるべきではない。GPU要件、データ所在地、ライセンス、監査ログ、EU AI法の透明性対応まで含めて、閉じた米国モデルとの使い分けを検証する必要がある。",
+          "sources": [
+            {
+              "title": "Meet Kimi K3, the newest Chinese AI model haunting Silicon Valley",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/meet-kimi-k3-the-newest-chinese-ai-model-haunting-silicon-valley-755ed738"
+            },
+            {
+              "title": "The sell-off for AI stars worsens, while oil prices keep jumping",
+              "publisher": "AP / NY1",
+              "url": "https://ny1.com/nyc/manhattan/ap-top-news/2026/07/17/asian-shares-sink-with-tokyo-down-nearly-5-as-slumping-ai-stocks-drag-world-markets-lower"
+            }
+          ],
+          "tags": ["Kimi K3", "Moonshot", "中国AI", "オープンウェイト"]
+        },
+        {
+          "id": "ferc-large-load-fast-lane",
+          "headline": "FERC、AI電力接続の改革を要求",
+          "importance": 2,
+          "facts": [
+            "FERCは6月18日、6つの地域送電機関に対し、データセンターなど大口需要家の接続ルールを正当化または改革するよう命じた",
+            "対象はデータセンター、製造施設、その他の大口電力利用者である",
+            "FERCは、送電網への迅速で秩序ある接続と、料金負担者の保護を同時に目的としている",
+            "同委員会は、代替送電技術の検討も地域送電機関に求めている"
+          ],
+          "why_it_matters": "AIデータセンターの制約は、GPU不足から電力接続不足へ広がっている。FERC命令は、AI産業政策、電力市場、地域負担の三つを同じ制度問題として扱い始めたことを示す。",
+          "implications": "日本でも、AI計算基盤の誘致は電源、送電容量、自治体合意、費用負担を一体で設計しなければ進みにくい。米国の地域送電機関の回答は、AIデータセンターの立地競争と電力料金の前例になる。",
+          "sources": [
+            {
+              "title": "FERC Launches Aggressive Targeted Action to Speed Large Load Integration",
+              "publisher": "Federal Energy Regulatory Commission",
+              "url": "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration"
+            }
+          ],
+          "tags": ["AIデータセンター", "電力網", "FERC", "送電"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "big-tech-earnings-capex",
+          "headline": "Big Tech決算、AI投資効率を検証",
+          "dek": "AlphabetとIntelの決算が迫る。市場はAI売上だけでなく、設備投資がどれだけ収益に変わるかを見る。",
+          "importance": 2,
+          "facts": [
+            "Reutersは、翌週の米決算でAlphabetとIntelがAI相場を左右する可能性があると報じた",
+            "LSEG IBES集計では、S&P500構成企業の4〜6月期利益は前年同期比25.7%増が見込まれている",
+            "Reutersは、S&P500が年初来約10%上昇し、最高値圏に近い水準にあると伝えた",
+            "投資家は、イラン戦争の不確実性が残る中で企業利益が株価を支えられるかを確認する局面に入った"
+          ],
+          "why_it_matters": "AI相場の争点は、クラウド売上の増加から設備投資効率へ移っている。AlphabetはAI検索とクラウド投資、Intelは先端製造とAI半導体の採算を問われる。高い利益予想を満たしても、投資額の膨張が大きければ株価は支えにくい。",
+          "implications": "日本の装置、素材、電力、データセンター関連企業は、米大型テックのcapex総額だけでなく、GPU稼働率、電力確保、減価償却、AIサービス単価の説明を確認する必要がある。受注増は追い風だが、顧客の投資回収が伸びれば発注サイクルは急に鈍る。",
+          "sources": [
+            {
+              "title": "Alphabet, Intel results in focus for AI trade as US earnings rev up",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/alphabet-intel-results-in-focus-for-ai-trade-as-us-earnings-rev-up-4797849"
+            }
+          ],
+          "tags": ["Alphabet", "Intel", "AI投資", "決算"]
+        },
+        {
+          "id": "farnborough-defense-shift",
+          "headline": "Farnborough、旅客機より防衛色",
+          "importance": 2,
+          "facts": [
+            "Reutersは、7月20〜24日のFarnborough Airshowで防衛が前面に出る見通しだと報じた",
+            "背景には、ウクライナ戦争が5年目に入り、湾岸の停戦も崩れたことがある",
+            "航空宇宙・兵器メーカーは、兵器需要への対応と民間機・エンジン生産の回復を同時に迫られている",
+            "BoeingはFarnboroughで777X、T-7、MQ-28など商用・防衛・サービスの展示を予定している"
+          ],
+          "why_it_matters": "航空産業の注目点は、航空会社の新機材発注数だけではなく、防空、無人機、補給、エンジン供給能力へ移っている。地政学リスクが航空ショーの商談テーマを変えるほど、防衛需要は一過性でなくなっている。",
+          "implications": "日本の航空・防衛関連企業には、民間機サプライチェーン回復と防衛支出増の両方が影響する。特に無人機、ミサイル防衛、エンジン部材、整備サービスは、欧米の能力不足を補う余地がある。",
+          "sources": [
+            {
+              "title": "Wars shift focus from jets to weapons at Farnborough Airshow",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/wars-shift-focus-from-jets-to-weapons-at-farnborough-airshow-4797418"
+            },
+            {
+              "title": "Farnborough International Airshow 2026",
+              "publisher": "Boeing",
+              "url": "https://www.boeing.com/airshows/farnborough"
+            }
+          ],
+          "tags": ["航空宇宙", "防衛", "Farnborough", "Boeing"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "iran-red-lines-all-out-war",
+          "headline": "米イラン、停戦合意の糸切れる",
+          "importance": 3,
+          "facts": [
+            "APは18日、米国とイランが数週間前の暫定和平合意から全面戦争へ再接近していると報じた",
+            "イラン側は暫定合意の履行停止を国営テレビで表明した",
+            "米国はイランの原油輸出を止める海上封鎖を再開し、軍は直近で5隻を転進させ、1隻を無力化したと説明した",
+            "イランはホルムズ海峡を自国の単独管理下に置き、船舶に手数料支払いを求める立場を示している"
+          ],
+          "why_it_matters": "停戦枠組みが残っているなら市場は仲介国の動きを待てるが、履行停止と米兵死者が重なると、偶発的な拡大を止める制度が弱くなる。海峡管理を巡る争いは、核交渉より先に物流秩序の問題として世界経済へ波及している。",
+          "implications": "原油在庫やスポット価格だけでなく、海峡通航ルール、制裁対象船舶、保険免責、湾岸空域の閉鎖を日次で追う必要がある。日本のエネルギー調達は、価格ヘッジだけでなく物理的な到着確率の管理が重要になる。",
+          "sources": [
+            {
+              "title": "The US and Iran have blown past red lines as they lurch back toward all-out war",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/179973cfe1fb3fa1b7ea7b816648ad9c"
+            },
+            {
+              "title": "US military says 2 troops are dead and 1 is missing after Iran attacks a base in Jordan",
+              "publisher": "AP / Local 10",
+              "url": "https://www.local10.com/news/world/2026/07/18/us-military-says-2-troops-are-dead-and-1-is-missing-after-iran-attacks-a-base-in-jordan/"
+            }
+          ],
+          "tags": ["米イラン", "停戦", "海上封鎖", "制裁"]
+        },
+        {
+          "id": "ukraine-europe-missile-shield",
+          "headline": "欧州10カ国、弾道ミサイル盾へ",
+          "importance": 2,
+          "facts": [
+            "APは13日、ウクライナと欧州9カ国が欧州を弾道ミサイルから守る連合を発表したと報じた",
+            "参加国はウクライナ、デンマーク、フランス、ドイツ、イタリア、オランダ、ノルウェー、スペイン、スウェーデン、英国である",
+            "発表はパリでのゼレンスキー大統領との協議で行われ、共同声明は欧州の共通弾道ミサイル防衛能力構築を目標に掲げた",
+            "ウクライナはロシアのミサイル攻撃で電力網防衛を急いでおり、冬前の防空強化を求めている"
+          ],
+          "why_it_matters": "欧州の防衛課題は、ウクライナ支援から欧州本土のミサイル防衛能力へ広がっている。Patriotの在庫不足が続く中で、欧州は米国装備の輸入だけでなく、量産可能な迎撃システムを自前で持つ必要に迫られている。",
+          "sources": [
+            {
+              "title": "Ukraine and 9 other countries announce a coalition to protect Europe from ballistic missiles",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/d813eb18fba24a57f7cb2000b302ef4d"
+            }
+          ],
+          "tags": ["ウクライナ", "欧州防衛", "弾道ミサイル", "Patriot"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-ai-code-july27",
+          "headline": "EU AI透明性コード、27日が期限",
+          "dek": "初期署名者リストに入る期限が7月27日へ明確化。8月2日の透明性義務適用が実務日程になった。",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は、AI生成コンテンツ透明性Code of Practiceの署名フォーム提出期限を7月27日18時CESTと説明している",
+            "初期署名者リストは、AI法の一般適用開始日である8月2日前に公表される予定である",
+            "対象には、合成音声、画像、動画、テキストを生成できるAIシステムの提供者と、深層偽造などを専門用途で使うdeployersが含まれる",
+            "Article 50(2)、(4)、(5)の透明性義務は8月2日から適用される",
+            "既存システムのマーキング・検出義務には、AI Omnibus案で12月2日までの移行期間が想定されている"
+          ],
+          "why_it_matters": "前号の時点では7月22日の初期期限が焦点だったが、欧州委員会のFAQ更新で7月27日が明示された。これは単なる申請期限ではなく、提供者、利用者、マーキング技術業者が自分の役割を確定する期限である。",
+          "implications": "日本企業がEU向けに生成AI機能を提供または業務利用する場合、8月2日までに表示、機械可読マーキング、深層偽造ラベル、公共的関心事項テキストの責任分界を整理する必要がある。署名しない場合は、同等の遵守手段を文書で説明できなければならない。",
+          "sources": [
+            {
+              "title": "Signing the Code of Practice on Transparency of AI-generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-code-practice-transparency-ai-generated-content"
+            },
+            {
+              "title": "Code of Practice on Transparency of AI-Generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+            }
+          ],
+          "tags": ["EU AI法", "透明性", "マーキング", "生成AI"]
+        },
+        {
+          "id": "us-ai-state-regulation-split",
+          "headline": "米AI規制、州法で温度差拡大",
+          "importance": 2,
+          "facts": [
+            "OpenAIは15日、カリフォルニア、ニューヨーク、イリノイのフロンティアAI安全法制が共通基準形成を進めているとの見解を公表した",
+            "同社は、州から連邦標準へ向かう動きをreverse federalismと位置付けた",
+            "WIREDは16日、Anthropicが州に対してより強いAI規制を促していると報じた",
+            "Anthropicは、第三者監査や安全でないモデル展開を止める仕組みを支持する一方、展開停止権限は連邦政府が持つべきだとしている"
+          ],
+          "why_it_matters": "米国AI規制は、連邦法が先に統一基準を作る形ではなく、州法、企業の自主提案、連邦安全保障措置が競合しながら進む。OpenAIは調和を重視し、Anthropicはより強い規制を州から押し上げる姿勢で、主要AI企業の政策利害も割れている。",
+          "implications": "日本企業が米国AIサービスを使う場合、モデルの性能や価格だけでなく、州ごとの監査義務、提供地域、第三者評価、展開停止リスクを契約条件として見る必要がある。AI調達はソフトウェア購入ではなく、規制変化を含む継続リスク管理になる。",
+          "sources": [
+            {
+              "title": "The US is advancing AI safety through state and federal action",
+              "publisher": "OpenAI",
+              "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action/"
+            },
+            {
+              "title": "Here’s Why Anthropic Is Pushing States to Regulate AI Faster",
+              "publisher": "WIRED",
+              "url": "https://www.wired.com/story/why-anthropic-is-pushing-states-to-regulate-ai-faster/"
+            }
+          ],
+          "tags": ["AI安全", "州法", "OpenAI", "Anthropic"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "淡水化プラントはなぜエネルギー安全保障になったか",
+    "dek": "クウェートの淡水化施設攻撃は、ホルムズ危機を原油価格だけで見る危うさを示した。水、電力、港湾が止まると、湾岸の供給力そのものが揺らぐ。",
+    "tags": ["淡水化", "ホルムズ海峡", "エネルギー安全保障", "湾岸"],
+    "reading_minutes": 5,
+    "body_md": "## 原油の外側で起きたこと\n\nホルムズ海峡の危機は、通常は原油とLNGの通航量、タンカー保険料、備蓄日数で語られる。だが今回、クウェートの淡水化施設が2日連続で攻撃されたことで、論点は一段広がった。湾岸のエネルギー供給は、井戸から原油を出して船に積むだけでは成り立たない。発電所、淡水化プラント、港湾、空港、通信、米軍基地が一体で動いて初めて、原油とLNGは世界市場へ出ていく。\n\n淡水化とは、海水から塩分を取り除き、飲料水や工業用水を作る技術である。クウェートのような乾燥地域では、都市生活と産業の基礎インフラそのものだ。APは、クウェートが飲料水の90%を淡水化に依存すると報じた。ここが攻撃されると、単なる施設損傷ではなく、住民生活、労働力、病院、発電所運用、港湾作業に波及する。\n\n## 水と電力は分けられない\n\n湾岸の淡水化は大量のエネルギーを使う。古い方式では熱で海水を蒸発させるため発電所の排熱と結びつきやすく、新しい逆浸透膜方式でも高圧ポンプを動かす電力が要る。つまり淡水化プラントは、水道施設であると同時に電力インフラの一部である。今回のクウェート攻撃で火災と発電ユニット停止が同時に出たのは、この結合を示している。\n\nこの構造は攻撃側にとって誘因になる。製油所や油田を直接攻撃すれば国際非難は強く、原油価格も急騰する。だが電力・水施設を狙えば、相手国の国内運用コストを上げ、米軍基地や港湾の後方支援を不安定にできる。民生インフラへの攻撃は国際人道法上の問題を抱えるが、戦争が長引くほど、相手の継戦能力を削る標的として選ばれやすくなる。\n\n## 企業リスクは価格から稼働率へ\n\n日本企業のリスク管理も変える必要がある。原油価格が1バレル何ドルになるかだけを見ても、湾岸発の供給リスクは測れない。港が開いているか、パイロットや港湾労働者が出勤できるか、発電が足りるか、淡水化で冷却水や生活水が確保できるか、航空便が飛ぶか。これらがそろわなければ、船は積めず、基地は動かず、保険料は下がらない。\n\nLNGではさらに重要である。日本はカタールなど湾岸から長期契約で調達している。契約があっても、積み地の港湾、発電、水、警備が不安定なら到着は遅れる。商社、電力、ガス、化学、海運は、価格ヘッジだけでなく、船腹、代替港、在庫、保険免責、乗員退避の運用計画を同時に点検すべき局面である。\n\n## 政策の問い\n\n政府にとっても、ホルムズ危機は備蓄放出だけでは答えにくい。備蓄は価格と一時供給には効くが、湾岸の水・電力インフラが壊れ、通航秩序が戻らなければ、供給回復の時間軸は読みにくい。日本は米国の自由航行維持に依存する一方、民生インフラ被害への態度も問われる。エネルギー安全保障は、資源国との契約、海上交通路、防衛、国際法、人道リスクを一つの問題として扱う段階に入った。\n\n実務上は、政府備蓄、民間在庫、長期契約、代替調達先を別々の台帳で管理するだけでは足りない。ホルムズの実通航数、湾岸の発電余力、淡水化プラントの稼働、港湾の荷役能力、航空退避ルートを同じ時間軸で見る必要がある。市場価格は最後に表れる症状であり、供給網の異常はその前にインフラ指標へ出る。\n\nさらに、淡水化プラントの復旧は船舶の迂回より時間が読みにくい。交換部品、膜、ポンプ、制御装置、技術者が必要で、攻撃が続く環境では保守作業そのものが止まる。短期の被害でも、復旧待ちの不確実性が保険料と契約履行リスクを押し上げる。\n\n今回の教訓は明確である。ホルムズは海峡だけではない。海峡を動かす陸上インフラと、湾岸社会を支える水・電力のネットワークまで含めて一つのチョークポイントである。原油価格が落ち着いても、淡水化施設や港湾の損傷が残れば、供給不安は消えない。",
+    "sources": [
+      {
+        "title": "US military says 2 troops are dead and 1 is missing after Iran attacks a base in Jordan",
+        "publisher": "AP / Local 10",
+        "url": "https://www.local10.com/news/world/2026/07/18/us-military-says-2-troops-are-dead-and-1-is-missing-after-iran-attacks-a-base-in-jordan/"
+      },
+      {
+        "title": "Iran hits second power and water plant in Kuwait after another night of US strikes",
+        "publisher": "The National",
+        "url": "https://www.thenationalnews.com/news/gulf/2026/07/18/iran-hits-second-power-and-water-plant-in-kuwait-after-another-night-of-us-strikes/"
+      },
+      {
+        "title": "Oil prices post 16% weekly jump as US and Iran intensify attacks",
+        "publisher": "The National",
+        "url": "https://www.thenationalnews.com/business/energy/2026/07/17/oil-set-for-steep-weekly-rise-as-us-and-iran-intensify-attacks/"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "ホルムズ危機は原油価格ではなく、湾岸の水・電力・港湾稼働率を含むインフラリスクとして見る必要がある",
+      "AI相場は需要成長だけでなく、設備投資効率と低価格オープンモデルの圧力を同時に織り込み始めた",
+      "米消費者心理の改善はガソリン安に依存しており、原油高が続けばFedの利上げ警戒と消費減速が再び結びつく可能性がある",
+      "AI規制はEUの透明性義務と米国州法の安全監査が同時に進み、モデル調達の法務・技術要件が重くなる"
+    ],
+    "watchlist": [
+      {
+        "item": "ホルムズ海峡の実通航数と湾岸インフラ被害",
+        "why": "淡水化、発電、港湾、空港の稼働が原油・LNG到着に直接効く",
+        "horizon": "7月19〜22日"
+      },
+      {
+        "item": "Alphabet・Intel決算とAI capex説明",
+        "why": "AI相場が投資額ではなく収益化効率を重視し始めたため",
+        "horizon": "7月下旬"
+      },
+      {
+        "item": "Kimi K3の重み公開と再現検証",
+        "why": "低価格オープンモデルが実運用で米国モデル単価と半導体需要を動かすかを見る",
+        "horizon": "7月27日以降"
+      },
+      {
+        "item": "EU AI透明性コードの初期署名者",
+        "why": "主要AI企業と利用企業が8月2日義務へどう対応するかを確認する",
+        "horizon": "7月27日〜8月2日"
+      },
+      {
+        "item": "FERC大口需要家接続命令への地域送電機関回答",
+        "why": "AIデータセンターの接続速度と費用負担ルールが投資立地を左右する",
+        "horizon": "7月下旬〜8月"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "淡水化",
+      "definition": "海水や塩分を含む水から塩分を取り除き、飲料水や工業用水にする技術。湾岸諸国では生活と産業を支える基幹インフラである。"
+    },
+    {
+      "term": "大口需要家",
+      "definition": "電力を大量に使う利用者。AIデータセンターや製造施設が該当し、送電網への接続速度と費用負担が政策課題になっている。"
+    },
+    {
+      "term": "オープンウェイト",
+      "definition": "AIモデルの重みを公開し、利用者が自社環境などで動かせる形。低コスト化とデータ管理の自由度が利点だが、運用要件と安全管理が重い。"
+    },
+    {
+      "term": "Article 50",
+      "reading": "アーティクル・フィフティ",
+      "definition": "EU AI法の透明性義務を定める条文。AI生成物のマーキング、深層偽造や公共的関心事項テキストの表示が焦点になる。"
+    }
+  ]
+}
