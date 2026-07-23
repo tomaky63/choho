@@ -1,0 +1,508 @@
+{
+  "date": "2026-07-23",
+  "edition": 11,
+  "generated_at": "2026-07-23T22:54:36+09:00",
+  "masthead_note": "AI投資は需要証明から回収力の審査へ。原油100ドル接近で金利警戒も戻った",
+  "market_snapshot": {
+    "as_of": "7月23日 東京市場終値・欧米時間午前確認",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "66,422.60円",
+        "change": "+0.46%",
+        "direction": "up",
+        "note": "半導体買い戻しで反発"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,057.24",
+        "change": "+0.60%",
+        "direction": "up",
+        "note": "銀行・素材も下支え"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "163円台前半",
+        "direction": "up",
+        "note": "米金利高と原油高で40年ぶり安値圏"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.74%台",
+        "direction": "up",
+        "note": "日銀利上げ観測と財政懸念"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.68%台",
+        "change": "+0.014pt",
+        "direction": "up",
+        "note": "原油高でインフレ再燃を警戒"
+      },
+      {
+        "label": "ブレント原油",
+        "value": "98.64ドル",
+        "change": "+4.9%",
+        "direction": "up",
+        "note": "一時100ドル接近"
+      },
+      {
+        "label": "WTI原油",
+        "value": "90.66ドル",
+        "change": "+4.4%",
+        "direction": "up",
+        "note": "6週間ぶり高値圏"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "AlphabetとTeslaの決算後、市場はAI需要の有無より巨額投資の回収力を問い始めた",
+      "ref": "ai-capex-return-test"
+    },
+    {
+      "text": "ブレントは98ドル台へ上昇。紅海タンカー攻撃で原油・金利・株式が同時に揺れた",
+      "ref": "oil-bond-selloff"
+    },
+    {
+      "text": "AMDはAnthropicへ最大50億ドル投資し、MI450とHeliosを最大2GW展開する",
+      "ref": "amd-anthropic-gigawatt"
+    },
+    {
+      "text": "円は163円台で推移。GPIF国内回帰論は円・米債・日本株をまたぐ論点になった",
+      "ref": "gpif-yen-repatriation"
+    },
+    {
+      "text": "フーシ派がサウジタンカー2隻を攻撃。ホルムズと紅海の二重リスクが強まった",
+      "ref": "houthi-saudi-tankers"
+    },
+    {
+      "text": "ECBは金利を据え置き、エネルギーショックの二次波及を見極める姿勢を示した",
+      "ref": "ecb-energy-pause"
+    }
+  ],
+  "top_story": {
+    "id": "ai-capex-return-test",
+    "headline": "AI投資、回収力の審査へ",
+    "dek": "Alphabetは好決算でも投資額が焦点となり、TeslaはAI・ロボット投資で利益が圧迫された。市場の問いは、AI需要があるかではなく、資本支出がいつ利益に戻るかへ移った。",
+    "importance": 3,
+    "facts": [
+      "APは23日、Alphabetの4〜6月期売上高が前年同期比24%増の1198億ドル、純利益が1121.1億ドルだったと報じた",
+      "Alphabetの純利益には、6月に上場したSpaceXなど株式投資の評価益約980億ドルが含まれる",
+      "MarketWatchは、Alphabetの4〜6月期資本支出が449億〜450億ドル規模となり、通年見通しが1950億〜2050億ドルへ引き上げられたと伝えた",
+      "APは、Teslaの4〜6月期純利益が11.1億ドル、1株利益32セントとなり、研究開発費増加で市場予想を下回ったと報じた",
+      "Teslaは4〜6月期に48万216台を納車し、Full Self-Drivingの加入者は世界で約150万人に達した"
+    ],
+    "why_it_matters": "AI相場の初期局面では、投資額の増加そのものが半導体、サーバー、電力設備の需要証明として評価された。今日の差分は、Alphabetの広告・クラウドが強くても株価が投資負担を意識し、Teslaの販売回復もAI・ロボット投資の利益圧迫を相殺しきれなかった点である。AIは成長テーマから、減価償却、電力、資金調達、粗利率を含む資本効率テーマへ移っている。",
+    "implications": "日本の半導体装置、電子部品、電力、データセンター関連には引き続き追い風がある。ただし顧客が投資回収を問われ始めたため、受注残だけでなく、キャンセル条項、稼働率、電力契約、リース・出資を含む資金循環を確認する必要がある。AI投資の勝者は、GPUを売る企業だけでなく、投資の回収期間を短くできる企業に絞られる可能性がある。",
+    "sources": [
+      {
+        "title": "Google's Q2 earnings beat Wall Street's expectations on AI boom",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/google-results-revenue-profit-ai-alphabet-f914606d842d4c6848019083d667fc3a"
+      },
+      {
+        "title": "Earnings at Musk's car company fall as research spending cuts into profit from selling cars",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/tesla-musk-electric-vehicles-robotaxis-robots-976cc9e895bbdcbd3728e7ba178ffe40"
+      },
+      {
+        "title": "Alphabet Stock Is Falling as AI Spending Continues to Mount",
+        "publisher": "Barron's",
+        "url": "https://www.barrons.com/articles/alphabet-earnings-googl-stock-price-274aed13"
+      }
+    ],
+    "tags": ["Alphabet", "Tesla", "AI投資", "資本支出", "データセンター"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "oil-bond-selloff",
+          "headline": "原油98ドル、米金利4.68%台",
+          "dek": "紅海のサウジタンカー攻撃で原油は一時100ドルに迫り、米長期金利は4.7%近辺へ上昇した。AI決算の材料は、エネルギーと金利に上値を抑えられた。",
+          "importance": 3,
+          "facts": [
+            "APは23日、ブレント原油が4.9%高の98.64ドル、WTIが3.83ドル高の90.66ドルになったと報じた",
+            "APは、ホルムズ海峡を通じて通常は世界の石油・天然ガス取引の約5分の1が通過すると説明した",
+            "MarketWatchは、米10年債利回りが4.682%へ上昇し、2025年5月以来の高水準になったと伝えた",
+            "Reutersは、Fedの年内利上げ織り込みが42bpへ上がり、9月利上げが完全に織り込まれたと報じた",
+            "APは、米国株先物が下落し、欧州市場も独DAX、仏CAC、英FTSEが軟調だったと伝えた"
+          ],
+          "why_it_matters": "原油高はエネルギー企業の収益には追い風だが、中央銀行にはインフレ期待を再び抑える必要を突き付ける。米金利が上がれば、AIのような将来利益型の株式には割引率の逆風がかかる。",
+          "implications": "7月28〜29日のFOMCは、雇用やコア物価だけでなく、原油・ガソリンの二次波及をどう説明するかが焦点になる。日本では円安と輸入燃料高が重なり、日銀会合前の為替介入警戒も強まりやすい。",
+          "sources": [
+            {
+              "title": "Share prices are mixed and US futures fall as Brent crude inches toward $100 a barrel",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/stocks-markets-iran-trump-ai-inflation-45b9165d6c518f5bea668b6ba7a89838"
+            },
+            {
+              "title": "Benchmark Treasury yields eye 14-month high as oil price surge boosts inflation fears",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-ai-spending-alphabet-capex-hike-oil-prices/card/benchmark-treasury-yields-eye-14-month-high-as-oil-price-surge-boosts-inflation-fears-ESsFJ7EX6jqi6ViTiqwk"
+            },
+            {
+              "title": "Asian stocks rise as AI capex ramps up, oil at six-week highs",
+              "publisher": "Reuters / MarketScreener",
+              "url": "https://sa.marketscreener.com/news/asian-stocks-rise-after-us-tech-earnings-oil-at-six-week-highs-ce7f51d9d180f020"
+            }
+          ],
+          "tags": ["原油", "米金利", "Fed", "インフレ", "ホルムズ"]
+        },
+        {
+          "id": "gpif-yen-repatriation",
+          "headline": "GPIF国内回帰論、米市場も警戒",
+          "importance": 2,
+          "facts": [
+            "MarketWatchは23日、約1.8兆ドルを運用するGPIFの国内資産回帰論が米株・米債・ドルに影響し得ると報じた",
+            "同記事は、高市首相がGPIFなど公的年金に国内金融資産への投資を促す施策を追求すると述べたと整理した",
+            "MarketWatchは、GPIFの外国資産保有が約9300億ドルに達すると伝えた",
+            "Reutersは23日、円が1ドル163.07円近辺にあり、22日に163.24円と1986年12月以来の安値を付けたと報じた",
+            "東京株式市場では日経平均が66,422.60円で引け、半導体関連の買い戻しが指数を押し上げた"
+          ],
+          "why_it_matters": "GPIFの資産配分は年金運用の問題であり、本来は短期の為替対策ではない。だが円安、国内長期金利、財政信認、米債需給が同時に意識される局面では、国内回帰論そのものがグローバル流動性の材料になる。",
+          "implications": "仮に政策発言が強まれば、円売りキャリー、米債需給、日本株の需給に一時的な巻き戻しが起きる可能性がある。ただし正式な資産配分変更がなければ、円安の根本要因である日米金利差とエネルギー輸入圧力は残る。",
+          "sources": [
+            {
+              "title": "Japan's $1.8 trillion pension giant might bring money home. That could jolt U.S. stocks and the Fed.",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/japans-1-8-trillion-pension-giant-might-bring-money-home-that-could-jolt-u-s-stocks-and-the-fed-908c66d5"
+            },
+            {
+              "title": "Asian stocks rise as AI capex ramps up, oil at six-week highs",
+              "publisher": "Reuters / MarketScreener",
+              "url": "https://sa.marketscreener.com/news/asian-stocks-rise-after-us-tech-earnings-oil-at-six-week-highs-ce7f51d9d180f020"
+            },
+            {
+              "title": "Nikkei Rebounds as Chip Buying Offsets Yen and Oil Worries",
+              "publisher": "News On Japan",
+              "url": "https://newsonjapan.com/article/150085.php"
+            }
+          ],
+          "tags": ["GPIF", "円安", "JGB", "米債", "日本株"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "amd-anthropic-gigawatt",
+          "headline": "AMD、Anthropicへ最大50億ドル",
+          "dek": "AnthropicはMI450とHeliosを最大2GW導入し、AMDはClaudeを自社開発にも使う。AI半導体競争は、チップ販売から資本と顧客拘束の競争へ広がった。",
+          "importance": 3,
+          "facts": [
+            "AMDとAnthropicは23日、AMD Instinct MI450 Series GPUをAMD Heliosラックスケール構成で最大2GW展開する戦略提携を発表した",
+            "発表によると、最初の1GW分は2027年前半に導入を始める予定である",
+            "AMDはAnthropicへ最大50億ドルの戦略的株式投資をコミットした",
+            "両社はClaudeを使ってAMD Instinct向けワークロード最適化とROCm開発を加速し、AMD社内のエンジニアリングにもClaudeを広く採用する",
+            "AMDはAdvancing AI 2026で、AIインフラ、アーキテクチャ、開発を主題にしたLisa Su CEOの基調講演を実施した"
+          ],
+          "why_it_matters": "NVIDIA対抗は、GPU性能だけでは決まらない。顧客が数GW単位の電力・ラック・ソフトウェアを確保し、ベンダーが資本まで入れて供給を結び付ける構造になっている。",
+          "implications": "AMDの提携は受注の可視性を高める一方、AI企業への出資やリース支援が増えるほど、半導体サイクルは金融リスクも抱える。日本の装置・素材企業は、顧客名だけでなく、導入時期、電力契約、資金負担の所在を確認すべきである。",
+          "sources": [
+            {
+              "title": "AMD dan Anthropic Umumkan Kemitraan Strategis untuk Menerapkan GPU AMD Instinct MI450 Series hingga 2 Gigawatt",
+              "publisher": "AMD",
+              "url": "https://www.amd-id.com/amd-dan-anthropic-umumkan-kemitraan-strategis-untuk-menerapkan-gpu-amd-instinct-mi450-series-hingga-2-gigawatt/"
+            },
+            {
+              "title": "AMD Advancing AI 2026",
+              "publisher": "AMD",
+              "url": "https://www.amd.com/en/corporate/events/advancing-ai.html"
+            },
+            {
+              "title": "AMD commits up to $5 billion to Anthropic",
+              "publisher": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/969285/amd-anthropic-ai-infrastructure-deal"
+            }
+          ],
+          "tags": ["AMD", "Anthropic", "MI450", "Helios", "AI半導体"]
+        },
+        {
+          "id": "intel-ai-earnings-watch",
+          "headline": "Intel決算、AI CPU需要が焦点",
+          "importance": 2,
+          "facts": [
+            "Intelは23日の米市場引け後に2026年第2四半期決算を発表すると公表している",
+            "S&P Globalは、Visible Alphaの市場予想として売上高144億ドル、前年同期比12%増を示した",
+            "同予想では、Data Center and AI部門の売上高は前年同期比42%増の56億ドルと見込まれている",
+            "MarketWatchは、Intel株が年初来で約186%上昇した一方、6月高値からは25%下落したと報じた",
+            "PC向けClient Computing Groupの伸びは1%台にとどまる見通しで、AIサーバーとPCの温度差が焦点になる"
+          ],
+          "why_it_matters": "AIインフラ投資はGPUだけでは動かない。CPU、先端パッケージ、ネットワーク、メモリーを含むシステム全体の需要がIntelの再評価につながっているが、PC市場の鈍さとファウンドリー投資の負担は残る。",
+          "sources": [
+            {
+              "title": "Intel to Report Second-Quarter 2026 Financial Results",
+              "publisher": "Intel",
+              "url": "https://newsroom.intel.com/corporate/intel-to-report-second-quarter-2026-financial-results"
+            },
+            {
+              "title": "Intel's AI-driven data center growth set to power second-quarter earnings",
+              "publisher": "S&P Global Market Intelligence",
+              "url": "https://www.spglobal.com/market-intelligence/en/news-insights/research/2026/07/intel-s-ai-driven-data-center-growth-set-to-power-second-quarter-earnings"
+            },
+            {
+              "title": "Intel earnings will pit red-hot AI demand against a sluggish PC market",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/intel-earnings-will-pit-red-hot-ai-demand-against-a-sluggish-pc-market-6b9984fe"
+            }
+          ],
+          "tags": ["Intel", "AI CPU", "データセンター", "ファウンドリー", "PC"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "alphabet-ai-cloud-search",
+          "headline": "Alphabet、AIでも広告は底堅く",
+          "importance": 2,
+          "facts": [
+            "APは、Alphabetの4〜6月期売上高が1198億ドルとなり、市場予想1170.6億ドルを上回ったと報じた",
+            "Google Cloudは、チップ、モデル、データ、セキュリティ、エージェント基盤を含むAIポートフォリオに支えられ成長した",
+            "APは、GeminiがAI Overviews、AI Modeに続く10億ユーザー規模の消費者向けAI製品に近づいているとのアナリスト評価を伝えた",
+            "YouTubeではワールドカップ広告も検索広告と並ぶ支えになった",
+            "同時に、市場は設備投資見通しの上振れを警戒し、決算後の株価反応は一枚岩ではなかった"
+          ],
+          "why_it_matters": "生成AIは検索広告を壊すとの見方があったが、Alphabetの決算は少なくとも現時点でAIが検索、YouTube、クラウドの利用を広げていることを示した。一方で、その成長を維持するためのデータセンター投資が利益とキャッシュフローを圧迫する。",
+          "sources": [
+            {
+              "title": "Google's Q2 earnings beat Wall Street's expectations on AI boom",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/google-results-revenue-profit-ai-alphabet-f914606d842d4c6848019083d667fc3a"
+            },
+            {
+              "title": "Alphabet sees capital expenses double to hit $45 billion",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/livecoverage/alphabet-earnings-google-stock-results-q2/card/alphabet-sees-capital-expenses-double-to-hit-45-billion-itfmsOghD0qtwt3iEuCY"
+            }
+          ],
+          "tags": ["Alphabet", "Google Cloud", "検索広告", "Gemini", "AI投資"]
+        },
+        {
+          "id": "tesla-ai-rd-profit",
+          "headline": "Tesla、販売回復でも利益鈍化",
+          "importance": 2,
+          "facts": [
+            "APは、Teslaの4〜6月期売上高が282.4億ドル、純利益が11.1億ドルだったと報じた",
+            "同社の研究開発費は前年同期比49%増の23.7億ドルとなり、ロボタクシー、AI計算基盤、Optimusに振り向けられた",
+            "Teslaは4〜6月期に48万216台を納車し、前年同期比25%増となった",
+            "エネルギー生成・蓄電事業の売上高は31.4億ドルで、前年同期比13%増だった",
+            "CFOは資本支出が今後2〜3年増え続けるとの見通しを示した"
+          ],
+          "why_it_matters": "Teslaは自動車会社として販売台数を戻したが、市場はもはやEV販売だけでは評価しない。ロボタクシーとロボットの選択肢価値を維持するには巨額投資が必要で、短期利益との緊張が強まっている。",
+          "implications": "自動運転やロボット関連の日本サプライヤーには需要機会があるが、顧客の投資負担が重いほど発注タイミングは揺れやすい。販売台数、FSD加入者、資本支出、規制認可を同じ表で追う必要がある。",
+          "sources": [
+            {
+              "title": "Earnings at Musk's car company fall as research spending cuts into profit from selling cars",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/tesla-musk-electric-vehicles-robotaxis-robots-976cc9e895bbdcbd3728e7ba178ffe40"
+            },
+            {
+              "title": "Tesla Second Quarter 2026 Production, Deliveries & Deployments",
+              "publisher": "Tesla",
+              "url": "https://ir.tesla.com/press-release/tesla-second-quarter-2026-production-deliveries-and-deployments"
+            }
+          ],
+          "tags": ["Tesla", "EV", "ロボタクシー", "Optimus", "研究開発費"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "houthi-saudi-tankers",
+          "headline": "紅海タンカー攻撃、二重危機に",
+          "dek": "フーシ派はサウジタンカー2隻を攻撃したと主張した。ホルムズ閉鎖時の代替輸出路だった紅海側にも実害が出始めた。",
+          "importance": 3,
+          "facts": [
+            "APは23日、フーシ派がサウジのタンカーEnceliaとLaylaを紅海で攻撃したと主張したと報じた",
+            "サウジ国営通信は、Enceliaが紅海で攻撃され炎上したと伝えた",
+            "UKMTOは、サウジ南西約130キロの紅海でタンカーが飛翔体に当たったとの報告を受けた",
+            "フーシ派は今週、サウジ関連船舶に対するBab el-Mandeb海峡の封鎖を発表していた",
+            "APは、サウジがホルムズ制約下でYanbu港と陸上パイプラインへの依存を強めていると伝えた"
+          ],
+          "why_it_matters": "前号までは、紅海側はホルムズ危機時の代替輸出路として扱われていた。今日の差分は、その代替路自体が攻撃対象になり、湾岸原油の出口が二重に詰まる可能性が現実化した点である。",
+          "implications": "日本企業は、ホルムズ通航再開だけでなく、Yanbu、Bab el-Mandeb、スエズ、保険料、船腹、迂回日数をまとめて更新する必要がある。紅海リスクが続けば、原油100ドルだけでなくLNG・化学品・コンテナ物流にも波及し得る。",
+          "sources": [
+            {
+              "title": "Houthi rebels claim attack on Saudi oil tankers in Red Sea",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/iran-us-hormuz-strait-war-60d46bf8c83c43a8f2268b7b87627c55"
+            },
+            {
+              "title": "Yemen’s Houthis say they targeted two Saudi oil tankers",
+              "publisher": "Reuters / Internazionale",
+              "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/07/23/yemen-s-houthis-say-they-targeted-two-saudi-oil-tankers"
+            }
+          ],
+          "tags": ["フーシ派", "紅海", "サウジアラビア", "Bab el-Mandeb", "原油"]
+        },
+        {
+          "id": "rubio-lavrov-asean-ukraine",
+          "headline": "米露外相、ASEANで接触",
+          "importance": 2,
+          "facts": [
+            "APは23日、ルビオ米国務長官がマニラのASEAN関連会合でラブロフ露外相と会談したと報じた",
+            "ルビオ氏は、米国はウクライナ戦争終結を支援する用意があるが、早期合意への道筋はないと述べた",
+            "同会合の非公開協議は、中東戦争と南シナ海の緊張が中心議題だった",
+            "ルビオ氏は、米国が中東に集中していてもアジアへの関与を続けると説明した",
+            "APは、中国のミサイル実験や南シナ海での新たな衝突も会合の論点になったと伝えた"
+          ],
+          "why_it_matters": "ASEAN会合は、ホルムズ、ウクライナ、南シナ海が同じ場で扱われる外交舞台になった。米国の注意力と軍事資源が中東へ吸われるほど、アジア側では米国の関与継続を確認する必要が高まる。",
+          "sources": [
+            {
+              "title": "US is ready to help end the 'senseless war' in Ukraine but no quick deal ahead, Rubio says",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/asean-rubio-lavrov-russia-ukraine-502b5eb2dc21caf13fab7928acdc5b1e"
+            }
+          ],
+          "tags": ["ASEAN", "米露", "ウクライナ", "南シナ海", "外交"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "ecb-energy-pause",
+          "headline": "ECB、2.25%で据え置き",
+          "importance": 2,
+          "facts": [
+            "ECBは23日、預金ファシリティ金利を2.25%、主要リファイナンス金利を2.40%、限界貸出金利を2.65%に据え置いた",
+            "ECBは、エネルギー価格見通しは高い変動性を伴い、中東紛争前を大きく上回る水準にあると説明した",
+            "声明は、エネルギーショックの直接・間接影響と二次波及を監視するとした",
+            "ECBは、データ依存かつ会合ごとのアプローチを続け、特定の金利経路に事前コミットしないと説明した",
+            "APは、ユーロ圏の6月インフレ率が5月の3.2%から2.8%へ低下したと報じた"
+          ],
+          "why_it_matters": "ECBは6月に利上げした後、原油ショックがどこまで賃金・価格設定へ波及するかを確認する時間を買った。だがエネルギー価格が再上昇すれば、9月以降の再利上げ余地を残す必要がある。",
+          "implications": "欧州向け企業には、需要鈍化とエネルギーコスト再上昇が同時に来る可能性がある。為替では、米金利とECBの次の一手がドル高・円安圧力にも波及する。",
+          "sources": [
+            {
+              "title": "Monetary policy decisions",
+              "publisher": "European Central Bank",
+              "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260723~29f24d99bc.en.html"
+            },
+            {
+              "title": "Europe's central bank holds rates steady amid swings in oil prices",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/b89a1bcf29374108fb0f15621e33c788"
+            }
+          ],
+          "tags": ["ECB", "金融政策", "原油", "インフレ", "欧州"]
+        },
+        {
+          "id": "eu-ai-transparency-signature",
+          "headline": "EU AI透明性、署名期限迫る",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は、AI生成コンテンツ透明性Code of Practiceの署名フォーム提出期限を7月27日18時CESTとしている",
+            "初期署名者リストは、AI法の一般適用開始日である8月2日前に公表される予定である",
+            "対象には、合成音声、画像、動画、テキストを生成するAIシステムの提供者と、業務で深層偽造などを使うdeployersが含まれる",
+            "Codeは、機械可読マーキングと検出、深層偽造や公共的関心事項テキストのラベル表示を実務措置として扱う",
+            "非署名事業者も、8月2日以降はArticle 50への適合を別手段で示す必要がある"
+          ],
+          "why_it_matters": "AI投資が社会実装の段階に入るほど、生成物の表示、来歴、検出、責任分界は製品仕様になる。EUのCodeは任意署名でも、主要AI企業と利用企業が監査で説明すべき最低線になり得る。",
+          "implications": "EU向けに生成AI機能を持つサービスを出す日本企業は、モデル選定より前に、AI生成表示、深層偽造ラベル、人手確認の有無、機械可読マーキングの証跡を整理すべきである。",
+          "sources": [
+            {
+              "title": "Signing the Code of Practice on Transparency of AI-generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-code-practice-transparency-ai-generated-content"
+            },
+            {
+              "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
+            }
+          ],
+          "tags": ["EU AI法", "透明性", "Article 50", "生成AI", "規制"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AIインフラ投資はなぜ金融商品化するのか",
+    "dek": "Alphabet、Tesla、AMDのニュースは、AI競争がチップ性能だけでなく、電力、リース、出資、減価償却を含む資金循環の競争になったことを示す。",
+    "tags": ["AIインフラ", "資本支出", "ベンダーファイナンス", "データセンター", "半導体"],
+    "reading_minutes": 5,
+    "body_md": "## なぜ今この論点なのか\n\nAI相場は長く、モデル性能とGPU供給の物語として読まれてきた。だが2026年夏の焦点は少し変わった。Alphabetは広告とクラウドが強く、AI利用も広がっている。それでも市場は、年間2000億ドル規模に近づく資本支出をどう回収するのかを見ている。Teslaも販売台数は戻ったが、ロボタクシー、AI計算基盤、Optimusへ向かう研究開発費と設備投資が利益を削った。\n\n一方で、AMDはAnthropicに最大50億ドルを投資し、MI450とHeliosを最大2GW規模で導入する提携を示した。これは単なる半導体販売ではない。AI企業は計算資源を確保し、半導体メーカーは将来需要を固定し、双方が出資や長期契約でリスクを共有する。AIインフラは、技術プロジェクトであると同時に、巨額の金融取引になっている。\n\n## チップではなくシステムを買っている\n\n大規模AIの顧客が必要としているのはGPU単体ではない。ラック、CPU、ネットワーク、メモリー、冷却、電力、データセンター用地、運用ソフトウェア、人材までをまとめたシステムである。GPU性能が高くても、電力接続が遅れれば動かない。ネットワークが詰まれば学習効率は落ちる。ソフトウェアが未成熟なら、同じチップでも実効性能は下がる。\n\nこのため競争軸は、ベンチマークの数値から、何GWをいつ、どの顧客に、どの電力契約で納められるかへ移る。AMDのHeliosのようなラックスケール構成は、その変化を象徴している。顧客はチップを買うのではなく、AI工場の一部を買う。半導体メーカーは製品ロードマップだけでなく、供給網、資金、ソフトウェア互換性をまとめて売る必要がある。\n\n## ベンダーファイナンスの誘惑\n\nベンダーファイナンスとは、売り手が買い手の購入を資金面で支える仕組みである。通常の産業でも、航空機、通信設備、建設機械では珍しくない。AIで新しいのは、買い手の設備投資規模が巨大で、売り手自身の成長物語にも直結している点である。\n\n半導体メーカーやクラウド企業がAIスタートアップに出資し、その企業が自社のチップやクラウドを使う。これは戦略的には合理的である。顧客は計算資源を得る。売り手は需要を固定し、ソフトウェア最適化の相手を得る。投資家には将来売上の見通しを示せる。\n\nただし、同じ構造は循環取引に近づく危険も持つ。売り手が資金を入れ、その資金が売り手の商品購入に戻る場合、真の外部需要がどれだけあるのかを見極めにくくなる。会計上は売上が伸びても、顧客の資金繰り、リース負債、電力契約、減価償却が将来のボトルネックになる可能性がある。\n\n## 日本企業への読み方\n\n日本企業にとって、この変化は機会である。半導体製造装置、検査装置、材料、電源、冷却、光部品、建設、電力、蓄電池は、AI工場の構成要素になる。顧客の投資額が増えるほど、川上の受注は膨らみやすい。\n\n同時に、見るべき指標は変わる。受注残だけでは足りない。キャンセル不能か、顧客が資金を確保しているか、電力接続はいつか、稼働後の利用率は何%か、粗利率は維持できるかを見る必要がある。AIインフラの投資回収が遅れれば、最初に止まるのは追加発注であり、次に価格交渉が来る。\n\n## 結論\n\nAIインフラ投資は、需要がないから危ういのではない。需要が大きすぎるために、資本、電力、供給網、会計の制約が前面に出ている。市場が次に問うのは、誰が最も大きく投資するかではなく、誰が最も短い期間でその投資を利益に変えられるかである。日本の読者にとっては、AIを技術テーマとしてだけでなく、設備投資サイクルと信用サイクルの交差点として読むことが重要になる。",
+    "sources": [
+      {
+        "title": "Google's Q2 earnings beat Wall Street's expectations on AI boom",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/google-results-revenue-profit-ai-alphabet-f914606d842d4c6848019083d667fc3a"
+      },
+      {
+        "title": "Earnings at Musk's car company fall as research spending cuts into profit from selling cars",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/tesla-musk-electric-vehicles-robotaxis-robots-976cc9e895bbdcbd3728e7ba178ffe40"
+      },
+      {
+        "title": "AMD dan Anthropic Umumkan Kemitraan Strategis untuk Menerapkan GPU AMD Instinct MI450 Series hingga 2 Gigawatt",
+        "publisher": "AMD",
+        "url": "https://www.amd-id.com/amd-dan-anthropic-umumkan-kemitraan-strategis-untuk-menerapkan-gpu-amd-instinct-mi450-series-hingga-2-gigawatt/"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "AI相場は、需要確認から資本効率確認へ移り、受注残と同じ重さで粗利率、稼働率、資金調達条件を見る局面に入った",
+      "ホルムズと紅海が同時に詰まるリスクは、原油価格だけでなく米金利、円安、日銀判断、企業の価格改定を連鎖させる",
+      "GPIF国内回帰論は正式決定がなくても、円キャリーと米債需給の警戒材料になり得るため、政策発言の表現変化が重要になる",
+      "EUのAI透明性義務は、生成AI機能を持つ製品の表示・来歴・人手確認を監査可能な仕様へ変える圧力になる"
+    ],
+    "watchlist": [
+      {
+        "item": "Intel決算とAIデータセンター部門",
+        "why": "AI CPU需要、ファウンドリー採算、PC停滞の差分を見る",
+        "horizon": "7月23日米市場引け後"
+      },
+      {
+        "item": "紅海タンカー攻撃後の保険料とYanbu輸出",
+        "why": "ホルムズ代替路が実際に機能するかを確認するため",
+        "horizon": "7月24日以降"
+      },
+      {
+        "item": "FOMC前の原油100ドルと利上げ織り込み",
+        "why": "エネルギー主導のインフレ再加速をFedがどう扱うかを見る",
+        "horizon": "7月28〜29日"
+      },
+      {
+        "item": "EU AI透明性コードの初期署名者",
+        "why": "主要AI企業がマーキング・ラベル実務をどこまで受け入れるかを見る",
+        "horizon": "7月27日"
+      },
+      {
+        "item": "日銀会合前の円163円台と介入警戒",
+        "why": "利上げ観測、GPIF発言、財務省警告の組み合わせが市場を動かすため",
+        "horizon": "7月31日"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "ベンダーファイナンス",
+      "definition": "売り手が買い手の購入資金を出資、融資、リースなどで支える仕組み。AIでは半導体メーカーやクラウド企業が顧客の計算資源確保を資金面でも支える例が増えている。"
+    },
+    {
+      "term": "ラックスケール",
+      "definition": "チップ単体ではなく、サーバーラック全体を計算、ネットワーク、電力、冷却を含む一つの単位として最適化する設計。大規模AI学習・推論で重要になる。"
+    },
+    {
+      "term": "Bab el-Mandeb",
+      "reading": "バブ・エル・マンデブ",
+      "definition": "紅海とアデン湾を結ぶ海峡。スエズ運河経由の欧亜貿易と中東原油輸送の要所で、ホルムズ危機時の代替路にも関わる。"
+    },
+    {
+      "term": "Article 50",
+      "reading": "アーティクル・フィフティ",
+      "definition": "EU AI法でAI生成コンテンツの透明性義務を定める条文。機械可読マーキング、深層偽造ラベル、公共的関心事項テキストの表示が焦点になる。"
+    }
+  ]
+}
