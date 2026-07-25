@@ -1,0 +1,542 @@
+{
+  "date": "2026-07-25",
+  "edition": 13,
+  "generated_at": "2026-07-25T10:24:01+09:00",
+  "masthead_note": "原油はいったん100ドルを割ったが、FOMC、巨大テック決算、AI規制が同じ週に重なる",
+  "market_snapshot": {
+    "as_of": "7月24日 東京市場終値・米国市場終値",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "64,611.15円",
+        "change": "-2.73%",
+        "direction": "down",
+        "note": "AI投資懸念を受けた前日終値"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,011.31",
+        "change": "-1.05%",
+        "direction": "down",
+        "note": "2.24B株の商い"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "163.86円",
+        "change": "+0.01%",
+        "direction": "up",
+        "note": "40年ぶり円安圏で高止まり"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.823%",
+        "change": "+0.049pt",
+        "direction": "up",
+        "note": "日銀会合前に2.8%台"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.678%",
+        "direction": "down",
+        "note": "18カ月ぶり高水準から小幅低下"
+      },
+      {
+        "label": "ブレント原油",
+        "value": "96.78ドル",
+        "change": "-3.9%",
+        "direction": "down",
+        "note": "前日の102ドル近辺から反落"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,411.98",
+        "change": "+0.05%",
+        "direction": "up",
+        "note": "週間では0.6%安"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "24,975.82",
+        "change": "-0.6%",
+        "direction": "down",
+        "note": "週間では2.1%安"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米株は週末に小動き。次週はFOMCとMicrosoft、Meta、AmazonなどのAI投資説明が焦点",
+      "ref": "fed-ai-earnings-test"
+    },
+    {
+      "text": "日本の6月コアCPIは1.6%。円安・原油高でも日銀目標を5カ月連続で下回った",
+      "ref": "japan-cpi-boj-watch"
+    },
+    {
+      "text": "Nvidia、Microsoft、MetaなどがオープンウェイトAI擁護を米政策当局へ訴えた",
+      "ref": "open-weight-ai-letter"
+    },
+    {
+      "text": "FordとGeelyはスペインで合弁。中国EV勢は欧州関税を現地生産で越えに行く",
+      "ref": "ford-geely-europe-jv"
+    },
+    {
+      "text": "米イラン紛争は商船への発砲と紅海攻撃へ拡大。原油は反落後も地政学プレミアムが残る",
+      "ref": "us-iran-blockade-escalates"
+    },
+    {
+      "text": "強制労働関税に米国内訴訟。通商政策は人権監査と行政権限の争点になった",
+      "ref": "forced-labor-tariff-lawsuit"
+    }
+  ],
+  "top_story": {
+    "id": "fed-ai-earnings-test",
+    "headline": "FOMC・AI決算、米市場の二重審査へ",
+    "dek": "米株は週末に落ち着いたが、Nasdaqは週間2.1%安だった。次週はFOMCと巨大テック決算が重なり、原油高、金利、AI投資採算が同時に試される。",
+    "importance": 3,
+    "facts": [
+      "APは24日、S&P500が7,411.98で小幅高、Dowが51,947.25で0.5%高、Nasdaqが24,975.82で0.6%安だったと伝えた",
+      "同報道によると、週間ではS&P500が0.6%安、Dowが0.4%安、Nasdaqが2.1%安だった",
+      "ブレント原油は前日に102ドル近辺へ上昇した後、24日は3.9%安の96.78ドルで引けた",
+      "Reutersは、次週の米市場がFOMCとAI関連を含む大型テック決算に左右されると報じた",
+      "APは、次週FOMCでの利上げ確率が38%まで上がったと伝えた"
+    ],
+    "why_it_matters": "市場の問いは、AI需要があるかだけではなく、原油高で割引率が上がる中でもAI投資を正当化できるかへ移った。AlphabetとTeslaで始まった投資採算への疑念は、Microsoft、Meta、Amazon、Appleの説明で確認される。FOMCはエネルギー主導のインフレをどう扱うかを示すため、AI株のバリュエーションにも直結する。",
+    "implications": "日本株では、半導体装置や電子部品の受注期待と、顧客のフリーキャッシュフロー悪化への警戒が同時に走りやすい。原油が再び100ドルを超えれば、米金利、円安、日銀会合、輸入物価が連鎖し、AIテーマだけでなく内需・金融・エネルギー株の相対評価も動く可能性がある。",
+    "sources": [
+      {
+        "title": "Stocks waver on Wall Street while crude oil prices fall for the first time in a week",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/0b9c3b2aa5ca83eb391c1388efe03c97"
+      },
+      {
+        "title": "How major US stock indexes fared Friday 7/24/2026",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/02d01b8f38ccd51f605c4414cdd4fa9b"
+      },
+      {
+        "title": "US stocks face tests from Fed decision, tech-led earnings deluge",
+        "publisher": "Reuters / Investing.com",
+        "url": "https://www.investing.com/news/economy-news/us-stocks-face-tests-from-fed-decision-techled-earnings-deluge-4810946"
+      }
+    ],
+    "tags": ["FOMC", "AI投資", "米株", "原油", "金利"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "japan-cpi-boj-watch",
+          "headline": "日本CPI1.6%、日銀判断を抑制",
+          "dek": "円安と原油高で輸入物価への不安は強いが、6月コアCPIは日銀目標を5カ月連続で下回った。7月31日の会合は、追加利上げの時期より説明の整合性が焦点になる。",
+          "importance": 3,
+          "facts": [
+            "Reutersは24日、日本の6月コアCPIが前年同月比1.6%上昇したと報じた",
+            "5月の1.4%から伸びは加速したが、日銀の2%目標は5カ月連続で下回った",
+            "生鮮食品と燃料を除く指数は前年同月比1.7%上昇し、5月の1.8%から鈍化した",
+            "日銀は7月31日に金融政策決定会合の声明と展望レポートを公表する予定である",
+            "USD/JPYは24日終値近辺で163.86円と、1986年以来の円安圏にある"
+          ],
+          "why_it_matters": "日本は、円安・原油高・長期金利上昇という利上げ材料を抱える一方、基調物価はまだ2%に届かない。日銀が早く動けば景気を冷やし、遅く動けば為替と輸入インフレを放置する形になる。市場は、物価データそのものより、日銀が外的ショックをどこまで政策反応関数に入れるかを見ている。",
+          "implications": "日銀が据え置いても、円安やJGB需給への説明が弱ければ市場は追加利上げを織り込み続ける可能性がある。輸入企業、電力、航空、食品では、為替前提と燃料前提の見直しが7月末決算説明の焦点になりやすい。",
+          "sources": [
+            {
+              "title": "Japan June core inflation accelerates, stays below BOJ target",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/economy-news/japan-june-core-inflation-accelerates-stays-below-boj-target-4810305"
+            },
+            {
+              "title": "Release Schedule",
+              "publisher": "Bank of Japan",
+              "url": "https://www.boj.or.jp/en/about/calendar/index.htm"
+            },
+            {
+              "title": "USD JPY Historical Data",
+              "publisher": "Investing.com",
+              "url": "https://www.investing.com/currencies/usd-jpy-historical-data"
+            }
+          ],
+          "tags": ["日本CPI", "日銀", "円安", "JGB", "金融政策"]
+        },
+        {
+          "id": "yen-jgb-policy-pressure",
+          "headline": "円安・JGB、外圧も強まる",
+          "importance": 2,
+          "facts": [
+            "Investing.comは24日の日本10年債利回りを2.823%、前日比0.049pt上昇と示した",
+            "Japan Bond Tradingのデータでは、10年JGBレートは23日に2.770%だった",
+            "WSJは24日、ドルが対円で165円に近づき、米イラン停戦までは強含みやすいとの見方を伝えた",
+            "Economic Timesは、米財務省が日銀に利上げ継続を促したと報じた"
+          ],
+          "why_it_matters": "円安が日本国内だけの問題ではなく、米国のインフレ、貿易、金融安定の論点にもなり始めた。JGB利回りが2.8%台へ上がると、政府の利払い、銀行の含み損、家計の住宅ローン、企業の資本コストが同時に動く。",
+          "implications": "日銀会合前は、為替介入警戒、国債買い入れ、GPIF国内回帰論、米国の対日発言が一つの材料群として扱われやすい。急な円高反転があれば、日本株の外需・半導体だけでなく、米株の円キャリー解消にも波及する可能性がある。",
+          "sources": [
+            {
+              "title": "Japan 10-Year Bond Historical Data",
+              "publisher": "Investing.com",
+              "url": "https://ca.investing.com/rates-bonds/japan-10-year-bond-yield-historical-data"
+            },
+            {
+              "title": "JGB Rates Historical Data",
+              "publisher": "Japan Bond Trading",
+              "url": "https://www.bb.jbts.co.jp/en/historical/main_rate.html"
+            },
+            {
+              "title": "Dollar Could Stay Strong Until U.S.-Iran Ceasefire Agreed",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/finance/currencies/yen-consolidates-near-40-year-low-vs-dollar-may-weaken-further-cc2a60ae"
+            }
+          ],
+          "tags": ["円安", "JGB", "米財務省", "日銀", "キャリートレード"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "open-weight-ai-letter",
+          "headline": "米AI大手、オープン重み擁護",
+          "dek": "Nvidia、Microsoft、Meta、Palantirなどが、オープンウェイトAIを一律に縛らないよう米政策当局へ訴えた。Kimi K3を巡る対中警戒が、米国内のAI産業政策を割っている。",
+          "importance": 3,
+          "facts": [
+            "Business Insiderは25日、Microsoft、Meta、Nvidia、OpenAI、PalantirなどがオープンウェイトAIを制限しないよう求める書簡に関与したと報じた",
+            "FTは、Nvidia、Palantir、Microsoft、Meta、IBMなどが米政府にオープンウェイトAIへの制限を避けるよう求めたと伝えた",
+            "書簡は、オープンウェイトモデルが研究、競争、安全性検証、主権的なAI導入に重要だと主張している",
+            "背景には、中国Moonshot AIのKimi K3と、米国当局による中国AI企業への標的型措置の議論がある",
+            "報道では、広範な禁止ではなく、違法な抽出や悪用に絞った対応を求める論点が示された"
+          ],
+          "why_it_matters": "AI政策の対立軸は、米国対中国だけではない。米国内でも、閉じた最先端モデルで価値を守りたい企業と、オープンモデルの普及でGPU、クラウド、ソフトウェア、企業導入を広げたい企業の利害が分かれる。オープンウェイトは、安全保障上のリスクであると同時に、産業競争力の拡散装置でもある。",
+          "implications": "日本企業がAI基盤を選ぶ際も、米国の規制が閉鎖型API、オープンウェイト、国内ホスティングのコスト差を変える可能性がある。機密データを外部APIに出せない業務では、ライセンス、評価、監査、GPU調達をセットにした自社運用の選択肢を残す意味が増す。",
+          "sources": [
+            {
+              "title": "Microsoft, Meta, Nvidia, OpenAI, and Palantir have a message for Washington",
+              "publisher": "Business Insider",
+              "url": "https://www.businessinsider.com/microsoft-nvidia-meta-palantir-jensen-huang-open-source-ai-letter-2026-7"
+            },
+            {
+              "title": "Nvidia and Palantir urge US not to ban 'open' AI models after China scare",
+              "publisher": "Financial Times",
+              "url": "https://www.ft.com/content/3203fc9a-2321-44f8-8093-b7e16c8fc6d7"
+            },
+            {
+              "title": "White House draws new AI line on China",
+              "publisher": "Axios",
+              "url": "https://www.axios.com/2026/07/24/white-house-ai-line-china"
+            }
+          ],
+          "tags": ["オープンウェイト", "Nvidia", "Microsoft", "Meta", "AI政策"]
+        },
+        {
+          "id": "kimi-k3-memory-wall",
+          "headline": "Kimi K3、重み公開前に容量制約",
+          "importance": 2,
+          "facts": [
+            "APは21日、Moonshot AIのKimi K3が需要急増で新規サブスクリプションを一時停止したと報じた",
+            "Reutersは、Kimi K3が2.8兆パラメータのオープンウェイトAIとして発表されたと報じた",
+            "Natureは、Kimi K3の重みは7月27日に公開予定だと伝えた",
+            "Natureは、モデルの規模が大きいため利用拡大には計算資源の制約が残るとの専門家見解を紹介した"
+          ],
+          "why_it_matters": "Kimi K3は、オープンウェイトAIが民主化を意味する一方で、実際には大規模GPUと高速メモリーを持つ事業者に運用が集中しやすいことを示した。公開されるのはモデルの所有権であり、低コスト運用が自動的に付いてくるわけではない。",
+          "implications": "日本企業が中国製オープンモデルを評価する場合、性能だけでなく、ライセンス、推論コスト、国内ホスティング可否、サイバー安全性、米国規制リスクを同時に確認する必要がある。重み公開後の実測ベンチマークが重要になる。",
+          "sources": [
+            {
+              "title": "China's new AI model halts new subscriptions as demand swamps capacity",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/4c66a2e0f557ce79d3cc2d769c9a6226"
+            },
+            {
+              "title": "China’s Moonshot unveils world’s largest open AI model, closing in on US rivals",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/chinas-moonshot-unveils-worlds-largest-open-ai-model-closing-in-on-us-rivals-4797347"
+            },
+            {
+              "title": "Does China’s latest AI model finally equal US rivals? What scientists think",
+              "publisher": "Nature",
+              "url": "https://www.nature.com/articles/d41586-026-02281-2"
+            }
+          ],
+          "tags": ["Kimi K3", "Moonshot AI", "中国AI", "GPU", "オープンウェイト"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "intel-stock-capex-panic",
+          "headline": "Intel好決算でも株安",
+          "dek": "売上高とAI需要は強かったが、投資負担への警戒が株価を押し下げた。AI半導体相場は、成長率より資本効率を先に問う局面に入った。",
+          "importance": 2,
+          "facts": [
+            "Barron'sは24日、Intel株が好決算後も7.9%下落したと報じた",
+            "同報道によると、Intelは2026年の設備投資見通しを180億ドルから200億ドル超へ引き上げた",
+            "前日発表のIntel第2四半期売上高は前年同期比25%増の161億ドルだった",
+            "MarketWatchは、IntelとMicronなど半導体株が24日に下落し、SOXXが2.5%安だったと伝えた"
+          ],
+          "why_it_matters": "昨日はIntelのAI推論需要を評価したが、今日の差分は市場が設備投資の重さを嫌った点である。AI半導体企業は需要不足で売られているのではなく、需要に応えるための投資額、希薄化、FCF、先端プロセスの採算で売られている。",
+          "implications": "日本の装置・材料企業には受注機会が残る一方、顧客が投資採算を疑われるほど発注のタイミングは荒くなる。AI関連株を見る際は、売上成長率、capex、在庫、稼働率、顧客の資金調達を一枚で確認すべきである。",
+          "sources": [
+            {
+              "title": "Intel's Strong Earnings Couldn't Save the Stock From an AI Spending Panic",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/articles/intel-stock-price-earnings-ai-panic-0c53fe8c"
+            },
+            {
+              "title": "Why Intel, Micron and other major chip stocks are falling",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/why-micron-and-other-major-chip-stocks-are-falling-even-as-the-rest-of-tech-holds-up-506851dc"
+            },
+            {
+              "title": "Intel Reports Second-Quarter 2026 Financial Results",
+              "publisher": "Intel / PublicNow",
+              "url": "https://www.publicnow.com/view/DFD786CAC6455060E4C33C013A3EE7AB4AB38AF6"
+            }
+          ],
+          "tags": ["Intel", "AI半導体", "設備投資", "FCF", "半導体株"]
+        },
+        {
+          "id": "ford-geely-europe-jv",
+          "headline": "Ford・Geely、欧州生産で合弁",
+          "importance": 2,
+          "facts": [
+            "FordとGeely Autoは23日、スペイン・バレンシア工場で欧州向け合弁を設立する計画を発表した",
+            "出資比率はFordが66%、Geely Autoが34%で、規制当局の承認後に2027年前半の運営開始を見込む",
+            "Fordは、新型マルチエネルギー・クロスオーバー、Bronco派生車、Geelyの電動SUV2車種を2028年から生産すると説明した",
+            "Reutersは、GeelyがEU関税や現地調達ルールを見据え、既存自動車工場を活用する動きだと報じた"
+          ],
+          "why_it_matters": "中国EVメーカーの欧州戦略は、輸出から現地生産へ移っている。欧州メーカーは余剰設備を抱え、中国勢は関税と政治摩擦を避けたい。両者の利害が一致すると、競争相手同士が同じ工場を使う構造が生まれる。",
+          "implications": "日本車メーカーにとって、欧州市場は価格競争だけでなく、工場稼働率、現地雇用、ソフトウェア、電動化規制を組み合わせた競争になる。中国勢が現地生産を広げれば、EUの対中関税だけで守れる余地は狭くなる。",
+          "sources": [
+            {
+              "title": "Ford and Geely Auto Join Forces in Europe to Produce Next-Generation Multi-Energy Vehicles in Spain",
+              "publisher": "Ford",
+              "url": "https://www.fromtheroad.ford.com/eur/en/articles/2026/ford-and-geely-auto-join-forces-in-europe"
+            },
+            {
+              "title": "China’s Geely to make electric SUVs at Ford Spain plant, jointly develop model for Europe",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/chinas-geely-to-make-electric-suvs-at-ford-spain-plant-jointly-develop-model-for-europe-4807939"
+            },
+            {
+              "title": "Ford to partner with Chinese automaker Geely in Spain in new joint venture",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/475494783c415901cd031376220e551f"
+            }
+          ],
+          "tags": ["Ford", "Geely", "EV", "欧州自動車", "関税"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "us-iran-blockade-escalates",
+          "headline": "米イラン、商船発砲で緊迫",
+          "dek": "米軍はイラン港湾封鎖を破ろうとした商船へ発砲したと発表した。紅海とホルムズの危機は、軍事衝突から保険・港湾・船員の実務危機へ広がっている。",
+          "importance": 3,
+          "facts": [
+            "APは24日、米軍がイラン港湾封鎖を破ろうとした商船M/T Lavineへ発砲したと報じた",
+            "同報道によると、イランはイラク、クウェート、バーレーンの米軍基地へドローン攻撃を実施した",
+            "サウジアラビアは、紅海でサウジ船舶を攻撃したフーシ派への攻撃を実施した",
+            "APは、紛争海域周辺で6,000人超の船員が足止めされ、補給不足に直面していると伝えた",
+            "Reutersは、米軍の対イラン空爆が13夜連続になったと報じた"
+          ],
+          "why_it_matters": "前号までは原油価格とチョークポイントが焦点だった。今日の差分は、封鎖を破る船舶への実力行使、船員の滞留、サウジの対フーシ反撃へ進み、エネルギー市場の問題が海上実務の停止リスクへ深まった点である。",
+          "implications": "日本企業は、原油スポット価格だけでなく、船舶保険料、配船、港湾寄港、乗組員交代、LNG契約の不可抗力条項を確認する必要がある。原油が一日反落しても、実物流が詰まれば在庫と運賃の圧力は遅れて出る。",
+          "sources": [
+            {
+              "title": "US military says it fired on another merchant vessel trying to breach its blockade of Iranian ports",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/78c2dbf538f6e61ab816479a4d9bdd85"
+            },
+            {
+              "title": "Trump vows to punish Iran and Houthis for attacks in Red Sea",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/commodities-news/trump-vows-to-punish-iran-and-houthis-for-attacks-in-red-sea-4810448"
+            },
+            {
+              "title": "Trump Says Iran Will Be Held Responsible for Future Houthi Attacks",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/world/middle-east/trump-says-iran-will-held-responsible-for-future-houthi-attacks-0bc23ec0"
+            }
+          ],
+          "tags": ["米イラン", "ホルムズ", "紅海", "フーシ派", "海上封鎖"]
+        },
+        {
+          "id": "asean-ukraine-south-china-sea",
+          "headline": "ASEAN外交、三正面を処理",
+          "importance": 2,
+          "facts": [
+            "APは23日、ルビオ米国務長官がマニラでラブロフ露外相と会談し、ウクライナ戦争に早期合意の道筋はないと述べたと報じた",
+            "同報道によると、ASEAN関連会合では中東紛争と南シナ海の緊張も主要議題になった",
+            "ルビオ氏は、中国のミサイル実験と南シナ海での衝突に懸念を示した",
+            "ASEANは中国との行動規範を年内にまとめ、偶発的衝突を抑えることを目指している"
+          ],
+          "why_it_matters": "米国が中東へ軍事資源を割くほど、ウクライナとアジアの同盟国は米国の関与継続を確認する必要が高まる。ASEAN会合は、欧州戦争、中東危機、南シナ海が同時に扱われる場になった。",
+          "implications": "日本にとっては、中東のエネルギー安全保障と南シナ海の物流安全保障が切り離せない。米国の注意力が分散するほど、Quad、ASEAN、日本独自の海上監視・防衛協力の実効性が問われる。",
+          "sources": [
+            {
+              "title": "US is ready to help end the 'senseless war' in Ukraine but no quick deal ahead, Rubio says",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/502b5eb2dc21caf13fab7928acdc5b1e"
+            }
+          ],
+          "tags": ["ASEAN", "ウクライナ", "南シナ海", "米露", "外交"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "forced-labor-tariff-lawsuit",
+          "headline": "強制労働関税、米国内で提訴",
+          "dek": "60経済に及ぶ10〜12.5%関税は、発動直後に米国企業から訴えられた。政策の焦点は関税率だけでなく、Section 301をどこまで広く使えるかへ移った。",
+          "importance": 3,
+          "facts": [
+            "APは24日、米国が強制労働輸入禁止の執行不足を理由に60経済へ10〜12.5%の関税を課したと報じた",
+            "対象は米国輸入の99%超に及ぶ一方、石油、肥料、USMCA対象品など一部品目は除外される",
+            "APは、EU、日本、韓国、豪州、ニュージーランド、中国などが反発したと伝えた",
+            "WSJは、Liberty Justice Centerが国際貿易裁判所で新関税に異議を申し立てたと報じた",
+            "訴訟の原告には、時計販売会社Collective Horologyとスパイス輸入会社Burlap & Barrelが含まれる"
+          ],
+          "why_it_matters": "米通商政策は、最高裁で退けられた一律関税から、人権・労働監査を根拠にしたSection 301関税へ組み替わった。だが対象が広すぎると、強制労働対策という政策目的と、包括関税を復活させる行政権限の問題が衝突する。",
+          "implications": "企業は関税率だけでなく、訴訟リスク、品目除外、監査証跡、顧客との関税負担条項を同時に管理する必要がある。日本政府と産業界は、反論するだけでなく、強制労働輸入禁止の制度整備と実効性をどう示すかを問われる可能性がある。",
+          "sources": [
+            {
+              "title": "New US tariffs linked to claims of foreign forced labor dismay and anger trading partners",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/b178ead12f022009817c60010ac07eb3"
+            },
+            {
+              "title": "What to know about Trump's latest tariffs",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/160b5c76b005a5d703cdcc4644f7cdc9"
+            },
+            {
+              "title": "New Lawsuit Challenges Trump's Latest Global Tariff Regime",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-24-2026/card/new-lawsuit-challenges-trump-s-latest-global-tariff-regime-f5CAzsW9heX6DvpWHBi5"
+            }
+          ],
+          "tags": ["関税", "Section 301", "強制労働", "訴訟", "通商政策"]
+        },
+        {
+          "id": "google-eu-ai-code",
+          "headline": "Google、EU AI透明性コード署名",
+          "importance": 2,
+          "facts": [
+            "Googleは24日、EU AI法のAI生成コンテンツ透明性Code of Practiceに署名すると表明した",
+            "Googleは、C2PA標準とSynthIDを含む透明性ツールの採用を進めていると説明した",
+            "欧州委員会は、初期署名者リストに入るための提出期限を7月27日18時CESTとしている",
+            "AI法Article 50の透明性義務は8月2日から適用される",
+            "欧州委員会は、コード署名事業者は義務順守を示す実務措置としてコードを利用できると説明している"
+          ],
+          "why_it_matters": "生成AIの規制は、モデルの危険性評価だけでなく、生成物の表示、検出、来歴管理へ広がっている。Googleの署名は、欧州で事業を続ける大手AI企業が、透明性を製品機能として組み込む流れを示す。",
+          "implications": "日本企業がEU向けに生成AI機能を提供する場合、AI生成表示、深層偽造ラベル、機械可読マーキング、ログ保存、人手確認を仕様書と監査資料に落とし込む必要がある。非署名企業も、8月2日以降は別手段で同等性を説明しなければならない。",
+          "sources": [
+            {
+              "title": "Google signs EU AI Act Transparency Code of Practice",
+              "publisher": "Google",
+              "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/"
+            },
+            {
+              "title": "Signing the Code of Practice on Transparency of AI-generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-code-practice-transparency-ai-generated-content"
+            },
+            {
+              "title": "Code of Practice on Transparency of AI-Generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+            }
+          ],
+          "tags": ["EU AI法", "Google", "透明性", "C2PA", "Article 50"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AI生成表示はなぜ製品仕様になるのか",
+    "dek": "EU AI法の透明性義務とGoogleの署名は、生成AIの規制が理念からUI、ログ、透かし、監査証跡へ移ることを示す。",
+    "tags": ["EU AI法", "生成AI", "透明性", "C2PA", "SynthID"],
+    "reading_minutes": 5,
+    "body_md": "## なぜ今この論点なのか\n\nEUでは8月2日から、AI法Article 50の透明性義務が適用される。対象は、合成音声、画像、動画、テキストを生成するAIシステムの提供者と、業務で深層偽造や公共的関心事項のAI生成テキストを使う事業者である。欧州委員会は、透明性Code of Practiceの初期署名期限を7月27日18時CESTに設定した。Googleは24日、このコードに署名すると表明した。\n\n重要なのは、これは抽象的な倫理宣言ではないという点である。AI生成物をどう表示するか、機械が読める形でどうマーキングするか、検出ツールとどう連携するか、深層偽造や公共的関心事項のテキストにどのラベルを出すかという、製品仕様そのものの話である。生成AIの規制は、モデルの能力評価から、ユーザーが見る画面と監査人が読む証跡へ移っている。\n\n## 透明性はUIだけでは足りない\n\n多くの企業は、AI生成コンテンツへの対応を「AIで作成」と表示することだと考えがちである。だがEUのコードが見ている範囲はもう少し広い。提供者側には、生成・操作されたコンテンツを機械可読形式でマーキングし、検出に必要な仕組みを整えることが求められる。利用者側には、深層偽造や公共的関心事項のAI生成テキストを人間に分かる形で開示することが求められる。\n\nつまり、画面上のラベルだけでは不十分になり得る。画像や動画のメタデータ、透かし、来歴情報、生成ログ、モデル名、編集履歴、表示タイミング、ユーザーがラベルを消せるかどうかまで設計対象になる。GoogleがC2PAやSynthIDに言及したのは、このためである。AI生成表示は法務部門の注意書きではなく、プロダクト、セキュリティ、データ基盤が扱う機能になる。\n\n## なぜ企業実務に重いのか\n\n第一に、透明性は国境を越える。EU向けサービスだけ別仕様にすることはできても、広告、ニュース、EC、金融、教育、採用、社内文書などでAI生成物が流通するほど、地域別に表示ルールを分ける運用は複雑になる。大企業ほど、EU仕様を事実上の標準として全世界に広げる誘因がある。\n\n第二に、責任分界が難しい。モデル提供者、アプリ提供者、広告主、編集者、外部制作会社、社内利用者の誰がラベルを付けるのか。APIで生成した画像を人間が加工した場合、どこまでAI生成と表示するのか。顧客が持ち込んだ生成物を自社サイトに掲載した場合、誰が来歴を確認するのか。透明性義務は、単にAI企業だけでなく、AIを業務で使うすべての企業に波及する。\n\n第三に、監査可能性が問われる。規制当局や取引先から説明を求められた時、企業は「表示していたはずだ」では足りない。どのモデルで、いつ、どのコンテンツを生成し、どの表示を出し、ユーザーがどう確認したかを後から示す必要がある。これはログ設計と保存期間、個人情報保護、改ざん防止の問題でもある。\n\n## 日本企業への読み方\n\n日本企業にとって、EU AI法は欧州の遠い規制ではない。EU向けにアプリ、広告、EC、ゲーム、メディア、SaaS、業務ツールを提供する企業は、生成AI機能の表示と来歴管理を仕様に入れる必要がある。欧州拠点を持たなくても、EU域内ユーザーにサービスを提供すれば対応が必要になる場合がある。\n\n実務の出発点は、AI生成物を棚卸しすることだ。画像、動画、音声、チャット回答、商品説明、広告文、社内資料、営業メール、翻訳文のうち、どれがユーザーや社会へ出るのかを分ける。その上で、表示が必要なもの、機械可読マーキングが必要なもの、人手確認が必要なもの、ログ保存が必要なものを分ける。調達するAIサービスには、C2PA、透かし、ログ出力、モデル更新通知、削除・訂正手順を確認すべきである。\n\n## 結論\n\nAI生成表示は、今後の生成AIプロダクトにおける安全装置であり、同時に市場アクセスの条件になる。優れたモデルを使っていても、生成物の来歴を説明できなければ、広告主、規制当局、顧客企業から採用されにくくなる。反対に、表示、透かし、ログ、人手確認を最初から設計している企業は、規制対応をコストではなく信頼機能として売ることができる。生成AIの競争は、出力の品質だけでなく、その出力がどのように作られ、誰が確認し、後から検証できるかまで含む競争に変わりつつある。",
+    "sources": [
+      {
+        "title": "Google signs EU AI Act Transparency Code of Practice",
+        "publisher": "Google",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/"
+      },
+      {
+        "title": "Signing the Code of Practice on Transparency of AI-generated Content",
+        "publisher": "European Commission",
+        "url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-code-practice-transparency-ai-generated-content"
+      },
+      {
+        "title": "Code of Practice on Transparency of AI-Generated Content",
+        "publisher": "European Commission",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "AI相場は、FOMCで割引率を確認し、巨大テック決算で投資回収力を確認する二段階の審査に入る",
+      "日本はCPIが2%未満でも円安・JGB高・原油高が同時に進み、日銀は国内物価と外的ショックの説明を迫られる",
+      "オープンウェイトAIは、米中対立だけでなく米国内の産業利害も分けるため、モデル規制は一律禁止より標的型に向かう可能性がある",
+      "EU AI透明性義務は、生成AIのUI、透かし、ログ、監査証跡を製品選定の条件へ押し上げる"
+    ],
+    "watchlist": [
+      {
+        "item": "7月28〜29日のFOMC",
+        "why": "原油高と関税が利上げ確率、米10年債、AI株評価にどう反映されるかを見る",
+        "horizon": "7月28〜29日"
+      },
+      {
+        "item": "Microsoft・Meta・Amazon決算",
+        "why": "AI capex、FCF、リース負債、データセンター稼働率の説明が市場を左右する",
+        "horizon": "7月下旬"
+      },
+      {
+        "item": "Kimi K3の7月27日重み公開",
+        "why": "ライセンス、実運用コスト、米国の標的型規制の有無を確認する",
+        "horizon": "7月27日以降"
+      },
+      {
+        "item": "EU AI透明性コード初期署名者",
+        "why": "主要AI企業が表示・マーキング実務をどこまで受け入れるかを見る",
+        "horizon": "7月27日"
+      },
+      {
+        "item": "7月31日の日銀会合",
+        "why": "CPI1.6%、円163円台、JGB2.8%台、原油高への政策説明を確認する",
+        "horizon": "7月31日"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "オープンウェイト",
+      "definition": "学習済みモデルの重みを利用者が取得し、自社環境で実行・調整できる形。学習データやコードまで公開する厳密なオープンソースとは異なる。"
+    },
+    {
+      "term": "C2PA",
+      "reading": "シーツーピーエー",
+      "definition": "デジタルコンテンツの来歴や編集履歴を示すための標準化団体・仕様。AI生成画像や動画の出所表示で参照される。"
+    },
+    {
+      "term": "Article 50",
+      "reading": "アーティクル・フィフティ",
+      "definition": "EU AI法の透明性義務を定める条文。AI生成コンテンツの機械可読マーキングや深層偽造の表示が焦点になる。"
+    },
+    {
+      "term": "Section 301",
+      "reading": "セクション・サンマルイチ",
+      "definition": "米通商法301条。外国政府の不公正な行為に対し、USTRが調査し関税などの対抗措置を取る根拠になる。"
+    }
+  ]
+}
