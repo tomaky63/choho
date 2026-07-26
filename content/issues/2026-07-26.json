@@ -1,0 +1,520 @@
+{
+  "date": "2026-07-26",
+  "edition": 14,
+  "generated_at": "2026-07-26T13:11:50+09:00",
+  "masthead_note": "米イランは空爆停止と交渉へ動くが、ホルムズと紅海の物流リスクは残った",
+  "market_snapshot": {
+    "as_of": "7月24日 東京市場・米国市場終値（週末のため26日時点で直近終値）",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "64,611.15円",
+        "change": "-2.73%",
+        "direction": "down",
+        "note": "AI投資採算懸念で半導体株が下落"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,011.31",
+        "change": "-1.05%",
+        "direction": "down",
+        "note": "国内需給株が下支え"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "163円台後半",
+        "direction": "up",
+        "note": "40年ぶり円安圏"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.8%近辺",
+        "direction": "up",
+        "note": "日銀会合前に高止まり"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.679%",
+        "change": "-0.024pt",
+        "direction": "down",
+        "note": "原油反落で小幅低下"
+      },
+      {
+        "label": "ブレント原油",
+        "value": "96.78ドル",
+        "change": "-3.88%",
+        "direction": "down",
+        "note": "前日の102ドルから反落"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,411.98",
+        "change": "+0.05%",
+        "direction": "up",
+        "note": "週間では0.6%安"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "24,975.82",
+        "change": "-0.64%",
+        "direction": "down",
+        "note": "週間では2.1%安"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米軍は対イラン空爆を停止。交渉はホルムズ通航制限の緩和を軸に進む",
+      "ref": "us-iran-pause-hormuz-talks"
+    },
+    {
+      "text": "米株は週末に小動きだが、次週FOMCと巨大テック決算がAI相場を試す",
+      "ref": "fomc-tech-earnings-countdown"
+    },
+    {
+      "text": "日銀は7月31日に声明と展望レポート。円安・原油・JGB高をどう説明するかが焦点",
+      "ref": "boj-yen-jgb-countdown"
+    },
+    {
+      "text": "NvidiaやMicrosoftなどがオープンウェイトAI擁護。Kimi K3が米政策論争を刺激した",
+      "ref": "open-weight-policy-split"
+    },
+    {
+      "text": "SAPはQ2クラウド売上24%増。企業AIはデータ統制と業務基盤の競争に移る",
+      "ref": "sap-cloud-ai-resilience"
+    },
+    {
+      "text": "EUはAI透明性義務の指針を公表。非署名企業も8月2日から説明責任を負う",
+      "ref": "eu-ai-transparency-deadline"
+    }
+  ],
+  "top_story": {
+    "id": "us-iran-pause-hormuz-talks",
+    "headline": "米イラン、空爆停止でも海峡焦点",
+    "dek": "米軍は13夜連続の攻撃後に対イラン空爆を止め、仲介外交が進む。だが交渉の中心はホルムズ通航を誰が、どの条件で管理するかであり、原油と海運の不確実性は消えていない。",
+    "importance": 3,
+    "facts": [
+      "APは26日、米軍が約2週間続けた対イラン空爆を停止し、外交努力が進んでいると報じた",
+      "APによると、米イラン双方は6月の暫定停戦へ戻ることを模索し、交渉はホルムズ海峡の船舶通航制限緩和を中心に進んでいる",
+      "ホルムズ海峡は通常、世界の石油の約20%が通る重要航路である",
+      "トランプ大統領は24日、交渉を続ける一方で追加攻撃の可能性も排除しないと述べた",
+      "APは、米軍が封鎖違反を試みたモザンビーク船籍船を25日に無力化したとも伝えた"
+    ],
+    "why_it_matters": "市場が見るべき差分は、軍事衝突が一服したことではなく、通航秩序の交渉が始まったことである。イランは沿岸寄りの航路や料金徴収を求め、米国は監視と封鎖で対抗してきた。合意があっても、海峡の管理権が曖昧なら保険料、配船、在庫積み増しのコストは残る。",
+    "implications": "原油価格は一日反落しても、物流リスクが制度化すれば日本のエネルギー調達コストは下がりにくい。電力、化学、航空、海運、商社は、スポット価格だけでなく船舶保険、迂回日数、LNG契約、不可抗力条項を同時に確認する必要がある。",
+    "sources": [
+      {
+        "title": "Airstrikes have paused and talks are pressing forward. But can the US and Iran take the off-ramp?",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/iran-war-trump-diplomacy-netanyahu-d491158a4c9a1d3429a87a6ed58f2f72"
+      },
+      {
+        "title": "Saudi Arabia’s Vast Oil Supplies Now Increasingly Depend on a Single Exit",
+        "publisher": "WSJ",
+        "url": "https://www.wsj.com/world/middle-east/saudi-arabias-vast-oil-supplies-now-increasingly-depend-on-a-single-exit-d8033082"
+      },
+      {
+        "title": "How major US stock indexes fared Friday 7/24/2026",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/stocks-dow-nasdaq-iran-oil-02d01b8f38ccd51f605c4414cdd4fa9b"
+      }
+    ],
+    "tags": ["米イラン", "ホルムズ", "原油", "海運", "地政学"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "fomc-tech-earnings-countdown",
+          "headline": "FOMC前、AI株に二重の試験",
+          "dek": "米株は週末に落ち着いたが、Nasdaqは週間2.1%安だった。次週はFOMC、PCE、GDP、Microsoft、Meta、Amazon、Apple決算が重なる。",
+          "importance": 3,
+          "facts": [
+            "APは24日、S&P500が7,411.98で0.05%高、Dowが51,947.25で0.46%高、Nasdaqが24,975.82で0.64%安だったと伝えた",
+            "週間ではS&P500が0.6%安、Dowが0.4%安、Nasdaqが2.1%安だった",
+            "ブレント原油は前日の102ドルから反落し、24日は96.78ドルで引けた",
+            "米連邦準備制度理事会の公式日程では、FOMCは7月28〜29日に開かれる",
+            "Kiplingerは、7月31日までの週にFOMC、米PCE、GDP、雇用コスト指数が集中すると整理した"
+          ],
+          "why_it_matters": "AI株の焦点は成長率から割引率と投資回収へ移った。FOMCが原油高と関税をインフレリスクとして強く扱えば、長期金利が下がりにくくなり、AI投資の将来利益を現在価値へ割り戻す圧力が増す。大型テック決算は、capex、リース負債、FCF、AI売上の同時審査になる。",
+          "implications": "日本株では、東京エレクトロン、Advantest、Kioxia、SoftBank GroupのようなAI感応度の高い銘柄に、米金利と顧客決算の二つの材料が重なる。FOMCが据え置きでも、Warsh議長が秋以降の利上げ余地を残せば、半導体株の反発は限定的になる可能性がある。",
+          "sources": [
+            {
+              "title": "How major US stock indexes fared Friday 7/24/2026",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/stocks-dow-nasdaq-iran-oil-02d01b8f38ccd51f605c4414cdd4fa9b"
+            },
+            {
+              "title": "The Fed - Meeting calendars and information",
+              "publisher": "Federal Reserve",
+              "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+            },
+            {
+              "title": "What to Look Out for in Economic Data This Week (July 27-31)",
+              "publisher": "Kiplinger",
+              "url": "https://www.kiplinger.com/investing/economy/this-weeks-economic-calendar"
+            }
+          ],
+          "tags": ["FOMC", "米株", "AI投資", "米金利", "PCE"]
+        },
+        {
+          "id": "boj-yen-jgb-countdown",
+          "headline": "日銀会合、円安とJGBを同時説明へ",
+          "importance": 3,
+          "facts": [
+            "日本銀行の公表予定では、7月30〜31日に金融政策決定会合を開き、31日に声明と展望レポートを公表する",
+            "日銀は31日15時30分から総裁記者会見を予定している",
+            "Reutersは、日本の6月コアCPIが前年同月比1.6%上昇し、5カ月連続で日銀の2%目標を下回ったと報じた",
+            "同報道によると、生鮮食品と燃料を除く指数は1.7%上昇し、5月の1.8%から鈍化した",
+            "市場ではドル円が163円台後半、10年JGBが2.8%近辺に高止まりしている"
+          ],
+          "why_it_matters": "日銀は、足元の基調物価が2%未満である一方、円安、原油、財政懸念、米国の利上げ観測という将来の物価圧力を抱える。利上げするかどうか以上に、外的ショックを政策反応関数へどこまで入れるかが市場の論点になる。",
+          "implications": "据え置きなら円安が再燃しやすく、追加利上げを強く示せばJGBと株式の割引率が上がる。輸入企業、電力、食品、航空は、為替前提と燃料前提の見直しを7月末決算説明で迫られる可能性がある。",
+          "sources": [
+            {
+              "title": "Release Schedule",
+              "publisher": "Bank of Japan",
+              "url": "https://www.boj.or.jp/en/about/calendar/index.htm"
+            },
+            {
+              "title": "Japan June core inflation accelerates, stays below BOJ target",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/economy-news/japan-june-core-inflation-accelerates-stays-below-boj-target-4810305"
+            },
+            {
+              "title": "Yen hits fresh 40-year low above 163 per dollar as authorities again warn of intervention",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-alphabet-tesla-earnings-oil-prices-us-iran-11-nights-strikes/card/yen-hits-fresh-40-year-low-above-163-per-dollar-as-authorities-again-warn-of-intervention-LVfKzupaXQ6pGJuo4kbF"
+            }
+          ],
+          "tags": ["日銀", "円安", "JGB", "CPI", "金融政策"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "open-weight-policy-split",
+          "headline": "米AI、開放モデルで政策割れる",
+          "dek": "Nvidia、Microsoft、Metaなどがオープンウェイト規制への慎重論を示した。中国Kimi K3の台頭で、AI安全保障と産業競争力が同じ政策面で衝突している。",
+          "importance": 3,
+          "facts": [
+            "Business Insiderは26日、Microsoft、Meta、Nvidia、OpenAI、PalantirなどがオープンウェイトAIを制限しないよう求める書簡に関与したと報じた",
+            "Anadolu Agencyは24日、Meta、Microsoft、Nvidiaを含む25の組織が「Open Weights and American AI Leadership」と題する共同声明を出したと報じた",
+            "同声明は、オープンウェイトAIがスタートアップ、大学、公的機関の参入障壁を下げると主張している",
+            "Moonshot AIは自社サイトで、Kimi K3を2.8兆パラメータ、100万トークン文脈、ネイティブ・マルチモーダルのモデルとして紹介している",
+            "Tom's Hardwareは、署名企業にGoogle、Amazon、Anthropicが含まれないと報じた"
+          ],
+          "why_it_matters": "米国のAI政策は、閉じた最先端モデルを守る安全保障論と、開いたモデルでGPU、クラウド、開発者エコシステムを広げる産業論に割れている。Kimi K3は、中国製モデルを禁止すべきかという論点だけでなく、米国自身がオープンモデルを競争力の源泉と見るかを迫った。",
+          "implications": "日本企業にとっては、米国APIだけに依存する設計、オープンウェイトを自社運用する設計、中国モデルを含む低コスト設計のリスク差が広がる。調達時には性能、価格、ライセンス、ホスティング場所、米国規制、監査可能性を同じ表で比較すべきである。",
+          "sources": [
+            {
+              "title": "Microsoft, Meta, Nvidia, OpenAI, and Palantir have a message for Washington",
+              "publisher": "Business Insider",
+              "url": "https://www.businessinsider.com/microsoft-nvidia-meta-palantir-jensen-huang-open-source-ai-letter-2026-7"
+            },
+            {
+              "title": "Major tech firms urge US to embrace open weight models for AI leadership",
+              "publisher": "Anadolu Agency",
+              "url": "https://www.aa.com.tr/en/americas/major-tech-firms-urge-us-to-embrace-open-weight-models-for-ai-leadership/4008463"
+            },
+            {
+              "title": "Moonshot AI",
+              "publisher": "Moonshot AI",
+              "url": "https://www.moonshot.ai/"
+            }
+          ],
+          "tags": ["オープンウェイト", "Kimi K3", "Nvidia", "Microsoft", "AI政策"]
+        },
+        {
+          "id": "kimi-k3-release-watch",
+          "headline": "Kimi K3、公開前夜に実装リスク",
+          "importance": 2,
+          "facts": [
+            "Business Insiderは、Moonshot AIがKimi K3への需要急増を受け、新規サブスクリプションを一時停止したと報じた",
+            "同報道によると、Moonshotは既存ユーザーの品質を保つため、計算資源を増強して段階的再開を目指している",
+            "Moonshot AIはKimi K3について、2.8兆パラメータ、100万トークン文脈、複雑なコーディングや知識労働向けのモデルと説明している",
+            "複数の技術解説は、フルウェイト公開予定が7月27日で、ライセンスと自己ホスト手順の確認が未完了だと整理している"
+          ],
+          "why_it_matters": "オープンウェイトは、ダウンロードできることと安く運用できることを同義にしない。2.8兆パラメータ級のモデルは、疎結合MoEであっても、推論のメモリー、KVキャッシュ、ネットワーク、運用監視が重い。公開前夜の容量制約は、モデル競争が性能表から運用経済へ移ることを示す。",
+          "implications": "企業がKimi K3を試す場合、ベンチマークだけで採用判断をすべきではない。ライセンス、国内持ち込み可否、必要GPU、推論単価、データ越境、米国制裁リスク、モデル更新時の再評価を確認する必要がある。",
+          "sources": [
+            {
+              "title": "Moonshot's latest Kimi model is so popular that the company just gated new users",
+              "publisher": "Business Insider",
+              "url": "https://www.businessinsider.com/moonshot-kimi-ai-paused-new-users-popularity-2026-7"
+            },
+            {
+              "title": "Moonshot AI",
+              "publisher": "Moonshot AI",
+              "url": "https://www.moonshot.ai/"
+            },
+            {
+              "title": "Kimi K3, previewed: inside the first open 3T-class model",
+              "publisher": "Hugging Face",
+              "url": "https://huggingface.co/blog/embedl/kimi-k3-preview"
+            }
+          ],
+          "tags": ["Kimi K3", "Moonshot AI", "推論コスト", "MoE", "中国AI"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "sap-cloud-ai-resilience",
+          "headline": "SAP、企業AIでクラウド底堅く",
+          "dek": "SAPのQ2はクラウド売上が24%増、クラウド受注残が26%増だった。AIの論点は、汎用チャットから業務データと統制を持つ基幹システムへ広がっている。",
+          "importance": 2,
+          "facts": [
+            "SAPは23日、2026年4〜6月期のクラウド売上高が62.81億ユーロで、恒常為替ベース24%増だったと発表した",
+            "現在のクラウド受注残は229.29億ユーロで、恒常為替ベース26%増だった",
+            "Cloud ERP Suite売上高は55.25億ユーロで、恒常為替ベース27%増だった",
+            "総売上高は98.78億ユーロで、恒常為替ベース11%増だった",
+            "SAPはDremioとPrior Labs買収の希薄化影響を反映し、2026年の非IFRS営業利益見通しを修正した"
+          ],
+          "why_it_matters": "AI投資懸念が米巨大テックを揺らす一方、SAPの決算は企業AIが業務データの管理、権限、監査、ERP統合へ向かっていることを示した。生成AIが業務に入るほど、単体モデルより、正確で統制されたデータへ接続できる基盤が価値を持つ。",
+          "implications": "日本企業のIT投資では、AIツール導入より先に、財務、購買、在庫、人事データの品質とアクセス権限が問われる。ERPやデータ基盤を持つベンダーは、AI機能を単価引き上げと解約抑止に使える可能性がある。",
+          "sources": [
+            {
+              "title": "SAP Quarterly Statement Q2 2026",
+              "publisher": "SAP / PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/sap-quarterly-statement-q2-2026-302833633.html"
+            },
+            {
+              "title": "SAP trims 2026 profit goal, signalling cost of AI push",
+              "publisher": "Reuters / RTE",
+              "url": "https://www.rte.ie/news/business/2026/0724/1584889-sap-trims-2026-profit-goal/"
+            }
+          ],
+          "tags": ["SAP", "ERP", "企業AI", "クラウド", "業務データ"]
+        },
+        {
+          "id": "big-tech-fcf-pressure",
+          "headline": "AI投資、FCF超過が視野に",
+          "importance": 3,
+          "facts": [
+            "Reutersは22日、Microsoft、Alphabet、Amazon、Meta、Oracleの設備投資が2027年までに合計FCFを上回る可能性があると分析した",
+            "同分析は、AI投資のコスト増がフリーキャッシュフローを圧迫し、投資家が注目し始めているとした",
+            "Barron'sは、Intelが2026年設備投資見通しを180億ドルから200億ドル超へ引き上げた後、株価が7.9%下落したと報じた",
+            "Kiplingerは、7月27〜31日の週にMicrosoft、Meta、Amazon、Appleなどの決算が集中すると整理した"
+          ],
+          "why_it_matters": "AI投資の評価軸は、売上成長の有無ではなく、どの時点で現金を生むかへ移った。FCFを超える投資が続けば、自社株買い、配当、社債発行、リース契約、データセンターの稼働率がすべて市場の検査対象になる。",
+          "implications": "日本の半導体装置・電子部品企業にとって、顧客のcapex増は受注機会であると同時に、発注の山谷を大きくする要因でもある。今週の決算では、AI売上よりも投資回収期間、リース負債、電力契約、キャンセル不能契約を見るべきである。",
+          "sources": [
+            {
+              "title": "Analysis-AI investment boom puts Big Tech’s free cash flow under pressure",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/analysisai-investment-boom-puts-big-techs-free-cash-flow-under-pressure-4804645"
+            },
+            {
+              "title": "Intel's Strong Earnings Couldn't Save the Stock From an AI Spending Panic",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/articles/intel-stock-price-earnings-ai-panic-0c53fe8c"
+            },
+            {
+              "title": "Earnings Calendar and Analysis for This Week (July 27-31)",
+              "publisher": "Kiplinger",
+              "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+            }
+          ],
+          "tags": ["AI投資", "FCF", "Big Tech", "Intel", "決算"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "saudi-single-exit-risk",
+          "headline": "サウジ原油、紅海出口に集中",
+          "dek": "ホルムズ回避で紅海側へ移した輸出が、Bab el-Mandebの脅威にさらされた。代替路があるほど安全とは限らず、リスクは次の狭い出口へ移る。",
+          "importance": 3,
+          "facts": [
+            "WSJは26日、サウジ原油輸出がホルムズ回避後に紅海側とBab el-Mandebへの依存を高めていると報じた",
+            "同報道によると、フーシ派によるサウジ船舶への攻撃と脅威が、迂回路の安全性を損なっている",
+            "Suez運河やSumedパイプライン経由は、アジア向け輸送で日数、費用、積み替え制約を増やす",
+            "大型原油タンカーは満載のままSuez運河を通れず、一部貨物を下ろす必要があるとWSJは整理した",
+            "APは、フーシ派がサウジへのミサイル・ドローン攻撃を発表したと伝えた"
+          ],
+          "why_it_matters": "ホルムズを迂回できても、紅海、Suez、Sumed、喜望峰のどこかで新しい制約が生まれる。エネルギー安全保障は、一つの海峡が開くか閉じるかではなく、複数のチョークポイントをまたぐ物流設計の問題になった。",
+          "implications": "日本の原油・LNG調達では、中東産比率だけでなく、積み出し港、船型、通航可能ルート、保険、日数、在庫日数を合わせて見る必要がある。価格ヘッジだけでは、物理的な遅延と港湾混雑を防げない。",
+          "sources": [
+            {
+              "title": "Saudi Arabia’s Vast Oil Supplies Now Increasingly Depend on a Single Exit",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/world/middle-east/saudi-arabias-vast-oil-supplies-now-increasingly-depend-on-a-single-exit-d8033082"
+            },
+            {
+              "title": "Airstrikes have paused and talks are pressing forward. But can the US and Iran take the off-ramp?",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/iran-war-trump-diplomacy-netanyahu-d491158a4c9a1d3429a87a6ed58f2f72"
+            }
+          ],
+          "tags": ["サウジアラビア", "Bab el-Mandeb", "Suez", "原油", "フーシ派"]
+        },
+        {
+          "id": "netanyahu-visit-iran-risk",
+          "headline": "ネタニヤフ訪米、停戦計算に影",
+          "importance": 2,
+          "facts": [
+            "APは、イスラエルのネタニヤフ首相が次週ワシントンでトランプ大統領と会談する予定だと報じた",
+            "イスラエルは2月28日に米国と並んで対イラン戦争を始めたが、直近の米国によるイラン攻撃には目立って関与していない",
+            "APは、イスラエルの関与が限定的であることが、米国が紛争限定を望んでいるとのシグナルにもなり得るとする専門家見解を伝えた",
+            "トランプ大統領は24日、交渉と追加攻撃の双方を選択肢として示した"
+          ],
+          "why_it_matters": "停戦交渉は米イランの二者だけで決まらない。イスラエルが再び前面に出れば、イランの妥協余地は狭まり、米国の交渉カードも軍事色を帯びる。逆にイスラエルの関与が抑制されれば、ホルムズ通航をめぐる限定合意の余地が広がる。",
+          "implications": "市場は、空爆停止というヘッドラインだけで原油リスクを消すべきではない。次週の米イスラエル会談、フーシ派の行動、イラン国内の権力分裂が、停戦の持続性を左右する。",
+          "sources": [
+            {
+              "title": "Airstrikes have paused and talks are pressing forward. But can the US and Iran take the off-ramp?",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/iran-war-trump-diplomacy-netanyahu-d491158a4c9a1d3429a87a6ed58f2f72"
+            }
+          ],
+          "tags": ["イスラエル", "米イラン", "停戦", "原油", "中東"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-ai-transparency-deadline",
+          "headline": "EU AI透明性、8月2日適用へ",
+          "dek": "欧州委員会はArticle 50の透明性義務に関する指針を公表した。署名期限が近づき、生成AI表示は任意の配慮から監査可能な実装へ変わる。",
+          "importance": 3,
+          "facts": [
+            "欧州委員会は20日、AI法Article 50の透明性義務に関する指針を公表した",
+            "透明性義務は2026年8月2日から適用される",
+            "AI提供者は、直接AIとやり取りしていることを利用者へ知らせ、AI生成・操作コンテンツに機械可読マーキングを付ける必要がある",
+            "利用者側も、深層偽造、公共的関心事項のAI生成テキスト、感情認識、バイオメトリック分類の利用を通知する必要がある",
+            "欧州委員会は、初期署名者リストに入るためのコード署名提出期限を7月27日18時CESTとしている"
+          ],
+          "why_it_matters": "AI透明性は、注意書きではなくプロダクト仕様である。ラベル、機械可読マーキング、検出可能性、ログ、編集責任、人手レビューを設計しなければ、規制当局や顧客に順守を説明できない。",
+          "implications": "EU向けにAI機能を提供する日本企業は、8月2日を前に、生成物の棚卸し、ラベル表示、C2PAや透かし、ログ保存、委託先管理を確認すべきである。コードに署名しない企業も、同等の措置を文書で示す必要がある。",
+          "sources": [
+            {
+              "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
+            },
+            {
+              "title": "Signing the Code of Practice on Transparency of AI-generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-code-practice-transparency-ai-generated-content"
+            },
+            {
+              "title": "Google is signing the EU AI Act Code of Practice on Transparency of AI-Generated Content",
+              "publisher": "Google",
+              "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/"
+            }
+          ],
+          "tags": ["EU AI法", "Article 50", "透明性", "C2PA", "SynthID"]
+        },
+        {
+          "id": "google-ai-label-complexity",
+          "headline": "Google、透明性支持も複雑化懸念",
+          "importance": 2,
+          "facts": [
+            "Googleは24日、EU AI法のAI生成コンテンツ透明性Code of Practiceに署名すると表明した",
+            "Googleは、C2PA標準の採用加速とSynthIDを含む透明性ツール開発に言及した",
+            "同社は、Apple、Eleven Labs、Kakao、NVIDIA、OpenAIなど第三者AIラボと相互運用可能なウォーターマーク採用で連携していると説明した",
+            "一方でGoogleは、技術解が発展途上の中で規制が複雑化すると、利用者に過剰なラベルや法的開示を見せるリスクがあると懸念を示した"
+          ],
+          "why_it_matters": "規制の実装は、ラベルを増やせばよいわけではない。表示が多すぎるとユーザーは読まなくなり、機械可読マーキングが相互運用できなければプラットフォームをまたいだ検出も機能しない。Googleの姿勢は、透明性を受け入れつつ、実装標準を握る競争でもある。",
+          "implications": "AI生成表示の調達では、単に「ラベル対応済み」と書いてあるかではなく、どの標準で、どの媒体に、どの粒度で、どのログと結び付くかを確認すべきである。表示疲れを避けるUI設計もコンプライアンスの一部になる。",
+          "sources": [
+            {
+              "title": "Google is signing the EU AI Act Code of Practice on Transparency of AI-Generated Content",
+              "publisher": "Google",
+              "url": "https://blog.google/company-news/outreach-and-initiatives/public-policy/eu-ai-act-transparency-code-of-practice/"
+            },
+            {
+              "title": "Code of Practice on Transparency of AI-Generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+            }
+          ],
+          "tags": ["Google", "EU AI法", "SynthID", "C2PA", "ウォーターマーク"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "チョークポイントはなぜ一つでは終わらないのか",
+    "dek": "ホルムズを避けても、Bab el-Mandeb、Suez、Sumed、喜望峰が次の制約になる。エネルギー安全保障は、単一海峡の危機から複数ルートの設計問題へ移った。",
+    "tags": ["ホルムズ", "Bab el-Mandeb", "Suez", "原油", "物流"],
+    "reading_minutes": 5,
+    "body_md": "## 背景\n\n米軍の対イラン空爆が止まり、交渉が再び動き始めた。だが市場が本当に見ているのは、攻撃が止まったかどうかだけではない。ホルムズ海峡を誰が、どの条件で、どの航路で通すのかである。ホルムズは通常、世界の石油の約20%が通る。ここで船舶が遅れ、保険料が上がり、航路が制限されれば、原油価格だけでなく、LNG、石化原料、船舶運賃、在庫政策まで影響する。\n\nこれまでの議論は「ホルムズが閉じるか」に寄りがちだった。だが今回の危機が示したのは、ホルムズを迂回しても問題は終わらないということだ。サウジアラビアは東岸から西岸へ原油を移し、紅海側から輸出する余地を持つ。ところが紅海の出口であるBab el-Mandebがフーシ派の脅威にさらされると、迂回路そのものが新しいチョークポイントになる。\n\n## 代替路は万能ではない\n\n原油物流の代替路には、Suez運河、エジプトのSumedパイプライン、喜望峰回りがある。これらは地図上では逃げ道に見える。だが実務では、船型、喫水、積載量、港湾能力、保険、日数、契約条件が制約になる。満載の大型原油タンカーはSuez運河をそのまま通れない場合があり、一部を下ろしてパイプラインや別船へ移す必要がある。喜望峰回りは距離が長く、船腹を余分に拘束し、到着を遅らせる。\n\nつまり、代替路は「通れるか」だけでは評価できない。どれだけ積めるか、何日遅れるか、いくら保険料が上がるか、港で詰まらないか、船員交代ができるかを見なければならない。原油先物が一日で下がっても、実物の物流が複雑化すれば、企業の調達コストは後から出てくる。\n\n## リスクは移動する\n\nチョークポイントの特徴は、圧力が一カ所から別の場所へ移ることにある。ホルムズが危険なら紅海へ回す。紅海が危険ならSuezやSumedへ寄せる。そこも混めば喜望峰へ回す。だが船は無限に増えず、港湾も一夜で拡張できない。保険会社、船主、荷主、政府が同時に慎重になれば、実際に動く物流量は地図上の能力より小さくなる。\n\nこのため、エネルギー安全保障は「どの海峡を守るか」から「複数の海峡と陸上設備をどう組み合わせるか」へ移っている。軍事的には護衛と封鎖の問題であり、企業実務では在庫、契約、船腹予約、代替調達の問題である。金融市場では、原油価格、米金利、円安、電力株、航空株、海運株が同じ材料で動く。\n\n## 日本企業への読み方\n\n日本は中東依存が高く、LNGと原油の輸入に海上ルートを必要とする。したがって、価格ヘッジだけでは不十分である。調達部門は、主要サプライヤーの積み出し港、通航予定ルート、船型、保険条件、到着遅延時の代替在庫を確認する必要がある。財務部門は、円安と燃料高が同時に来た場合の運転資金と価格転嫁を見直す必要がある。\n\n特に重要なのは、不可抗力条項と在庫日数である。ホルムズや紅海の危機が一時的な軍事イベントではなく、通航条件をめぐる交渉へ変われば、数日ではなく数週間から数カ月の不確実性になる。契約上、誰が追加保険料を負担し、どの時点で配送遅延を認め、どの代替港を使えるのかを先に詰めておく必要がある。\n\n## 結論\n\nチョークポイント危機は、一つの海峡が閉じたら終わる単純な話ではない。回避すれば次の出口が詰まり、そこを抜ければ別の港湾や運河が制約になる。今回の米イラン交渉でホルムズの通航が緩んでも、Bab el-Mandeb、Suez、Sumed、喜望峰の費用と容量は残る。企業と市場が見るべき問いは、原油が何ドルかだけではない。エネルギーが実際にどの船で、どの海峡を通り、何日で届き、その遅れと保険料を誰が負担するかである。物流の地政学は、価格チャートの外側で企業収益を動かす。",
+    "sources": [
+      {
+        "title": "Airstrikes have paused and talks are pressing forward. But can the US and Iran take the off-ramp?",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/iran-war-trump-diplomacy-netanyahu-d491158a4c9a1d3429a87a6ed58f2f72"
+      },
+      {
+        "title": "Saudi Arabia’s Vast Oil Supplies Now Increasingly Depend on a Single Exit",
+        "publisher": "WSJ",
+        "url": "https://www.wsj.com/world/middle-east/saudi-arabias-vast-oil-supplies-now-increasingly-depend-on-a-single-exit-d8033082"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "米イランの空爆停止は原油の上値を一度抑えたが、通航秩序の交渉が不安定なら物流プレミアムは残る",
+      "FOMCと大型テック決算が同じ週に来るため、AI相場は金利とFCFの両面から再評価される",
+      "日銀はCPIが2%未満でも、円安、原油、JGB高を放置する説明コストが上がっている",
+      "AI規制は、オープンウェイトの可否と生成物透明性の二方向で、モデル選定と製品仕様へ直接入ってくる"
+    ],
+    "watchlist": [
+      {
+        "item": "7月27日のEU AI透明性コード初期署名期限",
+        "why": "Google以外の主要AI企業が署名するか、非署名時にどう説明するかを見る",
+        "horizon": "7月27日18時CEST"
+      },
+      {
+        "item": "Kimi K3の重み公開とライセンス",
+        "why": "実運用コスト、自己ホスト条件、米国の標的型規制の有無を確認する",
+        "horizon": "7月27日以降"
+      },
+      {
+        "item": "FOMCと米PCE・GDP",
+        "why": "原油高と関税が利上げ確率、米10年債、AI株評価にどう反映されるかを見る",
+        "horizon": "7月28〜31日"
+      },
+      {
+        "item": "Microsoft・Meta・Amazon・Apple決算",
+        "why": "AI capex、FCF、リース負債、データセンター稼働率の説明が市場を左右する",
+        "horizon": "7月下旬"
+      },
+      {
+        "item": "7月31日の日銀会合",
+        "why": "CPI1.6%、円163円台、JGB2.8%近辺、原油高への政策説明を確認する",
+        "horizon": "7月31日"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "チョークポイント",
+      "definition": "物流や軍事で通行が集中し、封鎖や攻撃で全体の流れが止まりやすい狭い地点。ホルムズ、Bab el-Mandeb、Suezが典型である。"
+    },
+    {
+      "term": "Sumedパイプライン",
+      "reading": "スメドパイプライン",
+      "definition": "エジプトを横断し、紅海側と地中海側を結ぶ原油パイプライン。Suez運河を補完するが、船型や積み替えの制約は残る。"
+    },
+    {
+      "term": "オープンウェイト",
+      "definition": "AIモデルの学習済み重みを利用者が取得し、自社環境で実行・検証・調整できる形。学習データやコード公開とは別概念である。"
+    },
+    {
+      "term": "機械可読マーキング",
+      "definition": "AI生成・加工コンテンツであることを、メタデータや透かしなど機械が検出できる形で付与する仕組み。EU AI法Article 50で焦点になる。"
+    }
+  ]
+}
