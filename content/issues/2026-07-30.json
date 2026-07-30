@@ -1,0 +1,521 @@
+{
+  "date": "2026-07-30",
+  "edition": 15,
+  "generated_at": "2026-07-30T09:06:50+09:00",
+  "masthead_note": "Fedは据え置いたが3人が利上げを主張し、AI投資と原油が市場の逃げ道を狭めた",
+  "market_snapshot": {
+    "as_of": "7月29日 米国市場終値・7月30日東京朝時点で確認できる直近値",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "64,931.19円",
+        "change": "+0.50%",
+        "direction": "up",
+        "note": "7月27日終値。原油反落で反発後、AI株警戒は残る"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,066.07",
+        "change": "+1.37%",
+        "direction": "up",
+        "note": "7月27日終値"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "163円台後半",
+        "direction": "flat",
+        "note": "日銀会合を前に40年ぶり円安圏で推移"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.8%近辺",
+        "direction": "up",
+        "note": "財政懸念と日銀会合前の警戒"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.621%",
+        "direction": "up",
+        "note": "Fed据え置き後もインフレ警戒で高止まり"
+      },
+      {
+        "label": "ブレント原油",
+        "value": "88.09ドル",
+        "change": "+7.3%",
+        "direction": "up",
+        "note": "中東緊張再燃で急反発"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,316.15",
+        "change": "-1.52%",
+        "direction": "down",
+        "note": "Fed後に売りが強まる"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "24,442.94",
+        "change": "-1.74%",
+        "direction": "down",
+        "note": "AI・半導体株の下落が重荷"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "Fedは3.5〜3.75%で据え置き。3人が利上げを主張し、9月再利上げ観測が残った",
+      "ref": "fed-hawkish-hold-dissents"
+    },
+    {
+      "text": "米株はFed後に急落。原油急騰とAI株売りが重なり、Nasdaqは調整局面に近づいた",
+      "ref": "us-stocks-oil-ai-selloff"
+    },
+    {
+      "text": "MicrosoftはクラウドとCopilotで上振れ、MetaはAI投資と法務費用で利益未達と明暗",
+      "ref": "microsoft-meta-ai-capex-split"
+    },
+    {
+      "text": "日銀会合が始まる。政策金利1.0%下で円安、JGB、財政をどう説明するかが焦点",
+      "ref": "boj-meeting-yen-jgb"
+    },
+    {
+      "text": "Kimi K3公開後、中国AIの米国浸透が進む。配布後の規制実効性が政策課題になった",
+      "ref": "kimi-k3-open-weight-adoption"
+    },
+    {
+      "text": "強制労働関税は米国内で再提訴。AliExpress制裁と合わせ、監査と市場アクセスが重くなる",
+      "ref": "forced-labor-tariffs-lawsuits"
+    }
+  ],
+  "top_story": {
+    "id": "fed-hawkish-hold-dissents",
+    "headline": "Fed据え置き、3人利上げ主張",
+    "dek": "米連邦公開市場委員会は政策金利を3.5〜3.75%に据え置いた。ただし3人が利上げを求め、中東発の原油高とAI投資インフレを前に、休止ではなく「次の利上げを残す据え置き」になった。",
+    "importance": 3,
+    "facts": [
+      "WSJは29日、Fedが政策金利を3.5〜3.75%で据え置き、3人の委員が利上げを求めて反対したと報じた",
+      "APは、Warsh議長の下でFedが高インフレへの忍耐を失いつつあり、9月15〜16日の次回会合が焦点になると報じた",
+      "WSJによると、29日の米10年債利回りは4.621%近辺で引けた",
+      "同日の米株はDowが2.19%安、S&P500が1.52%安、Nasdaqが1.74%安で終えた",
+      "APは、イラン情勢再燃でブレント原油が7.3%上昇し88.09ドルになったと伝えた"
+    ],
+    "why_it_matters": "市場が受け取ったメッセージは、据え置きによる安心ではなく、政策委員会内の我慢の限界である。原油高、関税、AIデータセンターの電力・メモリー需要が物価を押し上げるなら、Fedは景気減速を待たずに再利上げへ動く可能性を残す。Warsh議長が細かなフォワードガイダンスを避けるほど、債券と株式はデータと会見の語感に大きく振れやすくなる。",
+    "implications": "日本市場では、Fedの再利上げ観測が円安を支え、日銀への説明圧力を強める。AI株は、金利低下を待つ相場から、実際にキャッシュを生む企業だけが選別される相場へ移りやすい。輸入企業と電力・航空・化学は、ドル高と原油高が同時に来るストレスシナリオを再点検する必要がある。",
+    "sources": [
+      {
+        "title": "U.S. Stocks Slide After Fed Pause, Escalation in Iran War",
+        "publisher": "WSJ",
+        "url": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-after-fed-pause-escalation-in-iran-war-083d45b1"
+      },
+      {
+        "title": "Federal Reserve expected to keep interest rates unchanged despite frustration over high prices",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/federal-reserve-inflation-interest-rates-iran-war-ad10c177cb8d96f9e3ed122e12352a74"
+      },
+      {
+        "title": "Oil prices jump, while the Dow drops more than 1,100 as sinking AI stocks drag Wall Street lower",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/b8bfaf782877957bbaa7196b70a4d725"
+      }
+    ],
+    "tags": ["Fed", "FOMC", "米金利", "原油", "AI投資"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "us-stocks-oil-ai-selloff",
+          "headline": "米株急落、原油とAIが同時圧力",
+          "dek": "Fedの据え置き直後、米株は一時の安心を保てなかった。中東緊張で原油が跳ね、AI関連株の利益確定と半導体売りが重なった。",
+          "importance": 3,
+          "facts": [
+            "APは29日、S&P500が112.63ポイント安の7,316.15、Dowが1,153.18ポイント安の51,594.14、Nasdaqが433.97ポイント安の24,442.94で終えたと伝えた",
+            "APによると、下落はNvidia、Micron、AMDなどAI関連株の売りが主因だった",
+            "ブレント原油は同日7.3%上昇し、88.09ドルで決済された",
+            "MarketWatchは、Nasdaq100が6月高値から10%下落し、調整局面に入ったと報じた"
+          ],
+          "why_it_matters": "これまで市場は、AI投資が成長を押し上げ、Fedがいずれ金利を下げるという二つの支えを持っていた。29日の値動きは、その二つが同時に揺らいだことを示す。原油高は利下げ期待を遠ざけ、AI株売りは指数を支えてきた集中ポジションの弱さを露出させる。",
+          "implications": "日本株では、半導体装置やメモリー関連の調整が日経平均に波及しやすい一方、エネルギー、商社、銀行などには相対的な資金逃避が起き得る。重要なのは、単なるリスクオフではなく、金利上昇に耐えられるキャッシュフローを持つ銘柄への選別である。",
+          "sources": [
+            {
+              "title": "How major US stock indexes fared Wednesday 7/29/2026",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/a483060a0aa9c24c50f589b0b7713497"
+            },
+            {
+              "title": "Oil prices jump, while the Dow drops more than 1,100 as sinking AI stocks drag Wall Street lower",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/b8bfaf782877957bbaa7196b70a4d725"
+            },
+            {
+              "title": "Nasdaq 100 Falls Into Correction",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-072926/card/dow-falls-1-100-points-ahead-of-tech-earnings-oil-prices-overshadow-fed-hold--eLYJlSHVTPNVxbdrZcxF"
+            }
+          ],
+          "tags": ["米株", "Nasdaq", "原油", "半導体", "AI相場"]
+        },
+        {
+          "id": "boj-meeting-yen-jgb",
+          "headline": "日銀会合開始、1%金利の次を探る",
+          "dek": "日銀は30〜31日に金融政策決定会合を開く。6月に政策金利を1.0%へ上げた後も円安とJGB高は収まらず、展望レポートの物価説明が市場の焦点になる。",
+          "importance": 3,
+          "facts": [
+            "日本銀行の公表予定は、7月30〜31日に金融政策決定会合を開くと示している",
+            "日銀は31日に金融政策声明と7月展望レポートの基本的見解を公表する予定である",
+            "日銀ホームページは、補完当座預金制度適用利率が6月17日から1.0%であると示している",
+            "日銀は31日15時30分から総裁記者会見を予定している",
+            "Japan Bond Tradingの直近データでは、10年JGB利回りは7月下旬に2.7%台後半で推移した"
+          ],
+          "why_it_matters": "日銀はすでに1.0%まで政策金利を上げたが、円安と長期金利はなお高い。市場が問うのは、追加利上げの有無だけではない。財政拡張、原油高、米金利、円安が輸入物価を通じて再び基調物価を押し上げる場合、日銀がどの指標を反応関数に入れるかである。",
+          "implications": "会合後の円相場は、政策変更よりも声明文と会見の語調に反応しやすい。輸入企業は円安前提、金融機関はJGB評価損、政府は利払い費の説明を同時に迫られる。日銀が弱い説明にとどまれば、Fedの利上げ観測と合わせて円安圧力が続く可能性がある。",
+          "sources": [
+            {
+              "title": "Release Schedule",
+              "publisher": "Bank of Japan",
+              "url": "https://www.boj.or.jp/en/about/calendar/index.htm"
+            },
+            {
+              "title": "公表予定",
+              "publisher": "日本銀行",
+              "url": "https://www.boj.or.jp/about/calendar/index.htm"
+            },
+            {
+              "title": "JGB Rates Historical Data",
+              "publisher": "Japan Bond Trading",
+              "url": "https://www.bb.jbts.co.jp/en/historical/main_rate.html"
+            }
+          ],
+          "tags": ["日銀", "円安", "JGB", "展望レポート", "金融政策"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "kimi-k3-open-weight-adoption",
+          "headline": "Kimi K3、公開後に米国浸透",
+          "dek": "Moonshot AIのKimi K3は重み公開後、低価格と運用自由度で米国利用者にも広がった。政策論点は、公開前の許可から公開後の統制へ移った。",
+          "importance": 3,
+          "facts": [
+            "Moonshot AIのGitHubリポジトリは、Kimi K3のコードとモデル重みをKimi K3 Licenseで公開したと示している",
+            "Hugging Face上のKimi K3ライセンスは、重み、パラメータ、設定ファイル、推論・学習コードを含むソフトウェア利用を許諾対象に含めている",
+            "APは、Mozilla幹部や米国企業がKimi K3など中国AIモデルを日常業務やコスト削減目的で試していると報じた",
+            "APによると、KimiアプリはK3公開後の1週間で93万件超ダウンロードされ、米国でのダウンロードも大きく増えた",
+            "米国側では、中国モデルの蒸留疑惑や知的財産保護を理由に追加制裁の可能性が議論されている"
+          ],
+          "why_it_matters": "オープンウェイトは、一度広く配布されると、API遮断や企業制裁だけでは止めにくい。利用者は自社環境で推論でき、派生モデルや量子化版も広がる。米国の政策は、輸出管理のような入口規制だけでなく、調達基準、監査、データ持ち出し、モデル来歴の確認へ広がらざるを得ない。",
+          "implications": "日本企業は、安い中国モデルを試す誘因と、米国取引先・規制当局からの説明要求を同時に抱える。Kimi K3を含むオープンモデルを評価する場合、性能、ライセンス、データ所在地、モデル来歴、米国制裁、社内ログを同じチェックリストで管理すべきである。",
+          "sources": [
+            {
+              "title": "MoonshotAI/Kimi-K3",
+              "publisher": "GitHub",
+              "url": "https://github.com/MoonshotAI/Kimi-K3"
+            },
+            {
+              "title": "moonshotai/Kimi-K3 LICENSE",
+              "publisher": "Hugging Face",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3/blame/main/LICENSE"
+            },
+            {
+              "title": "Cheaper, open and intelligent: Chinese AI models gain ground, as they make inroads in the US",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/china-ai-model-us-kimi-deepseek-a00bf637866fcd4d81f4fde28c9862ce"
+            }
+          ],
+          "tags": ["Kimi K3", "オープンウェイト", "中国AI", "AI政策", "モデル調達"]
+        },
+        {
+          "id": "open-secure-ai-alliance",
+          "headline": "Nvidiaら、開放型AI安全連合",
+          "importance": 2,
+          "facts": [
+            "The Vergeは27日、NvidiaがMicrosoft、SpaceX、IBMなどとOpen Secure AI Allianceを立ち上げたと報じた",
+            "同連合は、フロンティアモデルからの攻撃に対抗するにはオープンソースのAIセキュリティツールが必要だと主張している",
+            "The Vergeによると、創設メンバーにはPalantir、Linux Foundation、Cloudflare、Cisco、Adobe、Siemensなどが含まれる",
+            "OpenAI、Google、Anthropicは同連合の創設メンバーに含まれていない",
+            "同報道は、Kimi K3など中国のオープンウェイトモデルが、閉鎖型を中心とする米国AI戦略を揺らしていると整理した"
+          ],
+          "why_it_matters": "AI安全性の議論は、モデルを閉じれば守れるという単純な構図ではなくなった。攻撃や異常挙動に対応するには、検証可能なツール、ログ、評価環境、モデル比較が必要であり、そこではオープンな仕組みが有利になる場合がある。",
+          "implications": "企業のAIセキュリティ調達では、ベンダー名だけでなく、インシデント時にどのログを取れるか、第三者ツールで検証できるか、代替モデルを使えるかが重要になる。閉鎖型APIとオープンモデルを組み合わせた防御設計が標準になり得る。",
+          "sources": [
+            {
+              "title": "Nvidia, Microsoft launch open AI security alliance — without OpenAI, Google, or Anthropic",
+              "publisher": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+            },
+            {
+              "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+              "publisher": "Federal Reserve",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm"
+            }
+          ],
+          "tags": ["Nvidia", "AI安全性", "オープンソース", "サイバーセキュリティ", "モデル評価"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "microsoft-meta-ai-capex-split",
+          "headline": "Microsoft上振れ、Metaは費用重荷",
+          "dek": "同じAI投資でも、Microsoftはクラウド成長とCopilot有料席で評価され、Metaは利益未達と費用増で売られた。AI capex相場は銘柄選別へ進んだ。",
+          "importance": 3,
+          "facts": [
+            "APは、Microsoftの4〜6月期売上高が900億ドル、EPSが4.81ドルで市場予想を上回ったと報じた",
+            "Microsoft Cloud売上高は593億ドルで前年同期比27%増、Azureなどクラウドサービス売上は43%増だった",
+            "Microsoft 365 Copilotの有料席は3,000万を超えた",
+            "Business Insiderは、Metaの4〜6月期売上高が608億ドル、EPSが6.18ドルで、EPSが市場予想を下回ったと伝えた",
+            "Metaは費用が55%増の420.3億ドルとなり、年間capex見通しを1,300億〜1,450億ドルに絞り込んだ"
+          ],
+          "why_it_matters": "AI投資はもはや一括りに評価されない。MicrosoftはAzureとCopilotの売上で投資回収の入口を示した一方、Metaは広告成長があっても法務費用、リストラ費用、AIインフラ投資が利益を圧迫した。市場は、capexの大きさより、どの事業が何年で現金化するかを見始めている。",
+          "implications": "日本の半導体・クラウド関連企業には、顧客ごとの投資品質を見る視点が必要になる。Microsoft型の業務課金に近い需要は粘りやすいが、広告・個人AI・メタバース周辺の投資は市場の我慢が短くなりやすい。",
+          "sources": [
+            {
+              "title": "Microsoft's cloud and AI drive strong earnings",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/microsoft-earnings-results-ai-f7dff4fb9d51a2bdec56a13e5da1053d"
+            },
+            {
+              "title": "Meta Earnings Recap: Stock Tumbles 9.5% As Profit Misses Estimates",
+              "publisher": "Business Insider",
+              "url": "https://www.businessinsider.com/meta-q2-earnings-report-ai-capex-spending-stock-2026-7"
+            }
+          ],
+          "tags": ["Microsoft", "Meta", "AI投資", "クラウド", "FCF"]
+        },
+        {
+          "id": "sk-hynix-ai-expectations",
+          "headline": "SK Hynix、最高益でも株安",
+          "importance": 2,
+          "facts": [
+            "Business Insiderは、SK Hynixが第2四半期に営業利益557%増を記録したが、株価は決算日に約10%下落したと報じた",
+            "同報道によると、売上高は257%増、純利益は1,242%増だった",
+            "市場は営業利益640兆ウォンを見込んでいたが、実績が届かず、韓国KOSPIは大きく下落した",
+            "Business RecorderはReutersを引用し、SK Hynixが長期供給契約の確保を急いでいると報じた"
+          ],
+          "why_it_matters": "AIメモリー需要が強くても、期待値が高すぎれば株価は下がる。HBMとDRAMの価格上昇は利益を押し上げるが、投資家は供給契約、次世代品の出荷、Samsungとの競争、顧客のAI capex持続性を同時に見る。最高益が安心材料ではなく、期待未達の材料になる局面である。",
+          "implications": "日本の装置・材料企業にとって、メモリー投資は引き続き追い風だが、株式市場は発注の持続性に敏感になる。顧客の長期契約比率、在庫、歩留まり、次世代HBMの量産時期を確認する必要がある。",
+          "sources": [
+            {
+              "title": "A 557% profit jump couldn't save SK Hynix from an earnings-day slump",
+              "publisher": "Business Insider",
+              "url": "https://www.businessinsider.com/kospi-stock-market-index-sk-hynix-skhy-earnings-profit-samsung-2026-7"
+            },
+            {
+              "title": "SK Hynix's record profit misses forecasts, shares slump 13% despite robust AI chip demand",
+              "publisher": "Business Recorder / Reuters",
+              "url": "https://www.brecorder.com/news/40432339/sk-hynixs-record-profit-misses-forecasts-shares-slump-13-despite-robust-ai-chip-demand"
+            }
+          ],
+          "tags": ["SK Hynix", "HBM", "メモリー", "AI半導体", "韓国株"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "iran-attack-oil-retaliation",
+          "headline": "イラン再緊張、原油90ドル接近",
+          "dek": "米イランの緊張緩和期待は短命だった。イランによる攻撃報道と米国の報復示唆で、原油は急反発し、Fedと日銀の物価判断に再び地政学が入った。",
+          "importance": 3,
+          "facts": [
+            "Guardianは29日、イランの攻撃報道を受け、ブレント原油が6%超上昇し90ドル近辺になったと報じた",
+            "APは、原油高とAI株売りが重なり、同日の米株が大きく下落したと伝えた",
+            "MarketWatchは、WTIが85.22ドル、9月限ブレントが90.85ドルまで上昇したと報じた",
+            "報道では、ホルムズ海峡とBab el-Mandebの供給不安が再び意識された"
+          ],
+          "why_it_matters": "前号では空爆停止と交渉再開を扱ったが、今日の差分は、緊張緩和が価格と政策の前提としてまだ安定していない点である。原油が90ドル台へ戻ると、Fedのインフレ警戒、日銀の円安対応、日本企業の燃料費が同じ方向へ動く。",
+          "implications": "企業は、単発の価格ヘッジだけでなく、海上保険、代替航路、在庫日数、ドル調達を合わせて見る必要がある。中東情勢が再燃するほど、円安と原油高が重なる日本の交易条件悪化が意識される。",
+          "sources": [
+            {
+              "title": "Oil jumps after Iran attempts ‘surprise attack’; chip stocks slump further as AI sell-off continues",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/business/live/2026/jul/29/oil-jumps-iran-surprise-attack-chip-stocks-slump-ai-sell-off-economy-latest-news"
+            },
+            {
+              "title": "Oil prices jump, while the Dow drops more than 1,100 as sinking AI stocks drag Wall Street lower",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/b8bfaf782877957bbaa7196b70a4d725"
+            },
+            {
+              "title": "Global oil prices top $88 a barrel after Trump vows retaliation for surprise Iranian attack on U.S. troops",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/oil-prices-rise-after-u-s-and-saudi-arabia-attack-iran-backed-militias-in-iraq-f0f409ea"
+            }
+          ],
+          "tags": ["イラン", "原油", "ホルムズ", "中東", "インフレ"]
+        },
+        {
+          "id": "bmw-europe-auto-restructuring",
+          "headline": "BMW最大8000人削減、欧州車苦境",
+          "importance": 2,
+          "facts": [
+            "Guardianは29日、BMWがドイツで最大8,000人を削減する計画だと報じた",
+            "削減は管理・開発部門の自主退職制度が中心で、生産部門は対象外とされる",
+            "BMWの世界従業員は約16万人である",
+            "同報道は、中国EV勢との競争、米国関税、電動化投資が欧州自動車メーカーの収益を圧迫していると整理した"
+          ],
+          "why_it_matters": "中国EVの圧力は、欧州市場での販売価格だけでなく、雇用と開発投資の再配分に及んだ。欧州メーカーは高賃金の開発体制を抱えたまま、EV、ソフトウェア、電池、関税対応を同時に進める必要がある。",
+          "implications": "日本車メーカーにとっても、欧州は関税とEV規制だけでなく、中国勢の現地化と価格攻勢を受ける市場になる。開発拠点、部品調達、ソフトウェア内製化のコストをどこまで絞れるかが競争軸になる。",
+          "sources": [
+            {
+              "title": "BMW to cut 'as many as 8,000 jobs' under pressure from Chinese rivals",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/jul/29/bmw-cut-jobs-germany-pressure-chinese-rivals"
+            }
+          ],
+          "tags": ["BMW", "欧州自動車", "中国EV", "雇用", "関税"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "forced-labor-tariffs-lawsuits",
+          "headline": "強制労働関税、米企業が再提訴",
+          "dek": "米国の対60経済関税は、強制労働対策を掲げるが、米国内の中小企業がSection 301の使い方を再び争い始めた。",
+          "importance": 3,
+          "facts": [
+            "APは、米国の新たな関税に対し中小企業が2件の訴訟を起こしたと報じた",
+            "関税は1974年通商法Section 301に基づき、強制労働品の輸入防止が不十分だとして60の貿易相手に二桁税率を課すものである",
+            "APによると、対象は米国輸入の99%をカバーする",
+            "訴訟は、政府が各経済ごとに必要な根拠や、関税が強制労働をどうなくすかを十分示していないと主張している",
+            "USTRは6月、日本、EU、韓国、中国などを含む60の調査対象を列挙し、強制労働輸入禁止の制度・執行不足を指摘した"
+          ],
+          "why_it_matters": "米通商政策は、人権監査を名目にした広範な市場アクセス条件へ変わりつつある。だが対象が広すぎるほど、強制労働対策という政策目的と、事実上の包括関税を維持する行政権限の問題が衝突する。",
+          "implications": "日本企業は、関税率だけでなく、米国向け輸出で必要な監査証跡、契約上の関税負担、サプライヤー証明、訴訟による制度変更リスクを管理する必要がある。関税が撤回されなくても、例外品目と執行基準の交渉余地が重要になる。",
+          "sources": [
+            {
+              "title": "Small businesses file lawsuits against Trump’s new sweeping tariffs",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/tariffs-trump-forced-labor-fd55d81461c38892a03c322bfcc46e95"
+            },
+            {
+              "title": "USTR Makes Findings and Proposes Action in 60 Section 301 Investigations Relating to Failures to Take Action on Trade in Forced Labor Goods",
+              "publisher": "USTR",
+              "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/june/ustr-makes-findings-and-proposes-action-60-section-301-investigations-relating-failures-take-action"
+            }
+          ],
+          "tags": ["強制労働", "関税", "Section 301", "USTR", "通商政策"]
+        },
+        {
+          "id": "eu-ai-aliexpress-dsa",
+          "headline": "EU、AI表示とEC監査を制度化",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は、AI法Article 50の透明性義務が2026年8月2日から適用されると説明している",
+            "透明性コードの初期署名者に入るには、7月27日18時CESTまでに署名フォームを提出する必要があった",
+            "欧州委員会は20日、AliExpressにDigital Services Act違反で5.5億ユーロの制裁金を科した",
+            "欧州委員会は、AliExpressが違法、危険、偽造商品のリスク評価と軽減を十分に行わなかったと説明した",
+            "Euronewsによると、AliExpressは10月20日までに是正計画を提出する必要がある"
+          ],
+          "why_it_matters": "EUのデジタル規制は、AI生成表示と越境ECの商品安全を別々の論点に見せながら、共通して監査可能性を求めている。表示、マーキング、リスク評価、モデレーション、人員体制、是正計画が、事業者の市場アクセス条件になる。",
+          "implications": "日本企業がEU向けにAI機能やECを提供する場合、プロダクト仕様と内部監査を分けて考える余地は小さい。AI生成物の来歴、出品者審査、違法商品の削除、ログ保存を、規制当局に説明できる形で整える必要がある。",
+          "sources": [
+            {
+              "title": "Signing the Code of Practice on Transparency of AI-generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-code-practice-transparency-ai-generated-content"
+            },
+            {
+              "title": "Quick Facts: Transparency rules for AI systems",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems"
+            },
+            {
+              "title": "Commission fines AliExpress €550 million for breaching the Digital Services Act",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act"
+            }
+          ],
+          "tags": ["EU AI法", "DSA", "AliExpress", "透明性", "越境EC"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "フォワードガイダンスなきFedは市場をどう動かすか",
+    "dek": "Warsh議長のFedは、細かな先行き説明を減らし、データと市場反応に重心を移しつつある。これは透明性の後退ではなく、金利、株式、為替の動き方を変える政策手法の変更である。",
+    "tags": ["Fed", "フォワードガイダンス", "金融政策", "米金利", "市場"],
+    "reading_minutes": 5,
+    "body_md": "## 背景\n\n7月FOMCは、政策金利を3.5〜3.75%に据え置いた。ただし3人が利上げを主張し、会合後の米株は大きく下げた。通常なら、据え置きは株式に安心材料になりやすい。今回はそうならなかった。理由は、Warsh議長のFedが、市場に細かな進路を示すより、インフレ目標への強い姿勢とデータ依存を前面に出しているからである。\n\nフォワードガイダンスとは、中央銀行が将来の政策金利や判断条件をあらかじめ示し、市場の期待を誘導する手法である。金融危機後やコロナ後には、政策金利がゼロ近辺に張り付いたため、中央銀行は「いつまで低金利を続けるか」を言葉で伝える必要があった。市場はその言葉をもとに、債券利回り、株価、為替を先に動かした。\n\n## なぜガイダンスを減らすのか\n\nガイダンスには効用がある。企業は資金調達計画を立てやすくなり、家計は住宅ローンを読みやすくなり、金融市場は急変を避けやすい。しかし副作用もある。中央銀行が先の道筋を詳しく語りすぎると、市場は実体経済より中央銀行の言葉だけを見るようになる。インフレや原油、関税、AI投資のような不確実性が大きい時に、中央銀行が早くから進路を固定すれば、後でデータが変わった時に信認を傷つける。\n\nWarsh議長の問題意識はここにある。インフレが2%を上回り、原油が中東情勢で跳ね、AIデータセンターが電力とメモリー価格を押し上げる局面では、中央銀行が「次は必ずこうする」と言いにくい。むしろ、各会合で最新データを見て判断する姿勢を強める方が、政策の自由度を保てる。市場の予想を固定しないこと自体が、過度なリスクテイクを抑える政策手段にもなる。\n\n## 市場は何に反応するのか\n\nガイダンスが減ると、市場は三つのものに過敏になる。第一に、経済指標である。PCE、CPI、雇用、賃金、原油在庫、期待インフレが、従来より直接的に金利へ反映される。第二に、会合内の票割れである。今回のように3人が利上げを主張すれば、据え置きでも市場は次の利上げを意識する。第三に、会見の言葉の強弱である。明確な数値条件がないほど、議長の表情、語順、リスクの並べ方が材料になる。\n\nこの環境では、株式市場の「中央銀行が助けてくれる」という前提が弱くなる。AI株のように将来利益を大きく織り込む銘柄は、金利が少し上がるだけで現在価値が大きく変わる。反対に、現金収入が安定し、価格転嫁力がある企業は相対的に評価されやすい。\n\n## 日本への波及\n\n日本にとって、Fedのガイダンス後退は円相場を通じて効く。米国の次回利上げ確率がデータごとに揺れれば、ドル円も大きく動く。日銀は政策金利を1.0%に上げた後も、円安と長期金利上昇を抱えている。Fedが明確な利下げ方向を示さない限り、日銀は国内物価だけでなく、米金利と為替を見ながら説明を続ける必要がある。\n\n企業実務では、金利前提を一点で置くのではなく、複数シナリオに分ける必要がある。米10年債が4.6%台にとどまる場合、再利上げでさらに上がる場合、原油高で円安が進む場合を分け、資金調達、在庫、価格転嫁、為替予約を見直すべきである。\n\n## 結論\n\nフォワードガイダンスの後退は、中央銀行が無責任になることではない。むしろ、不確実性が高い時に政策の余地を残す手法である。ただし市場にとっては、地図が粗くなる。投資家と企業は、中央銀行の約束に依存するのではなく、インフレ、原油、賃金、AI投資、票割れを自分で結び付ける必要がある。Warsh Fedの下では、金利は会合日だけでなく、毎日のデータで動く。金融政策は、予告された一本道から、情報が出るたびに価格が再計算される市場へ戻りつつある。",
+    "sources": [
+      {
+        "title": "U.S. Stocks Slide After Fed Pause, Escalation in Iran War",
+        "publisher": "WSJ",
+        "url": "https://www.wsj.com/finance/stocks/u-s-stocks-slide-after-fed-pause-escalation-in-iran-war-083d45b1"
+      },
+      {
+        "title": "Market moves and 'a good family fight:' top takeaways from the July Fed meeting",
+        "publisher": "Business Insider",
+        "url": "https://www.businessinsider.com/3-biggest-takeaways-from-july-federal-reserve-decision-kevin-warsh-2026-7"
+      },
+      {
+        "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "publisher": "Federal Reserve",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "Fedの据え置きは利下げ期待ではなく、次回利上げを残す高金利長期化シナリオとして受け止める必要がある",
+      "AI投資はMicrosoft型の売上回収が見える案件と、Meta型の費用先行案件に分けて評価される局面に入った",
+      "Kimi K3の公開後は、モデルを止める規制より、企業側の調達監査と来歴確認が実務の中心になる",
+      "日銀会合では政策変更の有無より、円安、JGB、原油高を一つの物価リスクとして説明できるかが重要になる"
+    ],
+    "watchlist": [
+      {
+        "item": "7月31日の日銀声明と展望レポート",
+        "why": "政策金利1.0%、円安、JGB高、原油高をどう整理するかを見る",
+        "horizon": "7月31日"
+      },
+      {
+        "item": "米PCEとQ2 GDP",
+        "why": "Fedの9月利上げ観測と米10年債の再上昇リスクを確認する",
+        "horizon": "7月30〜31日"
+      },
+      {
+        "item": "AmazonとApple決算",
+        "why": "AI capex、クラウド需要、端末AIの収益化がMicrosoft・Metaとの差を作る",
+        "horizon": "7月末"
+      },
+      {
+        "item": "Kimi K3の企業採用と米規制対応",
+        "why": "公開後のモデル統制、ライセンス、調達監査、制裁リスクを見る",
+        "horizon": "8月以降"
+      },
+      {
+        "item": "AliExpressのDSA是正計画",
+        "why": "越境ECの商品安全・偽造品対策の実務水準を確認する",
+        "horizon": "10月20日まで"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "フォワードガイダンス",
+      "definition": "中央銀行が将来の政策金利や判断条件を市場に示す手法。期待を安定させる一方、情勢変化時には政策の自由度を狭める。"
+    },
+    {
+      "term": "オープンウェイト",
+      "definition": "AIモデルの学習済み重みを利用者が取得し、自社環境で実行・調整できる形。配布後はAPI停止だけでは利用を止めにくい。"
+    },
+    {
+      "term": "HBM",
+      "reading": "エイチビーエム",
+      "definition": "High Bandwidth Memoryの略。AI半導体向けに大量データを高速で読み書きする積層メモリーで、SK HynixやSamsungが競う。"
+    },
+    {
+      "term": "Section 301",
+      "reading": "セクション・サンマルイチ",
+      "definition": "米通商法301条。外国政府の不公正行為をUSTRが調査し、関税などの対抗措置を取る根拠になる。"
+    }
+  ]
+}
