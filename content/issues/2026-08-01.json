@@ -1,0 +1,527 @@
+{
+  "date": "2026-08-01",
+  "edition": 16,
+  "generated_at": "2026-08-01T22:44:25+09:00",
+  "masthead_note": "日銀は据え置きでも利上げ余地を残し、Amazon決算とEU AI表示義務がAI投資の次の焦点を示した",
+  "market_snapshot": {
+    "as_of": "7月31日 東京・米国市場終値、8月1日JST時点で確認できる直近値",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "前日比+3.9%",
+        "direction": "up",
+        "note": "WSJ報道。韓国半導体株高とAI需要再評価を受けた反発"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "159円近辺",
+        "direction": "down",
+        "note": "介入観測で一時160円超から円高方向へ"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.7%台後半",
+        "direction": "up",
+        "note": "日銀据え置き後も追加利上げ観測が残る"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.743%",
+        "direction": "up",
+        "note": "7月末。インフレ再燃懸念で2025年1月以来の高水準"
+      },
+      {
+        "label": "ブレント原油",
+        "value": "90.12ドル",
+        "change": "+24%（7月）",
+        "direction": "up",
+        "note": "7月末。ホルムズ再緊張で月間大幅高"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,489.72",
+        "change": "+0.7%",
+        "direction": "up",
+        "note": "Amazon高がApple安を吸収"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "25,373.85",
+        "change": "+1.0%",
+        "direction": "up",
+        "note": "クラウド決算でAI株が反発"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "日銀は政策金利1.0%を維持。上田総裁は物価上振れなら追加利上げを排除しなかった",
+      "ref": "boj-hold-yen-intervention"
+    },
+    {
+      "text": "米10年債は4.743%へ上昇。PCEは鈍化しても3.7%で、9月利上げ観測は残った",
+      "ref": "us-growth-pce-bond-rout"
+    },
+    {
+      "text": "AmazonはAWSが37%増、capex見通しを2200億ドルへ。AI投資の回収力を示した",
+      "ref": "amazon-aws-ai-payoff"
+    },
+    {
+      "text": "Appleは好決算でもメモリー制約で売られた。AIブームの部材不足が端末利益を圧迫する",
+      "ref": "apple-memory-margin-pressure"
+    },
+    {
+      "text": "Kimi K3を巡り、米国では制限論と開放論が対立。中国AIは政策と調達の論点になった",
+      "ref": "china-ai-open-model-policy"
+    },
+    {
+      "text": "EU AI法Article 50は8月2日適用。生成AI表示は実装・監査・罰則の段階に入る",
+      "ref": "eu-ai-labels-article50"
+    }
+  ],
+  "top_story": {
+    "id": "boj-hold-yen-intervention",
+    "headline": "日銀据え置き、円防衛は綱渡り",
+    "dek": "日銀は政策金利1.0%を維持したが、上田総裁は物価上振れへの警戒を強めた。円は介入観測で反発したものの、米金利高と原油高が続く限り、金融政策だけで円安を止める構図ではない。",
+    "importance": 3,
+    "facts": [
+      "Axiosは31日、日銀が政策金利を1.0%に据え置いたと報じた",
+      "WSJは、日銀が6月の利上げの影響を見極めるため政策を維持したと報じた",
+      "Axiosによると、上田総裁は基調的な物価が2%目標に近づいており、上振れリスクをより厳しく点検する必要があると述べた",
+      "WSJは、円が政府介入観測で一時的に強含み、日銀の物価見通しには弱い円が重くのしかかると整理した",
+      "市場報道では、米財務省が円支援の可能性を主要銀行に伝えたとの観測も出た"
+    ],
+    "why_it_matters": "日銀の据え置きは、緩和姿勢の維持ではなく、6月利上げ後の効果を確認するための一時停止である。円安、原油高、米長期金利上昇が同時に進む局面では、国内の需給だけを見た物価判断では市場を納得させにくい。介入で円を押し上げても、日米金利差と財政不安が残れば、為替防衛は短期戦では終わらない。",
+    "implications": "日本企業は、日銀の次回利上げ時期だけでなく、為替介入、米金利、原油の三つが同時に動くシナリオを置く必要がある。輸入企業には仕入れ価格の再上昇、金融機関にはJGB評価損、輸出企業には急な円高巻き戻しが同時にリスクになる。",
+    "sources": [
+      {
+        "title": "Bank of Japan leaves rates unchanged as yen intervention talk swirls",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/07/31/bank-of-japan-rates-yen"
+      },
+      {
+        "title": "Bank of Japan Stands Pat But Weak Yen Threatens Inflation Outlook",
+        "publisher": "WSJ",
+        "url": "https://www.wsj.com/economy/central-banking/bank-of-japan-stands-pat-continues-to-see-inflation-around-2-3b20439c"
+      },
+      {
+        "title": "Treasury Warns Banks It Might Intervene in Dollar-Yen Exchange Rate",
+        "publisher": "WSJ",
+        "url": "https://www.wsj.com/finance/currencies/treasury-warns-banks-it-might-intervene-in-dollar-yen-exchange-rate-4d7f1bba"
+      }
+    ],
+    "tags": ["日銀", "円安", "為替介入", "JGB", "金融政策"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "us-growth-pce-bond-rout",
+          "headline": "米GDP1.5%、債券は売り継続",
+          "dek": "米Q2成長率は1.5%へ鈍化し、PCEも前年比3.7%へ下がった。それでも物価は目標を大きく上回り、米10年債は4.743%まで上昇した。",
+          "importance": 3,
+          "facts": [
+            "Guardianは、米4〜6月期GDPが年率1.5%増となり、1〜3月期の2.1%増から鈍化したと報じた",
+            "同報道によると、6月PCE価格指数は前年比3.7%上昇し、5月の4.1%から低下した",
+            "食品・エネルギーを除くコアPCEは前年比3.3%上昇で、5月の3.4%から小幅低下にとどまった",
+            "WSJは、米10年債利回りが7月末に4.743%へ上昇し、2025年1月以来の高水準になったと報じた",
+            "APは31日、S&P500が0.7%高、Nasdaqが1.0%高で終えたと伝えた"
+          ],
+          "why_it_matters": "一見すると、成長鈍化とPCE鈍化は利上げ圧力を弱める材料である。しかし水準としてはなおインフレ目標を大きく上回り、原油高と関税の影響が戻れば再加速しやすい。債券市場は、景気の弱さよりFedの信認と財政・物価リスクを重く見始めている。",
+          "implications": "日本市場では、米金利高が円安圧力を残し、日銀の据え置きを難しくする。株式では、金利が高いままでも実収益を伸ばせるクラウド、銀行、資源関連が相対的に選ばれやすく、将来利益への依存度が高い銘柄は戻り売りを受けやすい。",
+          "sources": [
+            {
+              "title": "US economy grows sluggish 1.5% in second quarter as inflation tops Fed target",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/jul/30/us-economy-growth-inflation-second-quarter"
+            },
+            {
+              "title": "Treasury Yields Rise in Month That Saw Inflation Fears Revive",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/finance/jgbs-edge-lower-ahead-of-bojs-rate-decision-000cd87a"
+            },
+            {
+              "title": "How major US stock indexes fared Friday 7/31/2026",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/37d8d182f02f0fcdcf9f7db67e6dfadd"
+            }
+          ],
+          "tags": ["米GDP", "PCE", "米10年債", "Fed", "米株"]
+        },
+        {
+          "id": "yen-fix-treasury-spillover",
+          "headline": "円介入観測、米債にも波及",
+          "importance": 2,
+          "facts": [
+            "WSJは、円が介入観測で一時159円近辺まで強含んだと報じた",
+            "Barron'sは、日本の円防衛が米国債売却を伴うとの見方から米10年債利回りを押し上げたと報じた",
+            "同報道は、日本の介入規模が約530億ドルとの推計に触れた",
+            "WSJは、米財務省が円支援のための市場介入を検討していると主要銀行に伝えたと報じた"
+          ],
+          "why_it_matters": "為替介入は、円を買うだけの政策ではない。外貨準備を使う場合、米国債市場の需給や米長期金利にも影響し得る。日本の為替防衛が米金利上昇を通じて再び円安圧力を生むなら、介入と金融政策の整合性が問われる。",
+          "implications": "企業財務では、円高に備えた為替予約だけでなく、米金利上昇によるドル資金調達費用を同時に見る必要がある。投資家は、円高局面でも米債安が続く場合、日本株の輸出・金融・内需の反応が通常の円高相場と変わる可能性を考えるべきである。",
+          "sources": [
+            {
+              "title": "Yen Strengthens on Signs of Intervention",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/finance/currencies/yens-focus-on-boj-gov-uedas-guidance-1917e93b"
+            },
+            {
+              "title": "Treasuries Get Whacked by Japan's Big Yen Fix. Bonds Don't Need More Trouble.",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/articles/bonds-treasury-yields-japan-yen-97bb1997"
+            },
+            {
+              "title": "Treasury Warns Banks It Might Intervene in Dollar-Yen Exchange Rate",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/finance/currencies/treasury-warns-banks-it-might-intervene-in-dollar-yen-exchange-rate-4d7f1bba"
+            }
+          ],
+          "tags": ["為替介入", "米国債", "ドル円", "財務省", "円キャリー"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "china-ai-open-model-policy",
+          "headline": "中国AI、米政策を二分",
+          "dek": "Moonshot AIのKimi K3など中国のオープンモデルが、米国企業と政権内の議論を割っている。制限すれば安全保障、開けば競争力という単純な二択ではなくなった。",
+          "importance": 3,
+          "facts": [
+            "Guardianは1日、中国のAI、チップ、ロボティクスの進展が米テック業界とホワイトハウスを揺さぶっていると報じた",
+            "同報道は、Kimi K3のような中国のオープンウェイトAIがOpenAIやAnthropicの有料モデルと競合し得ると整理した",
+            "MarketWatchは、Kimi K3の開発にAlibaba経由のNvidia H200チップ利用が関与した可能性を示す報告が出たと伝えた",
+            "Guardianによると、Microsoft、Nvidia、Palantir、Metaなどはオープンモデル制限に慎重な立場を示している",
+            "NvidiaはOpen Secure AI Allianceを立ち上げ、AI防御にはオープンなモデル、ハーネス、監査ツールが必要だと主張した"
+          ],
+          "why_it_matters": "中国AIの論点は、安いモデルが登場したという価格競争にとどまらない。米国が中国モデルを制限すれば、国内企業の低コスト導入やオープンな検証環境も狭まる。一方で、モデル来歴、学習データ、制裁対象チップの利用可能性を説明できなければ、企業調達のリスクは高まる。",
+          "implications": "日本企業は、性能表だけでモデルを選ぶ段階を過ぎた。API提供国、学習・推論に使われた計算資源、ライセンス、重みの改変可否、ログ保全、米国取引先への説明可能性を同じ調達審査に入れる必要がある。",
+          "sources": [
+            {
+              "title": "China’s tech advances are causing chaos from Silicon Valley to the White House",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/aug/01/china-silicon-valley-white-house"
+            },
+            {
+              "title": "Did China build a top-tier AI model by itself? A new report suggests Nvidia chips played a role.",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/did-china-build-a-top-tier-ai-model-by-itself-a-new-report-suggests-nvidia-chips-played-a-role-ad4644cd"
+            },
+            {
+              "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+              "publisher": "NVIDIA Blog",
+              "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/?nvid=nv-csfg-990052"
+            }
+          ],
+          "tags": ["Kimi K3", "中国AI", "オープンウェイト", "Nvidia", "AI政策"]
+        },
+        {
+          "id": "open-secure-ai-stack",
+          "headline": "AI安全、重みより運用層へ",
+          "importance": 2,
+          "facts": [
+            "Nvidiaは27日、Open Secure AI Allianceの発足を発表した",
+            "同連合にはMicrosoft、Cisco、Cloudflare、Palantir、Hugging Face、IBM、Linux Foundationなどが参加する",
+            "Nvidiaは、AIエージェントの安全性はモデル重みだけでなく、ID、権限、ハーネス、ガードレール、ログ、評価で決まると説明した",
+            "同社はNOOA、MicrosoftのMDASH、Hugging FaceのSafetensorsなどを、検証可能な防御基盤の例として挙げた"
+          ],
+          "why_it_matters": "AI安全性の焦点は、閉鎖型か開放型かというモデル単体の議論から、運用スタック全体へ移っている。企業がAIエージェントを業務に入れるほど、誰が実行し、どの権限で、どのログを残し、どの環境で隔離するかが事故時の説明責任を左右する。",
+          "implications": "企業のAI導入では、モデル評価だけをPoCにしてはいけない。ID管理、権限分離、監査ログ、サンドボックス、脆弱性開示、第三者評価を最初から設計に入れた案件だけが、本番運用へ進みやすくなる。",
+          "sources": [
+            {
+              "title": "Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security",
+              "publisher": "NVIDIA Blog",
+              "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/?nvid=nv-csfg-990052"
+            },
+            {
+              "title": "Nvidia, Microsoft launch open AI security alliance - without OpenAI, Google, or Anthropic",
+              "publisher": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+            }
+          ],
+          "tags": ["AIエージェント", "AI安全性", "サイバーセキュリティ", "オープンソース"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "amazon-aws-ai-payoff",
+          "headline": "Amazon、AWS37%増でAI投資回収",
+          "dek": "AmazonはQ2売上高2006億ドル、AWS売上高422億ドルと市場予想を上回った。capex見通しは2200億ドルへ上がったが、クラウド成長が投資不安を和らげた。",
+          "importance": 3,
+          "facts": [
+            "WSJは、AmazonのAWS売上高が第2四半期に前年同期比37%増えたと報じた",
+            "同報道によると、Amazonは2026年の設備投資見通しを2000億ドルから2200億ドルへ引き上げた",
+            "Guardianは、Amazonの四半期売上高が2006億ドルとなり、市場予想の1964.7億ドルを上回ったと報じた",
+            "WSJは、Amazonの投資拡大がデータセンター需要とクラウド顧客向け能力増強に向かっていると整理した",
+            "APは31日、Amazon株の上昇がS&P500とNasdaqの反発を支えたと伝えた"
+          ],
+          "why_it_matters": "AI capexは金額の大きさだけでは評価されなくなった。Amazonの場合、投資拡大と同時にAWS成長が加速したため、市場は費用ではなく回収の入口を見た。Microsoft型と同様、クラウド課金に接続したAI投資は、広告や消費者向けAIよりも収益化の道筋を示しやすい。",
+          "implications": "日本の半導体装置、電力、データセンター、不動産、通信企業には、Amazon型の需要が追い風になる。ただしcapex見通しがさらに上がったため、メモリー、電力、建設、人材の制約が利益率を削る可能性も残る。",
+          "sources": [
+            {
+              "title": "Amazon Shares Jump as Cloud Sales—and Spending—Accelerate",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/tech/ai/amazon-earnings-q2-2026-amzn-stock-3daf95f7"
+            },
+            {
+              "title": "Apple and Amazon report rising revenues as investors turn on some tech stocks",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/jul/30/apple-amazon-second-quarter-revenues"
+            },
+            {
+              "title": "How major US stock indexes fared Friday 7/31/2026",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/37d8d182f02f0fcdcf9f7db67e6dfadd"
+            }
+          ],
+          "tags": ["Amazon", "AWS", "AI投資", "クラウド", "capex"]
+        },
+        {
+          "id": "apple-memory-margin-pressure",
+          "headline": "Apple好決算、メモリー高で失速",
+          "importance": 2,
+          "facts": [
+            "Guardianは、Appleの四半期売上高が1094億ドル、EPSが2.02ドルで市場予想を上回ったと報じた",
+            "APは、Appleの純利益が297.9億ドル、前年同期の234.3億ドルから増加したと伝えた",
+            "MarketWatchは、Tim Cook CEOがDRAM生産の集中とメモリー価格上昇に懸念を示したと報じた",
+            "同報道によると、Apple株は決算後に下落し、メモリー制約が次四半期の粗利率を圧迫するとの見方が出た"
+          ],
+          "why_it_matters": "AppleはAIインフラ投資の直接的な勝者ではないが、AIブームが生む部材不足の影響を強く受ける。データセンター向けHBMやDRAM需要が強いほど、端末メーカーは部材調達と価格転嫁で不利になりやすい。好決算でも株価が売られたのは、需要より供給制約が利益を決める局面に入ったためである。",
+          "implications": "スマートフォン、PC、車載電子機器のサプライチェーンでは、メモリー価格を短期変動ではなく構造的な制約として扱う必要がある。日本企業では、部材価格の転嫁力、在庫戦略、長期契約の有無が利益率の差になりやすい。",
+          "sources": [
+            {
+              "title": "Strong iPhone sales propel Apple's fiscal Q3 results past Wall Street's expectations",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/94102918cb3592ebc1d2a38c4d7d819a"
+            },
+            {
+              "title": "Apple and Amazon report rising revenues as investors turn on some tech stocks",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/jul/30/apple-amazon-second-quarter-revenues"
+            },
+            {
+              "title": "Micron's stock falls after Apple's Tim Cook expresses a desire for more memory suppliers",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/microns-stock-falls-after-apples-tim-cook-expresses-a-desire-for-more-memory-suppliers-a7bc0502"
+            }
+          ],
+          "tags": ["Apple", "DRAM", "メモリー", "端末", "粗利率"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "hormuz-tanker-strikes",
+          "headline": "ホルムズ再攻撃、原油90ドル台",
+          "dek": "米国はイランへの追加攻撃を示唆し、クウェートではドローン攻撃、ホルムズ近海ではタンカー被害が報じられた。OPEC+の増産余地より、輸送できるかが焦点になっている。",
+          "importance": 3,
+          "facts": [
+            "APは1日、トランプ大統領がホルムズ海峡再開を迫り、イランへの追加攻撃を示唆したと報じた",
+            "APによると、クウェートはイランによるドローン攻撃に対応し、ホルムズ海峡近くではタンカーが損傷した",
+            "米海事局の助言は、ペルシャ湾、ホルムズ海峡、オマーン湾で商船へのイラン攻撃リスクが高いと警告している",
+            "WSJは、7月末のWTIが84.67ドル、ブレントが90.12ドルとなり、月間でそれぞれ22%、24%上昇したと報じた",
+            "MarketWatchは、OPEC+が生産枠を引き上げても輸送・保険の制約が価格低下を妨げる可能性を指摘した"
+          ],
+          "why_it_matters": "原油リスクは、生産能力の不足ではなく、航路と保険の制約へ移った。増産してもタンカーが通れず、保険料が跳ね、港湾や迂回路が詰まれば、実物市場には供給不安が残る。日本にとっては、ドル高、原油高、海上保険料上昇が交易条件を同時に悪化させる。",
+          "implications": "電力、化学、航空、海運、商社は、原油価格だけでなく、LNG船、保険、迂回日数、在庫、不可抗力条項を同時に点検すべきである。政策面では、円安対策とエネルギー補助を別々に議論しにくくなる。",
+          "sources": [
+            {
+              "title": "Trump threatens more strikes on Iran, and other developments in the Middle East",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/e61e88c14d8aca48c1c56368650baea5"
+            },
+            {
+              "title": "2026-004-Persian Gulf, Strait of Hormuz, and Gulf of Oman-Iranian Attacks on Commercial Vessels",
+              "publisher": "MARAD",
+              "url": "https://www.maritime.dot.gov/msci/2026-004-persian-gulf-strait-hormuz-and-gulf-oman-iranian-attacks-commercial-vessels"
+            },
+            {
+              "title": "Oil Posts Big Monthly Gains on Resumption of Conflict",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-after-attacks-in-black-sea-a5ce5323"
+            }
+          ],
+          "tags": ["ホルムズ", "イラン", "原油", "タンカー", "海上保険"]
+        },
+        {
+          "id": "kyiv-air-defense-shortage",
+          "headline": "キーウ攻撃、迎撃不足が露呈",
+          "importance": 2,
+          "facts": [
+            "APは1日、ロシアがキーウへ弾道ミサイルとドローンで大規模攻撃を行い、少なくとも9人が死亡、30人が負傷したと報じた",
+            "同報道によると、住宅、行政施設、リトアニア大使館が被害を受けた",
+            "ゼレンスキー大統領は、Patriot迎撃システム用の迎撃弾が最優先課題だと改めて訴えた",
+            "APは、ウクライナがロシアの石油施設をドローンで攻撃し、燃料供給にも圧力をかけていると伝えた"
+          ],
+          "why_it_matters": "ウクライナ戦争は、前線の占領地だけでなく、防空弾、長距離ドローン、燃料施設をめぐる消耗戦になっている。都市への弾道ミサイル攻撃を防げなければ、西側支援の質と量が国内政治の争点に戻る。",
+          "implications": "欧州の防衛産業には、防空、弾薬、レーダー、ドローン対処の長期需要が残る。日本にとっても、ミサイル防衛の在庫、共同生産、重要インフラ防護を平時から数量で議論する必要がある。",
+          "sources": [
+            {
+              "title": "Russia hits Ukrainian capital with ballistic missiles and drones, killing at least 9",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/eb62397d10bca2d6db4269a3bcfc9dc6"
+            },
+            {
+              "title": "Russia Clamps Down on Posting Videos of Ukrainian Drone Strikes",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/world/russia-clamps-down-on-posting-videos-of-ukrainian-drone-strikes-999092a5"
+            }
+          ],
+          "tags": ["ウクライナ", "ロシア", "防空", "Patriot", "ドローン"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-ai-labels-article50",
+          "headline": "EU AI表示、8月2日から義務化",
+          "dek": "EU AI法Article 50の透明性義務が8月2日に適用される。チャットボット、深層偽造、公共的事項のAI生成テキストは、表示と機械可読マーキングを求められる。",
+          "importance": 3,
+          "facts": [
+            "欧州委員会は、AI生成コンテンツ透明性コードの署名期限を7月27日18時CESTとした",
+            "同FAQは、Article 50(2)、(4)、(5)が2026年8月2日から適用されると説明している",
+            "AI Act Service Deskは、AI生成・操作コンテンツを明確に表示し、人工生成として検知可能にする義務をArticle 50の要点として整理している",
+            "Guardianは、既存システムには4カ月の移行期間があり、違反時の制裁は1500万ユーロまたは世界売上高3%に達し得ると報じた",
+            "非署名企業は、8月2日以降も別の手段で透明性義務への適合を説明する必要がある"
+          ],
+          "why_it_matters": "AI生成表示は、任意のユーザー配慮から、プロダクト仕様と監査証跡の問題になった。企業はラベルを出すだけでなく、どの出力に、どの形式で、いつ、どの程度機械可読にマーキングしたかを説明しなければならない。",
+          "implications": "日本企業がEU向けに生成AI機能、EC、広告、メディア、カスタマーサポートを提供する場合、C2PAやウォーターマークだけを後付けする設計では足りない。生成経路、編集責任、ログ保存、例外判断をプロダクト要件に入れる必要がある。",
+          "sources": [
+            {
+              "title": "Signing the Code of Practice on Transparency of AI-generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-code-practice-transparency-ai-generated-content"
+            },
+            {
+              "title": "Article 50: Transparency obligations for providers and deployers of certain AI systems",
+              "publisher": "AI Act Service Desk",
+              "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50"
+            },
+            {
+              "title": "AI labels to be compulsory on authentic-looking content under EU rules",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/jul/31/ai-labels-to-be-compulsory-on-authentic-looking-content-under-eu-rules"
+            }
+          ],
+          "tags": ["EU AI法", "Article 50", "生成AI表示", "透明性", "C2PA"]
+        },
+        {
+          "id": "eu-russia-sanctions-energy",
+          "headline": "EU対露制裁、エネルギー再強化",
+          "importance": 2,
+          "facts": [
+            "EU理事会は7月23日、ロシアに対する第21弾制裁パッケージを採択したと発表した",
+            "同パッケージは、エネルギー、金融サービス、暗号資産、貿易、軍需産業を重点分野に置く",
+            "EUは、ロシアの軍需産業で使われる品目・技術の輸出禁止を拡大した",
+            "欧州委員会は、制裁がロシアの戦費調達と民間インフラ攻撃能力を弱める目的だと説明した"
+          ],
+          "why_it_matters": "ウクライナへの空襲が続く中、EUは軍事支援だけでなく、ロシアの収入源と調達網をさらに絞る方向へ動いている。エネルギー、金属、金融、暗号資産まで対象が広がるほど、制裁遵守は単なる取引先リスト確認では済まない。",
+          "implications": "日本企業は、欧州取引やドル決済を通じて制裁網に巻き込まれる可能性を見直すべきである。二次制裁、迂回輸出、暗号資産決済、ロシア産原材料の混入確認が、調達・法務・金融部門の共通課題になる。",
+          "sources": [
+            {
+              "title": "21st package of sanctions: EU hits Russian energy, financial services and crypto hard",
+              "publisher": "Council of the EU",
+              "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/07/23/21st-package-of-sanctions-eu-hits-russian-energy-financial-services-and-crypto-hard/?hl=en-US"
+            },
+            {
+              "title": "Sanctions adopted following Russia’s military aggression against Ukraine",
+              "publisher": "European Commission",
+              "url": "https://finance.ec.europa.eu/eu-and-world/sanctions-restrictive-measures/sanctions-adopted-following-russias-military-aggression-against-ukraine_en?prefLang=el"
+            }
+          ],
+          "tags": ["EU制裁", "ロシア", "エネルギー", "暗号資産", "輸出管理"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AIメモリー不足はなぜ端末企業にも効くのか",
+    "dek": "AmazonはAWS成長でAI投資を正当化した一方、Appleはメモリー価格と供給制約で売られた。同じAIブームがクラウド企業には成長、端末企業にはコストとして現れる理由を整理する。",
+    "tags": ["AIインフラ", "メモリー", "HBM", "クラウド", "端末"],
+    "reading_minutes": 5,
+    "body_md": "## 背景\n\n今週の決算で、AI投資の見え方は二つに割れた。AmazonはAWSの高成長で、データセンター投資が売上に変わり始めたと受け止められた。Microsoftも同じ方向で評価された。一方、Appleは売上と利益が市場予想を上回ったにもかかわらず、メモリー価格と供給制約への警戒で売られた。同じAIブームが、一方には需要を押し上げ、もう一方には原価を押し上げる。\n\nこの違いを理解する鍵は、メモリーがAI時代の共通部材になったことにある。従来、DRAMやNANDはPC、スマートフォン、サーバーの景気循環で価格が動いた。AIブームでは、GPUに近いHBM、高速サーバーDRAM、大容量ストレージが同時に必要になる。クラウド事業者は高い部材を買っても、顧客に計算資源として売れる。端末企業は同じ部材高を、製品価格か粗利率で吸収しなければならない。\n\n## なぜ供給が詰まるのか\n\nHBMは、複数のDRAMを縦に積み、GPUと高速につなぐメモリーである。AI学習や推論では、演算器だけ速くても、データを読み書きする速度が追いつかなければ性能は出ない。そのためNvidiaやクラウド企業は、GPU、HBM、ネットワーク、電力を一体で確保しようとする。\n\n問題は、HBMを増やすほど通常DRAMの生産能力も影響を受けることだ。メモリーメーカーは同じ工場、装置、技術者、検査能力を使って複数製品を作る。HBMは高単価で長期契約も取りやすいため、Samsung、SK Hynix、MicronはAI向けに能力を振り向ける誘因が強い。その結果、スマートフォンやPC向けの汎用DRAMにも品薄感が波及する。\n\n## 企業ごとの受け止め方\n\nAmazonのようなクラウド企業は、メモリー高をすぐに費用として嫌うだけではない。AWSで高い稼働率を保ち、AI推論や企業向けクラウドに課金できれば、部材高は将来収益を作る投資になる。設備投資額が大きくても、顧客需要と価格決定力が見えれば市場は受け入れやすい。\n\nAppleのような端末企業は逆である。iPhoneやMacには高性能メモリーが必要だが、クラウドほど柔軟に従量課金へ転嫁できない。価格を上げれば買い替えサイクルが鈍り、価格を据え置けば粗利率が下がる。しかもAI機能を端末側で処理するほど、メモリー容量と帯域への要求は高まる。端末AIは差別化要因であると同時に、部材競争に巻き込まれる入口でもある。\n\n## 契約と在庫が差になる\n\nメモリー不足の局面では、調達力そのものが競争力になる。クラウド企業は数年単位の供給契約、前払い、共同投資で枠を押さえやすい。端末企業も長期契約は使えるが、製品サイクルが短く、需要予測を外すと在庫負担が大きい。供給制約が続くほど、強い企業は部材を確保して売上機会を守り、弱い企業は欠品か粗利率低下を選ばされる。\n\nこの構図は、メモリーだけでなく電力にも似ている。データセンター事業者は長期電力契約を結び、コストを顧客課金へ埋め込める。端末企業や製造業は、同じエネルギー高を販売価格に転嫁できるとは限らない。AIインフラの拡大は、供給契約を金融商品に近づけ、強い買い手が先に資源を囲い込む市場を作る。\n\n## 日本への示唆\n\n日本企業にとって重要なのは、AI関連需要を単純な追い風として見ないことである。半導体装置、素材、検査、電力、空調、建設には明確な需要がある。一方で、電子機器、自動車、産業機械は、メモリーや電源部材の価格上昇を受ける側にもなる。\n\nしたがって見るべき指標は、メモリー価格そのものだけではない。長期供給契約の有無、顧客への価格転嫁条項、在庫月数、AI機能を端末側で処理する設計か、クラウド側へ逃がす設計かである。AI投資の勝者は、モデル性能だけで決まらない。限られたメモリーを、最も高く、最も安定して収益化できる企業が有利になる。",
+    "sources": [
+      {
+        "title": "Amazon Shares Jump as Cloud Sales—and Spending—Accelerate",
+        "publisher": "WSJ",
+        "url": "https://www.wsj.com/tech/ai/amazon-earnings-q2-2026-amzn-stock-3daf95f7"
+      },
+      {
+        "title": "Strong iPhone sales propel Apple's fiscal Q3 results past Wall Street's expectations",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/94102918cb3592ebc1d2a38c4d7d819a"
+      },
+      {
+        "title": "Samsung reports record profit as South Korean chip giants benefit from global AI boom",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/10c2c548a392988862d8c7bd3f6fae05"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "日銀据え置きは円安対策の終わりではなく、介入と次回利上げの整合性を問う局面の始まりである",
+      "AI投資は、Amazon型のクラウド回収力とApple型の部材コスト圧迫に分けて評価する必要がある",
+      "中国AIの台頭は、モデル性能だけでなく、チップ規制、モデル来歴、企業調達監査を一体の論点にした",
+      "EU AI表示義務は、ラベル表示だけでなく、生成経路とログを説明できるプロダクト設計を求める"
+    ],
+    "watchlist": [
+      {
+        "item": "8月4日のBOJ展望レポート全文",
+        "why": "据え置き後の物価・成長見通しと円安リスクの書きぶりを確認する",
+        "horizon": "8月4日"
+      },
+      {
+        "item": "8月7日の米雇用統計",
+        "why": "9月FOMC利上げ確率と米10年債4.7%台定着の材料になる",
+        "horizon": "8月7日"
+      },
+      {
+        "item": "EU AI法Article 50の初期執行",
+        "why": "生成AI表示、機械可読マーキング、既存システム移行期間の実務例を見る",
+        "horizon": "8月2日以降"
+      },
+      {
+        "item": "Amazon・Apple後のメモリー価格",
+        "why": "HBM需要が端末・車載・産業機器の部材価格へ波及するかを確認する",
+        "horizon": "8月"
+      },
+      {
+        "item": "ホルムズ通航とOPEC+判断",
+        "why": "増産枠より輸送・保険制約が原油価格を決める局面が続くかを見る",
+        "horizon": "8月上旬"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "HBM",
+      "reading": "エイチビーエム",
+      "definition": "High Bandwidth Memoryの略。DRAMを積層し、GPUと高速接続するAI向けメモリー。AI需要増で供給制約の中心になっている。"
+    },
+    {
+      "term": "Article 50",
+      "reading": "アーティクル・フィフティ",
+      "definition": "EU AI法の透明性義務。AIとの対話通知、AI生成・操作コンテンツのマーキング、深層偽造や公共的事項のAI生成テキスト表示を定める。"
+    },
+    {
+      "term": "PCE",
+      "reading": "ピーシーイー",
+      "definition": "Personal Consumption Expendituresの略。米個人消費支出価格指数はFedが重視する物価指標で、利上げ・利下げ判断に直結する。"
+    },
+    {
+      "term": "為替介入",
+      "definition": "通貨当局が市場で通貨を売買し、為替相場を動かそうとする政策。円買い介入では外貨準備の売却が米債需給へ波及し得る。"
+    }
+  ]
+}
