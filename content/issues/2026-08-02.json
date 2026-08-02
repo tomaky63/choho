@@ -1,0 +1,482 @@
+{
+  "date": "2026-08-02",
+  "edition": 17,
+  "generated_at": "2026-08-02T13:04:51+09:00",
+  "masthead_note": "ホルムズは軍事衝突から交渉へ揺れ、AI相場は決算で持ち直す一方、EU AI表示義務が今日から実務段階に入った",
+  "market_snapshot": {
+    "as_of": "7月31日 東京・米国市場終値、8月2日JST時点で確認できる直近値",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "前日比+3.9%",
+        "direction": "up",
+        "note": "WSJ報道。Amazon/Microsoft後のAI再評価で急反発"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,066近辺",
+        "direction": "up",
+        "note": "直近公式値は7月27日終値4,066.07。銀行・電子部品が支え"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "160円近辺",
+        "direction": "flat",
+        "note": "日銀据え置きと介入観測の綱引き"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.7%台後半",
+        "direction": "up",
+        "note": "追加利上げ観測と米金利高が重荷"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.743%",
+        "direction": "up",
+        "note": "7月31日。Fed内の利上げ支持発言で2025年1月以来の高水準"
+      },
+      {
+        "label": "ブレント原油",
+        "value": "87.93ドル",
+        "direction": "down",
+        "note": "7月31日。交渉観測で90ドル台から一服も輸送リスクは残る"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,489.72",
+        "change": "+0.7%",
+        "direction": "up",
+        "note": "Amazon高がApple安を吸収"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "25,373.85",
+        "change": "+1.0%",
+        "direction": "up",
+        "note": "AI・半導体株が週後半に反発"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "トランプ氏は対イラン追加攻撃を見送り。ホルムズ再開を含む交渉枠組みが焦点になった",
+      "ref": "iran-hormuz-deal-window"
+    },
+    {
+      "text": "OPEC+は増産枠を協議へ。だが原油価格を決める主因は生産量より船舶・保険・通航条件である",
+      "ref": "opec-quota-physical-flows"
+    },
+    {
+      "text": "米株はAmazon主導で反発、米10年債は4.743%。AI回収力と高金利が同時に相場を動かす",
+      "ref": "us-stocks-ai-yields"
+    },
+    {
+      "text": "中国AIとロボットを巡り米政権・業界が分裂。Kimi K3後の争点はアクセス禁止か監査かである",
+      "ref": "china-ai-policy-split"
+    },
+    {
+      "text": "EU AI法Article 50が今日適用。生成AI表示は消費者向けUXではなく、証跡管理の義務になった",
+      "ref": "eu-ai-article50-live"
+    },
+    {
+      "text": "8月4日はAMDとSpaceXの決算。AIチップ、Starlink、宇宙インフラの投資採算が試される",
+      "ref": "spacex-amd-earnings-test"
+    }
+  ],
+  "top_story": {
+    "id": "iran-hormuz-deal-window",
+    "headline": "米イラン交渉、ホルムズ再開が焦点",
+    "dek": "トランプ大統領は対イラン追加攻撃を見送り、中東諸国が描く停戦枠組みに時間を与えた。市場には原油急騰の一服材料だが、イランの正式反応、ホルムズ通航、保険料、湾岸インフラ攻撃リスクは残ったままである。",
+    "importance": 3,
+    "facts": [
+      "APは2日、サウジ皇太子がトランプ大統領に対イラン攻撃の拡大を避けるよう求めたと報じた",
+      "Axiosは2日、トランプ氏が外交進展を理由に計画していた対イラン攻撃を取りやめたと報じた",
+      "APによると、サウジ側は米国がイランのエネルギーや重要インフラを攻撃すれば、湾岸諸国のエネルギー施設が報復対象になることを懸念している",
+      "米国務省は、バーレーン、イスラエル、イラク、ヨルダン、クウェート、オマーン、カタール、サウジ、UAEなどで米国人に警戒を促した",
+      "米政府は、イランが商船を攻撃し、米兵を殺害したとして追加行動を示唆していた"
+    ],
+    "why_it_matters": "今日の差分は、ホルムズ危機が全面的な軍事拡大から、通航再開を条件とする交渉局面へ一度戻った点である。ただし、交渉の枠組みは実物市場の安定を直ちに意味しない。タンカーが実際に通り、保険が下がり、湾岸施設への報復懸念が消えるまでは、原油とLNGのリスクプレミアムは残る。",
+    "implications": "日本にとっては、原油価格だけでなく、航路の可用性と保険料が交易条件を左右する局面である。電力、化学、航空、海運、商社は、和平見出しでヘッジを解くのではなく、通航実績、港湾混雑、LNG船の迂回、円安再燃を同時に見ておく必要がある。",
+    "sources": [
+      {
+        "title": "Saudi crown prince urges Trump not to escalate Iran war as US leader weighs new strikes",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/iran-war-trump-saudi-crown-prince-call-814164417aa284dc8a6d34ac22ea1a8e"
+      },
+      {
+        "title": "Trump cancels Iran attack, citing progress in negotiations",
+        "publisher": "Axios",
+        "url": "https://www.axios.com/2026/08/02/trump-iran-attack-cancelled"
+      }
+    ],
+    "tags": ["イラン", "ホルムズ", "原油", "サウジ", "地政学"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "us-stocks-ai-yields",
+          "headline": "米株反発、金利4.743%が重石",
+          "dek": "米株はAmazonの急騰で週末を持ち直したが、米10年債は4.743%へ上がった。AI投資の回収力を示す企業は買われ、金利上昇に耐えない将来利益銘柄は選別される。",
+          "importance": 3,
+          "facts": [
+            "APは、7月31日のS&P500が0.7%高の7,489.72で終えたと報じた",
+            "同日、Dowは0.5%高の52,485.03、Nasdaqは1.0%高の25,373.85だった",
+            "APによると、Amazonは春季利益が予想を上回り急伸し、Appleは売上見通しの弱さで下落した",
+            "WSJは、米10年債利回りが7月31日に4.743%となり、2025年1月以来の高水準で終えたと報じた",
+            "WSJによると、米30年債利回りは5.274%で、2007年7月以来の高水準だった"
+          ],
+          "why_it_matters": "AI相場は崩壊ではなく、採算で選別される局面に入った。AmazonやMicrosoftのようにクラウド売上とフリーキャッシュフローの説明がつく企業は買われるが、米長期金利が5%近くで止まらなければ、遠い将来利益への割引率は上がり続ける。",
+          "implications": "日本株では、半導体装置や電子部品を一括で買うより、顧客のAI投資が実収益につながっているかを見る必要がある。銀行・保険には金利高が追い風になる一方、輸入企業には原油・円安・金利高の三重負担が残る。",
+          "sources": [
+            {
+              "title": "How major US stock indexes fared Friday 7/31/2026",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-37d8d182f02f0fcdcf9f7db67e6dfadd"
+            },
+            {
+              "title": "Bond Selloff Picks Up New Momentum",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-07-31-2026/card/bond-selloff-picks-up-new-momentum-5kFM3HGJdkTZGSIB6bhG"
+            }
+          ],
+          "tags": ["米株", "米10年債", "AI投資", "Amazon", "Apple"]
+        },
+        {
+          "id": "opec-quota-physical-flows",
+          "headline": "OPEC+増産、輸送制約を越えず",
+          "importance": 3,
+          "facts": [
+            "MarketWatchは、OPEC+が2日に9月の生産枠引き上げを協議すると報じた",
+            "同報道によると、増産枠は6カ月連続の引き上げになる可能性がある",
+            "Bloomberg Intelligenceの分析として、ペルシャ湾産油国が増産分を実際の輸出に変えられるかはホルムズ海峡の通航条件に依存すると伝えた",
+            "7月末のブレント原油は90ドル台から一服したが、7月の上昇分は大きく残った"
+          ],
+          "why_it_matters": "OPEC+の増産は通常なら価格を抑える材料だが、今の制約は油田ではなく航路にある。タンカーが通れず、保険料が高く、港湾や代替航路が詰まれば、紙の生産枠は実物の供給緩和にならない。",
+          "implications": "日本企業は、OPEC+の声明よりも、ホルムズ通航数、船舶保険、LNG船の配船、精製マージンを確認すべきである。原油価格が下がっても、輸送費と為替が残れば国内コストは下がりにくい。",
+          "sources": [
+            {
+              "title": "OPEC+ may keep lifting its oil output quotas as the Iran war broadens. Why that will not help lower prices.",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/opec-may-keep-lifting-its-oil-output-quotas-as-the-iran-war-broadens-why-that-wont-help-lower-prices-c80f53d3"
+            }
+          ],
+          "tags": ["OPEC+", "原油", "ホルムズ", "海運", "インフレ"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "china-ai-policy-split",
+          "headline": "中国AI、米政権と業界を分裂",
+          "dek": "Kimi K3など中国のオープンモデル、ロボット、専用チップの進展が、米国の政策反応を割っている。禁止すれば安全保障、開けば低コスト導入という二項対立では処理できない。",
+          "importance": 3,
+          "facts": [
+            "Guardianは1日、中国のAI、ロボティクス、専用チップの進展が米テック業界と政権内の議論を揺らしていると報じた",
+            "同報道は、Moonshot AIのKimi K3のような中国製オープンウェイトモデルが米国の有料モデルと一部用途で競合し得ると整理した",
+            "Guardianによると、Microsoft、Nvidia、Palantir、Metaなどはオープンモデル制限に慎重な立場を示している",
+            "米FCCは中国製ヒューマノイドロボットを国家安全保障リスクとして禁止した",
+            "中国がAI向け特殊チップの量産を始めたとの報道が、半導体株の売りを誘った"
+          ],
+          "why_it_matters": "中国AIの論点は、安いモデルが米企業の価格を下げるという競争問題にとどまらない。モデル、チップ、ロボット、データ収集装置が一体で広がると、米国はアクセス禁止、調達監査、輸出管理、国内競争政策を同時に設計しなければならない。",
+          "implications": "日本企業は、中国モデルの使用可否を情緒的に決めるのではなく、モデル来歴、チップ規制、ライセンス、ログ保存、米国顧客への説明可能性を調達審査に入れる必要がある。低コストの利点は残るが、後から制裁や監査で止まるリスクも大きい。",
+          "sources": [
+            {
+              "title": "China’s tech advances are causing chaos from Silicon Valley to the White House",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/aug/01/china-silicon-valley-white-house"
+            }
+          ],
+          "tags": ["Kimi K3", "中国AI", "オープンウェイト", "米中技術摩擦", "ロボット"]
+        },
+        {
+          "id": "chip-rebound-after-microsoft",
+          "headline": "メモリー株反発、Microsoftが支え",
+          "importance": 2,
+          "facts": [
+            "MarketWatchは、Microsoft決算後にMicron、Sandiskなどメモリー関連株が急伸したと報じた",
+            "同報道によると、Microsoftの設備投資は直近四半期にファイナンスリース込みで70%増えた",
+            "Microsoft経営陣は、新年度もフリーキャッシュフローをプラスで維持する見通しを示した",
+            "市場は、AI支出がキャッシュバーンに変わるとの懸念を一部和らげた"
+          ],
+          "why_it_matters": "メモリー株の反発は、AI需要そのものではなく、支払い能力のある買い手がいることへの安心である。クラウド企業が設備投資を増やしながら現金創出を説明できるなら、HBM、DRAM、ストレージの価格高は供給側に利益として残りやすい。",
+          "implications": "日本の装置・材料・電源部材企業には追い風だが、買い手ごとの採算差を見る必要がある。Microsoft型の投資は支えになりやすい一方、回収力が弱いデータセンター案件は、金利上昇局面でキャンセルや延期が増える可能性がある。",
+          "sources": [
+            {
+              "title": "Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft’s earnings",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/micron-sandisk-and-other-chip-stocks-get-major-boosts-in-the-wake-of-microsofts-earnings-25460e61"
+            }
+          ],
+          "tags": ["Microsoft", "Micron", "Sandisk", "メモリー", "AI capex"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "spacex-amd-earnings-test",
+          "headline": "AMD・SpaceX決算、AI採算を試す",
+          "dek": "8月4日はAMDとSpaceXの決算が重なる。AIチップ、Starlink、xAI、データセンター支出という、株式市場が最も見たい投資回収の証拠が出る。",
+          "importance": 3,
+          "facts": [
+            "AMDは、2026年第2四半期決算を8月4日米国市場終了後に発表すると公表している",
+            "SpaceXは、上場後初となる第2四半期の財務・運用結果を8月4日に公表すると発表している",
+            "Kiplingerは、8月3〜7日の決算週でCaterpillar、AMD、SpaceX、McDonald’s、Pfizer、Disneyなどを注目企業に挙げた",
+            "Kiplingerは、Caterpillarの電力・エネルギー部門がAIデータセンター需要の恩恵を受ける一方、データセンター建設規制が重荷になり得ると整理した"
+          ],
+          "why_it_matters": "市場の焦点は、AI投資額そのものから投資回収の速度へ移った。AMDはNvidia対抗のAIアクセラレータ需要を示せるか、SpaceXはStarlinkとAI事業を一つのインフラ企業として説明できるかを問われる。",
+          "implications": "日本企業には二つの読み筋がある。半導体製造装置や素材にはAIチップ投資が追い風になる一方、電力、建設、冷却、通信、衛星網まで含めた複合インフラ案件では、規制・資金調達・稼働率が利益を左右する。",
+          "sources": [
+            {
+              "title": "AMD to Report Fiscal Second Quarter 2026 Financial Results",
+              "publisher": "AMD",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1289/amd-to-report-fiscal-second-quarter-2026-financial-results"
+            },
+            {
+              "title": "SpaceX to Post Second Quarter 2026 Results and Host Webcast on August 4, 2026",
+              "publisher": "SpaceX",
+              "url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Second-Quarter-2026-Results-and-Host-Webcast-on-August-4-2026-2026-g8layJlbFm/default.aspx"
+            },
+            {
+              "title": "Earnings Calendar and Analysis for This Week",
+              "publisher": "Kiplinger",
+              "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+            }
+          ],
+          "tags": ["AMD", "SpaceX", "Starlink", "AIチップ", "決算"]
+        },
+        {
+          "id": "glp1-market-expansion",
+          "headline": "GLP-1、肥満治療から疾患横断へ",
+          "importance": 2,
+          "facts": [
+            "Barron’sは、GLP-1関連薬が肥満や糖尿病に加え、アルツハイマー、腎疾患、喘息などへ適応を広げる可能性を報じた",
+            "同報道は、Eli LillyとNovo Nordiskが注射薬、経口薬、次世代薬で競争していると整理した",
+            "Lillyのtirzepatide、Novo Nordiskのsemaglutideに続き、retatrutideなど次世代候補への期待が高い",
+            "製造能力、保険適用、価格、特許期限が市場拡大の制約として残る"
+          ],
+          "why_it_matters": "GLP-1は単なる大型医薬品ではなく、慢性疾患、保険財政、食品、ヘルスケア消費を横断する産業テーマになった。薬効範囲が広がるほど、需要は肥満人口だけでなく、医療制度全体の費用対効果判断に左右される。",
+          "implications": "日本の製薬、医療機器、保険、食品企業は、体重減少薬の販売額だけを見るべきではない。生活習慣病の発症率、医療費、食習慣、職域保険の設計が変わる可能性があり、長期では食品・外食にも需要構造の変化が及び得る。",
+          "sources": [
+            {
+              "title": "New GLP-1s Are on the Way. They Will Treat a Lot More Than Obesity.",
+              "publisher": "Barron’s",
+              "url": "https://www.barrons.com/articles/glp-1-obesity-drugs-eli-lilly-novo-nordisk-stocks-19200dcc"
+            }
+          ],
+          "tags": ["GLP-1", "Eli Lilly", "Novo Nordisk", "医薬品", "ヘルスケア"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "gaza-disarmament-roadmap",
+          "headline": "ガザ武装解除案、実行段階に壁",
+          "dek": "Hamasが武装解除のロードマップに同意したとAPは伝えたが、現地では攻撃と不信が続く。停戦文書は前進でも、撤退、治安移管、武器管理を検証できなければ停戦は脆い。",
+          "importance": 3,
+          "facts": [
+            "APは、トランプ大統領がHamasの武装解除とイスラエル軍撤退を含む合意を発表し、Hamasが同意したと報じた",
+            "APが掲載した合意文は、ガザ行政をNational Committee for the Administration of Gazaへ移す枠組みを示した",
+            "同文書は、武器、軍事生産施設、武器庫、トンネルの廃棄・保管を段階的に進め、International Verification Committeeが検証するとしている",
+            "APは、イスラエルの攻撃が続き、住民の多くが撤退や生活改善を信用していないと報じた",
+            "イスラエルはロードマップに公式コメントしていない"
+          ],
+          "why_it_matters": "ガザの合意は、停戦宣言よりも履行機構が重要である。武器を誰が管理し、どの治安部隊が現場を引き継ぎ、イスラエル軍がどの段階で退くかを検証できなければ、武装解除は政治的見出しにとどまる。",
+          "implications": "中東リスクはイラン・ホルムズだけではない。ガザ停戦が崩れれば、地域の反米・反イスラエル感情、紅海・東地中海の安全保障、欧米国内政治が再び連鎖し、エネルギーと防衛支出のリスクプレミアムを押し上げる可能性がある。",
+          "sources": [
+            {
+              "title": "Read the full text of the deal for Hamas to disarm and Israel to leave Gaza",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/gaza-hamas-israel-deal-text-7347ef0f3b745f22c12b67f786b70f0f"
+            },
+            {
+              "title": "Palestinians in Gaza hope Hamas will disarm but fear Israeli forces will not withdraw",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/palestinians-gaza-hamas-disarm-trump-israel-76113dc5a9e867439f9629dbd04ec977"
+            }
+          ],
+          "tags": ["ガザ", "Hamas", "イスラエル", "停戦", "中東"]
+        },
+        {
+          "id": "asean-maritime-security-japan",
+          "headline": "ASEAN外交、海上秩序を再確認",
+          "importance": 2,
+          "facts": [
+            "外務省は、7月23日にマニラで第16回東アジア首脳会議外相会議が開かれ、茂木外相が出席したと発表した",
+            "茂木外相は、ASEAN中心性と自由で開かれた国際秩序を支持すると述べた",
+            "外務省によると、日本は東シナ海、南シナ海、北朝鮮、ミャンマー、ウクライナ、中東などを地域・国際情勢として取り上げた",
+            "日本は法の支配に基づく海洋秩序の維持を強調した"
+          ],
+          "why_it_matters": "中東でホルムズが詰まり、紅海や南シナ海でも緊張が続く中、日本外交にとって海上交通路は抽象的な安全保障ではなく、エネルギー、部材、食料の供給制約そのものである。ASEAN枠組みは、米中対立を直接名指しせずに海上秩序を支える場になる。",
+          "implications": "日本企業は、調達リスクを中東だけに集中させてはいけない。南シナ海、台湾周辺、紅海、ホルムズを一つの海上チョークポイント網として見て、在庫、代替航路、サプライヤー分散を再点検する必要がある。",
+          "sources": [
+            {
+              "title": "The 16th East Asia Summit Foreign Ministers’ Meeting",
+              "publisher": "Ministry of Foreign Affairs of Japan",
+              "url": "https://www.mofa.go.jp/a_o/rp/pageite_000001_01745.html"
+            },
+            {
+              "title": "Quad top diplomats focus on ASEAN maritime security but do not mention China",
+              "publisher": "The Japan Times",
+              "url": "https://www.japantimes.co.jp/news/2026/07/22/asia-pacific/politics/quad-asean-maritime-security-china/"
+            }
+          ],
+          "tags": ["ASEAN", "海洋安全保障", "南シナ海", "日本外交", "サプライチェーン"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-ai-article50-live",
+          "headline": "EU AI表示、今日から適用",
+          "dek": "EU AI法Article 50の透明性義務が8月2日に適用された。チャットボット、深層偽造、AI生成テキストの表示は、任意の配慮から規制対応と監査証跡の問題へ移った。",
+          "importance": 3,
+          "facts": [
+            "欧州委員会は、AI法Article 50の透明性義務が2026年8月2日から適用されると説明している",
+            "欧州委員会のQuick Factsは、AIとの対話通知、AI生成・操作コンテンツの機械可読マーキング、深層偽造や公共的事項テキストの表示を対象に挙げている",
+            "同資料は、罰金が1500万ユーロまたは世界売上高3%に達し得ると説明している",
+            "既存システムの一部には、AI生成コンテンツのマーキング義務について2026年12月2日までの限定的な猶予がある",
+            "The Guardianは、企業が過剰表示と実務負担を懸念する一方、EUは透明性を信頼の前提に置くと報じた"
+          ],
+          "why_it_matters": "Article 50の適用で、AI表示はプロダクトの末端に置くラベルではなくなった。どの出力をAI生成と判定し、どの形式で機械可読にし、誰が編集責任を持ち、ログをどれだけ残すかが、設計・法務・監査の共通要件になる。",
+          "implications": "EU向けの生成AI、広告、EC、旅行、メディア、カスタマーサポートを持つ日本企業は、画面表示だけでは足りない。生成経路、編集レビュー、C2PA等の標準、例外判断、苦情対応を、ローンチ前の仕様として管理する必要がある。",
+          "sources": [
+            {
+              "title": "Quick Facts: Transparency rules for AI systems",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems"
+            },
+            {
+              "title": "Code of Practice on Transparency of AI-generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+            },
+            {
+              "title": "AI labels to be compulsory on authentic-looking content under EU rules",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/jul/31/ai-labels-to-be-compulsory-on-authentic-looking-content-under-eu-rules"
+            }
+          ],
+          "tags": ["EU AI法", "Article 50", "生成AI表示", "透明性", "監査"]
+        },
+        {
+          "id": "forced-labor-tariffs-dsa",
+          "headline": "通商規制、監査証跡の時代へ",
+          "importance": 2,
+          "facts": [
+            "USTRは7月23日、強制労働品の輸入禁止を十分に執行していないとして、60の経済にSection 301関税を課す最終措置を発表した",
+            "USTRによると、調査では2回の公聴会、2100件超の意見、45超の政府との協議を経た",
+            "欧州委員会は7月20日、AliExpressにDSA違反で5.5億ユーロの制裁金を科した",
+            "欧州委員会は、違法、危険、偽造商品のリスク評価と軽減が不十分だったと説明した"
+          ],
+          "why_it_matters": "米国の強制労働関税とEUのDSA制裁は、別の制度に見えて同じ方向を向く。企業は商品やコンテンツが違法でないと主張するだけでなく、リスクをどう評価し、どの証跡を残し、どの是正措置を取ったかを示さなければならない。",
+          "implications": "日本企業は、サプライチェーン監査、出品者審査、商品安全、AI生成表示を別々のチェックリストで管理する限界に来ている。米欧市場では、調達・法務・プロダクト・内部監査が同じ証跡基盤を使う体制が競争条件になりやすい。",
+          "sources": [
+            {
+              "title": "USTR Takes Action in Forced Labor Section 301 Investigations",
+              "publisher": "USTR",
+              "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
+            },
+            {
+              "title": "Commission fines AliExpress €550 million for breaching the Digital Services Act",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act"
+            }
+          ],
+          "tags": ["Section 301", "強制労働", "DSA", "AliExpress", "監査"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "衛星通信はなぜAIインフラ株になったのか",
+    "dek": "SpaceXの上場後初決算を前に、Starlink、xAI、データセンター、打ち上げ能力が同じ投資テーマとして見られ始めた。衛星通信が通信株ではなくAIインフラ株として評価される理由を整理する。",
+    "tags": ["SpaceX", "Starlink", "AIインフラ", "衛星通信", "宇宙ビジネス"],
+    "reading_minutes": 5,
+    "body_md": "## 背景\n\n8月4日のSpaceX決算は、単なる宇宙企業の初決算ではない。投資家が見ようとしているのは、ロケット打ち上げの回数だけではなく、Starlinkの通信収入、xAIとの結合、データセンター支出、衛星網の設備投資が一つの収益モデルとしてつながるかである。ここ数年、AIインフラ株といえばGPU、メモリー、電力、データセンターが中心だった。だがAIをどこでも使うには、通信網もインフラになる。\n\n従来の衛星通信は、へき地、船舶、航空機、軍事、災害対応のニッチな通信手段として見られてきた。低軌道衛星コンステレーションが変えたのは、通信の遅延と容量である。多数の衛星を地球に近い軌道へ置けば、静止衛星より遅延を下げ、地上網が届かない場所にもブロードバンドを提供できる。Starlinkはこの市場を一気に大衆化した。\n\n## AIとの接点\n\nAIは巨大データセンターだけで動くわけではない。現場の端末、車両、船舶、航空機、工場、エネルギー施設、防衛装備がAIを使うほど、クラウドとの接続が必要になる。すべてを端末内で処理するには電力、チップ、冷却、メモリーが足りない。反対に、すべてをクラウドへ送るには通信が詰まる。低軌道衛星は、地上網が弱い場所でこの隙間を埋める。\n\nさらに、衛星網そのものもAIの顧客になる。衛星運用、軌道管理、通信経路の最適化、地球観測データの解析、サイバー防御にはAIが使われる。打ち上げ、衛星、端末、クラウド、AIモデルが同じ企業グループ内で近づくほど、通信事業は単なる回線売りではなく、データと計算資源を売る事業に変わる。\n\n## なぜ資本集約的なのか\n\n衛星通信がAIインフラ株として評価される一方、リスクもデータセンターに似ている。衛星を作り、打ち上げ、地上局を整備し、ユーザー端末を配り、周波数と各国規制を処理するには巨額の先行投資が必要である。加入者が増えなければ固定費を吸収できず、衛星の更新サイクルも重い。\n\nSpaceXの強みは、打ち上げ能力を自社で持つ点にある。外部ロケットに依存する衛星事業者より、衛星の補充と世代交代を速く回せる可能性がある。ただし、Starshipの開発、AIデータセンター、xAI統合が同時に走れば、資本需要はさらに大きくなる。市場が問うのは、成長率ではなく、投資を回収できる単価と稼働率である。\n\n## 企業利用の条件\n\n企業が衛星AIを本番利用するには、回線がつながるだけでは足りない。重要なのは、どの国の法律で通信が扱われ、障害時にどの水準の復旧義務があり、機密データをどの経路でクラウドへ送るかである。工場や船舶で使うAIは、止まれば生産や安全に直結する。衛星通信は便利なバックアップから、サービス水準契約、暗号化、データ所在地、政府命令への対応を含む基幹インフラへ変わる。\n\n## 日本への示唆\n\n日本企業にとって衛星通信は、防災や安全保障だけでなく、産業AIの接続基盤として重要になる。海運、鉱山、建設、農業、遠隔医療、洋上風力、離島、災害時の金融・行政サービスは、地上通信が途切れる場所でAIとクラウドを使う必要がある。そこでは衛星回線の価格、遅延、可用性、データ主権が競争条件になる。\n\n同時に、衛星通信を外国プラットフォームに依存するリスクもある。通信ログ、位置情報、産業データ、軍民両用の利用範囲を誰が管理するのか。AIモデルの調達と同じく、衛星通信も性能と価格だけでは選べない。8月4日のSpaceX決算は、宇宙企業の業績確認であると同時に、AIインフラが地上のデータセンターから軌道上の通信網へ広がるかを測る試金石になる。",
+    "sources": [
+      {
+        "title": "SpaceX to Post Second Quarter 2026 Results and Host Webcast on August 4, 2026",
+        "publisher": "SpaceX",
+        "url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Second-Quarter-2026-Results-and-Host-Webcast-on-August-4-2026-2026-g8layJlbFm/default.aspx"
+      },
+      {
+        "title": "A SpaceX Earnings Preview: Starlink Growth, AI Costs, Starship Roadmap",
+        "publisher": "Investor’s Business Daily",
+        "url": "https://www.investors.com/news/spacex-earnings-key-themes-q2-2026-elon-musk-starlink-starship-xai-nasa-falcon9/"
+      },
+      {
+        "title": "Earnings Calendar and Analysis for This Week",
+        "publisher": "Kiplinger",
+        "url": "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "ホルムズ危機は交渉局面に戻っても、実際の通航数と保険料が下がるまで原油リスクは消えない",
+      "AI相場は、設備投資額ではなく、クラウド売上、FCF、稼働率で投資回収を説明できる企業へ選別が進む",
+      "EU AI表示、USTR関税、DSA制裁は、企業に共通して監査証跡とリスク評価の実装を求めている",
+      "衛星通信は、宇宙ビジネスではなく、AIを現場へ届ける通信・データ・計算インフラとして評価され始めた"
+    ],
+    "watchlist": [
+      {
+        "item": "8月4日のBOJ展望レポート全文",
+        "why": "物価・成長見通し、円安、原油、JGB、追加利上げ条件の記述を確認する",
+        "horizon": "8月4日"
+      },
+      {
+        "item": "8月4日のAMD・SpaceX決算",
+        "why": "AIチップ、Starlink、AIデータセンター支出の採算説明を見る",
+        "horizon": "8月4日"
+      },
+      {
+        "item": "8月7日の米7月雇用統計",
+        "why": "9月FOMC利上げ確率、米10年債4.7%台、ドル円への波及を確認する",
+        "horizon": "8月7日"
+      },
+      {
+        "item": "EU AI法Article 50の初期執行",
+        "why": "生成AI表示、機械可読マーキング、既存システム猶予の実務例を見る",
+        "horizon": "8月2日以降"
+      },
+      {
+        "item": "ホルムズ通航とOPEC+増産の実効性",
+        "why": "増産枠より輸送・保険制約が原油価格を決め続けるかを見る",
+        "horizon": "8月上旬"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "低軌道衛星",
+      "reading": "ていきどうえいせい",
+      "definition": "地表から比較的近い軌道を回る衛星。通信遅延を抑えやすく、多数を組み合わせることで地上網が届かない地域にも接続を提供できる。"
+    },
+    {
+      "term": "Article 50",
+      "reading": "アーティクル・フィフティ",
+      "definition": "EU AI法の透明性義務。AIとの対話通知、AI生成コンテンツの機械可読マーキング、深層偽造や公共的事項テキストの表示を定める。"
+    },
+    {
+      "term": "Section 301",
+      "reading": "セクション・サンマルイチ",
+      "definition": "米通商法301条。外国政府の不公正な行為をUSTRが調査し、関税などの対抗措置を取る根拠になる。"
+    },
+    {
+      "term": "GLP-1",
+      "reading": "ジーエルピーワン",
+      "definition": "血糖調節や食欲抑制に関わるホルモン。糖尿病・肥満治療薬の主役となり、慢性疾患全体への適応拡大が注目されている。"
+    }
+  ]
+}
