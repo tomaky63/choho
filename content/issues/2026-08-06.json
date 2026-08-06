@@ -1,0 +1,532 @@
+{
+  "date": "2026-08-06",
+  "edition": 18,
+  "generated_at": "2026-08-06T23:18:47+09:00",
+  "masthead_note": "AI投資は成長率から回収力へ、ホルムズは合意の実効性へ",
+  "market_snapshot": {
+    "as_of": "8月6日 東京時間夕方・米市場8月5日終値中心",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "前日比-0.93%",
+        "change": "-0.93%",
+        "direction": "down",
+        "note": "AI・半導体株安が重石"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,723.55",
+        "change": "-0.2%",
+        "direction": "down",
+        "note": "前日の最高値後に小反落"
+      },
+      {
+        "label": "NASDAQ",
+        "value": "26,363.44",
+        "change": "-0.8%",
+        "direction": "down",
+        "note": "AI関連株が軟調"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.64%",
+        "change": "+0.02pt",
+        "direction": "up",
+        "note": "雇用・物価指標待ち"
+      },
+      {
+        "label": "10年JGB",
+        "value": "3%手前",
+        "direction": "flat",
+        "note": "原油安で上昇圧力は一服"
+      },
+      {
+        "label": "Brent原油",
+        "value": "79.45ドル",
+        "change": "+0.1%",
+        "direction": "up",
+        "note": "ホルムズ合意期待と攻撃リスクが綱引き"
+      },
+      {
+        "label": "WTI原油",
+        "value": "75.22ドル",
+        "change": "-0.7%",
+        "direction": "down",
+        "note": "米在庫増で上値抑制"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "SpaceX初決算は売上急増でもAI capexが嫌気された。AI投資の焦点は規模から回収期間へ移った",
+      "ref": "spacex-ai-capex"
+    },
+    {
+      "text": "AMDは大型顧客を得ても株安。ワラント付き契約は受注と株主希薄化を同時に生む",
+      "ref": "amd-warrant-ai"
+    },
+    {
+      "text": "米ADP雇用は4.4万人増に鈍化。9月FOMCは雇用減速と原油再上昇を同時に見る局面",
+      "ref": "us-jobs-rates"
+    },
+    {
+      "text": "イラン・オマーンのホルムズ再開案は前進。ただし船舶攻撃と監視権限の設計が残る",
+      "ref": "hormuz-oman-route"
+    },
+    {
+      "text": "ソフトバンクはOpenAI持ち分を担保に資金調達。AIインフラ投資は金融技術の競争になった",
+      "ref": "softbank-openai-loan"
+    },
+    {
+      "text": "EU AI法の透明性義務が適用段階に入った。表示はUXではなく監査証跡の問題である",
+      "ref": "eu-ai-labels"
+    }
+  ],
+  "top_story": {
+    "id": "spacex-ai-capex",
+    "headline": "SpaceX、AI投資18億ドル超で株安",
+    "dek": "初の上場後決算は売上急増でも、投資家はAI設備投資の回収力を問うた",
+    "importance": 3,
+    "facts": [
+      "SpaceXは2026年4〜6月期に売上高78億ドルを計上し、前年同期比で約9割増えた",
+      "同社は5.41億ドルの純損失を出したが、1株損失は市場予想より小さかった",
+      "Starlink加入者は1200万人へ倍増し、接続事業が成長を支えた",
+      "AI関連の研究開発・インフラ支出は前年の30億ドル未満から約180億ドルへ膨らんだ",
+      "決算後の株価はロックアップ解除を控え、AI支出の大きさを嫌気して不安定に推移した"
+    ],
+    "why_it_matters": "AIインフラ投資はクラウド企業だけの論点ではなくなった。衛星通信、生成AI、データセンターを同時に抱える企業では、売上成長よりも、設備投資を何年で回収できるかが株価の主要変数になる。",
+    "implications": "日本の通信、電力、データセンター関連企業も、AI需要を語るだけでは評価されにくくなる可能性がある。契約済み容量、稼働率、電力単価、減価償却負担を一体で開示できる企業ほど資本市場で有利になりやすい。",
+    "sources": [
+      {
+        "title": "SpaceX posts loss in first report as a public company but less than expected",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/3b7b66a3e522e51d75caebc40af7e09e"
+      },
+      {
+        "title": "SpaceX's stock falls as Wall Street gets spooked by the extent of AI spending",
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/spacexs-stock-falls-as-wall-street-gets-spooked-by-the-extent-of-ai-spending-9ce9ddb8"
+      }
+    ],
+    "tags": [
+      "AIインフラ",
+      "SpaceX",
+      "Starlink"
+    ]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "us-jobs-rates",
+          "headline": "米ADP雇用4.4万人、金利は小動き",
+          "dek": "雇用減速と原油再上昇の板挟みで、9月FOMCの織り込みは揺れる",
+          "importance": 3,
+          "facts": [
+            "ADPによる7月の米民間雇用者数は4万4000人増で、市場予想の7万5000人増を下回った",
+            "6月分は9万5000人増へ改定され、7月は6カ月ぶりの低い伸びになった",
+            "米10年債利回りは8月6日に4.64%近辺へ小幅上昇した",
+            "市場は8月7日発表予定の米雇用統計を待っている"
+          ],
+          "why_it_matters": "雇用が弱まれば通常は利上げ観測を抑えるが、原油と賃金が粘ればインフレ警戒は消えない。Fedは景気減速への配慮と物価再加速のリスクを同時に扱う必要がある。",
+          "implications": "米金利が高止まりすれば、AI株の割引率と円相場の双方に圧力が残る。日本株では半導体の成長期待と輸入インフレの負担が同時に織り込まれやすい。",
+          "sources": [
+            {
+              "title": "Private-Sector Hiring Missed Expectations in July - ADP Report",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/livecoverage/stock-market-news-today-080526/card/private-sector-hiring-missed-expectations-in-july-adp-report-IBqqjWBMtarhJ9cNCUrQ"
+            },
+            {
+              "title": "Treasury yields inch higher as oil prices rise",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-record-sp500-steady-nasdaq-down-chips-lower-korea-sandisk-falls/card/treasury-yields-inch-higher-as-oil-prices-rise-Hm3W3hQQp9p79MoW6iaS"
+            }
+          ],
+          "tags": [
+            "Fed",
+            "米雇用",
+            "米金利"
+          ]
+        },
+        {
+          "id": "tokyo-tech-selloff",
+          "headline": "日経平均、AI株安で0.9%下落",
+          "dek": "米半導体・メモリー株の失速が東京のハイテク株へ波及した",
+          "importance": 2,
+          "facts": [
+            "8月6日の日本株は、日経平均が前日比0.93%安と報じられた",
+            "下落の中心は米国のAI・半導体関連株安を受けたテクノロジー株だった",
+            "原油安は一部の内需・輸送関連には追い風となったが、指数全体を押し上げるには足りなかった"
+          ],
+          "why_it_matters": "日本株の上昇はAI部材、半導体装置、円安メリットに大きく依存してきた。AI投資の採算に疑問が出ると、同じテーマで買われた銘柄が一斉に売られやすい。",
+          "implications": "今後の東京市場では、AI需要そのものよりも、受注残、長期契約、粗利率、顧客集中度の差が銘柄選別を分ける可能性がある。",
+          "sources": [
+            {
+              "title": "Global Market: Japan's Nikkei slips 2% as tech selloff offsets gains in broader market",
+              "publisher": "Economic Times",
+              "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-japans-nikkei-slips-2-as-tech-selloff-offsets-gains-in-broader-market/articleshow/132981551.cms"
+            },
+            {
+              "title": "S&P 500 Futures Up in Premarket Trading; BillionToOne, HubSpot Lag",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/articles/s-p-500-futures-up-in-premarket-trading-billiontoone-hubspot-lag-845dc27e"
+            }
+          ],
+          "tags": [
+            "日本株",
+            "半導体"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "amd-warrant-ai",
+          "headline": "AMD、大型AI契約でも株価下落",
+          "dek": "Meta、OpenAI、Anthropic向け受注は増えるが、ワラントが株主価値を揺らす",
+          "importance": 3,
+          "facts": [
+            "AMD株は決算後に下落し、AIチップ首位のNvidiaとの差が改めて意識された",
+            "AMDはMeta、OpenAI、Anthropicなどと大規模なAI計算能力供給契約を積み上げている",
+            "Meta向け契約では最大1億6000万株のワラントが付与され、購入目標や株価条件に応じて権利が発生する設計である",
+            "AMDとAnthropicはMI450シリーズGPUを最大2ギガワット導入する戦略提携を7月に発表した"
+          ],
+          "why_it_matters": "AI半導体では、単に受注を取るだけでなく、誰が資金、株式、技術リスクを負担するかが競争条件になる。AMDはNvidiaに対抗するため、顧客へ株式価値を渡す形で需要を固定している。",
+          "implications": "AI関連企業を見る際は、売上見通しだけでなく、ワラント、前払い、共同投資、最低購入義務を読む必要がある。大型契約は成長の証拠である一方、既存株主への移転コストにもなりうる。",
+          "sources": [
+            {
+              "title": "Reaction to AMD Earnings Shows Why It's Hard Being in Second Place",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/articles/amd-stock-price-earnings-nvidia-bfee4198"
+            },
+            {
+              "title": "AMD and Anthropic Announce Strategic Partnership to Deploy Up to 2 Gigawatts of AMD Instinct MI450 Series GPUs",
+              "publisher": "AMD",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus"
+            },
+            {
+              "title": "AMD Form 10-Q, March 2026 quarter",
+              "publisher": "AMD SEC filing",
+              "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000076/amd-20260328.htm"
+            }
+          ],
+          "tags": [
+            "AMD",
+            "AI半導体",
+            "ワラント"
+          ]
+        },
+        {
+          "id": "memory-guidance-reset",
+          "headline": "メモリー株、好決算でも売られる",
+          "dek": "SandiskとWestern Digitalのガイダンス失望が、AI部材相場の過熱を冷ました",
+          "importance": 2,
+          "facts": [
+            "SandiskとWestern Digitalは決算で市場予想を上回ったが、株価は時間外・寄り前で大きく下げた",
+            "Sandiskは約11%、Western Digitalは約14〜16%の下落が報じられた",
+            "市場はNANDやストレージ需要の強さより、今後の価格上昇ペースと粗利率の持続性を重視した",
+            "MicronやSK Hynixなど周辺のメモリー関連株にも売りが波及した"
+          ],
+          "why_it_matters": "AIブームはメモリー不足を生み、関連株を大きく押し上げた。だが価格上昇が永続すると見なされていた銘柄ほど、少し弱い見通しでも再評価が大きくなる。",
+          "implications": "日本のKioxiaや半導体装置メーカーにとっても、AI需要の量ではなく、価格、契約年限、顧客別の採算が次の論点になる。",
+          "sources": [
+            {
+              "title": "Why Micron and Other Memory Stocks Are Taking Another Hit",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/articles/micron-stock-memory-chip-73cdf24e"
+            },
+            {
+              "title": "Sandisk's stock is down after earnings. Here's what Wall Street has to say.",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/sandisk-is-falling-after-earnings-heres-what-wall-street-says-591537ec"
+            }
+          ],
+          "tags": [
+            "メモリー",
+            "NAND",
+            "AI部材"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "softbank-openai-loan",
+          "headline": "ソフトバンク、OpenAI株で1兆円調達",
+          "dek": "非上場AI株を担保にした借入は、AI投資の金融化を一段進める",
+          "importance": 3,
+          "facts": [
+            "ソフトバンクグループは2026年4〜6月期の純利益が3473億円となり、前年同期比で18%減少した",
+            "売上高は約2兆円で、前年同期比で約11%増えた",
+            "同社はOpenAI持ち分を担保に100億ドルを借り入れたと報じられた",
+            "OpenAIへの総投資は300億ドル規模で、残り100億ドルの拠出が10月までに予定されている"
+          ],
+          "why_it_matters": "AI投資は株式を買うだけでなく、非上場株を担保に資金を再調達し、さらにデータセンターへ投じる循環になっている。評価額が維持される限り資本効率は高まるが、下落時には追加担保や資金繰りリスクが出る。",
+          "implications": "AIインフラの競争は技術企業だけでなく、銀行、証券、私募クレジットを巻き込む。日本企業がAI投資を評価する際も、損益計算書よりバランスシートと担保構造を見る必要がある。",
+          "sources": [
+            {
+              "title": "Japanese tech company SoftBank Group sees profit drop despite AI investments",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/6f49a9a3afec4df2fb24bb89444c29ba"
+            },
+            {
+              "title": "SoftBank Uses OpenAI Stake to Borrow $10 Billion",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/business/earnings/softbank-group-reports-lower-quarterly-profit-2bca0889"
+            }
+          ],
+          "tags": [
+            "ソフトバンク",
+            "OpenAI",
+            "AI金融化"
+          ]
+        },
+        {
+          "id": "moderna-mrna-flu",
+          "headline": "Moderna、mRNAインフル薬でFDA承認",
+          "dek": "コロナ後のmRNAプラットフォームが、季節性ワクチン市場へ広がる",
+          "importance": 2,
+          "facts": [
+            "米FDAはModernaのmRNA季節性インフルエンザワクチンmFlusivaを承認した",
+            "対象は50歳以上の成人で、mRNA型のインフルエンザワクチンとして初の承認と報じられた",
+            "4万人規模の臨床試験では、標準的なインフルエンザワクチンに比べて発症を約27%減らした",
+            "65歳以上では免疫反応データに基づく迅速承認で、市販後試験が続く"
+          ],
+          "why_it_matters": "mRNAはパンデミック対応の一過性技術ではなく、季節性ワクチンの製造速度と株変更への適応力を変える技術基盤になりつつある。製薬企業の競争軸は単品薬から、同じ製造・設計基盤を複数疾患へ展開する力へ移る。",
+          "implications": "日本のワクチン政策と製薬産業には、平時の製造能力をどう維持するかという課題が残る。輸入依存だけでは、変異株や供給制約に対する対応速度で劣後する可能性がある。",
+          "sources": [
+            {
+              "title": "New kind of flu shot is on the way as the FDA approves Moderna's mRNA-based vaccine",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/59d991a6bf70c26e2f0c210cc8ca87f1"
+            },
+            {
+              "title": "FDA Approves First mRNA Flu Vaccine in Win for Moderna After Arduous Review",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/health/pharma/fda-approves-first-mrna-flu-vaccine-in-win-for-moderna-after-arduous-process-039156b6"
+            }
+          ],
+          "tags": [
+            "Moderna",
+            "mRNA",
+            "FDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "hormuz-oman-route",
+          "headline": "ホルムズ再開案、イランとオマーンが接近",
+          "dek": "合意期待で原油は落ち着くが、監視権限と船舶攻撃が実効性を左右する",
+          "importance": 3,
+          "facts": [
+            "イランはオマーンとの間でホルムズ海峡再開に関する合意案が最終段階に近いと表明した",
+            "報道では、イランが入港方向、オマーンが出港方向の通航管理を担う案が検討されている",
+            "同時にギリシャ系船舶への攻撃や紅海・アデン湾のタンカー攻撃懸念が続いている",
+            "WTIは8月5日に75.22ドル、Brentは79.45ドル近辺で終えた"
+          ],
+          "why_it_matters": "ホルムズ問題は閉鎖か再開かの二択ではない。誰が監視し、保険会社がどのリスクを織り込み、船主が実際に戻るかまで決まらなければ、エネルギー価格と物流費の不確実性は残る。",
+          "implications": "日本にとっては原油価格だけでなく、LNG船、保険料、迂回日数が重要である。政府備蓄や調達先分散の議論は、合意発表後も続く可能性が高い。",
+          "sources": [
+            {
+              "title": "Possible Strait of Hormuz deal, Israeli soldiers killed in Lebanon and other news in the Mideast",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/07074f3374339a34bc539f56d7d6287a"
+            },
+            {
+              "title": "Oil Futures Settle Mixed as Iran Says Hormuz Route Agreed With Oman",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-falls-amid-prospects-of-u-s-iran-deal-to-reopen-strait-of-hormuz-47e592e5"
+            }
+          ],
+          "tags": [
+            "ホルムズ",
+            "原油",
+            "中東"
+          ]
+        },
+        {
+          "id": "lebanon-truce-pressure",
+          "headline": "レバノン停戦、イスラエル兵死亡で動揺",
+          "dek": "6月の脆い停戦後で初のイスラエル側死者となり、ローマ交渉に圧力がかかった",
+          "importance": 2,
+          "facts": [
+            "レバノン南部Majdal Zounで爆発があり、イスラエル兵2人が死亡し4人が重傷を負った",
+            "6月に始まったヒズボラとの停戦後、イスラエル側の死者は初めてと報じられた",
+            "イスラエルは南部レバノンで空爆を実施し、UNIFILは多数の発射体を記録した",
+            "レバノン軍の南部展開とイスラエル撤退を巡るローマ交渉は継続している"
+          ],
+          "why_it_matters": "中東の緊張緩和はホルムズ交渉だけで決まらない。レバノン、ガザ、イエメンの前線が連動すれば、海上輸送リスクと米国の外交資源は再び圧迫される。",
+          "implications": "日本企業は中東リスクを原油単価だけで見ず、保険、港湾、紅海・地中海航路、米軍関与の濃淡まで含めた複合リスクとして扱う必要がある。",
+          "sources": [
+            {
+              "title": "2 soldiers killed in Lebanon in the first Israeli deaths since June truce with Hezbollah",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/c94313277641ce409718d0a2e7ae2cd2"
+            },
+            {
+              "title": "Israel launches strikes on Lebanon in new flare-up",
+              "publisher": "FT",
+              "url": "https://www.ft.com/content/45df9a1f-7400-4ef8-85e5-aa519a627e66"
+            }
+          ],
+          "tags": [
+            "レバノン",
+            "イスラエル",
+            "停戦"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-ai-labels",
+          "headline": "EU AI表示義務、実装段階へ",
+          "dek": "8月2日適用の透明性義務は、表示、機械可読マーキング、監督当局対応を求める",
+          "importance": 3,
+          "facts": [
+            "EU AI法Article 50の透明性義務は2026年8月2日から適用されている",
+            "事業者はAIとの対話、AI生成・改変コンテンツ、ディープフェイク、公共性のあるAI生成テキストについて表示義務を負う",
+            "生成AIのマーキング・検出義務には、既存システム向けに2026年12月までの猶予がある",
+            "違反時の制裁金は企業で最大1500万ユーロまたは世界売上高の3%とされる"
+          ],
+          "why_it_matters": "AI表示は消費者向けの小さなラベルではなく、生成経路、編集責任、機械可読な証跡を管理する制度である。欧州向けサービスを持つ日本企業も、モデル提供者と利用者のどちらの義務を負うかを整理する必要がある。",
+          "implications": "広告、EC、旅行、金融、メディアでは、AI生成物を人が確認したか、どの時点でラベルを付けたかを残す運用が重要になる。監査ログを後付けで整える企業は執行リスクが高くなる。",
+          "sources": [
+            {
+              "title": "Quick Facts: Transparency rules for AI systems",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems"
+            },
+            {
+              "title": "Signing the Code of Practice on Transparency of AI-generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/faqs/signing-code-practice-transparency-ai-generated-content"
+            }
+          ],
+          "tags": [
+            "EU AI法",
+            "AI表示",
+            "監査証跡"
+          ]
+        },
+        {
+          "id": "dsa-aliexpress",
+          "headline": "AliExpress制裁、是正計画が焦点",
+          "dek": "EUのDSA執行は、越境ECの安さより商品安全の証跡を問う段階へ進んだ",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は7月20日、AliExpressにDSA違反で5億5000万ユーロの制裁金を科した",
+            "制裁理由は、違法・危険・偽造商品の流通リスクを十分に評価・低減しなかったこととされた",
+            "欧州委員会はAliExpressに是正措置を命じ、履行しなければ追加的な制裁金がありうるとした",
+            "対象は衣料、玩具、化粧品など消費者安全に関わる商品リスクである"
+          ],
+          "why_it_matters": "DSAは投稿監視だけでなく、マーケットプレイスの商品安全管理にも及ぶ。安価な越境ECは、出品者本人確認、危険商品の検知、リコール対応、消費者通知を制度的に示す必要がある。",
+          "implications": "日本の小売、メーカー、プラットフォームも、EU向け販売では商品情報とサプライヤー証跡を整える必要がある。Temu、Shein、国内ECへの波及も続く可能性がある。",
+          "sources": [
+            {
+              "title": "Commission fines AliExpress €550 million for breaching the Digital Services Act",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-aliexpress-eu550-million-breaching-digital-services-act"
+            }
+          ],
+          "tags": [
+            "DSA",
+            "AliExpress",
+            "越境EC"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AI契約はなぜ株主価値を揺らすのか",
+    "dek": "大型受注、ワラント、前払い、担保借入が一体化し、AI投資は技術競争から資本設計の競争へ移っている。",
+    "tags": [
+      "AIインフラ",
+      "資本政策",
+      "ワラント"
+    ],
+    "reading_minutes": 5,
+    "body_md": "## 背景\n\nAIブームの初期には、投資家が見ていた数字は単純だった。GPUを何個買うか、データセンターを何ギガワット建てるか、クラウド売上が何%伸びるかである。だが2026年夏の相場は、その見方だけでは足りなくなった。SpaceXは売上を大きく伸ばしても、AI関連の設備投資が急増したことで株価が揺れた。AMDはMeta、OpenAI、Anthropicのような大口顧客を得ても、株式ワラントや競争上の割引が意識されて売られた。ソフトバンクはOpenAI持ち分を担保に借入を行い、AI投資をさらに積み増す構図になった。\n\nつまり、AI契約は単なる売買契約ではなくなっている。チップ、電力、データセンター、クラウド利用枠、株式、借入、将来の購入義務が一つの束として設計される。企業が『AI需要を取り込んだ』と言うとき、投資家は同時に『その需要を取るために何を差し出したか』を見る必要がある。\n\n## 仕組み\n\nワラントとは、一定の条件で株式を買う権利である。AI半導体企業が大口顧客へワラントを渡す場合、顧客は購入量や導入実績に応じて将来の株式価値を得る。売り手にとっては、長期の需要を固定し、競合から顧客を引き離す効果がある。一方で既存株主にとっては、条件が満たされれば持ち分が薄まる。売上の増加と株主価値の移転が同時に起きるため、通常の受注残とは意味が違う。\n\n前払いも似た構造を持つ。クラウド企業やAIモデル企業がデータセンター枠を押さえるために前払いすれば、供給側は建設資金を得られる。だが前払いは将来サービスを提供する義務でもある。需要が想定より弱い、電力コストが上がる、チップ性能が競合に劣るといった事態が起きれば、会計上の売上より先に運用負担が重くなる。\n\n担保借入はさらに金融色が強い。非上場AI企業の株式価値を前提に資金を借り、その資金で追加投資を行う。評価額が上がる局面では資本効率を高めるが、評価額が下がれば追加担保、条件変更、資産売却が必要になる。AIインフラ投資は、技術の勝ち負けと信用サイクルが結びつく領域になった。\n\n## プレーヤーと力学\n\nNvidiaは強い供給制約とソフトウェア基盤を背景に、顧客側へ投資する立場を取りやすい。AMDは後発として、大型顧客に有利な条件を出して採用を増やす誘因がある。クラウド企業は、チップを買うだけでなく、顧客企業の株式や将来利用枠を組み合わせて需要を囲い込む。AIモデル企業は、計算資源を確保するために株式、収益分配、長期利用契約を使う。\n\nここで重要なのは、どの企業がリスクを最終的に持つかである。チップメーカーがワラントを出せば株主が希薄化リスクを持つ。データセンター企業が長期電力契約を結べば、稼働率が落ちたとき固定費を負う。投資会社が非上場株を担保に借りれば、評価額の変動が資金繰りに直結する。AI需要は本物でも、その分配は契約条件で大きく変わる。\n\n## 読み方\n\n投資家や企業担当者が見るべきなのは、発表文の『最大何ギガワット』や『何億ドル規模』だけではない。第一に、契約が最低購入義務なのか、努力目標なのかを見る。第二に、ワラントや値引き、共同投資の有無を見る。第三に、売上計上の時期と現金回収の時期を見る。第四に、電力、冷却、土地、ネットワークの固定費を誰が負うかを見る。\n\n日本企業にも示唆は大きい。AI関連の受注を得た部材企業、データセンター事業者、電力会社、商社は、成長ストーリーを語るだけでは不十分になる。市場が次に求めるのは、契約の質である。売上になる需要なのか、資本を拘束する需要なのか。株主価値を増やす契約なのか、成長のために株主価値を前払いしている契約なのか。この区別が、AI相場の第二段階を読む鍵になる。",
+    "sources": [
+      {
+        "title": "AMD and Anthropic Announce Strategic Partnership to Deploy Up to 2 Gigawatts of AMD Instinct MI450 Series GPUs",
+        "publisher": "AMD",
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus"
+      },
+      {
+        "title": "AMD Form 10-Q, March 2026 quarter",
+        "publisher": "AMD SEC filing",
+        "url": "https://ir.amd.com/financial-information/sec-filings/content/0000002488-26-000076/amd-20260328.htm"
+      },
+      {
+        "title": "SoftBank Uses OpenAI Stake to Borrow $10 Billion",
+        "publisher": "WSJ",
+        "url": "https://www.wsj.com/business/earnings/softbank-group-reports-lower-quarterly-profit-2bca0889"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "AI相場は、需要量ではなく契約条件と資本負担を選別する段階に入った可能性がある。",
+      "ホルムズ再開案が出ても、船主・保険会社・海軍監視の実務が戻らなければ日本の輸入コストは下がりにくい。",
+      "EU AI法とDSAは、デジタル企業に表示と証跡を求める共通の流れであり、日本企業の欧州対応コストを押し上げる。",
+      "米雇用減速と原油再上昇が併存すれば、Fedと日銀の政策判断は市場が期待するほど単純には緩まない。"
+    ],
+    "watchlist": [
+      {
+        "item": "米7月雇用統計",
+        "why": "ADPの弱さが公式統計でも確認されるかで9月FOMC織り込みが変わる",
+        "horizon": "8月7日"
+      },
+      {
+        "item": "ホルムズ再開合意の文面",
+        "why": "通航監視、保険、船舶攻撃停止が具体化しないと原油リスクは残る",
+        "horizon": "8月上旬"
+      },
+      {
+        "item": "AMD・Nvidia・SpaceXのAI契約開示",
+        "why": "ワラント、長期購入義務、capex回収期間がAI株の再評価材料になる",
+        "horizon": "8月"
+      },
+      {
+        "item": "EU AI法Article 50の初期執行",
+        "why": "表示義務と機械可読マーキングの実務例が欧州向けサービスの基準になる",
+        "horizon": "8月以降"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "ワラント",
+      "reading": "わらんと",
+      "definition": "一定条件で株式を買う権利。AI契約では顧客に導入インセンティブを与える一方、条件達成時に既存株主の持ち分を薄める可能性がある。"
+    },
+    {
+      "term": "ロックアップ",
+      "reading": "ろっくあっぷ",
+      "definition": "上場後の一定期間、既存株主や役職員が株式を売れない制限。解除されると売却可能株が増え、株価の需給が不安定になりやすい。"
+    },
+    {
+      "term": "機械可読マーキング",
+      "reading": "きかいかどくまーきんぐ",
+      "definition": "AI生成物に人間の目だけでなくシステムが検出できる印を付けること。EU AI法の透明性義務では、生成物の出所確認と監査証跡に関わる。"
+    },
+    {
+      "term": "DSA",
+      "reading": "ディーエスエー",
+      "definition": "EUのDigital Services Act。大規模オンライン平台に違法コンテンツや危険商品のリスク評価・低減、透明性、当局対応を求める規則である。"
+    }
+  ]
+}
