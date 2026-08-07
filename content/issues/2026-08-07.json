@@ -1,0 +1,499 @@
+{
+  "date": "2026-08-07",
+  "edition": 19,
+  "generated_at": "2026-08-07T22:22:42+09:00",
+  "masthead_note": "雇用減速で金利は下がるが、AI投資と海上輸送のリスクは残る",
+  "market_snapshot": {
+    "as_of": "8月7日 JST夜時点、東京市場・米雇用統計後の報道値中心",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "65,606.71",
+        "change": "-0.1%",
+        "direction": "down",
+        "note": "AP報道。AI関連売りは一服も上値は重い"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,057.47",
+        "change": "+0.04%",
+        "direction": "up",
+        "note": "Reuters報道。バリュー株が指数を支えた"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "158.38円近辺",
+        "direction": "up",
+        "note": "介入後の円高効果は後退"
+      },
+      {
+        "label": "10年JGB",
+        "value": "3%手前",
+        "direction": "flat",
+        "note": "円安・物価・財政への警戒が残る"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.60%",
+        "change": "-0.07pt",
+        "direction": "down",
+        "note": "米雇用統計後に4.67%から低下"
+      },
+      {
+        "label": "Brent原油",
+        "value": "82ドル近辺",
+        "change": "-0.7%",
+        "direction": "down",
+        "note": "ホルムズ再開協議は不透明"
+      },
+      {
+        "label": "WTI原油",
+        "value": "75.83ドル",
+        "change": "+0.8%",
+        "direction": "up",
+        "note": "WSJ市場報道。供給リスクのプレミアムは残る"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米7月雇用は2.3万人減。失業率は4.1%でも労働参加率低下が弱さを隠す",
+      "ref": "us-payrolls-turn-negative"
+    },
+    {
+      "text": "米10年債は4.60%へ低下。株先物は上昇し、AI株は金利低下を支えにする局面",
+      "ref": "bad-news-rally"
+    },
+    {
+      "text": "東京市場は半導体株が軟調。Kioxia、Advantest、東京エレクの下げが目立つ",
+      "ref": "tokyo-chip-value-split"
+    },
+    {
+      "text": "中国輸出は前年比24%近い増加。高付加価値部材とEVが日本企業の競争軸を変える",
+      "ref": "china-high-tech-exports"
+    },
+    {
+      "text": "ホルムズ通航は84件へ戻ったが平時の1割強。合意文面より実通航が焦点である",
+      "ref": "hormuz-traffic-gap"
+    },
+    {
+      "text": "米国はポリシリコン製品に15%関税。AIと太陽光の供給網が通商政策の対象になった",
+      "ref": "us-polysilicon-tariff"
+    }
+  ],
+  "top_story": {
+    "id": "us-payrolls-turn-negative",
+    "headline": "米雇用2.3万人減、参加率61.4%",
+    "dek": "失業率は4.1%へ小幅低下したが、雇用者数の減少と過去分の下方修正が景気減速を示した",
+    "importance": 3,
+    "facts": [
+      "米労働省は8月7日、7月の非農業部門雇用者数が前月比2万3000人減少したと発表した",
+      "失業率は4.1%で、失業者数は690万人だった",
+      "労働参加率は61.4%、就業率は58.9%で、1月以降それぞれ0.7ポイント、0.5ポイント低下した",
+      "5月分は12万9000人増から6万3000人増へ、6月分は5万7000人増から2万人増へ下方修正された",
+      "業種別では地方政府の教育部門が5万人減、小売が1万9000人減、ヘルスケアは2万2000人増だった"
+    ],
+    "why_it_matters": "雇用減少は、ADPの弱さが単なる民間調査のぶれではなかったことを示した。失業率低下は一見強く見えるが、参加率低下が同時に起きているため、労働市場の余力が細っている可能性を示す。",
+    "implications": "Fedはインフレが高いままでも、9月以降の追加利上げを急ぎにくくなる可能性がある。一方で賃金は前年比3.2%増で粘っており、雇用減速だけを理由に早期緩和へ転じる局面でもない。日本には米金利低下による円安圧力の緩和と、米需要減速による輸出・AI投資採算の再評価が同時に波及する。",
+    "sources": [
+      {
+        "title": "Employment Situation Summary - 2026 M07 Results",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+      },
+      {
+        "title": "US stock futures jump as employers unexpectedly cut 23,000 jobs",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/stocks-markets-rates-iran-9636095906bbb689a1f612bce9a07343"
+      }
+    ],
+    "tags": [
+      "米雇用",
+      "Fed",
+      "米金利"
+    ]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "bad-news-rally",
+          "headline": "米10年債4.60%、株先物は上昇",
+          "dek": "雇用の悪化で利上げ織り込みが後退し、割引率に敏感なAI株には一時的な支えが入った",
+          "importance": 3,
+          "facts": [
+            "APは、米雇用統計後にS&P500先物が0.5%、Dow先物が0.33%上昇したと報じた",
+            "米10年債利回りは雇用統計前の4.67%から4.60%へ低下した",
+            "同報道は、S&P500採用企業の約85%が決算を発表済みで、全体の利益成長が2021年以来の強さになりつつあると伝えた",
+            "Brent原油はホルムズ再開協議の不透明感が残る中で0.7%下落した"
+          ],
+          "why_it_matters": "弱い雇用統計は本来景気に悪い材料だが、金利低下を通じて成長株の現在価値を押し上げる。AI株は設備投資負担への懸念を抱えながらも、金利が下がる局面では再び買い戻されやすい。",
+          "implications": "日本株では、米金利低下が半導体株の下支えになり得る一方、米需要の減速は受注と価格交渉力に効く。短期の株高だけでなく、顧客企業のキャッシュフローと投資継続力を見る必要がある。",
+          "sources": [
+            {
+              "title": "US stock futures jump as employers unexpectedly cut 23,000 jobs",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/stocks-markets-rates-iran-9636095906bbb689a1f612bce9a07343"
+            }
+          ],
+          "tags": [
+            "米株",
+            "米10年債",
+            "AI株"
+          ]
+        },
+        {
+          "id": "tokyo-chip-value-split",
+          "headline": "東京市場、半導体安と内需高が交錯",
+          "dek": "日経平均はAI関連の売りに押され、TOPIXは金融・ゲーム株が支えた",
+          "importance": 2,
+          "facts": [
+            "Reutersを引用したEconomic Timesは、7日早い時間の日経平均が1.17%安の64,911.99まで下げたと報じた",
+            "同時点のTOPIXは0.04%高の4,057.47だった",
+            "SoftBank Groupは決算が市場予想を上回っても4.3%下落した",
+            "Advantestは4.65%、東京エレクトロンは3.2%、Kioxiaは7.5%下落した",
+            "東証プライム上場銘柄の約6割は上昇し、任天堂とソニーが指数を支えた"
+          ],
+          "why_it_matters": "日本株の物色は、AIテーマ一辺倒から、利益確度とバリュエーションの差を見る局面に移っている。指数全体が崩れていなくても、半導体・AIの集中投資には損益の振れが大きくなっている。",
+          "implications": "日本の投資家にとっては、AI関連を持つかどうかではなく、顧客分散、在庫、価格改定、為替感応度を見る選別が重要になる。内需、金融、ゲームのような別テーマがヘッジとして機能する可能性がある。",
+          "sources": [
+            {
+              "title": "Japan stocks fall over 1% as chip shares tumble, SoftBank declines despite earnings beat",
+              "publisher": "Economic Times / Reuters",
+              "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-stocks-fall-over-1-as-chip-shares-tumble-softbank-declines-despite-earnings-beat/articleshow/133023202.cms"
+            }
+          ],
+          "tags": [
+            "日本株",
+            "半導体",
+            "TOPIX"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "amd-inference-race",
+          "headline": "AMD、推論チップ競争を補強",
+          "dek": "Taalas買収報道は、GPU単体からモデル別推論スタックへの競争転換を示す",
+          "importance": 2,
+          "facts": [
+            "Barron'sは7日、AMDがAI推論チップを手掛けるTaalasの買収を発表したと報じた",
+            "同報道は、AMD株が寄り前に1.4%上昇し、Nvidia株も0.4%上昇したと伝えた",
+            "Nvidiaは8月26日に決算発表を予定しており、同社株は直近5営業日で9%上昇していた",
+            "AMDは2026年にAIサーバーHeliosを量産し、OpenAIも年内利用予定とReutersに報じられていた"
+          ],
+          "why_it_matters": "AI半導体の争点は学習用GPUの数量だけではない。推論はモデル、メモリー、ネットワーク、ソフトウェアを一体で最適化する必要があり、後発のAMDにとっては買収で不足領域を埋める意味が大きい。",
+          "implications": "日本の半導体装置・材料企業には、Nvidiaだけを前提にした需要見通しの限界が出る。推論専用、低消費電力、モデル特化型の設計が広がれば、先端パッケージ、HBM、電源、冷却の需要構成も変わる可能性がある。",
+          "sources": [
+            {
+              "title": "Nvidia Stock Gains but AMD Is Coming for More of the AI Chip Market",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/articles/nvidia-stock-price-amd-aba755e9"
+            },
+            {
+              "title": "AMD says its newest AI server is in full production, will ship in months",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/amd-expected-to-launch-next-generation-of-ai-infrastructure-to-challenge-nvidia-4808203"
+            }
+          ],
+          "tags": [
+            "AMD",
+            "Nvidia",
+            "AI推論"
+          ]
+        },
+        {
+          "id": "openai-efficiency-stack",
+          "headline": "OpenAI、GPT-5.6で効率競争へ",
+          "dek": "Sol、Terra、Lunaの3モデル構成は、性能だけでなく用途別単価を競う設計である",
+          "importance": 2,
+          "facts": [
+            "OpenAIは7月9日、GPT-5.6ファミリーを一般提供した",
+            "同社は旗艦モデルのSol、日常業務向けのTerra、低コストモデルのLunaを展開すると説明している",
+            "OpenAIは、GPT-5.6を「トークンあたりの知能」と「オンデマンド性能」を重視するモデル群として位置付けている",
+            "同社のニュース欄では、7月下旬に学術研究者向け、職場でのAI利用、報道機関のAI活用に関する発表が続いた"
+          ],
+          "why_it_matters": "AIモデルの競争は最高性能だけでは勝てなくなった。企業利用では、軽い問い合わせ、長い推論、エージェント作業、研究用途を同じモデルで処理するより、用途別に費用対効果を最適化するほうが重要になる。",
+          "implications": "日本企業がAIを導入する際は、最新モデル名だけでなく、どの業務にどの性能・価格帯を割り当てるかを設計する必要がある。モデル選定はIT部門の購買ではなく、業務プロセスの原価管理に近づいている。",
+          "sources": [
+            {
+              "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+              "publisher": "OpenAI",
+              "url": "https://openai.com/index/gpt-5-6/"
+            },
+            {
+              "title": "OpenAI Newsroom",
+              "publisher": "OpenAI",
+              "url": "https://openai.com/news/company-announcements/"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "GPT-5.6",
+            "AIコスト"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "softbank-ai-profit-gap",
+          "headline": "ソフトバンク、AI投資でも利益18%減",
+          "dek": "OpenAI追加投資とArmの好調を示しつつ、株価は決算後もAI投資リスクを織り込んだ",
+          "importance": 2,
+          "facts": [
+            "SoftBank Groupの2026年4〜6月期純利益は3473億円で、前年同期の4218億円から18%減少した",
+            "四半期売上高は約2兆円で、前年同期比でほぼ11%増えた",
+            "CFOはArm事業が好調と説明し、OpenAIに追加で200億ドルを投資したと述べた",
+            "SoftBank Group株は7日の東京取引で4%安で終えた"
+          ],
+          "why_it_matters": "ソフトバンクはAI投資の代表銘柄であると同時に、非上場AI株、Arm、Intel、Vision Fundを抱える複合的な資本市場銘柄である。利益が出ても株価が下がるのは、市場が損益よりも投資回収と担保・資金繰りを見ているためである。",
+          "implications": "日本企業がAI投資を評価する際は、投資先の知名度や含み益だけでは不十分になる。追加出資義務、借入、担保、上場時期、保有株の流動性を合わせて読む必要がある。",
+          "sources": [
+            {
+              "title": "Japanese tech company SoftBank Group sees profit drop despite AI investments",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/softbank-technology-ai-japan-earnings-robotics-6f49a9a3afec4df2fb24bb89444c29ba"
+            }
+          ],
+          "tags": [
+            "ソフトバンク",
+            "OpenAI",
+            "Arm"
+          ]
+        },
+        {
+          "id": "nintendo-switch2-margin",
+          "headline": "任天堂、営業益150%増の質",
+          "dek": "Switch 2本体よりソフト構成、デジタル売上、米関税返金が利益率を押し上げた",
+          "importance": 2,
+          "facts": [
+            "任天堂の2026年4〜6月期売上高は5178億円で、前年同期比9.5%減だった",
+            "営業利益は1425億円で、前年同期比150.5%増加した",
+            "Nintendo Switch 2本体は382万台、Switch 2ソフトは946万本を販売した",
+            "デジタル売上高は1327億円で、前年同期比90.0%増えた",
+            "米国のIEEPA関税返金が売上原価の改善要因になった"
+          ],
+          "why_it_matters": "売上が減っても利益が大きく伸びた点が重要である。ゲーム機ビジネスは本体販売だけでなく、ソフト、ダウンロード、映画などIP周辺収益、通商政策によるコスト変動で利益率が大きく変わる。",
+          "implications": "日本のコンテンツ企業を見る際は、ハード台数より、デジタル比率、旧作の継続販売、映像IP、関税・為替の影響を見る必要がある。任天堂は製造業ではなく、IPとプラットフォームの複合企業として評価されやすい。",
+          "sources": [
+            {
+              "title": "Consolidated Results for the Three Months Ended June 30, 2026",
+              "publisher": "Nintendo",
+              "url": "https://www.nintendo.co.jp/ir/pdf/2026/260806e.pdf"
+            }
+          ],
+          "tags": [
+            "任天堂",
+            "Switch 2",
+            "IP"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "hormuz-traffic-gap",
+          "headline": "ホルムズ通航84件、平時には遠く",
+          "dek": "イラン・オマーン合意案は進むが、通航数、料金、米封鎖解除がなお未決である",
+          "importance": 3,
+          "facts": [
+            "イラン外務省報道官は、オマーンとのホルムズ海峡合意案が最終段階にあると述べた",
+            "APによると、米当局者は一時航路に承認、許可、通行料などの障害を置かない立場を示した",
+            "Lloyd's List Intelligenceは、7月27日〜8月2日のホルムズ通航が84件に増えたとした",
+            "危機前の通常週は700件超の通航があった",
+            "過去1週間に少なくとも2隻がホルムズで攻撃を受け、複数の船舶が警告やニアミスを報告した"
+          ],
+          "why_it_matters": "合意が近いという見出しだけでは、エネルギー市場のリスクは消えない。保険会社と船主が戻るには、通航権限、料金、米封鎖、攻撃停止、監視体制が実務で確認される必要がある。",
+          "implications": "日本の原油・LNG調達では、スポット価格より通航実績と保険料が重要である。84件への回復は前進だが、平時の1割強に過ぎず、備蓄、代替航路、長期契約の見直しは続く可能性が高い。",
+          "sources": [
+            {
+              "title": "The latest news in the Middle East",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/mideast-news-roundup-iran-lebanon-israel-aug-6-2026-07074f3374339a34bc539f56d7d6287a"
+            },
+            {
+              "title": "US stock futures jump as employers unexpectedly cut 23,000 jobs",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/stocks-markets-rates-iran-9636095906bbb689a1f612bce9a07343"
+            }
+          ],
+          "tags": [
+            "ホルムズ",
+            "原油",
+            "中東"
+          ]
+        },
+        {
+          "id": "china-high-tech-exports",
+          "headline": "中国輸出24%増、高付加価値へ",
+          "dek": "電子機器、車、機械部材が伸び、中国は低賃金工場から先端供給網へ移る",
+          "importance": 3,
+          "facts": [
+            "中国の7月輸出は前年比でほぼ24%増え、6月の27%増からはやや鈍化した",
+            "輸入は前年比27.5%増で、貿易黒字は6月の1256億ドルから1125億ドルへ縮小した",
+            "1〜7月の高技術品輸出は前年同期比でほぼ41%増えた",
+            "同期間の車両輸出は55%増、電子・機械輸出は26%増だった",
+            "対米輸出は1〜7月で2.6%増にとどまり、EU向けは約17%、東南アジア向けは25%増えた"
+          ],
+          "why_it_matters": "中国の輸出増は安価な消費財だけではなく、先端製造に必要な機械、部材、EV、電子機器へ広がっている。これは日本、ドイツ、韓国が強かった資本財・部材市場に中国企業が入ってくることを意味する。",
+          "implications": "日本企業は、対中デカップリングを単純な市場縮小として見るべきではない。中国は米国向けが伸びにくくても、EUとASEANで高付加価値輸出を増やしており、日本の装置、部材、自動車部品に価格と技術の両面で圧力がかかる可能性がある。",
+          "sources": [
+            {
+              "title": "China's exports slow slightly in July despite robust demand for high-tech products",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/china-trade-exports-imports-iran-oil-8bd433d388d143ba2d37a10aefdc5629"
+            }
+          ],
+          "tags": [
+            "中国輸出",
+            "EV",
+            "先端製造"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "us-polysilicon-tariff",
+          "headline": "米、ポリシリコン製品に15%関税",
+          "dek": "AI半導体と太陽光の共通材料が、対中通商政策と国内産業保護の対象になった",
+          "importance": 2,
+          "facts": [
+            "The Guardianは7日、トランプ大統領がポリシリコン由来の輸入製品に15%関税を命じたと報じた",
+            "新関税は12月4日に発効する予定である",
+            "対象は半導体、データセンター、太陽光パネルに関わる高純度シリコン材料である",
+            "大統領令はポリシリコン、インゴット、ウエハー、太陽電池、太陽光モジュールに最低輸入価格を設定した",
+            "米国の主なポリシリコン工場には、Corning系のHemlock SemiconductorとWacker Chemieのテネシー工場がある"
+          ],
+          "why_it_matters": "ポリシリコンは半導体と太陽光の両方に関わるため、AIインフラ政策と再生エネルギー政策が同じ供給網で衝突する。国内生産を守る関税は供給安全保障を高める一方、下流のデータセンターや太陽光導入コストを押し上げる。",
+          "implications": "日本企業には二つの波及がある。信越半導体のような素材企業には米国生産の価値が上がり得る一方、太陽光、電力、データセンター事業者にはコスト上昇が及ぶ可能性がある。",
+          "sources": [
+            {
+              "title": "Trump orders new 15% tariff on key material for solar panels and microchips",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/aug/07/trump-orders-tariff-solar-panels-microchips-manufacturing-ingredient"
+            }
+          ],
+          "tags": [
+            "ポリシリコン",
+            "通商政策",
+            "半導体"
+          ]
+        },
+        {
+          "id": "eu-ai-article50-practice",
+          "headline": "EU AI表示、域外事業者も対象",
+          "dek": "Article 50はEU外の提供者にも及び、表示と機械可読マーキングを実装要件にした",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は、AI法Article 50の透明性義務が2026年8月2日から適用されると説明している",
+            "EU外の提供者でも、AIシステムの出力がEUで使われる場合は義務の対象になり得る",
+            "提供者は、人と直接対話するAIについて、利用者がAIと対話していると分かる設計を求められる",
+            "生成AIの音声、画像、動画、テキストの出力には、機械可読で検出可能なマーキングが求められる",
+            "既存システムのマーキング義務には2026年12月2日まで限定的な猶予がある"
+          ],
+          "why_it_matters": "EU AI表示は、欧州拠点の有無ではなく、出力がEUで使われるかでリスクが発生する。日本企業が欧州向け広告、EC、旅行、金融、メディアで生成AIを使う場合、画面上のラベルだけでなく、生成経路と監査ログを残す必要がある。",
+          "implications": "実務上は、法務部門だけで対応できない。プロダクト設計、マーケティング、外部制作会社、モデル提供者の契約に、AI生成物のラベル、編集責任、例外判断、ログ保存を組み込む必要がある。",
+          "sources": [
+            {
+              "title": "Transparency obligations under Article 50 of the AI Act",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act"
+            }
+          ],
+          "tags": [
+            "EU AI法",
+            "Article 50",
+            "AI表示"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "雇用減速はなぜAI相場を押し上げるのか",
+    "dek": "悪い雇用統計で株が上がる現象は矛盾ではない。金利、利益、設備投資、労働代替の4つの経路から整理する。",
+    "tags": [
+      "米雇用",
+      "AI相場",
+      "金利"
+    ],
+    "reading_minutes": 5,
+    "body_md": "## 背景\n\n米7月雇用統計は、見出しだけなら景気に悪い数字だった。非農業部門雇用者数は2万3000人減り、5月と6月も合計10万3000人下方修正された。それでも発表直後の市場では、米株先物が上がり、米10年債利回りは4.60%へ低下した。悪いニュースで株が上がる。これは短期市場でよく起きるが、2026年のAI相場では特に意味が大きい。\n\n株価は企業の将来利益を現在価値に割り引いたものとして見られる。雇用が弱ければ、Fedは追加利上げを急ぎにくくなる。長期金利が下がれば、遠い将来に利益が出る成長企業ほど理論価値は上がりやすい。AI企業、半導体企業、データセンター企業は、現在の利益よりも将来の成長と投資回収を強く織り込むため、金利変化に敏感である。\n\n## 金利の経路\n\n第一の経路は割引率である。AIインフラ投資は、GPU、電力、土地、冷却、ネットワークに巨額の先行資金を使い、回収は数年先になる。米10年債が4.7%台から4.6%へ下がるだけでも、将来キャッシュフローの評価は少し改善する。特に、利益の多くが将来に偏る企業ほど金利低下の恩恵を受けやすい。\n\nただし、これは機械的な株価支えにすぎない。金利が下がる理由が景気悪化なら、売上見通しも同時に下がる。AI株が本当に上がり続けるには、金利低下による評価改善が、需要減速による売上悪化を上回る必要がある。ここが今回の雇用統計後の相場を読む分岐点である。\n\n## 利益の経路\n\n第二の経路は企業利益である。APはS&P500企業の約85%が決算を発表済みで、全体の利益成長が2021年以来の強さになりつつあると報じた。つまり市場は、雇用の弱さを見ても、現時点では企業利益の腰折れまでは織り込んでいない。利益が強く、金利だけが下がるなら、株には最も都合のよい組み合わせになる。\n\nAI関連企業ではこの利益確認が重要である。MicrosoftやAmazonのように、クラウド売上とフリーキャッシュフローを示せる企業は投資継続力を説明しやすい。反対に、売上成長より先に設備投資、リース負債、電力契約が膨らむ企業は、金利低下だけでは評価を支えにくい。\n\n## 労働代替の経路\n\n第三の経路は、雇用減速がAI需要そのものを増やす可能性である。企業が人を採りにくい、または採らない方針を強めると、既存人員の生産性を上げる投資が優先される。コールセンター、バックオフィス、営業支援、ソフトウェア開発、金融審査などでは、AIは単なる新規事業ではなく、採用抑制下で業務量を吸収する道具になる。\n\nただし、これも一方向ではない。景気後退が深まれば、企業はAI投資も削る。重要なのは、AIが新しい試験導入費なのか、既存業務のコスト削減投資なのかである。前者は景気減速で止まりやすい。後者は雇用が弱いほど進む可能性がある。\n\n## 日本への読み替え\n\n日本企業にとって、米雇用統計は為替と米需要だけの話ではない。米金利が下がれば円安圧力は和らぐが、米景気が弱くなれば電子部品、工作機械、自動車、素材の外需には逆風が出る。AI関連銘柄では、米顧客が設備投資を続ける余力を持つかが重要になる。\n\n投資家が見るべき問いは三つである。第一に、顧客のAI投資は売上成長を伴っているか。第二に、投資回収期間は金利低下でどれほど改善するか。第三に、AI導入は景気減速で削られる実験費なのか、人手不足や採用抑制を補う基幹投資なのか。悪い雇用統計でAI株が上がることはある。だが、その上昇が続くかは、金利低下よりも契約と利益の質で決まる。金利だけで説明できる上昇は短く、顧客の現金創出力で説明できる上昇だけが長く残る。",
+    "sources": [
+      {
+        "title": "Employment Situation Summary - 2026 M07 Results",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+      },
+      {
+        "title": "US stock futures jump as employers unexpectedly cut 23,000 jobs",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/stocks-markets-rates-iran-9636095906bbb689a1f612bce9a07343"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "米雇用減速はAI株に短期の金利支えを与えるが、米需要減速が顧客のcapexを削るリスクも同時に高める。",
+      "東京市場の半導体売りとTOPIX底堅さは、AIテーマ一辺倒から利益の質を見る相場への移行を示す可能性がある。",
+      "ホルムズ通航回復は前進だが、平時通航数に戻るまでは原油・LNG・保険料のリスクプレミアムは残りやすい。",
+      "米ポリシリコン関税とEU AI表示は、AIインフラが技術だけでなく通商・規制・証跡管理の制約を受けることを示す。"
+    ],
+    "watchlist": [
+      {
+        "item": "米8月雇用統計",
+        "why": "7月の雇用減と過去分下方修正が単月要因か、景気転換点かを確認する",
+        "horizon": "9月4日"
+      },
+      {
+        "item": "米7月CPI・PPI",
+        "why": "雇用減速後もインフレが粘ればFedの利上げ停止判断が難しくなる",
+        "horizon": "8月12〜13日"
+      },
+      {
+        "item": "ホルムズ通航実績",
+        "why": "合意案よりも船舶通航数、保険料、通行料、米封鎖解除が実効性を決める",
+        "horizon": "8月中旬"
+      },
+      {
+        "item": "AI半導体決算と契約条件",
+        "why": "Nvidia決算、AMD推論戦略、顧客capexの継続力がAI株の次の焦点になる",
+        "horizon": "8月26日"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "労働参加率",
+      "reading": "ろうどうさんかりつ",
+      "definition": "働いている人と職探し中の人が、生産年齢人口に占める割合。低下すると、雇用が弱くても失業率が下がることがある。"
+    },
+    {
+      "term": "割引率",
+      "reading": "わりびきりつ",
+      "definition": "将来の利益や現金収入を現在価値に直す際に使う率。金利が上がると遠い将来の利益ほど現在価値が下がりやすい。"
+    },
+    {
+      "term": "ポリシリコン",
+      "reading": "ぽりしりこん",
+      "definition": "高純度の多結晶シリコン。太陽電池や半導体材料の上流に位置し、AIデータセンターと再エネの双方で供給網上の重要材料になっている。"
+    },
+    {
+      "term": "機械可読マーキング",
+      "reading": "きかいかどくまーきんぐ",
+      "definition": "AI生成物にシステムが検出できる印を付けること。EU AI法Article 50では生成物の出所確認と監査証跡に関わる。"
+    }
+  ]
+}
