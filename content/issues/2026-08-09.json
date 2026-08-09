@@ -1,0 +1,516 @@
+{
+  "date": "2026-08-09",
+  "edition": 20,
+  "generated_at": "2026-08-09T22:17:04+09:00",
+  "masthead_note": "雇用減速で株は最高値圏、次の焦点はCPIとホルムズの実務である",
+  "market_snapshot": {
+    "as_of": "8月8〜9日 JST時点。東京市場は8月7日終値、米市場は8月7日終値・報道値",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "65,606.71",
+        "change": "-0.1%",
+        "direction": "down",
+        "note": "半導体株の戻りは限定的"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,057.47",
+        "change": "+0.04%",
+        "direction": "up",
+        "note": "内需・バリュー株が下支え"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "158.38円近辺",
+        "direction": "up",
+        "note": "共同介入後の円高効果は一部後退"
+      },
+      {
+        "label": "10年JGB",
+        "value": "3%手前",
+        "direction": "flat",
+        "note": "財政・物価警戒が残る"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.64%",
+        "change": "-0.03pt",
+        "direction": "down",
+        "note": "雇用統計後に一時4.60%まで低下"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,757.64",
+        "change": "+0.6%",
+        "direction": "up",
+        "note": "8月7日に最高値を更新"
+      },
+      {
+        "label": "NASDAQ",
+        "value": "26,690.62",
+        "change": "+1.3%",
+        "direction": "up",
+        "note": "Nvidiaなど大型テックがけん引"
+      },
+      {
+        "label": "Brent原油",
+        "value": "83.55ドル",
+        "change": "+1.3%",
+        "direction": "up",
+        "note": "ホルムズ交渉の不透明感が残る"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米株は雇用減速後も最高値圏。次の焦点は8月12日のCPIと9月FOMCの織り込み",
+      "ref": "cpi-fed-crossroads"
+    },
+    {
+      "text": "ドル円は158円台へ戻り、共同介入の効果は試される局面。JGB高止まりも重い",
+      "ref": "yen-intervention-fades"
+    },
+    {
+      "text": "フーシ派がサウジ製油所攻撃を主張。ホルムズ再開交渉は実務より政治条件が焦点",
+      "ref": "houthi-saudi-oil"
+    },
+    {
+      "text": "Palantirの93%増収とCaterpillarのAI電力需要が、AI相場を産業株へ広げた",
+      "ref": "ai-earnings-industrials"
+    },
+    {
+      "text": "Berkshireは現金を3655億ドルへ圧縮。Abel体制は資本配分の能動化を示した",
+      "ref": "berkshire-abel-cash"
+    },
+    {
+      "text": "EU AI表示と米ポリシリコン関税は、AIインフラを規制・通商の問題へ押し出す",
+      "ref": "eu-ai-label-enforcement"
+    }
+  ],
+  "top_story": {
+    "id": "cpi-fed-crossroads",
+    "headline": "米CPI待ち、株最高値と雇用減速",
+    "dek": "雇用減少で金利は下がったが、原油高と3%台インフレがFedの判断を縛る",
+    "importance": 3,
+    "facts": [
+      "8月7日のS&P500は前日比0.6%高の7,757.64で終え、過去最高値を更新した",
+      "Nasdaq総合は1.3%高の26,690.62、Dow平均は0.3%高の54,036.93だった",
+      "米10年債利回りは雇用統計前の4.67%から4.64%へ低下し、一時4.60%を付けた",
+      "Brent原油は同日1.3%高の83.55ドルとなった",
+      "APは、7月CPIについて前年比3.4%上昇が市場予想で、6月の3.5%から小幅鈍化が見込まれると報じた"
+    ],
+    "why_it_matters": "市場は雇用減速を、Fedが追加利上げを急がない材料として受け止めた。ただし原油高と3%台のインフレが残るため、弱い雇用だけで金融環境が緩むとは限らない。",
+    "implications": "日本には、米金利低下による円安圧力の緩和と、米景気減速による外需の不安が同時に波及する。8月12日のCPIが上振れれば、AI株の金利支えは一気に弱まり、ドル円とJGBにも再び圧力がかかる可能性がある。",
+    "sources": [
+      {
+        "title": "US stocks jump as employers unexpectedly cut 23,000 jobs, raising hopes that rate hikes can wait",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/9636095906bbb689a1f612bce9a07343"
+      },
+      {
+        "title": "Schedule of Selected Releases for August 2026",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/schedule/2026/08_sched_list.htm"
+      }
+    ],
+    "tags": [
+      "Fed",
+      "米CPI",
+      "米株"
+    ]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "payrolls-market-relief",
+          "headline": "雇用減速、金利だけを下げた相場",
+          "dek": "非農業部門雇用者数は減少したが、企業利益の強さが株式市場を支えた",
+          "importance": 3,
+          "facts": [
+            "米労働省は7月の非農業部門雇用者数が前月比2万3000人減少したと発表した",
+            "5月と6月の雇用者数は合計10万3000人下方修正された",
+            "APはS&P500企業の約90%が決算を発表済みで、利益成長率が約50%に向かっていると報じた",
+            "Nvidiaは8月7日に2.3%、Broadcomは1.7%上昇した"
+          ],
+          "why_it_matters": "雇用の悪化は景気には悪材料だが、企業利益が崩れていない段階では金利低下だけが先に株価へ効く。AI・半導体株は将来利益を強く織り込むため、この組み合わせに敏感である。",
+          "implications": "ただし雇用減速が消費と企業投資に波及すれば、利益見通しは遅れて下がる。日本の輸出・部材企業を見る際は、米金利より顧客の受注継続力と在庫調整を優先して確認する必要がある。",
+          "sources": [
+            {
+              "title": "Employment Situation Summary - 2026 M07 Results",
+              "publisher": "U.S. Bureau of Labor Statistics",
+              "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+            },
+            {
+              "title": "US stocks jump as employers unexpectedly cut 23,000 jobs, raising hopes that rate hikes can wait",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/9636095906bbb689a1f612bce9a07343"
+            }
+          ],
+          "tags": [
+            "米雇用",
+            "企業利益",
+            "半導体株"
+          ]
+        },
+        {
+          "id": "yen-intervention-fades",
+          "headline": "ドル円158円台、介入効果を試す",
+          "dek": "共同介入で155円台まで戻した円は、米金利と日本の財政懸念で再び弱含む",
+          "importance": 2,
+          "facts": [
+            "APは8月3日、米国と日本が円買い介入を認め、ドル円が163円超から155.20円近辺へ下落したと報じた",
+            "WSJは8月7日、ドル円が158.38円近辺で取引され、介入直後の円高が薄れていると報じた",
+            "日本の10年国債利回りは7月以降、3%手前の高水準が意識されている",
+            "8月12日の米CPIは、日米金利差と追加介入観測の双方に影響する"
+          ],
+          "why_it_matters": "為替介入は水準を動かせても、金利差、原油高、財政不安を消すわけではない。円安が再燃すれば輸入物価とJGB利回りを通じて、日銀の利上げ観測も再び強まりやすい。",
+          "implications": "企業は158円台を単なる円安メリットとして扱いにくい。輸出採算には追い風でも、エネルギー、物流、賃上げ、国債利回りを通じてコストと資本市場のリスクが同時に上がるためである。",
+          "sources": [
+            {
+              "title": "US dollar weakens sharply against the Japanese yen after market interventions",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/7316599afed35629a27ae23a35f569fd"
+            },
+            {
+              "title": "The Yen Rally Is Already Fading",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/livecoverage/july-jobs-report-stock-market-08-07-2026/card/the-yen-rally-is-already-fading-SbKuXs5cCy5zjpz14QV7"
+            }
+          ],
+          "tags": [
+            "ドル円",
+            "為替介入",
+            "JGB"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "ai-earnings-industrials",
+          "headline": "AI決算、ソフトから産業株へ拡散",
+          "dek": "Palantirの高成長とCaterpillarのデータセンター需要が、AI相場の裾野を広げた",
+          "importance": 3,
+          "facts": [
+            "APは、Palantirの四半期売上高が前年比93%増加し、同社が2026年通期見通しを引き上げたと報じた",
+            "Caterpillarは四半期売上高が初めて200億ドルを超えたとされ、データセンター向けタービン需要が一因になった",
+            "8月4日の米市場ではNvidiaが2.6%、Broadcomが6.6%、Micronが7.6%上昇した",
+            "S&P500企業の利益成長は2021年以来の強さに向かっていると報じられた"
+          ],
+          "why_it_matters": "AI相場はモデル企業と半導体企業だけでなく、電力、タービン、冷却、建設、ネットワークへ広がっている。AIの収益化を判断するには、ソフトの売上だけでなく、設備を支える産業企業の受注も見る必要がある。",
+          "implications": "日本では重電、電線、空調、建設、素材の企業がAIテーマに含まれやすくなる。ただし産業株は固定資産と原材料コストを抱えるため、AI需要があっても粗利率と納期遅延を確認する必要がある。",
+          "sources": [
+            {
+              "title": "US stocks hit records as profits keep piling up for Palantir and others, while oil prices ease",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/fbbe6128d618509e33d45a493c2615b1"
+            }
+          ],
+          "tags": [
+            "Palantir",
+            "Caterpillar",
+            "AIインフラ"
+          ]
+        },
+        {
+          "id": "openai-luna-default",
+          "headline": "ChatGPT、低コストモデルを標準化",
+          "dek": "Lunaの広範展開は、AI競争が最高性能だけでなく日常利用の単価へ移ったことを示す",
+          "importance": 2,
+          "facts": [
+            "Axiosは8月6日、OpenAIがChatGPTの標準モデルとしてGPT-5.6 Lunaを無料・有料ユーザーへ展開すると報じた",
+            "PlusとProの利用者は、より高性能なGPT-5.6 Solにもアクセスできるとされた",
+            "OpenAIは7月9日、GPT-5.6をSol、Terra、Lunaの3階層で一般提供すると発表していた",
+            "OpenAIはGPT-5.6について、トークンあたりの知能と用途別の性能選択を強調している"
+          ],
+          "why_it_matters": "生成AIの競争は、最高性能のベンチマークだけでは決まらない。日常業務の大量処理では、回答品質、速度、単価、管理者の利用制御を組み合わせた総コストが導入判断を左右する。",
+          "implications": "日本企業のAI導入では、最上位モデルを全社員に使わせる設計から、業務別にモデル階層を割り当てる設計へ移る可能性がある。IT予算ではなく、業務原価としてAI利用量を管理する発想が必要になる。",
+          "sources": [
+            {
+              "title": "OpenAI makes major upgrades for free and paid ChatGPT users",
+              "publisher": "Axios",
+              "url": "https://www.axios.com/2026/08/06/openai-chatgpt-upgrades-luna-free-paid"
+            },
+            {
+              "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+              "publisher": "OpenAI",
+              "url": "https://openai.com/index/gpt-5-6/"
+            }
+          ],
+          "tags": [
+            "OpenAI",
+            "GPT-5.6",
+            "AIコスト"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "berkshire-abel-cash",
+          "headline": "Berkshire、現金3655億ドルへ",
+          "dek": "Abel体制はAlphabet投資と自社株買いで、巨額現金を動かし始めた",
+          "importance": 2,
+          "facts": [
+            "APは、Berkshire Hathawayの現金保有が約4000億ドルから3655億ドルへ減少したと報じた",
+            "同社は第2四半期にAlphabetへ100億ドルを投資し、自社株を約45億ドル買い戻した",
+            "営業利益は前年同期の111億6000万ドルから約130億ドルへ増加した",
+            "全体の純利益は投資利益もあり、256億6700万ドルへ倍増した"
+          ],
+          "why_it_matters": "Berkshireは米国企業の資本配分の象徴である。新CEOが巨額現金を動かし始めたことは、株価水準、AI・テック投資、買収機会への見方が変わりつつあることを示す。",
+          "implications": "米株の最高値圏でも、利益成長が確認できる企業には資金が戻っている。日本企業にとっても、手元資金を守るだけでなく、買収、設備投資、自社株買いの優先順位を説明する圧力が強まる可能性がある。",
+          "sources": [
+            {
+              "title": "Berkshire Hathaway's new CEO Greg Abel spends a chunk of the company's massive cashpile",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/e36ed92787eef9c9c67502501b345174"
+            }
+          ],
+          "tags": [
+            "Berkshire Hathaway",
+            "資本配分",
+            "Alphabet"
+          ]
+        },
+        {
+          "id": "china-high-tech-trade",
+          "headline": "中国輸出24%増、AI部材が支える",
+          "dek": "高技術品とEVの伸びは、対米摩擦下でも中国の供給網が高度化していることを示す",
+          "importance": 2,
+          "facts": [
+            "APは、中国の7月輸出が前年比でほぼ24%増え、6月の27%増から小幅に鈍化したと報じた",
+            "7月輸入は前年比27.5%増だった",
+            "1〜7月の高技術品輸出は前年比で約41%増え、車両輸出は55%増えた",
+            "APは、電子機器、グリーン技術、EVが輸出を支えたと報じた"
+          ],
+          "why_it_matters": "中国の輸出増は低価格品だけではなく、AI・EV・電子部材へ移っている。これは日本、韓国、ドイツの資本財・部材企業が得意としてきた領域に、中国企業が価格と数量で入ってくることを意味する。",
+          "implications": "日本企業は中国を単なる需要市場ではなく、高付加価値品の競合供給国として見る必要がある。ASEANや欧州で中国製部材が増えれば、日本の装置・部品企業には価格競争と現地化圧力がかかる。",
+          "sources": [
+            {
+              "title": "China's exports slow slightly in July despite robust demand for high-tech products",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/china-trade-exports-imports-iran-oil-8bd433d388d143ba2d37a10aefdc5629"
+            }
+          ],
+          "tags": [
+            "中国輸出",
+            "EV",
+            "AI部材"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "houthi-saudi-oil",
+          "headline": "フーシ派、サウジ製油所攻撃を主張",
+          "dek": "ホルムズだけでなく紅海・イエメン周辺も、エネルギー輸送のリスクを再拡大する",
+          "importance": 3,
+          "facts": [
+            "APは8月9日、イエメンのフーシ派がサウジアラビアJazanのAramco製油所とイエメンMocha港への攻撃を主張したと報じた",
+            "サウジ能源省は製油所で火災が発生したが死傷者はないとした",
+            "Mocha港では建物や物資に被害が出たと報じられた",
+            "米国防総省は、イランとの5カ月に及ぶ戦争で弾薬在庫が減ったとして、防衛産業に増産を求めている"
+          ],
+          "why_it_matters": "エネルギー市場の焦点はホルムズ再開だけではない。紅海、イエメン、サウジ南部の攻撃が重なると、原油・LNG・保険・港湾のリスクプレミアムが広い範囲で上がる。",
+          "implications": "日本企業は中東リスクを単一航路の再開ニュースで判断しにくくなる。船舶保険、代替港、在庫日数、防衛産業の供給制約まで含めて、物流計画を見直す必要がある。",
+          "sources": [
+            {
+              "title": "Houthis claim attacks on Saudi Arabian oil facility and Yemeni port, and other Mideast news",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/6c5aa0c5debcca3fa36316a8b0b67400"
+            }
+          ],
+          "tags": [
+            "フーシ派",
+            "原油",
+            "中東"
+          ]
+        },
+        {
+          "id": "hormuz-demands-stall",
+          "headline": "ホルムズ再開、イラン条件で難航",
+          "dek": "通航管理と通行料を巡る対立が残り、合意期待は実通航の回復に結び付いていない",
+          "importance": 3,
+          "facts": [
+            "Guardianは8月8日、イランがホルムズ再開の条件として米軍行動の停止、制裁解除、戦争被害補償などを求めていると報じた",
+            "APは、イランとオマーンの交渉では通航管理や一時的な通行条件が協議されていると報じた",
+            "米国はイランによる海峡管理や通行料に反対している",
+            "複数の報道は、商船攻撃が続き、通常通航への復帰には保険会社と船主の判断が必要だと伝えている"
+          ],
+          "why_it_matters": "ホルムズ問題は外交合意の見出しより、誰が通航権限を持ち、どの船が安全とみなされるかが本質である。政治条件が重くなるほど、船主と保険会社は戻りにくい。",
+          "implications": "原油価格が一日単位で上下しても、日本の調達リスクは簡単には下がらない。LNG船の通航、保険料、長期契約の不可抗力条項が、企業収益に遅れて効く可能性がある。",
+          "sources": [
+            {
+              "title": "Iran issues tough demands to reopen strait of Hormuz as deal still out of reach",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/08/iran-issues-tough-demands-to-reopen-strait-of-hormuz-as-deal-remains-out-of-reach"
+            },
+            {
+              "title": "Iran and Oman make progress on a deal to reopen the Strait of Hormuz, officials say",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/6587f90f2ab5beec373ce5fabf637541"
+            }
+          ],
+          "tags": [
+            "ホルムズ",
+            "イラン",
+            "海上輸送"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-ai-label-enforcement",
+          "headline": "EU AI表示、域外企業にも実務負担",
+          "dek": "Article 50は8月2日に適用され、生成物の表示と機械可読マーキングを求める",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は、AI法Article 50の透明性義務が2026年8月2日から適用されると説明している",
+            "EU外の提供者でも、AIシステムの出力がEUで使われる場合は義務の対象になり得る",
+            "生成AIの出力には、検出可能な機械可読マーキングを付ける義務がある",
+            "既存システムのマーキング義務には2026年12月2日まで限定的な猶予がある",
+            "違反時の制裁金は最大1500万ユーロまたは世界売上高の3%とされる"
+          ],
+          "why_it_matters": "透明性義務は、画面に小さなラベルを付けるだけの問題ではない。生成経路、モデル提供者、編集責任、ログ保存を一体で管理できなければ、後からEU向け利用を説明できない。",
+          "implications": "日本企業は欧州向け広告、EC、金融、旅行、メディアでAI生成物を使う場合、制作会社やSaaS提供者との契約に表示、監査ログ、例外処理を組み込む必要がある。",
+          "sources": [
+            {
+              "title": "Transparency obligations under Article 50 of the AI Act",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/faqs/transparency-obligations-under-article-50-ai-act"
+            },
+            {
+              "title": "Commission publishes guidelines on transparency obligations for providers and deployers of certain AI systems",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems"
+            }
+          ],
+          "tags": [
+            "EU AI法",
+            "Article 50",
+            "AI表示"
+          ]
+        },
+        {
+          "id": "polysilicon-tariff-link",
+          "headline": "米ポリシリコン関税、AIにも波及",
+          "dek": "太陽光と半導体の共通材料が、通商・安全保障・データセンター費用の交点になった",
+          "importance": 2,
+          "facts": [
+            "The Guardianは8月7日、米大統領が輸入ポリシリコンと関連製品に15%関税を命じたと報じた",
+            "新関税は2026年12月4日に発効する予定である",
+            "対象はポリシリコン、インゴット、ウエハー、太陽電池、太陽光モジュールに及ぶとされた",
+            "USTRは7月23日、強制労働輸入禁止の執行が不十分な60経済圏に対する追加関税を発表している"
+          ],
+          "why_it_matters": "ポリシリコンは太陽光と半導体の上流に位置する。AIデータセンターの電力を再エネで支える政策と、半導体供給網を国内化する政策が、同じ材料市場で衝突し始めた。",
+          "implications": "日本企業には、素材供給の機会と下流コスト上昇の両方がある。信越系の高純度材料、太陽光調達、データセンター電力契約は、関税と強制労働監査を同時に織り込む必要がある。",
+          "sources": [
+            {
+              "title": "Trump orders new 15% tariff on key material for solar panels and microchips",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/aug/07/trump-orders-tariff-solar-panels-microchips-manufacturing-ingredient"
+            },
+            {
+              "title": "USTR Takes Action in Forced Labor Section 301 Investigations",
+              "publisher": "United States Trade Representative",
+              "url": "https://www.ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ustr-takes-action-forced-labor-section-301-investigations"
+            }
+          ],
+          "tags": [
+            "ポリシリコン",
+            "通商政策",
+            "強制労働"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AIデータセンター需要はなぜ産業株を買わせるのか",
+    "dek": "AI相場はGPUとモデル企業だけの話ではなくなった。タービン、電力、建設、冷却へ利益が流れる仕組みを整理する。",
+    "tags": [
+      "AIインフラ",
+      "産業株",
+      "電力"
+    ],
+    "reading_minutes": 5,
+    "body_md": "## 背景\n\n2026年夏のAI相場で重要なのは、半導体株だけが上がっているわけではない点である。PalantirのようなAIソフト企業は高成長を示し、NvidiaやBroadcomのような半導体企業は引き続き指数を押し上げている。一方で、Caterpillarの決算にデータセンター向けタービン需要が効いたと報じられたことは、AI投資の利益が産業株へ広がっていることを示した。\n\nデータセンターは、GPUを並べれば完成する設備ではない。電力を引き、変電設備を置き、非常用発電やガスタービンを確保し、冷却装置を回し、建屋とネットワークを整える必要がある。AIモデルの利用量が増えるほど、計算資源だけでなく、電源と熱を処理する産業インフラが不足しやすくなる。ここに重電、建機、空調、電線、素材、建設会社の受注機会が生まれる。\n\n## 収益の流れ\n\nAIモデル企業やクラウド企業は、利用者から推論料金やクラウド料金を受け取る。しかし、その前に巨額の設備投資を行う。GPU、ネットワーク機器、サーバーラック、電力契約、冷却設備、土地、建設費が先に出ていく。半導体企業はチップ販売で収益を得るが、データセンターが増えるほど、電力機器や産業機械の企業にも注文が流れる。\n\nこのため、AIの利益は三層に分かれる。第一層はモデルとアプリの利用料である。第二層はチップ、メモリー、ネットワークの部材である。第三層は電力、建設、冷却、保守という物理インフラである。初期相場では第一層と第二層が注目されるが、設備投資が長期化すると第三層の企業が安定した受注を得やすくなる。\n\n## なぜ今広がるのか\n\n理由は二つある。第一に、AI投資の規模が一社の研究開発費ではなく、産業設備投資の規模になったことである。数百億ドル単位のデータセンター計画では、GPU不足だけでなく、電力接続、変圧器、タービン、冷却水、建設人員が制約になる。第二に、投資家がAIソフトの売上成長だけでなく、設備投資の現実性を確認し始めたことである。電力と建設を確保できないAI計画は、発表額が大きくても収益化できない。\n\nもう一つの変化は、投資家の確認対象が損益計算書から供給能力へ移っていることだ。AI企業が強い売上見通しを出しても、必要な電力、変圧器、冷却設備、建設人員を確保できなければ処理能力は増えない。逆に、産業企業が長期契約と価格転嫁力を持てば、AI利用の増加を比較的安定した受注として取り込める。\n\nただし産業株への広がりは、AI相場が安全になったことを意味しない。産業企業は受注残が増えても、原材料費、賃金、納期、在庫、保証費用で利益率が揺れる。顧客がデータセンター計画を延期すれば、設備会社の売上にも遅れて影響する。AI関連という見出しだけで買われた産業株は、実際の契約年限と粗利率で選別される。\n\n## 日本への示唆\n\n日本企業には追い風とリスクが同時にある。重電、空調、電線、精密部材、建設、素材は、AIデータセンターの物理的な不足を埋める企業として注目されやすい。特に電力制約が強い国では、省電力機器、冷却効率、系統接続のノウハウが差別化要因になる。\n\n一方で、原油高と円安は設備コストを押し上げる。ホルムズや紅海の輸送リスクが残る局面では、銅、アルミ、燃料、保険料の変動も大きい。AIデータセンター需要を読むには、モデル企業の発表だけでなく、電力会社、部材メーカー、建設会社の受注、納期、価格転嫁を合わせて見る必要がある。AI相場の第二段階は、コードを書く企業だけでなく、電気と熱を扱う企業を見抜く相場である。その力は月次受注と稼働率に表れる。",
+    "sources": [
+      {
+        "title": "US stocks hit records as profits keep piling up for Palantir and others, while oil prices ease",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/fbbe6128d618509e33d45a493c2615b1"
+      },
+      {
+        "title": "US stocks jump as employers unexpectedly cut 23,000 jobs, raising hopes that rate hikes can wait",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/9636095906bbb689a1f612bce9a07343"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "米雇用減速は株式には金利低下の支えだが、CPIが上振れればFedの政策余地は再び狭くなる。",
+      "AI相場はソフトと半導体から、電力、タービン、冷却、建設へ広がっており、日本の産業株にも波及しやすい。",
+      "ホルムズ再開交渉は政治条件と実通航の差が大きく、原油価格だけで日本の調達リスクを判断できない。",
+      "EU AI表示と米通商政策は、AIインフラの競争が技術仕様だけでなく証跡と供給網監査を含むことを示す。"
+    ],
+    "watchlist": [
+      {
+        "item": "米7月CPI",
+        "why": "雇用減速後もインフレが3%台で粘るかが9月FOMCと米10年債を左右する",
+        "horizon": "8月12日"
+      },
+      {
+        "item": "米7月PPI",
+        "why": "原油高、ポリシリコン関税、輸送費が企業物価へ波及しているかを確認する",
+        "horizon": "8月13日"
+      },
+      {
+        "item": "ホルムズ通航実績",
+        "why": "外交発表ではなく、船舶数、保険料、通行料、攻撃停止が実効性を決める",
+        "horizon": "8月中旬"
+      },
+      {
+        "item": "AI産業株の受注と粗利率",
+        "why": "データセンター需要が電力・冷却・建設企業の利益に本当に転嫁されるかを確認する",
+        "horizon": "8月決算期"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "CPI",
+      "reading": "シーピーアイ",
+      "definition": "消費者物価指数。家計が購入する財・サービスの価格変化を示し、Fedの政策判断と米長期金利に大きく影響する。"
+    },
+    {
+      "term": "機械可読マーキング",
+      "reading": "きかいかどくまーきんぐ",
+      "definition": "AI生成物にシステムが検出できる印を付けること。EU AI法Article 50では生成コンテンツの透明性確保に使われる。"
+    },
+    {
+      "term": "ポリシリコン",
+      "reading": "ぽりしりこん",
+      "definition": "高純度の多結晶シリコン。半導体ウエハーや太陽電池の上流材料で、AIデータセンターと再エネ政策の双方に関わる。"
+    },
+    {
+      "term": "資本配分",
+      "reading": "しほんはいぶん",
+      "definition": "企業が手元資金を設備投資、買収、自社株買い、配当、借入返済へどう振り向けるかの判断。株主価値を左右する。"
+    }
+  ]
+}
