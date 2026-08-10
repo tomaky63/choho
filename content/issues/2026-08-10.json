@@ -1,0 +1,522 @@
+{
+  "date": "2026-08-10",
+  "edition": 21,
+  "generated_at": "2026-08-10T21:53:40+09:00",
+  "masthead_note": "米CPI前でも日本株は反発。原油とAI設備決算が次の試金石である",
+  "market_snapshot": {
+    "as_of": "8月10日 JST夜時点。東京・欧州取引時間の報道値、米市場は8月7日終値中心",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "66,970.22",
+        "change": "+2.1%",
+        "direction": "up",
+        "note": "東京エレク、アドバンテストが主導"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "157円台後半",
+        "direction": "down",
+        "note": "介入後の円高水準を一部維持"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.805%",
+        "change": "+0.01pt",
+        "direction": "up",
+        "note": "日銀利上げ観測で小幅上昇"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.650%",
+        "change": "-0.008pt",
+        "direction": "down",
+        "note": "雇用減速後、CPI待ち"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,757.64",
+        "change": "+0.6%",
+        "direction": "up",
+        "note": "8月7日に最高値更新"
+      },
+      {
+        "label": "NASDAQ",
+        "value": "26,690.62",
+        "change": "+1.3%",
+        "direction": "up",
+        "note": "大型テックが買い戻し"
+      },
+      {
+        "label": "Brent原油",
+        "value": "84.23ドル",
+        "change": "+0.8%",
+        "direction": "up",
+        "note": "ホルムズ再開交渉が不透明"
+      },
+      {
+        "label": "WTI原油",
+        "value": "78.72ドル",
+        "change": "+0.7%",
+        "direction": "up",
+        "note": "中東リスクで反発"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "日経平均は2.1%高。米雇用減速で利上げ観測が後退し、半導体株が反発した",
+      "ref": "nikkei-tech-rebound"
+    },
+    {
+      "text": "米市場は8月12日のCPIが焦点。雇用悪化と原油反発がFed判断を割る",
+      "ref": "cpi-oil-fed-test"
+    },
+    {
+      "text": "CiscoとApplied Materialsの今週決算は、AI設備投資の実需を測る関門になる",
+      "ref": "ai-infra-earnings-test"
+    },
+    {
+      "text": "Iranはホルムズ再開に米制裁解除や補償を要求。原油リスクは再び上向いた",
+      "ref": "iran-hormuz-us-demands"
+    },
+    {
+      "text": "フーシ派とサウジの応酬は紅海・Bab el-Mandebの代替路リスクを高める",
+      "ref": "houthi-saudi-yemen-front"
+    },
+    {
+      "text": "EU AI法Article 50は表示だけでなく、機械可読マーキングと説明責任を問う",
+      "ref": "eu-ai-label-practice"
+    }
+  ],
+  "top_story": {
+    "id": "cpi-oil-fed-test",
+    "headline": "米CPI前、株高と原油反発が交錯",
+    "dek": "雇用減速で金利は下がったが、ホルムズ不安で原油が戻り、Fedの判断は単純化しない",
+    "importance": 3,
+    "facts": [
+      "APは10日、欧州・アジア株がまちまちの中、日本の日経平均が2.1%高の66,970.22になったと報じた",
+      "8月7日のS&P500は0.6%高の7,757.64、Nasdaq総合は1.3%高の26,690.62だった",
+      "APは、7月CPIの前年比上昇率が6月の3.5%から3.4%へ小幅鈍化する見通しだと伝えた",
+      "BLSの公表予定では、7月CPIは8月12日、7月PPIは8月13日に発表される",
+      "Brent原油は10日の報道時点で0.8%高の84.23ドル、WTIは0.7%高の78.72ドルだった"
+    ],
+    "why_it_matters": "市場は雇用減速を利上げ後退の材料として買ったが、原油が再び上がればインフレ期待は下がりにくい。CPIが上振れれば、株式には金利低下の支えが残らず、原油高によるコスト増だけが意識される。",
+    "implications": "日本には円相場、JGB、半導体株の三方向で波及する。米CPIが鈍化すれば円高とグロース株支援が続く可能性があるが、原油とサービス価格が粘れば日銀の利上げ観測と輸入物価圧力が同時に強まる。",
+    "sources": [
+      {
+        "title": "World shares are mixed after advances on Wall Street",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/stocks-markets-rates-iran-ai-adb7b918b15206e38d7899d482422308"
+      },
+      {
+        "title": "Schedule of Selected Releases for August 2026",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/schedule/2026/08_sched_list.htm"
+      }
+    ],
+    "tags": [
+      "米CPI",
+      "Fed",
+      "原油"
+    ]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "nikkei-tech-rebound",
+          "headline": "日経2.1%高、半導体が主導",
+          "dek": "米雇用減速で金利上昇懸念が和らぎ、東京エレクとアドバンテストに買いが戻った",
+          "importance": 2,
+          "facts": [
+            "APは10日、日経平均が2.1%高の66,970.22になったと報じた",
+            "東京エレクトロンは4.1%、アドバンテストは6.4%上昇した",
+            "韓国KOSPIは0.7%高だったが、Samsung Electronicsは0.4%、SK Hynixは0.1%下落した",
+            "香港ハンセン指数は1.1%、上海総合指数は0.7%上昇した"
+          ],
+          "why_it_matters": "日本株の反発は、米金利低下とAI関連株の買い戻しに強く依存している。韓国のメモリー株が伸び悩んだ点は、AIテーマの中でも銘柄選別が続いていることを示す。",
+          "implications": "東京市場では半導体装置株が指数を押し上げやすいが、CPIと今週のAI設備決算で受注の質が確認されなければ戻りは続きにくい。円が157円台で止まるかも、輸出株とJGBの両方を左右する。",
+          "sources": [
+            {
+              "title": "World shares are mixed after advances on Wall Street",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/stocks-markets-rates-iran-ai-adb7b918b15206e38d7899d482422308"
+            }
+          ],
+          "tags": [
+            "日経平均",
+            "半導体株",
+            "日本株"
+          ]
+        },
+        {
+          "id": "boj-jgb-rate-pressure",
+          "headline": "10年JGB2.805%、日銀観測残る",
+          "dek": "円安と輸入物価への警戒が、株高の裏で日本金利を押し上げる",
+          "importance": 2,
+          "facts": [
+            "WSJは10日、日本の2年JGB利回りと10年JGB利回りがそれぞれ1bp上昇し、1.615%と2.805%になったと伝えた",
+            "同報道は、7月会合の意見要旨を受けて日銀が利上げを速めるとの見方が残るとした",
+            "米10年債利回りは同時点で0.8bp低下し、4.650%だった",
+            "市場は8月12日の米CPIに注目している"
+          ],
+          "why_it_matters": "米金利が下がっても、日本金利が下がるとは限らない。円安、原油、財政不安が残れば、日銀は景気減速より輸入インフレを警戒する局面に置かれる。",
+          "implications": "日本企業にとっては、円安メリットと資本コスト上昇が同時に来る。設備投資や自社株買いの判断では、米金利より国内長期金利と金融機関の貸出姿勢を確認する必要がある。",
+          "sources": [
+            {
+              "title": "Eurozone Government Bond Yields Rise Slightly Amid Middle East Uncertainty",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/finance/investing/jgbs-edge-lower-amid-potentially-quicker-pace-of-boj-rate-hikes-d17b52c8"
+            }
+          ],
+          "tags": [
+            "JGB",
+            "日銀",
+            "円安"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "ai-infra-earnings-test",
+          "headline": "AI設備決算、ネットワークが焦点",
+          "dek": "CiscoとApplied Materialsの決算予定は、GPU以外のAI投資が続くかを測る",
+          "importance": 3,
+          "facts": [
+            "Ciscoは5月の第3四半期決算で、売上高が前年比12%増の158億ドルだったと発表した",
+            "同社はAIインフラのハイパースケーラー向け受注が年度累計53億ドルに達し、2026年度見通しを90億ドルへ引き上げた",
+            "Ciscoは第4四半期売上高を167億〜169億ドルと見込んでいる",
+            "Applied Materialsは8月13日に2026年度第3四半期決算説明会を開くと発表している",
+            "同社は半導体・ディスプレー製造装置がAIと次世代チップ商用化に不可欠だと説明している"
+          ],
+          "why_it_matters": "AI投資はGPU調達だけでは処理能力にならない。データセンター内外のネットワーク、光部品、先端パッケージ、製造装置の供給能力が、クラウド企業のcapexを実際の稼働率へ変換する。",
+          "implications": "今週の決算では、売上成長率だけでなく受注残、粗利率、納期、関税影響を見る必要がある。日本の装置、部材、光通信関連企業にも、顧客のAI投資がどの層で詰まっているかが波及する。",
+          "sources": [
+            {
+              "title": "Cisco Reports Third Quarter Earnings",
+              "publisher": "Cisco",
+              "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-THIRD-QUARTER-EARNINGS/default.aspx"
+            },
+            {
+              "title": "Applied Materials to Report Fiscal Third Quarter 2026 Results on Aug. 13, 2026",
+              "publisher": "Applied Materials",
+              "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fiscal-third-quarter-2026-results-aug"
+            }
+          ],
+          "tags": [
+            "AIインフラ",
+            "Cisco",
+            "Applied Materials"
+          ]
+        },
+        {
+          "id": "optical-ai-capacity",
+          "headline": "光通信、AIクラウドの制約に",
+          "dek": "Lumentumなど光部品企業の決算は、データセンター内の帯域不足を映す",
+          "importance": 2,
+          "facts": [
+            "Lumentumは、AI、クラウド、次世代通信の基盤となる光・フォトニクス技術を提供していると説明している",
+            "同社の投資家向けサイトは、2026年度第3四半期決算を最新四半期として掲載している",
+            "市場では今週、Lumentum、Cisco、Applied MaterialsなどAIハード関連の決算が注目されている",
+            "APは10日、東京市場で半導体装置株が大きく上昇したと報じた"
+          ],
+          "why_it_matters": "大規模AIでは、計算チップの数だけでなく、チップ間、サーバー間、データセンター間を結ぶ帯域が性能を決める。光部品の供給制約は、GPUを買っても処理能力を使い切れないリスクになる。",
+          "implications": "日本企業では、光部品、精密加工、材料、試験装置の需要を見る意味が増す。AI相場の次の確認点は、チップ価格ではなく通信帯域と消費電力あたりの転送効率になる可能性がある。",
+          "sources": [
+            {
+              "title": "Lumentum Investor Relations Overview",
+              "publisher": "Lumentum",
+              "url": "https://investor.lumentum.com/overview/default.aspx/1000/"
+            },
+            {
+              "title": "World shares are mixed after advances on Wall Street",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/stocks-markets-rates-iran-ai-adb7b918b15206e38d7899d482422308"
+            }
+          ],
+          "tags": [
+            "光通信",
+            "フォトニクス",
+            "AIクラウド"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "apple-cxmt-memory-bind",
+          "headline": "Apple、中国メモリーで板挟み",
+          "dek": "AI需要がDRAM価格を押し上げ、米企業は中国調達と安全保障規制の間で揺れる",
+          "importance": 2,
+          "facts": [
+            "MarketScreener掲載のReuters記事は、Appleが中国のChangXin Memory Technologiesからメモリーを購入する承認を米政府に求めていると報じた",
+            "同報道は、Appleが中国販売向け端末への採用を巡り、Commerce Departmentなどと接触したと伝えた",
+            "CXMTは米国防総省の中国軍関連企業リストに掲載されている",
+            "Reuters Breakingviewsは、AIデータセンターの拡張がメモリー不足と価格上昇を通じてAppleなど端末企業に波及していると論じた"
+          ],
+          "why_it_matters": "AIブームは最先端GPUだけでなく、汎用DRAMとNANDの需給も締める。端末メーカーはコストを抑えるため中国メモリーを見ざるを得ないが、米国の安全保障規制が調達の自由度を狭める。",
+          "implications": "日本の電子部品・装置企業には、メモリー投資の拡大という追い風と、顧客の中国現地調達という競争圧力が同時に来る。Appleの判断は、KioxiaやSK Hynixだけでなく、部材・装置の地域配分にも影響し得る。",
+          "sources": [
+            {
+              "title": "Apple seeks approval to buy chips from blacklisted Chinese company, FT reports",
+              "publisher": "MarketScreener / Reuters",
+              "url": "https://www.marketscreener.com/news/apple-seeks-approval-to-buy-chips-from-blacklisted-chinese-company-ft-reports-ce7f5fd9d08df72d"
+            },
+            {
+              "title": "Apple’s China plea signals low-tech chip upheaval",
+              "publisher": "Reuters Breakingviews / Sahm Capital",
+              "url": "https://www.sahmcapital.com/news/content/rpt-breakingviews-apples-china-plea-signals-low-tech-chip-upheaval-2026-07-15"
+            }
+          ],
+          "tags": [
+            "Apple",
+            "CXMT",
+            "メモリー"
+          ]
+        },
+        {
+          "id": "scandium-critical-minerals",
+          "headline": "米豪スカンジウム、供給網政策に",
+          "dek": "国防・航空材に使う希少金属で、米国は同盟国鉱山への資本支援を広げる",
+          "importance": 2,
+          "facts": [
+            "FTは10日、米政権が豪Sunrise Energy Metalsのスカンジウム鉱山開発に4億ドルの条件付き融資を承認したと報じた",
+            "同報道は、融資が米国防総省Office of Strategic Capitalを通じたものだとした",
+            "米国防総省は2025年、スカンジウム合金が軽量・高強度の特性から航空宇宙や防衛用途で重要だと説明している",
+            "CSISは、米国の重要鉱物政策が融資、株式投資、長期購入契約、価格下支えを組み合わせる方向へ広がっていると分析している"
+          ],
+          "why_it_matters": "重要鉱物の確保は、単なる採掘権ではなく資本政策になっている。政府融資と購入権が結び付くと、民間企業の採算と同盟国の供給網が政策で作られる。",
+          "implications": "日本はレアアース、電池材料、半導体材料で同じ構造に直面する。調達先の多角化だけでなく、政府金融、長期オフテイク、加工拠点の国内外配置を組み合わせる必要がある。",
+          "sources": [
+            {
+              "title": "US backs Australian rare earth miner to cut out China",
+              "publisher": "FT",
+              "url": "https://www.ft.com/content/d88b7e46-6806-4286-94d7-3bb16facee41"
+            },
+            {
+              "title": "Department of Defense Awards $10 Million to Develop a Domestic Mine-to-Master Alloy Scandium Supply Chain",
+              "publisher": "U.S. Department of Defense",
+              "url": "https://www.defense.gov/News/Releases/Release/Article/4264389/department-of-defense-awards-10-million-to-develop-a-domestic-mine-to-master-al/"
+            },
+            {
+              "title": "Rare Earth Export Restrictions One Year Later",
+              "publisher": "CSIS",
+              "url": "https://www.csis.org/analysis/rare-earth-export-restrictions-one-year-later"
+            }
+          ],
+          "tags": [
+            "重要鉱物",
+            "スカンジウム",
+            "供給網"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "iran-hormuz-us-demands",
+          "headline": "Iran、ホルムズ再開に米譲歩要求",
+          "dek": "制裁解除、凍結資産、補償を求め、Oman経由の暫定回廊も本格再開には届かない",
+          "importance": 3,
+          "facts": [
+            "APは10日、Iran外務省報道官が米国の条件履行までホルムズ海峡を再開しないと述べたと報じた",
+            "Iranは米国に対し、港湾封鎖停止、戦争被害の補償、経済制裁解除、凍結資産の解放を求めている",
+            "ホルムズ海峡は通常、世界の海上原油取引の約5分の1が通る水路である",
+            "IranはOmanと、暫定的な船舶回廊を含む通航協議を続けている"
+          ],
+          "why_it_matters": "ホルムズ問題は通航再開の有無だけでなく、誰が航路を管理し、どの国の船を通すかという主権と安全保障の問題に移った。米国との政治条件が重いほど、船主と保険会社は戻りにくい。",
+          "implications": "日本のエネルギー調達では、原油価格の一日変動より、LNG船の通航、保険料、代替港、在庫日数が重要になる。制裁解除や補償が条件化されると、短期合意でリスクが消える可能性は低い。",
+          "sources": [
+            {
+              "title": "Iran won't reopen Strait of Hormuz without US concessions and other Mideast developments",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/iran-us-strait-hormuz-august-10-2026-0bdaae8f1d7b781918e76dca4317c897"
+            }
+          ],
+          "tags": [
+            "ホルムズ",
+            "Iran",
+            "原油"
+          ]
+        },
+        {
+          "id": "houthi-saudi-yemen-front",
+          "headline": "イエメン停戦、フーシ派で動揺",
+          "dek": "Sanaa空港を巡る応酬がサウジ攻撃へ広がり、紅海の代替航路も安全とは言えない",
+          "importance": 3,
+          "facts": [
+            "APは10日、フーシ派とサウジアラビアの応酬が2022年の国連仲介停戦を揺るがしていると報じた",
+            "応酬は7月13日、Iranの航空機がSanaaに着陸しようとしたことを受け、サウジ側が空港滑走路を攻撃したことから始まった",
+            "フーシ派はサウジの空港、船舶、石油施設を攻撃した",
+            "APは、Mokhaへの攻撃で7人が死亡、30人が負傷したと伝えた"
+          ],
+          "why_it_matters": "ホルムズが止まるほど、紅海とBab el-Mandebは代替路として重要になる。しかしフーシ派の攻撃が再拡大すれば、代替路そのものにもリスクプレミアムが乗る。",
+          "implications": "中東の海上輸送は一つのチョークポイントだけで評価できない。日本企業はペルシャ湾、紅海、スエズ、喜望峰を連続したリスクとして扱い、保険、傭船、在庫の前提を見直す必要がある。",
+          "sources": [
+            {
+              "title": "A blocked Iranian flight to Yemen set off Houthis' latest spiral with Saudi Arabia",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/yemen-houthis-saudi-arabia-red-sea-iran-a8a0e282a17c13a1e528e7ca73f17c5e"
+            },
+            {
+              "title": "Iran won't reopen Strait of Hormuz without US concessions and other Mideast developments",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/iran-us-strait-hormuz-august-10-2026-0bdaae8f1d7b781918e76dca4317c897"
+            }
+          ],
+          "tags": [
+            "フーシ派",
+            "紅海",
+            "サウジアラビア"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-ai-label-practice",
+          "headline": "EU AI表示、説明責任が始動",
+          "dek": "Article 50は8月2日に適用開始。対話型AI、生成物、deepfakeの扱いを分ける",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は、AI法Article 50の透明性義務が2026年8月2日から適用されると説明している",
+            "人と直接対話するAIシステムは、利用者がAIと対話していることを明確に知らせる必要がある",
+            "生成AIの音声、画像、動画、テキストには、機械可読でAI生成物と検出できるマーキングが求められる",
+            "既存システムの一部マーキング義務には2026年12月2日までの限定的な猶予がある"
+          ],
+          "why_it_matters": "AI表示は、画面にラベルを置くUI対応だけでは終わらない。生成物の種類、公開先、編集責任、機械可読性、監査ログを合わせて説明できる設計が必要になる。",
+          "implications": "日本企業は欧州向け広告、EC、金融、旅行、メディアでAIを使う場合、制作会社やSaaS事業者との契約に表示、ログ、例外判断を入れる必要がある。違反リスクは法務だけでなくプロダクト仕様の問題になる。",
+          "sources": [
+            {
+              "title": "Transparency obligations under Article 50 of the AI Act",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/el/faqs/transparency-obligations-under-article-50-ai-act"
+            }
+          ],
+          "tags": [
+            "EU AI法",
+            "Article 50",
+            "AI表示"
+          ]
+        },
+        {
+          "id": "polysilicon-tariff-cost",
+          "headline": "米ポリシリコン関税、費用転嫁へ",
+          "dek": "半導体と太陽光の共通材料が、AIインフラと再エネ調達のコストを同時に揺らす",
+          "importance": 2,
+          "facts": [
+            "Guardianは7日、米大統領が輸入ポリシリコンと関連製品に15%関税を命じたと報じた",
+            "同報道は、新関税が2026年12月4日に発効する予定だと伝えた",
+            "対象はポリシリコン、インゴット、ウエハー、太陽電池、太陽光モジュールに及ぶとされた",
+            "中国は同措置を保護主義的だと批判し、自国企業の権益を守る姿勢を示した"
+          ],
+          "why_it_matters": "ポリシリコンは半導体と太陽光の上流にある。AIデータセンターを支えるチップと電力の双方で同じ材料制約が生じるため、通商政策がAI投資の採算に入り込む。",
+          "implications": "日本企業には素材供給の機会がある一方、太陽光、データセンター、半導体調達のコスト増がある。関税と強制労働監査を前提に、調達先と契約価格の見直しが必要になる。",
+          "sources": [
+            {
+              "title": "Trump orders new 15% tariff on key material for solar panels and microchips",
+              "publisher": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/aug/07/trump-orders-tariff-solar-panels-microchips-manufacturing-ingredient"
+            }
+          ],
+          "tags": [
+            "ポリシリコン",
+            "通商政策",
+            "AIインフラ"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AIネットワークはなぜ次のボトルネックになるのか",
+    "dek": "GPUを増やすだけではAIクラウドは速くならない。ネットワーク、光部品、製造装置が制約になる理由を整理する。",
+    "tags": [
+      "AIインフラ",
+      "ネットワーク",
+      "光通信"
+    ],
+    "reading_minutes": 5,
+    "body_md": "## 背景\n\nAIインフラ投資は長くGPUの争奪戦として語られてきた。だが2026年夏の焦点は、GPUを買えるかだけではない。Ciscoは2026年度第3四半期決算で、ハイパースケーラー向けAIインフラ受注が年度累計53億ドルに達し、年度見通しを90億ドルへ引き上げた。Applied Materialsも8月13日に決算を控え、AIと次世代チップ向けの製造装置需要が注目されている。市場が確認したいのは、AI投資がチップからネットワーク、光部品、先端パッケージ、製造装置へどこまで広がっているかである。\n\n大規模AIは、巨大な計算機を一台置く仕組みではない。多数のGPUをラック内でつなぎ、ラック同士をつなぎ、複数のデータセンターをつなぎ、学習データと推論要求を絶えず流す。どこかの通信帯域が詰まると、高価なGPUは待ち時間を抱え、投資回収が悪化する。つまりAIクラウドの性能は、計算量だけでなく、データを動かす速度と電力効率で決まる。\n\n## 仕組み\n\nAIの学習では、モデルを多数のGPUに分割し、計算結果を細かく同期する。GPU同士の通信が遅いと、計算自体が速くても全体の処理は待たされる。推論でも同じ問題が起きる。利用者の問い合わせが増えれば、サーバー、メモリー、ストレージ、ネットワークが一体で動く必要がある。モデルが大型化し、動画や音声など重いデータを扱うほど、通信の制約は目立つ。\n\nここで重要になるのが、データセンター用スイッチ、光トランシーバー、フォトニクス部品、先端パッケージである。電気信号だけで高速通信を伸ばすと、発熱と消費電力が増える。光通信は長距離・高帯域の伝送に向き、データセンター内外の通信効率を改善する。さらに、チップレットや先端パッケージは、計算チップとメモリーを近づけ、データ移動の距離を短くする。\n\n## プレーヤー\n\nNvidiaやAMDは計算チップの中心だが、AIクラウドの実装ではCisco、Arista、Broadcom、Lumentum、Coherent、Applied Materialsのような企業も重要になる。Ciscoはネットワーク機器とデータセンタースイッチで、AIインフラ受注の拡大を示している。Lumentumは光・フォトニクス技術をAI、クラウド、通信基盤向けに提供すると説明している。Applied Materialsは、先端ロジック、DRAM、先端パッケージの製造装置を通じて、AIチップ供給能力の上流に位置する。\n\nこの構図は日本企業にも近い。光部品、セラミック、精密加工、検査装置、材料、冷却部材、電源部品は、AIサーバーの周辺ではなく中核に入りつつある。半導体装置株だけを見るとAI需要を狭く捉えることになる。実際の制約は、どの部材が不足し、どこで納期が伸び、どこで粗利率が守られるかに出る。\n\n## 展望\n\nAIネットワークがボトルネックになると、投資評価の見方も変わる。クラウド企業がGPUを大量発注しても、電力接続、冷却、ネットワーク、光部品、設置人員が足りなければ、稼働開始は遅れる。逆にネットワークと光部品の供給が追いつけば、既存GPUの利用率が上がり、AIサービスの原価は下がりやすい。\n\n投資家が今週の決算で見るべき点は三つである。第一に、AI関連受注が単発ではなく複数年契約か。第二に、受注増が粗利率を伴っているか。第三に、関税、部材不足、納期遅延がどの程度価格転嫁できているかである。AIネットワークは華やかなアプリの裏側にあるが、ここが詰まればAI相場全体の採算が詰まる。GPUの次に見るべき数字は、帯域、消費電力、受注残、納期である。",
+    "sources": [
+      {
+        "title": "Cisco Reports Third Quarter Earnings",
+        "publisher": "Cisco",
+        "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-THIRD-QUARTER-EARNINGS/default.aspx"
+      },
+      {
+        "title": "Applied Materials to Report Fiscal Third Quarter 2026 Results on Aug. 13, 2026",
+        "publisher": "Applied Materials",
+        "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-report-fiscal-third-quarter-2026-results-aug"
+      },
+      {
+        "title": "Lumentum Investor Relations Overview",
+        "publisher": "Lumentum",
+        "url": "https://investor.lumentum.com/overview/default.aspx/1000/"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "米CPIが上振れれば、雇用減速を材料にした株高は原油高と金利高で反転しやすい。",
+      "AI投資の確認点はGPU数量から、ネットワーク帯域、光部品、先端パッケージ、稼働率へ広がっている。",
+      "ホルムズと紅海の同時不安は、原油価格だけでなく船舶保険、傭船、在庫政策を通じて日本企業に効く。",
+      "AI表示とポリシリコン関税は、AIインフラがプロダクト仕様と供給網監査を同時に要求される段階に入ったことを示す。"
+    ],
+    "watchlist": [
+      {
+        "item": "米7月CPI",
+        "why": "雇用減速後もインフレが3%台で粘るかが、Fedと日米金利差を左右する",
+        "horizon": "8月12日"
+      },
+      {
+        "item": "米7月PPI",
+        "why": "原油、輸送費、ポリシリコン関税が企業物価へ波及しているかを確認する",
+        "horizon": "8月13日"
+      },
+      {
+        "item": "Applied Materials決算",
+        "why": "AI向けDRAM、先端ロジック、先端パッケージ投資が装置需要として続くかを見る",
+        "horizon": "8月13日"
+      },
+      {
+        "item": "ホルムズ・紅海の通航実績",
+        "why": "外交条件より実通航、保険料、攻撃停止、代替航路の安全性が調達リスクを決める",
+        "horizon": "8月中旬"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "フォトニクス",
+      "reading": "ふぉとにくす",
+      "definition": "光を使って情報を伝送・制御する技術。AIデータセンターでは高速・低消費電力の通信部品として重要になる。"
+    },
+    {
+      "term": "ハイパースケーラー",
+      "reading": "はいぱーすけーらー",
+      "definition": "巨大クラウド基盤を世界規模で運営する企業。AI向けGPU、ネットワーク、電力設備の主要な買い手である。"
+    },
+    {
+      "term": "チップレット",
+      "reading": "ちっぷれっと",
+      "definition": "複数の小さな半導体チップを一つのパッケージ内で組み合わせる設計。AIでは性能と歩留まりの両立に使われる。"
+    },
+    {
+      "term": "スカンジウム",
+      "reading": "すかんじうむ",
+      "definition": "軽量で高強度のアルミ合金などに使われる希少金属。航空宇宙、防衛、水素関連で供給網上の重要性が増している。"
+    }
+  ]
+}
