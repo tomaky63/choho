@@ -1,0 +1,522 @@
+{
+  "date": "2026-08-12",
+  "edition": 22,
+  "generated_at": "2026-08-12T21:58:09+09:00",
+  "masthead_note": "米CPIは想定内に鈍化。だがAIクラウドの設備負担と海上リスクは重くなった",
+  "market_snapshot": {
+    "as_of": "8月12日 JST夜時点。米市場は8月11日終値と12日米寄り前報道値中心",
+    "items": [
+      {
+        "label": "S&P500",
+        "value": "7,728.20",
+        "change": "-0.3%",
+        "direction": "down",
+        "note": "8月11日終値、最高値圏から小反落"
+      },
+      {
+        "label": "NASDAQ",
+        "value": "26,445.45",
+        "change": "-0.6%",
+        "direction": "down",
+        "note": "大型テックはCPI前に利益確定"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "159.16円近辺",
+        "direction": "down",
+        "note": "AP報道時点、ドルは小幅軟化"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.66〜4.67%台",
+        "direction": "flat",
+        "note": "CPI後も9月FOMC織り込みは割れる"
+      },
+      {
+        "label": "10年JGB",
+        "value": "上昇",
+        "direction": "up",
+        "note": "9月日銀利上げ観測を織り込み"
+      },
+      {
+        "label": "Brent原油",
+        "value": "89.08ドル",
+        "change": "+0.19%",
+        "direction": "up",
+        "note": "ホルムズ実質閉鎖で週内大幅高"
+      },
+      {
+        "label": "WTI原油",
+        "value": "83.53ドル",
+        "change": "+0.4%",
+        "direction": "up",
+        "note": "米指標原油も高止まり"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米7月CPIは前年比3.4%、コア2.5%。想定内の鈍化でもFedの9月判断は割れる",
+      "ref": "us-cpi-cools-but-fed-split"
+    },
+    {
+      "text": "CoreWeaveは売上2.58Bドル、受注残104Bドル。AIクラウドは成長と資本負担が同時進行",
+      "ref": "coreweave-backlog-capex"
+    },
+    {
+      "text": "SupermicroとLumentumもAI需要で上振れ。ボトルネックはサーバー、電力、光接続へ広がる",
+      "ref": "ai-hardware-earnings-breadth"
+    },
+    {
+      "text": "フーシ派のBab el-Mandeb攻撃で6人死亡。ホルムズ代替路の安全性も崩れた",
+      "ref": "houthi-bab-el-mandeb-fatal"
+    },
+    {
+      "text": "IEAは2026年石油需要見通しを下方修正。高値と供給不安が需要を削り始めた",
+      "ref": "iea-oil-demand-cut"
+    },
+    {
+      "text": "EU AI透明性ルールは8月2日適用開始。表示、機械可読マーキング、罰金が実務課題になる",
+      "ref": "eu-ai-transparency-operations"
+    }
+  ],
+  "top_story": {
+    "id": "us-cpi-cools-but-fed-split",
+    "headline": "米CPI3.4%、鈍化でもFedは割れる",
+    "dek": "雇用減速とインフレ鈍化は利上げ停止を支えるが、原油再上昇が8月以降の物価を押し戻す",
+    "importance": 3,
+    "facts": [
+      "APは12日、米7月CPIが前年比3.4%上昇し、6月の3.5%から小幅鈍化したと報じた",
+      "同報道は、食品とエネルギーを除くコアCPIが前年比2.5%へ鈍化したと伝えた",
+      "7月の米雇用統計では非農業部門雇用者数が前月比2万3000人減少していた",
+      "Fedは7月会合で政策金利を約3.6%に据え置いたが、3人が利上げを主張して反対した",
+      "APは、9月FOMCでの利上げ確率がほぼ五分五分と市場に見られていると報じた"
+    ],
+    "why_it_matters": "CPIは市場予想通りに鈍化したが、Fedが勝利宣言できる水準ではない。雇用は弱まり、物価は2%目標を上回り、原油は再び上がっているため、利上げ停止と追加利上げのどちらにも根拠が残る。",
+    "implications": "日本にはドル円、JGB、成長株評価の三方向で波及する。米金利が下がれば円安圧力は和らぐ可能性があるが、原油高が8月CPIを押し戻せば日銀の利上げ観測と輸入物価懸念が同時に強まる。",
+    "sources": [
+      {
+        "title": "Inflation cooled last month as gas prices fell, though costs remain elevated",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/consumer-prices-inflation-fed-interest-rates-150e179a6c6b3182ba05cedf0188394b"
+      },
+      {
+        "title": "US inflation data in focus with futures pointing higher",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/stocks-markets-rates-trump-iran-chips-db541ced9f928f993bd3a17958a3deaa"
+      }
+    ],
+    "tags": [
+      "米CPI",
+      "Fed",
+      "原油"
+    ]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "market-futures-ai-relief",
+          "headline": "米先物反発、AI決算が下支え",
+          "dek": "CPI前後の金利不安は残るが、CoreWeaveとSupermicroの決算がAI関連に買いを戻した",
+          "importance": 2,
+          "facts": [
+            "APは12日、米S&P500先物が0.3%、Dow先物が0.1%、Nasdaq先物が0.7%上昇したと報じた",
+            "8月11日のS&P500は0.3%安の7,728.20、Nasdaq総合は0.6%安の26,445.45で終えていた",
+            "APは、CoreWeave株が寄り前に18%超、Super Micro Computer株が約9%上昇したと伝えた",
+            "AIデータセンター関連ではCoherent、Lumentum、Marvellにも買いが広がった"
+          ],
+          "why_it_matters": "市場はCPIの鈍化だけでなく、AI設備投資の実需が続くかを同時に見ている。指数が最高値圏にあるため、金利が少し上がるだけでも割高感が意識されるが、受注と売上が強ければ押し目買いの根拠になる。",
+          "implications": "日本の半導体装置、電子部品、光部品株にも、米AIハード決算の波及は続く可能性がある。ただし株価反応は受注残と粗利率の質を見に行く段階へ移っており、単なるAI関連ラベルでは選別されやすい。",
+          "sources": [
+            {
+              "title": "US inflation data in focus with futures pointing higher",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/stocks-markets-rates-trump-iran-chips-db541ced9f928f993bd3a17958a3deaa"
+            },
+            {
+              "title": "How major US stock indexes fared Tuesday 8/11/2026",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/e5e8f3360f8d30714778761e3a483347"
+            }
+          ],
+          "tags": [
+            "米株",
+            "AI決算",
+            "Nasdaq"
+          ]
+        },
+        {
+          "id": "jgb-yen-boj-september",
+          "headline": "JGB上昇、9月日銀観測を反映",
+          "dek": "円は159円近辺。米CPI鈍化でも、原油高は日本の利上げ観測を残す",
+          "importance": 2,
+          "facts": [
+            "Economic Timesは12日、日本国債利回りが上昇し、市場が9月の日銀利上げを織り込み始めたと報じた",
+            "APは12日、ドル円が159.16円近辺で、前日の159.22円から小幅にドル安・円高になったと伝えた",
+            "APはBrent原油が同日早朝に89.08ドル、WTIが83.53ドルへ上昇したと報じた",
+            "米CPIは鈍化したが、サービス価格と原油高への警戒は残っている"
+          ],
+          "why_it_matters": "日本の金利は米金利だけで決まらない。円安、原油高、輸入物価が残れば、米CPIが一時的に落ち着いても日銀の政策正常化観測は消えにくい。",
+          "implications": "企業は159円近辺の為替を輸出採算の追い風としてだけ見られない。燃料、物流、賃上げ、借入金利の上昇が同時に来るため、国内投資や在庫判断では円安メリットと資本コストを分けて見る必要がある。",
+          "sources": [
+            {
+              "title": "Japanese bond yields rise as traders price September BOJ rate hike",
+              "publisher": "Economic Times / Reuters",
+              "url": "https://m.economictimes.com/markets/us-stocks/wall-street-guide/global-market-japanese-bond-yields-rise-as-traders-price-september-boj-rate-hike/articleshow/133176070.cms"
+            },
+            {
+              "title": "US inflation data in focus with futures pointing higher",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/stocks-markets-rates-trump-iran-chips-db541ced9f928f993bd3a17958a3deaa"
+            }
+          ],
+          "tags": [
+            "JGB",
+            "日銀",
+            "ドル円"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "coreweave-backlog-capex",
+          "headline": "CoreWeave、受注残104Bドル",
+          "dek": "売上は倍増したが、AIクラウドは電力容量、借入、減価償却まで含めて評価する段階に入った",
+          "importance": 3,
+          "facts": [
+            "MarketWatchは、CoreWeaveの2026年第2四半期売上高が25億8000万ドルとなり、前年比で倍増したと報じた",
+            "同社の調整後純損失は5億6700万ドルで、アナリスト予想の6億7700万ドルより小さかった",
+            "同報道は、CoreWeave株が決算後の時間外で16%上昇したと伝えた",
+            "WSJは、同社の売上バックログが1040億ドルに達し、今四半期初めに250億ドルの新規契約を加えたと報じた"
+          ],
+          "why_it_matters": "AIクラウドの需要は数字で確認されたが、バックログは利益ではない。GPU、電力、建屋、ネットワークを先に確保する必要があり、成長が速いほど資金調達と稼働開始のリスクも大きくなる。",
+          "implications": "日本の部材・装置企業には強い需要シグナルである一方、顧客の資金繰りと設備遅延を見落とすと受注の質を読み違える。AIクラウド企業の重要指標は売上成長率だけでなく、稼働容量、借入コスト、減価償却負担になる。",
+          "sources": [
+            {
+              "title": "CoreWeave's stock soars as earnings show major AI momentum",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede"
+            },
+            {
+              "title": "CoreWeave Shares Jump as Revenue Doubles From Year Earlier",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/tech/ai/coreweave-earnings-q2-2026-crwv-stock-50f6fb00"
+            }
+          ],
+          "tags": [
+            "CoreWeave",
+            "AIクラウド",
+            "バックログ"
+          ]
+        },
+        {
+          "id": "ai-hardware-earnings-breadth",
+          "headline": "Lumentum売上倍増、光接続が主役に",
+          "dek": "GPUの周辺ではなく、AIデータセンターの帯域を決める光部品が収益の中心に近づいた",
+          "importance": 3,
+          "facts": [
+            "MarketWatchは、Lumentumの最新四半期売上高が前年比で倍増し、同社が市場予想を大きく上回る見通しを示したと報じた",
+            "Barron'sは、Lumentumの調整後EPSが3.23ドル、売上高が10億1000万ドルだったと伝えた",
+            "Super Micro Computerは、2027年度第1四半期売上高を145億〜155億ドルと予想したと報じられた",
+            "Supermicroは第4四半期に600億ドル超の新規受注を得て、過去最高の受注残で2027年度に入ると報じられた"
+          ],
+          "why_it_matters": "AIインフラ投資はGPU購入から、サーバー統合、冷却、電力、光接続へ広がっている。光トランシーバーやサーバーラックの供給力が足りなければ、GPUを持っていても処理能力を収益化できない。",
+          "implications": "日本企業では光部品、精密加工、セラミック、電源、冷却、検査装置に注目が広がる可能性がある。決算を見る際はAI関連売上の伸びだけでなく、粗利率、納期、遅延売上、顧客集中を確認すべきである。",
+          "sources": [
+            {
+              "title": "Lumentum sees sales more than double as AI demand swells",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1"
+            },
+            {
+              "title": "Super Micro's earnings report brings more good news, and the stock is climbing",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89"
+            }
+          ],
+          "tags": [
+            "Lumentum",
+            "Supermicro",
+            "光通信"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "supermicro-margin-backlog",
+          "headline": "Supermicro、粗利率回復を示す",
+          "dek": "売上の一部は遅れたが、顧客・製品ミックス改善でAIサーバーの採算不安を和らげた",
+          "importance": 2,
+          "facts": [
+            "MarketWatchは、Supermicroが2026年度第4四半期に調整後EPS1.70ドルを計上し、市場予想の0.92ドルを上回ったと報じた",
+            "同社の売上高は111億ドルで、市場予想の116億ドルをやや下回った",
+            "調整後粗利率は17.6%で、事前の更新見通し15〜17%と当初見通し8.2〜8.4%を上回った",
+            "2027年度第1四半期売上高見通しは145億〜155億ドルで、市場予想を大きく上回った"
+          ],
+          "why_it_matters": "AIサーバー企業の弱点は、急成長しても粗利率が薄く、電力・冷却・ネットワーク遅延で売上計上が遅れやすい点である。Supermicroの粗利率改善は、AI設備投資が単なる数量競争から、統合能力と顧客ミックスの競争へ移ることを示す。",
+          "implications": "日本のサプライヤーにとって、顧客が高付加価値構成へ移るなら部材価格の転嫁余地は広がる。一方、遅延売上が増える局面では、部材発注の前倒しと検収の遅れが運転資金を圧迫する可能性がある。",
+          "sources": [
+            {
+              "title": "Super Micro's earnings report brings more good news, and the stock is climbing",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89"
+            }
+          ],
+          "tags": [
+            "Supermicro",
+            "AIサーバー",
+            "粗利率"
+          ]
+        },
+        {
+          "id": "foxconn-ai-server-localization",
+          "headline": "Foxconn、AIサーバーで地域分散",
+          "dek": "Apple依存の組み立て企業から、Nvidia向けAIサーバーと地域別供給網へ軸足を移す",
+          "importance": 2,
+          "facts": [
+            "WSJは12日、Foxconnの2026年第2四半期純利益が35%増の599億7000万台湾ドルになったと報じた",
+            "同社の四半期売上高は前年比41%増の2兆5260億台湾ドルだったと報じられた",
+            "同報道は、サーバー関連事業が同社売上の半分超を占めるようになったと伝えた",
+            "Foxconnは台湾、メキシコ、ベトナム、米国など24カ国で製造拠点を広げる地域分散戦略を進めている"
+          ],
+          "why_it_matters": "AIサーバーは半導体だけでなく、最終組み立て、電源、冷却、物流、関税対応を含む産業である。Foxconnの変化は、スマホ組み立てで磨いた量産力がAIデータセンター向けへ移転していることを示す。",
+          "implications": "日本企業には、アジア内の電子部品・材料需要という追い風と、顧客の現地生産要請という圧力が同時に来る。米国・メキシコ・ベトナムでの調達認定を持つ企業ほど、AIサーバー供給網に入りやすくなる。",
+          "sources": [
+            {
+              "title": "Foxconn Ramping Up Global AI Server Production to Ride Booming Cloud Investment",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/tech/foxconns-ai-hardware-sales-drive-profit-beat-58d9bac3"
+            }
+          ],
+          "tags": [
+            "Foxconn",
+            "AIサーバー",
+            "供給網"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "houthi-bab-el-mandeb-fatal",
+          "headline": "紅海攻撃で6人死亡、代替路も危険",
+          "dek": "ホルムズが実質閉鎖される中、Bab el-Mandebでも商船攻撃が致死化した",
+          "importance": 3,
+          "facts": [
+            "APは12日、フーシ派によるBab el-Mandeb海峡の船舶攻撃で6人が死亡したと報じた",
+            "パキスタン外相は、死者のうち3人がパキスタン国民で、1人が負傷したと明らかにした",
+            "APは、ホルムズ海峡がイランにより実質的に閉鎖されているため、紅海とBab el-Mandebへの注目が高まっていると伝えた",
+            "攻撃は、イエメン政府軍、サウジ関連施設、紅海の商船を標的にするフーシ派攻撃の拡大の一部とされる"
+          ],
+          "why_it_matters": "ホルムズを避けるための代替路が危険になれば、エネルギーとコンテナ物流のリスクは一段上がる。船主や保険会社は航路ごとではなく、中東からスエズまでを連続した戦域として評価せざるを得ない。",
+          "implications": "日本企業は原油価格だけでなく、船舶保険料、傭船契約、LNG船の運航、紅海迂回による納期を確認する必要がある。攻撃が致死化したことで、運航再開の判断は外交発表より乗組員安全に左右される可能性がある。",
+          "sources": [
+            {
+              "title": "Pakistan says 3 citizens killed in Houthi attack on ship off Yemen in the Bab el-Mandeb strait",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/iran-us-strait-hormuz-yemen-houthi-august-12-2026-870153cd1ea715829c5f15c9757f4e60"
+            }
+          ],
+          "tags": [
+            "フーシ派",
+            "Bab el-Mandeb",
+            "紅海"
+          ]
+        },
+        {
+          "id": "iea-oil-demand-cut",
+          "headline": "IEA、26年石油需要を下方修正",
+          "dek": "高値とホルムズ不安が消費を削り、供給ショックは需要破壊へ移り始めた",
+          "importance": 3,
+          "facts": [
+            "MarketWatchは、IEAが2026年の世界石油需要について日量160万バレル減少を見込んだと報じた",
+            "IEAの7月見通しでは、減少幅は日量110万バレル程度だった",
+            "IEAは、ホルムズ海峡を通る供給不安と高い価格が需要を抑える要因だとした",
+            "同報道は、世界需要が2026年第4四半期に成長へ戻り、2027年には日量240万バレル増える見通しだと伝えた"
+          ],
+          "why_it_matters": "原油市場は供給不足だけでなく、価格高騰が需要を壊す段階へ入った。需要見通しの下方修正は、景気減速の警戒であると同時に、価格上昇が企業と家計の行動を変え始めた証拠でもある。",
+          "implications": "日本では航空、海運、化学、素材、小売のコストと需要の両面に効く。原油高を単純な資源株材料として扱うより、燃料サーチャージ、旅行需要、在庫圧縮、価格転嫁率を同時に見る必要がある。",
+          "sources": [
+            {
+              "title": "Oil demand to slide as Iran war uncertainty continues, says energy agency",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-july-inflation-cpi-data-super-micro-computer-coreweave/card/oil-demand-to-slide-as-iran-war-uncertainty-continues-says-energy-agency-uOMw2YnAzpcjH2RziPt7"
+            },
+            {
+              "title": "The Middle East and Global Energy Markets",
+              "publisher": "IEA",
+              "url": "https://www.iea.org/topics/the-middle-east-and-global-energy-markets"
+            }
+          ],
+          "tags": [
+            "IEA",
+            "原油",
+            "ホルムズ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-ai-transparency-operations",
+          "headline": "EU AI透明性、表示から監査へ",
+          "dek": "Article 50は適用開始済み。生成物の機械可読マーキングと深層偽造ラベルが実装課題になる",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は、AI法Article 50の透明性ルールが2026年8月2日から適用されると説明している",
+            "生成AIの画像、動画、音声、テキストには、検出可能な機械可読マーキングが求められる",
+            "deepfakeや公共性のあるAI生成テキストには、明確で知覚可能な表示が求められる",
+            "違反時の罰金は最大1500万ユーロ、または世界年間売上高の3%とされる"
+          ],
+          "why_it_matters": "AI表示は法務チェックだけではなく、制作ワークフロー、メタデータ、ログ、編集責任を結ぶプロダクト仕様になる。EU向けに公開される広告、EC、メディア、金融コンテンツでは、AI生成の有無を後から説明できる設計が必要になる。",
+          "implications": "日本企業は欧州向けのAI利用を、社内利用、制作委託、SaaS利用、公開物の四層で棚卸しすべきである。表示義務を満たすには、モデル名よりも生成物の保管、編集履歴、例外判断を契約に落とすことが重要になる。",
+          "sources": [
+            {
+              "title": "Quick Facts: Transparency rules for AI systems",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems"
+            },
+            {
+              "title": "Code of Practice on Transparency of AI-generated Content",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"
+            }
+          ],
+          "tags": [
+            "EU AI法",
+            "Article 50",
+            "AI表示"
+          ]
+        },
+        {
+          "id": "foundry-due-diligence-rule",
+          "headline": "AIチップ規制、顧客確認が焦点",
+          "dek": "米議会はFoundry Due Diligence Ruleの執行を求め、TSMCなどの受託製造にも監査圧力が向かう",
+          "importance": 2,
+          "facts": [
+            "Tom's Hardwareは11日、米下院中国特別委のJohn Moolenaar委員長がFoundry Due Diligence Ruleの執行を政府に求めたと報じた",
+            "同ルールは、TSMCやSamsung Foundryなどが先端米国技術を使ったチップを輸出する際、顧客と最終用途を確認することを求める",
+            "同報道は、TSMCが中国Sophgo向けに製造したチップがHuawei Ascend向けだった問題を背景として挙げた",
+            "米上院銀行委員会のWarren議員も、AIチップ輸出管理の不執行が抜け穴を生んだとして商務省に情報提出を求めている"
+          ],
+          "why_it_matters": "AIチップ規制は完成品の輸出だけでは足りなくなっている。設計会社、受託製造、OSAT、第三国子会社を通じた迂回を塞ぐには、サプライチェーン全体で顧客確認と用途監査が必要になる。",
+          "implications": "日本の半導体装置・材料企業も、顧客が中国本土企業でなくても最終用途を問われる場面が増える可能性がある。規制対応は販売先リストではなく、見積もり、契約、出荷、検収の証跡管理へ広がる。",
+          "sources": [
+            {
+              "title": "US lawmaker wants gov't to enforce regulation to ensure chipmakers conduct adequate due diligence on their customers",
+              "publisher": "Tom's Hardware",
+              "url": "https://www.tomshardware.com/tech-industry/semiconductors/u-s-lawmaker-wants-govt-to-enforce-regulation-to-ensure-chipmakers-conduct-adequate-due-diligence-on-their-customers-house-member-calls-for-biden-era-export-control-to-be-enforced"
+            },
+            {
+              "title": "Warren Invokes Power Under Statute to Require the Trump Administration to Turn Over Information on its Failure to Enforce Export Controls for AI Chips to China",
+              "publisher": "U.S. Senate Committee on Banking, Housing, and Urban Affairs",
+              "url": "https://www.banking.senate.gov/newsroom/minority/warren-invokes-power-under-statute-to-require-the-trump-administration-to-turn-over-information-on-its-failure-to-enforce-export-controls-for-ai-chips-to-china-exposing-national-security-risks"
+            }
+          ],
+          "tags": [
+            "輸出管理",
+            "AIチップ",
+            "TSMC"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AIクラウドのバックログはなぜ利益と同じではないか",
+    "dek": "CoreWeaveの売上倍増と巨額受注残は強い需要を示す。ただしAIクラウドでは、契約、電力、借入、減価償却を分けて読む必要がある。",
+    "tags": [
+      "AIクラウド",
+      "バックログ",
+      "設備投資"
+    ],
+    "reading_minutes": 5,
+    "body_md": "## 背景\n\nCoreWeaveの2026年第2四半期決算は、AIクラウド需要の強さを改めて示した。売上高は25億8000万ドルと前年比で倍増し、報道では売上バックログが1040億ドルに達した。SupermicroもAIサーバーの新規受注と強い次四半期見通しを示し、Lumentumは光接続需要で売上を倍増させた。前号で見たAIネットワークのボトルネックは、今日の決算で数字として表れた。\n\nただし、ここで重要なのは、バックログをそのまま利益と見なさないことである。バックログは顧客との契約済み需要を示すが、売上や現金収入になるには、データセンターを建て、電力を引き、GPUとサーバーを設置し、ネットワークを稼働させる必要がある。AIクラウドはソフトウェア企業のようにコードを配るだけでは拡大しない。重い固定資産を先に抱えるインフラ事業である。\n\n## 仕組み\n\nAIクラウドの収益は、顧客が計算資源を使って初めて発生する。契約があっても、必要なGPUが届かない、変電設備が遅れる、冷却が足りない、光接続の部材が足りない、建設許認可が遅れる、といった制約があれば稼働率は上がらない。バックログは需要の予約表であり、完成した供給能力ではない。\n\nさらに、AIクラウドは資金調達に強く依存する。GPUや建屋は高額で、先に支払う必要がある。借入やリースで設備を増やせば、売上が伸びる前から利払いと減価償却が発生する。稼働率が高ければ固定費は吸収できるが、顧客の利用開始が遅れれば、損益計算書には費用だけが先に出る。CoreWeaveのような高成長企業で純損失が残るのは、この構造を反映している。\n\n## プレーヤーと力学\n\nこの構造では、勝者は一社では決まらない。NvidiaはGPUを供給し、CoreWeaveは計算資源をクラウドとして貸し、SupermicroはAIサーバーを統合し、LumentumやCoherentは光接続を支える。電力会社、建設会社、変圧器メーカー、冷却装置メーカーも、最終的な稼働能力を決める。\n\n顧客側にも力学がある。AI研究所や大手クラウドは長期契約で容量を確保したいが、モデル開発の進展や推論需要の変化で必要な計算資源は変わる。契約が複数年でも、価格、最低利用量、キャンセル条件、電力費の転嫁、サービス品質の条項によって採算は大きく変わる。バックログの金額だけでは、どの程度が高い利益率で実現するかは分からない。\n\n## 日本への示唆\n\n日本企業にとって、AIクラウドのバックログは需要シグナルとして重要である。半導体装置、光部品、セラミック、電源、冷却、精密加工、建設、電線には受注機会がある。一方で、顧客が急拡大するほど、発注の前倒し、仕様変更、検収遅延、資金繰りの揺れも起きやすい。\n\n投資家や事業会社が見るべき指標は五つある。第一に、バックログの年限とキャンセル条件。第二に、稼働済み容量と建設中容量の差。第三に、借入金利とリース負債。第四に、電力と冷却の確保状況。第五に、粗利率が受注増と同時に改善しているかである。AIクラウドは高成長市場だが、性格は通信インフラやデータセンター不動産に近い。契約額が大きいほど、資本効率を厳密に見なければならない。\n\n今日の決算群が示したのは、AI需要が消えていないことだけではない。AIの競争が、モデル性能から、資本、電力、部材、稼働率を束ねる実装力へ移っていることだ。バックログは出発点であり、利益はそこから設備を完成させ、顧客に使わせ、固定費を回収して初めて生まれる。需要の熱量と貸借対照表の重さを同時に読む局面である。",
+    "sources": [
+      {
+        "title": "CoreWeave's stock soars as earnings show major AI momentum",
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/coreweaves-stock-soars-as-earnings-show-major-ai-momentum-d3a5bede"
+      },
+      {
+        "title": "Super Micro's earnings report brings more good news, and the stock is climbing",
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/super-micros-earnings-report-brings-more-good-news-and-the-stock-is-climbing-30e5ca89"
+      },
+      {
+        "title": "Lumentum sees sales more than double as AI demand swells",
+        "publisher": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/lumentum-sees-sales-more-than-double-as-ai-demand-swells-6ebe6ef1"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "米CPIの鈍化は株式に安心材料だが、原油が再上昇しているため8月以降のインフレ再燃リスクは残る。",
+      "AIクラウドの評価軸は売上成長から、バックログの質、稼働容量、借入、減価償却、粗利率へ移っている。",
+      "ホルムズとBab el-Mandebの同時不安は、日本企業に原油価格だけでなく航路・保険・在庫の再設計を迫る。",
+      "AI表示とチップ顧客確認は、技術利用の自由度よりも証跡管理と説明責任を競争条件にしている。"
+    ],
+    "watchlist": [
+      {
+        "item": "米7月PPI",
+        "why": "CPIが鈍化しても企業物価が原油・輸送費で上振れれば、Fedの9月判断が再び引き締め寄りになる",
+        "horizon": "8月13日"
+      },
+      {
+        "item": "Applied Materials決算",
+        "why": "AI向けDRAM、先端ロジック、先端パッケージ投資が装置受注と粗利率に出るかを見る",
+        "horizon": "8月13日"
+      },
+      {
+        "item": "Cisco・Coherent決算",
+        "why": "AIネットワークと光部品の需要がLumentumだけでなく広範に続くかを確認する",
+        "horizon": "8月12〜13日"
+      },
+      {
+        "item": "ホルムズ・紅海通航実績",
+        "why": "実通航、保険料、攻撃停止、乗組員安全が原油・LNG調達の実効リスクを決める",
+        "horizon": "8月中旬"
+      },
+      {
+        "item": "AIチップ輸出管理",
+        "why": "Foundry Due Diligence Ruleの執行姿勢が、TSMC、Samsung、日本装置・材料企業の顧客確認負担に波及する",
+        "horizon": "8月中旬"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "バックログ",
+      "reading": "ばっくろぐ",
+      "definition": "受注済みだがまだ売上計上されていない契約残高。AIクラウドでは需要の強さを示す一方、稼働や利益化は別問題である。"
+    },
+    {
+      "term": "減価償却",
+      "reading": "げんかしょうきゃく",
+      "definition": "設備投資の費用を耐用年数にわたり分けて損益計算書に反映する処理。データセンターではGPUや建屋の負担を見る鍵になる。"
+    },
+    {
+      "term": "Bab el-Mandeb",
+      "reading": "バブ・エル・マンデブ",
+      "definition": "紅海とアデン湾を結ぶ海峡。スエズ運河へ向かう重要航路で、ホルムズ不安時の代替路としても注目される。"
+    },
+    {
+      "term": "Foundry Due Diligence Rule",
+      "reading": "ファウンドリー・デュー・ディリジェンス・ルール",
+      "definition": "先端チップの受託製造で、顧客と最終用途の確認を求める米国の輸出管理ルール。迂回調達の防止が狙いである。"
+    }
+  ]
+}
