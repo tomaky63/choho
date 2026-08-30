@@ -1,0 +1,537 @@
+{
+  "date": "2026-08-29",
+  "edition": 26,
+  "generated_at": "2026-08-29T13:56:43+09:00",
+  "masthead_note": "Warsh議長は利上げ余地を残し、AI投資は成長材料であると同時に金利上昇の理由にもなった",
+  "market_snapshot": {
+    "as_of": "8月28日東京終値・NY終値、債券・為替は同日米国時間中心",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "66,405.56円",
+        "change": "+0.41%",
+        "direction": "up",
+        "note": "半導体・ソフト株高もWarsh講演待ちで伸び悩み"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,146.71",
+        "change": "+0.72%",
+        "direction": "up",
+        "note": "7日続伸、金融など内需大型株にも買い"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "159.90円近辺",
+        "change": "+0.32%",
+        "direction": "up",
+        "note": "Warsh発言後にドル高・円安"
+      },
+      {
+        "label": "10年JGB",
+        "value": "2.93%近辺",
+        "direction": "up",
+        "note": "日銀9月利上げ観測が残る"
+      },
+      {
+        "label": "米10年債",
+        "value": "4.7255%",
+        "change": "+5.5bp",
+        "direction": "up",
+        "note": "9月利上げ観測で3日続伸"
+      },
+      {
+        "label": "Brent原油",
+        "value": "89.31ドル",
+        "change": "-0.43%",
+        "direction": "down",
+        "note": "週間では5%超下落"
+      },
+      {
+        "label": "WTI原油",
+        "value": "83.40ドル",
+        "change": "-0.16%",
+        "direction": "down",
+        "note": "ホルムズ合意観測とFed警戒を消化"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "Warsh議長はPCE3.7%と非制約的な金融環境を指摘し、9月利上げ観測がほぼ五分に上昇",
+      "ref": "warsh-jackson-hole-hike-risk"
+    },
+    {
+      "text": "日経平均は66,405円へ反発、円は159.90円近辺。日本の介入効果は限定的との見方が残る",
+      "ref": "tokyo-yen-intervention-limits"
+    },
+    {
+      "text": "Brentは89.31ドルで週間5%超下落。ホルムズ合意観測はあるが軍事・制裁条件は未解決",
+      "ref": "oil-hormuz-rumor-fed"
+    },
+    {
+      "text": "Marvellは売上2.739Bドルで過去最高でも株安。AI半導体は期待値と実利の差を問われた",
+      "ref": "marvell-custom-chip-expectations"
+    },
+    {
+      "text": "CrowdStrikeはARR5.84Bドル、AIエージェント保護を前面に出し、企業AIの守りが市場化",
+      "ref": "crowdstrike-ai-security-arr"
+    },
+    {
+      "text": "EPAの大気許可見直し案でデータセンターの住民参加が焦点に。EU AI法も執行段階へ進む",
+      "ref": "epa-data-center-air-permits"
+    }
+  ],
+  "top_story": {
+    "id": "warsh-jackson-hole-hike-risk",
+    "headline": "Warsh議長、9月利上げに含み",
+    "dek": "Jackson Holeで物価安定を最優先に置き、AI投資の強さを金融引き締めの論点へ組み込んだ",
+    "importance": 3,
+    "facts": [
+      "Warsh米連邦準備理事会議長は28日、Jackson Hole経済シンポジウムで就任100日目の基調講演を行った",
+      "講演では、PCE価格指数の12カ月上昇率が3.7%、6カ月年率が4.1%で、2%目標を上回ると説明した",
+      "Warsh氏は短期金利を二大使命達成の主要手段と位置づけ、非伝統的政策は危機時以外に慎重であるべきだと述べた",
+      "APは、2年米国債利回りが講演後に4.22%から4.30%へ上昇し、9月15〜16日のFOMCでの利上げ確率がほぼ五分になったと報じた",
+      "Reutersは、ドル、短期米国債利回り、利上げ織り込みが上昇し、世界株が乱高下の末に下落したと伝えた"
+    ],
+    "why_it_matters": "市場が期待したのは緩和の道筋ではなく、Warsh Fedが本当にインフレを抑える意思を持つかだった。講演は明確な利上げ予告ではないが、物価を最優先し、金融環境が十分に制約的ではないと読むなら、9月会合のハードルは下がる。",
+    "implications": "日本にはドル円、日銀、AI株の三方向で効く。米短期金利が上がれば円安圧力は残り、日銀は9月利上げ観測を消しにくい。AI投資の強さが米成長を支えるほど、逆に米金利は下がりにくくなり、半導体株の評価倍率を試す可能性がある。",
+    "sources": [
+      {
+        "title": "Keynote remarks by Chairman Warsh at the 2026 Jackson Hole Economic Policy Symposium",
+        "publisher": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+      },
+      {
+        "title": "Fed Chair signals interest rate hikes if inflation does not retreat",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/federal-reserve-warsh-interest-trump-inflation-ab896df808df3a5a3fa8b943ac5f3867"
+      },
+      {
+        "title": "Stocks fall while dollar, bond yields rise as Warsh prompts rate hike bets",
+        "publisher": "Reuters / MarketScreener",
+        "url": "https://www.marketscreener.com/news/stocks-fall-while-dollar-bond-yields-rise-as-warsh-prompts-rate-hike-bets-ce7858dfd080f724"
+      }
+    ],
+    "tags": [
+      "Fed",
+      "Jackson Hole",
+      "米金利"
+    ]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "tokyo-yen-intervention-limits",
+          "headline": "日経反発、円は159円台後半へ",
+          "dek": "日本株はAI高を追ったが、協調介入後も円安圧力は残り、日銀9月会合への警戒が続く",
+          "importance": 3,
+          "facts": [
+            "Reutersは28日、日経平均が前営業日比273円58銭高の66,405円56銭で終えたと報じた",
+            "時事通信は、TOPIXが29.49ポイント高の4,146.71で終了したと伝えた",
+            "Reutersは、Warsh講演後にドル指数が0.46%上昇し、対円ではドルが0.32%高の159.9円になったと報じた",
+            "WSJは、日本が過去1カ月に円買い介入へ987億ドルを使い、年間介入額が約1700億ドルに達したと報じた",
+            "WSJは、円が一時の164円近辺から戻した後も159〜160円台で推移し、介入の効果は限定的だと伝えた"
+          ],
+          "why_it_matters": "東京市場はNvidia後のAI期待を受け止めたが、円安と金利高の制約から逃げられていない。介入で円を支えても、米金利が上がり、日本の利上げ時期が曖昧なら、為替は再び日銀の行動を催促する。",
+          "implications": "輸出株には円安の追い風がある一方、エネルギー、食品、部材の輸入コストは家計と中小企業に残る。日銀が9月に動くかどうかは、株式の業種選別、銀行株、不動産、内需消費株を同時に揺らす可能性がある。",
+          "sources": [
+            {
+              "title": "日経平均は反発、FRB議長講演控え中盤から伸び悩み",
+              "publisher": "Reuters / Yahoo!ファイナンス",
+              "url": "https://finance.yahoo.co.jp/news/detail/923daa5ee6e21fe07c72266cb5b6b421fe3775d7"
+            },
+            {
+              "title": "Dollar climbs after Warsh comments, poised for weekly gain",
+              "publisher": "Reuters / MarketScreener",
+              "url": "https://www.marketscreener.com/news/dollar-flat-near-one-week-high-as-investors-await-warsh-s-jackson-hole-debut-ce7858dfd88df022"
+            },
+            {
+              "title": "Japan Spent Record $98.7 Billion to Prop Up Yen in Joint Move With U.S.",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/finance/currencies/japan-spent-record-98-7-billion-to-prop-up-yen-in-past-month-ddb03c64"
+            }
+          ],
+          "tags": [
+            "日経平均",
+            "円安",
+            "為替介入"
+          ]
+        },
+        {
+          "id": "oil-hormuz-rumor-fed",
+          "headline": "原油続落、ホルムズ合意観測を消化",
+          "dek": "Brentは週間5%超安。通航再開期待とFed利上げ警戒が、戦争プレミアムをいったん抑えた",
+          "importance": 2,
+          "facts": [
+            "Reutersは28日、Brent原油先物が39セント安の1バレル89.31ドルで清算したと報じた",
+            "WTI原油先物は13セント安の83.40ドルで清算した",
+            "週間ではBrentが5%超、WTIが4%超下落した",
+            "同報道は、ホルムズ海峡の船舶通航を巡る合意観測と、Warsh発言後の利上げ警戒が材料になったと説明した"
+          ],
+          "why_it_matters": "原油価格は中東の実通航だけでなく、Fedの需要抑制見通しにも反応している。ホルムズの噂で下がる相場は、安心ではなく、輸送・保険・制裁の不確実性がまだ大きいことの裏返しである。",
+          "implications": "日本企業は価格だけで調達リスクが消えたと見ない方がよい。LNG船の通航、船舶保険、米国の対イラン制裁、Oman経由案の実務がそろうまでは、在庫と代替航路の保守的運用が続く可能性がある。",
+          "sources": [
+            {
+              "title": "Oil settles lower on clues about Fed policy, rumors of Hormuz deal",
+              "publisher": "Reuters / Euronext",
+              "url": "https://live.euronext.com/en/financial-news/oil-settles-lower-clues-about-fed-policy-rumors-hormuz-deal"
+            },
+            {
+              "title": "Oil Futures End Week Lower As More Oil Seen Moving",
+              "publisher": "WSJ",
+              "url": "https://www.wsj.com/finance/commodities-futures/oil-edges-higher-on-fading-hopes-for-strait-of-hormuzs-reopening-7cf0d26d"
+            }
+          ],
+          "tags": [
+            "原油",
+            "ホルムズ",
+            "Fed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "marvell-custom-chip-expectations",
+          "headline": "Marvell最高売上でもAI株は下落",
+          "dek": "Google向けカスタムチップ期待は大きいが、投資家は短期の上振れ幅と粗利率を厳しく見た",
+          "importance": 2,
+          "facts": [
+            "Marvell Technologyは26日、2027年度第2四半期売上高が27億3900万ドルとなり、前年同期比37%増だったと発表した",
+            "GAAP粗利率は53.1%、非GAAP粗利率は58.9%、非GAAP希薄化後EPSは0.94ドルだった",
+            "同社はデータセンター向け売上の伸びが前年同期比46%へ加速したと説明した",
+            "Barron'sは、決算が市場予想を小幅に上回ったにもかかわらず、株価が28日に8%超下落したと報じた",
+            "報道では、Alphabet/Googleとのカスタムチップ案件の収益寄与が十分に早く見えないことが失望材料になった"
+          ],
+          "why_it_matters": "AI半導体株は、売上が伸びているだけでは評価されにくくなった。Nvidia以外のサプライヤーには、顧客集中、カスタムASICの採算、量産時期、粗利率を同時に示すことが求められる。",
+          "implications": "日本の半導体材料、検査装置、光部品企業にも同じ目線が及ぶ。AI向け受注が強くても、価格決定力と納期、顧客の設備投資回収力が弱ければ、株価は好決算後に売られる可能性がある。",
+          "sources": [
+            {
+              "title": "Marvell Technology, Inc. Reports Second Quarter of Fiscal Year 2027 Financial Results",
+              "publisher": "Marvell Technology",
+              "url": "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results"
+            },
+            {
+              "title": "Why Marvell's Earnings Beat Wasn't Big Enough for Such Great Expectations",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/articles/marvell-earnings-stock-price-07daa284"
+            }
+          ],
+          "tags": [
+            "Marvell",
+            "AI半導体",
+            "カスタムASIC"
+          ]
+        },
+        {
+          "id": "crowdstrike-ai-security-arr",
+          "headline": "CrowdStrike、AI防御でARR5.84Bドル",
+          "dek": "AIエージェントのIDと実行を守る需要が、サイバーセキュリティ企業の成長物語になった",
+          "importance": 2,
+          "facts": [
+            "CrowdStrikeは26日、2027年度第2四半期売上高が14億7000万ドルとなり、前年同期比26%増だったと発表した",
+            "Annual Recurring Revenueは58億4000万ドルで、前年同期比25%増だった",
+            "同社は純新規ARRが3億3280万ドルとなり、通期の純新規ARR成長率見通しを中央値で34%へ引き上げた",
+            "同社はAIエージェント向けのContinuous IdentityやAI Detection and Responseの拡張を最近の取り組みに挙げた"
+          ],
+          "why_it_matters": "企業AIの普及は、モデル利用の増加だけでなく、権限、ID、ログ、データ流出防止の需要を生む。AIエージェントが外部ツールを実行するほど、セキュリティは後付けの保険ではなく導入条件になる。",
+          "implications": "日本企業がAIエージェントを業務へ入れる場合、PoCの性能比較より先に、誰の権限で何を実行したかを監査できる設計が必要になる。サイバー投資は景気敏感費用ではなく、AI活用の前提費用として扱われる可能性がある。",
+          "sources": [
+            {
+              "title": "CrowdStrike Reports Second Quarter Fiscal Year 2027 Financial Results",
+              "publisher": "CrowdStrike",
+              "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial"
+            },
+            {
+              "title": "CrowdStrike's stock jumps after record-breaking earnings",
+              "publisher": "MarketWatch",
+              "url": "https://www.marketwatch.com/story/crowdstrikes-stock-has-jumped-after-record-breaking-earnings-wall-street-is-lapping-it-up-dbdaca83"
+            }
+          ],
+          "tags": [
+            "CrowdStrike",
+            "AIセキュリティ",
+            "ARR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "paypal-stripe-advent-bid-ends",
+          "headline": "PayPal買収案が消滅、株価13%安",
+          "dek": "StripeとAdventの提案撤回で、決済大手の再建は外部買収ではなく単独戦略へ戻った",
+          "importance": 2,
+          "facts": [
+            "Reutersは28日、Advent InternationalとStripeの連合がPayPal買収の追求を取りやめたとBloombergが報じたと伝えた",
+            "Reutersは7月、同連合が1株60.50ドルでPayPalに買収提案をしていたと報じていた",
+            "PayPal株は28日の米国市場前取引で13%下落した",
+            "Axiosは、提案総額が530億ドルで、成立すれば過去最大級のフィンテック買収になっていたと報じた"
+          ],
+          "why_it_matters": "PayPalは決済ネットワークとしての規模を持つが、Apple Pay、Stripe、Shopify、BNPLとの競争で成長物語が揺らいでいる。買収期待が剥落すると、市場は本業のチェックアウト、Venmo、暗号資産戦略の実力を見る。",
+          "implications": "日本の決済・EC企業にも、加盟店網だけでは守れない競争環境が広がる。ブラウザ、スマホOS、AIエージェント経由の購買が増えれば、決済会社は手数料率より利用者接点と不正検知で差別化する必要がある。",
+          "sources": [
+            {
+              "title": "PayPal shares fall after report Advent, Stripe consortium abandons takeover pursuit",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/paypal-shares-fall-after-report-advent-stripe-consortium-abandons-takeover-pursuit-4880783"
+            },
+            {
+              "title": "Stripe and Advent end PayPal pursuit",
+              "publisher": "Axios",
+              "url": "https://www.axios.com/2026/08/28/stripe-advent-end-paypal-pursuit"
+            }
+          ],
+          "tags": [
+            "PayPal",
+            "Stripe",
+            "フィンテック"
+          ]
+        },
+        {
+          "id": "gap-old-navy-turnaround",
+          "headline": "Gap、Old Navy刷新で株価急伸",
+          "dek": "利益見通しを上げる一方、売上は減少。小売再建はブランド別の濃淡が鮮明になった",
+          "importance": 1,
+          "facts": [
+            "Gapは27日、2026年度第2四半期の純売上高が36億5000万ドルで前年同期比2%減だったと発表した",
+            "既存店売上高は1%減だったが、同社は通期EPS見通しを引き上げた",
+            "同社はMichael Francis氏を11月2日付でOld Navyの次期CEOに任命すると発表した",
+            "Barron'sは、Gap株が28日に14%上昇し、Old Navyの立て直し期待が材料になったと報じた"
+          ],
+          "why_it_matters": "米消費は全面的な強さではなく、ブランド、価格帯、在庫管理で差がつく局面である。売上が減っても粗利率と販管費が改善すれば株価は反応するが、Old NavyやAthletaの弱さは中間層消費の選別を示す。",
+          "implications": "日本の小売・アパレル企業は、値上げ環境で売上数量を追うより、値引き抑制、在庫回転、ブランド投資の効率を問われる。米国向け消費財では、客数と粗利率のどちらが利益を支えているかを分けて見る必要がある。",
+          "sources": [
+            {
+              "title": "Gap Inc. Reports Second Quarter Fiscal 2026 Results",
+              "publisher": "Gap Inc.",
+              "url": "https://gapinc-prod.azurewebsites.net/en-us/articles/2026/08/gap-inc-reports-second-quarter-fiscal-2026-results"
+            },
+            {
+              "title": "Gap Stock Jumps After Strong Earnings, Upbeat Guidance, and a New Old Navy CEO",
+              "publisher": "Barron's",
+              "url": "https://www.barrons.com/articles/gap-earnings-stock-price-3af5aece"
+            }
+          ],
+          "tags": [
+            "Gap",
+            "米小売",
+            "消費"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "iran-hardliners-six-months",
+          "headline": "イラン新指導部、強硬派に集約",
+          "dek": "開戦6カ月で体制は崩れず、国内統制と湾岸輸出への威嚇を強めた",
+          "importance": 3,
+          "facts": [
+            "APは28日、米国とイスラエルによる攻撃から6カ月後、イラン指導部が軍・宗教強硬派を中心に固まったと報じた",
+            "Ayatollah Mojtaba Khamenei氏は8月11〜12日の人事で、Mohsen Rezaei氏やHossein Taeb氏らを重要ポストに置いた",
+            "APは、Taeb氏がBasijトップに就き、経済悪化を背景に国内不安を抑え込む意図があると伝えた",
+            "Rezaei氏は、経済戦争が続けばペルシャ湾から石油を一滴も輸出させない趣旨の警告を発したと報じられた"
+          ],
+          "why_it_matters": "イラン問題は、政権崩壊シナリオから長期対立シナリオへ重心が移った。強硬派が安全保障と国内統制を握るほど、ホルムズ、制裁、代理勢力、石油輸送のリスクは一時的な外交ニュースだけでは消えない。",
+          "implications": "日本のエネルギー調達と中東外交では、停戦や暫定通航案だけでなく、イラン国内の権力構造を見る必要がある。国内不満の抑圧が強まれば、対外強硬姿勢で体制を固める誘因が残る可能性がある。",
+          "sources": [
+            {
+              "title": "The US and Israel tried to topple Iran's government. Six months on, new leaders are defying them",
+              "publisher": "AP",
+              "url": "https://apnews.com/article/iran-us-war-leadership-politics-khamenei-f2e45b2c77f5994ed9d9534ae988403b"
+            }
+          ],
+          "tags": [
+            "イラン",
+            "ホルムズ",
+            "中東"
+          ]
+        },
+        {
+          "id": "iran-dubai-trade-crackdown",
+          "headline": "対イラン封鎖、Dubai交易を圧迫",
+          "dek": "米国とUAEの経済圧力は、制裁対象だけでなく湾岸商流そのものを再編し始めた",
+          "importance": 2,
+          "facts": [
+            "FTは28日、米国の対イラン孤立化策がDubaiとイランの伝統的な交易路に大きな影響を与えていると報じた",
+            "UAEはイランとの貿易停止や新たな経済戦争措置を打ち出したと報じられた",
+            "FTは、Dubaiのイラン系商人が罰金、審査強化、出荷手段の制約に直面していると伝えた",
+            "一部の取引はOmanやTurkeyなどを経由する形に変わっていると報じられた"
+          ],
+          "why_it_matters": "制裁は銀行や石油だけでなく、港湾、木造船、商社、送金、保険の細い商流を詰まらせる。Dubai経由の取引が細れば、イラン経済への圧力は強まるが、迂回網も同時に複雑化する。",
+          "implications": "日本企業は直接イランと取引していなくても、湾岸の商社、物流、金融機関を通じた間接リスクを再点検すべきである。制裁対応は相手先名簿の確認だけでなく、港、船舶、決済銀行、最終用途の証跡管理へ広がる。",
+          "sources": [
+            {
+              "title": "US campaign to isolate Iran closes in on Dubai",
+              "publisher": "FT",
+              "url": "https://www.ft.com/content/930386eb-b5d4-4a62-a258-f7ab46401655"
+            }
+          ],
+          "tags": [
+            "イラン制裁",
+            "Dubai",
+            "物流"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "epa-data-center-air-permits",
+          "headline": "EPA案、データセンター許可を簡素化",
+          "dek": "大気許可の住民通知を州・地方へ委ねる案で、AIインフラのスピードと透明性が対立した",
+          "importance": 3,
+          "facts": [
+            "The Vergeは28日、EPAが一部産業施設の大気許可で連邦の公示・意見募集要件をなくす案を進めていると報じた",
+            "対象はNew Source Reviewのうち、EPAが軽微な排出源と分類する施設で、データセンターや関連発電設備も論点になっている",
+            "EPA案は、住民通知の判断を州・地方当局へ移す内容だと報じられた",
+            "Southern Environmental Law Centerなど約200団体は先週、案の撤回を求めるコメントを提出した",
+            "EPAは、提出された4900件超のコメントを精査していると説明した"
+          ],
+          "why_it_matters": "AIデータセンターは、建設を急ぐ国家戦略と、地域が排出・騒音・電力負担を知る権利の間に入った。許可手続きの簡素化は供給制約を和らげ得るが、住民参加を弱めれば社会的許認可の反発を強める。",
+          "implications": "日本の重電、空調、建設、電線、半導体関連企業は、米国データセンター案件を単なる需要増として見られない。公示義務、州法、住民訴訟、排出許可が、受注時期と売上計上を左右する可能性がある。",
+          "sources": [
+            {
+              "title": "Trump's EPA wants to let data centers hide their air pollution",
+              "publisher": "The Verge",
+              "url": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit"
+            }
+          ],
+          "tags": [
+            "EPA",
+            "AIデータセンター",
+            "大気規制"
+          ]
+        },
+        {
+          "id": "eu-ai-act-enforcement-stage",
+          "headline": "EU AI法、透明性義務が実務段階",
+          "dek": "AI Officeの執行が始まり、チャットボット表示、深層偽造ラベル、GPAI文書提出が調達条件になる",
+          "importance": 2,
+          "facts": [
+            "European Commissionは、AI Officeと加盟国当局が2026年8月2日からAI法の一部執行を始めたと発表した",
+            "同日から、チャットボットなどは利用者がAIとやり取りしていることを示す必要がある",
+            "深層偽造の画像、動画、音声はラベル表示が求められ、AI生成・改変コンテンツには機械可読マーキングが必要になる",
+            "GPAIモデル提供者向けガイドラインは、AI Officeへの文書提出にEU SENDを使うと説明している"
+          ],
+          "why_it_matters": "EU AI法は理念から運用へ移った。生成表示やGPAIの文書提出が実務化すると、AIベンダーの選定基準は性能や価格だけでなく、監査証跡と当局対応能力に広がる。",
+          "implications": "日本企業が欧州向けにAIサービスを出す場合、モデルカード、生成物ラベル、ログ保存、ベンダー契約を早期に整える必要がある。AIエージェントや業務SaaSを欧州で使う企業は、調達部門と法務部門を同じテーブルに置くべきである。",
+          "sources": [
+            {
+              "title": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august"
+            },
+            {
+              "title": "Guidelines for providers of general-purpose AI models",
+              "publisher": "European Commission",
+              "url": "https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers"
+            }
+          ],
+          "tags": [
+            "EU AI法",
+            "AI Office",
+            "GPAI"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AIはなぜ中銀のインフレ判断を難しくするのか",
+    "dek": "Warsh講演は、AIを成長の源泉としてだけでなく、設備投資、金融環境、物価判断を揺らす新しいマクロ変数として扱った。",
+    "tags": [
+      "AI",
+      "Fed",
+      "金融政策"
+    ],
+    "reading_minutes": 5,
+    "body_md": "## 背景\n\nWarsh議長のJackson Hole講演で目立ったのは、利上げへの含みだけではない。Fed議長がAIを、単なる株式市場のテーマではなく、金融政策の判断を難しくする新しい変数として正面から扱った点である。講演では、AI関連インフラに資本が流れ込み、設備投資と企業利益を押し上げている一方、その効果が生産性、雇用、価格へいつ、どの程度出るかは未確定だと整理された。\n\n中銀にとって難しいのは、AIが需要と供給を同時に動かすことである。データセンター、GPU、電力、冷却、通信網への投資は短期的には需要を強め、資材、労働、電力価格を押し上げる。だが、AIが業務効率を本当に高めれば、中長期では供給力を拡大し、単位労働コストを下げる可能性もある。同じAI投資が、今日のインフレ要因であり、将来のディスインフレ要因にもなり得る。\n\n## 供給力をどう測るか\n\n金融政策は、経済の需要が供給力を上回っているかを見ようとする。需要が強すぎれば物価は上がり、供給力が増えれば同じ需要でも物価圧力は弱まる。問題は、供給力は直接観察できないことである。Warsh氏も、実際に見えるのは経済活動であり、供給側は推定するしかないと述べた。\n\nAIはこの推定を難しくする。企業がAIで生産性を上げ始めたのか、それともAI投資ブームで需要が一時的に過熱しているだけなのかは、四半期のGDPや雇用統計だけでは分かりにくい。設備投資が強いとき、中銀は通常、景気が強いと読む。しかしAIの場合、その投資は将来の供給力を増やす準備でもある。引き締めすぎれば生産性向上投資を冷やし、緩めすぎればインフレを温存する。この非対称性が政策判断を難しくする。\n\n## 金利とAI投資の循環\n\nもう一つの論点は、AI投資が金融環境をどのように映すかである。Fedが高金利にしていても、巨大テックやAIインフラ企業が低い信用スプレッドで資金を集め、データセンター投資を続けられるなら、金融環境は十分に制約的とは言いにくい。Warsh氏は、企業向け信用や銀行融資が強く、広い意味の金融環境を制約的と表現しにくいと見た。\n\nこれは株式市場にとって二面性を持つ。AI投資が強いほど、半導体、電力、空調、建設、サイバーセキュリティには需要が出る。だが、その強さ自体がFedに利上げ余地を与え、割引率を上げる。AIは株価の利益成長ストーリーであると同時に、金利上昇を正当化する材料にもなる。Marvellの好決算後の株安は、この緊張を映している。\n\n## 日本への示唆\n\n日本企業にとって重要なのは、AI投資を単独の成長テーマとしてではなく、金利、為替、エネルギー、規制を含むマクロ変数として見ることである。米国でAI capexが続けば、半導体装置、光部品、重電、冷却には受注機会がある。一方で米金利が高止まりすれば、ドル円は円安方向に振れやすく、日銀は輸入物価を意識せざるを得ない。\n\n投資家は、AI関連売上の伸びと同じくらい、顧客の資金調達コスト、電力契約、許認可、粗利率を確認する必要がある。中銀も企業も、AIがいつ生産性として現れ、いつ物価圧力として現れるかをまだ測り切れていない。特に日本では、AI輸出企業の収益、輸入インフレ、円安、国内金利が同じニュースで同時に動く。今後は、受注残の増減だけでなく、稼働率と電力価格が利益にどう効くかも見る必要がある。朝報の読み方としては、AIニュースをテック面だけで完結させず、米金利、円、原油、規制とつなげて読むことが重要である。AIはもはや一業界のテーマではなく、金融政策の誤差項そのものになった。",
+    "sources": [
+      {
+        "title": "Keynote remarks by Chairman Warsh at the 2026 Jackson Hole Economic Policy Symposium",
+        "publisher": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+      },
+      {
+        "title": "Fed Chair signals interest rate hikes if inflation does not retreat",
+        "publisher": "AP",
+        "url": "https://apnews.com/article/federal-reserve-warsh-interest-trump-inflation-ab896df808df3a5a3fa8b943ac5f3867"
+      },
+      {
+        "title": "Marvell Technology, Inc. Reports Second Quarter of Fiscal Year 2027 Financial Results",
+        "publisher": "Marvell Technology",
+        "url": "https://investor.marvell.com/news-events/press-releases/detail/1031/marvell-technology-inc-reports-second-quarter-of-fiscal-year-2027-financial-results"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "Warsh講演後の市場は、AI投資の強さを成長材料と同時に利上げ材料として扱い始めた。",
+      "円買い介入は時間を買えるが、米金利と日銀政策差が残れば159〜160円台の圧力は消えにくい。",
+      "AI半導体は売上成長の有無より、粗利率、カスタムチップの量産時期、顧客の資金調達力で選別される。",
+      "データセンター規制は許認可短縮と住民参加の対立に移り、日本サプライヤーの売上時期にも影響し得る。"
+    ],
+    "watchlist": [
+      {
+        "item": "9月FOMC前の雇用・物価指標",
+        "why": "Warsh議長が利上げ余地を残したため、雇用悪化がなければ9月利上げ確率がさらに上がる",
+        "horizon": "9月上旬"
+      },
+      {
+        "item": "日銀9月会合とドル円160円台",
+        "why": "協調介入後も円安が残り、JGB利回りと政府発言が日銀の前倒し観測を動かす",
+        "horizon": "9月17〜18日"
+      },
+      {
+        "item": "ホルムズ暫定ルートの実通航",
+        "why": "原油は合意観測で下げたが、軍艦通航、LNG船、保険、米制裁条件は未解決",
+        "horizon": "9月上旬"
+      },
+      {
+        "item": "Marvellの10月アナリストデー",
+        "why": "Google向けカスタムチップの収益時期と粗利率がAI半導体の期待値を測る",
+        "horizon": "10月6日"
+      },
+      {
+        "item": "EPA大気許可案の最終化",
+        "why": "AIデータセンターの建設速度と住民参加のバランスが許認可リスクを左右する",
+        "horizon": "9月以降"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "フォワードガイダンス",
+      "reading": "ふぉわーどがいだんす",
+      "definition": "中央銀行が将来の政策金利や政策姿勢を事前に示す手法。Warsh議長は通常時の多用に慎重な姿勢を示した。"
+    },
+    {
+      "term": "PCE価格指数",
+      "reading": "ぴーしーいーかかくしすう",
+      "definition": "米個人消費支出の物価指標。Fedが2%物価目標の基準として重視し、今回の講演では前年比3.7%が焦点になった。"
+    },
+    {
+      "term": "カスタムASIC",
+      "reading": "かすたむえーしっく",
+      "definition": "特定用途向けに設計する半導体。AIではGoogleなどのクラウド企業が自社用途に最適化し、Nvidia依存を下げる手段になる。"
+    },
+    {
+      "term": "New Source Review",
+      "reading": "にゅーそーすれびゅー",
+      "definition": "米国の大気汚染防止法に基づく新規・改修施設の許可制度。AIデータセンター関連発電設備の住民参加で論点になった。"
+    }
+  ]
+}
