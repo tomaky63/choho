@@ -1,0 +1,586 @@
+{
+  "date": "2026-09-26",
+  "edition": 39,
+  "generated_at": "2026-09-26T21:36:46+09:00",
+  "masthead_note": "金利は再び高く、原油も100ドル台。それでもAI投資は止まらず、金融システムの論点になり始めた",
+  "market_snapshot": {
+    "as_of": "9月25日東京前場、9月25日米国取引中・終値、原油・金利は各記事配信時点",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "66,318.14円",
+        "change": "+1.23%",
+        "direction": "up",
+        "note": "25日前場。AI関連と配当取りで上昇"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,123.73",
+        "change": "+1.19%",
+        "direction": "up",
+        "note": "銀行株も買われ、上昇が広がる"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "159円近辺",
+        "change": "円安圏",
+        "direction": "up",
+        "note": "日銀利上げ後も持続的な円高には至らず"
+      },
+      {
+        "label": "10年JGB",
+        "value": "3.03%前後",
+        "change": "3%台",
+        "direction": "up",
+        "note": "24日に3.075%へ上昇、25日も3%台"
+      },
+      {
+        "label": "米10年債",
+        "value": "5.17%前後",
+        "change": "19年ぶり高水準",
+        "direction": "up",
+        "note": "強い設備投資データで利上げ観測が再燃"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,743.41",
+        "change": "+0.51%",
+        "direction": "up",
+        "note": "AI関連株が金利高を相殺"
+      },
+      {
+        "label": "Nasdaq",
+        "value": "27,068.72",
+        "change": "+0.48%",
+        "direction": "up",
+        "note": "Microsoft、Akamai、半導体が支える"
+      },
+      {
+        "label": "Brent原油",
+        "value": "104.67ドル",
+        "change": "-1.8%",
+        "direction": "down",
+        "note": "米イラン協議報道で下落も100ドル台"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米10年債は5.1%台でも米株は上昇。AI投資期待が金利と原油の重しを押し返した",
+      "ref": "ai-stocks-defy-yields"
+    },
+    {
+      "text": "日経平均は25日前場で66,318円、TOPIXも上昇。JGB3%台と円159円近辺は残る",
+      "ref": "tokyo-ai-dividend-rally"
+    },
+    {
+      "text": "AkamaiはAnthropicと116億ドル契約。AIインフラはGPUだけでなく分散クラウドへ広がる",
+      "ref": "akamai-anthropic-cloud"
+    },
+    {
+      "text": "Fed高官はAIエコシステムの大きすぎて潰せないリスクに言及。投資ブームは監督論点に",
+      "ref": "fed-ai-systemic-risk"
+    },
+    {
+      "text": "SoftBankは111億ドルの高利回り債を発行。OpenAI投資は信用市場の大型テーマになった",
+      "ref": "softbank-record-bonds"
+    },
+    {
+      "text": "米中首脳会談は大枠合意なし。イラン支援、レアアース、AI、原油が同じ交渉材料になった",
+      "ref": "trump-xi-iran-warning"
+    },
+    {
+      "text": "金融庁はAI時代のオンチェーン金融フォーラムを立ち上げ。日米でデジタル資産制度化が進む",
+      "ref": "fsa-onchain-forum"
+    }
+  ],
+  "top_story": {
+    "id": "ai-stocks-defy-yields",
+    "headline": "AI投資、金利5%台を押し返す",
+    "dek": "米10年債は19年ぶり高水準、原油も100ドル台。それでもMicrosoft、Akamai、半導体が買われた",
+    "importance": 3,
+    "facts": [
+      "Reuters配信は25日、米株がMicrosoftなどAI関連株に支えられて上昇したと伝えた",
+      "S&P500は同記事配信時点で0.45%高の7,738.67、Nasdaqは0.50%高の27,073.90だった",
+      "MicrosoftはCopilotの新機能と常時稼働AIエージェントを発表し、株価が3.3%上昇した",
+      "AkamaiはAnthropicとの116億ドルのクラウドサービス契約を受けて6%上昇した",
+      "米10年債利回りは一時5.196%と19年ぶり高水準に達し、Brent原油は100ドルを上回った"
+    ],
+    "why_it_matters": "通常なら長期金利5%台と原油100ドル台は株式の重い逆風である。それでもAI関連が買われたのは、AI投資が単なるテーマ株ではなく、設備投資、クラウド契約、半導体、電力、社債発行を伴う実体投資として市場に見られているためである。",
+    "implications": "短期的には、AI関連の大型契約が指数を支える可能性がある。ただし金利と原油の上昇は、同じAI投資の資金調達コストと電力コストを押し上げる。今後は売上期待だけでなく、契約期間、前払い、担保、電力確保、借入金利を見ないとAI相場の強さを誤読しやすい。",
+    "sources": [
+      {
+        "title": "Wall Street climbs as investors buy AI stocks; Microsoft rallies",
+        "publisher": "Reuters / MarketScreener",
+        "url": "https://www.marketscreener.com/news/wall-street-climbs-as-investors-buy-ai-stocks-microsoft-rallies-ce785adfd18fff20"
+      },
+      {
+        "title": "UBS raises Akamai stock price target on $11.6B Anthropic deal",
+        "publisher": "Investing.com",
+        "url": "https://www.investing.com/news/analyst-ratings/ubs-raises-akamai-stock-price-target-on-116b-anthropic-deal-93CH-4916905"
+      },
+      {
+        "title": "Fed's Schmid: Need to understand if AI ecosystem getting too big to fail",
+        "publisher": "Reuters / Investing.com",
+        "url": "https://www.investing.com/news/economy-news/feds-schmid-need-to-understand-if-ai-ecosystem-getting-too-big-to-fail-4917752"
+      }
+    ],
+    "tags": [
+      "AI投資",
+      "米国株",
+      "米国債",
+      "原油"
+    ]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "us-yields-capex-reprice",
+          "headline": "米10年債、5.19%へ再上昇",
+          "dek": "設備投資データの強さで利上げ観測が再燃。AI投資が景気を支えるほど、金利の上限も上がる",
+          "importance": 3,
+          "facts": [
+            "Reuters配信は25日、米10年債利回りが5.196%へ上昇し、19年ぶり高水準を付けたと伝えた",
+            "同記事は、米30年債利回りも22年ぶり高水準を付けたとした",
+            "8月の米コア資本財受注は市場予想を上回り、前月分も大幅に上方修正された",
+            "記事は、AI構築を背景に企業の設備投資が堅調だと説明した",
+            "CME FedWatchでは10月の25bp以上利上げ確率が66%に上昇したと報じられた"
+          ],
+          "why_it_matters": "AI投資は景気の下支えであると同時に、インフレと金利を高止まりさせる要因にもなる。設備投資が強いほど景気後退リスクは下がるが、Fedが利下げに動きにくくなり、長期資産の割引率は上がる。",
+          "implications": "日本企業にとっては、米国需要の強さとドル資金コスト上昇が同時に来る。米国向け設備、半導体、電力関連には追い風だが、ドル建て借入や米国不動産、長期契約の採算にはより高い利回り前提が必要になる。",
+          "sources": [
+            {
+              "title": "Wall Street climbs as investors buy AI stocks; Microsoft rallies",
+              "publisher": "Reuters / MarketScreener",
+              "url": "https://www.marketscreener.com/news/wall-street-climbs-as-investors-buy-ai-stocks-microsoft-rallies-ce785adfd18fff20"
+            },
+            {
+              "title": "Fed's Schmid: Need to understand if AI ecosystem getting too big to fail",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/economy-news/feds-schmid-need-to-understand-if-ai-ecosystem-getting-too-big-to-fail-4917752"
+            }
+          ],
+          "tags": [
+            "米国債",
+            "Fed",
+            "設備投資",
+            "AI"
+          ]
+        },
+        {
+          "id": "tokyo-ai-dividend-rally",
+          "headline": "東京株、AIと配当取りで上昇",
+          "dek": "日経平均は25日前場で66,318円。銀行株と半導体株が同時に買われ、休場明けの歪みを吸収した",
+          "importance": 2,
+          "facts": [
+            "Reuters配信は、25日前場の日経平均が1.23%高の66,318.14円、TOPIXが1.19%高の4,123.73だったと伝えた",
+            "Daiwa Securitiesのストラテジストは、配当権利取りと半導体需要が相場を支えたと説明した",
+            "銀行株は東証33業種の中で最上位となり、業種指数は3.23%上昇した",
+            "Tokyo Electronは4.04%、Advantestは2.45%上昇し、日経平均を押し上げた",
+            "SoftBank GroupはOracle株安とStargate関連の電力遅延報道を受けて2.63%下落した"
+          ],
+          "why_it_matters": "日銀利上げ後の東京市場では、金利上昇に強い銀行株とAI関連の半導体株が同時に買われた。これは単なる指数高ではなく、金利ある世界とAI投資を同時に織り込む日本株の姿を示す。",
+          "implications": "TOPIXも上がった点は前号までの日経平均偏重と異なる。ただしJGB3%台と円159円近辺が残るため、銀行、輸出、半導体が強い一方、内需、REIT、借入依存企業には選別圧力が続く可能性がある。",
+          "sources": [
+            {
+              "title": "Japanese shares rise on AI-shares rally, dividend hunt",
+              "publisher": "Reuters / Business Recorder",
+              "url": "https://www.brecorder.com/news/amp/40441199"
+            },
+            {
+              "title": "Japan's bond falling knife stalls repatriation rush",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/economy-news/analysisjapans-bond-falling-knife-stalls-repatriation-rush-4916565"
+            },
+            {
+              "title": "JGB yields jump as inflation worries resurface",
+              "publisher": "Reuters / MarketScreener",
+              "url": "https://www.marketscreener.com/news/japan-s-10-year-bond-yield-hits-30-year-high-after-us-treasury-selloff-ce785adedb8df226"
+            }
+          ],
+          "tags": [
+            "日経平均",
+            "TOPIX",
+            "JGB",
+            "円安"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "akamai-anthropic-cloud",
+          "headline": "Anthropic、Akamaiと116億ドル契約",
+          "dek": "7年契約で最大200億ドルまで拡大余地。AIクラウドはGPU専業から分散インフラへ広がる",
+          "importance": 3,
+          "facts": [
+            "AkamaiはAnthropicと116億ドル、7年のCloud Infrastructure Services契約を発表した",
+            "契約には追加90億ドルまでコミットメントを拡大できるオプションがある",
+            "AnthropicはAkamai株の約2%相当のワラントを受け取り、追加契約行使時には約5%まで増える設計である",
+            "UBSは、この契約がAkamaiの2027年度低二桁成長見通しに上振れ余地をもたらす一方、設備投資とフリーキャッシュフローを圧迫し得ると見た",
+            "Reuters配信では、Akamai株がAIインフラ契約を受けて上昇したと報じられた"
+          ],
+          "why_it_matters": "AIインフラ競争は、Nvidia GPUをどれだけ確保するかだけではなくなっている。推論やエージェント運用が増えるほど、低遅延、分散配置、ネットワーク、CPU処理、データ所在地が重要になり、AkamaiのようなCDN・クラウド企業にも需要が広がる。",
+          "implications": "大型AI契約にワラントが付く構図は、クラウド顧客とインフラ供給者の関係を資本市場へ接続する。日本の通信、データセンター、光部品、電源設備企業も、GPU単体ではなく、推論を運ぶネットワーク側の投資波及を確認したい。",
+          "sources": [
+            {
+              "title": "UBS raises Akamai stock price target on $11.6B Anthropic deal",
+              "publisher": "Investing.com",
+              "url": "https://www.investing.com/news/analyst-ratings/ubs-raises-akamai-stock-price-target-on-116b-anthropic-deal-93CH-4916905"
+            },
+            {
+              "title": "Wall Street climbs as investors buy AI stocks; Microsoft rallies",
+              "publisher": "Reuters / MarketScreener",
+              "url": "https://www.marketscreener.com/news/wall-street-climbs-as-investors-buy-ai-stocks-microsoft-rallies-ce785adfd18fff20"
+            }
+          ],
+          "tags": [
+            "Anthropic",
+            "Akamai",
+            "AIクラウド",
+            "推論"
+          ]
+        },
+        {
+          "id": "fed-ai-systemic-risk",
+          "headline": "Fed高官、AIのシステムリスクに言及",
+          "dek": "Kansas City連銀総裁は、AI・データセンターの契約網が大きすぎて潰せない存在になるかを問うた",
+          "importance": 2,
+          "facts": [
+            "Kansas City連銀のJeff Schmid総裁は25日、AIブームを巡り、企業と契約のネットワークが大きすぎて潰せないエコシステムになっていないか理解する必要があると述べた",
+            "同氏は、データセンター建設とAI産業の内部に何があるのか、システミックなものがあるのかを懸念すると語った",
+            "発言は、2007〜2009年の金融危機時の大規模金融機関救済になぞらえて説明された",
+            "同じ週にはAkamaiとAnthropic、SoftBankとOpenAIなど、AI投資をめぐる大型契約・資金調達が相次いだ"
+          ],
+          "why_it_matters": "中央銀行がAIを単なる生産性テーマではなく、金融安定の対象として語り始めた点が重要である。巨大な前払い契約、リース負債、電力契約、社債発行、株式ワラントが絡むほど、AIインフラは一企業の投資判断を超えて信用サイクルに影響する。",
+          "implications": "AI関連企業を見る時は、売上成長率だけでなく、契約相手の集中、担保、資金調達源、電力遅延、銀行・保険会社の与信を確認する必要がある。規制当局が監督を強めるほど、透明性の低いAIインフラ案件は資金調達コストが上がり得る。",
+          "sources": [
+            {
+              "title": "Fed's Schmid: Need to understand if AI ecosystem getting too big to fail",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/economy-news/feds-schmid-need-to-understand-if-ai-ecosystem-getting-too-big-to-fail-4917752"
+            },
+            {
+              "title": "SoftBank raises $11.1 billion in world's biggest high-yield corporate bond sale",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/softbank-issues-111-billion-in-bonds-in-openai-financing-push-4914266"
+            }
+          ],
+          "tags": [
+            "Fed",
+            "AIインフラ",
+            "金融安定",
+            "データセンター"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "softbank-record-bonds",
+          "headline": "SoftBank、111億ドル高利回り債",
+          "dek": "OpenAI投資の資金を世界最大級の高利回り債で調達。AI投資は株式から信用市場へ深く入った",
+          "importance": 3,
+          "facts": [
+            "Reutersは24日、SoftBank Groupがドル建て・ユーロ建て債で111億ドルを調達したと報じた",
+            "同記事は、今回の起債を世界最大の高利回り社債発行と説明した",
+            "SoftBankはOpenAIに646億ドルをコミットしており、翌週までに約13%を保有する見通しとされた",
+            "ドル建て債は3.5年、5.5年、7.5年の3本で、利率は8.625%、9.25%、9.75%だった",
+            "ユーロ建ては4年と6年の各5億ユーロで、利回りは7.125%と8%だった"
+          ],
+          "why_it_matters": "AI投資が高利回り債市場まで広がったことは、資本市場の地図を変える。AIの期待収益が高ければ調達は成立するが、OpenAIのIPO遅延やAI評価の変化が起きれば、株式だけでなく社債、CDS、銀行与信へ波及する。",
+          "implications": "日本の読者にとってSoftBankは、AI成長の代理銘柄であると同時に、信用リスクの観測点になった。ArmとOpenAIへの集中、OpenAI上場時期、データセンター資産の現金化、外貨建て利払いが今後の重要指標である。",
+          "sources": [
+            {
+              "title": "SoftBank raises $11.1 billion in world's biggest high-yield corporate bond sale",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/stock-market-news/softbank-issues-111-billion-in-bonds-in-openai-financing-push-4914266"
+            },
+            {
+              "title": "Japanese shares rise on AI-shares rally, dividend hunt",
+              "publisher": "Reuters / Business Recorder",
+              "url": "https://www.brecorder.com/news/amp/40441199"
+            }
+          ],
+          "tags": [
+            "SoftBank",
+            "OpenAI",
+            "社債",
+            "信用市場"
+          ]
+        },
+        {
+          "id": "volkswagen-restructuring-road",
+          "headline": "VW再編、5万削減と米中戦略が焦点",
+          "dek": "独国内の雇用交渉と米国生産、中国能力削減が同時進行。欧州自動車の構造調整は続く",
+          "importance": 2,
+          "facts": [
+            "Reutersは25日、VolkswagenのOliver Blume CEOが再建計画の大枠で支持を得たものの、独国内の人員削減と工場閉鎖、米国戦略で厳しい交渉を抱えると報じた",
+            "同社は追加5万人削減の半分がドイツで起きる可能性があるとされた",
+            "Volkswagenは中国の人員を9万人から7万人へ既に減らし、さらに50万台分の生産能力削減を見込む",
+            "IG Metallは9月30日に経営側と協議し、再編が2024年の労働合意に抵触するかを問題にする見通しである",
+            "Emden、Zwickau、Hanover、Neckarsulmの各工場は2031〜2034年に段階的閉鎖予定と報じられた"
+          ],
+          "why_it_matters": "VWの再編は欧州自動車の需要不振だけでなく、中国EV競争、米関税、国内雇用政治、EV低採算が同時に噴き出した事例である。規模の大きい既存メーカーほど、工場と雇用の固定費を速く動かせない。",
+          "implications": "日本車と部品会社には欧州勢の弱体化が短期の機会になる一方、中国EVとの価格競争と米国現地化の圧力は共通である。部品サプライヤーは、欧州向け数量前提と米国生産移管の両方を見直す必要がある。",
+          "sources": [
+            {
+              "title": "The road ahead for Volkswagen's restructuring",
+              "publisher": "Reuters / MarketScreener",
+              "url": "https://www.marketscreener.com/news/the-road-ahead-for-volkswagen-s-restructuring-ce785adfda89ff20"
+            },
+            {
+              "title": "Volkswagen cuts outlook on $11.5 billion one-off hit",
+              "publisher": "Reuters / MarketScreener",
+              "url": "https://www.marketscreener.com/news/volkswagen-and-porsche-holding-cut-outlook-ce785adadd81f422"
+            }
+          ],
+          "tags": [
+            "Volkswagen",
+            "欧州自動車",
+            "中国EV",
+            "雇用"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "trump-xi-iran-warning",
+          "headline": "Trump氏、習氏にイラン支援を警告",
+          "dek": "首脳会談は友好演出でも、イラン、レアアース、AI、通商休戦の実務合意は限定的だった",
+          "importance": 3,
+          "facts": [
+            "Reutersは25日、米国のDavid Perdue駐中国大使が、Trump大統領は習近平国家主席に中国のイラン支援は容認できないと明確に伝えたと述べたと報じた",
+            "Perdue氏は、直接・間接の支援、情報、部品、軍事装備のいずれも受け入れられないと説明した",
+            "Reuters配信は、Trump氏と習氏の3日間の会談が個人外交を演出した一方、経済関係の大きな突破はなかったと伝えた",
+            "Axiosは事前に、AI、貿易、レアアース、重要鉱物、イラン原油が会談の焦点になると報じていた",
+            "中国はイラン原油の最大級の買い手であり、米国は対中金融制裁の強度を慎重に見ている"
+          ],
+          "why_it_matters": "米中協議は、関税だけでなく、AI安全保障、レアアース、イラン原油、通商休戦が相互に絡む交渉になった。首脳同士の友好ムードがあっても、供給網と安全保障の実務論点は切り離せない。",
+          "implications": "日本企業は、米中どちらか一方の景気や関税だけを見ればよい段階を過ぎた。レアアース、半導体装置、AIモデル、エネルギー、船舶保険が同時に動くため、調達と販売の国別リスクを横断的に管理する必要がある。",
+          "sources": [
+            {
+              "title": "Trump told Xi that China helping Iran is unacceptable, US ambassador says",
+              "publisher": "Reuters / Investing.com",
+              "url": "https://www.investing.com/news/world-news/trump-told-xi-that-china-helping-iran-is-unacceptable-us-ambassador-says-4917599"
+            },
+            {
+              "title": "What's at stake in U.S.-China talks",
+              "publisher": "Axios",
+              "url": "https://www.axios.com/2026/09/21/whats-at-stake-in-us-china-talks"
+            },
+            {
+              "title": "US Treasury's Bessent and China's He launch talks on AI, trade and critical minerals",
+              "publisher": "Reuters / MarketScreener",
+              "url": "https://www.marketscreener.com/news/us-treasury-s-bessent-china-s-he-to-launch-talks-on-ai-trade-critical-minerals-ce785adad18ff127"
+            }
+          ],
+          "tags": [
+            "米中",
+            "イラン",
+            "レアアース",
+            "AI"
+          ]
+        },
+        {
+          "id": "hormuz-truce-oil",
+          "headline": "米イラン、Hormuz再開案を協議",
+          "dek": "原油は下落したが、フーシ派攻撃とYanbu出荷遅れが残る。和平期待だけで供給安定は読めない",
+          "importance": 2,
+          "facts": [
+            "Investing.comは25日、米国とイランがHormuz海峡再開を含む段階的な戦争出口を探っているとの報道で原油が下落したと伝えた",
+            "Brent11月限は同日15時15分ET時点で1.8%安の104.67ドル、WTI11月限は2.2%安の92.51ドルだった",
+            "Reuters報道として、ニューヨークの米イラン交渉担当者が、Hormuz再開と米国の経済封鎖解除を含む段階案を議論したとされた",
+            "サウジアラビアは、フーシ派がTaifやYanbuを含む地域へ発射した弾道ミサイル6発を迎撃したと発表した",
+            "Yanbuへのタンカー積み込みは、東西パイプライン再開後も完全には戻っていないと報じられた"
+          ],
+          "why_it_matters": "原油価格は和平期待に反応するが、実際の供給は港湾、パイプライン、保険、船舶フローで決まる。Hormuz再開案があっても、Yanbuや紅海側のリスクが残れば、中東エネルギーのチョークポイントは一つでは終わらない。",
+          "implications": "日本にとっては、原油価格だけでなく、LNG船、タンカー保険、ディーゼル価格、サウジ出荷能力を同時に確認する局面である。Brentが100ドル台に残るなら、円安下の輸入インフレ圧力はなお残る。",
+          "sources": [
+            {
+              "title": "Oil falls on U.S.-Iran truce hopes, Brent set for weekly gain while WTI declines",
+              "publisher": "Investing.com",
+              "url": "https://ph.investing.com/news/commodities-news/oil-dips-after-sharp-gains-as-us-iran-reportedly-explore-hormuz-deal-2601173"
+            },
+            {
+              "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+              "publisher": "Reuters / MarketScreener",
+              "url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425"
+            }
+          ],
+          "tags": [
+            "原油",
+            "Hormuz",
+            "イラン",
+            "Yanbu"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "sec-tokenized-stocks",
+          "headline": "SEC、トークン化株に暫定免除",
+          "dek": "5年の条件付き免除で、米株をブロックチェーン上で取引する道を開く。暗号資産規制は実務段階へ",
+          "importance": 2,
+          "facts": [
+            "Axiosは17日、SECが米国株のトークン化取引を可能にする新しい規制上の免除を出したと報じた",
+            "同記事は、ブロックチェーン型取引プラットフォームと自動流動性提供者に、5年の条件付き免除を与える内容だと説明した",
+            "対象となるトークン化株はデリバティブではなく、配当や議決権など原株と同じ権利を持つとされた",
+            "発行会社には30日前通知を行い、参加を拒否できる仕組みがある",
+            "SECは別途、Regulation Crypto Assets案で暗号資産関連投資契約の枠組みについてコメントを募集している"
+          ],
+          "why_it_matters": "米国のデジタル資産政策は、法案待ちから当局の免除・規則化へ動いている。トークン化株が実際のNMS株と同じ権利を持つ設計なら、暗号資産インフラが証券市場の周辺ではなく中核機能へ入り始める。",
+          "implications": "日本の金融機関や証券会社は、米国法の最終形だけでなく、暫定免除で先に動く実務を追う必要がある。カストディ、本人確認、議決権処理、発行会社の拒否権、ブロックチェーン上の監査証跡が競争軸になる。",
+          "sources": [
+            {
+              "title": "SEC opens door for crypto-style trading of U.S. stocks",
+              "publisher": "Axios",
+              "url": "https://www.axios.com/2026/09/17/sec-tokenization-crypto-stocks"
+            },
+            {
+              "title": "SEC Proposes Regulation Crypto Assets",
+              "publisher": "SEC",
+              "url": "https://www.sec.gov/about/sec-proposes-regulation-crypto-assets"
+            }
+          ],
+          "tags": [
+            "SEC",
+            "トークン化株",
+            "暗号資産",
+            "証券市場"
+          ]
+        },
+        {
+          "id": "fsa-onchain-forum",
+          "headline": "金融庁、オンチェーン金融フォーラム設置",
+          "dek": "AIとブロックチェーンで金融取引が変わる中、社会実装と健全なAI利用を横断的に検討する場を作る",
+          "importance": 2,
+          "facts": [
+            "金融庁は9月25日、「AI時代を見据えたオンチェーン金融フォーラム」を立ち上げると発表した",
+            "発表は、AIやブロックチェーンの進展で金融取引の仕組みが変化していると説明した",
+            "金融庁は、オンチェーン金融の社会実装と、金融機関等におけるAIの健全な利活用促進に向けた取り組みが重要だとした",
+            "フォーラムは、関係省庁等とともに横断的に検討を進める場として設けられる",
+            "所管は資産運用・保険監督局の暗号資産・ステーブルコイン課デジタル決済企画室とされた"
+          ],
+          "why_it_matters": "日本でも、暗号資産を投機対象として見る段階から、証券、決済、資産運用、AI利用を含む金融インフラとして制度化する段階に移りつつある。米SECのトークン化株免除と同じく、オンチェーン化は市場の外側ではなく内側の論点になった。",
+          "implications": "日本企業は、デジタル証券、ステーブルコイン、AI監査、本人確認、決済データ連携を一体で見る必要がある。制度設計が進めば、銀行、証券、資産運用会社、スタートアップの提携余地は広がるが、責任分界と監査ログの要求も重くなる。",
+          "sources": [
+            {
+              "title": "「AI時代を見据えたオンチェーン金融フォーラム」について",
+              "publisher": "金融庁",
+              "url": "https://www.fsa.go.jp/news/r8/singi/20260925.html"
+            },
+            {
+              "title": "SEC opens door for crypto-style trading of U.S. stocks",
+              "publisher": "Axios",
+              "url": "https://www.axios.com/2026/09/17/sec-tokenization-crypto-stocks"
+            }
+          ],
+          "tags": [
+            "金融庁",
+            "オンチェーン金融",
+            "AI",
+            "ステーブルコイン"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AIインフラはなぜ「大きすぎて潰せない」論点になるのか",
+    "dek": "Fed高官がAIエコシステムのシステミックリスクに言及した。クラウド契約、電力、社債、ワラントが絡む構造を整理する。",
+    "tags": [
+      "AIインフラ",
+      "金融安定",
+      "データセンター"
+    ],
+    "reading_minutes": 5,
+    "body_md": "## 背景\n\nAIインフラ投資は、半導体株の材料から金融システムの論点へ移り始めた。Kansas City連銀のJeff Schmid総裁は、AIとデータセンターの構築を巡る企業と契約のネットワークが、大きすぎて潰せないエコシステムになっていないか理解する必要があると述べた。これは単なる警句ではない。今週だけでも、AkamaiとAnthropicの116億ドル契約、SoftBankの111億ドル高利回り債、MicrosoftのAIエージェント機能、米国の強い設備投資データが同じ画面に並んだ。\n\nAI投資は、ソフトウエア企業の研究開発費だけではない。GPU、CPU、メモリー、光部品、土地、電力、冷却、送電網、クラウド契約、社債、株式ワラント、保険会社や銀行の与信でできている。だから規模が大きくなるほど、一社の失敗が単独で終わりにくくなる。\n\n## 契約が信用を作る\n\nAIインフラの特徴は、将来需要を先に契約で固定し、その契約をもとに巨額の設備を建てる点にある。クラウド企業は顧客との長期契約を示して資金を集める。顧客は計算資源を確保するために前払い、予約、ワラント、共同投資を組み合わせる。投資家は受注残を成長の証拠として評価し、銀行や社債市場はそれを担保のように読む。\n\nこの構図は強い時には自己強化的である。大型契約が発表されると株価が上がり、株価が上がるとワラントや資産価値が支えられ、資金調達がしやすくなり、さらに設備投資が増える。だが逆回転もあり得る。顧客が利用量を減らす、電力接続が遅れる、モデル単価が下がる、IPOが延期される、社債利回りが上がる。すると受注残の見方が変わり、資金調達条件が悪化する。\n\n## 電力と金利が制約になる\n\nAIインフラの制約はチップだけではない。データセンターは電力を長期にわたり大量に使う。送電網への接続、変圧器、冷却、地域住民の受け止め、規制当局の審査が遅れれば、GPUを買えても稼働できない。東京市場でSoftBank株がOracle関連の電力遅延報道を受けて売られたことは、この制約が投資家に意識されていることを示す。\n\n金利も同じくらい重要である。米10年債が5%台なら、10年先のAIキャッシュフローの現在価値は大きく削られる。SoftBankのドル債利率が8.625%から9.75%という水準になったように、AIへの期待が強くても資金コストはただではない。AI投資が設備投資を押し上げ、設備投資がインフレと金利を支え、その金利がAI投資の採算を圧迫する循環が生まれている。\n\n## 大きすぎて潰せないとは何か\n\n金融危機でいう大きすぎて潰せないとは、一社の破綻を放置すると周囲の契約、資産価格、雇用、信用供給へ連鎖する状態を指す。AIインフラで同じ言葉を使うなら、特定のクラウド企業やAIモデル企業が、電力会社、チップメーカー、通信会社、銀行、保険、年金、地方自治体まで巻き込む状態である。\n\nもちろん、現時点でAI企業が銀行と同じ公的救済対象になったわけではない。だが中央銀行がこの問いを立てたこと自体が重要である。AIは生産性を高める技術であると同時に、信用創造の材料にもなりつつある。契約が膨らむほど、誰が最終需要を負担しているのか、誰が電力遅延リスクを持つのか、誰がキャンセル時の損失を受けるのかが見えにくくなる。\n\n## 日本への読み方\n\n日本はAIモデルの最大開発国ではないが、SoftBank、メガバンク、保険会社、半導体装置、メモリー、光部品、重電、建設、不動産を通じてAIインフラ金融に深く関わる。JGB利回りが3%台へ上がり、円が159円近辺にある局面では、国内資金の行き先も再評価される。海外AIインフラへの投融資は魅力的に見えるが、為替、金利、電力、契約集中をまとめて管理しなければならない。\n\n読者が見るべき指標は、GPU出荷数だけではない。長期契約の相手、前払い比率、解約条項、電力接続予定、社債利回り、CDS、銀行・保険の与信、規制当局のコメントである。AIインフラが社会基盤になるほど、投資判断はテクノロジーの目利きだけでは足りない。金融安定、エネルギー政策、産業政策をまたぐ総合判断になる。",
+    "sources": [
+      {
+        "title": "Fed's Schmid: Need to understand if AI ecosystem getting too big to fail",
+        "publisher": "Reuters / Investing.com",
+        "url": "https://www.investing.com/news/economy-news/feds-schmid-need-to-understand-if-ai-ecosystem-getting-too-big-to-fail-4917752"
+      },
+      {
+        "title": "SoftBank raises $11.1 billion in world's biggest high-yield corporate bond sale",
+        "publisher": "Reuters / Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/softbank-issues-111-billion-in-bonds-in-openai-financing-push-4914266"
+      },
+      {
+        "title": "UBS raises Akamai stock price target on $11.6B Anthropic deal",
+        "publisher": "Investing.com",
+        "url": "https://www.investing.com/news/analyst-ratings/ubs-raises-akamai-stock-price-target-on-116b-anthropic-deal-93CH-4916905"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "AI相場は高金利に弱いが、AI投資そのものが設備投資を支えて金利高を長引かせる可能性がある。",
+      "SoftBankとAkamaiの案件は、AI契約が株価だけでなく社債、ワラント、銀行与信へ広がる構図を示す。",
+      "JGB3%台と円159円近辺では、日本株の上昇を銀行・半導体・輸出と、借入依存内需に分けて見る必要がある。",
+      "米中・イラン交渉は、原油、レアアース、AI安全保障を一括で動かすため、調達部門だけでなく経営課題になっている。"
+    ],
+    "watchlist": [
+      {
+        "item": "米PCEと雇用統計",
+        "why": "Fed追加利上げ確率と米10年債5%台定着を左右する",
+        "horizon": "9月30日・10月2日週"
+      },
+      {
+        "item": "SoftBank債の流通利回り",
+        "why": "OpenAI投資に対する信用市場の本当の受け止めを見る",
+        "horizon": "9月29日受渡し後"
+      },
+      {
+        "item": "Akamai・Anthropic契約の詳細",
+        "why": "前払い、追加90億ドル、ワラント、設備投資負担がAI契約の質を決める",
+        "horizon": "10月上旬"
+      },
+      {
+        "item": "米イランHormuz協議",
+        "why": "Brent100ドル台の持続、Yanbu積み込み、船舶保険を確認する",
+        "horizon": "9月末"
+      },
+      {
+        "item": "金融庁オンチェーン金融フォーラム",
+        "why": "日本のデジタル証券、ステーブルコイン、AI監査の制度化につながる",
+        "horizon": "10月以降"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "大きすぎて潰せない",
+      "reading": "おおきすぎてつぶせない",
+      "definition": "破綻させると周囲の契約や信用に連鎖被害が出るため、公的対応が必要になり得る状態。AIインフラでも契約網の集中が論点になり始めた。"
+    },
+    {
+      "term": "ワラント",
+      "reading": "わらんと",
+      "definition": "一定条件で株式を取得できる権利。AIインフラ契約では、顧客と供給者の利害を結び付ける資本市場上の仕組みとして使われる。"
+    },
+    {
+      "term": "高利回り債",
+      "reading": "こうりまわりさい",
+      "definition": "信用格付けが相対的に低く、高い利回りを支払う社債。AI投資の資金調達がこの市場へ広がると、成長期待と信用リスクが直結する。"
+    },
+    {
+      "term": "オンチェーン金融",
+      "reading": "おんちぇーんきんゆう",
+      "definition": "ブロックチェーン上で証券、決済、融資などの金融取引や記録を行う仕組み。AI時代の監査証跡や自動執行とも接続しやすい。"
+    }
+  ]
+}
