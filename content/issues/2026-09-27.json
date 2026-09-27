@@ -1,0 +1,519 @@
+{
+  "date": "2026-09-27",
+  "edition": 40,
+  "generated_at": "2026-09-27T14:15:37+09:00",
+  "masthead_note": "日曜・午後更新｜米中の限定合意と中東交渉の後退を確認。AIは「使う」から「仕事を任せて採算を測る」へ。",
+  "market_snapshot": {
+    "as_of": "9月25日東京・米国株終値、原油先物清算値。為替・日米10年債はTrading Economicsの25日付日次値（取引所終値ではない）。9月27日JST確認。週末の外交材料は未反映。",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "66,364.20円",
+        "change": "前日比 +1.30%",
+        "direction": "up",
+        "note": "25日終値。出典は「日経6万6364円」記事"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,128.59",
+        "change": "前日比 +1.31%",
+        "direction": "up",
+        "note": "25日終値。前号の前場値から更新"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "約157.2円",
+        "change": "前日比 -1.02%",
+        "direction": "down",
+        "note": "25日付日次値。出典ページ内の表示差を考慮し小数1桁に丸めた"
+      },
+      {
+        "label": "10年JGB",
+        "value": "3.07%",
+        "change": "前日比 -0.01pt",
+        "direction": "down",
+        "note": "25日付日次利回り。Trading Economics"
+      },
+      {
+        "label": "米10年債",
+        "value": "5.17%",
+        "change": "前日比 -0.04pt",
+        "direction": "down",
+        "note": "25日付日次利回り。出典は「Brent104ドル」記事"
+      },
+      {
+        "label": "Brent原油",
+        "value": "104.32ドル/バレル",
+        "change": "前日比 -2.1%",
+        "direction": "down",
+        "note": "25日先物清算値。Reuters"
+      },
+      {
+        "label": "WTI原油",
+        "value": "92.41ドル/バレル",
+        "change": "前日比 -2.3%",
+        "direction": "down",
+        "note": "25日先物清算値。Reuters"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,743.41",
+        "change": "前日比 +0.51%",
+        "direction": "up",
+        "note": "25日終値。Reuters"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米中、各300億ドル分の非機微品目で関税優遇の勧告に合意。発効日・税率は別途確認が必要",
+      "ref": "us-china-deliverables"
+    },
+    {
+      "text": "米国がイランの海峡再開案を拒否。イランは正式回答待ちとし、交渉継続を主張",
+      "ref": "iran-proposal-rejected"
+    },
+    {
+      "text": "日経平均の25日終値は66,364円。円と日米金利も前号の場中値から更新",
+      "ref": "tokyo-close-update"
+    },
+    {
+      "text": "Copilotは常時稼働エージェントへ。非公開プレビューと一般提供を区別して評価",
+      "ref": "copilot-persistent-work"
+    },
+    {
+      "text": "Akamaiの116億ドル契約には55億ドルの設備投資。部材先買いと供給条件が採算を左右",
+      "ref": "akamai-capex-conditions"
+    },
+    {
+      "text": "Microsoftが定額と従量を組み合わせるAI料金を説明。成果一件あたりの費用管理が重要に",
+      "ref": "copilot-usage-economics"
+    },
+    {
+      "text": "米燃費基準は28日に緩和・最終化の見通し。購入価格と生涯燃料費の違いが焦点",
+      "ref": "us-fuel-rules-pending"
+    }
+  ],
+  "top_story": {
+    "id": "us-china-deliverables",
+    "headline": "米中、各300億ドルの関税優遇へ合意",
+    "dek": "続報：両政府の発表を照合。AI事故連絡路も設置へ進むが、実施条件の確認は残る",
+    "importance": 3,
+    "facts": [
+      "米政府の25日付発表は、非機微品目を各方向300億ドル分、より有利な関税扱いにする勧告で合意したと説明した。",
+      "米国からの輸出対象には農産物や医療機器、輸入対象には小型家電や玩具などが例示された。",
+      "中国政府の26日付発表はAI対話と事故連絡路の設置で合意し、次の対話を11月に行うとした。",
+      "米政府は同じ対話を超知能（SI）対話と呼び、次回は11月までと説明しており、両国の表現には差がある。"
+    ],
+    "why_it_matters": "前号の「大きな突破はなかった」という評価に、分野を限定した成果が加わった。関税優遇の勧告への合意と、その発効は別段階である。競争を続けながら、日用品の取引とAIの事故管理に接点を作る動きと読める。",
+    "implications": "日本企業には米中間の需要回復が追い風になり得る一方、対象品目の競争条件が変わる可能性もある。発効日、税率、品目コードを確認するまでは、見積もりや調達先の変更に新税率を織り込めない。レアアースも米側発表では協議継続であり、供給問題の解消とは扱わない。",
+    "sources": [
+      {
+        "title": "米中首脳会談ファクトシート（9月25日）",
+        "publisher": "White House",
+        "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/"
+      },
+      {
+        "title": "China and the United States reach eight deliverables and understandings",
+        "publisher": "中国国務院／新華社",
+        "url": "https://english.www.gov.cn/news/202609/26/content_WS6ab7d2bcc6d00ca5f9a0d7d1.html"
+      }
+    ],
+    "tags": [
+      "米中",
+      "関税",
+      "AI対話"
+    ]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "tokyo-close-update",
+          "headline": "日経6万6364円、TOPIXも終値上昇",
+          "dek": "続報：前号の前場値から終値へ更新。上昇の広がりと金利・為替を分けて見る",
+          "importance": 2,
+          "facts": [
+            "25日の日経平均終値は66,364.20円で、前日比850.21円、1.30%上昇した。",
+            "TOPIXは4,128.59で前日比53.29ポイント、1.31%高となり、東証33業種のうち31業種が上昇した。",
+            "Trading Economicsの25日付日次値はドル円を約157.2円、10年JGB利回りを3.07%とし、前日比はそれぞれ1.02%低下、0.01ポイント低下だった。"
+          ],
+          "why_it_matters": "指数だけでなく多くの業種に買いが広がったことは、少数の半導体株だけが相場を持ち上げる局面との違いである。一方、金利は一日低下しても3%台であり、円も前号の159円近辺から動いた。企業の収益前提を固定したまま株高を説明することはできない。",
+          "implications": "週明けは株価指数、銀行、輸出、内需の反応を分けて確認したい。円高は輸入費用を和らげる可能性があるが、輸出企業の円換算利益には逆風となり得る。金利の小幅低下だけで不動産や借入企業の資金負担が解消したとはいえない。",
+          "sources": [
+            {
+              "title": "日経平均 大引け：5日続伸、半導体関連や銀行株が買われる",
+              "publisher": "株探",
+              "url": "https://s.kabutan.jp/news/n202609251042/"
+            },
+            {
+              "title": "Japan 10 Year Government Bond Yield（9月25日値）",
+              "publisher": "Trading Economics",
+              "url": "https://tradingeconomics.com/japan/government-bond-yield"
+            },
+            {
+              "title": "Japanese Yen（9月25日値）",
+              "publisher": "Trading Economics",
+              "url": "https://tradingeconomics.com/japan/currency"
+            }
+          ],
+          "tags": [
+            "日本株",
+            "円",
+            "国債"
+          ]
+        },
+        {
+          "id": "oil-close-and-spread",
+          "headline": "Brent104ドル、WTIとの差約12ドル",
+          "dek": "続報：25日の清算値を確認。週末の外交ニュースはこの価格にまだ反映されていない",
+          "importance": 2,
+          "facts": [
+            "25日のBrent先物は1バレル104.32ドルで前日比2.28ドル安、WTIは92.41ドルで2.20ドル安だった。",
+            "両清算値の差は11.91ドルで、これは掲載値からの計算である。",
+            "S&P500は25日終値7,743.41で前日比0.51%高となり、米10年債の日次利回りは5.17%で前日比0.04ポイント低下した。"
+          ],
+          "why_it_matters": "前号の場中値から終値を確定すると、株高と原油安、長期金利の小幅低下が併存していたと分かる。ただし原油の価格差には油種、受渡地、物流、需給の違いがある。日本の輸入負担を、米国WTIが下がったことだけで判断するのは不十分である。",
+          "implications": "週明けにはイラン案拒否の報道を受けた価格の再評価が焦点になる。調達担当者は自社の契約指標、為替、運賃を組み合わせて確認すべきだろう。11.91ドルの差も輸送費を引く前の価格差であり、そのまま輸出業者の利益とはならない。",
+          "sources": [
+            {
+              "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-markets-look-iran-truce-remain-wary-attacks-oil-facilities-2026-09-25/"
+            },
+            {
+              "title": "Wall Street ends higher as investors buy AI stocks; Microsoft rallies",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/wall-st-futures-gain-ai-enthusiasm-eases-worries-over-higher-oil-prices-yields-2026-09-25/"
+            },
+            {
+              "title": "US 10 Year Treasury Note Yield（9月25日値）",
+              "publisher": "Trading Economics",
+              "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+            }
+          ],
+          "tags": [
+            "原油",
+            "米国株",
+            "米国債"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "copilot-persistent-work",
+          "headline": "Copilot、常時稼働エージェントへ",
+          "dek": "続報：株価材料の中身を確認。Home・Code・Autopilotの提供段階は異なる",
+          "importance": 2,
+          "facts": [
+            "Microsoftは25日、CopilotにHome、Code、Autopilotの三つの機能を導入すると発表した。",
+            "Homeは対話と仕事の委任をまとめ、Word、Excel、PowerPointをCopilot内で扱う構成である。",
+            "Autopilotはクラウド上で継続稼働する個人エージェントで、月末に非公開プレビューを拡大する予定とされた。",
+            "HomeとCodeはFrontierプログラムから段階的に展開され、すべての利用者が直ちに使えるという発表ではない。"
+          ],
+          "why_it_matters": "仕事の入口が個別のアプリから、成果を依頼する窓口へ移る可能性がある。常時稼働する仕組みなら人の勤務時間外にも処理できるが、依頼の理解、外部操作の権限、途中失敗からの再開を含めて品質を測る必要がある。",
+          "implications": "日本企業で試すなら、定型の情報収集や資料準備など、完了を判定しやすい業務が候補になる。担当者の作業時間を減らせても、確認と修正が別部門へ移るだけなら効果は小さい。プレビューの宣伝と、自社環境での再現性は分けて評価したい。",
+          "sources": [
+            {
+              "title": "Introducing the new Copilot with Home, Code and Autopilot",
+              "publisher": "Microsoft",
+              "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
+            }
+          ],
+          "tags": [
+            "Microsoft",
+            "AIエージェント"
+          ]
+        },
+        {
+          "id": "sakana-rsi-world-models",
+          "headline": "Sakana AI、自己改善研究の体制強化",
+          "dek": "今週の未掲載材料：シュミットフーバー氏が参画。世界モデルと製造業の接続を狙う",
+          "importance": 2,
+          "facts": [
+            "Sakana AIは24日付発表で、ユルゲン・シュミットフーバー氏が現職と兼任で科学顧問に就くとした。",
+            "同社はAI開発のプロセス自体を改善する専任研究グループRSI Labの始動を発表した。",
+            "同社は、行動による物理世界の変化を予測する世界モデルの開発と、製造・ロボット分野への応用を研究方針に掲げた。"
+          ],
+          "why_it_matters": "既存モデルを大きくする競争に加え、研究や試行錯誤の進め方をAIで改良する競争が強まる可能性がある。日本の工場や物流現場にある実データは、机上の評価では分からない制約を検証する材料になり得る。",
+          "implications": "ただし発表は研究体制と目標であり、自己改善の安全性や工場での商用性能を実証したものではない。事業開発では、実機試験の費用をどれだけ減らせるか、未経験の環境で予測が崩れないかを確認し、研究支援と製品採用を別の判断にする必要がある。",
+          "sources": [
+            {
+              "title": "ユルゲン・シュミットフーバー氏がSakana AIに参画",
+              "publisher": "Sakana AI",
+              "url": "https://sakana.ai/schmidhuber/"
+            },
+            {
+              "title": "AIがAIを作る：Sakana AI「RSI Lab」始動",
+              "publisher": "Sakana AI",
+              "url": "https://sakana.ai/rsi-lab-jp/"
+            }
+          ],
+          "tags": [
+            "Sakana AI",
+            "世界モデル",
+            "研究開発"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "akamai-capex-conditions",
+          "headline": "Akamai契約、設備投資55億ドル見込む",
+          "dek": "続報：116億ドルの売上契約に対し、部材先買いと供給責任が先行する",
+          "importance": 2,
+          "facts": [
+            "Akamaiの24日発表は、Anthropic向け契約に伴う総設備投資を約55億ドルと見積もった。",
+            "2026年の売上見通しへの影響はない一方、メモリーなどの先行調達で同年の設備投資を約17億ドル増やすとした。",
+            "8-Kは支払約束に供給・サービス可用性の条件が付くことと、一定条件下の重大障害などによる解約権を記載した。",
+            "同開示では、Jabilに約17億ドルのメモリー部材購入を認め、受領に応じてAkamaiが代金を負担する契約も示された。"
+          ],
+          "why_it_matters": "前号の契約総額とワラントの話に、資金が出入りする時期の違いが加わった。長期の受注があっても、部材を先に確保すれば現金は先に減る。契約価値を利益や自由に使える現金と同一視できないことが、具体的な投資計画で見える。",
+          "implications": "日本の部材メーカーには需要の裏付けとなり得るが、投資家は稼働開始、受入条件、顧客集中、資金調達を併せて確認したい。契約116億ドルから設備投資55億ドルを単純に引いて利益を求めることもできない。運営費と資金の時間価値が残るためである。",
+          "sources": [
+            {
+              "title": "Anthropicとの116億ドル契約と設備投資見通し",
+              "publisher": "Akamai",
+              "url": "https://www.akamai.com/newsroom/press-release/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand"
+            },
+            {
+              "title": "Akamai Form 8-K：Anthropic、Lenovo、Jabilとの契約",
+              "publisher": "Akamai／SEC EDGAR",
+              "url": "https://www.sec.gov/Archives/edgar/data/1086222/000119312526401048/d288154d8k.htm"
+            }
+          ],
+          "tags": [
+            "AIインフラ",
+            "設備投資",
+            "メモリー"
+          ]
+        },
+        {
+          "id": "copilot-usage-economics",
+          "headline": "Microsoft、AI料金を定額と従量に分離",
+          "dek": "日常的な支援と長時間の代行を別枠に。企業の購買基準は一人単価だけで足りなくなる",
+          "importance": 2,
+          "facts": [
+            "Microsoftの25日付説明は、日常的なAI利用をユーザー単位の定額契約、高度な代行を利用量課金で提供する構成を示した。",
+            "Cowork、Code、AutopilotなどはCopilot Creditsを使う利用量課金の対象とされた。",
+            "法人向けの利用量課金サービスは管理者が支出ポリシーを作成するまで停止しており、その前に請求されないと説明した。",
+            "管理者向けには予算・利用上限・通知、利用者向けには消費量と残高の確認機能を示した。"
+          ],
+          "why_it_matters": "常時動くAIでは、利用者数が同じでも依頼件数や難易度によって費用が変わる可能性がある。料金体系の変更は、AIを配布する判断から、仕事ごとの費用対効果を管理する判断への転換を促す。",
+          "implications": "日本の導入企業は定額ライセンスの単価に加え、一件を完了するまでの追加料金と人の確認工数を見積もる必要がある。予算上限だけを低くすると重要な仕事が途中停止する可能性もあるため、優先順位と停止時の引き継ぎを業務部門と決めておきたい。",
+          "sources": [
+            {
+              "title": "Evolution of the Copilot pricing model",
+              "publisher": "Microsoft",
+              "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/evolution-of-the-copilot-pricing-model/4559416"
+            }
+          ],
+          "tags": [
+            "AI料金",
+            "FinOps",
+            "業務改革"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "iran-proposal-rejected",
+          "headline": "米国、イランのホルムズ再開案を拒否",
+          "dek": "続報：前号の交渉期待から後退。ただし仲介経由の協議が終わったとは確認できない",
+          "importance": 3,
+          "facts": [
+            "Reutersは26日、トランプ大統領がホルムズ海峡再開と戦闘停止に関するイラン案を拒否したと報じた。",
+            "イラン側は、案が合意されれば海峡再開と戦闘停止へ7日間で進めるとしていた。",
+            "27日付の続報では、イラン外相は米国の正式な回答が仲介者から届いていないとし、交渉による解決を主張した。"
+          ],
+          "why_it_matters": "25日の原油安を支えた和平期待に、週末の拒否発言が逆向きの材料として加わった。ただし公の発言と仲介協議の状態は同じではなく、直ちに交渉決裂や再攻撃の決定と読み替えることはできない。",
+          "implications": "日本の調達現場では、停戦の見出しだけを根拠に安全在庫や代替輸送を解除しない方がよいだろう。週明けの原油だけでなく、実際の通航、保険条件、港湾の稼働を確認する必要がある。今回の拒否をすでに25日の終値が織り込んだかのような説明も避けたい。",
+          "sources": [
+            {
+              "title": "Trump rejects Iranian proposal to open Hormuz and end fighting",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/"
+            },
+            {
+              "title": "Iran insists on diplomatic solution after Trump rejects peace plan",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/iran-insists-diplomatic-solution-after-trump-rejects-peace-plan-2026-09-26/"
+            }
+          ],
+          "tags": [
+            "イラン",
+            "ホルムズ",
+            "エネルギー"
+          ]
+        },
+        {
+          "id": "eu-philippines-fta",
+          "headline": "EU・フィリピン、FTAで実質合意",
+          "dek": "今週の未掲載材料：9月22日に発表。政治合意を経て技術的な詰めへ進む",
+          "importance": 2,
+          "facts": [
+            "欧州委員会は22日、フィリピンとの自由貿易協定交渉で実質合意に達したと発表した。",
+            "発表によると、関税品目の94%超、双方の貿易額の97%超を自由化する内容である。",
+            "政府調達、デジタル貿易、知的財産、エネルギー・原材料に関する規定も含むと説明した。",
+            "双方は実施方法と技術的詳細を含む交渉を今後最終化するとしており、発効済みではない。"
+          ],
+          "why_it_matters": "米中が特定品目の取引を調整する一方、EUは東南アジアとの市場アクセスを広げる動きを続けている。関税だけでなく調達やデータのルールも変われば、供給網の分散先を選ぶ企業の判断に影響し得る。",
+          "implications": "日本企業には、フィリピン拠点から欧州へ売る可能性と、現地で欧州企業と競争する可能性の両面がある。ただし原産地規則や適用品目を確認せずに第三国経由の輸出が優遇されると考えることはできない。投資採算の確定には最終文書と移行期間の確認が要る。",
+          "sources": [
+            {
+              "title": "Substantial agreement on EU-Philippines trade deal（9月22日）",
+              "publisher": "欧州委員会",
+              "url": "https://luxembourg.representation.ec.europa.eu/actualites-et-evenements/actualites/substantial-agreement-eu-philippines-trade-deal-2026-09-22_en"
+            }
+          ],
+          "tags": [
+            "EU",
+            "フィリピン",
+            "FTA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "us-fuel-rules-pending",
+          "headline": "米燃費基準、28日に大幅緩和の見通し",
+          "dek": "新規材料：当局者が最終化予定を説明。従来案の数値と最終規則は区別する",
+          "importance": 2,
+          "facts": [
+            "Reutersは26日、米運輸省が2031年までの燃費基準を28日に大幅緩和して最終化する予定だと当局者の説明を報じた。",
+            "従来案は2031年の車両平均基準を50.4mpgから34.5mpgへ引き下げる内容だった。",
+            "同案に対する運輸省試算は新車費用を平均930ドル下げる一方、2050年までの燃料消費を増やすとしていた。"
+          ],
+          "why_it_matters": "自動車の購入価格を抑える政策と、保有期間中の燃料負担を減らす政策は一致しない。原油高が続く局面では、規制が緩んでも消費者の低燃費車への需要が弱まるとは限らず、メーカーには別々の需要判断が求められる。",
+          "implications": "日本の自動車・部品企業は、米国向けの商品構成、開発費、ハイブリッド車の価格競争力を再点検することになりそうだ。ただしここでの数値は従来案であり、28日の最終文書で年式、計算法、経過措置を確認するまで投資計画への反映を急ぐべきではない。",
+          "sources": [
+            {
+              "title": "US to finalize sharply lower vehicle fuel economy standards",
+              "publisher": "Reuters／HOT 96",
+              "url": "https://hot96.com/2026/09/26/trump-says-he-approved-fuel-economy-standards-ending-biden-ev-mandate/"
+            }
+          ],
+          "tags": [
+            "自動車",
+            "米国政策",
+            "燃費"
+          ]
+        },
+        {
+          "id": "eu-dsa-evidence",
+          "headline": "EU、DSA執行で研究者の証拠を重視",
+          "dek": "9月25日公表：未成年保護、通販、AIリスクを議論。新たな制裁決定ではない",
+          "importance": 1,
+          "facts": [
+            "欧州委員会は25日、23日に約60団体を集めたDSA実施のオンライン円卓会議を開いたと発表した。",
+            "参加者はプラットフォームのリスク評価報告や独自研究、リスク緩和策について議論した。",
+            "当局は執行手続きと研究者の関与方法を説明し、未成年保護、オンライン市場、AI関連リスクを優先事項に挙げた。"
+          ],
+          "why_it_matters": "プラットフォームの安全性は企業の自己説明だけでなく、第三者が分析できるデータと証拠によって評価される方向にある。広告や購買の入口にAIが入るほど、利用者への影響をどのように測り、当局へ説明するかが重要になるとみられる。",
+          "implications": "EU向けサービスを展開する日本企業にも、委託先の対応、データ保存、研究者からの照会への準備が課題となり得る。ただし今回の会議開催を、新しい一律義務の施行や特定企業への制裁と混同してはいけない。個別の法的義務は事業形態と正式文書で確認が必要である。",
+          "sources": [
+            {
+              "title": "DSA実施に関する第5回市民団体・研究者円卓会議",
+              "publisher": "欧州委員会",
+              "url": "https://digital-strategy.ec.europa.eu/en/news/fifth-roundtable-civil-society-organisations-and-researchers-implementation-digital-services-act"
+            }
+          ],
+          "tags": [
+            "EU",
+            "DSA",
+            "AI監査"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AIエージェントの料金はなぜ「人数」だけで決まらないのか",
+    "dek": "定額から従量へ広がる課金。安いモデルより、合格した仕事一件の総費用を見る。",
+    "tags": [
+      "AIエージェント",
+      "FinOps",
+      "事業採算"
+    ],
+    "body_md": "## なぜ今、料金の話なのか\n\nMicrosoftは、日常のAI支援と、仕事を長く任せるエージェントで料金を分ける方針を示した。ここから考えるべき問いは、AIが高いか安いかだけではない。「一件の仕事を終えるために、何にいくら払うのか」である。以下では公表された料金の方向性を出発点に、導入企業が採算を測る方法を考える。特定製品の実測成績を示すものではない。\n\n従来の業務ソフトは、利用人数と月額料金を掛ければ大まかな予算を作れた。同じ社員が何度資料を直しても請求は急増しにくい。これに対し、エージェントが調査、計算、修正を何度も繰り返す場合、同じ依頼文でも消費する計算や外部サービスの量が変わり得る。社員一人に一つのライセンスという見方だけでは、増減の理由が見えにくくなる。\n\n## 一件あたり費用をどう測るか\n\nFinOps Foundationは、技術の使用量あたり費用と、事業上の成果あたり費用を区別している。FinOpsとは、技術利用の費用と事業価値を、技術・財務・事業の担当者が共同で管理する取り組みである。AIでも、文章処理の単位であるトークンを安く買うことと、仕事を安く終わらせることは一致しない。\n\n例えば、架空の比較として、調査一件のAI料金が100円でも、人の確認に20分かかる方法と、AI料金が300円で確認が5分で済む方法を考える。人の時間を一時間3,000円と仮定すれば、前者の合計は1,100円、後者は550円である。安いAIを選ぶことが、安い仕事を選ぶことになるとは限らない。もちろん、これは両者の品質が同じ場合の試算であり、製品の価格比較ではない。\n\n分母にも注意が要る。100回実行しても、使える成果が70件なら、費用を100で割ると実用上の単価を小さく見せる。依頼の受付、成果の提出、人の承認を分け、どの時点を完了とするか先に決める必要がある。未処理の案件を放置して見かけの成功率だけを上げないよう、期限超過や人への差し戻しも数える。\n\n## 上限だけでは仕事を管理できない\n\n予算上限は必要だが、それだけでは十分でない。上限に達した瞬間に処理が止まると、途中まで作った成果が使えず、結局人が最初からやり直す可能性がある。一方、品質を求めて無制限に再試行すれば、確認の難しい仕事ほど費用が増えかねない。\n\n実務では、一件あたりの上限、再試行回数、締切、担当者への引き継ぎを一組で設計するのが合理的だろう。例えば、重要な取引先資料は人が引き取り、低優先度の収集は翌日に回す。モデルを軽くする場合も、必要な精度を満たすかを確認し、単なる料金削減を成功としない。この判断は情報システム部門だけでは完結せず、業務の損失を知る担当者が関わる必要がある。\n\n## 供給者と利用者で変わる競争\n\n供給者から見れば、定額は普及を進めやすく、従量課金は重い処理の費用を回収しやすい組み合わせと考えられる。しかし利用者に予算の予測しにくさを移すほど、導入の承認が難しくなる可能性もある。競争はモデルの賢さだけでなく、見積もり、消費履歴、失敗時の扱い、仕事の途中状態を残す機能へ広がりそうだ。\n\nここには事業機会もある。複数のAIを比較して適切なものに仕事を振り分ける、業務別に品質と費用を測る、監査可能な実行記録を残すサービスである。ただし単に安いモデルへ切り替えるだけなら、基盤側の機能追加で価値が薄れる恐れがある。顧客固有の合格基準や業務システムに深く関われるかが差別化の論点になる。\n\n## 日本企業が最初に記録するもの\n\n最初から全社の生産性向上率を測ろうとせず、同じ種類の仕事を一定件数集め、所要時間、料金、修正回数、完了率を記録する方法が考えられる。導入前の人手処理も同じ品質条件で測り、月額固定費と追加料金を分ける。削減した時間を別の価値ある仕事へ使えなければ、時間短縮がそのまま現金の節約になるわけでもない。\n\nAIが働き続けるほど、確認するべきなのは稼働時間ではなく、受け入れられた成果である。利用額の増加だけを失敗とみなさず、成果一件あたりの総費用がどう変わったかを見る。逆に、安く大量に動いたことを成功とせず、業務の品質と責任を維持できたかを確認する。この管理が、試用から継続運用へ進む際の土台になる。",
+    "sources": [
+      {
+        "title": "Evolution of the Copilot pricing model",
+        "publisher": "Microsoft",
+        "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/evolution-of-the-copilot-pricing-model/4559416"
+      },
+      {
+        "title": "Unit Economics",
+        "publisher": "FinOps Foundation",
+        "url": "https://www.finops.org/framework/capabilities/unit-economics/"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "米中の限定合意と中東交渉の後退は逆向きの材料である。週明けの市場では一つの外交見出しだけで方向を決めにくいとみられる。",
+      "AIの需要がCPU・メモリーへ広がっても、大型受注が即座に現金を生むとは限らない。供給条件と先行支出の確認が重要になりそうだ。",
+      "AI導入支援では、成果の合格判定、予算配分、途中停止からの引き継ぎを実装できる企業に継続的な需要が生まれる可能性がある。"
+    ],
+    "watchlist": [
+      {
+        "item": "週明けの原油・円・日本株",
+        "why": "25日終値の後に出たイラン案拒否と米中合意がどう織り込まれるか",
+        "horizon": "9月28日"
+      },
+      {
+        "item": "米燃費基準の最終文書",
+        "why": "報道された従来案と最終規則の差、適用年式・移行措置を確認",
+        "horizon": "9月28日米国時間予定"
+      },
+      {
+        "item": "米中関税優遇の実施文書",
+        "why": "勧告への合意を実際の発効と混同しないため、品目・税率・日付を確認",
+        "horizon": "9月28日以降"
+      },
+      {
+        "item": "Copilotの提供範囲と従量運用",
+        "why": "プレビュー対象、管理者設定、一件あたり費用と完了率を確認",
+        "horizon": "9月末以降"
+      },
+      {
+        "item": "Akamaiの四半期開示",
+        "why": "契約全文、部材前払い、稼働開始、キャッシュフロー見通しを追う",
+        "horizon": "次回開示時"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "FinOps",
+      "reading": "フィンオプス",
+      "definition": "技術利用の費用と事業価値を、技術・財務・事業部門が共同で管理する取り組み。本号ではAIの消費額と成果一件あたりの総費用を結びつける。"
+    },
+    {
+      "term": "世界モデル",
+      "definition": "環境の状態や行動による変化を予測するモデル。実際にロボットを動かす前に結果を試す用途が期待されるが、予測の正しさは別途検証が必要である。"
+    },
+    {
+      "term": "サービス可用性",
+      "definition": "必要なときにサービスを利用できる度合い。大型クラウド契約でも供給・稼働条件が付くため、契約総額と無条件の入金保証は同じではない。"
+    },
+    {
+      "term": "FTA",
+      "reading": "自由貿易協定",
+      "definition": "国・地域間の関税や貿易障壁を減らす協定。政治的な実質合意、最終文書、署名・承認、発効は別段階であり、発表直後に関税が下がるとは限らない。"
+    }
+  ]
+}
