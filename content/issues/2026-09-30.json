@@ -1,0 +1,458 @@
+{
+  "date": "2026-09-30",
+  "edition": 43,
+  "generated_at": "2026-09-30T08:06:09+09:00",
+  "masthead_note": "予定は文書へ、期待は実績へ。今朝は実行条件を読む。",
+  "market_snapshot": {
+    "as_of": "日本株・ドル円・10年JGBは9月29日15:37配信値。米10年債は29日の取引時間中高値、米国株と原油は29日終値・清算値。出典はマクロ・市場欄。",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "65,481.27円",
+        "change": "-396.35円",
+        "direction": "down",
+        "note": "29日終値、前営業日比。DZH／OANDA"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,041.13",
+        "change": "-70.87pt",
+        "direction": "down",
+        "note": "29日終値、前営業日比。DZH／OANDA"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "157.35円",
+        "change": "-0.04円",
+        "direction": "down",
+        "note": "29日15:37配信値、前営業日NY終値比。DZH／OANDA"
+      },
+      {
+        "label": "10年JGB",
+        "value": "3.085%",
+        "change": "横ばい",
+        "direction": "flat",
+        "note": "29日15:37配信値。DZH／OANDA"
+      },
+      {
+        "label": "米10年債",
+        "value": "5.293%",
+        "direction": "up",
+        "note": "29日取引時間中の高値、2007年6月以来。Reuters"
+      },
+      {
+        "label": "Brent原油",
+        "value": "102.59ドル/バレル",
+        "change": "-2.69ドル",
+        "direction": "down",
+        "note": "29日清算値、前日比-2.6%。Reuters"
+      },
+      {
+        "label": "WTI原油",
+        "value": "89.38ドル/バレル",
+        "change": "-3.22ドル",
+        "direction": "down",
+        "note": "29日清算値、前日比-3.5%。Reuters"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米政権とAI企業、外部監査・取締役会監督・内部統制を盛る任意協定に署名",
+      "ref": "us-ai-safety-accord"
+    },
+    {
+      "text": "米10年債は一時5.293%。日経平均は396円安、原油は中東輸出回復で反落",
+      "ref": "global-yields-japan-stocks"
+    },
+    {
+      "text": "豪中銀、政策金利を4.60%へ引き上げ。原油高の物価転嫁を明記",
+      "ref": "rba-rate-hike"
+    },
+    {
+      "text": "HBMが来年DRAM生産能力の約3割へ。AI向け増産が汎用メモリー供給を圧迫",
+      "ref": "samsung-hbm-capacity"
+    },
+    {
+      "text": "トヨタ8月世界販売は6.4%減。中国・米国・中東の減少が国内増を上回る",
+      "ref": "toyota-august-sales"
+    },
+    {
+      "text": "米国のカナダ産酒類等の輸入禁止が発効。候補段階から通関停止へ移行",
+      "ref": "canada-import-ban-effective"
+    },
+    {
+      "text": "カタール仲介に合意なし。一方、中東原油輸出は開戦後最高へ回復",
+      "ref": "iran-talks-oil-flows"
+    }
+  ],
+  "top_story": {
+    "id": "us-ai-safety-accord",
+    "headline": "米・AI企業、外部監査を盛る任意協定",
+    "dek": "続報：前号の首脳会合予定から署名文書へ。安全管理を四つの層で構成",
+    "importance": 3,
+    "facts": [
+      "トランプ米大統領は29日、Google、Anthropic、Meta、OpenAI、X、NVIDIAの経営トップと署名した1ページのAI協定を公表した。",
+      "協定は、外部監査人による独立評価、取締役会の独立委員会、学習・提供時の内部統制、統制の稼働を確かめる社内チームという四層を求めた。",
+      "対象企業は、AIが意図せず技術システムへ侵入・アクセスしないよう、サイバー・バイオ・化学の能力と整合性を監視するとした。",
+      "文書は現時点で法的義務ではなく、企業は定期的に会合して標準とベストプラクティスを整備するとした。"
+    ],
+    "why_it_matters": "前号では政府と企業の会合開催が確認事項だったが、今回は誰が何を監督するかが文書になった点が差分である。AI安全をモデル開発者だけの判断にせず、外部評価、取締役会、実運用の担当者へ責任を分ける。ただし任意協定であり、監査基準、開示範囲、違反時の措置はこれからである。",
+    "implications": "日本企業がAIを調達する際も、ベンダーが『安全』と表明しているかではなく、独立評価の対象、取締役会への報告経路、異常時の停止権限、監査結果の共有範囲を契約で確認する必要が出てきそうだ。署名だけで事故リスクが下がったとは判断せず、今後の共通基準と監査報告の実物を追いたい。",
+    "sources": [
+      {
+        "title": "Trump releases AI accord with tech executives",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/us/trump-releases-ai-accord-with-tech-executives-2026-09-29/"
+      },
+      {
+        "title": "Trump, AI CEOs sign voluntary safety pact, back data center expansion",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/"
+      }
+    ],
+    "tags": ["AI", "監査", "企業統治"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "global-yields-japan-stocks",
+          "headline": "米10年債一時5.293%、日経396円安",
+          "dek": "長期金利は2007年以来の高水準。日本株は配当権利落ちと半導体売りも重荷",
+          "importance": 3,
+          "facts": [
+            "米10年国債利回りは29日の取引時間中に5.293%へ上昇し、2007年6月以来の高水準を付けた。30年債も一時5.6206%となった。",
+            "米国株終値はS&P500が前日比0.17%安、ダウが0.26%安、NASDAQが0.08%安だった。",
+            "東京市場では日経平均が396.35円安の65,481.27円、TOPIXが70.87ポイント安の4,041.13で終えた。",
+            "29日は9月末の配当権利落ち日で、東京市場ではAI・半導体関連株の売りに加え、権利落ちによる指数押し下げもあった。"
+          ],
+          "why_it_matters": "前号の国内長期金利3.085%は横ばいだった一方、米国の長期金利は一段上がった。政策金利の予想だけでなく、原油高、財政、AI投資の資金需要が長期の借入コストへ反映される局面である。日本株の下落を単一要因で説明せず、配当要因と金利感応度を分けて読む必要がある。",
+          "implications": "設備投資や買収を検討する企業は、短期金利だけでなく長期固定金利の再調達条件を点検したい。株価指数の前日比には機械的な権利落ちが含まれるため、事業環境悪化の大きさと同一視しない方がよい。今夜の米PCEと10月2日の雇用統計で、金利の上昇が続くかを確認する。",
+          "sources": [
+            {
+              "title": "東京マーケットダイジェスト・29日",
+              "publisher": "DZH Financial Research／OANDA",
+              "url": "https://www.oanda.jp/lab-education/market_news/mn_1036346_202609291537/"
+            },
+            {
+              "title": "Equities end slightly lower as bond yields hold near multi-decade highs",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/us-stock-futures-flat-tech-bounce-meets-crude-driven-caution-2026-09-29/"
+            }
+          ],
+          "tags": ["米国債", "日本株", "金利"]
+        },
+        {
+          "id": "rba-rate-hike",
+          "headline": "豪中銀、政策金利4.60%へ引き上げ",
+          "dek": "今年4回目、計1.0ポイントの利上げ。原油高の価格転嫁を確認",
+          "importance": 2,
+          "facts": [
+            "豪準備銀行は29日、政策金利を0.25ポイント引き上げて4.60%とすることを全会一致で決めた。",
+            "今年の利上げは4回目で、累計の引き上げ幅は1.0ポイントとなった。",
+            "声明は、原油供給の混乱が続き、燃料高が他の財・サービス価格へ一部転嫁されたと説明した。",
+            "インフレが持続的に目標へ戻るために必要なら、追加利上げを行うとした。"
+          ],
+          "why_it_matters": "エネルギー高に対して中央銀行が需要を抑える利上げで応じる例であり、日本にも輸入物価、豪ドル、資源取引を通じて波及する。供給制約による物価上昇でも、二次的な値上げや期待インフレが広がれば金融政策が動くことを示した。",
+          "implications": "豪州事業を持つ企業は住宅・消費の減速と資金調達費の上昇を織り込む必要がありそうだ。日本についても原油価格そのものだけでなく、企業が燃料高を販売価格へ転嫁するかを10月1日の日銀短観で確認したい。",
+          "sources": [
+            {
+              "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+              "publisher": "Reserve Bank of Australia",
+              "url": "https://www.rba.gov.au/media-releases/2026/mr-26-27.html"
+            },
+            {
+              "title": "Australia's central bank raises cash rate to 15-year peak",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/australias-central-bank-raises-cash-rate-15-year-peak-2026-09-29/"
+            }
+          ],
+          "tags": ["豪州", "金融政策", "インフレ"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "samsung-hbm-capacity",
+          "headline": "HBM、来年DRAM生産能力の約3割へ",
+          "dek": "Samsung幹部見通し。現在の約2割から上昇し、汎用品と生産枠を競う",
+          "importance": 2,
+          "facts": [
+            "Samsung Electronics幹部は29日、HBMが2027年にDRAMメーカーのウエハー生産能力の約30%を占めるとの見通しを示した。",
+            "現在の比率は約20%で、HBMと標準DRAMは同じウエハー生産能力を使うため、HBM増産が標準DRAMの供給を制約し得ると説明した。",
+            "HBM市場はSK Hynix、Samsung Electronics、Micron Technologyが主な供給者である。"
+          ],
+          "why_it_matters": "AI投資の影響はGPUだけでなく、同じ工場を使うPC・スマートフォン向けメモリーの供給にも及ぶ。HBMの構成比上昇は売上構成の変化だけでなく、汎用品の数量と価格を動かす生産配分の問題である。",
+          "implications": "電子機器メーカーはHBMの供給契約だけでなく、標準DRAMの調達期間と価格改定条項も確認したい。約30%は業界見通しであり確定した稼働実績ではないため、各社の増産、歩留まり、顧客認定を追う必要がある。",
+          "sources": [
+            {
+              "title": "Samsung Electronics says HBM to account for nearly 30% of industry DRAM capacity next year",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/samsung-electronics-says-hbm-account-nearly-30-industry-dram-capacity-next-year-2026-09-29/"
+            }
+          ],
+          "tags": ["HBM", "DRAM", "半導体"]
+        },
+        {
+          "id": "netlist-micron-itc",
+          "headline": "Netlist、Micron製品の輸入差止め請求",
+          "dek": "HBM特許を巡り米ITCへ。Google・NVIDIA等の搭載製品も対象に挙げる",
+          "importance": 2,
+          "facts": [
+            "Netlistは29日、Micronのメモリーと、それを組み込むGoogle、NVIDIA、Broadcomの製品の輸入差止めを求め、米国際貿易委員会へ申立てたと明らかにした。",
+            "申立てはHBM技術を扱う2件の特許侵害を主張し、対象としてDRAM、GPU、サーバー等を挙げた。",
+            "Micronは申立てへのコメントを控え、Google、NVIDIA、BroadcomはReutersの照会に直ちに回答しなかった。"
+          ],
+          "why_it_matters": "AI半導体の供給リスクは製造能力だけでなく、メモリー特許と輸入救済にも広がる。ITCの差止めが認められれば、部品単体ではなく組み込み済みのサーバーやGPUまで対象となる可能性が論点になる。",
+          "implications": "現時点は申立てであり、輸入禁止が決まったわけではない。調達担当者は代替部品の互換性、ITCの調査開始、対象製品の特定、和解の有無を追い、係争の主張を確定事実と扱わないことが重要だ。",
+          "sources": [
+            {
+              "title": "Netlist seeks U.S. import ban on Micron chips used in Google, Nvidia AI computing",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/legal/litigation/netlist-seeks-us-import-ban-micron-chips-used-google-nvidia-ai-computing-2026-09-29/"
+            }
+          ],
+          "tags": ["半導体", "特許", "ITC"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "toyota-august-sales",
+          "headline": "トヨタ8月世界販売6.4%減",
+          "dek": "79万743台で2カ月連続減。中国・米国・中東が国内増を相殺",
+          "importance": 2,
+          "facts": [
+            "トヨタの8月世界販売は前年同月比6.4%減の790,743台、世界生産は5.9%減の700,860台となり、いずれも2カ月連続で前年を下回った。",
+            "販売は中国が22.8%減、米国が4.4%減、中東が37.5%減となる一方、日本は9.1%増えた。",
+            "生産は中国が11.3%減、米国が6.6%減、日本が1.7%減だった。日本では九州の地震後の生産停止も影響した。"
+          ],
+          "why_it_matters": "単一市場の弱さではなく、中国の需要、米国販売、中東のエネルギー・地政学、日本の生産停止が同時に効いた。世界販売の規模が大きいトヨタの月次実績は、自動車部品、物流、販売金融の需要を読む材料になる。",
+          "implications": "部品会社は通期計画を一律に下げるより、地域・車種別の発注変化を確認したい。国内販売増だけで世界全体を補えておらず、中国のハイブリッド需要と中東販売の回復時期が焦点となる。月次の2カ月減少だけで長期トレンドを断定せず、9月実績を待つ必要がある。",
+          "sources": [
+            {
+              "title": "2026年8月 販売・生産・輸出実績",
+              "publisher": "トヨタ自動車",
+              "url": "https://global.toyota/jp/company/profile/production-sales-figures/"
+            },
+            {
+              "title": "Toyota August sales, production fall for second straight month",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/autos-transportation/toyota-august-sales-production-fall-second-straight-month-2026-09-29/"
+            }
+          ],
+          "tags": ["トヨタ", "自動車", "中国"]
+        },
+        {
+          "id": "nidec-ceo-resignation",
+          "headline": "ニデック岸田社長辞任、戒田氏がCEO",
+          "dek": "財務報告に関する言動を再評価。延期中の決算短信は本日開示予定",
+          "importance": 2,
+          "facts": [
+            "ニデックは29日、岸田光哉代表取締役社長兼CEOが同日付で辞任し、戒田理夫専務執行役員兼CTOが社長執行役員兼CEOに就任したと発表した。",
+            "会社は決算訂正作業の中で旧体制の行為を再評価し、岸田氏に財務報告上必ずしも適切とは言いかねる言動が確認されたと説明した。",
+            "延期していた2026年3月期第3四半期と通期の決算短信は、9月30日に開示する予定とした。"
+          ],
+          "why_it_matters": "会計・品質問題からの再建途上で、責任者と代表権の配置が再び変わった。モーター大手の統制問題は顧客の認定、仕入先との取引、資金調達に影響し得るため、人事だけでなく訂正財務と再発防止の実効性が重要になる。",
+          "implications": "本日予定の決算短信では、報道された減損額を先回りせず、会社が確定した訂正額、監査意見、継続企業や財務制限条項への影響を確認したい。新CEOの就任だけで統制改善が完了したとは扱わず、取締役会の監督と品質問題への顧客対応を追うべきだ。",
+          "sources": [
+            {
+              "title": "2026年ニュース一覧",
+              "publisher": "ニデック",
+              "url": "https://www.nidec.com/jp/news/2026"
+            },
+            {
+              "title": "ニデック岸田社長が辞任、後任社長に戒田氏",
+              "publisher": "EE Times Japan",
+              "url": "https://eetimes.itmedia.co.jp/ee/articles/2609/29/news096.html"
+            }
+          ],
+          "tags": ["ニデック", "ガバナンス", "財務報告"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "iran-talks-oil-flows",
+          "headline": "中東原油輸出回復、Brent102.59ドル",
+          "dek": "続報：カタール仲介に合意はないが、紅海側の積み出し再開で原油反落",
+          "importance": 3,
+          "facts": [
+            "カタールは29日、米国とイランの間でメッセージを仲介していると説明したが、ホルムズ海峡再開の合意は確認されていない。",
+            "サウジアラビアは東西パイプラインを再稼働し、紅海側のヤンブー港から原油タンカーへの積み込みを再開した。",
+            "Kplerによると中東産油国の9月輸出は日量1,632.8万バレルと、2月の開戦後で最高になった。",
+            "29日のBrent清算値は前日比2.69ドル安の1バレル102.59ドル、WTIは3.22ドル安の89.38ドルだった。"
+          ],
+          "why_it_matters": "前号は仲介協議の予定とBrent105.23ドルを伝えた。今回は外交上の合意ではなく、ホルムズ海峡を迂回する物理的な輸出回復が価格を押し下げた点が差分である。交渉と供給ルートは別々に進み、価格は双方を織り込む。",
+          "implications": "日本の調達企業は停戦の成否だけでなく、紅海側パイプラインの処理能力、タンカーの積載、保険料を追う必要がある。前号観測値から原油は下がったが、9月月間ではBrentが約13%上昇する見通しで、コスト圧力が解消したとは言いにくい。",
+          "sources": [
+            {
+              "title": "Qatari mediators press peace deal between US and Iran",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/trump-denies-offering-iran-sanctions-relief-tehran-says-ready-talks-2026-09-29/"
+            },
+            {
+              "title": "Oil prices settle down 2.5% on signs Middle East exports recovering",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/energy/oil-prices-rise-second-session-continued-middle-east-supply-concern-2026-09-29/"
+            }
+          ],
+          "tags": ["イラン", "原油", "ホルムズ海峡"]
+        },
+        {
+          "id": "russia-eu-assets-control",
+          "headline": "ロシア、欧州3社資産を一時管理下",
+          "dek": "Nestlé、Metro、Auchanが対象。対EU制裁への非対称措置と説明",
+          "importance": 2,
+          "facts": [
+            "ロシアは9月、Nestlé、Metro AG、Auchanのロシア資産を一時管理下に置いた。",
+            "ロシア政府関係者はEUの制裁やウクライナ支援への非対称措置と位置づけ、クレムリンは措置が可逆的だと説明した。",
+            "TASSの集計では、開戦後に一時管理の対象となった外国企業系列は135社で、企業団体AEBのロシア事業を持つ会員は前年の400社から330社へ減った。"
+          ],
+          "why_it_matters": "制裁リスクは送金や輸出の禁止だけでなく、現地法人を誰が運営できるかという資産管理へ及ぶ。法的な所有権が残っても、経営権、配当、在庫、ブランド管理が実質的に制約される可能性がある。",
+          "implications": "ロシアに直接拠点がない日本企業も、欧州の取引先が現地資産や売掛金を失う二次影響を確認したい。『一時的』『可逆的』との説明だけで回収可能性を高く見積もらず、契約、保険、減損テストを事業体ごとに見直す必要がありそうだ。",
+          "sources": [
+            {
+              "title": "Moscow sends EU message with widening corporate crackdown",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/europe/let-them-be-scared-moscow-sends-eu-message-with-widening-corporate-crackdown-2026-09-29/"
+            }
+          ],
+          "tags": ["ロシア", "EU", "資産管理"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "canada-import-ban-effective",
+          "headline": "米、カナダ産酒類等の輸入禁止発効",
+          "dek": "続報：29日午前0時過ぎに実施。未包装のバルク酒類には例外",
+          "importance": 2,
+          "facts": [
+            "米国によるカナダ産の多くの包装済み酒類、一部乳製品、二輪車の輸入禁止が29日午前0時過ぎに発効した。",
+            "包装済みウイスキー等は対象となる一方、多くの未包装バルク酒類は引き続き輸入できる。",
+            "カナダの酒類業界団体によると、同国産蒸留酒の約半分が輸出され、その93%が米国向けである。"
+          ],
+          "why_it_matters": "前号まで確認事項だった実施・延期のうち、実施が確定した。関税上乗せと異なり、対象品は価格転嫁では通関できない。ただしカテゴリー全体ではなく包装形態などで例外があり、品目コードと製品仕様の確認が必要になる。",
+          "implications": "北米で酒類や乳製品を扱う企業は、商品名ではなくHSコード、包装状態、原産地を通関業者と照合したい。バルクで米国へ送り現地瓶詰めする回避策は大手に有利で、小規模メーカーとの競争条件を変える可能性がある。",
+          "sources": [
+            {
+              "title": "Faced with US ban, Canadian booze makers see yet more hurdles at home",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/faced-with-us-ban-canadian-booze-makers-see-yet-more-hurdles-home-2026-09-29/"
+            }
+          ],
+          "tags": ["米国", "カナダ", "通商"]
+        },
+        {
+          "id": "us-spr-loan",
+          "headline": "米、戦略備蓄原油4,000万バレル融資へ",
+          "dek": "3月の国際協調放出で残る米国分。企業の応募期限は10月6日",
+          "importance": 2,
+          "facts": [
+            "米政府は29日、戦略石油備蓄から最大4,000万バレルをエネルギー企業へ貸し出す提案を受け付けると発表した。",
+            "3月に約30のIEA参加国が合意した世界4億バレル放出のうち、米国が約束した1億7,200万バレルの最後の枠に当たる。",
+            "米備蓄量は2億8,400万バレル未満と1982年以来の低水準で、企業は最大24%の上乗せを含む原油で2028年末までに返済する。",
+            "企業の提案期限は10月6日である。"
+          ],
+          "why_it_matters": "備蓄放出は供給量を短期的に増やすが、売却ではなく貸付であり、将来の返済需要を伴う。前回6月の同じ4,000万バレル枠では企業の借入希望が約50万バレルにとどまり、発表上限と実際の流通量が大きく異なった。",
+          "implications": "原油価格への影響は上限4,000万バレルではなく、10月6日までの応募量と受渡し時期で判断したい。備蓄の低下は次の緊急時の余力にも関わる。日本企業は米政策発表だけで調達価格を固定せず、中東輸出の実績と併せて見る必要がある。",
+          "sources": [
+            {
+              "title": "US to loan up to 40 million barrels of oil from SPR",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/energy/us-release-40-million-barrels-crude-strategic-petroleum-reserve-energy-2026-09-29/"
+            }
+          ],
+          "tags": ["米国", "戦略石油備蓄", "エネルギー政策"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AIの独立監査は何を確かめるのか",
+    "dek": "任意協定に登場した「外部監査」を、財務監査の比喩で終わらせず実務へ分解する",
+    "tags": ["AI監査", "内部統制", "企業統治"],
+    "reading_minutes": 6,
+    "body_md": "## なぜ今、独立監査なのか\n\n米政権と主要AI企業が署名した任意協定は、外部監査人による独立評価、取締役会の監督、学習・提供時の内部統制、統制の稼働を点検する社内チームという四層を掲げた。背景には、モデルが意図しない外部システムへ接続した事例や、能力の向上に運用管理が追いつかないとの懸念がある。ここでいう独立監査は、モデルが賢いかを順位付けするベンチマークではない。企業が決めた禁止事項を、設計と実運用が本当に守っているかを第三者が証拠で確かめる仕組みである。\n\nただし、協定は現時点で法的義務ではない。誰を独立とみなすか、どの基準で合否を決めるか、結果を顧客や当局へどこまで開示するかも固まっていない。署名は監査の入口であり、安全性の証明書ではない。\n\n## 監査対象はモデルだけではない\n\nAIサービスは、基盤モデル、追加学習、指示文、外部ツール、認証情報、ログ、停止手順を組み合わせて動く。同じモデルでも、検索だけを許す場合と、決済やコード実行まで許す場合では損失の上限が違う。このため監査対象は少なくとも三つに分かれる。第一は能力評価で、サイバー攻撃や生物・化学情報など、危険な能力をどこまで持つかを試す。第二は制御評価で、アクセス権限、承認、通信制限、異常検知、緊急停止が意図通り働くかを確かめる。第三は組織評価で、警告を誰が受け、誰が提供停止を決め、取締役会へ何時間で報告するかを追う。\n\n重要なのは、評価環境での成功と本番での継続的な統制を分けることだ。公開前の一度のテストに合格しても、モデル更新、ツール追加、権限変更で前提は崩れる。監査には対象バージョン、実施日、再評価の条件が必要になる。\n\n## 独立性と証拠が難所になる\n\n外部監査人が開発企業から報酬を受ければ、利益相反の疑いは残る。一方で、最先端モデルの内部情報を全面公開すれば、知的財産や攻撃手法が漏れる危険がある。独立性を高めながら機密を守るには、監査人の選任・交代ルール、非監査業務の制限、検証用環境への安全なアクセスが要る。\n\nさらに、AIの出力は確率的である。同じ入力でも結果が変わるため、単発の再現では統制の有効性を評価しにくい。試験回数、失敗率、重大度、許容水準を事前に決め、モデルが監査を認識して振る舞いを変える可能性も考える必要がある。ログが欠けていれば、事故後に原因と影響範囲を追えない。監査可能性は後付けの報告書ではなく、開発時からのログ設計と変更管理で作られる。\n\n## 取締役会と利用企業の役割\n\n協定は取締役会の独立委員会を監督先に置いた。これはAIリスクを研究部門だけに閉じず、財務、法務、顧客、社会への影響を経営責任として扱う発想である。委員会には重大事故の定義、提供停止の基準、改善期限、未解決事項を受け取る仕組みが要る。監査結果が現場へ戻らなければ、指摘は棚に置かれる。\n\n利用企業も受け身ではいられない。調達時には『第三者評価済み』という表示だけでなく、対象モデルと機能、監査基準、例外、最新評価日、重大な未解決事項を確認したい。自社が追加したデータやツールは供給者の監査範囲外かもしれない。ベンダー側の統制と、自社側の権限管理・人による承認を接続して初めて、業務全体の安全性を説明できる。\n\n## 次に見るべきもの\n\n今後の焦点は、署名企業が共通��試験基準を公表するか、監査人がどこまで結果へ意見を表明するか、重大事故や是正状況を利用者へ開示するかである。法律への将来の組み込みも文書は示唆するが、現段階で義務化を前提にしてはならない。\n\n独立監査の価値は『事故が起きない』との保証ではなく、誰が何を確認し、どの限界を残したかを追跡可能にすることにある。AIを導入する企業にとって、性能比較表の次に必要なのは、統制の対象と証拠を読める調達能力である。",
+    "sources": [
+      {
+        "title": "Trump releases AI accord with tech executives",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/us/trump-releases-ai-accord-with-tech-executives-2026-09-29/"
+      },
+      {
+        "title": "Trump, AI CEOs sign voluntary safety pact, back data center expansion",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/legal/government/trump-host-zuckerberg-anthropics-amodei-other-ai-titans-tuesday-2026-09-29/"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "AI調達ではモデル性能に加え、外部監査の対象範囲、未解決事項、取締役会への報告経路を比較条件にすべきだろう。",
+      "長期金利上昇と原油反落が同時に起きている。資金調達コストと仕入価格を一つの景気シナリオにまとめず、別々に感応度を置きたい。",
+      "半導体の供給制約は工場能力と特許係争の双方から生じる。代替品は数量だけでなく互換性と法的対象範囲を確認する必要がある。",
+      "政策の発表上限を実供給と同一視しない。SPR貸付は企業の応募量、通商措置は品目コードと通関実績で確かめたい。"
+    ],
+    "watchlist": [
+      {
+        "item": "日銀短観・9月会合の主な意見",
+        "why": "販売価格、仕入価格、設備投資、雇用人員と追加利上げ観を確認",
+        "horizon": "10月1日8:50 JST"
+      },
+      {
+        "item": "米9月雇用統計",
+        "why": "JOLTSの求人減少と雇用者数・賃金を照合",
+        "horizon": "10月2日21:30 JST"
+      },
+      {
+        "item": "AI安全協定の共通基準",
+        "why": "監査基準、独立性、開示範囲、法制化の有無を確認",
+        "horizon": "署名企業の次回公表時"
+      },
+      {
+        "item": "ニデック訂正決算",
+        "why": "確定した減損・監査意見・財務制限条項への影響を確認",
+        "horizon": "9月30日予定"
+      },
+      {
+        "item": "米SPR貸付応募",
+        "why": "上限4,000万バレルに対する実際の応募量と受渡し時期を確認",
+        "horizon": "10月6日締切後"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "独立監査",
+      "reading": "どくりつかんさ",
+      "definition": "業務の実行者から独立した立場が、定めた基準に照らして統制や証拠を評価すること。AIではモデル能力だけでなく、権限、監視、停止、報告の運用が対象になる。"
+    },
+    {
+      "term": "HBM",
+      "reading": "エイチビーエム",
+      "definition": "複数のDRAMチップを積層し、広い接続幅で高速にデータを渡すメモリー。AI計算向け需要が増え、標準DRAMとウエハー生産能力を奪い合う。"
+    },
+    {
+      "term": "ITC",
+      "reading": "アイティーシー",
+      "definition": "米国際貿易委員会。輸入品による特許侵害などを調査し、要件を満たせば排除命令や輸入差止めを扱う。申立て時点では違反も禁止も確定していない。"
+    },
+    {
+      "term": "戦略石油備蓄",
+      "reading": "せんりゃくせきゆびちく",
+      "definition": "供給途絶などの緊急時に備えて政府が保有する原油。在庫を売却する方式と、企業へ貸して将来原油で返済させる方式がある。"
+    }
+  ]
+}
