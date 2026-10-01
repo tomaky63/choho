@@ -1,6 +1,13 @@
 import type { SummaryItem } from '@/lib/issues';
 
-export default function SummaryBox({ items }: { items: SummaryItem[] }) {
+export default function SummaryBox({ items, focusRefs }: { items: SummaryItem[]; focusRefs?: string[] }) {
+  const focus = (focusRefs ?? []).flatMap((ref) => {
+    const item = items.find((entry) => entry.ref === ref);
+    return item ? [item] : [];
+  });
+  const orderedItems = focus.length
+    ? [...focus, ...items.filter((item) => !item.ref || !focusRefs?.includes(item.ref))]
+    : items;
   return (
     <section id="summary" className="anchor-target mt-6">
       <div className="border-y-2 border-ink-strong bg-surface px-5 py-5 sm:px-7">
@@ -11,13 +18,16 @@ export default function SummaryBox({ items }: { items: SummaryItem[] }) {
             EXECUTIVE SUMMARY
           </span>
         </h2>
+        {focus.length > 0 && (
+          <p className="mb-3 text-[12px] font-bold text-accent">まずこの{focus.length}本。残りの要点はその下に</p>
+        )}
         <ol className="space-y-2.5">
-          {items.map((s, i) => {
+          {orderedItems.map((s, i) => {
             const body = (
               <span className="text-[14px] leading-relaxed">{s.text}</span>
             );
             return (
-              <li key={i} className="flex gap-3">
+              <li key={i} className={`flex gap-3 ${focus.length > 0 && i === focus.length ? 'border-t border-rule pt-3' : ''}`}>
                 <span className="tabular mt-px shrink-0 font-serif text-[13px] font-bold text-accent">
                   {String(i + 1).padStart(2, '0')}
                 </span>
@@ -43,3 +53,4 @@ export default function SummaryBox({ items }: { items: SummaryItem[] }) {
     </section>
   );
 }
+

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import ThemeToggle from '@/components/ThemeToggle';
 import { formatDateJa } from '@/lib/issues';
+import { formatGeneratedAtJst } from '@/lib/datetime';
 
 interface Props {
   /** 号の発行日(YYYY-MM-DD)。アーカイブ等では省略 */
@@ -11,14 +12,8 @@ interface Props {
   readingLabel?: string;
 }
 
-function generatedTime(iso?: string): string | null {
-  if (!iso) return null;
-  const m = iso.match(/T(\d{2}):(\d{2})/);
-  return m ? `${m[1]}:${m[2]}` : null;
-}
-
 export default function Masthead({ date, edition, generatedAt, mastheadNote, readingLabel }: Props) {
-  const time = generatedTime(generatedAt);
+  const time = formatGeneratedAtJst(generatedAt);
   return (
     <header>
       {/* 最上段: 日付・ナビ */}
@@ -53,7 +48,7 @@ export default function Masthead({ date, edition, generatedAt, mastheadNote, rea
         <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-1 py-2 text-[11px] tracking-wide text-muted">
           <span>
             {edition ? `第${edition}号` : ''}
-            {time ? `　·　${time} 生成` : ''}
+            {time && <>　·　<time dateTime={generatedAt}>{time}</time> 生成</>}
             {'　·　Codex 編集'}
           </span>
           {readingLabel && <span>{readingLabel}</span>}
@@ -67,3 +62,4 @@ export default function Masthead({ date, edition, generatedAt, mastheadNote, rea
     </header>
   );
 }
+

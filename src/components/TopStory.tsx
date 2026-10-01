@@ -1,5 +1,6 @@
 import type { Article } from '@/lib/issues';
 import SourceLinks from '@/components/SourceLinks';
+import FollowUpPanel from '@/components/FollowUpPanel';
 
 export default function TopStory({ article }: { article: Article }) {
   return (
@@ -43,6 +44,8 @@ export default function TopStory({ article }: { article: Article }) {
           </div>
         </div>
 
+        {article.follow_up && <FollowUpPanel followUp={article.follow_up} />}
+
         <div className="mt-5">
           <SourceLinks sources={article.sources} />
         </div>
@@ -50,3 +53,4 @@ export default function TopStory({ article }: { article: Article }) {
     </section>
   );
 }
+

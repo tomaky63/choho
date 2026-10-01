@@ -1,5 +1,6 @@
 import type { Article } from '@/lib/issues';
 import SourceLinks from '@/components/SourceLinks';
+import FollowUpPanel from '@/components/FollowUpPanel';
 
 function ImportanceBadge({ level }: { level: 1 | 2 | 3 }) {
   if (level === 3)
@@ -73,9 +74,12 @@ export default function ArticleCard({ article }: { article: Article }) {
         </div>
       )}
 
+      {article.follow_up && <FollowUpPanel followUp={article.follow_up} />}
+
       <div className="mt-auto">
         <SourceLinks sources={article.sources} />
       </div>
     </article>
   );
 }
+

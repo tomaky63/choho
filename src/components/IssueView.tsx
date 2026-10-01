@@ -34,7 +34,7 @@ export default function IssueView({ issue }: { issue: Issue }) {
       <SectionNav />
 
       <main>
-        <SummaryBox items={issue.executive_summary} />
+        <SummaryBox items={issue.executive_summary} focusRefs={issue.focus_refs} />
         <TopStory article={issue.top_story} />
 
         {issue.sections.map((sec) => (
@@ -60,3 +60,4 @@ export default function IssueView({ issue }: { issue: Issue }) {
     </>
   );
 }
+

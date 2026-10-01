@@ -19,6 +19,14 @@ export interface Source {
   url: string;
 }
 
+export interface FollowUp {
+  previous: { date: string; article_id: string };
+  assessment: 'strengthened' | 'weakened' | 'mixed' | 'unchanged' | 'pending';
+  reassessment: string;
+  next_check: string;
+  reconsider_if: string;
+}
+
 export interface Article {
   id: string;
   headline: string;
@@ -29,6 +37,7 @@ export interface Article {
   implications?: string;
   sources: Source[];
   tags?: string[];
+  follow_up?: FollowUp;
 }
 
 export type SectionId =
@@ -81,6 +90,7 @@ export interface Issue {
   masthead_note?: string;
   market_snapshot: { as_of: string; items: MarketItem[] };
   executive_summary: SummaryItem[];
+  focus_refs?: string[]; // 先に読む2〜3本。executive_summary.refを参照
   top_story: Article;
   sections: Section[];
   frontier: Frontier;
@@ -167,7 +177,10 @@ function articleChars(a: Article): number {
     (a.dek?.length ?? 0) +
     a.facts.join('').length +
     a.why_it_matters.length +
-    (a.implications?.length ?? 0)
+    (a.implications?.length ?? 0) +
+    (a.follow_up?.reassessment.length ?? 0) +
+    (a.follow_up?.next_check.length ?? 0) +
+    (a.follow_up?.reconsider_if.length ?? 0)
   );
 }
 
@@ -190,3 +203,4 @@ export function frontierReadingMinutes(issue: Issue): number {
   const chars = issue.frontier.title.length + issue.frontier.dek.length + issue.frontier.body_md.length;
   return Math.max(1, Math.round(chars / 550));
 }
+

@@ -72,6 +72,45 @@ function checkSources(sources, ctx) {
   });
 }
 
+const isDate = (value) => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value)
+  && !Number.isNaN(Date.parse(`${value}T00:00:00Z`))
+  && new Date(`${value}T00:00:00Z`).toISOString().slice(0, 10) === value;
+let followUpCount = 0;
+function checkFollowUp(value, article, ctx) {
+  if (value === undefined) return;
+  followUpCount += 1;
+  if (!value || typeof value !== 'object' || Array.isArray(value)) {
+    err(`${ctx}: follow_up はオブジェクト`);
+    return;
+  }
+  if (![2, 3].includes(article.importance)) err(`${ctx}: follow_up は importance 2|3 の主要記事だけに付ける`);
+  if (!['strengthened', 'weakened', 'mixed', 'unchanged', 'pending'].includes(value.assessment))
+    err(`${ctx}: follow_up.assessment は strengthened|weakened|mixed|unchanged|pending`);
+  for (const key of ['reassessment', 'next_check', 'reconsider_if']) {
+    if (!isStr(value[key])) err(`${ctx}: follow_up.${key} がない`);
+  }
+  const length = ['reassessment', 'next_check', 'reconsider_if']
+    .reduce((total, key) => total + (typeof value[key] === 'string' ? value[key].length : 0), 0);
+  if (length > 450) warn(`${ctx}: follow_up が ${length} 字。本文の繰り返しを避け、合計450字以内を目安にする`);
+  const previous = value.previous;
+  if (!isDate(previous?.date) || previous.date >= fileDate) {
+    err(`${ctx}: follow_up.previous.date は本号より前の実在日付`);
+    return;
+  }
+  if (!isStr(previous?.article_id) || !/^[a-z0-9-]+$/.test(previous.article_id)) {
+    err(`${ctx}: follow_up.previous.article_id は過去記事の kebab-case id`);
+    return;
+  }
+  try {
+    const prior = JSON.parse(fs.readFileSync(path.join(ISSUES_DIR, `${previous.date}.json`), 'utf-8'));
+    const articles = [prior.top_story, ...(prior.sections ?? []).flatMap((section) => section.articles ?? [])];
+    if (!articles.some((entry) => entry?.id === previous.article_id))
+      err(`${ctx}: follow_up の参照先記事 ${previous.date}#${previous.article_id} がない`);
+  } catch {
+    err(`${ctx}: follow_up の参照先号 ${previous.date} を読み込めない`);
+  }
+}
+
 const articleIds = new Set();
 function checkArticle(a, ctx) {
   if (!isStr(a?.id)) {
@@ -96,6 +135,7 @@ function checkArticle(a, ctx) {
   else if (a.why_it_matters.length < 40)
     warn(`${ctx}: why_it_matters が ${a.why_it_matters.length} 字。40字以上で構造的な意味を書く`);
   checkSources(a?.sources, ctx);
+  checkFollowUp(a?.follow_up, a, ctx);
 }
 
 // ---- トップレベル ----
@@ -171,6 +211,22 @@ if (!Array.isArray(issue.sections)) {
   });
 }
 
+if (followUpCount > 2) err(`follow_up は1号あたり最大2本(現在 ${followUpCount})`);
+
+// focus_refs は既存の要点を優先表示するだけ。別の要約は増やさない。
+if (issue.focus_refs !== undefined) {
+  if (!Array.isArray(issue.focus_refs) || issue.focus_refs.length < 2 || issue.focus_refs.length > 3) {
+    err('focus_refs は記事idを2〜3件指定する配列');
+  } else {
+    if (new Set(issue.focus_refs).size !== issue.focus_refs.length) err('focus_refs に重複がある');
+    issue.focus_refs.forEach((ref) => {
+      if (!isStr(ref) || !articleIds.has(ref)) err(`focus_refs の記事 ${ref} がない`);
+      const matching = Array.isArray(summary) ? summary.filter((entry) => entry?.ref === ref) : [];
+      if (matching.length !== 1) err(`focus_refs の記事 ${ref} は executive_summary.ref に1回だけ必要`);
+    });
+  }
+}
+
 // summary の ref が実在する記事を指すか
 if (Array.isArray(summary)) {
   summary.forEach((s, i) => {
@@ -236,7 +292,10 @@ function articleChars(a) {
     (a.dek?.length ?? 0) +
     (Array.isArray(a.facts) ? a.facts.join('').length : 0) +
     (a.why_it_matters?.length ?? 0) +
-    (a.implications?.length ?? 0)
+    (a.implications?.length ?? 0) +
+    (typeof a.follow_up?.reassessment === 'string' ? a.follow_up.reassessment.length : 0) +
+    (typeof a.follow_up?.next_check === 'string' ? a.follow_up.next_check.length : 0) +
+    (typeof a.follow_up?.reconsider_if === 'string' ? a.follow_up.reconsider_if.length : 0)
   );
 }
 let mainChars = (summary ?? []).reduce((n, s) => n + (s?.text?.length ?? 0), 0);
@@ -261,3 +320,4 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(`\n✓ 合格${warnings.length ? '(警告あり — 可能なら改善)' : ''}`);
+
