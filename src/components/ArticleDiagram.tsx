@@ -26,10 +26,12 @@ function isStatus(value: unknown): value is DiagramStatus | undefined {
 }
 
 export function isRenderableDiagram(value: unknown): value is DiagramData {
-  if (!isRecord(value) || !hasText(value.title) || !hasText(value.type)) return false;
+  if (!isRecord(value) || !hasText(value.title) || !hasText(value.type)
+    || (value.note !== undefined && !hasText(value.note))) return false;
 
   if (value.type === 'comparison') {
-    return Array.isArray(value.items)
+    return (value.unit === undefined || hasText(value.unit))
+      && Array.isArray(value.items)
       && value.items.length >= 2
       && value.items.length <= 8
       && value.items.every((item) => isRecord(item)
@@ -110,8 +112,11 @@ function Comparison({ diagram }: { diagram: ComparisonDiagram }) {
   const values = diagram.items.map((item) => item.value);
   const minimum = Math.min(0, ...values);
   const maximum = Math.max(0, ...values);
-  const span = maximum - minimum || 1;
-  const zero = (-minimum / span) * 100;
+  const scale = Math.max(1, Math.abs(minimum), Math.abs(maximum));
+  const scaledMinimum = minimum / scale;
+  const scaledMaximum = maximum / scale;
+  const span = scaledMaximum - scaledMinimum || 1;
+  const zero = (-scaledMinimum / span) * 100;
 
   return (
     <div>
@@ -120,7 +125,7 @@ function Comparison({ diagram }: { diagram: ComparisonDiagram }) {
       )}
       <ul className="space-y-3">
         {diagram.items.map((item, index) => {
-          const rawWidth = Math.abs(item.value) / span * 100;
+          const rawWidth = Math.abs(item.value / scale) / span * 100;
           const width = item.value === 0 ? 0 : Math.max(rawWidth, 1);
           const left = item.value >= 0 ? zero : zero - width;
           const barClass = item.status === 'forecast'
@@ -132,10 +137,10 @@ function Comparison({ diagram }: { diagram: ComparisonDiagram }) {
             <li key={item.label + '-' + index}>
               <div className="mb-1 flex items-center justify-between gap-3 text-[11px] leading-snug">
                 <span className="flex min-w-0 items-center gap-1.5">
-                  <span className="truncate">{item.label}</span>
+                  <span className="min-w-0 break-words">{item.label}</span>
                   <StatusBadge status={item.status} />
                 </span>
-                <span className="tabular shrink-0 font-bold text-ink-strong">
+                <span className="tabular max-w-[45%] shrink-0 break-all text-right font-bold text-ink-strong">
                   {item.display_value ?? item.value}
                 </span>
               </div>
@@ -244,8 +249,10 @@ function Relationship({ diagram }: { diagram: RelationshipDiagram }) {
           return (
             <li key={link.from + '-' + link.to + '-' + index} className="text-[10.5px] leading-relaxed text-muted">
               <span className="text-ink">{from.label}</span>
+              <span className="sr-only">から</span>
               <span aria-hidden="true"> → </span>
               <span className="text-ink">{to.label}</span>
+              <span className="sr-only">へ</span>
               {link.label && <span>：{link.label}</span>}
             </li>
           );

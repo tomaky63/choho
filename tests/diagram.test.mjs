@@ -38,6 +38,22 @@ test('comparison diagram keeps actual and forecast visible without generated ima
   assert.doesNotMatch(html, /<img/);
 });
 
+test('comparison diagram keeps extreme signed values on a finite centered scale', () => {
+  const html = render({
+    type: 'comparison',
+    title: '正負の最大値',
+    items: [
+      { label: '非常に長い日本語ラベル'.repeat(8), value: -Number.MAX_VALUE, status: 'actual' },
+      { label: '正の値', value: Number.MAX_VALUE, display_value: '1.7976931348623157e+308', status: 'forecast' },
+    ],
+  });
+  assert.doesNotMatch(html, /NaN|Infinity/);
+  assert.match(html, /left:0%;width:50%/);
+  assert.match(html, /left:50%;width:50%/);
+  assert.match(html, /break-words/);
+  assert.match(html, /max-w-\[45%\].*break-all/);
+});
+
 test('timeline and relationship diagrams expose their meaning as text', () => {
   const timeline = render({
     type: 'timeline',
@@ -66,11 +82,21 @@ test('timeline and relationship diagrams expose their meaning as text', () => {
   assert.match(relationship, /<svg/);
   assert.match(relationship, /資金提供者/);
   assert.match(relationship, /融資/);
+  assert.match(relationship, /資金提供者<\/span><span class="sr-only">から<\/span>/);
+  assert.match(relationship, /AI企業<\/span><span class="sr-only">へ<\/span>/);
   assert.doesNotMatch(relationship, /<img/);
 });
 
 test('invalid optional diagram renders nothing', () => {
   assert.equal(render({ type: 'comparison', title: '不足', items: [{ label: '1件', value: 1 }] }), '');
+  assert.equal(render({
+    type: 'comparison', title: '不正な単位', unit: { text: 'ポイント' },
+    items: [{ label: 'A', value: 1 }, { label: 'B', value: 2 }],
+  }), '');
+  assert.equal(render({
+    type: 'timeline', title: '不正な注記', note: { text: '注記' },
+    items: [{ date: '1日', label: 'A' }, { date: '2日', label: 'B' }],
+  }), '');
   assert.equal(render({ type: 'relationship', title: '壊れた参照', nodes: [
     { id: 'a', label: 'A' }, { id: 'b', label: 'B' },
   ], links: [{ from: 'a', to: 'missing' }] }), '');

@@ -124,6 +124,8 @@ function checkDiagram(value, ctx) {
   if (value.note !== undefined && !isStr(value.note)) diagramWarn('note は空でない文字列にする');
 
   if (value.type === 'comparison') {
+    if (value.unit !== undefined && !isStr(value.unit))
+      diagramWarn('comparison.unit は空でない文字列にする');
     if (!Array.isArray(value.items) || value.items.length < 2 || value.items.length > 8) {
       diagramWarn('comparison.items は2〜8件にする');
       return;
@@ -401,4 +403,3 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(`\n✓ 合格${warnings.length ? '(警告あり — 可能なら改善)' : ''}`);
-
