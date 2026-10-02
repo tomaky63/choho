@@ -15,8 +15,17 @@ test('converts UTC and handles the Japan date rollover', () => {
   assert.equal(formatGeneratedAtJst('2026-09-30T22:59:07Z'), '2026/10/01 07:59 JST');
   assert.equal(formatGeneratedAtJst('2026-09-30T15:00:00Z'), '2026/10/01 00:00 JST');
 });
+test('accepts real leap days, explicit offsets and fractional seconds', () => {
+  assert.equal(formatGeneratedAtJst('2024-02-29T00:00:00Z'), '2024/02/29 09:00 JST');
+  assert.equal(formatGeneratedAtJst('2026-09-30T18:59:07-04:00'), '2026/10/01 07:59 JST');
+  assert.equal(formatGeneratedAtJst('2026-10-01T07:59+09:00'), '2026/10/01 07:59 JST');
+  assert.equal(formatGeneratedAtJst('2026-10-01T07:59:07.123+09:00'), '2026/10/01 07:59 JST');
+});
 test('rejects missing, invalid and timezone-ambiguous values', () => {
-  for (const value of [undefined, '', 'invalid', '2026-10-01T07:59:07', 'badT07:59:07Z']) {
+  for (const value of [undefined, '', 'invalid', '2026-10-01T07:59:07', 'badT07:59:07Z',
+    '2026-02-30T07:59:07+09:00', '2026-02-29T07:59:07Z', '2026-04-31T07:59:07Z',
+    '2026-10-01T24:00:00Z', '2026-10-01T07:60:00Z', '2026-10-01T07:59:60Z',
+    ' 2026-10-01T07:59:07Z', 'October 1, 2026 07:59:07 GMT']) {
     assert.equal(formatGeneratedAtJst(value), null);
   }
 });

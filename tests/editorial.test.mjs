@@ -57,6 +57,29 @@ test('legacy issue and optional editorial extensions validate', () => {
   assert.equal(result.status, 0, result.stdout + result.stderr);
 });
 
+test('generation timestamps reject ambiguous, non-ISO and normalized dates', () => {
+  for (const value of ['2026-10-01T07:59:07', '2026-10-01', 'October 1, 2026 07:59:07 GMT',
+    '2026-02-30T07:59:07+09:00', '2026-02-29T07:59:07Z', '2026-04-31T07:59:07Z',
+    '2026-10-01T24:00:00Z', '2026-10-01T07:60:00Z', '2026-10-01T07:59:60Z',
+    ' 2026-10-01T07:59:07Z']) {
+    const data = clone(); data.generated_at = value;
+    const result = validate(data);
+    assert.equal(result.status, 1, value);
+    assert.match(result.stdout, /generated_at/);
+  }
+});
+
+test('explicit UTC, signed offsets, minutes and fractions remain valid and visible', () => {
+  const { formatGeneratedAtJst } = load('src/lib/datetime.ts');
+  for (const value of ['2026-09-30T22:59:07Z', '2026-09-30T18:59:07-04:00',
+    '2026-10-01T07:59+09:00', '2026-10-01T07:59:07.123+09:00']) {
+    const data = clone(); data.generated_at = value;
+    const result = validate(data);
+    assert.equal(result.status, 0, result.stdout + result.stderr);
+    assert.equal(formatGeneratedAtJst(value), '2026/10/01 07:59 JST');
+  }
+});
+
 test('pending remains distinct from an unchanged assessment', () => {
   const data = clone(); article(data).follow_up = { ...sample, assessment: 'pending' };
   assert.equal(validate(data).status, 0);

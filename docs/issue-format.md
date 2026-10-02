@@ -23,6 +23,8 @@ TypeScript の型定義の正本は [src/lib/issues.ts](../src/lib/issues.ts)、
 }
 ```
 
+- `generated_at` は実在する日付・時刻の ISO 8601 日時。`Z` または `+09:00` などのタイムゾーンを必ず付ける。表示は日本時間に変換される
+
 ## market_snapshot
 
 ```jsonc

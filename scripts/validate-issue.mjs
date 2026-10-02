@@ -75,6 +75,10 @@ function checkSources(sources, ctx) {
 const isDate = (value) => typeof value === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(value)
   && !Number.isNaN(Date.parse(`${value}T00:00:00Z`))
   && new Date(`${value}T00:00:00Z`).toISOString().slice(0, 10) === value;
+// Keep accepted timestamps consistent with formatGeneratedAtJst (including calendar validity).
+const isTimestamp = (value) => typeof value === 'string'
+  && /^\d{4}-\d{2}-\d{2}T(?:[01]\d|2[0-3]):[0-5]\d(?::[0-5]\d(?:\.\d+)?)?(?:Z|[+-](?:[01]\d|2[0-3]):[0-5]\d)$/.test(value)
+  && isDate(value.slice(0, 10)) && !Number.isNaN(Date.parse(value));
 let followUpCount = 0;
 function checkFollowUp(value, article, ctx) {
   if (value === undefined) return;
@@ -221,8 +225,8 @@ function checkArticle(a, ctx) {
 // ---- トップレベル ----
 if (issue.date !== fileDate) err(`date (${issue.date}) がファイル名 (${fileDate}) と一致しない`);
 if (!Number.isInteger(issue.edition) || issue.edition < 1) err('edition は 1 以上の整数');
-if (!isStr(issue.generated_at) || isNaN(Date.parse(issue.generated_at)))
-  err('generated_at は ISO 8601 日時');
+if (!isTimestamp(issue.generated_at))
+  err('generated_at は実在する日付・時刻の ISO 8601 日時(タイムゾーン Z または ±HH:MM が必須)');
 
 // edition の連番チェック(過去号があれば)
 try {
