@@ -139,7 +139,51 @@
       "短観",
       "設備投資",
       "金融政策"
-    ]
+    ],
+    "diagram": {
+      "type": "comparison",
+      "title": "大企業の業況判断DI：実績と予測",
+      "unit": "％ポイント",
+      "note": "2026年9月短観（10月1日公表）。6月・9月は実績、12月は企業予測。DIは「良い」回答比率－「悪い」回答比率。",
+      "items": [
+        {
+          "label": "製造業・6月",
+          "value": 22,
+          "display_value": "22",
+          "status": "actual"
+        },
+        {
+          "label": "製造業・9月",
+          "value": 24,
+          "display_value": "24",
+          "status": "actual"
+        },
+        {
+          "label": "製造業・12月",
+          "value": 21,
+          "display_value": "21",
+          "status": "forecast"
+        },
+        {
+          "label": "非製造業・6月",
+          "value": 37,
+          "display_value": "37",
+          "status": "actual"
+        },
+        {
+          "label": "非製造業・9月",
+          "value": 35,
+          "display_value": "35",
+          "status": "actual"
+        },
+        {
+          "label": "非製造業・12月",
+          "value": 30,
+          "display_value": "30",
+          "status": "forecast"
+        }
+      ]
+    }
   },
   "sections": [
     {

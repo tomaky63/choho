@@ -76,6 +76,71 @@ TypeScript の型定義の正本は [src/lib/issues.ts](../src/lib/issues.ts)、
 }
 ```
 
+## 任意: Article / frontier.diagram（図解）
+
+文章を読み直さなくても比較・順序・関係が掴める場合だけ、記事または深掘りに `diagram` を1つ付けられる。
+画像生成や外部APIは使わず、サイト側が構造化データをHTML/CSS/SVGへ変換する。省略時は過去号を含め
+従来どおり表示する。不正なデータは図だけ非表示となり、検証では警告に留めて本文公開を妨げない。
+
+### 数値比較（comparison）
+
+```jsonc
+"diagram": {
+  "type": "comparison",
+  "title": "大企業の業況判断DI：実績と予測",
+  "unit": "％ポイント",
+  "note": "2026年9月短観。6月・9月は実績、12月は企業予測。",
+  "items": [
+    { "label": "製造業・6月", "value": 22, "display_value": "22", "status": "actual" },
+    { "label": "製造業・9月", "value": 24, "display_value": "24", "status": "actual" },
+    { "label": "製造業・12月", "value": 21, "display_value": "21", "status": "forecast" }
+  ]
+}
+```
+
+- `items` は2〜8件。`value` はバー長計算用の数値、`display_value` は表示文字列（省略可）
+- `status` は `actual`（実績）/ `forecast`（予測）/ `context`（参考）。計画・予測を実績扱いしない
+- `note` に時点、単位、比較条件、実績と予測の区別を書く。数値は同じ記事の `sources` で照合する
+
+### 時系列（timeline）
+
+```jsonc
+"diagram": {
+  "type": "timeline",
+  "title": "制度施行までの主要日程",
+  "note": "日付は日本時間。未確定日程は予測と明記。",
+  "items": [
+    { "date": "10月1日", "label": "法案成立", "status": "actual" },
+    { "date": "12月1日", "label": "施行予定", "detail": "政令の公布が前提", "status": "forecast" }
+  ]
+}
+```
+
+- `items` は2〜8件。日付・順序が記事理解の中心である場合に限る
+- `date` は表示用文字列。タイムゾーンや予定／実績の別を `note` と `status` で明示する
+
+### 関係図（relationship）
+
+```jsonc
+"diagram": {
+  "type": "relationship",
+  "title": "資金と計算資源の関係",
+  "nodes": [
+    { "id": "lender", "label": "資金提供者" },
+    { "id": "customer", "label": "AI企業" },
+    { "id": "supplier", "label": "計算資源供給者" }
+  ],
+  "links": [
+    { "from": "lender", "to": "customer", "label": "融資" },
+    { "from": "customer", "to": "supplier", "label": "利用料" }
+  ],
+  "note": "契約当事者と資金の流れだけを表示。推測を事実の線として描かない。"
+}
+```
+
+- `nodes` は2〜6件、`links` は1〜8件。ノードIDは号内でなく図内だけで一意な kebab-case
+- 関係の向きとラベルを原典で確認する。単なる箱と矢印の言い換えになるなら図を付けない
+
 ## sections(固定5セクション・この順)
 
 ```jsonc

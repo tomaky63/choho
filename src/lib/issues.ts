@@ -27,6 +27,50 @@ export interface FollowUp {
   reconsider_if: string;
 }
 
+export type DiagramStatus = 'actual' | 'forecast' | 'context';
+
+interface DiagramBase {
+  title: string;
+  note?: string;
+}
+
+export interface ComparisonDiagram extends DiagramBase {
+  type: 'comparison';
+  unit?: string;
+  items: {
+    label: string;
+    value: number;
+    display_value?: string;
+    status?: DiagramStatus;
+  }[];
+}
+
+export interface TimelineDiagram extends DiagramBase {
+  type: 'timeline';
+  items: {
+    date: string;
+    label: string;
+    detail?: string;
+    status?: DiagramStatus;
+  }[];
+}
+
+export interface RelationshipDiagram extends DiagramBase {
+  type: 'relationship';
+  nodes: {
+    id: string;
+    label: string;
+    detail?: string;
+  }[];
+  links: {
+    from: string;
+    to: string;
+    label?: string;
+  }[];
+}
+
+export type ArticleDiagram = ComparisonDiagram | TimelineDiagram | RelationshipDiagram;
+
 export interface Article {
   id: string;
   headline: string;
@@ -38,6 +82,7 @@ export interface Article {
   sources: Source[];
   tags?: string[];
   follow_up?: FollowUp;
+  diagram?: ArticleDiagram;
 }
 
 export type SectionId =
@@ -63,6 +108,7 @@ export interface Frontier {
   tags?: string[];
   reading_minutes?: number;
   body_md: string;
+  diagram?: ArticleDiagram;
   sources: Source[];
 }
 

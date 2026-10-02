@@ -1,6 +1,7 @@
 import type { Article } from '@/lib/issues';
 import SourceLinks from '@/components/SourceLinks';
 import FollowUpPanel from '@/components/FollowUpPanel';
+import ArticleDiagram from '@/components/ArticleDiagram';
 
 export default function TopStory({ article }: { article: Article }) {
   return (
@@ -17,6 +18,8 @@ export default function TopStory({ article }: { article: Article }) {
             {article.dek}
           </p>
         )}
+
+        {article.diagram && <ArticleDiagram diagram={article.diagram} />}
 
         <div className="mt-5 grid gap-5 md:grid-cols-[1.15fr_1fr]">
           <div>

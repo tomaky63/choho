@@ -43,6 +43,8 @@ git pull --rebase origin main
 - `edition` は前号の edition + 1
 - `generated_at` は現在時刻(JST、ISO 8601)
 - 内容の品質基準は [editorial-guide.md](editorial-guide.md) に従う
+- 図解は [editorial-guide.md](editorial-guide.md) §12 の採用基準を満たす記事だけ `diagram` を付ける。0件が通常で、固定枚数を埋めない
+- 図解を付ける場合は数値・日付・関係を原典へ再照合し、`actual`（実績）と `forecast`（予測・計画）を分ける
 
 ## 5. 検証
 
@@ -51,6 +53,8 @@ node scripts/validate-issue.mjs content/issues/YYYY-MM-DD.json
 ```
 
 - **エラーが0件になるまで修正して再実行**する。警告も可能な限り解消する
+- `diagram` の警告は本文の合格を妨げないが、値・型・参照を直せない図は削除する。図なしでも号は完成である
+- 図解を採用した号はスマホ幅でラベル、単位、実績／予測、出典注記が読めることを公開前に確認する
 - 検証を通らないままの commit は禁止
 
 ## 6. watchlist の更新

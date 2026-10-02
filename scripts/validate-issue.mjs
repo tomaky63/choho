@@ -111,6 +111,83 @@ function checkFollowUp(value, article, ctx) {
   }
 }
 
+let diagramCount = 0;
+function checkDiagram(value, ctx) {
+  if (value === undefined) return;
+  diagramCount += 1;
+  const diagramWarn = (message) => warn(`${ctx}: diagram ${message}。図は省略可能で、本文の検証は継続する`);
+  if (!value || typeof value !== 'object' || Array.isArray(value)) {
+    diagramWarn('はオブジェクトにする');
+    return;
+  }
+  if (!isStr(value.title)) diagramWarn('title がない');
+  if (value.note !== undefined && !isStr(value.note)) diagramWarn('note は空でない文字列にする');
+
+  if (value.type === 'comparison') {
+    if (!Array.isArray(value.items) || value.items.length < 2 || value.items.length > 8) {
+      diagramWarn('comparison.items は2〜8件にする');
+      return;
+    }
+    if (!isStr(value.note)) diagramWarn('comparison.note に時点・単位・実績／予測の区別を書く');
+    value.items.forEach((item, index) => {
+      if (!isStr(item?.label)) diagramWarn(`items[${index}].label がない`);
+      if (typeof item?.value !== 'number' || !Number.isFinite(item.value))
+        diagramWarn(`items[${index}].value は有限の数値にする`);
+      if (item?.display_value !== undefined && !isStr(item.display_value))
+        diagramWarn(`items[${index}].display_value は空でない文字列にする`);
+      if (item?.status !== undefined && !['actual', 'forecast', 'context'].includes(item.status))
+        diagramWarn(`items[${index}].status は actual|forecast|context`);
+    });
+    return;
+  }
+
+  if (value.type === 'timeline') {
+    if (!Array.isArray(value.items) || value.items.length < 2 || value.items.length > 8) {
+      diagramWarn('timeline.items は2〜8件にする');
+      return;
+    }
+    value.items.forEach((item, index) => {
+      if (!isStr(item?.date)) diagramWarn(`items[${index}].date がない`);
+      if (!isStr(item?.label)) diagramWarn(`items[${index}].label がない`);
+      if (item?.detail !== undefined && !isStr(item.detail))
+        diagramWarn(`items[${index}].detail は空でない文字列にする`);
+      if (item?.status !== undefined && !['actual', 'forecast', 'context'].includes(item.status))
+        diagramWarn(`items[${index}].status は actual|forecast|context`);
+    });
+    return;
+  }
+
+  if (value.type === 'relationship') {
+    if (!Array.isArray(value.nodes) || value.nodes.length < 2 || value.nodes.length > 6) {
+      diagramWarn('relationship.nodes は2〜6件にする');
+      return;
+    }
+    if (!Array.isArray(value.links) || value.links.length < 1 || value.links.length > 8) {
+      diagramWarn('relationship.links は1〜8件にする');
+      return;
+    }
+    const ids = new Set();
+    value.nodes.forEach((node, index) => {
+      if (!isStr(node?.id) || !/^[a-z0-9-]+$/.test(node.id))
+        diagramWarn(`nodes[${index}].id は kebab-case 英数字にする`);
+      else if (ids.has(node.id)) diagramWarn(`nodes[${index}].id が重複: ${node.id}`);
+      else ids.add(node.id);
+      if (!isStr(node?.label)) diagramWarn(`nodes[${index}].label がない`);
+      if (node?.detail !== undefined && !isStr(node.detail))
+        diagramWarn(`nodes[${index}].detail は空でない文字列にする`);
+    });
+    value.links.forEach((link, index) => {
+      if (!isStr(link?.from) || !ids.has(link.from)) diagramWarn(`links[${index}].from の参照先がない`);
+      if (!isStr(link?.to) || !ids.has(link.to)) diagramWarn(`links[${index}].to の参照先がない`);
+      if (link?.from === link?.to) diagramWarn(`links[${index}] は同じノードを結べない`);
+      if (link?.label !== undefined && !isStr(link.label))
+        diagramWarn(`links[${index}].label は空でない文字列にする`);
+    });
+    return;
+  }
+
+  diagramWarn('type は comparison|timeline|relationship');
+}
 const articleIds = new Set();
 function checkArticle(a, ctx) {
   if (!isStr(a?.id)) {
@@ -136,6 +213,7 @@ function checkArticle(a, ctx) {
     warn(`${ctx}: why_it_matters が ${a.why_it_matters.length} 字。40字以上で構造的な意味を書く`);
   checkSources(a?.sources, ctx);
   checkFollowUp(a?.follow_up, a, ctx);
+  checkDiagram(a?.diagram, ctx);
 }
 
 // ---- トップレベル ----
@@ -252,6 +330,7 @@ if (!fr) {
     if (!/^##\s/m.test(fr.body_md)) warn('frontier.body_md に見出し(## )がない。3〜5節に分けると読みやすい');
   }
   checkSources(fr.sources, 'frontier');
+  checkDiagram(fr.diagram, 'frontier');
 }
 
 // ---- insights ----
@@ -283,6 +362,8 @@ if (!Array.isArray(gl) || gl.length < 2) {
     else if (g.definition.length > 200) warn(`glossary[${i}] の定義が ${g.definition.length} 字。200字以内が目安`);
   });
 }
+
+if (diagramCount > 3) warn(`diagram が ${diagramCount} 件。図を固定枠にせず、本当に文章より明瞭な1〜2件へ絞る`);
 
 // ---- 本編分量(概算) ----
 function articleChars(a) {

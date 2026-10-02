@@ -1,6 +1,7 @@
 import type { Article } from '@/lib/issues';
 import SourceLinks from '@/components/SourceLinks';
 import FollowUpPanel from '@/components/FollowUpPanel';
+import ArticleDiagram from '@/components/ArticleDiagram';
 
 function ImportanceBadge({ level }: { level: 1 | 2 | 3 }) {
   if (level === 3)
@@ -49,6 +50,8 @@ export default function ArticleCard({ article }: { article: Article }) {
       {article.dek && (
         <p className="-mt-1 text-[13px] leading-relaxed text-muted">{article.dek}</p>
       )}
+
+      {article.diagram && <ArticleDiagram diagram={article.diagram} />}
 
       <div>
         <BlockLabel>何が起きたか</BlockLabel>

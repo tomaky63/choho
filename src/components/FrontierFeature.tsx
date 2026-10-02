@@ -3,6 +3,7 @@ import remarkGfm from 'remark-gfm';
 import type { Issue } from '@/lib/issues';
 import { frontierReadingMinutes } from '@/lib/issues';
 import SourceLinks from '@/components/SourceLinks';
+import ArticleDiagram from '@/components/ArticleDiagram';
 
 export default function FrontierFeature({ issue }: { issue: Issue }) {
   const fr = issue.frontier;
@@ -25,6 +26,8 @@ export default function FrontierFeature({ issue }: { issue: Issue }) {
         {fr.tags && fr.tags.length > 0 && (
           <p className="mt-2 text-[10.5px] tracking-wider text-muted">{fr.tags.join(' / ')}</p>
         )}
+
+        {fr.diagram && <ArticleDiagram diagram={fr.diagram} />}
 
         <div className="frontier-prose prose mt-6">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{fr.body_md}</ReactMarkdown>
