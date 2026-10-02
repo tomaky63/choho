@@ -1,0 +1,505 @@
+{
+  "date": "2026-10-03",
+  "edition": 46,
+  "generated_at": "2026-10-03T08:05:59+09:00",
+  "masthead_note": "弱い数字にも、構造と市場の反応差がある。",
+  "market_snapshot": {
+    "as_of": "日本株・ドル円・10年JGBは10月2日15:40配信値。米国株と原油は10月2日終値・清算値、米10年債は同日11:44 ET観測値。出典はマクロ・市場欄。",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "68,309.46円",
+        "change": "-647.26円",
+        "direction": "down",
+        "note": "2日終値。DZH／OANDA"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,091.00",
+        "change": "-40.98pt",
+        "direction": "down",
+        "note": "2日終値。DZH／OANDA"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "157.83円",
+        "change": "-0.26円",
+        "direction": "down",
+        "note": "2日15:40配信値、前営業日NY終値比。円高方向"
+      },
+      {
+        "label": "10年JGB",
+        "value": "3.100%",
+        "change": "+0.005pt",
+        "direction": "up",
+        "note": "2日15:40配信値、前日比。DZH／OANDA"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,722.72",
+        "change": "+56.27（+0.73%）",
+        "direction": "up",
+        "note": "2日終値。Reuters"
+      },
+      {
+        "label": "米10年債",
+        "value": "5.252%",
+        "direction": "up",
+        "note": "2日11:44 ET観測値。雇用統計後の5.155%から反発。WSJ"
+      },
+      {
+        "label": "Brent原油",
+        "value": "102.25ドル/バレル",
+        "change": "-0.06ドル（-0.06%）",
+        "direction": "down",
+        "note": "2日清算値。Reuters"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米9月雇用は2.9万人増、失業率4.2%。過去2カ月を計6万人下方修正",
+      "ref": "us-jobs-september"
+    },
+    {
+      "text": "東京コアCPIは前年比2.7%。日経平均は647円安、10年JGBは3.100%",
+      "ref": "tokyo-cpi-markets-oct2"
+    },
+    {
+      "text": "欧州などが軽油・原油計1億バレルの備蓄放出へ。Brentは102.25ドル",
+      "ref": "energy-reserve-release"
+    },
+    {
+      "text": "Google、AI検索要約を巡るChegg・Penskeの反トラスト訴訟で棄却判断",
+      "ref": "google-ai-overviews-dismissal"
+    },
+    {
+      "text": "Nike、売上高4%減。2031年度までに累計25億ドルのコスト削減を計画",
+      "ref": "nike-fy2027-q1"
+    },
+    {
+      "text": "北朝鮮が東岸沖へ未特定の飛翔体。種類・飛距離は公表時点で未確認",
+      "ref": "north-korea-projectile"
+    },
+    {
+      "text": "米控訴裁、AI偽裸体画像を禁じるミネソタ州法を訴訟中は差し止め",
+      "ref": "minnesota-nudification-injunction"
+    }
+  ],
+  "top_story": {
+    "id": "us-jobs-september",
+    "headline": "米雇用2.9万人増、失業率4.2%",
+    "dek": "予想9万人を下回る。7・8月は計6万人下方修正、賃金は前年比3.0%増",
+    "importance": 3,
+    "facts": [
+      "米労働統計局によると、9月の非農業部門雇用者数は前月比2万9,000人増だった。Reuters調査の市場予想9万人増を下回り、直近12カ月の月平均4万5,000人増も下回った。",
+      "7月は2万1,000人増から1万人減へ、8月は16万2,000人増から13万3,000人増へ改定され、2カ月合計は従来公表より6万人少なくなった。",
+      "失業率は4.2%、労働参加率は61.8%だった。平均時給は前月比0.1%増の37.81ドル、前年同月比3.0%増で、平均週労働時間は34.4時間だった。",
+      "医療は1万7,000人、建設は1万1,000人、製造業は9,000人増えた一方、金融は7,000人減った。BLSは主要業種の雇用変化はいずれも小幅だったとした。"
+    ],
+    "why_it_matters": "前号でFed高官が10月利上げを急がない姿勢を示した後、雇用者数、過去分の改定、賃金の三つが労働需要の減速を示した。もっとも雇用者数の月次変化には大きな標本誤差があり、失業率も4.1〜4.3%の範囲にとどまる。弱い一回の数字を景気後退と同一視せず、物価と継続データを合わせる必要がある。",
+    "implications": "10月利上げ観測は後退したが、長期金利は雇用統計直後の低下を戻しており、資本コストの緩和は確定していない。米国事業を持つ企業は採用計画を一律に縮めるより、業種別雇用、労働時間、賃金と10月14日のCPIを分けて見たい。",
+    "follow_up": {
+      "previous": {
+        "date": "2026-10-02",
+        "article_id": "fed-patience-labor"
+      },
+      "assessment": "strengthened",
+      "reassessment": "前号の『Fedは10月の追加利上げを急がずデータを確認する』との見立てに対し、9月雇用者数の予想下振れ、過去2カ月の下方修正、賃金伸び鈍化が待つ理由を補強した。ただし失業保険申請の低さと失業率の安定は急激な悪化を示していない。",
+      "next_check": "10月14日の米CPIでサービス価格とエネルギー波及を確認し、10月雇用統計では9月値の改定と労働時間を確認する。",
+      "reconsider_if": "CPIが大幅に上振れ、雇用者数も翌月に強く反発して9月の弱さが季節要因中心と判明すれば、10月以降の利上げ圧力を再評価する。"
+    },
+    "sources": [
+      {
+        "title": "Employment Situation News Release — September 2026",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm"
+      },
+      {
+        "title": "Equities close higher as softer jobs data quiets rate-hike expectations",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/wall-st-futures-gain-yields-oil-prices-ease-ahead-jobs-report-2026-10-02/"
+      }
+    ],
+    "tags": ["米雇用", "Fed", "賃金", "金融政策"],
+    "diagram": {
+      "type": "comparison",
+      "title": "非農業部門雇用者数：直近3カ月",
+      "unit": "前月差・千人",
+      "note": "2026年10月2日公表。7月と8月は改定値、9月は速報値。季節調整済み。",
+      "items": [
+        {
+          "label": "7月・改定値",
+          "value": -10,
+          "display_value": "-10",
+          "status": "actual"
+        },
+        {
+          "label": "8月・改定値",
+          "value": 133,
+          "display_value": "+133",
+          "status": "actual"
+        },
+        {
+          "label": "9月・速報値",
+          "value": 29,
+          "display_value": "+29",
+          "status": "actual"
+        }
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "tokyo-cpi-markets-oct2",
+          "headline": "東京コアCPI、2.7%へ加速",
+          "dek": "失業率は2.5%。日経平均は647円安、ドル円は157.83円",
+          "importance": 3,
+          "facts": [
+            "総務省が10月2日に公表した9月の東京都区部消費者物価指数は、生鮮食品を除く総合が前年同月比2.7%上昇し、8月の1.8%から伸びが加速した。",
+            "8月の完全失業率は2.5%で7月の2.4%から上昇し、有効求人倍率は1.18倍で横ばいだった。",
+            "日経平均は前日比647.26円安の68,309.46円、TOPIXは40.98ポイント安の4,091.00。ドル円は15時40分配信時点で157.83円、新発10年国債利回りは3.100%だった。"
+          ],
+          "why_it_matters": "東京の物価加速は全国CPIの先行材料であり、日銀が短観の景況感と円安・原油高の価格波及をどう評価するかに関わる。一方、失業率は上がっており、物価だけで国内需要の強さを判断できない。",
+          "implications": "国内企業は10月1日の株高反動より、販売価格を維持できるか、賃金と人手不足が続くかを確認したい。輸入企業は157円台の円相場と燃料価格を短観の想定為替154.23円へ照合する必要がある。",
+          "sources": [
+            {
+              "title": "2025年基準 消費者物価指数 東京都区部 2026年9月分",
+              "publisher": "総務省統計局",
+              "url": "https://www.stat.go.jp/data/cpi/index.html"
+            },
+            {
+              "title": "東京マーケットダイジェスト・2日　円小幅高・株安",
+              "publisher": "DZH Financial Research／OANDA",
+              "url": "https://www.oanda.jp/lab-education/market_news/mn_1037060_202610021540/"
+            }
+          ],
+          "tags": ["東京都区部CPI", "日銀", "日本株", "円相場"]
+        },
+        {
+          "id": "energy-reserve-release",
+          "headline": "欧州など、備蓄1億バレル放出へ",
+          "dek": "軽油5,000万バレルと原油5,000万バレル。WTIは1.90%安",
+          "importance": 3,
+          "facts": [
+            "Reutersによると、欧州諸国は軽油5,000万バレルを放出し、国際エネルギー機関加盟国は追加で原油5,000万バレルを放出することで合意した。",
+            "10月2日のBrent原油は前日比0.06ドル安の1バレル102.25ドル、WTIは1.76ドル安の91.11ドルで清算した。",
+            "備蓄放出は、ロシア製油所への攻撃や中東の供給制約で精製品需給が締まり、米国が軽油輸出制限を検討したことを受けた対応である。"
+          ],
+          "why_it_matters": "原油と軽油を分けて放出するのは、地下から出る原油があっても製油能力と製品物流が詰まれば燃料不足になるためである。前号までの原油高に対し、価格抑制策が協議から実施へ進んだ。",
+          "implications": "運輸・化学・建設企業は原油相場だけでなく、軽油の地域別在庫と精製マージンを見る必要がある。発表量を即日の供給増とみなさず、実際の受渡日、油種、地域配分を確認したい。",
+          "follow_up": {
+            "previous": {
+              "date": "2026-10-02",
+              "article_id": "iran-industrial-sanctions"
+            },
+            "assessment": "mixed",
+            "reassessment": "前号の精製品不足リスクに対し、計1億バレルの備蓄放出合意は供給緩和材料になった。一方、Brentは102ドル台を維持し、製油所と物流の制約は残るため、価格圧力が解消したとは判断しない。",
+            "next_check": "放出の実施国、油種、受渡日と、欧州軽油在庫・精製マージンの変化を確認する。",
+            "reconsider_if": "放出が予定通り進み軽油在庫が持続的に増え、精製マージンと運賃が低下すれば、精製品不足の見立てを弱める。"
+          },
+          "sources": [
+            {
+              "title": "Oil settles lower after Europe agrees to tap diesel reserves",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/energy/oil-rises-slightly-market-weighs-mixed-supply-signals-2026-10-02/"
+            }
+          ],
+          "tags": ["原油", "軽油", "戦略備蓄", "IEA"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "openai-dots-launch",
+          "headline": "OpenAI、常時稼働エージェント投入",
+          "dek": "クラウド環境で継続作業。利用者が行動範囲と変更権限を管理",
+          "importance": 2,
+          "facts": [
+            "OpenAIは9月29日、複数のアプリをまたいで利用者の目標を継続的に追う常時稼働型エージェント『dots』を発表した。",
+            "dotsはGPT-6 Astraを基盤とし、それぞれ専用のクラウドコンピューターを持ち、接続したツールを使って会話の間も作業を進め、結果を利用者の確認へ戻す。",
+            "OpenAIは、利用者が行動範囲やデータ変更の可否を制御できる仕組みを設け、企業データを同意なく学習へ使わないとしている。"
+          ],
+          "why_it_matters": "AIが質問への応答から、時間をまたいで状態を持つ実行主体へ移る。価値は継続性にある一方、古い指示、接続先の権限、途中で変わった状況をどう扱うかが新しい運用リスクになる。",
+          "implications": "導入側は『できること』より先に、変更前確認、許可する接続先、停止条件、監査ログ、担当者不在時の扱いを決めたい。既存のRPAや人間の承認手順と責任境界も明文化する必要がある。",
+          "sources": [
+            {
+              "title": "ChatGPT — Release Notes",
+              "publisher": "OpenAI",
+              "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+            },
+            {
+              "title": "OpenAI takes on Meta with always-on dots agent in enterprise AI push",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/openai-takes-meta-with-always-on-dots-agent-enterprise-ai-push-2026-09-29/"
+            }
+          ],
+          "tags": ["OpenAI", "AIエージェント", "クラウド", "権限管理"]
+        },
+        {
+          "id": "google-ai-overviews-dismissal",
+          "headline": "Google、AI検索訴訟で棄却判断",
+          "dek": "CheggとPenskeの反トラスト請求。著作権や経済的影響は未決着",
+          "importance": 3,
+          "facts": [
+            "米連邦地裁のAmit Mehta判事は、GoogleのAI Overviewsが媒体コンテンツを利用して検索流入を奪うとしたCheggとPenske Mediaの反トラスト訴訟を棄却した。",
+            "原告は検索への掲載を維持するためAI要約での利用を受け入れざるを得ないと主張したが、判事は検索流入への期待はGoogleとの合意ではないと判断した。",
+            "判決は反トラスト法上の請求を退けたもので、AI要約による媒体流入の変化や、コンテンツ利用が著作権法上適法かを確定したものではない。"
+          ],
+          "why_it_matters": "検索からAI回答へ価値が移る中、媒体は読者流入と対価をどう確保するかを問われている。今回の棄却は、経済的損失が主張されても、それだけで競争法上の取引強制を立証できるわけではないことを示す。",
+          "implications": "媒体企業は再訴や上訴だけでなく、ライセンス、直接購読、ニュースレター、検索以外の流入を組み合わせる必要がある。AI事業者は棄却を包括的な合法判断と扱わず、著作権、契約、EU規制を別々に管理したい。",
+          "sources": [
+            {
+              "title": "Google wins dismissal of Chegg, Penske Media lawsuits over AI Overviews",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/legal/litigation/google-wins-dismissal-chegg-penske-media-lawsuits-over-ai-overviews-2026-10-01/"
+            }
+          ],
+          "tags": ["Google", "AI Overviews", "反トラスト法", "出版"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "nike-fy2027-q1",
+          "headline": "Nike売上高4%減、再編を拡大",
+          "dek": "粗利率は42.8%へ改善。2031年度までに累計25億ドル削減",
+          "importance": 2,
+          "facts": [
+            "Nikeの2027年度第1四半期売上高は前年同期比4%減の112.13億ドル、為替一定では5%減だった。希薄化後1株利益は0.48ドルだった。",
+            "粗利率は物流費低下などで0.6ポイント上昇して42.8%となった一方、Nike Direct売上高は8%減、デジタル売上高は13%減、Converseは28%減だった。",
+            "再編計画『Pace』では供給網、地域体制、組織を見直し、2031年度までに累計約25億ドルの削減を見込む。関連費用は約10億ドルを見込む。"
+          ],
+          "why_it_matters": "コスト削減で粗利を守れても、直販、デジタル、中国、商品構成の弱さは売上の回復と別問題である。再編の効果が後年に偏るほど、ブランドと需要を先に立て直せるかが重要になる。",
+          "implications": "小売企業は販路の直販化を目的化せず、卸売との関係、在庫回転、値引き率、商品別の再購入を同時に見るべきだろう。投資家は削減目標の総額より、実現時期と再投資後の純効果を確認したい。",
+          "sources": [
+            {
+              "title": "NIKE, Inc. Reports Fiscal 2027 First Quarter Results",
+              "publisher": "Nike",
+              "url": "https://investors.nike.com/investors/news-events-and-reports/investor-news/investor-news-details/2026/NIKE-Inc--Reports-Fiscal-2027-First-Quarter-Results/default.aspx"
+            },
+            {
+              "title": "Nike's struggles test investor confidence in CEO Hill's turnaround effort",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/retail-consumer/nikes-struggles-test-investor-confidence-ceo-hills-turnaround-effort-2026-10-02/"
+            }
+          ],
+          "tags": ["Nike", "小売", "事業再編", "中国"]
+        },
+        {
+          "id": "bayer-ohio-pharma-site",
+          "headline": "Bayer、米工場へ22億ドル",
+          "dek": "オハイオ州で原薬と製剤を一体生産。初期設備は2031年稼働予定",
+          "importance": 2,
+          "facts": [
+            "Bayerは10月2日、オハイオ州New Albanyに医薬品製造拠点を新設し、複数年で22億ドルを投じる計画を発表した。",
+            "拠点は原薬と製剤の生産を一体化し、当初はがん、心血管、腎疾患の製品群を支える。約600人の高度技能職を新設する計画である。",
+            "原薬製造を担う最初のモジュールは2031年の稼働を予定する。Bayerの過去5年の米国医薬品R&D・製造支出は70億ドル超だった。"
+          ],
+          "why_it_matters": "医薬品供給網は研究開発だけでなく、原薬、製剤、品質管理を長期の設備計画で結ぶ必要がある。関税や供給安全保障を巡る政策が変わっても、2031年までの建設と検証には時間がかかる。",
+          "implications": "製薬・装置企業は投資額だけでなく、稼働時期、承認、立ち上げ歩留まり、人材確保を追う必要がある。日本の装置・素材企業には商機になり得るが、案件受注と実際の量産寄与を分けて評価したい。",
+          "sources": [
+            {
+              "title": "Bayer to invest 2.2 billion U.S. dollars in a new manufacturing site in the United States",
+              "publisher": "Bayer",
+              "url": "https://www.bayer.com/media/en-us/bayer-to-invest-2-billion-us-dollars-in-a-new-manufacturing-site-in-the-united-states/"
+            },
+            {
+              "title": "Bayer to invest $2.2 billion in new US pharma site",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/legal/litigation/bayer-invest-22-billion-new-us-pharma-site-2026-10-02/"
+            }
+          ],
+          "tags": ["Bayer", "医薬品", "米国製造", "サプライチェーン"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "north-korea-projectile",
+          "headline": "北朝鮮、東岸沖へ未特定飛翔体",
+          "dek": "韓国軍が10月3日発表。種類、飛距離、落下地点は公表時点で未確認",
+          "importance": 3,
+          "facts": [
+            "韓国合同参謀本部は10月3日、北朝鮮が東岸沖の海へ未特定の飛翔体を発射したと発表した。",
+            "公表時点で飛翔体の種類、発射数、飛距離、高度、落下地点は示されておらず、弾道ミサイルと断定できる情報はない。",
+            "発射前日の10月2日、金与正氏は非武装地帯の地雷で韓国兵が重傷を負った件について、韓国側の謝罪要求を退ける声明を出していた。"
+          ],
+          "why_it_matters": "朝鮮半島の軍事的緊張を高める可能性があるが、初報の段階で兵器種や能力を決めつけると誤る。確認できた事実と、韓国・日本当局の分析を分けて更新する必要がある。",
+          "implications": "航空・海運・保険会社は航行警報と各国当局の続報を確認したい。市場参加者も『発射』という見出しだけで過去事例と同じ規模を仮定せず、軌道と落下区域の確定を待つべきだろう。",
+          "sources": [
+            {
+              "title": "North Korea fires unidentified projectile toward sea off east coast, Seoul says",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/north-korea-fires-unidentified-projectile-toward-sea-off-east-coast-seoul-says-2026-10-02/"
+            }
+          ],
+          "tags": ["北朝鮮", "韓国", "安全保障", "初報"]
+        },
+        {
+          "id": "hamas-financing-sanctions",
+          "headline": "米、Hamas資金網へ追加制裁",
+          "dek": "偽装慈善団体と暗号資産を通じ6年で200万ドル超を移転",
+          "importance": 2,
+          "facts": [
+            "米財務省は10月2日、Hamas軍事部門の構成員1人、フランスを拠点とする資金調達者2人、2団体を追加制裁の対象に指定した。",
+            "同省によると、対象者らは2020〜2026年に偽装慈善団体と暗号資産を使い、Hamas向けに200万ドル超を集めた。このうち150万ドルは2023年10月7日以降に集められた。",
+            "資金は送金業者や暗号資産ウォレットを介してHamasの軍事部門へ移されたとされる。指定は米国内資産の凍結と、原則として米国人との取引禁止を伴う。"
+          ],
+          "why_it_matters": "制裁は組織本体だけでなく、人道支援を装う募集、暗号資産、送金業者をつなぐ経路へ向かった。寄付先の名称だけでは最終受益者を確認できず、資金追跡と本人確認の重要性が増す。",
+          "implications": "金融、暗号資産交換、寄付プラットフォームは制裁リスト照合に加え、資金の集中先、ウォレットの関連性、説明と実際の用途の不一致を確認したい。正当な人道支援を一律に止めないため、リスクに応じた審査も必要になる。",
+          "sources": [
+            {
+              "title": "Treasury Dismantles Major Hamas Financing Network",
+              "publisher": "U.S. Department of the Treasury",
+              "url": "https://home.treasury.gov/news/press-releases/sb0647/"
+            },
+            {
+              "title": "US issues sanctions against Hamas financing network, Treasury says",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/us-issues-sanctions-against-hamas-financing-network-treasury-says-2026-10-02/"
+            }
+          ],
+          "tags": ["Hamas", "米制裁", "暗号資産", "テロ資金"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "minnesota-nudification-injunction",
+          "headline": "米控訴裁、AI偽裸体法を差し止め",
+          "dek": "xAIの訴訟中はミネソタ州法を停止。合憲性の最終判断ではない",
+          "importance": 3,
+          "facts": [
+            "米第8巡回区控訴裁判所は10月2日、AIで実在人物の偽の裸体画像を作らせることを禁じるミネソタ州法について、xAIの訴訟が続く間の差止命令を認めた。",
+            "州法は8月1日に施行され、ウェブサイト運営者やソフトウエア開発者などが、元画像にない親密な身体部位を実在人物へ付加した写実的画像の作成を利用者に許すことを禁じていた。",
+            "xAIは州法が合衆国憲法上の表現の自由を制限すると主張する。今回の判断は一時的な差し止めで、州法の合憲性やxAIの最終的な責任を確定していない。"
+          ],
+          "why_it_matters": "生成AIの具体的な被害を止める州法と、表現の自由を守る憲法審査が正面から衝突した。規制目的が強くても、対象範囲、事業者責任、緊急差止めの要件を満たす必要がある。",
+          "implications": "画像生成サービスは法廷の結論を待たず、実在人物の同意確認、性的画像の検知、利用停止、証拠保存を続ける必要がある。州ごとに異なる法律へ対応する企業は、禁止対象と免責条件を機能単位で整理したい。",
+          "sources": [
+            {
+              "title": "US appeals court blocks Minnesota law barring 'nudified' photos in XAI lawsuit",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/us-appeals-court-blocks-minnesotas-ai-nudification-law-now-xai-lawsuit-2026-10-02/"
+            }
+          ],
+          "tags": ["xAI", "ミネソタ", "生成AI", "表現の自由"]
+        },
+        {
+          "id": "fed-regulation-o-comment",
+          "headline": "Fed、銀行内部者融資案を延長",
+          "dek": "Regulation O改定への意見期限を10月5日から11月4日へ",
+          "importance": 2,
+          "facts": [
+            "米連邦準備制度理事会は10月2日、Regulation Oの現代化案に対する意見募集期限を10月5日から11月4日へ延長した。",
+            "Regulation Oは、銀行経営者、取締役、大株主など融資判断へ影響し得る『内部者』に対する銀行信用供与を規律する。",
+            "Fedは関係者が論点を分析し意見を準備する時間を増やすためと説明した。延長は改定案の採択や撤回を意味しない。"
+          ],
+          "why_it_matters": "内部者融資は利益相反と信用集中を招き得る一方、企業形態や金融サービスの変化に既存定義が追いつくかという問題がある。意見期間の延長は、適用範囲と実務負担を詰める時間を増やす。",
+          "implications": "米国銀行や関連会社は11月4日までに、対象者の特定、承認手続き、記録、例外規定への影響を確認したい。最終規則が出るまでは現行規制を前提とし、提案内容を既成事実として運用へ入れないことが重要である。",
+          "sources": [
+            {
+              "title": "Federal Reserve Board extends comment period on proposal to modernize Regulation O",
+              "publisher": "Federal Reserve Board",
+              "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm"
+            }
+          ],
+          "tags": ["Federal Reserve", "Regulation O", "銀行規制", "利益相反"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "雇用者数と失業率はなぜずれるのか",
+    "dek": "米雇用統計の二つの調査を分けて読み、速報値と改定値の意味をつかむ",
+    "tags": ["米雇用統計", "非農業部門雇用者数", "失業率"],
+    "reading_minutes": 6,
+    "body_md": "## 一つの発表に二つの調査がある\n\n米雇用統計には、同じ月の労働市場を測る二つの大きな調査が入っている。非農業部門雇用者数や平均時給、労働時間は事業所調査から、失業率や労働参加率は家計調査から作られる。9月は雇用者数が2万9,000人増にとどまる一方、失業率は4.2%で、3月以降の4.1〜4.3%という狭い範囲に残った。両方が違う方向を向いて見えるのは、測る対象と質問が違うからである。\n\n事業所調査は給与記録を持つ企業や政府機関へ尋ねる。現在の標本は約11万9,000事業所、約62万2,000の勤務場所を代表し、非農業部門の給与支払いを受ける仕事を数える。同じ人が二つの仕事を持てば二つとして数えられる一方、自営業、農業従事者、無給の家族従業者、家事使用人などは原則として含まれない。\n\n## 家計調査は人を数える\n\n家計調査は世帯へ就業状態を尋ね、人を就業者、失業者、非労働力人口へ分ける。自営業や農業も対象に含み、複数の仕事を持つ人でも一人として数える。失業者になるには、仕事がなく、直近4週間に具体的な求職活動を行い、働ける状態であることが必要だ。仕事を望んでいても探していなければ失業率の分子には入らない。\n\nこのため失業率は、解雇の数だけでは動かない。9月は労働参加率が8月の61.6%から61.8%へ上がった。仕事を探し始める人が増え、その時点で就職できなければ、就業者数が増えても失業率が上がることがある。逆に求職をやめる人が増えれば、景気が弱くても失業率が下がり得る。失業率を見るときに参加率と就業率を並べる理由である。\n\n## 月次差には誤差と改定がある\n\n雇用者数は精密な全数集計ではなく標本推計である。BLSによると、事業所調査の前月差が統計的に有意となる目安は約12万2,000人で、家計調査の就業者数では約65万人である。9月の2万9,000人増は中心推計として重要だが、単独で雇用が確実に増えた、または止まったと断言できる大きさではない。\n\n事業所調査は翌月、翌々月に企業から追加回答を受け取り、季節調整も再計算して改定される。今回、7月は2万1,000人増から1万人減へ、8月は16万2,000人増から13万3,000人増へ改定され、合計6万人が減った。速報値だけを固定された事実として使うと、転換点を読み違える。直近3カ月の平均、改定方向、労働時間をまとめて見る方がよい。\n\n## 雇用の量と価格を分ける\n\n雇用者数は仕事の量、平均時給は労働の価格、平均週労働時間は企業が既存人員をどれだけ使っているかを映す。9月の平均時給は前月比0.1%、前年比3.0%増で、週労働時間は34.4時間だった。企業は需要が鈍ったとき、すぐ解雇せず残業や勤務時間を減らすことがあるため、時間が人数より早く変わる場合がある。\n\n業種も分けたい。9月は医療が1万7,000人増えた一方、金融は7,000人減った。総数が同じでも、賃金水準、生産性、景気感応度の違う業種への移動で家計所得と企業利益への影響は変わる。雇用統計の一つの数字を経済全体の強弱へ直結させないことが大切である。\n\n## 金融政策へどうつなぐか\n\nFedは雇用の最大化と物価安定の双方を見る。雇用が弱ければ利上げを急がない理由になるが、原油やサービス価格が強ければインフレ警戒は残る。実際、9月雇用の公表直後に米10年債利回りは低下したものの、その後は反発した。市場も雇用だけで判断を終えなかったことを示す。\n\n実務では、①雇用者数の速報と改定、②失業率と参加率、③賃金と労働時間、④業種別内訳、⑤失業保険申請や求人件数を順に確認する。二つの調査がずれることは欠陥ではなく、仕事と人という別の角度から労働市場を立体的に見るための手掛かりである。",
+    "sources": [
+      {
+        "title": "Employment Situation News Release — September 2026",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm"
+      },
+      {
+        "title": "Employment from the BLS household and payroll surveys: summary of recent trends",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/web/empsit/ces_cps_trends.htm"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "米雇用統計は雇用者数だけでなく、改定、参加率、労働時間、賃金を同じ表で読むと、Fedの判断と企業需要を分けやすい。",
+      "原油の備蓄放出と軽油不足は別の問題である。燃料を使う企業は受渡日、製油能力、地域在庫まで確認したい。",
+      "AIを巡る二つの司法判断は、被害や経済的影響の存在と、特定の法律で救済できるかが別であることを示す。",
+      "再編計画は累計削減額より、いつ実現し、成長投資へいくら戻し、売上回復へ結びつくかを追うべきだろう。"
+    ],
+    "watchlist": [
+      {
+        "item": "OPEC+会合",
+        "why": "11月生産目標と精製品不足への対応を、事前観測と正式決定に分けて確認",
+        "horizon": "10月4日"
+      },
+      {
+        "item": "OpenAIの豪議会証言",
+        "why": "政府システム侵入の通知、再発防止、エージェントの法的責任を確認",
+        "horizon": "10月6日"
+      },
+      {
+        "item": "米SPR貸付応募",
+        "why": "上限4,000万バレルに対する応募量と実際の受渡し時期を確認",
+        "horizon": "10月6日締切後"
+      },
+      {
+        "item": "Brink's／NCR Atleos買収",
+        "why": "英CMAへの是正確約提出または第2段階審査への移行を確認",
+        "horizon": "10月7日"
+      },
+      {
+        "item": "米9月CPI",
+        "why": "雇用減速後もサービス・エネルギー価格がFedの利上げ圧力を残すか確認",
+        "horizon": "10月14日"
+      }
+    ]
+  },
+  "focus_refs": [
+    "us-jobs-september",
+    "energy-reserve-release",
+    "google-ai-overviews-dismissal"
+  ],
+  "glossary": [
+    {
+      "term": "非農業部門雇用者数",
+      "reading": "ひのうぎょうぶもんこようしゃすう",
+      "definition": "米国の企業・政府機関の給与記録を基に、農業など一部を除く雇用の仕事数を推計した指標。同じ人が複数の仕事を持つ場合は重複して数えられる。"
+    },
+    {
+      "term": "労働参加率",
+      "reading": "ろうどうさんかりつ",
+      "definition": "生産年齢人口のうち、就業者と求職中の失業者を合わせた労働力人口が占める割合。失業率の変化を読む際に、求職を始めた人ややめた人の動きを補う。"
+    },
+    {
+      "term": "差止命令",
+      "reading": "さしとめめいれい",
+      "definition": "裁判所が係争中の行為や法執行を一時的または恒久的に止める命令。仮の差し止めは、争点の最終的な合法・違法を確定する判決とは異なる。"
+    },
+    {
+      "term": "Regulation O",
+      "reading": "レギュレーション・オー",
+      "definition": "米国の加盟銀行などによる役員、取締役、大株主等への信用供与を規律する連邦準備制度の規則。利益相反や優遇融資を抑える目的がある。"
+    }
+  ]
+}
