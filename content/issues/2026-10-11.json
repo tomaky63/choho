@@ -1,0 +1,562 @@
+{
+  "date": "2026-10-11",
+  "edition": 54,
+  "generated_at": "2026-10-11T08:02:58+09:00",
+  "masthead_note": "止まった空港と残すべき物理操作を読む日曜号",
+  "market_snapshot": {
+    "as_of": "週末のため、日本株は10月9日東京市場終値、米国株と原油は同日ニューヨーク市場終値、米10年債は同日終盤の観測値。変化は前営業日比。",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "69,030.92円",
+        "change": "-11.19円（-0.02%）",
+        "direction": "down",
+        "note": "10月9日終値。Reuters"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,104.81",
+        "change": "+13.35pt（+0.33%）",
+        "direction": "up",
+        "note": "10月9日終値。Reuters"
+      },
+      {
+        "label": "Dow平均",
+        "value": "51,654.95",
+        "change": "+423.31（+0.83%）",
+        "direction": "up",
+        "note": "10月9日終値。AP"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,811.54",
+        "change": "+46.18（+0.59%）",
+        "direction": "up",
+        "note": "10月9日終値。AP"
+      },
+      {
+        "label": "Nasdaq総合",
+        "value": "27,366.17",
+        "change": "+172.83（+0.64%）",
+        "direction": "up",
+        "note": "10月9日終値。AP"
+      },
+      {
+        "label": "米10年債",
+        "value": "約5.24%",
+        "change": "前日から上昇",
+        "direction": "up",
+        "note": "10月9日終盤。AP"
+      },
+      {
+        "label": "Brent原油",
+        "value": "104.72ドル/バレル",
+        "change": "+0.44ドル（+0.42%）",
+        "direction": "up",
+        "note": "10月9日清算値。Reuters"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "リヤド国際空港への3度目の攻撃で12人死亡、309人負傷。全便を一時迂回",
+      "ref": "riyadh-airport-attack"
+    },
+    {
+      "text": "中国、地方政府債務の未使用枠5,500億元を県財政と第4四半期投資へ配分",
+      "ref": "china-local-debt-quota"
+    },
+    {
+      "text": "米司法省とFBI、中国系組織の侵入基盤とされる7ドメインを差し押さえ",
+      "ref": "us-seizes-flax-typhoon-domains"
+    },
+    {
+      "text": "Infosys、米PERM停止の重大な影響を見込まず。当局への協力を表明",
+      "ref": "infosys-perm-response"
+    },
+    {
+      "text": "米国、ロシア産ディーゼル制裁を一時緩和。欧州は制裁維持を表明",
+      "ref": "us-russia-diesel-deal"
+    },
+    {
+      "text": "中国、車の完全格納式ハンドルや走行中の回転座席を禁じる規則案",
+      "ref": "china-car-design-rules"
+    },
+    {
+      "text": "ドイツ州議会でAfD候補が議長に。主要政党の非協力原則に亀裂",
+      "ref": "germany-afd-firewall"
+    }
+  ],
+  "top_story": {
+    "id": "riyadh-airport-attack",
+    "headline": "リヤド空港攻撃、12人死亡",
+    "dek": "今週3度目。309人が負傷し、全便を一時迂回。民間航空と大型会議へ波及",
+    "importance": 3,
+    "facts": [
+      "Saudi当局によると、10月10日にKing Khalid国際空港が攻撃され、12人が死亡、309人が負傷した。死者にはSaudi Arabia、Bangladesh、米国、Jordan、Palestine、Syria、Sudan、Egyptの市民が含まれる。Iranの支援を受けるHouthiが犯行を認めた。",
+      "同空港への攻撃は今週3度目で、今回は事前警報が出なかった。Saudi民間航空当局は全便を迂回させ、空港運用を一時停止した。米大使館は米国民に空港と周辺を避けるよう勧告した。",
+      "HouthiはSaudi空域を軍事作戦区域と呼び、民間機に回避を要求した。Saudi側はYemen政府軍の攻勢を支援しており、2022年から凍結していた対立が再燃した。",
+      "World Petroleum Congressは10月10～14日、Future Investment Initiativeは26～29日に予定どおり開催すると表明した。一方、Lufthansaは16日までRiyadh便を停止し、Etihad AirwaysとFlydubaiも10日の便を取り消した。"
+    ],
+    "why_it_matters": "首都空港を狙う攻撃は軍事施設の損害にとどまらず、旅客、貨物、国際会議、投資誘致を同時に止める。警報がなかった点と、Houthiが民間航空へ回避を求めた点は、保険料や航空会社の運航判断が長引く可能性を示す。",
+    "implications": "Riyadhへ向かう企業は、会議の開催表明だけで渡航可能と判断せず、航空会社の実運航、各国渡航勧告、代替到着地と陸路を確認する必要がある。エネルギー市場ではSaudi施設への攻撃拡大とHormuz情勢を別々の供給リスクとして追う。",
+    "sources": [
+      {
+        "title": "Houthi attack on Saudi airport kills 12, over 300 wounded, authorities say",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/"
+      },
+      {
+        "title": "Major Saudi conferences to proceed, organisers say, despite deadly airport attack",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/energy/major-saudi-conferences-proceed-organisers-say-despite-deadly-airport-attack-2026-10-10/"
+      },
+      {
+        "title": "Saudi Arabia Travel Advisory",
+        "publisher": "U.S. Department of State",
+        "url": "https://travel.state.gov/en/international-travel/travel-advisories/saudi-arabia.html"
+      }
+    ],
+    "tags": [
+      "Saudi Arabia",
+      "Houthi",
+      "民間航空",
+      "Riyadh"
+    ]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "china-local-debt-quota",
+          "headline": "中国、地方債枠5,500億元を配分",
+          "dek": "3,000億元は県財政、2,500億元は第4四半期の投資へ",
+          "importance": 3,
+          "facts": [
+            "中国財政部は10月9日、未使用の地方政府債務枠5,500億元を配分した。うち一般債務枠3,000億元は県・区の一般公共予算を支え、専項債務枠2,500億元は第4四半期に実需のある地域へ振り向ける。",
+            "専項債は経済規模の大きい省と進行中の事業を優先し、新規案件は交通、水利、エネルギーなどの重点インフラに絞る。財政部は発行と資金交付を速め、早期に実物投資へつなげる方針を示した。",
+            "これは新たな債務上限の設定ではなく、既存上限の未使用分を再配分する措置である。地方の経常財政支援と投資促進を一つの枠で同時に狙う。"
+          ],
+          "why_it_matters": "規模だけでなく、資金の4割超が県の一般予算維持に向かう点が重要である。投資刺激だけではなく、地方の基礎的な行政サービスと支払い能力を下支えする措置で、地方財政の余力不足も映す。",
+          "implications": "景気効果は枠の配分発表ではなく、実際の債券発行、プロジェクトへの交付、建設進捗で測る必要がある。新規案件より既存工事を優先するため、資材・機械需要への波及時期にも差が出る。",
+          "sources": [
+            {
+              "title": "财政部安排使用5500亿元地方政府债务结存限额",
+              "publisher": "中国財政部／新華社",
+              "url": "https://www.xinhuanet.com/20261009/a1d45077bc36414d848e806c14ee61a7/c.html"
+            },
+            {
+              "title": "China allocates 550 billion yuan in unused debt quotas to support local governments",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/china/china-allocates-550-billion-yuan-unused-debt-quotas-support-local-governments-2026-10-09/"
+            }
+          ],
+          "tags": [
+            "中国経済",
+            "地方債",
+            "財政政策",
+            "インフラ"
+          ]
+        },
+        {
+          "id": "imf-world-bank-bangkok",
+          "headline": "IMF・世銀年次総会、12日開幕",
+          "dek": "Bangkokに191カ国から1万5,000人超。世界経済見通しは13日",
+          "importance": 2,
+          "facts": [
+            "IMFとWorld Bankの2026年年次総会は10月12～18日にBangkokで開かれる。Thailand当局によると、中央銀行総裁、財務・開発相、企業や市民社会を含む191カ国の1万5,000人超が参加する。",
+            "IMFの日程では世界経済見通しと国際金融安定性報告の会見が13日、財政モニターが14日、全体会合が16日に予定される。Thailandでの開催は1991年以来である。",
+            "会合では高金利、エネルギー供給、債務、AIと雇用、越境決済、サイバー詐欺が扱われる。発表前の予測値は記事では使用しない。"
+          ],
+          "why_it_matters": "足元では原油と長期金利が同時に高く、各国の財政余力にも差がある。総会の見通しは単なる成長率一覧ではなく、物価・金融安定・債務の相互作用を同じ前提で比較する材料になる。",
+          "implications": "13～14日の報告では、前回予測からの改定幅と理由、原油価格の前提、米金利の波及、低所得国の借換え条件を確認したい。見出しの世界成長率だけで判断しない。",
+          "sources": [
+            {
+              "title": "2026 Annual Meetings of the International Monetary Fund and the World Bank Group",
+              "publisher": "International Monetary Fund",
+              "url": "https://www.imf.org/en/meetings/2026/annual"
+            },
+            {
+              "title": "Thailand prepares to host IMF-World Bank meetings",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/thailand-prepares-host-imf-world-bank-meetings-2026-10-10/"
+            }
+          ],
+          "tags": [
+            "IMF",
+            "World Bank",
+            "世界経済",
+            "Thailand"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "us-seizes-flax-typhoon-domains",
+          "headline": "米、Flax Typhoon基盤を差し押さえ",
+          "dek": "脆弱性探索と標的型メールに使われたとする7ドメインを停止",
+          "importance": 3,
+          "facts": [
+            "米司法省とFBIは10月8日、ChinaのIntegrity Technology Groupに関係する攻撃者が使ったとする7つのドメインを、裁判所の令状に基づき差し押さえた。民間ではこの活動をFlax Typhoonと呼ぶ。",
+            "司法省によると、MicroscanはMirai系マルウェアで感染させたIoT機器を使い、米電力会社、日本とPolandの空港、Taiwanのエネルギー企業などを探索した。FishHubは標的型メール後のマルウェア配布に使われ、Taiwanの約20大学で被害を確認した。",
+            "司法省は2024年9月にも同組織に結び付く20万台超のIoT機器によるボットネットを停止しており、今回は2度目の公表された技術的妨害だと説明した。China大使館はハッキングと政治目的の偽情報の双方に反対すると反論した。"
+          ],
+          "why_it_matters": "ドメイン差し押さえは攻撃者の法的帰属を確定する判決ではないが、探索、標的型メール、遠隔操作の運用経路を即時に断てる。空港や電力の防御側には、押収された指標を自組織のログで照合する実務上の機会になる。",
+          "implications": "組織は司法省と共同勧告の侵害指標を確認し、境界機器だけでなくIoT機器、DNS履歴、標的型メール後の通信を遡って調べたい。ドメイン停止後も既存の侵入や別ドメインへの移行は残り得る。",
+          "sources": [
+            {
+              "title": "Justice Department and FBI Seize Vulnerability Scanning and Spear Phishing Tools Operated and Used by China-State Sponsored Hackers",
+              "publisher": "U.S. Department of Justice",
+              "url": "https://www.justice.gov/opa/pr/justice-department-and-fbi-seize-vulnerability-scanning-and-spear-phishing-tools-operated"
+            },
+            {
+              "title": "US announces effort to disrupt hacking infrastructure run by China's Integrity Tech Group",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/technology/us-announces-effort-disrupt-hacking-infrastructure-run-by-chinas-integrity-tech-2026-10-09/"
+            }
+          ],
+          "tags": [
+            "サイバー攻撃",
+            "Flax Typhoon",
+            "IoT",
+            "重要インフラ"
+          ]
+        },
+        {
+          "id": "nvidia-reflection-ai-talks",
+          "headline": "Nvidia、Reflection AI買収も協議",
+          "dek": "追加出資か買収を検討とFT報道。条件や合意の有無は未公表",
+          "importance": 2,
+          "facts": [
+            "NvidiaがオープンソースAIの新興企業Reflection AIへの追加出資、または買収を協議しているとFinancial Timesが関係者を基に報じ、Reutersが10月10日に伝えた。",
+            "現時点でNvidiaとReflection AIから契約条件、評価額、合意時期の公式発表はない。協議段階であり、取引が成立するとは限らない。",
+            "半導体供給者によるモデル企業への資本参加は需要先の確保につながる一方、顧客間の中立性やオープンソース方針が買収後も保たれるかが論点になる。"
+          ],
+          "why_it_matters": "AI半導体企業がモデル開発へ資本を深く入れると、計算資源とソフトウェアの統合は速まるが、供給者と顧客の関係も複雑になる。噂の評価額ではなく、正式契約とガバナンス条件を待つべき案件である。",
+          "implications": "確認点は買収か少数出資か、オープンソースのライセンス、学習用GPU契約、経営権、競争当局への届出である。公式発表までは成立済みとして扱わない。",
+          "sources": [
+            {
+              "title": "Nvidia in talks to invest further in Reflection AI or buy it, FT reports",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/nvidia-talks-invest-further-reflection-ai-or-buy-it-ft-reports-2026-10-10/"
+            }
+          ],
+          "tags": [
+            "Nvidia",
+            "Reflection AI",
+            "オープンソース",
+            "M&A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "infosys-perm-response",
+          "headline": "Infosys、PERM停止の影響を否定",
+          "dek": "重大な影響は見込まないと取引所提出。当局の質問に協力",
+          "importance": 2,
+          "facts": [
+            "Infosysは10月10日、米政府が同社を含む企業のPERM申請を停止した件について、事業への重大な影響を予想していないと証券取引所向け資料で表明した。",
+            "同社は米労働省などの質問や説明要請に対応する用意があるとした。影響を見込まない根拠となる申請件数、対象社員数、代替採用コストは開示していない。",
+            "前号では政府側の停止発表と対象企業の多くが未回答だった。本号でInfosysの初期評価が加わったが、停止期間や解除条件はなお不明である。"
+          ],
+          "why_it_matters": "政策発表による制度上の制約と、企業が見積もる財務影響は同じではない。申請依存度や現地採用比率によって各社への打撃は異なり、重大性の判断には定量的な開示が必要になる。",
+          "implications": "Infosysの次回決算では米国の人員構成、採用費、案件受注、リスク開示を確認したい。他の対象企業の反応と当局の解除条件がそろうまで、業界全体への影響を一律に推定しない。",
+          "follow_up": {
+            "previous": {
+              "date": "2026-10-09",
+              "article_id": "us-perm-tech-suspension"
+            },
+            "assessment": "pending",
+            "reassessment": "前号は対象企業の反応がほぼ未確認だった。Infosysは重大な影響を見込まないと表明したが、対象申請数や代替コストを示しておらず、政策の実害が小さいと確定できない。",
+            "next_check": "Infosysと他社の定量開示、米労働省の停止期間・解除条件、訴訟や行政手続を確認する。",
+            "reconsider_if": "複数社が申請件数と費用を開示し、停止が短期で解除されれば業界影響の見立てを弱める。"
+          },
+          "sources": [
+            {
+              "title": "Company statement on the U.S. Permanent Labor Certification Program",
+              "publisher": "Infosys",
+              "url": "https://www.infosys.com/investors/reports-filings/exchange-filings.html"
+            },
+            {
+              "title": "India's Infosys does not expect material impact from US PERM suspension",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/us/indias-infosys-does-not-expect-material-impact-us-perm-suspension-2026-10-10/"
+            }
+          ],
+          "tags": [
+            "Infosys",
+            "PERM",
+            "雇用移民",
+            "ITサービス"
+          ]
+        },
+        {
+          "id": "philips-shareholder-case",
+          "headline": "Philips、株主の調査請求を退ける",
+          "dek": "睡眠時無呼吸装置のリコールをめぐり、Dutch裁判所が請求を棄却",
+          "importance": 2,
+          "facts": [
+            "Amsterdam控訴裁判所の企業部は10月10日、睡眠時無呼吸治療器の大規模リコールをめぐり、Philipsの開示や経営対応を調べるよう求めた株主の請求を退けた。",
+            "裁判所は、Philipsが警告より大幅に早く問題を知っていたことや、子会社Respironicsへ経営陣がもっと早く介入すべきだったことを示す根拠はないとした。Philipsは判断を歓迎した。",
+            "同社は2021年に、有害物質を放出する恐れのある防音材を理由として約1,500万台を回収した。株価はその過程で約3分の2下落し、2024年には米国の人身損害請求を11億ドルで和解した。"
+          ],
+          "why_it_matters": "今回の判断は株主による企業調査の請求を退けたもので、製品安全をめぐる全責任や他国の手続を終わらせたわけではない。法的な勝利の範囲と、残るリコール費用・評判リスクを分ける必要がある。",
+          "implications": "投資家は判決理由の全文、Franceなど他国の捜査、リコール関連引当、交換・補償の進捗を追いたい。請求棄却だけで将来費用がゼロになったとは扱えない。",
+          "sources": [
+            {
+              "title": "Philips wins Dutch court battle with shareholders over recall",
+              "publisher": "Reuters via Euronext",
+              "url": "https://live.euronext.com/en/financial-news/philips-wins-dutch-court-battle-shareholders-over-recall"
+            }
+          ],
+          "tags": [
+            "Philips",
+            "製品リコール",
+            "企業統治",
+            "訴訟"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "us-russia-diesel-deal",
+          "headline": "米、ロシア産ディーゼル制裁を緩和",
+          "dek": "30万トン超を即時供給へ。Ukraineは反発、Germanyは制裁維持",
+          "importance": 3,
+          "facts": [
+            "Trump米大統領は10月9日、Putin露大統領との電話協議後、Russiaが米国と世界市場へ30万トン超のディーゼルを直ちに供給し、11月に50万トン、その後100万トン、製油所の状況次第でさらに300万トンを供給すると発表した。",
+            "米国はRussia産燃料への制裁を一時的に緩和した。Zelenskiy Ukraine大統領は戦費を支える決定だと批判し、Germany政府は対Russia制裁を維持し、欧州の追加措置を協議すると表明した。",
+            "米国のディーゼル平均価格は9日に1ガロン6.28ドルで、Iranとの戦争開始以降70%上昇していた。合意した数量、輸送開始、実際の荷揚げ、価格低下はまだ確認されていない。",
+            "米国、Ukraine、欧州の交渉担当者は同日Miamiで共同和平案を協議した一方、Putinは3者協議の早期再開に慎重な姿勢を示した。燃料合意と和平交渉は別々に検証する必要がある。"
+          ],
+          "why_it_matters": "高騰する燃料価格への短期対応が、Russiaの輸出収入を抑える制裁目的と衝突した。米欧の足並みが崩れると、制裁の実効性だけでなくUkraine交渉での圧力配分も変わる。",
+          "implications": "供給表明を実需改善とみなさず、船積み量、決済・保険の許可範囲、米ディーゼル小売価格、欧州制裁との差を追う。11月の追加50万トンが実行されなければ価格効果の見立てを下げる。",
+          "follow_up": {
+            "previous": {
+              "date": "2026-10-10",
+              "article_id": "global-markets-friday"
+            },
+            "assessment": "mixed",
+            "reassessment": "前号はBrent104.72ドルと米10年債約5.24%を確認した。本号ではRussia産ディーゼルの供給合意が加わったが、実際の輸送と価格低下は未確認で、欧州は制裁維持を表明した。",
+            "next_check": "最初の30万トン超の船積み・荷揚げ、制裁免許の期限と対象、米ディーゼル価格を確認する。",
+            "reconsider_if": "供給が遅れ、欧州の制裁で物流・保険が詰まる、または小売価格が下がらなければ短期効果を弱める。"
+          },
+          "sources": [
+            {
+              "title": "Trump says Russia to immediately supply 300,000 tons of diesel fuel",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/energy/trump-says-russia-immediately-supply-300000-tons-diesel-fuel-2026-10-09/"
+            },
+            {
+              "title": "Germany sticks to Russia sanctions after Trump announcement on diesel",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/germany-sticks-russia-sanctions-after-trump-announcement-diesel-2026-10-10/"
+            },
+            {
+              "title": "Neither Putin nor Trump wanted to hang up first, Kremlin aide says after 'very friendly' call",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/neither-putin-nor-trump-wanted-hang-up-first-kremlin-aide-says-after-very-2026-10-10/"
+            }
+          ],
+          "tags": [
+            "Russia",
+            "Ukraine",
+            "ディーゼル",
+            "経済制裁"
+          ]
+        },
+        {
+          "id": "gaza-strikes-ceasefire",
+          "headline": "Gaza空爆で5人死亡、停戦なお不安定",
+          "dek": "Israel軍は戦闘員を標的と説明。Hamasは再武装を否定",
+          "importance": 2,
+          "facts": [
+            "Gazaの保健当局によると、10月10日のIsrael軍による2度の攻撃で少なくともPalestine人5人が死亡した。4人はGaza CityのPanda Mall付近、1人はTuffah地区で死亡した。",
+            "Israel軍は戦闘員を標的にしたと説明したが、詳細は示していない。IsraelはHamasが再武装して停戦に違反したと主張し、Hamasは否定してIsraelが停戦を損なっていると反論した。",
+            "2025年10月の停戦後、Gaza保健当局はIsrael側の攻撃で少なくとも1,400人が死亡したとし、Israelは同期間に兵士4人が殺害されたとしている。双方の主張を独立に確定できていない。"
+          ],
+          "why_it_matters": "停戦合意が存在しても、違反の認定方法、武装解除、撤収、復興の順序が未実施なら局地攻撃が続く。死者数だけでなく、合意を維持する検証機構が機能しているかが和平の持続性を左右する。",
+          "implications": "次に確認するのは攻撃対象の独立検証、停戦監視の報告、Hamas武装解除とIsrael軍撤収の手順、復興資金の実行である。当事者発表は帰属を明示して扱う。",
+          "sources": [
+            {
+              "title": "Israeli strikes kill five people in Gaza, medics say",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/israeli-strikes-kill-five-people-gaza-medics-say-2026-10-10/"
+            }
+          ],
+          "tags": [
+            "Gaza",
+            "Israel",
+            "Hamas",
+            "停戦"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "china-car-design-rules",
+          "headline": "中国、車両の新機能に検証強化案",
+          "dek": "格納式ドアハンドルを禁止し、ライトとワイパーには物理操作を要求",
+          "importance": 3,
+          "facts": [
+            "中国工業情報化部は公安部など3機関と、車両の革新的設計と研究開発試験を厳格化する規則案を10月10日に公表し、11月10日まで意見を募る。",
+            "2027年1月1日から新型車の認可申請に革新的機能と試験の詳細を求め、既存認可車も7月1日までに届出を行う。試験不足や虚偽データは認可を拒み、安全上の欠陥があれば生産停止やリコールを求める。",
+            "案は完全格納式ドアハンドル、折り畳み・柔軟ディスプレーを禁じ、走行中のゼログラビティ座席と回転座席の使用を認めない。ライトやワイパーなど重要機能は物理操作を残す。",
+            "Chinaでは別途、機械式の車外・車内ドアハンドルを求める強制国家標準GB 48001-2026が2027年1月1日に新型車へ施行される予定である。"
+          ],
+          "why_it_matters": "規則案は個別事故への対処ではなく、設計の新しさを市場投入前に検証する責任へ結び付ける。画面や電動機構への集約が進むほど、停電、衝突、緊急時に直感的な操作が残るかが安全要件になる。",
+          "implications": "自動車メーカーは中国向け仕様だけでなく、世界共通の車内UIと部品設計を見直す可能性がある。最終規則では禁止対象、経過措置、試験方法、既販車のリコール条件を確認したい。",
+          "sources": [
+            {
+              "title": "关于公开征求进一步加强汽车产品创新设计和研发测试验证有关管理工作的通知意见的公示",
+              "publisher": "中国工業情報化部",
+              "url": "https://www.miit.gov.cn/gzcy/yjzj/art/2026/art_d82e902143264b6d9179e01ee54a414f.html"
+            },
+            {
+              "title": "China proposes stricter car design, testing rules, including ban on fully hidden door handles",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/china-proposes-stricter-car-design-testing-rules-including-ban-fully-hidden-door-2026-10-10/"
+            }
+          ],
+          "tags": [
+            "自動車安全",
+            "China",
+            "ヒューマンマシンインターフェース",
+            "製品規制"
+          ]
+        },
+        {
+          "id": "germany-afd-firewall",
+          "headline": "Germany、AfD非協力原則に亀裂",
+          "dek": "Saxony-Anhalt州議会でAfD候補が初の議長に。秘密投票で造反か",
+          "importance": 2,
+          "facts": [
+            "Germany東部Saxony-Anhalt州議会で、AfDのTobias Rausch氏が48票を得て議長に選ばれた。AfDと左派BSWの合計議席より4票多く、主要政党の少なくとも4人が党方針に反して投票したとみられる。",
+            "AfD候補が州議会議長に就くのは初めて。AfDとの連立や協力を拒む主要政党の『防火壁』が、無記名投票で破られた形である。CDU執行部は所属議員が関与した場合は処分が必要だと述べた。",
+            "AfDは全国世論調査で1年以上CDUを上回り、2029年の国政選挙勝利を目標にする。Saxony-Anhalt支部は国内情報機関から過激派と指定されているが、AfDは極右との評価を否定する。"
+          ],
+          "why_it_matters": "制度上の連立合意がなくても、議会役職や法案ごとの秘密投票で協力が生じれば、非協力原則は徐々に実効性を失う。党の公式方針と個々の議員行動の差が、政党システムの境界を変え得る。",
+          "implications": "今後はCDUの調査・処分、州首相選出での越境投票、AfDが議長権限をどう使うかを確認する。全国支持率だけでなく、地方議会で実際に獲得する役職と協力票を追う必要がある。",
+          "sources": [
+            {
+              "title": "Germany's firewall against the far-right AfD feels the heat",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/europe/germanys-firewall-against-far-right-afd-feels-heat-2026-10-10/"
+            }
+          ],
+          "tags": [
+            "Germany",
+            "AfD",
+            "政党政治",
+            "民主主義"
+          ]
+        }
+      ]
+    }
+  ],
+  "focus_refs": [
+    "riyadh-airport-attack",
+    "china-car-design-rules",
+    "us-russia-diesel-deal"
+  ],
+  "frontier": {
+    "title": "物理操作はなぜソフトウェア化の限界になるのか",
+    "dek": "車のドア、ライト、ワイパーから、安全設計に残すべき『直接操作』の条件を考える",
+    "tags": [
+      "自動車安全",
+      "ヒューマンファクター",
+      "フェイルセーフ",
+      "製品設計"
+    ],
+    "reading_minutes": 6,
+    "body_md": "## 操作を画面へ集める利点と代償\n\n自動車の機能をタッチ画面や電動機構へまとめると、部品点数を減らし、ソフトウェア更新で表示や動作を変えやすい。車内を滑らかに見せ、同じハードウェアを複数車種で共有できる利点もある。完全格納式ドアハンドルは空気抵抗を抑え、外観を整える。平常時だけを見れば、物理スイッチや突起を減らす設計には合理性がある。\n\n問題は、緊急時の利用者が平常時と同じ条件にいないことである。衝突で電源や通信が失われる、煙で視界が悪くなる、低温で機構が凍る、運転者が前方から目を離せない、といった状況では、画面の階層や電動機構への依存が失敗点になる。操作が一つの中央画面に集まるほど、故障の影響範囲も広がる。\n\n## 安全機能は発見できなければ使えない\n\n緊急操作には三つの条件が要る。第一は、電源やソフトウェアが落ちても働くこと。第二は、説明書を読んでいない救助者や同乗者でも場所と動かし方を発見できること。第三は、手袋、負傷、暗闇、煙の中でも力を伝えられることである。機械式の解除装置が車内の見えない位置にあっても、存在を知らなければ実用上の冗長性にはならない。表示、形、触感が操作方法を伝えることも安全機能の一部であり、訓練済みの所有者だけが使える仕組みでは救助に間に合わない。\n\nライトやワイパーにも同じ考え方が当てはまる。頻繁に使い、反応までの遅れが危険につながる機能は、触覚で位置を確かめ、視線を道路から外さず操作できる方がよい。画面は状況に応じて表示を変えられる一方、操作位置も変わり得る。物理操作の価値は古さではなく、筋肉の記憶と即時性にある。\n\n## 冗長性は同じ仕組みを二つ置くことではない\n\n安全設計でいう冗長性は、同じ電子ボタンを二つ置くことでは足りない。共通の電源、制御器、通信線に依存すれば、一つの障害で両方が使えなくなる。電動ドアには、電源から独立した機械経路と、外部から手を掛けられる空間が必要になる。デジタル表示にも、最低限の警告を別系統で伝える設計が考えられる。\n\nただし、すべてを物理スイッチへ戻せば安全になるわけでもない。スイッチが多すぎれば識別が難しくなり、誤操作が増える。重要なのは、機能の頻度、失敗時の損害、時間制約、利用者の状態で分類することだ。空調の細かな設定と、ドア解放やワイパーを同じ設計原則で扱う必要はない。\n\n## 規制は形ではなく試験を求める\n\n中国の規則案は、特定の形を禁じるだけでなく、革新的機能の技術資料と試験過程を認可時に示すよう求める。これは『新しいから危険』という判断ではない。メーカーが安全性を立証し、データが虚偽なら認可を拒み、既販車に欠陥があれば停止やリコールへつなぐ枠組みである。\n\nここで重要なのは試験条件だ。通常温度で数回動いたという結果では、凍結、浸水、衝突後の変形、電池切れを説明できない。実験室の合格と現場での発見可能性も違う。救助者が初見で開けられるか、運転中に視線を外す時間がどれだけ増えるかなど、人の行動を含む試験が必要になる。\n\n## 良いデジタル化は退出経路を残す\n\nソフトウェア化の目的は、物理操作をゼロにすることではない。変更しやすい機能は画面へ移し、失敗時の損害が大きい機能には独立した操作経路を残す。その境界を製品ごとに説明できることが、安全なデジタル化である。\n\n次に見るべきは、中国の最終規則で禁止範囲と試験方法がどう定義されるか、2027年の新型車に各社がどのような共通設計で対応するかである。ドアハンドルの形だけでなく、停電時の動作、救助者の操作時間、重要機能の視線移動を比較すれば、規制が本当に事故時の利用可能性を高めたかを測れる。",
+    "sources": [
+      {
+        "title": "关于公开征求进一步加强汽车产品创新设计和研发测试验证有关管理工作的通知意见的公示",
+        "publisher": "中国工業情報化部",
+        "url": "https://www.miit.gov.cn/gzcy/yjzj/art/2026/art_d82e902143264b6d9179e01ee54a414f.html"
+      },
+      {
+        "title": "China proposes stricter car design, testing rules, including ban on fully hidden door handles",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/china-proposes-stricter-car-design-testing-rules-including-ban-fully-hidden-door-2026-10-10/"
+      },
+      {
+        "title": "明年起，隐藏式车门把手将退出市场",
+        "publisher": "中国工業情報化部",
+        "url": "https://wap.miit.gov.cn/xwfb/mtbd/twbd/art/2026/art_22fb0f56e167453c8fb42ea4085178b6.html"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "民間航空への攻撃は空港の再開時刻だけでなく、航空会社、保険、渡航勧告、国際会議の参加判断へ連鎖する。",
+      "物理操作の価値は懐古ではなく、停電、衝突、暗闇でも独立して働き、初見で発見できることにある。",
+      "地方債の景気効果は公表枠ではなく、発行、交付、建設という実行段階で測る必要がある。",
+      "制裁の一時緩和は燃料価格対策になり得る一方、同盟国の足並みと戦争収入を抑える目的を弱め得る。"
+    ],
+    "watchlist": [
+      {
+        "item": "Riyadh空港とSaudi空域",
+        "why": "便の再開、追加攻撃、航空各社の停止期限、各国渡航勧告を確認",
+        "horizon": "毎日"
+      },
+      {
+        "item": "Russia産ディーゼル供給",
+        "why": "最初の30万トン超の船積み、制裁免許、米小売価格への反映を確認",
+        "horizon": "数日～11月"
+      },
+      {
+        "item": "IMF・World Bank年次総会",
+        "why": "世界経済見通し、金融安定性、財政報告の改定幅と前提を確認",
+        "horizon": "10月12～18日"
+      },
+      {
+        "item": "中国の車両設計規則案",
+        "why": "最終的な禁止対象、試験方法、既販車の経過措置を確認",
+        "horizon": "意見募集11月10日まで"
+      },
+      {
+        "item": "InfosysとPERM停止",
+        "why": "申請件数、費用、解除条件、他の対象企業の定量開示を確認",
+        "horizon": "次回決算まで"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "地方政府債務結存限額",
+      "reading": "ちほうせいふさいむけっそんげんがく",
+      "definition": "承認済みの地方政府債務上限のうち、まだ発行に使われていない枠。新たな上限追加とは異なり、残った枠を地域や用途へ再配分して使う。"
+    },
+    {
+      "term": "PERM",
+      "reading": "パーム",
+      "definition": "米国の雇用主が外国人を雇用に基づく永住権へ推薦する際、多くの場合に必要な労働認証手続。米国人労働者の雇用や賃金を害さないことを示す。"
+    },
+    {
+      "term": "フェイルセーフ",
+      "reading": "フェイルセーフ",
+      "definition": "部品や電源が故障したとき、危険側ではなく安全側へ移るよう設計する考え方。車のドアでは電源喪失時にも機械的に開けられる経路が例となる。"
+    },
+    {
+      "term": "政治的防火壁",
+      "reading": "せいじてきぼうかへき",
+      "definition": "主流政党が特定政党との連立、協力、役職選出を避け、政治的な正統化を防ぐ非公式の原則。GermanyではAfDへの非協力を指す。"
+    }
+  ]
+}
