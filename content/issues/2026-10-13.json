@@ -1,0 +1,550 @@
+{
+  "date": "2026-10-13",
+  "edition": 56,
+  "generated_at": "2026-10-13T08:07:29+09:00",
+  "masthead_note": "発表と実行、予測と実績を分けて読む火曜日",
+  "market_snapshot": {
+    "as_of": "日本株は祝日明け前のため10月9日東京市場終値。米国株とBrent原油は10月12日ニューヨーク市場終値、ドル円は同日ニューヨーク午後の観測値。変化は前営業日比。米国債現物市場は12日休場のため米10年債は省略。",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "69,030.92円",
+        "change": "-11.19円（-0.02%）",
+        "direction": "down",
+        "note": "10月9日終値。Reuters"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,104.81",
+        "change": "+13.35pt（+0.33%）",
+        "direction": "up",
+        "note": "10月9日終値。Reuters"
+      },
+      {
+        "label": "Dow平均",
+        "value": "51,850.55",
+        "change": "+195.60（+0.38%）",
+        "direction": "up",
+        "note": "10月12日終値。Reuters"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,807.24",
+        "change": "-4.30（-0.06%）",
+        "direction": "down",
+        "note": "10月12日終値。Reuters"
+      },
+      {
+        "label": "Nasdaq総合",
+        "value": "27,245.90",
+        "change": "-120.27（-0.44%）",
+        "direction": "down",
+        "note": "10月12日終値。Reuters"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "158.66円",
+        "change": "ドル指数は+0.4%",
+        "direction": "up",
+        "note": "10月12日ニューヨーク午後。Reuters"
+      },
+      {
+        "label": "Brent原油",
+        "value": "106.65ドル/バレル",
+        "change": "+1.8%",
+        "direction": "up",
+        "note": "10月12日終値。AP"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "Kroger、本社部門3,000人を3年で削減。AI導入と店舗投資を同時に進める",
+      "ref": "kroger-ai-restructuring"
+    },
+    {
+      "text": "IMF専務理事、AI投資が世界成長を約3%に支える一方、雇用の40%に影響と説明",
+      "ref": "imf-ai-growth-jobs"
+    },
+    {
+      "text": "米住宅ローン金利7.4%。MBSのヘッジが国債売り圧力を増幅",
+      "ref": "mortgage-convexity-hedging"
+    },
+    {
+      "text": "TSMC、7～9月売上高は前年比50%増。15日に決算を発表",
+      "ref": "tsmc-record-quarter-preview"
+    },
+    {
+      "text": "Riyadh空港は17日まで閉鎖。Saudi全空港の便46.4%が欠航",
+      "ref": "riyadh-airport-closure"
+    },
+    {
+      "text": "Ukraine、停戦発表後もガス施設などへの攻撃が続いたと報告",
+      "ref": "ukraine-energy-strikes"
+    },
+    {
+      "text": "EU、Russia軍需産業の1,569個人・団体を制裁対象に追加",
+      "ref": "eu-russia-listings"
+    }
+  ],
+  "focus_refs": [
+    "kroger-ai-restructuring",
+    "ukraine-energy-strikes",
+    "mortgage-convexity-hedging"
+  ],
+  "top_story": {
+    "id": "kroger-ai-restructuring",
+    "headline": "Kroger、本社部門3,000人削減へ",
+    "dek": "3年で約37%。AI導入、値下げ、店舗人員への再配分を一つの計画に",
+    "importance": 3,
+    "facts": [
+      "KrogerのGreg Foran最高経営責任者は社員向け文書で、今後3年間に本社部門の約3,000人を削減する方針を示した。対象は本社人員8,200人の約37%に当たる。",
+      "文書は重複業務の削減と技術への適応を掲げ、削減で生じる余力を商品の値下げと店舗従業員への投資に振り向けるとしている。具体的な対象や時期は今後数カ月で示す。",
+      "同社は9月、業務フロー管理と顧客データを使う買い物支援などのAI戦略を公表していた。公式の株主向け説明では、AIは現場担当者を置き換えるのではなく、問題発見や生鮮物流の改善に使うとしている。",
+      "Krogerは前年6月にも本社部門約1,000人を削減した。今回はAI導入だけが原因と断定せず、価格競争、販売見通し、組織の重複解消を併せて見る必要がある。"
+    ],
+    "why_it_matters": "AI投資の効果が、単なるソフト導入ではなく組織の人数、仕事の分担、価格戦略へ移った事例である。削減人数だけでなく、浮いた費用が値下げや店舗サービスへ本当に移るかが、生産性向上の成否を決める。",
+    "implications": "企業は『AIで効率化』を掲げる際、なくなる作業、残る判断、再配置する人員、顧客へ還元する指標を分けて開示する必要がある。投資家は人件費削減だけでなく、既存店売上、粗利益率、店舗人員、顧客満足度の推移で実行を確かめたい。",
+    "sources": [
+      {
+        "title": "Kroger plans to eliminate 3,000 corporate roles, memo shows, as it expands AI use",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/kroger-plans-cut-about-third-corporate-roles-over-next-three-years-bloomberg-2026-10-12/"
+      },
+      {
+        "title": "Shareholders Letter - Greg",
+        "publisher": "The Kroger Co.",
+        "url": "https://www.thekrogerco.com/shareholders-letter-greg/"
+      }
+    ],
+    "tags": [
+      "Kroger",
+      "AI",
+      "雇用",
+      "小売"
+    ]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "imf-ai-growth-jobs",
+          "headline": "IMF、AIが世界成長約3%を下支え",
+          "dek": "先進国の雇用は最大60%に影響。成長と分配を同じ数字で読む",
+          "importance": 3,
+          "facts": [
+            "IMFのKristalina Georgieva専務理事は12日、AIインフラ投資がエネルギー供給ショック下でも世界経済の成長率を約3%に保つ一因だと説明した。13日の世界経済見通し公表前の発言であり、改定値そのものではない。",
+            "同氏はAI投資による成長押し上げを、アジアの先進国で0.5～1ポイント、新興国で0.2～0.8ポイントと説明した。一方、AIで補完、格下げ、消失のいずれかの影響を受ける雇用は世界で約40%、先進国で最大60%とした。",
+            "SingaporeのTharman Shanmugaratnam大統領は卒業後の初職が減る問題を指摘した。World BankのAjay Banga総裁は、新興国では大型モデルより農業、診療所、教育向けの小規模AIを重視すると述べた。"
+          ],
+          "why_it_matters": "設備投資は短期の需要を作るが、利益と税源が労働から資本へ移る可能性がある。GDPの上振れだけでは、若年雇用、教育、税収の移行費用を測れない。",
+          "implications": "13日公表予定のWEOとGFSRでは、成長率の改定幅に加え、AI投資の地域差、エネルギー前提、資産価格と雇用へのリスクを確認する。",
+          "sources": [
+            {
+              "title": "IMF says AI investment keeps global growth around 3% but brings massive disruption",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/china/imf-says-ai-investment-keeps-global-growth-around-3-with-major-asia-benefits-2026-10-12/"
+            },
+            {
+              "title": "2026 Annual Meetings",
+              "publisher": "International Monetary Fund",
+              "url": "https://www.imf.org/en/meetings/2026/annual"
+            }
+          ],
+          "tags": [
+            "IMF",
+            "AI投資",
+            "雇用",
+            "世界経済"
+          ]
+        },
+        {
+          "id": "mortgage-convexity-hedging",
+          "headline": "住宅ローン債ヘッジ、米金利上昇を増幅",
+          "dek": "30年ローンは7.4%。借り換え減少でMBSの期間が延び、国債売りへ",
+          "importance": 2,
+          "facts": [
+            "米10年債利回りは2月下旬から約1.30ポイント、30年債は約1ポイント上昇し、30年固定住宅ローン金利は約3年ぶりの7.4%へ上がった。12日は米国債現物市場が休場で、これらは休場前までの変化である。",
+            "金利上昇で借り換えが減ると、住宅ローン担保証券（MBS）の元本回収が遅くなり、実質的な残存期間が延びる。投資家は金利感応度を下げるため、米国債先物の売却や固定金利払いのスワップを増やす。",
+            "9月のMBSは同程度の期間を持つ米国債を96bp下回り、スプレッドは約13bp拡大して125bpとなった。ただし市場規模は金融危機前より小さく、主因は金融政策見通しとの指摘もある。"
+          ],
+          "why_it_matters": "住宅ローンの借り手が動かないことが、機関投資家の機械的な売買を通じて長期金利をさらに動かす。原油高や利上げ観測という最初の衝撃と、ヘッジによる増幅を分ける必要がある。",
+          "implications": "企業の長期借入や住宅市場は政策金利だけでなく、MBSスプレッドとヘッジ量の影響も受ける。SOFR先物の建玉、MBSの対国債スプレッド、住宅ローン金利を同時に追う。",
+          "sources": [
+            {
+              "title": "US yield surge triggers mortgage hedging, adds to bond market pressure",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/us-yield-surge-triggers-mortgage-hedging-adds-bond-market-pressure-2026-10-12/"
+            },
+            {
+              "title": "Did the Federal Reserve's MBS Purchase Program Lower Mortgage Rates?",
+              "publisher": "Federal Reserve Board",
+              "url": "https://www.federalreserve.gov/pubs/feds/2011/201101/index.html"
+            }
+          ],
+          "tags": [
+            "MBS",
+            "米国債",
+            "住宅ローン",
+            "金利"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "microsoft-ai-safety-rules",
+          "headline": "Microsoft、AI事故報告の法制化を提案",
+          "dek": "独立評価、被害通知、緊急停止を世界共通の安全要件に",
+          "importance": 2,
+          "facts": [
+            "MicrosoftのBrad Smith社長はBBCの取材で、先端AIを独立評価者が検証し、事故報告を企業へ法的に義務付ける世界共通ルールが必要だと述べた。",
+            "同氏は不正なAIエージェントに侵害された被害者への通知と、動作を止める緊急停止の仕組みも挙げた。AI開発を遅らせる主張とは別に、事故時の責任と手続きを制度化する提案である。",
+            "英国のAI Security Instituteは主要モデルを公開前に任意合意で評価している。Smith氏は、この評価能力を理由に英国が国際ルールを主導し得るとした。"
+          ],
+          "why_it_matters": "性能基準だけでは、事故が起きた後に誰が知らせ、止め、記録するかが決まらない。事故報告を共通形式にすれば、企業をまたいだ再発防止と保険・監査の基盤になる。",
+          "implications": "AIを業務へ組み込む企業は、モデル提供者任せにせず、異常検知、停止権限、顧客通知、ログ保存の責任者を契約で明確にしたい。",
+          "sources": [
+            {
+              "title": "Microsoft president says milk faces more regulation than AI",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/legal/litigation/microsoft-president-says-milk-faces-more-regulation-than-ai-2026-10-12/"
+            }
+          ],
+          "tags": [
+            "Microsoft",
+            "AI安全",
+            "事故報告",
+            "監査"
+          ]
+        },
+        {
+          "id": "tsmc-record-quarter-preview",
+          "headline": "TSMC、四半期売上高50%増",
+          "dek": "15日に決算。AI半導体と先端パッケージの持続力を確認へ",
+          "importance": 2,
+          "facts": [
+            "TSMCの7～9月売上高は前年同期比50%増で過去最高となった。9月単月の売上高は5,118.6億台湾ドルで前年同月比54.6%、1～9月累計は3兆8,987.3億台湾ドルで41.1%増だった。",
+            "15日の決算では、LSEGが集計した16人の予想で純利益が前年比65%増の7,463億台湾ドルと見込まれる。これは予想であり、実績ではない。",
+            "会社が7月に示した2026年の設備投資計画は600億～640億ドル。AI向け先端半導体に加え、CoWoSなど高度なパッケージ能力と米国工場の増設速度が焦点になる。"
+          ],
+          "why_it_matters": "AI需要がモデル企業の売上ではなく、製造とパッケージの実需へどこまで転換しているかを測る材料になる。売上成長が高くても、投資負担と地域分散で利益率は変わる。",
+          "implications": "決算では純利益の達成だけでなく、10～12月見通し、3nm構成比、CoWoS能力、設備投資の増減を確認する。",
+          "sources": [
+            {
+              "title": "TSMC expected to report sixth straight quarter of record profit thanks to AI boom",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/china/tsmc-expected-report-sixth-straight-quarter-record-profit-thanks-ai-boom-2026-10-12/"
+            },
+            {
+              "title": "TSMC September 2026 Revenue Report",
+              "publisher": "TSMC",
+              "url": "https://pr.cld.tsmc.com/english/news/3343"
+            },
+            {
+              "title": "TSMC 2026 Q3 Quarterly Results",
+              "publisher": "TSMC",
+              "url": "https://investor.cld.tsmc.com/english/quarterly-results/2026/q3"
+            }
+          ],
+          "tags": [
+            "TSMC",
+            "半導体",
+            "AIインフラ",
+            "CoWoS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "getty-prepackaged-bankruptcy",
+          "headline": "Getty、事前調整型の破産申請へ",
+          "dek": "最大5.33億ドルを増資し非公開化。Shutterstock統合断念後の再建",
+          "importance": 2,
+          "facts": [
+            "Getty Imagesは主要債権者と再建契約を結び、数週間以内に一部米法人で事前調整型のChapter 11を申請する。年末までの完了を見込む。",
+            "Getty一族の関係会社とKoch Equity Developmentが最大5.33億ドルを新規出資し、再建後の会社を100%保有する。無担保債券2.70億ドルを消却し、担保付融資は金利を下げ満期を延ばす。",
+            "6月末の負債総額は約21億ドルで、9日の時価総額は約2,074万ドルだった。会社は通常営業を続け、取引先への支払いを通常どおり行うとしている。"
+          ],
+          "why_it_matters": "画像生成AIとの競争だけでなく、高い負債と破談になった大型統合が同時に効いた。知的財産を持つ企業でも、資本構成が事業転換の速度を制約する。",
+          "implications": "再建では負債削減額、新規資金の実行条件、ライセンス売上、生成AI向け契約を分けて確認する。Chapter 11申請は事業停止と同義ではない。",
+          "sources": [
+            {
+              "title": "Getty Images plans bankruptcy filing, to go private",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/getty-images-go-private-after-restructuring-deal-2026-10-12/"
+            }
+          ],
+          "tags": [
+            "Getty Images",
+            "Chapter 11",
+            "非公開化",
+            "生成AI"
+          ]
+        },
+        {
+          "id": "energyx-trafigura-lithium",
+          "headline": "EnergyX、20億ドルのリチウム契約",
+          "dek": "Trafiguraへ10年で10万トン。生産開始と資金調達はこれから",
+          "importance": 2,
+          "facts": [
+            "EnergyXはTrafiguraへ10年間で合計10万トンのリチウムを供給する、20億ドル規模の拘束力ある引取契約を結んだ。水酸化リチウムと炭酸リチウムを年5,000トンずつ供給する。",
+            "Chileでは2028年に年7,500トン、Texasでは2029年に年1万5,000トンの生産開始を計画する。Trafiguraの購入分はそれぞれ計画生産量の66%と33%に当たる。",
+            "契約はtake-or-pay方式だが、EnergyXは施設建設の追加資金を必要としている。米輸出入銀行へ6.90億ドルの融資を申請中で、契約額は現在のリチウム価格に基づく。"
+          ],
+          "why_it_matters": "EV販売にばらつきがあっても、定置用蓄電池が需要を支える構図を示す。一方、長期引取契約は鉱山の完成や技術の商業化を保証しない。",
+          "implications": "契約価値だけでなく、許認可、建設資金、実収率、顧客による品質認証、生産開始時期を順番に見る。",
+          "sources": [
+            {
+              "title": "EnergyX signs binding $2 billion lithium supply deal with Trafigura",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/energy/energyx-signs-binding-2-billion-lithium-supply-deal-with-trafigura-2026-10-12/"
+            }
+          ],
+          "tags": [
+            "EnergyX",
+            "Trafigura",
+            "リチウム",
+            "蓄電池"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "riyadh-airport-closure",
+          "headline": "Riyadh空港、17日まで閉鎖",
+          "dek": "Saudi全空港の欠航率46.4%。旅客便と国際会議へ影響拡大",
+          "importance": 3,
+          "facts": [
+            "Saudi当局はKing Khalid国際空港の閉鎖を10月17日21時GMTまで延長した。安全確認と施設の運航準備を完了するためとしている。",
+            "空港は10日の攻撃で13人が死亡、300人超が負傷して以来閉鎖中で、11日の追加攻撃では1人が死亡し11人が負傷した。Houthisは12日夜の弾道ミサイル攻撃も主張し、Saudi側はRiyadhへ向かうミサイルを迎撃したと発表した。",
+            "Ciriumによると12日のSaudi国内全空港の欠航率は46.4%。Lufthansaは16日まで、Air France-KLMは月末までRiyadh便を停止し、DeltaはAtlanta線の就航を2027年3月へ延期した。"
+          ],
+          "why_it_matters": "単発の施設被害から、複数日にわたる民間航空網の停止へ局面が変わった。欧州―アジアの迂回、航空燃料費、保険、国際会議への波及を数量で追う段階である。",
+          "implications": "企業はRiyadhだけでなくJeddah、Dammam、湾岸ハブを含む代替経路を確認し、欠航率と空域警告を出張・物流計画へ反映する。",
+          "sources": [
+            {
+              "title": "Saudi capital's airport to remain shut this week as airlines cancel services",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/skies-over-saudi-capital-riyadh-largely-empty-after-deadly-houthi-strikes-2026-10-12/"
+            },
+            {
+              "title": "Saudi Arabia faces new missile and drone fire after major attacks on airports",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/saudi-arabia-faces-new-missile-drone-fire-after-major-attacks-airports-2026-10-12/"
+            }
+          ],
+          "tags": [
+            "Saudi Arabia",
+            "Riyadh",
+            "航空",
+            "Houthis"
+          ],
+          "follow_up": {
+            "previous": {
+              "date": "2026-10-12",
+              "article_id": "saudi-airports-new-attacks"
+            },
+            "assessment": "strengthened",
+            "reassessment": "前号の追加攻撃と安全検査から、閉鎖期限、全空港の欠航率、各社の運休期間が具体化し、影響が地域航空網へ広がった。",
+            "next_check": "17日までの再開判断、Dammamの施設評価、Saudi Aramcoへの被害の公式確認を追う。",
+            "reconsider_if": "空港が予定より早く全面再開し、追加攻撃と空域警告が止まる場合。"
+          }
+        },
+        {
+          "id": "ukraine-energy-strikes",
+          "headline": "Ukraine、停戦後もエネルギー攻撃と報告",
+          "dek": "ガス生産施設と給油所が被害。米発表と現場の履行が分離",
+          "importance": 3,
+          "facts": [
+            "UkraineのVolodymyr Zelenskyy大統領は12日、米大統領がエネルギー停戦を発表した後も、Russiaのジェット推進型ドローンがガス生産施設を攻撃し、複数のドローンが給油所を攻撃したと述べた。",
+            "同氏はUkraine側がRussiaの製油所を前夜に攻撃しなかったと説明した一方、KyivやKharkivの発電設備への攻撃と停電復旧が続いているとした。これはUkraine政府の報告であり、Russia側の同文合意や第三者監視は確認できていない。",
+            "EUは同日、Russia軍需産業への大規模制裁を決定した。停戦の履行確認と経済圧力が並行して進む局面になった。"
+          ],
+          "why_it_matters": "前号で問題にした『発表、双方合意、履行』の差が一日で具体化した。攻撃が続く限り、燃料供給や電力復旧を停戦前提で計画することはできない。",
+          "implications": "日次の攻撃対象、停止容量、双方の公式文書、第三者監視の有無を追い、政治発表だけで原油・物流のリスクを下げない。",
+          "sources": [
+            {
+              "title": "Address by the President of Ukraine to the Participants of the Warsaw Security Forum",
+              "publisher": "President of Ukraine",
+              "url": "https://www.president.gov.ua/en/news/zvernennya-prezidenta-ukrayini-do-uchasnikiv-varshavskogo-be-106853"
+            },
+            {
+              "title": "Russia strikes Ukrainian energy sites despite Trump ceasefire call",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/europe/russia-strikes-ukrainian-energy-sites-despite-trump-ceasefire-call-2026-10-12/"
+            }
+          ],
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "エネルギー停戦",
+            "ドローン"
+          ],
+          "follow_up": {
+            "previous": {
+              "date": "2026-10-12",
+              "article_id": "ukraine-energy-ceasefire"
+            },
+            "assessment": "strengthened",
+            "reassessment": "前号はRussiaの正式回答と履行を未確認としていた。停戦発表後の新たなエネルギー施設攻撃というUkraine側の具体的報告により、検証前に合意成立と扱えないとの見立てが強まった。",
+            "next_check": "Russiaの正式回答、米国が示す合意文、衛星画像や送電事業者による被害確認を追う。",
+            "reconsider_if": "双方が同一条件の停戦文書を公表し、第三者記録で攻撃が継続的に減少する場合。"
+          }
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "eu-russia-listings",
+          "headline": "EU、Russia軍需1,569件を制裁",
+          "dek": "企業826社と経営者743人。弾道ミサイル供給網を重点対象に",
+          "importance": 3,
+          "facts": [
+            "EU理事会は12日、Russiaの軍需産業に関係する1,569の個人・団体を資産凍結などの対象へ追加した。内訳は企業826社と、それらの最高経営責任者743人である。",
+            "対象企業は電子部品、半導体、通信装置、レーダー、航空・衛星・ミサイルシステム、弾薬、光学・航法機器などを供給する。対象企業の年間売上高は少なくとも200億ユーロ、雇用は25万人超とEUは説明した。",
+            "EUのUkraine領土一体性を支える制度下の指定総数は約4,600件となる。資産凍結、資金提供禁止、個人の渡航禁止が適用され、法令はEU官報へ掲載された。"
+          ],
+          "why_it_matters": "輸出品目だけでなく、供給網の中堅企業と経営者をまとめて対象にする設計である。制裁の実効性は指定数ではなく、銀行、商社、物流会社が同名企業や迂回取引を識別できるかで決まる。",
+          "implications": "EUと取引する企業は新規リストを顧客・仕入先・実質所有者へ照合し、既存契約の停止条件と許可の有無を確認する。",
+          "sources": [
+            {
+              "title": "Russia’s war of aggression against Ukraine: EU agrees largest-ever package of listings targeting almost 1600 individuals and entities",
+              "publisher": "Council of the European Union",
+              "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/10/12/russia-s-war-of-aggression-against-ukraine-eu-agrees-largest-ever-package-of-listings-targeting-almost-1600-individuals-and-entities-in-russia-s-military-industrial-complex/"
+            }
+          ],
+          "tags": [
+            "EU",
+            "Russia",
+            "制裁",
+            "軍需産業"
+          ]
+        },
+        {
+          "id": "uk-ai-cyber-defence",
+          "headline": "英国、AIで1,000件超の脆弱性修正",
+          "dek": "政府システムの試行を拡大。重大AI事故と自律エージェント対策を検討",
+          "importance": 2,
+          "facts": [
+            "英国政府は12日、先端AIを使った二つの試行で政府システムの潜在的な脆弱性を1,000件超発見し、修正したと発表した。今後、公共サービス全体へ活用を広げる。",
+            "Cyber Security and Resilience Billの枠組みで、重大なAI事故や未遂を特定・報告する仕組みを検討する。自律型AIエージェントが関わる重大事故への準備作業も始めた。",
+            "AI Security Instituteは最新モデルの評価を進める。今回の発表は評価や検討の段階を含み、すべてが法的義務として施行済みではない。"
+          ],
+          "why_it_matters": "AIを防御側の道具として実運用しつつ、同じ技術が起こす事故の報告制度を整える二面作戦である。発見件数だけでなく、修正完了と再発防止まで測る必要がある。",
+          "implications": "公共部門の調達では、脆弱性検出率、誤検知、修正期限、事故報告、モデル停止権限を契約指標にできる。",
+          "sources": [
+            {
+              "title": "Britain steps up national defences against growing AI risks",
+              "publisher": "UK Government",
+              "url": "https://www.gov.uk/government/news/britain-steps-up-national-defences-against-growing-ai-risks"
+            }
+          ],
+          "tags": [
+            "英国",
+            "AI安全",
+            "サイバー防衛",
+            "公共調達"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "コンベクシティ・ヘッジはなぜ金利上昇を増幅するのか",
+    "dek": "住宅ローンの借り換え行動がMBSの期間を変え、国債先物とスワップへ波及する仕組み",
+    "tags": [
+      "MBS",
+      "コンベクシティ",
+      "米国債",
+      "住宅ローン"
+    ],
+    "reading_minutes": 6,
+    "body_md": "## 普通の債券と違う出発点\n\n固定利付債は、金利が上がれば価格が下がる。住宅ローン担保証券（MBS）にも同じ力が働くが、返済の時期を借り手が変えられる点が違う。米国では住宅ローンをまとめたMBSの投資家が、毎月の元利金を受け取る。金利が下がれば住宅所有者は低い金利へ借り換え、元本を予定より早く返す。反対に金利が上がれば、低利の既存ローンを手放さず、元本回収は遅くなる。\n\nこのためMBSの残存期間、つまり金利変化に対する価格の感応度は固定されていない。金利上昇局面では借り換えが減り、MBSの実質的な期間が延びる。投資家は意図した以上に長期金利リスクを抱える。米30年住宅ローン金利が約3年ぶりの7.4%へ上がった現在、この期間延長が再び注目されている。\n\n## 負のコンベクシティとは何か\n\n通常の固定利付債には、金利が下がった時の値上がりが、同じ幅だけ金利が上がった時の値下がりより大きくなる性質がある。これを正のコンベクシティという。MBSでは借り手の期限前返済という選択権が投資家の値上がりを制限する。金利低下時には借り換えで高い利息の支払いが早く終わり、金利上昇時には低い利率のローンが長く残る。投資家から見ると不利な方向へ期間が変わるため、負のコンベクシティと呼ばれる。\n\n重要なのは、これは単なる価格曲線の用語ではなく、実際の売買を生むことだ。金利が上がってMBSの期間が延びると、資産と負債の期間を一定に保ちたい投資家は長期金利への感応度を減らさなければならない。そこで米国債先物を売るか、固定金利を払い変動金利を受け取るスワップを組む。どちらも、金利上昇時に損失を打ち消す方向の取引である。\n\n## ヘッジが市場を押す順序\n\n最初の金利上昇は原油高、物価見通し、中央銀行の政策予想などから始まる。次に借り換え見込みが減り、MBSの推定期間が長くなる。投資家が期間を戻すため国債先物を売ると、国債価格に追加の下押しがかかり、利回りはさらに上がりやすくなる。新たな金利上昇がMBSの期間をもう一段変えれば、追加ヘッジが必要になる。この自己強化的な流れが『増幅』の意味である。\n\n実際、9月のMBSは同程度の期間を持つ米国債を96bp下回り、スプレッドは約13bp広がって125bpとなった。SOFRスワップ先物でも大口取引と建玉の増加が確認された。ただし同時に起きたからといって、金利上昇のすべてをMBSヘッジで説明することはできない。金融政策予想が第一の要因との見方があり、ヘッジはその動きを強める二次的な力と位置付けるのが安全である。\n\n## 増幅には上限がある\n\n金利が十分上がると、多くの既存住宅ローンは市場金利より大幅に低くなり、借り換えの可能性がほぼなくなる。するとMBSの期間はすでに長く固定され、金利がさらに少し上がっても変化しにくい。期間の変化が小さければ、追加ヘッジの必要も小さくなる。\n\nまた、2008年以前に大きなヘッジ主体だったFannie MaeとFreddie Macの保有ポートフォリオは縮小し、住宅ローン市場が国債市場へ与える力も当時より小さい。ヘッジの存在と、ヘッジが市場全体を支配するという主張は分けなければならない。観測すべきは、MBSの対国債スプレッド、先物・スワップの建玉、住宅ローン金利、繰り上げ返済率の組み合わせである。\n\n## 企業と家計へ戻る経路\n\n長期国債利回りが上がれば、住宅ローンだけでなく社債、設備投資、不動産評価にも影響する。家計は高い借入費用で住宅購入を遅らせ、既存の低利ローンにとどまる。住宅の売り手も次の借入を避けて移動しにくくなり、取引量が減る。企業は政策金利が変わらなくても長期調達費用の上昇に直面する。\n\nしたがって金利を見る時は、中央銀行の会合だけでなく、住宅ローンという巨大な契約群がどのように期間を変え、投資家がどう反応するかを追う必要がある。コンベクシティ・ヘッジは原因そのものではないことが多いが、最初の衝撃を市場の別の場所へ運ぶ伝動装置になる。",
+    "sources": [
+      {
+        "title": "US yield surge triggers mortgage hedging, adds to bond market pressure",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/us-yield-surge-triggers-mortgage-hedging-adds-bond-market-pressure-2026-10-12/"
+      },
+      {
+        "title": "Did the Federal Reserve's MBS Purchase Program Lower Mortgage Rates?",
+        "publisher": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/pubs/feds/2011/201101/index.html"
+      },
+      {
+        "title": "Residential Mortgage-Backed Securities",
+        "publisher": "Federal Reserve Board",
+        "url": "https://www.federalreserve.gov/publications/files/trading.pdf"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "AIの生産性は削減人数ではなく、再配置、価格、サービス、売上へ移った分まで測る。",
+      "長期金利の変化は政策予想とMBSヘッジによる増幅を分け、スプレッドと建玉で確認する。",
+      "停戦や制裁は発表件数より、双方の履行、法的文書、現場の攻撃・取引停止で判定する。",
+      "長期供給契約は需要の裏付けになるが、生産設備、資金、許認可の完成を保証しない。"
+    ],
+    "watchlist": [
+      {
+        "item": "IMF世界経済見通し・金融安定性報告",
+        "why": "成長率、AI投資、原油高、金利リスクの実数と前回差を確認",
+        "horizon": "10月13日"
+      },
+      {
+        "item": "Russia・Ukraineエネルギー停戦",
+        "why": "双方の同文合意、第三者監視、日次の施設攻撃を確認",
+        "horizon": "毎日"
+      },
+      {
+        "item": "Riyadh空港とSaudi空域",
+        "why": "17日の再開判断、欠航率、追加攻撃、迂回運航を確認",
+        "horizon": "10月17日まで毎日"
+      },
+      {
+        "item": "TSMC決算",
+        "why": "純利益、10～12月見通し、CoWoS能力、設備投資を確認",
+        "horizon": "10月15日"
+      },
+      {
+        "item": "Krogerの組織再編",
+        "why": "削減時期、店舗への再配分、値下げと既存店売上の実行を確認",
+        "horizon": "今後数カ月"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "負のコンベクシティ",
+      "reading": "ふのコンベクシティ",
+      "definition": "金利が動くと債券の残存期間が投資家に不利な方向へ変わる性質。MBSでは金利低下時の借り換えで値上がりが抑えられ、金利上昇時は返済が遅れて金利リスクが増える。"
+    },
+    {
+      "term": "事前調整型Chapter 11",
+      "reading": "じぜんちょうせいがたチャプターイレブン",
+      "definition": "主要債権者と再建条件をあらかじめ合意してから米連邦破産法11条の手続きに入る方式。通常の手続きより期間と不確実性を抑える狙いがある。"
+    },
+    {
+      "term": "take-or-pay",
+      "reading": "テイク・オア・ペイ",
+      "definition": "買い手が実際の受取量にかかわらず、契約した最低数量または金額を支払う長期契約。生産者の資金調達を支えるが、設備完成や品質達成を自動的に保証しない。"
+    },
+    {
+      "term": "CoWoS",
+      "reading": "コワース",
+      "definition": "複数の半導体と高帯域メモリーを近接配置するTSMCの先端パッケージ技術。AI計算向け半導体の性能と供給能力を左右する。"
+    }
+  ]
+}
