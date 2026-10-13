@@ -1,0 +1,547 @@
+{
+  "date": "2026-10-14",
+  "edition": 57,
+  "generated_at": "2026-10-14T07:58:03+09:00",
+  "masthead_note": "強い総量と偏る内訳を分けて読む水曜日",
+  "executive_summary": [
+    {
+      "text": "IMF、2026年の世界成長率を3.1%、2027年を3.4%と予測。AI投資の恩恵には地域差",
+      "ref": "imf-weo-uneven-resilience"
+    },
+    {
+      "text": "IMF、AI相場・国債利回り・サイバーを金融安定の三つの引き金に列挙",
+      "ref": "imf-gfsr-three-triggers"
+    },
+    {
+      "text": "日経平均1.82%安、TOPIX0.14%高。AI・半導体大型株への売りが指数を分ける",
+      "ref": "japan-index-divergence"
+    },
+    {
+      "text": "米大手銀、株式取引は強いが債券取引と案件実行には鈍化",
+      "ref": "us-banks-q3-mixed"
+    },
+    {
+      "text": "AMD、エージェントAI向けラック設計Helionを11月投入予定",
+      "ref": "amd-helion-agentic-rack"
+    },
+    {
+      "text": "Riyadh北方で無人機3機を迎撃。空港は17日まで閉鎖予定",
+      "ref": "riyadh-uav-airport"
+    },
+    {
+      "text": "米司法省、北朝鮮IT労働者事件で端末約187台を押収。70社超に被害",
+      "ref": "doj-dprk-it-workers"
+    }
+  ],
+  "market_snapshot": {
+    "as_of": "日本株は10月13日東京市場終値。米国株、米10年債、Brent原油、ドル指数は10月13日ニューヨーク市場終値または終盤。ドル円は同日ニューヨーク終盤の観測値。変化は前営業日比。",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "67,777.52円",
+        "change": "-1,253.40円（-1.82%）",
+        "direction": "down",
+        "note": "10月13日終値。Reuters"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,110.67",
+        "change": "+5.86pt（+0.14%）",
+        "direction": "up",
+        "note": "10月13日終値。Reuters"
+      },
+      {
+        "label": "Dow平均",
+        "value": "51,670.10",
+        "change": "-180.45（-0.35%）",
+        "direction": "down",
+        "note": "10月13日終値。AP、WSJ"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,805.45",
+        "change": "-1.79（-0.02%）",
+        "direction": "down",
+        "note": "10月13日終値。AP、WSJ"
+      },
+      {
+        "label": "Nasdaq総合",
+        "value": "27,204.38",
+        "change": "-41.52（-0.15%）",
+        "direction": "down",
+        "note": "10月13日終値。AP、WSJ"
+      },
+      {
+        "label": "米10年債",
+        "value": "5.216%",
+        "change": "-0.03ポイント",
+        "direction": "down",
+        "note": "10月13日終盤。WSJ"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "158.27円",
+        "change": "円は+0.22%",
+        "direction": "down",
+        "note": "10月13日ニューヨーク終盤。Reuters"
+      },
+      {
+        "label": "Brent原油",
+        "value": "105.69ドル/バレル",
+        "change": "-0.96ドル（-0.9%）",
+        "direction": "down",
+        "note": "10月13日終値。Reuters"
+      }
+    ]
+  },
+  "top_story": {
+    "id": "imf-weo-uneven-resilience",
+    "headline": "IMF、世界成長3.1%でも格差拡大を警告",
+    "dek": "2027年は3.4%。AI投資国とエネルギー輸入国の差が総量の安定を覆う",
+    "importance": 3,
+    "facts": [
+      "IMFは10月13日、2026年の世界実質成長率を3.1%、2027年を3.4%とする世界経済見通しを公表した。前号では専務理事が『約3%』と述べた段階だったが、本号では正式な予測値が出た。",
+      "IMFは2026年の世界インフレ率を4.7%と見込み、エネルギーと食料の上昇が近い期間の物価を押し上げると説明した。成長の底堅さと物価圧力は同時に存在する。",
+      "国別の差が拡大し、AI投資ブームや交易条件の改善から恩恵を受ける国は比較的強い一方、エネルギー輸入国と低所得国は厳しい環境に直面するとした。",
+      "予測は政策効果や供給制約を含む基準シナリオであり、AI投資が実際の生産性や収益へ転換することを保証しない。総量の成長率だけで景気の均一な改善とは判断できない。"
+    ],
+    "why_it_matters": "世界全体の成長が3%台を保っても、資本、電力、半導体を持つ国と、燃料輸入負担を受ける国では所得と政策余地が逆方向へ動く。企業は世界需要を一つの数字で置かず、地域別の価格、電力、資金調達条件に分ける必要がある。",
+    "implications": "次の焦点は成長率そのものより、AI投資の稼働率、電力費、実質賃金、低所得国の債務負担である。IMFの財政報告と各国予算で、誰が調整費用を負うかを確認する。",
+    "sources": [
+      {
+        "title": "IMF / World Economic Outlook Annual Meetings, 2026",
+        "publisher": "International Monetary Fund",
+        "url": "https://mediacenter.imf.org/news/imf---world-economic-outlook-annual-meetings--2026/s/22f94667-d194-473b-87b2-34c692b5a5a3"
+      },
+      {
+        "title": "World Economic Outlook Database, October 2026",
+        "publisher": "International Monetary Fund",
+        "url": "https://data.imf.org/Datasets/WEO"
+      }
+    ],
+    "tags": [
+      "IMF",
+      "世界経済",
+      "AI投資",
+      "インフレ"
+    ]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "imf-gfsr-three-triggers",
+          "headline": "IMF、金融安定の三つの引き金を列挙",
+          "dek": "AI相場の調整、国債利回り上昇、サイバー障害が既存の弱点を増幅",
+          "importance": 3,
+          "facts": [
+            "IMFの10月版世界金融安定性報告は、市場が成長と企業利益に支えられてきた一方、金融安定リスクは高いと評価した。",
+            "引き金として、AI投資や収益が期待に届かない場合の資産価格調整、インフレ・財政懸念による国債利回り急騰、金融サービスを止める高度なサイバー攻撃を挙げた。",
+            "深刻なAI、債券、エネルギーの複合ショックでも銀行部門全体は耐えるとしたが、資本不足に陥る弱い銀行の裾野、保険・年金の非流動資産、民間信用とヘッジファンドのレバレッジを弱点とした。"
+          ],
+          "why_it_matters": "別々に見えるAI株、国債、サイバーが、担保価格、追証、資金流出を通じて同時に悪化しうる。平均的な自己資本比率だけでは、弱い主体と混雑取引を見落とす。",
+          "implications": "AI関連の利益予想、長期国債利回り、プライムブローカー向けエクスポージャー、重大障害の復旧時間を一つのストレス表で追う。",
+          "sources": [
+            {
+              "title": "Global Financial Stability Report, October 2026",
+              "publisher": "International Monetary Fund",
+              "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026"
+            },
+            {
+              "title": "IMF / Global Financial Stability Report Annual Meetings, 2026",
+              "publisher": "International Monetary Fund",
+              "url": "https://mediacenter.imf.org/press-briefings/imf---global-financial-stability-report-annual-meetings--2026/s/f55368c1-983b-45b7-ba7c-1978f67c168c"
+            }
+          ],
+          "tags": [
+            "GFSR",
+            "AI相場",
+            "国債",
+            "金融安定"
+          ]
+        },
+        {
+          "id": "japan-index-divergence",
+          "headline": "日経1.82%安、TOPIXは0.14%高",
+          "dek": "半導体株の下落で値がさ指数が沈む一方、東証プライムは上昇銘柄が優勢",
+          "importance": 2,
+          "facts": [
+            "10月13日の日経平均は1,253.40円安の67,777.52円で4日続落した。TOPIXは5.86ポイント高の4,110.67で、二つの代表指数が逆方向に動いた。",
+            "米国の半導体株安を受け、Kioxia Holdingsは13.28%、Kokusai Electricは9.53%、SUMCOは8.64%下落した。一方、日経225の上昇銘柄は156、下落は68と報じられ、下げは高価格のAI・半導体株に集中した。",
+            "日経平均は225銘柄の株価加重、TOPIXは浮動株調整時価総額加重で広い市場を測る。同じ日の差は、算出方法と銘柄集中の違いを映す。"
+          ],
+          "why_it_matters": "見出し指数の急落を日本株全体の一様な売りと読むと、需給と業種の実像を誤る。指数連動資金のリスクも、どの指数を基準にするかで変わる。",
+          "implications": "騰落銘柄数、業種別騰落、上位寄与銘柄を指数水準と併記し、AI投資の評価変化が市場全体へ広がったかを確認する。",
+          "sources": [
+            {
+              "title": "Japan's Nikkei end lower as AI stocks tumble, geopolitical risks weigh",
+              "publisher": "Reuters",
+              "url": "https://www.indopremier.com/legacy/ipotfund/newsDetail.php?group_news=IPOTNEWS&halaman=1&jdl=Japan_s_Nikkei_end_lower_as_AI_stocks_tumble__geopolitical_risks_weigh&name=&news_id=250591&q=japan+shares%2C+nikkei+225%2C+topix%2C&search=y_general&taging_subtype=Develop+Market"
+            },
+            {
+              "title": "Nikkei 225 Overview",
+              "publisher": "Nikkei Indexes",
+              "url": "https://indexes.nikkei.co.jp/en/nkave/index/profile"
+            },
+            {
+              "title": "TOPIX",
+              "publisher": "Japan Exchange Group",
+              "url": "https://www.jpx.co.jp/english/markets/indices/topix/"
+            }
+          ],
+          "tags": [
+            "日経平均",
+            "TOPIX",
+            "半導体",
+            "市場集中"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "amd-helion-agentic-rack",
+          "headline": "AMD、AIエージェント用ラックHelion発表",
+          "dek": "CPU専用からCPU・GPU混載まで。モデル呼び出しを振り分ける設計",
+          "importance": 2,
+          "facts": [
+            "AMDはOCP仕様を基礎にしたエージェントAI向けラック設計Helionを発表し、提携企業と開発中の構成を2026年11月に提供する予定とした。",
+            "CPU専用構成は第6世代EPYCで最大32,768コアを収容し、別の推論設備へ接続する。企業向け混載構成はEPYC、Instinct MI350P GPU、汎用計算を一つのラックへまとめる。",
+            "統合トークンルーターが、エージェントからの呼び出しをフロンティアモデルとオープンモデルへ振り分ける。AMDは仕様をOCPへ提供する方針だが、価格と実運用時の電力効率は未公表である。"
+          ],
+          "why_it_matters": "AI基盤の競争単位がGPU単体から、エージェント実行、推論、ネットワーク、冷却を含むラック設計へ移る。CPU処理の比率が高いエージェントは、GPUだけを増やす設計と費用構造が異なる。",
+          "implications": "11月の出荷構成、ラック当たり電力、トークン処理量、対応ソフト、実顧客を確認し、設計発表と量産を分けて評価する。",
+          "sources": [
+            {
+              "title": "Introducing AMD Helion, Agentic AI Compute at Rack Scale",
+              "publisher": "AMD",
+              "url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale"
+            }
+          ],
+          "tags": [
+            "AMD",
+            "エージェントAI",
+            "データセンター",
+            "OCP"
+          ]
+        },
+        {
+          "id": "pwn2own-98-zero-days",
+          "headline": "Pwn2Own、未知の脆弱性98件を開示",
+          "dek": "賞金126.2万ドル。AI基盤とAIコーディングエージェントも対象に",
+          "importance": 2,
+          "facts": [
+            "TrendAIのZero Day Initiativeは、3日間のPwn2Own Irelandで98件のゼロデイ脆弱性が発見・開示され、賞金総額は126万2,000ドルだったと発表した。",
+            "対象はスマートフォン、スマートホーム、プリンター、メッセージングに加え、AI基盤とAIコーディングエージェントを含んだ。",
+            "日本のIkotas LabsがGoogle Pixel 10への複数脆弱性を連鎖させ、30万ドルと首位を得た。開示はベンダー修正へ渡るが、修正完了日や悪用の有無は発表に含まれない。"
+          ],
+          "why_it_matters": "AIがコード生成と運用へ入るほど、モデルの安全性だけでなく、端末、エージェント権限、更新経路の弱点が連鎖する。発見件数は防御の成果であると同時に、修正待ちの負債でもある。",
+          "implications": "ベンダーの修正公開、資産台帳への該当機器、エージェントの最小権限、仮想パッチの適用範囲を確認する。",
+          "sources": [
+            {
+              "title": "TrendAI Zero Day Initiative awards over $1.2 million at Pwn2Own",
+              "publisher": "Trend Micro",
+              "url": "https://newsroom.trendmicro.com/2026-10-13-TrendAI-TM-Zero-Day-Initiative-TM-awards-over-1-2-million-at-Pwn2Own"
+            }
+          ],
+          "tags": [
+            "Pwn2Own",
+            "ゼロデイ",
+            "AIセキュリティ",
+            "脆弱性"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "us-banks-q3-mixed",
+          "headline": "米銀、株式取引好調でも案件実行は鈍化",
+          "dek": "JPMorganは利益予想未達、Goldmanは株式取引収入72%増",
+          "importance": 2,
+          "facts": [
+            "JPMorgan Chaseの7～9月純利益は153億ドル、1株利益は5.57ドルだった。市場部門収入は前年比15%増え、株式は49%増えた一方、債券取引は4%減、投資銀行手数料は前四半期比8%減った。",
+            "Goldman Sachsは純利益52.9億ドル、1株利益17.01ドル。株式取引収入は72%増の64.4億ドル、投資銀行手数料は21%増の32.2億ドルだった。",
+            "CitigroupとWells Fargoを含む大手行は信用の安定と強い案件候補を示したが、9月後半の金利・株価変動で案件実行が遅れた。好決算は将来の手数料実現を保証しない。"
+          ],
+          "why_it_matters": "市場変動は株式取引を増やす一方、債券とM&Aの実行を止める。同じ銀行内でも金利上昇の恩恵と費用が分かれ、単純な『高金利は銀行に有利』では読めない。",
+          "implications": "案件候補ではなく完了額、純金利収入、預金コスト、貸倒費用、株式取引収入の反動を次四半期に確認する。",
+          "sources": [
+            {
+              "title": "JPMorganChase Reports Third-Quarter 2026 Net Income of $15.3 Billion",
+              "publisher": "U.S. Securities and Exchange Commission",
+              "url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026065582/a3q26erfexhibit991narrative.htm"
+            },
+            {
+              "title": "Goldman Sachs Reports 2026 Third Quarter Earnings",
+              "publisher": "Goldman Sachs",
+              "url": "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-10-13-q3-results"
+            },
+            {
+              "title": "Wall Street banks see deals slow on market jitters but pipeline is strong",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/finance/wrapup-wall-street-banks-see-pockets-weakness-due-market-turmoil-2026-10-13/"
+            }
+          ],
+          "tags": [
+            "JPMorgan",
+            "Goldman Sachs",
+            "銀行決算",
+            "金利"
+          ]
+        },
+        {
+          "id": "omron-onlogic-acquisition",
+          "headline": "OMRON、産業PCのOnLogicを6.75億ドルで買収",
+          "dek": "機器販売から製造現場のDX・フィジカルAIへ。約1,046億円の案件",
+          "importance": 2,
+          "facts": [
+            "OMRONは米Interlogicと傘下の産業用PCメーカーOnLogicを企業価値6億7,500万ドルで取得する契約を結んだ。1ドル155円換算で約1,046億円としている。",
+            "OnLogicは構成変更しやすく耐環境性の高い産業用PCを受注生産し、売上の90%以上を米州と欧州で得る。OMRONは逆三角合併で完全子会社化する。",
+            "買収目的はFA機器メーカーから、製造現場のDXとフィジカルAIを担う企業への移行である。統合後の売上相乗効果や利益寄与の数値は、発表資料で確定していない。"
+          ],
+          "why_it_matters": "工場AIはモデルだけでなく、現場データを収集し制御へ戻す耐久性のある計算機が必要になる。制御機器と産業PCを束ねることで、設備単品から現場全体の設計へ価値を移せる。",
+          "implications": "買収完了条件、顧客維持、産業PCと制御機器の統合製品、のれん、欧米売上の為替感応度を追う。",
+          "sources": [
+            {
+              "title": "Notice Regarding Agreement to Acquire OnLogic and Its Parent Company, Interlogic",
+              "publisher": "OMRON",
+              "url": "https://www.omron.com/global/en/news/2026/10/c1013.html"
+            }
+          ],
+          "tags": [
+            "OMRON",
+            "OnLogic",
+            "M&A",
+            "フィジカルAI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "riyadh-uav-airport",
+          "headline": "Riyadh北方で無人機3機を迎撃",
+          "dek": "空港攻撃後も脅威継続。King Khalid空港は17日まで閉鎖予定",
+          "importance": 3,
+          "facts": [
+            "Saudi Press Agencyは10月13日、連合軍報道官の発表としてRiyadh北方で無人機3機を迎撃・破壊したと伝えた。発射主体や被害の追加情報は同時点で示されていない。",
+            "King Khalid国際空港は安全と運用準備の確認のため10月17日まで閉鎖予定で、前号の再開時期に変更はない。国際航空各社はRiyadhに加えDammamやJeddah便も一部停止した。",
+            "10月13日のBrent終値は1バレル105.69ドルと0.9%下げた。安全保障上の脅威が続いても、ロシア産ディーゼル供給観測など別の材料で原油価格は下がりうる。"
+          ],
+          "why_it_matters": "迎撃成功は脅威の消滅を意味せず、空港閉鎖は旅客、貨物、乗員配置へ累積する。原油価格だけでは航空網の運用障害を捉えられない。",
+          "implications": "17日の再開判断、NOTAM、空港施設の復旧、DammamとJeddahの運航、追加発射と迎撃残量を別々に確認する。",
+          "sources": [
+            {
+              "title": "Coalition: Three UAVs Intercepted and Destroyed North of Riyadh",
+              "publisher": "Saudi Press Agency",
+              "url": "https://www.spa.gov.sa/en/news/local-news?hl=en-US&page=1"
+            },
+            {
+              "title": "Airlines cancel flights to Saudi Arabia after Riyadh airport attacks",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/airlines-cancel-flights-saudi-arabia-after-riyadh-airport-attacks-2026-10-12/"
+            }
+          ],
+          "tags": [
+            "Saudi Arabia",
+            "Riyadh",
+            "航空",
+            "無人機"
+          ]
+        },
+        {
+          "id": "ukraine-energy-truce-day-two",
+          "headline": "Ukraine、13日はエネルギー標的なしと確認",
+          "dek": "前日は少なくとも6施設に攻撃。同文合意のない停戦は日ごとの検証段階",
+          "importance": 2,
+          "facts": [
+            "Reutersは10月13日、Russiaが同日にUkraineのエネルギー施設を攻撃しなかったと双方の発表から報じた。米大統領の停戦発表後、エネルギー標的がなかったのは初めてである。",
+            "前日の12日にはUkraineがガス施設や給油所を含む少なくとも6件のエネルギー標的への攻撃を報告していた。前号からの差分は、攻撃継続から1日間の非攻撃へ変わった点である。",
+            "Russia側は接触が続いているとしたが、合意文書、開始時刻、対象施設、監視主体は公表していない。13日も都市の輸送・物流にはミサイルと無人機の攻撃があった。"
+          ],
+          "why_it_matters": "1日の静穏は前進だが、停戦の成立とは別である。対象外の輸送・物流への攻撃が続けば、エネルギー供給も間接的に損なわれる。",
+          "implications": "双方の同文発表、対象一覧、第三者監視、違反時の手順、エネルギー以外の重要インフラ攻撃を日次で記録する。",
+          "sources": [
+            {
+              "title": "Russia hits no energy targets in Ukraine for first time since Trump's truce",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/energy/russia-hits-no-energy-targets-ukraine-first-time-since-trumps-truce-2026-10-13/"
+            },
+            {
+              "title": "Official website of the President of Ukraine",
+              "publisher": "President of Ukraine",
+              "url": "https://president.gov.ua/en/"
+            }
+          ],
+          "tags": [
+            "Ukraine",
+            "Russia",
+            "エネルギー停戦",
+            "検証"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "doj-dprk-it-workers",
+          "headline": "米司法省、北朝鮮IT労働者網を摘発",
+          "dek": "70社超から300万ドル。端末農場の約187台を押収",
+          "importance": 2,
+          "facts": [
+            "米司法省は10月13日、北朝鮮IT労働者が米企業の遠隔職を得る仕組みに対し、起訴、2人の逮捕、Texas州40カ所超の捜索を行ったと発表した。",
+            "Ohio州の事件は70社超に影響し、2019年から2025年7月ごろまでに300万ドル超を得たとされる。Texas州の作戦ではノートPCとKVM機器を合わせ約187台押収した。",
+            "容疑者は盗用・偽造した身分証、VPN、代理接続、米国内の『ラップトップ農場』を使ったとされる。起訴内容は主張段階であり、有罪確定ではない。"
+          ],
+          "why_it_matters": "遠隔採用の本人確認が書類と面接だけなら、端末の物理所在地と操作者を分離できる。採用詐欺は給与流出だけでなく、社内ネットワークと機密データへの正規権限を与える。",
+          "implications": "端末配送先、ログイン地域、KVM・遠隔操作、複数人の行動パターン、給与受取先を結び、採用・IT・財務で継続確認する。",
+          "sources": [
+            {
+              "title": "Justice Department Announces Coordinated Actions to Combat North Korean Remote IT Worker Schemes",
+              "publisher": "U.S. Department of Justice",
+              "url": "https://www.justice.gov/opa/pr/justice-department-announces-coordinated-actions-combat-north-korean-remote-it-worker"
+            }
+          ],
+          "tags": [
+            "北朝鮮",
+            "遠隔勤務",
+            "採用",
+            "サイバー犯罪"
+          ]
+        },
+        {
+          "id": "uk-standard-essential-patents",
+          "headline": "英国、標準必須特許の透明化策を公表",
+          "dek": "93件の意見を踏まえ、中小企業向け情報と紛争解決を改善",
+          "importance": 2,
+          "facts": [
+            "英国知的財産庁は10月13日、標準必須特許のライセンスを透明で予測可能にする政策対応を公表した。スマートフォン、Wi-Fi、車載機器、医療、製造が対象となる。",
+            "2025年7月15日から10月7日の意見募集には、権利者、実装企業、中小企業、研究者などから93件の回答があった。情報の透明性と紛争解決の費用・複雑さが課題と確認された。",
+            "政府は情報と交渉支援を進める一方、FRAND料率を決める新しい専用審理手続きは、証拠が導入を支持しなかったとして採用しない。"
+          ],
+          "why_it_matters": "通信規格の特許料は製品原価と市場参入を左右するが、個別契約は見えにくい。制度は権利保護と、IoT企業や中小企業が予測可能な条件で標準を使えることの両立を求められる。",
+          "implications": "公開情報の範囲、相談支援の利用件数、紛争期間と費用、国際的な重複を測り、透明化が実際の交渉格差を縮めるか確認する。",
+          "sources": [
+            {
+              "title": "Government sets out next steps on Standard Essential Patents",
+              "publisher": "UK Intellectual Property Office",
+              "url": "https://www.gov.uk/government/news/government-sets-out-next-steps-on-standard-essential-patents"
+            },
+            {
+              "title": "Government response to the consultation on Standard Essential Patents",
+              "publisher": "UK Intellectual Property Office",
+              "url": "https://www.gov.uk/government/consultations/consultation-on-standard-essential-patents-seps/outcome/government-response-to-the-consultation-on-standard-essential-patents"
+            }
+          ],
+          "tags": [
+            "英国",
+            "標準必須特許",
+            "FRAND",
+            "中小企業"
+          ]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "日経平均とTOPIXはなぜ逆方向に動けるのか",
+    "dek": "指数は市場そのものではない。銘柄の選び方と重み付けが同じ日の値動きを分ける",
+    "tags": [
+      "株価指数",
+      "日経平均",
+      "TOPIX",
+      "集中リスク"
+    ],
+    "reading_minutes": 6,
+    "body_md": "## 同じ市場に二つの物差し\n\n10月13日の東京市場では、日経平均が1.82%下がる一方、TOPIXは0.14%上がった。日本株という同じ対象を測っているのに、なぜ符号まで逆になるのか。答えは、指数が市場全体の自然な温度計ではなく、決められた銘柄を決められた重みで合成したポートフォリオだからである。\n\n日経平均は東証プライム市場から選ばれた225銘柄で構成される株価加重指数だ。各銘柄の株価を価格調整係数で補正し、合計を除数で割る。概念的には、調整後の株価が高い銘柄ほど指数を動かしやすい。会社全体の規模ではなく、一株当たりの価格が出発点になる。\n\nTOPIXは浮動株調整時価総額加重指数である。株価に発行株式数と市場で実際に流通しやすい比率を掛けた価値を基礎にする。大きな会社ほど重いが、政策保有など市場で売買されにくい株式は調整される。広い銘柄群を対象にするため、日本株全体の資産価値に近い動きを目指す。\n\n## 10月13日に起きた集中\n\nこの日、Kioxia Holdingsは13.28%、Kokusai Electricは9.53%、SUMCOは8.64%下落した。米国半導体株の下げを受け、AI・半導体関連の高価格銘柄に売りが集中した。一方、日経225では上昇銘柄が156、下落銘柄が68と、数だけ見れば上昇が優勢だった。\n\n少数の銘柄が大きな重みを持つ指数では、値下がり銘柄が少なくても、その寄与が上昇銘柄の合計を上回る。日経平均の大幅安は市場の多数決ではなく、重い銘柄の下落を強く反映した。TOPIXはより広い時価総額を合成するため、海運など別の業種の上昇が半導体株安を補い、小幅高になった。\n\n## 重み付けは何を測るのか\n\n株価加重は計算が直感的で、長い履歴を維持しやすい。一方、株式分割で一株の価格が下がれば、会社の価値が変わらなくても指数上の重みは調整を要する。価格調整係数と除数は連続性を保つが、企業規模そのものを測る方式ではない。\n\n時価総額加重は、投資家が保有できる市場価値に比例して重みを付けるため、広い市場ポートフォリオに近い。しかし巨大企業の比重が高まりすぎれば、上位企業の業績や規制が指数全体を支配する。浮動株調整は売買可能性を反映するが、業種集中を自動的に消すものではない。どちらも中立ではなく、測りたい対象に合わせた設計である。\n\n## 指数連動資金が作る循環\n\nETFや先物は指数を投資可能な商品にする。指数連動資金が増えると、値動きは情報の結果であるだけでなく、資金配分の原因にもなる。指数に大きく採用された銘柄には機械的な需要が入り、下落時にはヘッジや解約が同じ銘柄へ集中しやすい。\n\nただし、指数連動取引だけで今回の半導体株安を説明することはできない。出発点はAI投資の採算や中国勢との競争への懸念だった。指数設計は、その個別材料が見出しの数字へどれだけ大きく現れるかを決める増幅器である。前号で扱ったMBSのコンベクシティと同様、最初の衝撃と、それを運ぶ仕組みを分ける必要がある。\n\n## 市場の広がりを測る\n\n一つの指数だけで相場を判断しないためには、少なくとも四つを並べる。第一に上昇・下落銘柄数、第二に等金額で持った場合の指数、第三に業種別の騰落、第四に上位銘柄の寄与度である。日経平均が下がりTOPIXが上がる日は、これらの差を調べる価値が特に高い。\n\n企業や家計に重要なのは、見出し指数の方向だけではない。自社の調達環境、年金や投資信託の基準、保有銘柄の業種がどの指数に近いかで実際の損益は変わる。指数は便利な要約だが、要約の規則を読まなければ市場の広さと集中を取り違える。逆方向の二つの指数は矛盾ではなく、異なる質問に対する異なる答えである。",
+    "sources": [
+      {
+        "title": "Nikkei 225 Overview",
+        "publisher": "Nikkei Indexes",
+        "url": "https://indexes.nikkei.co.jp/en/nkave/index/profile"
+      },
+      {
+        "title": "TOPIX",
+        "publisher": "Japan Exchange Group",
+        "url": "https://www.jpx.co.jp/english/markets/indices/topix/"
+      },
+      {
+        "title": "Japan's Nikkei end lower as AI stocks tumble, geopolitical risks weigh",
+        "publisher": "Reuters",
+        "url": "https://www.indopremier.com/legacy/ipotfund/newsDetail.php?group_news=IPOTNEWS&halaman=1&jdl=Japan_s_Nikkei_end_lower_as_AI_stocks_tumble__geopolitical_risks_weigh&name=&news_id=250591&q=japan+shares%2C+nikkei+225%2C+topix%2C&search=y_general&taging_subtype=Develop+Market"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "世界成長率は地域別のAI投資、エネルギー輸入負担、実質賃金へ分解する。",
+      "株価指数は騰落銘柄数、業種、上位寄与を併記し、少数銘柄の集中を市場全体と混同しない。",
+      "銀行収益は株式取引、債券、案件完了、純金利収入、信用費用へ分ける。",
+      "停戦や空港再開は発表ではなく、同文合意、日次攻撃、NOTAM、実運航で判定する。"
+    ],
+    "watchlist": [
+      {
+        "item": "米9月消費者物価指数",
+        "why": "総合・コア、住居、サービス、エネルギーの前月比と金利反応を確認",
+        "horizon": "10月14日"
+      },
+      {
+        "item": "TSMC決算",
+        "why": "利益、10～12月見通し、CoWoS能力、設備投資を確認",
+        "horizon": "10月15日"
+      },
+      {
+        "item": "Riyadh空港とSaudi空域",
+        "why": "17日の再開判断、追加攻撃、Dammam・Jeddah便を確認",
+        "horizon": "10月17日まで毎日"
+      },
+      {
+        "item": "Russia・Ukraineエネルギー停戦",
+        "why": "双方の同文合意、監視主体、日次の施設攻撃を確認",
+        "horizon": "毎日"
+      },
+      {
+        "item": "AMD Helion",
+        "why": "11月の提供構成、電力効率、対応ソフト、実顧客を確認",
+        "horizon": "2026年11月"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "浮動株調整時価総額加重",
+      "reading": "ふどうかぶちょうせいじかそうがくかじゅう",
+      "definition": "株価と発行株式数から算出する時価総額を、市場で実際に流通しやすい株式の比率で調整して指数の重みを決める方式。TOPIXが採用する。"
+    },
+    {
+      "term": "価格加重指数",
+      "reading": "かかくかじゅうしすう",
+      "definition": "構成銘柄の調整後株価が高いほど指数への影響を大きくする方式。日経平均は株価加重方式を採用する。"
+    },
+    {
+      "term": "FRAND",
+      "reading": "フランド",
+      "definition": "標準必須特許を公正、合理的、非差別的な条件でライセンスするという原則。標準の利用と特許権者への対価を両立させる。"
+    },
+    {
+      "term": "KVM",
+      "reading": "ケーブイエム",
+      "definition": "Keyboard、Video、Mouseの略。一組の操作機器で複数のコンピューターを切り替えて扱う仕組みで、遠隔操作装置にも使われる。"
+    }
+  ],
+  "focus_refs": [
+    "imf-weo-uneven-resilience",
+    "japan-index-divergence",
+    "riyadh-uav-airport"
+  ]
+}
