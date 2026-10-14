@@ -1,0 +1,472 @@
+{
+  "date": "2026-10-15",
+  "edition": 58,
+  "generated_at": "2026-10-15T08:05:30+09:00",
+  "masthead_note": "物価の再加速と実装の標準化を読む木曜日",
+  "focus_refs": [
+    "us-cpi-september-acceleration",
+    "intel-inference-microservices",
+    "ukraine-energy-strikes-resume"
+  ],
+  "market_snapshot": {
+    "as_of": "日本株と日本10年国債は10月14日東京市場終値。米国株、米10年債、USD/JPY、Brent原油は10月14日ニューヨーク市場終値または終盤。変化は前営業日比で、利回りは百分率。",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "67,744.29円",
+        "change": "-33.23円（-0.05%）",
+        "direction": "down",
+        "note": "10月14日終値。岩井コスモ証券、Reuters"
+      },
+      {
+        "label": "TOPIX",
+        "value": "4,096.78",
+        "change": "-13.89pt（-0.34%）",
+        "direction": "down",
+        "note": "10月14日終値。岩井コスモ証券、Reuters"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,718.94",
+        "change": "-86.51（-1.11%）",
+        "direction": "down",
+        "note": "10月14日終値。AP、Reuters"
+      },
+      {
+        "label": "Nasdaq総合",
+        "value": "26,692.87",
+        "change": "-511.51（-1.88%）",
+        "direction": "down",
+        "note": "10月14日終値。AP、Reuters"
+      },
+      {
+        "label": "日本10年国債",
+        "value": "2.997%",
+        "change": "-0.035ポイント",
+        "direction": "down",
+        "note": "10月14日終値。Investing.com"
+      },
+      {
+        "label": "米10年債",
+        "value": "5.189%",
+        "change": "-0.027ポイント",
+        "direction": "down",
+        "note": "10月14日終盤。WSJ"
+      },
+      {
+        "label": "USD/JPY",
+        "value": "158.76円",
+        "change": "+0.28%",
+        "direction": "up",
+        "note": "10月14日ニューヨーク終値。Investing.com"
+      },
+      {
+        "label": "Brent原油",
+        "value": "106.06ドル/バレル",
+        "change": "+0.37ドル（+0.35%）",
+        "direction": "up",
+        "note": "10月14日終値。Reuters"
+      }
+    ]
+  },
+  "executive_summary": [
+    {
+      "text": "米9月CPIは前月比0.6%、前年比3.7%。ガソリンが月間上昇の半分超を占める",
+      "ref": "us-cpi-september-acceleration"
+    },
+    {
+      "text": "IMF、金利上昇下では市場に迫られる前の財政再建と税制の質を重視",
+      "ref": "imf-fiscal-monitor-tax-design"
+    },
+    {
+      "text": "Nasdaqは1.88%安。物価再加速で利上げ観測が強まりAI関連株に売り",
+      "ref": "hot-cpi-tech-selloff"
+    },
+    {
+      "text": "Intel、Xeon向けLLM推論をOpenAI互換APIのコンテナで提供",
+      "ref": "intel-inference-microservices"
+    },
+    {
+      "text": "米銀決算はMorgan Stanleyの富裕層資産流入とBofAの規制費用が明暗を分ける",
+      "ref": "us-bank-earnings-diverge"
+    },
+    {
+      "text": "ロシア攻撃で30のエネルギー施設が損傷、60万人以上が停電",
+      "ref": "ukraine-energy-strikes-resume"
+    },
+    {
+      "text": "Spiritの社内データ売却審理は11月6日へ延期。従業員情報が争点",
+      "ref": "spirit-data-sale-delayed"
+    }
+  ],
+  "top_story": {
+    "id": "us-cpi-september-acceleration",
+    "headline": "米CPI、9月は前年比3.7%へ再加速",
+    "dek": "ガソリン9.1%高が月間上昇の半分超。コアも前月比0.3%",
+    "importance": 3,
+    "facts": [
+      "米労働統計局が10月14日に公表した9月の消費者物価指数は、季節調整済みで前月比0.6%、前年同月比3.7%上昇した。8月の前月比0.4%から加速した。",
+      "ガソリンは前月比9.1%、エネルギー全体は5.2%上昇し、総合指数の月間上昇の半分超を占めた。住居費は0.4%上がり、食料とエネルギーを除くコアは0.3%上昇した。",
+      "コアの前年同月比は2.6%だった。内訳では住居費が前年比3.2%、航空運賃が22.4%上昇し、エネルギー以外にもサービス価格の粘着性が残った。",
+      "発表後、10月の追加利上げ確率は前日の22%から37%へ上昇したとReutersは報じた。一方、米10年債利回りは終盤5.189%と前日を下回り、初動と終値は一致しなかった。"
+    ],
+    "why_it_matters": "一時的な燃料高でも、家計の実質所得、輸送費、企業の値付けを通じて需要と基調物価の双方に波及する。中央銀行は総合指数の跳ねだけでなく、住居とサービスの広がり、期待インフレ、賃金との組み合わせを判断する必要がある。",
+    "implications": "次回以降はガソリンの反落有無、住居費の3カ月年率、サービス除く住居、実質賃金を分けて追う。市場では利上げ確率だけでなく、2年・10年金利とAI設備投資銘柄の反応を同時に見る。",
+    "sources": [
+      {
+        "title": "Consumer Price Index — September 2026",
+        "publisher": "U.S. Bureau of Labor Statistics",
+        "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm"
+      },
+      {
+        "title": "US consumer prices accelerate in September on costlier gasoline",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/us/us-consumer-prices-accelerate-september-costlier-gasoline-core-cpi-firmer-2026-10-14/"
+      }
+    ],
+    "tags": ["米CPI", "ガソリン", "コア物価", "FRB"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "imf-fiscal-monitor-tax-design",
+          "headline": "IMF、財政余力は税制の質で作る",
+          "dek": "高金利と高債務の下、成長を損ねにくい歳入改革を提言",
+          "importance": 3,
+          "facts": [
+            "IMFは10月14日の財政モニターで、公的債務が高水準で増加し、金利上昇と恒常的な歳出圧力が財政リスクを増幅していると説明した。",
+            "大規模な先進国の財政規律の緩みは、国債利回りと資本移動を通じて他国へ波及しうるため、市場が急な調整を迫る前に信頼できる中期計画を示す必要があるとした。",
+            "歳入面では、より中立的な付加価値税と法人税、就労インセンティブ、対象を絞ったイノベーション支援、徴税行政の強化を組み合わせれば、成長を支えながら税収を確保できるとした。"
+          ],
+          "why_it_matters": "債務削減を一律の増税や歳出削減だけで進めると、投資と潜在成長率を傷つけ、債務比率を下げにくくする。金利が高い局面では、政策の規模と同時に税基盤、歪み、実行順序が国債の信認を左右する。",
+          "implications": "各国予算は基礎的収支だけでなく、利払い費、税支出、投資的歳出、徴税能力へ分解する。日本では長期金利上昇時の利払い感応度と恒久財源の有無を確認する。",
+          "sources": [
+            {
+              "title": "Fiscal Monitor Report Annual Meetings, 2026",
+              "publisher": "International Monetary Fund",
+              "url": "https://mediacenter.imf.org/news/imf---fiscal-monitor-report-annual-meetings--2026/s/1b05cec6-cde8-4b75-80ec-2b29f9fb5d19"
+            }
+          ],
+          "tags": ["IMF", "財政", "公的債務", "税制"]
+        },
+        {
+          "id": "hot-cpi-tech-selloff",
+          "headline": "物価再加速、米ハイテク株を直撃",
+          "dek": "Nasdaqは1.88%安、金利に敏感なAI投資の採算を再評価",
+          "importance": 2,
+          "facts": [
+            "10月14日のS&P500は86.51ポイント安の7,718.94、Nasdaq総合は511.51ポイント安の26,692.87で終了した。Nasdaqの下落率は1.88%だった。",
+            "米CPI発表後に追加利上げ観測が強まり、情報技術を含む11業種中8業種が下落した。Oracleは8.8%、CoreWeaveは15%、Nebiusは10%下落したとReutersは報じた。",
+            "東京市場では日経平均が0.05%安、TOPIXが0.34%安。前日までと異なり両指数が下げ、石油・石炭は上昇する一方、銀行、証券、精密機器は下落した。"
+          ],
+          "why_it_matters": "AI企業の将来利益は遠い将来に偏るため、割引率上昇の影響を受けやすい。物価ショックが資本コストと電力・建設費を同時に押し上げれば、受注の強さだけでは設備投資の採算を説明できない。",
+          "implications": "株価下落をAI需要の消失と断定せず、長期金利、信用スプレッド、データセンター案件の延期、半導体受注を分けて確認する。TSMC決算は数量と設備投資の両面を重視する。",
+          "sources": [
+            {
+              "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/sp-500-dow-futures-rise-ahead-big-bank-results-cpi-data-2026-10-14/"
+            },
+            {
+              "title": "2026年10月14日 市況解説",
+              "publisher": "岩井コスモ証券",
+              "url": "https://www.iwaicosmo.co.jp/investment/market/20261014.html"
+            }
+          ],
+          "tags": ["Nasdaq", "金利", "AI投資", "日本株"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "intel-inference-microservices",
+          "headline": "Intel、CPU推論を互換APIで標準化",
+          "dek": "Xeon向け調整済みコンテナが実行環境を検出し設定を自動化",
+          "importance": 2,
+          "facts": [
+            "Intelは10月14日、LLMごとに一つのコンテナとして配るInference Microservicesを発表した。起動時にXeon世代を検出し、精度、コア配分、メモリー配置を適用する。",
+            "初期版は第4～第6世代Xeon、vLLM、BF16を対象にし、chat completions、completions、models、health、Prometheus metricsをOpenAI互換APIで公開する。",
+            "DockerとKubernetesで実行でき、モデルを自社設備内に置ける。GPU対応は今後の計画であり、現時点の発表はCPUを全用途のGPU代替とするものではない。"
+          ],
+          "why_it_matters": "推論基盤ではモデル性能だけでなく、API、監視、デプロイ手順の互換性が切り替え費用を決める。ハードウェア固有の最適化を標準APIの裏側へ隠せれば、既存アプリを保ったまま配置先を選びやすくなる。",
+          "implications": "評価では同一モデル、同一品質、同一APIで、初回トークン時間、継続トークン速度、消費電力、メモリー、運用工数を比較する。将来のGPU対応は実測が出るまで前提にしない。",
+          "sources": [
+            {
+              "title": "Announcing Intel Inference Microservices",
+              "publisher": "Intel",
+              "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-inference-microservices-tuned-llm-processors.html"
+            }
+          ],
+          "tags": ["Intel", "Xeon", "LLM推論", "OpenAI互換API"]
+        },
+        {
+          "id": "anthropic-singapore-office-mou",
+          "headline": "Anthropic、シンガポール拠点を開設",
+          "dek": "政府と安全評価・導入で覚書、APACで5番目の拠点",
+          "importance": 1,
+          "facts": [
+            "Anthropicは10月14日、シンガポール事務所を開設し、同国デジタル開発情報省とAIの安全性、セキュリティ、モデル評価、導入に関する覚書を結んだ。",
+            "同社によると、GovTech Singaporeの技術者1,500人超がClaude Codeを利用し、Grabの営業支援BriXは四半期当たり約4万時間を節約している。数値は利用企業側の説明である。",
+            "AWSのBedrockを通じた域内推論も提供し、データ保管要件への対応を掲げた。シンガポールは東京、ソウル、シドニー、ベンガルールに続くAPACの5拠点目となる。"
+          ],
+          "why_it_matters": "企業AIの採用ではモデル性能と同時に、域内処理、政府調達、安全評価、現地支援が障壁になる。拠点とクラウド配置を束ねる動きは、モデル企業が販売会社から運用基盤へ広がる過程を示す。",
+          "implications": "覚書の成果は評価基準、公共部門の契約、事故報告、域内推論の対象サービスで確認する。自己申告の時間削減は、利用人数と比較期間を伴う第三者検証を待つ。",
+          "sources": [
+            {
+              "title": "Singapore office and government MOU",
+              "publisher": "Anthropic",
+              "url": "https://www.anthropic.com/news/singapore-office-opening"
+            }
+          ],
+          "tags": ["Anthropic", "シンガポール", "AI安全", "データ主権"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "us-bank-earnings-diverge",
+          "headline": "米銀決算、資産流入と規制費用で明暗",
+          "dek": "Morgan Stanleyは富裕層部門が伸長、BofAは12億ドル費用",
+          "importance": 2,
+          "facts": [
+            "Morgan Stanleyの7～9月期は純収益203億ドル、純利益49億ドル、希薄化後EPS3.03ドルだった。ウェルスマネジメント純収益は91億ドルで過去最高となった。",
+            "同社の純流入資産は2,320億ドル、手数料対象フローは800億ドル。純流入の半分強はIPOに関連し、継続的な個人資金流入だけではない。",
+            "Bank of Americaは収益300億ドル、純利益69億ドル、EPS0.91ドル。規制上の和解費用12億ドルを計上し、調整後純利益は81億ドル、調整後EPSは1.08ドルだった。"
+          ],
+          "why_it_matters": "同じ大手銀行でも、資産管理の流入、株式取引、債券取引、純金利収入、規制費用の組み合わせで利益の質は異なる。見出しEPSだけでは、一時費用と持続的な顧客基盤の変化を混同する。",
+          "implications": "Morgan StanleyはIPO関連資産が定着するか、BofAは規制改善費用とFICC収益の回復を追う。銀行比較では調整後利益だけでなく、調整項目の再発可能性を残す。",
+          "sources": [
+            {
+              "title": "Morgan Stanley Reports Third Quarter 2026",
+              "publisher": "U.S. Securities and Exchange Commission",
+              "url": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000288/a3q26msearningsrelease.htm"
+            },
+            {
+              "title": "Bank of America Reports 3Q26 Results",
+              "publisher": "U.S. Securities and Exchange Commission",
+              "url": "https://www.sec.gov/Archives/edgar/data/70858/000007085826000481/bac09302026ex991.htm"
+            }
+          ],
+          "tags": ["Morgan Stanley", "Bank of America", "銀行決算", "規制費用"]
+        },
+        {
+          "id": "netflix-workforce-cut",
+          "headline": "Netflix、約1,000人を削減へ",
+          "dek": "製品・技術・法務・人事を中心に従業員の約6%を再編",
+          "importance": 1,
+          "facts": [
+            "Netflixは従業員の約6%に当たる約1,000人を削減すると10月14日にReutersが報じた。対象は製品、技術、法務、人事が中心とされる。",
+            "削減はコンテンツ制作部門だけでなく、成長を支えてきた管理・技術機能にも及ぶ。報道時点で部門別人数や地域別内訳、退職費用の総額は示されていない。",
+            "人員削減をAIによる置換と直接結び付ける一次資料は確認できない。コスト構造、組織階層、成長投資の再配分として今後の会社説明を確認する必要がある。"
+          ],
+          "why_it_matters": "配信市場の成熟局面では、加入者数だけでなく広告、価格、コンテンツ費、製品開発の配分が利益成長を決める。技術部門を含む削減は、次の成長源へ人員を振り向ける難しさを映す。",
+          "implications": "次回決算で人件費削減額、退職費用、広告付きプラン、コンテンツ投資、解約率を確認する。AI効率化は会社が用途と効果を開示するまで推測で補わない。",
+          "sources": [
+            {
+              "title": "Netflix cuts about 1,000 jobs in companywide restructuring",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/world-at-work/netflix-cuts-about-6-jobs-wsj-reports-2026-10-14/"
+            }
+          ],
+          "tags": ["Netflix", "人員削減", "配信", "企業再編"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "ukraine-energy-strikes-resume",
+          "headline": "ロシア攻撃、ウクライナ30施設を損傷",
+          "dek": "60万人以上が停電、エネルギー攻撃停止の実態に反する展開",
+          "importance": 3,
+          "facts": [
+            "10月14日、ロシアのミサイルと無人機攻撃でキーウの3人が死亡し、キーウとハルキウを中心に30のエネルギー施設が損傷したとウクライナ側が発表した。",
+            "少なくとも60万人が停電し、国営鉄道の施設も5地域で攻撃を受けた。ウクライナは39発のミサイルのうち4発を撃墜したとし、防空能力の不足が表れた。",
+            "前号では10月13日にエネルギー施設への攻撃が確認されなかったが、翌日の大規模攻撃で継続性は崩れた。米大統領は双方が停止に同意したと述べたが、両当事国の正式確認はない。"
+          ],
+          "why_it_matters": "一日の静穏や第三者の発言は、停戦の成立を意味しない。冬季の電力と暖房、鉄道輸送を守るには、対象定義、同文合意、監視、違反時の手続きが必要で、検証不能な休止は企業や住民の計画材料にならない。",
+          "implications": "発電・送電・鉄道の損傷、復旧時間、防空迎撃率を日次で追い、正式文書と第三者監視が出るまで停戦成立とは扱わない。電力不足が欧州輸入と避難に及ぼす影響も確認する。",
+          "follow_up": {
+            "previous": {
+              "date": "2026-10-14",
+              "article_id": "ukraine-energy-truce-day-two"
+            },
+            "assessment": "weakened",
+            "reassessment": "前号の『13日に攻撃なし』という観測は一日限りで、エネルギー攻撃停止の持続性を示す証拠ではなくなった。",
+            "next_check": "双方の署名文書、第三者監視、施設別被害と復旧、翌日以降の攻撃を確認する。",
+            "reconsider_if": "ロシアとウクライナが同文の合意を公表し、独立監視で継続的な停止が確認される。"
+          },
+          "sources": [
+            {
+              "title": "Russian strikes kill three, damage dozens of power facilities",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/russian-strikes-kill-one-hit-energy-facilities-kyiv-mayor-says-2026-10-14/"
+            }
+          ],
+          "tags": ["ウクライナ", "ロシア", "電力", "停戦検証"]
+        },
+        {
+          "id": "aramco-attack-oil-risk",
+          "headline": "Aramco施設攻撃、Brent106ドル台",
+          "dek": "フーシ派の攻撃とホルムズ海峡の船舶被害が供給不安を維持",
+          "importance": 2,
+          "facts": [
+            "フーシ派はDhahranのSaudi Aramco管理施設を攻撃し、限定的な火災が発生したとサウジエネルギー省が説明した。生産設備の損傷や供給停止は報告されていない。",
+            "ホルムズ海峡南方ではコンテナ船が機雷に接触して沈没したとイラン革命防衛隊海軍が発表した。前日にも海峡内でコンテナ船とタンカーが飛来物に当たった。",
+            "10月14日のBrent先物は0.37ドル高の1バレル106.06ドル、WTIは0.95ドル高の95.09ドルで終了した。中東湾岸の原油輸出は9月に戦前の約75%まで回復した。"
+          ],
+          "why_it_matters": "供給量が回復しても、港湾、海峡、保険、乗員確保の危険が残れば、価格には安全保障プレミアムが乗る。管理施設への限定的被害でも、攻撃範囲の拡大は輸送と精製の復旧期待を不安定にする。",
+          "implications": "生産量だけでなく、タンカー通航、保険料、積出港、精製稼働、在庫放出を追う。Brent上昇を恒久的な供給減とみなさず、実物フローと攻撃頻度で検証する。",
+          "sources": [
+            {
+              "title": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/energy/oil-prices-climb-traders-weigh-saudi-supply-risk-russian-diesel-flow-2026-10-14/"
+            }
+          ],
+          "tags": ["Saudi Aramco", "ホルムズ海峡", "原油", "海運"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "uk-ai-security-response-plan",
+          "headline": "英国、AI事故対応と報告制度を検討",
+          "dek": "政府システムの脆弱性1,352件を踏まえ、重要サービスを強化",
+          "importance": 2,
+          "facts": [
+            "英国政府は10月12日、二つの試行で18省庁の548コードリポジトリから1,352件の脆弱性を発見・対処したとして、先端AIによる政府防御プログラムを延長すると表明した。",
+            "AIエージェントが指示外の行動で重大な被害を起こす場合に備え、国家サイバーセキュリティセンターなどと原因究明、封じ込め、被害者支援の専門能力を設計する。",
+            "審議中のCyber Security and Resilience Billでは、重要サービスに関するAI事故とニアミスの報告、組織横断リスク、事故検証を制度へどう組み込むかを検討する。"
+          ],
+          "why_it_matters": "AI安全政策がモデル公開前の評価だけでなく、導入後の事故対応、ニアミス報告、重要インフラの復旧へ広がっている。企業には性能評価と同じ粒度でログ、停止権限、責任分担を準備する必要が生じる。",
+          "implications": "法案の修正条文、報告対象、重大性基準、監督主体、事業者の保存義務を確認する。脆弱性の件数だけでなく、深刻度、修正完了率、再発率を評価する。",
+          "sources": [
+            {
+              "title": "Artificial Intelligence Policy",
+              "publisher": "UK Parliament",
+              "url": "https://questions-statements.parliament.uk/written-statements/detail/2026-10-12/HLWS365"
+            },
+            {
+              "title": "Britain steps up national defences against growing AI risks",
+              "publisher": "GOV.UK",
+              "url": "https://www.gov.uk/government/news/britain-steps-up-national-defences-against-growing-ai-risks"
+            }
+          ],
+          "tags": ["英国", "AI安全", "サイバー", "事故報告"]
+        },
+        {
+          "id": "spirit-data-sale-delayed",
+          "headline": "Spiritデータ売却、審理を11月へ延期",
+          "dek": "匿名化後の再識別と従業員情報の範囲が破産手続きの争点",
+          "importance": 2,
+          "facts": [
+            "破綻したSpirit Airlinesの社内データをGoogleへ1,000万ドルで売却する計画の審理は、10月14日から11月6日へ延期された。次の書面期限は11月4日である。",
+            "前号の監視項目では14日の審理を予定していたが、延期により承認判断は出なかった。裁判所記録では、異議を唱える当事者と個人識別可能または機微な従業員情報の扱いを協議中とされる。",
+            "Googleと裁判所提出資料は受領前に独立第三者が個人識別情報を除去すると説明する。一方、121人の米議員は大規模データの組み合わせによる再識別可能性を指摘した。"
+          ],
+          "why_it_matters": "企業の破産でデータが換価対象になると、収集時の目的とAI学習という二次利用が衝突する。名前を消すだけでは行動履歴や通信の組み合わせから個人を推測できるため、匿名化、用途制限、削除可能性を一体で審査する必要がある。",
+          "implications": "11月4日の返信書面と6日の審理で、除外項目、第三者試験、保持期間、モデル学習後の削除、従業員への異議申立て手段を確認する。延期を売却中止とは扱わない。",
+          "sources": [
+            {
+              "title": "Spirit Aviation Holdings dockets",
+              "publisher": "Epiq",
+              "url": "https://dm.epiq11.com/case/spiritairlines/dockets"
+            },
+            {
+              "title": "Court delays hearing on Google's purchase of Spirit data",
+              "publisher": "Travel Weekly",
+              "url": "https://www.travelweekly.com/Travel-News/Airline-News/Court-delays-hearing-on-Google-purchase-of-Spirit-data"
+            }
+          ],
+          "tags": ["Spirit Airlines", "Google", "データ売却", "匿名化"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "互換APIはなぜAIハードウェアの切り替えを容易にするのか",
+    "dek": "アプリと計算装置の間に安定した契約を置くと、最適化を交換可能な部品へ変えられる",
+    "tags": ["API", "AI推論", "コンテナ", "ハードウェア"],
+    "reading_minutes": 6,
+    "body_md": "## 切り替え費用はコードの境界で決まる\n\nAI推論のハードウェア選びは、チップ単体の速度比較では終わらない。アプリケーションは認証、入力形式、ストリーミング、エラー処理、監視、容量計画を含む運用系と結び付いている。特定のアクセラレーター専用SDKを直接呼ぶ設計では、別のCPUやGPUへ移るたびにアプリ側まで書き換える。価格や供給が変わっても、移行費用が高ければ選択肢は名目上のものになる。\n\nIntelが発表したInference Microservicesは、モデルごとのコンテナがOpenAI互換APIを公開し、その裏でXeonの世代を検出して精度、コア配分、メモリー配置を設定する。ここで重要なのはCPUが常に最速だという主張ではない。アプリが話す言葉と、計算装置を調整する仕事を分離した点である。外側の契約が安定すれば、内側の実装を交換しやすくなる。\n\n## 互換性にも層がある\n\nAPI互換は必要条件だが、十分条件ではない。同じchat completionsという入口があっても、対応パラメーター、トークン数の数え方、ストリーミングの区切り、エラーコード、ツール呼び出しの挙動が異なれば、実際には修正が要る。モデル名を取得できても、同じ品質や再現性が保証されるわけではない。\n\n運用互換も別にある。Prometheus形式の指標が出れば既存監視へ載せやすいが、遅延分布、キュー長、メモリー不足、モデル読み込み時間が同じ意味で測れる必要がある。DockerやKubernetesで配れることは配置をそろえるが、ノード選択、障害復旧、ローリング更新、秘密情報の管理までは自動的に統一しない。互換性は名称ではなく、試験項目の集合で確認する。\n\n## CPUとGPUは役割で比べる\n\nGPUは高い並列性を生かし、大規模モデルや大量バッチで強い。一方、CPUは既存サーバーに広くあり、データを外へ出したくない部門、需要が小さく変動する用途、追加アクセラレーターの調達を待てない用途で候補になる。どちらか一方を万能の勝者にするのではなく、モデル規模、同時利用者、遅延目標、電力、調達時間で配置を分ける。\n\n比較には同一モデルと同一品質が必要だ。量子化で速度を上げても回答品質が落ちれば同じ仕事ではない。平均トークン速度だけでなく、最初の一語が返るまでの時間、95パーセンタイル遅延、1リクエスト当たり電力量、アイドル時の費用を測る。Intelの初期版は第4～第6世代Xeon、vLLM、BF16が中心で、GPU対応は将来計画だ。未提供機能を現在の能力に数えてはいけない。\n\n## 標準の価値は交渉力にある\n\n安定したAPI境界は、技術上の利便性だけでなく調達上の交渉力を生む。同じアプリを複数基盤で動かせれば、単価、供給、地域、電力、データ保管要件に応じて配置を選べる。障害時の迂回先も準備しやすい。モデル提供者、クラウド、半導体企業のどれか一社に運用全体を固定される危険を下げる。\n\n導入前には小さな移植訓練を行うとよい。通常負荷とピーク負荷、故障時の再送、長文入力、ツール呼び出しを二つ以上の実装で走らせ、差分を記録する。切り替え時間と担当者の作業量まで測れば、表面上の単価に隠れた移行費用が見える。\n\nただし、互換APIを採用するだけでロックインが消えるわけではない。独自のモデル機能、ログ形式、課金、データベース、評価基盤が別の固定を作る。出口戦略には、代表的なプロンプトと期待結果、負荷試験、監視項目、データ移行手順をコードとして保つことが必要だ。互換性の本当の価値は、移行できると信じることではなく、定期的に別の実装で同じ試験を通し、選択肢を実証することにある。",
+    "sources": [
+      {
+        "title": "Announcing Intel Inference Microservices",
+        "publisher": "Intel",
+        "url": "https://www.intel.com/content/www/us/en/newsroom/news/artificial-intelligence/intel-inference-microservices-tuned-llm-processors.html"
+      },
+      {
+        "title": "OpenAI-Compatible Server",
+        "publisher": "vLLM",
+        "url": "https://docs.vllm.ai/en/latest/serving/openai_compatible_server.html"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "物価は総合とコアだけでなく、燃料、住居、サービス、実質所得へ分け、利上げ確率の初動と債券終値を区別する。",
+      "AI推論基盤は同一モデル・品質・APIで、遅延、処理量、電力、運用工数を測り、交換可能性を定期試験する。",
+      "停戦やデータ匿名化は発表文ではなく、同文合意・第三者監視・再識別試験・削除手順で検証する。",
+      "銀行決算は一時費用を調整した数字と、顧客資産流入や取引収益の持続性を並べて読む。"
+    ],
+    "watchlist": [
+      {
+        "item": "TSMC決算",
+        "why": "純利益、10～12月見通し、CoWoS能力、設備投資とAI需要の持続性を確認",
+        "horizon": "10月15日"
+      },
+      {
+        "item": "米物価とFRB",
+        "why": "ガソリン、住居、サービス、実質賃金と10月会合の利上げ確率を確認",
+        "horizon": "10月会合まで"
+      },
+      {
+        "item": "ウクライナ電力施設",
+        "why": "正式な停戦文書、第三者監視、日次攻撃、停電と復旧時間を確認",
+        "horizon": "毎日"
+      },
+      {
+        "item": "Spirit社内データ売却",
+        "why": "従業員情報の除外、再識別試験、用途・保持・削除条件を確認",
+        "horizon": "11月4～6日"
+      },
+      {
+        "item": "中東原油輸送",
+        "why": "Aramco被害、ホルムズ海峡通航、保険料、湾岸輸出と在庫放出を確認",
+        "horizon": "毎日"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "OpenAI互換API",
+      "reading": "オープンエーアイごかんエーピーアイ",
+      "definition": "OpenAI APIと同様のリクエスト形式やエンドポイントを実装し、対応するアプリケーションから接続しやすくする接口。完全な機能・挙動の一致を自動的に保証するものではない。"
+    },
+    {
+      "term": "BF16",
+      "reading": "ビーフロートシックスティーン",
+      "definition": "指数部を広く保った16ビット浮動小数点形式。AI計算でメモリー使用量と演算量を抑えながら、広い数値範囲を扱うために使われる。"
+    },
+    {
+      "term": "再識別",
+      "reading": "さいしきべつ",
+      "definition": "匿名化されたデータを他の属性や外部情報と組み合わせ、特定の個人や集団へ結び付け直すこと。直接識別子の削除だけでは防げない場合がある。"
+    },
+    {
+      "term": "税支出",
+      "reading": "ぜいししゅつ",
+      "definition": "控除、免税、軽減税率などにより、通常の税制より税収を減らして特定の活動や主体を支援する仕組み。予算上の直接支出と似た政策効果を持つ。"
+    }
+  ]
+}
