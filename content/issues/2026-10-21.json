@@ -1,0 +1,311 @@
+{
+  "date": "2026-10-21",
+  "edition": 64,
+  "generated_at": "2026-10-21T07:59:38+09:00",
+  "masthead_note": "成長率より、売上を生む資産と資金を食う資産を分けて見る。",
+  "market_snapshot": {
+    "as_of": "日本10年債は10月20日東京市場、米国株・米10年債・原油・為替は10月20日米国市場終値または同日観測。変化は前営業日比、単位は各項目に記載。",
+    "items": [
+      {"label": "S&P500", "value": "7,721.27", "change": "+30.54（+0.40%）", "direction": "up", "note": "10月20日終値"},
+      {"label": "Nasdaq総合", "value": "26,484.11", "change": "+53.23（+0.20%）", "direction": "up", "note": "10月20日終値"},
+      {"label": "NYダウ", "value": "52,453.89", "change": "+490.46（+0.94%）", "direction": "up", "note": "10月20日終値"},
+      {"label": "日本10年国債利回り", "value": "2.900%", "change": "約-0.01pt", "direction": "down", "note": "10月20日市場観測"},
+      {"label": "米10年国債利回り", "value": "5.096%", "change": "-0.04pt", "direction": "down", "note": "10月20日Reuters観測"},
+      {"label": "USD/JPY", "value": "158.14円", "change": "-0.21%", "direction": "down", "note": "10月20日、1ドル当たり"},
+      {"label": "Brent原油", "value": "108.23ドル/バレル", "change": "-1.20%", "direction": "down", "note": "10月20日Reuters観測"}
+    ]
+  },
+  "executive_summary": [
+    {"text": "SpaceX、7～9月売上高161％増。AI計算資源賃貸が最大事業に", "ref": "spacex-ai-cloud-earnings"},
+    {"text": "米9月住宅着工は年率122.1万戸、前月比5.2％減", "ref": "us-housing-demand-slump"},
+    {"text": "日銀、30日の会合で据え置きの公算。2027年度物価見通しは上方修正を検討", "ref": "boj-inflation-forecast-review"},
+    {"text": "Amazon、PyTorchコードをほぼ書き換えずTrainiumへ移すTorchNeuronを公開へ", "ref": "amazon-torchneuron-pytorch"},
+    {"text": "3M、Amazonのデータセンター製品購入額に連動する新株予約権を付与", "ref": "3m-amazon-optical-warrant"},
+    {"text": "英国、サウジ防空へTyphoon戦闘機を追加投入。攻撃任務は否定", "ref": "uk-saudi-air-defence"},
+    {"text": "WHO、非感染性疾患の国内格差を初めて世界規模で体系評価", "ref": "who-ncd-inequality-report"}
+  ],
+  "focus_refs": ["spacex-ai-cloud-earnings", "us-housing-demand-slump", "uk-saudi-air-defence"],
+  "top_story": {
+    "id": "spacex-ai-cloud-earnings",
+    "headline": "SpaceX、AI賃貸が最大事業に",
+    "dek": "7～9月売上高145.8億ドル、AI向け設備投資は164億ドル",
+    "importance": 3,
+    "facts": [
+      "SpaceXの2026年7～9月期売上高は前年同期比161％増の145億8,000万ドルとなり、LSEG集計の市場予想127億2,000万ドルを上回った。純利益は44億ドルで、前年同期の11億ドル赤字から黒字へ転じた。",
+      "AI関連売上高は前年同期の9倍超となる76億ドルで、会社全体の売上高の約52％を占めた。主力は自社AIモデルではなく、Anthropic、Google、Reflection AIなどへのデータセンター計算能力の賃貸である。",
+      "同四半期の設備投資196億ドルのうち、AI部門が164億ドルを占めた。AI部門は営業赤字が続き、会社は安定利益まで継続投資が必要としている。",
+      "Starlink契約者は1,360万人で市場予想1,219万人を上回った一方、契約者1人当たり月間売上高は2023年の99ドルから69ドルへ低下した。Musk氏はSpaceXとTeslaが統合を検討する特別委員会を設けたと明らかにしたが、株主承認を含む正式決定には至っていない。"
+    ],
+    "why_it_matters": "SpaceXはロケット・衛星通信会社という見方から、電力と半導体を束ねて計算能力を貸すクラウド事業者へ収益構成を変えつつある。ただしAI売上高76億ドルに対しAI設備投資は164億ドルで、売上成長と資本回収は同じではない。高成長の見出しだけでは、顧客契約の期間、設備稼働率、減価償却後の採算を判断できない。",
+    "implications": "AIインフラ企業を評価する際は、受注額や予約容量と、稼働済み容量から計上した売上を分ける必要がある。利用企業側も、単価だけでなく契約最低額、電力供給、チップ更新、設備停止時の代替を確認すべきだ。SpaceXとTeslaの統合は正式協議に進んだが、交換比率、少数株主保護、株主承認が未定のため成立を前提にしない。",
+    "diagram": {
+      "type": "comparison",
+      "title": "SpaceXの7～9月期：売上と投資",
+      "unit": "十億ドル",
+      "note": "2026年7～9月期。売上高と設備投資は利益ではなく、用途も異なるため単純差引きしない。",
+      "items": [
+        {"label": "全社売上高", "value": 14.58, "display_value": "145.8億ドル", "status": "actual"},
+        {"label": "AI売上高", "value": 7.6, "display_value": "76億ドル", "status": "actual"},
+        {"label": "全社設備投資", "value": 19.6, "display_value": "196億ドル", "status": "actual"},
+        {"label": "AI設備投資", "value": 16.4, "display_value": "164億ドル", "status": "actual"}
+      ]
+    },
+    "sources": [
+      {"title": "SpaceX quarterly revenue jumps, beats estimates as AI business surges", "publisher": "Reuters", "url": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/"}
+    ],
+    "tags": ["SpaceX", "AIインフラ", "データセンター", "Starlink", "設備投資"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "us-housing-demand-slump",
+          "headline": "米住宅着工、前月比5.2％減",
+          "dek": "9月は年率122.1万戸、契約指数も2001年以来の低水準",
+          "importance": 2,
+          "facts": [
+            "米商務省と住宅都市開発省によると、9月の住宅着工件数は季節調整済み年率122万1,000戸で、改定後の8月128万8,000戸から5.2％減った。前年同月比は7.4％減である。",
+            "一戸建て着工は年率85万9,000戸で前月比4.6％減。建築許可は年率140万戸、完成戸数は119万2,000戸だった。",
+            "全米不動産業者協会の9月の中古住宅販売契約指数は前月比7.3％低い66.0となり、統計開始の2001年以来の最低水準を記録した。"
+          ],
+          "why_it_matters": "住宅は金利上昇が実体需要へ伝わる代表的な経路である。株価が持ち直しても、着工と売買契約が同時に落ちれば、建材、家具、仲介、地方税収へ遅れて弱さが広がる可能性がある。",
+          "implications": "米住宅関連企業は全国平均だけでなく、在庫日数、値下げ率、住宅ローン優遇の負担主体を地域別に確認する必要がある。着工の単月値は誤差が大きいため、次月改定と許可件数の方向も併せて見る。",
+          "sources": [
+            {"title": "New Residential Construction, September 2026", "publisher": "U.S. Census Bureau / HUD", "url": "https://www.census.gov/construction/nrc/pdf/newresconst.pdf"},
+            {"title": "Stocks mostly rise as oil, US yields ease; euro edges up", "publisher": "Reuters", "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-10-20/"}
+          ],
+          "tags": ["米国", "住宅着工", "金利", "不動産", "景気"]
+        },
+        {
+          "id": "boj-inflation-forecast-review",
+          "headline": "日銀、物価見通し上げを検討",
+          "dek": "30日の会合は1.25％据え置きの公算、原油高を反映",
+          "importance": 2,
+          "facts": [
+            "Reutersが日銀の議論を知る関係者の話として報じたところでは、日銀は10月30日の金融政策決定会合で政策金利を1.25％に据え置く公算が大きい。",
+            "7月時点の見通しは、生鮮食品を除く消費者物価の前年比を2026年度2.5％、2027年度2.4％としていた。原油高が長引くなか、2027年度の予測を小幅に引き上げる案を検討している。",
+            "2026年度0.6％、2027年度0.8％の成長率予測は大きく変えない方向とされる。食料品消費税率引き下げは未成立のため、今回の物価見通しに織り込まない見込みである。"
+          ],
+          "why_it_matters": "金利を据え置いても物価見通しを上げれば、利上げ打ち止めを意味しない。輸入エネルギーによる物価上昇と、賃金・サービス価格が作る基調的な物価を分けて説明できるかが、12月以降の政策判断を左右する。",
+          "implications": "企業は10月会合の金利だけでなく、展望レポートの2027年度物価、原油・為替前提、基調物価の表現を確認する必要がある。関係者報道は決定ではなく、正式判断は30日の声明と総裁会見で確認する。",
+          "sources": [
+            {"title": "Bank of Japan may raise inflation forecast, stand pat on rates, sources say", "publisher": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/bank-japan-may-raise-inflation-forecast-stand-pat-rates-sources-say-2026-10-20/"}
+          ],
+          "tags": ["日銀", "物価", "政策金利", "原油", "展望レポート"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "amazon-torchneuron-pytorch",
+          "headline": "Trainium、PyTorch移植を簡略化",
+          "dek": "AmazonのTorchNeuron、設定変更だけで既存コードを実行へ",
+          "importance": 2,
+          "facts": [
+            "Amazonの半導体部門Annapurna Labsは、PyTorchで書かれたAIコードを大幅に書き換えず、自社Trainium半導体で動かすTorchNeuronを発表した。無料のオープンソースとして公開する計画である。",
+            "Amazonによると、開発者は設定を1カ所変更して移行できる。ロボティクス、世界モデル、音声AIなど30社超が初期利用している。",
+            "PyTorchはMetaが運営する主要AI開発基盤で、NvidiaはPyTorchを自社GPUへ最適化するCUDAソフトウェアを長年蓄積してきた。TorchNeuronはこの移行障壁を下げる狙いがある。"
+          ],
+          "why_it_matters": "AIチップの採用は演算性能だけでなく、既存コード、デバッグ、監視をどれだけ変えずに済むかで決まる。互換層が実用化すれば、クラウド利用者はNvidia製GPUと専用チップを価格・供給量で選びやすくなる。",
+          "implications": "利用企業は『書き換え不要』をそのまま総移行費用ゼロと解釈せず、数値精度、未対応演算、コンパイル時間、障害解析、別環境への切り戻しを自社モデルで試すべきだ。",
+          "sources": [
+            {"title": "Amazon says its AI chips will work with popular coding language, challenging Nvidia", "publisher": "Reuters", "url": "https://www.reuters.com/business/retail-consumer/amazon-says-its-ai-chips-will-work-with-popular-coding-language-challenging-2026-10-19/"}
+          ],
+          "tags": ["Amazon", "Trainium", "PyTorch", "TorchNeuron", "AI半導体"]
+        },
+        {
+          "id": "ovhcloud-spare-capacity-model",
+          "headline": "OVHcloud、110MWを未稼働で保有",
+          "dek": "接続済み250MWの約半分、新規顧客を建設なしで受け入れ",
+          "importance": 2,
+          "facts": [
+            "仏OVHcloudは接続済みデータセンター容量250MWのうち140MWを稼働中で、110MWを新規顧客向けに利用できるとCEOが説明した。",
+            "同社は2027年初めに初の自社AIモデルを公開する計画で、専門別の小モデルへ処理を振り分けるMixture of Experts方式を使うとしている。",
+            "社内データで調整した業務アプリ基盤OVHai Workspaceは近く試験提供する。モデル性能、顧客、料金、110MWの契約済み比率は公表されていない。"
+          ],
+          "why_it_matters": "電力接続待ちがデータセンター増設の制約になる局面では、建物より接続済み電力が先行資産になる。一方、空き容量は即時売上ではなく、顧客獲得とサーバー導入が伴って初めて収益化する。",
+          "implications": "クラウド企業の容量比較では、計画、接続済み、機器設置済み、稼働中、契約済みを分ける必要がある。欧州のデータ主権需要が110MWの稼働率と単価へ転換するかを追う。",
+          "sources": [
+            {"title": "Half of OVHcloud capacity is available, AI model launching in early 2027, CEO says", "publisher": "Reuters", "url": "https://www.reuters.com/business/half-ovhcloud-capacity-is-available-ai-model-launching-early-2027-ceo-says-2026-10-20/"}
+          ],
+          "tags": ["OVHcloud", "データセンター", "電力", "欧州", "AIモデル"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "3m-amazon-optical-warrant",
+          "headline": "3M、Amazon購入額に株式連動",
+          "dek": "光接続など累計60億ドルで新株予約権の85％が確定",
+          "importance": 2,
+          "facts": [
+            "3MはAmazonとデータセンター向け光接続製品などの商業関係を拡大し、Amazon子会社へ3M株最大316万2,015株を1株164.89ドルで取得できる7年物の新株予約権を付与した。",
+            "対象株式の85％はAmazonからの累計支払いに応じて権利確定し、累計60億ドルで全て確定する。残り15％は別の出来事に連動する。60億ドルは確定売上高ではない。",
+            "3Mの7～9月期売上高は66億ドル、調整後1株利益は2.50ドル。2026年通期の調整後1株利益見通しを9.10～9.15ドルへ引き上げた。"
+          ],
+          "why_it_matters": "大口顧客へ株価上昇の利益を分ける契約は、長期購入を促す一方、売上集中と潜在的な株式希薄化を伴う。データセンター投資の恩恵が半導体だけでなく、光配線・材料へ広がっていることも示す。",
+          "implications": "供給企業を評価する際は契約上限ではなく、毎期の権利確定株数、実支払額、粗利益率、単一顧客比率を確認する必要がある。Amazonが60億ドルを全額購入するとの保証はない。",
+          "sources": [
+            {"title": "3M Reports Third-Quarter 2026 Results; Raises Full-Year EPS Guidance", "publisher": "3M", "url": "https://investors.3m.com/news-events/press-releases/detail/1946/3m-reports-third-quarter-2026-results-raises-full-year-eps"},
+            {"title": "3M current report dated October 19, 2026", "publisher": "3M / SEC filing", "url": "https://investors.3m.com/financials/sec-filings/content/0000066740-26-000303/mmm-20261019.htm"}
+          ],
+          "tags": ["3M", "Amazon", "光接続", "データセンター", "新株予約権"]
+        },
+        {
+          "id": "prudential-latam-sale",
+          "headline": "Prudential、中南米2社を売却",
+          "dek": "CNP Assurancesへ現金40.25億ドル、事業軸を日米へ集中",
+          "importance": 2,
+          "facts": [
+            "Prudential Financialはブラジルとメキシコの保険事業をCNP Assurances Groupへ、調整前の合計約40億2,500万ドルの現金で売却する契約を結んだ。",
+            "取引完了には各国の規制承認などが必要である。Prudentialは2026年7～9月期から両事業を売却・ランオフ事業へ移し、旧International Businesses部門をJapan Businessesへ改称した。",
+            "取引完了は2027年下半期を予定する。Prudentialは手取り資金を米国、日本、一部欧州市場の退職、資産運用、保障事業へ配分する方針だが、最終額は条件により変わり得る。"
+          ],
+          "why_it_matters": "保険会社は地域分散を増やすだけでなく、資本規制、販売網、規模の優位が効く市場へ資本を集め直している。部門名の変更と大型売却を合わせると、日本事業の収益・資本効率がグループ評価へ与える比重が増す。",
+          "implications": "競合と取引先は売却価格だけでなく、現地規制当局の条件、再保険、販売契約、移行費用を確認する必要がある。Prudentialの日本での資本配分と商品戦略も次の焦点になる。",
+          "sources": [
+            {"title": "Prudential Financial announces sale of Prudential of Brazil and Prudential of Mexico to CNP Assurances", "publisher": "Prudential Financial", "url": "https://investor.prudential.com/news/detail/2650/prudential-financial-announces-sale-of-prudential-of-brazil-and-prudential-of-mexico-to-cnp-assurances"},
+            {"title": "Prudential sheds Brazil, Mexico units to CNP for $4 billion as it narrows its focus", "publisher": "Reuters", "url": "https://www.reuters.com/world/americas/prudential-financial-sell-brazil-mexico-units-4-billion-2026-10-20/"}
+          ],
+          "tags": ["Prudential Financial", "CNP Assurances", "保険", "M&A", "日本"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "ukraine-warning-restored",
+          "headline": "ウクライナ、米警報情報が復旧",
+          "dek": "Rubio国務長官との協議後、弾道ミサイル早期警戒を再受信",
+          "importance": 3,
+          "facts": [
+            "Zelenskyy大統領は10月20日、Rubio米国務長官との電話協議後、ロシアの弾道ミサイル攻撃に関する早期警戒情報を再び受け取れるようになったと発表した。",
+            "ウクライナ側はPatriot迎撃弾の供給と、移動中の無人機でStarlink／Starshieldが作動しない問題も協議した。迎撃弾の追加供給が承認されたとは発表していない。",
+            "米特使WitkoffはOsloでウクライナ、ノルウェー、フィンランド側と協議し、21日にロシア側と会談する予定である。"
+          ],
+          "why_it_matters": "早期警戒の復旧は民間防護と迎撃判断を改善するが、迎撃弾の在庫や通信機能の制限を解決したわけではない。情報共有、兵器供給、外交交渉が別々の速度で動いている点が重要である。",
+          "implications": "欧州の支援国と防衛企業は『支援再開』を一括りにせず、警戒情報、迎撃弾、衛星通信、資金の各状態を個別に確認する必要がある。21日の露側協議で安全保証や停戦案が具体化するかを追う。",
+          "sources": [
+            {"title": "Early Warning of Russian Ballistic Missile Attacks and the Situation with Starlink/Starshield", "publisher": "President of Ukraine", "url": "https://www.president.gov.ua/en/news/rannye-poperedzhennya-pro-rosijski-ataki-balistikoyu-ta-situ-106965"},
+            {"title": "US envoy Witkoff to meet Russians, Trump presses Kyiv to settle", "publisher": "Reuters", "url": "https://www.reuters.com/business/media-telecom/zelenskiy-meet-witkoff-trump-praises-russia-rebukes-ukraine-2026-10-20/"}
+          ],
+          "tags": ["ウクライナ", "米国", "早期警戒", "Patriot", "ロシア"]
+        },
+        {
+          "id": "uk-saudi-air-defence",
+          "headline": "英国、サウジ防空を追加支援",
+          "dek": "Typhoonで防御飛行、A400Mと軍事顧問も派遣",
+          "importance": 2,
+          "facts": [
+            "英国防省は10月20日、Houthiによる攻撃の激化を受け、Typhoon戦闘機でサウジアラビアの都市と重要インフラを守る防空任務を実施すると発表した。",
+            "英国は任務を防御目的とし、TyphoonはHouthiへの攻撃を行わないと明記した。防衛物資輸送用のA400Mと、サウジ参謀を支援する軍事顧問も提供する。",
+            "既存の防空装備に加え、サウジの防御航空作戦への空中給油支援も延長する。給油対象には、イエメン内で脅威となるHouthi軍事目標を低下させる作戦が含まれる。"
+          ],
+          "why_it_matters": "戦闘機の直接攻撃を否定しても、空中給油や参謀支援は作戦持続力を高める。『防御』の範囲がサウジ領空内の迎撃にとどまるのか、イエメン内の脅威抑制まで含むのかで、英国の関与度は変わる。",
+          "implications": "湾岸の航空・海運・エネルギー企業は部隊数の見出しより、交戦規則、任務地域、給油対象、期間を確認する必要がある。英国発表は支援の追加を示すが、Houthiの攻撃能力低下はまだ確認できない。",
+          "sources": [
+            {"title": "Operational update 20 October – UK military support to the Kingdom of Saudi Arabia", "publisher": "UK Ministry of Defence", "url": "https://www.gov.uk/government/news/operational-update-20-october-uk-military-support-to-the-kingdom-of-saudi-arabia"}
+          ],
+          "tags": ["英国", "サウジアラビア", "Houthi", "防空", "紅海"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "china-deepseek-response",
+          "headline": "中国、DeepSeek排除の撤回要求",
+          "dek": "米行政IT命令へ対抗措置を示唆、AI対話との両立を要求",
+          "importance": 2,
+          "facts": [
+            "中国商務省は10月20日、米民間行政機関からDeepSeek製品と同モデルを使う第三者サービスを排除する命令について、差別的措置だとして撤回を要求した。",
+            "中国側は企業の権益を守るため必要な措置を取ると表明する一方、米中首脳の合意を実行し、AI対話の仕組みを活用するよう求めた。具体的な対抗措置は示していない。",
+            "米国土安全保障省は前日、機微データの中国移転や脆弱性を理由に、連邦民間行政機関へ調達停止と削除を命じた。"
+          ],
+          "why_it_matters": "前日の米命令は調達実務の変更だったが、中国の反応で企業規制や輸出管理へ波及する政治リスクが加わった。もっとも、対抗措置は未公表であり、警告と実施を分けて扱う必要がある。",
+          "implications": "米中双方で事業を行うAI企業は、モデル依存関係、データ経路、政府顧客、代替モデルを地域別に棚卸しするべきだ。対抗措置の対象が米企業、政府調達、技術輸出のどこへ向くかを確認する。",
+          "follow_up": {
+            "previous": {"date": "2026-10-20", "article_id": "us-deepseek-removal-order"},
+            "assessment": "mixed",
+            "reassessment": "前号は米行政ITからの排除範囲を確認した。中国が撤回要求と対抗措置を示唆したため二国間摩擦は強まったが、措置の内容はなく、企業への実害拡大はまだ判定できない。",
+            "next_check": "中国商務省の正式措置、対象企業・製品、発効日、米中AI対話の日程を確認する。",
+            "reconsider_if": "中国が対抗措置を見送り、米中が第三者サービスの監査・例外手続きで合意する。"
+          },
+          "sources": [
+            {"title": "China says US' DeepSeek ban disregards Xi-Trump consensus", "publisher": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/china-says-us-banning-deepseek-government-it-systems-disregards-consensus-2026-10-20/"},
+            {"title": "FASCSA DeepSeek exclusion and removal order", "publisher": "Federal Register Public Inspection", "url": "https://public-inspection.federalregister.gov/2026-21447.pdf"}
+          ],
+          "tags": ["中国", "米国", "DeepSeek", "政府調達", "AI規制"]
+        },
+        {
+          "id": "who-ncd-inequality-report",
+          "headline": "WHO、疾病格差を国内層別で評価",
+          "dek": "非感染性疾患4群と主要リスク、所得・教育・居住地などを比較",
+          "importance": 2,
+          "facts": [
+            "WHOは10月20日、がん、心血管疾患、慢性呼吸器疾患、糖尿病と主要リスクについて、各国内の人口集団間格差を世界規模で体系評価した初の報告書を公表した。",
+            "過去10年の各国データを使い、年齢、性別、所得、教育、居住地、障害、雇用、移民資格による疾病負担、予防、診断、治療の差を調べた。",
+            "低・中所得国では教育水準が低い層ほど高血圧と糖尿病が多い傾向があり、農村部は都市部より高血圧の診断・治療や子宮頸がん検診へのアクセスが低い国が多いとした。"
+          ],
+          "why_it_matters": "国平均が改善しても、検診や治療が届かない層が残れば疾病負担は下がりにくい。医療政策と企業の健康支援では、全国普及率だけでなく所得、教育、地域、障害別の到達率が実効性を左右する。",
+          "implications": "医療・保険・デジタルヘルス企業は、対象人口全体の利用率に加え、農村、低所得、障害者、移民の脱落率を測る必要がある。WHOの報告は方向を示すが、施策設計には各国の層別データと費用負担の確認が必要だ。",
+          "sources": [
+            {"title": "WHO report examines inequalities in noncommunicable diseases and their risk factors", "publisher": "World Health Organization", "url": "https://www.who.int/news/item/20-10-2026-who-report-examines-inequalities-in-noncommunicable-diseases-and-their-risk-factors"},
+            {"title": "State of inequality: noncommunicable diseases and their risk factors", "publisher": "World Health Organization", "url": "https://www.who.int/publications/i/item/9789240125018"}
+          ],
+          "tags": ["WHO", "非感染性疾患", "医療格差", "公衆衛生", "データ"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "AIクラウドの『容量』を読む — MW、稼働率、売上はなぜ別物か",
+    "dek": "電力接続から顧客課金までを分解し、データセンター計画の実力を見抜く",
+    "tags": ["AIインフラ", "データセンター", "電力", "クラウド"],
+    "reading_minutes": 5,
+    "body_md": "## 容量には少なくとも五つの段階がある\n\nAIデータセンターの発表では、数百MWや数GWという数字が並ぶ。しかし同じ『容量』でも意味は異なる。土地と系統接続を確保した計画容量、変電設備まで完成した接続済み容量、サーバーを置いた機器設置済み容量、実際に処理へ使える稼働容量、顧客契約で押さえられた契約済み容量である。OVHcloudが示した250MWは接続済みで、そのうち140MWが稼働中、110MWが新規顧客を受け入れられる状態だ。110MWは売り物になる資産だが、まだ110MW分の売上ではない。\n\nこの区別を飛ばすと、建設計画を既存供給力と誤認したり、空き容量を需要不足と決めつけたりする。空きには、機器搬入前、顧客契約前、冗長性確保、段階的な立ち上げなど複数の理由がある。まず会社がどの段階の数字を示しているかを確認しなければならない。\n\n## MWは計算量でも売上でもない\n\nMWは主に電力の大きさであり、AIが処理したトークン数や顧客が払う金額ではない。同じ1MWでも、半導体の世代、冷却方式、利用率、モデルの演算特性、ネットワーク待ちで有効な計算量は変わる。短期契約と長期契約でも1MW当たりの単価は違う。したがって、容量を比較するときはPUEなどの施設効率、搭載チップ、平均利用率、契約期間、最低利用保証を併記する必要がある。\n\nSpaceXの7～9月期はAI売上高76億ドルに対し、AI設備投資164億ドルだった。これは単純な赤字計算ではない。設備投資は複数年使う資産になり、売上高は一四半期の利用分だからだ。ただし、成長に必要な現金が先に大量流出する構造は明らかである。将来の収益性を見るには、稼働開始時期と減価償却、電力費、顧客契約期間を追わなければならない。\n\nさらに半導体は建物より更新周期が短い。新世代チップが同じ電力で多くの処理をこなせば、旧世代設備の市場価値と料金は下がり得る。帳簿上の耐用年数だけでなく、技術的な陳腐化まで見込んだ回収期間が必要だ。電力契約が長期でも、搭載機器の競争力が同じ期間続くとは限らない。\n\n## 予約契約にも質の差がある\n\n大口顧客との契約は融資を呼び込む担保になり得るが、見出しの契約総額がそのまま確定売上になるとは限らない。購入量に応じて株式取得権が確定する3MとAmazonの契約では、累計60億ドルが権利確定の上限条件であり、Amazonが全額を購入した実績ではない。AIクラウドでも、予約容量、最低支払額、解約条項、稼働開始条件を分ける必要がある。\n\n特に建設途中の施設では、電力や半導体の引き渡しが遅れると顧客の利用開始も遅れる。逆に顧客が利用を減らしても最低支払保証があれば売上は守られる。契約の名目額より、どの条件で請求権が生じるかが重要である。\n\n契約先の集中も見落とせない。少数のAI企業が複数のクラウド事業者と巨額契約を結ぶと、施設は分散して見えても最終需要は同じ顧客に集中する。顧客名、契約残存期間、前受金、解約可能性を見れば、設備側と需要側の二重計上を避けやすい。\n\n## 四つの数字を同じ表で追う\n\n実務では、接続済みMW、稼働中MW、契約済みMW、四半期AI売上高を同じ時系列で追うとよい。接続済みだけ増えて稼働が伸びなければ機器や顧客獲得が詰まり、稼働が増えて売上が伸びなければ単価か利用率に問題がある。売上が伸びても営業キャッシュフローが悪化するなら、電力費や先行投資、顧客への条件が重い可能性がある。\n\nここへ設備投資額と減価償却費も加えると、先行建設期と回収期を区別できる。四半期だけでなく、稼働開始から数年の累積営業キャッシュフローを見ることが重要だ。顧客側では、予約した容量の実利用率と未使用分への支払いを確認すれば、需要の実像へ近づける。\n\nAIインフラ投資の本質は、巨大な建物を作ることではなく、電力、半導体、ソフトウェア、顧客契約を同じ時期にそろえ、課金可能な計算へ変えることだ。GWの大きさは入口にすぎない。投資家も利用企業も、容量の段階と現金化の条件を分解してこそ、供給不足と過剰投資を見分けられる。",
+    "sources": [
+      {"title": "SpaceX quarterly revenue jumps, beats estimates as AI business surges", "publisher": "Reuters", "url": "https://www.reuters.com/business/media-telecom/spacex-quarterly-revenue-jumps-beats-estimates-ai-business-surges-2026-10-20/"},
+      {"title": "Half of OVHcloud capacity is available, AI model launching in early 2027, CEO says", "publisher": "Reuters", "url": "https://www.reuters.com/business/half-ovhcloud-capacity-is-available-ai-model-launching-early-2027-ceo-says-2026-10-20/"},
+      {"title": "3M Reports Third-Quarter 2026 Results; Raises Full-Year EPS Guidance", "publisher": "3M", "url": "https://investors.3m.com/news-events/press-releases/detail/1946/3m-reports-third-quarter-2026-results-raises-full-year-eps"}
+    ]
+  },
+  "insights": {
+    "implications": [
+      "AIインフラでは、契約総額や計画MWではなく、稼働済み容量から生じる売上と営業キャッシュフローを分けて確認する。",
+      "中央銀行の据え置き観測は緩和ではない。日銀の物価見通しとFedの12月利上げ観測を資金調達期間ごとに織り込む。",
+      "政府の安全保障支援は、情報共有、迎撃、防空飛行、空中給油を別の関与段階として読む。",
+      "AI規制対応では直接利用するモデルだけでなく、委託先SaaSに埋め込まれたモデルとデータ経路を把握する。"
+    ],
+    "watchlist": [
+      {"item": "米FOMCの政策金利と12月示唆", "why": "10月据え置き予想後の追加利上げ時期を判別", "horizon": "10月27～28日"},
+      {"item": "日銀展望レポートと総裁会見", "why": "2027年度物価見通しと次回利上げ条件を確認", "horizon": "10月30日"},
+      {"item": "エジプトの対サウジ軍事支援採決", "why": "任務・期間・費用と3分の2承認の有無", "horizon": "10月26日"},
+      {"item": "食料品消費減税法案", "why": "財政影響、対象品目、恒久財源、新規国債額", "horizon": "国会審議中"},
+      {"item": "SpaceXのAI部門採算", "why": "設備投資164億ドルの稼働率、営業損益、契約期間", "horizon": "次回決算"},
+      {"item": "OVHcloudの110MW空き容量", "why": "契約済み比率と売上への転換速度", "horizon": "2027年初めまで"},
+      {"item": "TorchNeuronの公開と実測", "why": "対応演算、精度、移植工数、費用優位を検証", "horizon": "公開後"},
+      {"item": "中国のDeepSeek対抗措置", "why": "対象企業・製品、発効日、米中AI対話への影響", "horizon": "今後数週間"},
+      {"item": "中国の技術輸出規制案", "why": "40技術の最終リストと許可基準", "horizon": "11月15日以降"},
+      {"item": "ウクライナ向け米支援", "why": "早期警戒復旧後のPatriotとStarlink制限", "horizon": "Witkoff訪露後"},
+      {"item": "英国のサウジ防空任務", "why": "交戦規則、給油対象、派遣期間とHouthi攻撃", "horizon": "随時"},
+      {"item": "Prudential中南米事業売却", "why": "規制承認、最終手取り額、日本事業への再配分", "horizon": "2027年下半期予定"},
+      {"item": "WHO非感染性疾患格差", "why": "各国の層別データが予算と検診到達率へ反映されるか", "horizon": "各国実施計画"},
+      {"item": "ケニアBundibugyo Ebola", "why": "症例数、接触者追跡、ワクチン接種の更新", "horizon": "WHO更新時"},
+      {"item": "Merck KGaAのSilence買収", "why": "株主・規制承認とdivesiran第3相設計", "horizon": "2027年第1四半期"}
+    ]
+  },
+  "glossary": [
+    {"term": "MW", "reading": "メガワット", "definition": "電力の大きさを示す単位。データセンターでは電力接続や設備規模の目安になるが、演算量、稼働率、売上高を直接示すものではない。"},
+    {"term": "Mixture of Experts", "reading": "ミクスチャー・オブ・エキスパーツ", "definition": "入力に応じて複数の専門的な部分モデルの一部だけを動かすAI設計。全パラメーターを毎回使わず、計算効率を高める狙いがある。"},
+    {"term": "新株予約権", "reading": "しんかぶよやくけん", "definition": "あらかじめ決めた条件や価格で将来その会社の株式を取得できる権利。行使されると既存株主の持分が薄まる可能性がある。"},
+    {"term": "非感染性疾患", "reading": "ひかんせんせいしっかん", "definition": "人から人へ感染する病原体を主因としない慢性疾患の総称。がん、心血管疾患、糖尿病、慢性呼吸器疾患などが含まれる。"}
+  ]
+}
