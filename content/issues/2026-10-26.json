@@ -1,0 +1,294 @@
+{
+  "date": "2026-10-26",
+  "edition": 69,
+  "generated_at": "2026-10-26T08:02:05+09:00",
+  "masthead_note": "速報の数字は、開票率だけでなく、どの地域の票が先に入ったかまで読んで初めて意味を持つ。",
+  "market_snapshot": {
+    "as_of": "米国市場・Brent・米10年債は10月23日終値、Saudi Arabia・Egypt株は10月25日終値",
+    "items": [
+      { "label": "S&P500", "value": "7,623.68", "change": "-39.75（-0.52%）", "direction": "down" },
+      { "label": "Nasdaq総合", "value": "25,955.34", "change": "-53.52（-0.21%）", "direction": "down" },
+      { "label": "Dow平均", "value": "52,215.16", "change": "-652.82（-1.23%）", "direction": "down" },
+      { "label": "米10年国債利回り", "value": "4.987%", "change": "週間で-0.110pt", "direction": "down" },
+      { "label": "Brent原油", "value": "116.72ドル/バレル", "change": "+3.14%", "direction": "up" },
+      { "label": "Saudi TASI", "value": "前日比-2.7%", "change": "18カ月ぶりの大幅安", "direction": "down" },
+      { "label": "Egypt EGX30", "value": "前日比-3.6%", "change": "2025年6月以来の大幅安", "direction": "down" }
+    ]
+  },
+  "focus_refs": [
+    "brazil-runoff-live",
+    "gulf-stocks-houthi",
+    "central-bank-earnings-week"
+  ],
+  "executive_summary": [
+    { "text": "ブラジル決選投票、14％超集計時点でBolsonaro氏50.02％、Lula氏49.98％", "ref": "brazil-runoff-live" },
+    { "text": "Saudi株2.7％安、Egypt株3.6％安。ミサイル・ドローン迎撃が市場へ波及", "ref": "gulf-stocks-houthi" },
+    { "text": "Fed・日銀などが今週会合、Alphabet・Microsoft・Amazonも決算発表へ", "ref": "central-bank-earnings-week" },
+    { "text": "OpenAIとPolandのNASK、AI安全性評価と脆弱性研究で協力", "ref": "openai-nask-safety" },
+    { "text": "LSEG、信用情報会社Octusを35.4億ドルで買収。独自データを強化", "ref": "lseg-octus-deal" },
+    { "text": "Riyadh空港が2ターミナルを部分再開、実際の航空交通は限定的", "ref": "riyadh-airport-partial" },
+    { "text": "中国共産党の五中全会が開幕、約300人が党統治と規律を協議", "ref": "china-fifth-plenum" }
+  ],
+  "top_story": {
+    "id": "brazil-runoff-live",
+    "headline": "Brazil決選、0.04ポイント差",
+    "dek": "14％超の集計でBolsonaro氏50.02％、Lula氏49.98％。投票延長が法的争点に",
+    "importance": 3,
+    "facts": [
+      "Brazilの大統領選決選投票は10月25日夜、投票区の14％超を集計した時点でFlávio Bolsonaro上院議員が有効票の50.02％、現職Luiz Inácio Lula da Silva大統領が49.98％となった。差は0.04ポイントで、勝者は未確定である。",
+      "最高裁のCristiano Zanin判事は、Bahia州3都市の公共交通の問題を理由に、午後5時の正式終了時点で閉まっていなかった投票所に限り2時間の延長を認めた。すでに閉まった投票所は再開しないとした。",
+      "選挙高等裁判所（TSE）は判決を受けて集計を2時間停止した。Lula陣営は少なくとも9州で選挙当日の公共交通が減らされたと申し立て、Bahia州Salvadorでは交通担当幹部の逮捕命令も出た。",
+      "Reutersが取材した法律専門家2人は、投票時間延長と交通障害を巡る主張が選挙後の法的異議につながる可能性を指摘した。2022年選挙後の混乱を踏まえ、最終得票だけでなく敗者の結果承認が焦点となる。"
+    ],
+    "why_it_matters": "初期開票は無作為抽出ではなく、集計が早い地域の票から順に入る。0.04ポイント差は接戦を示すが、残りの地域構成が分からなければ最終結果の推定には使えない。同時に、投票機会の平等と確定手続きへの信頼がBrazilの統治安定、財政運営、対米関係に直結する。",
+    "implications": "企業と投資家は途中経過で政策シナリオを一本化せず、TSEの最終集計、異議申立ての期限、敗者の声明を順に確認したい。Bolsonaro氏勝利なら対米接近と歳出削減、Lula氏勝利なら現行の社会政策と米国への距離が軸になるが、いずれも議会勢力が実行可能性を左右する。",
+    "follow_up": {
+      "previous": { "date": "2026-10-25", "article_id": "brazil-presidential-runoff" },
+      "assessment": "pending",
+      "reassessment": "前号では開票・結果承認・議会勢力を確認事項とした。開票は始まったが14％超で0.04ポイント差にすぎず、勝者や政策方向はまだ判別できない。投票延長と交通障害が新たな手続き上の不確実性になった。",
+      "next_check": "TSEの100％集計、州別の残票、両候補の結果承認、正式な異議申立てを確認する。",
+      "reconsider_if": "大差で確定し敗者が結果を承認する、または裁判所が延長措置を適法と明確に判断すれば、制度不安の見立てを弱める。"
+    },
+    "sources": [
+      { "title": "Bolsonaro overtakes Lula in Brazil's presidential runoff vote", "publisher": "Reuters", "url": "https://www.reuters.com/world/americas/brazil-heads-polls-runoff-between-leftist-lula-bolsonaro-jr-2026-10-25/" },
+      { "title": "Brazil runoff election results", "publisher": "Reuters Graphics", "url": "https://www.reuters.com/graphics/BRAZIL-ELECTION/RESULTS/znpngxgarvl/runoff/" },
+      { "title": "Por Dentro das Eleições: totalização e proclamação dos resultados", "publisher": "Tribunal Superior Eleitoral", "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/por-dentro-das-eleicoes-saiba-como-a-justica-eleitoral-totaliza-e-proclama-os-resultados" }
+    ],
+    "tags": ["Brazil", "大統領選", "開票", "選挙制度", "TSE"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "central-bank-earnings-week",
+          "headline": "Fed・日銀、原油高下で会合",
+          "dek": "Fedは27～28日、日銀は29～30日。大手クラウド3社の決算も集中",
+          "importance": 3,
+          "facts": [
+            "米連邦準備制度理事会（Fed）は10月27～28日、日本銀行は29～30日に金融政策会合を開く。Fed、欧州中央銀行、日銀は前月に引き締めた後で、Reutersは直ちに追加利上げを迫られていないと整理した。",
+            "日銀は30日に政策声明と10月の展望レポートを公表する予定である。Fedの10月会合は経済見通しの公表を伴わない通常会合だが、28日に声明と議長会見を予定する。",
+            "Alphabet、Microsoft、Amazonも今週決算を発表する。S&P500構成企業の約3分の1が決算期を迎え、AIデータセンター投資の売上寄与と資金負担が同時に検証される。"
+          ],
+          "why_it_matters": "原油高はインフレを押し上げる一方、株安と高い資金調達費は成長を弱める。中銀は供給ショックの一次効果を追いかけ過ぎず、賃金やサービス価格への二次波及を見極める必要がある。",
+          "implications": "日本企業は政策金利の据え置き・変更だけでなく、原油、為替、基調インフレに関する文言の変化を比較したい。AI企業は受注や設備投資額ではなく、稼働率、減価償却、営業キャッシュフローを分けて確認すべきだ。",
+          "sources": [
+            { "title": "Take Five: AI trade meets the Fed", "publisher": "Reuters", "url": "https://www.reuters.com/business/take-five/global-markets-themes-graphic-2026-10-23/" },
+            { "title": "Meeting calendars and information", "publisher": "Federal Reserve", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" },
+            { "title": "Release Schedule", "publisher": "日本銀行", "url": "https://www.boj.or.jp/en/about/calendar/index.htm" }
+          ],
+          "tags": ["Fed", "日銀", "金融政策", "原油", "AI投資"]
+        },
+        {
+          "id": "gulf-stocks-houthi",
+          "headline": "Saudi株2.7％安、Egypt3.6％安",
+          "dek": "Saudi市場は18カ月ぶりの大幅安。Aramcoは0.9％下落",
+          "importance": 3,
+          "facts": [
+            "10月25日のSaudi Arabia株式市場のTASI指数は2.7％安で終了し、一時3.4％下落した。終値ベースで18カ月ぶり、日中では2025年4月以来の大幅安となった。",
+            "Saudi Aramco株は0.9％下落した。Saudi主導連合は同日、Riyadhと南部上空でドローンとミサイルを迎撃したと発表し、Houthisは前日に石油施設と空港を攻撃したと主張した。",
+            "Egyptの主要株価指数EGX30は3.6％安となり、2025年6月以来の大幅な下げを記録した。Qatar指数は朝方の下げを戻して0.1％高で終えた。"
+          ],
+          "why_it_matters": "原油価格の上昇は産油国の収入を増やすが、空港、油田、航路への攻撃が続けば、保険、物流、観光、設備稼働の損失が上回り得る。産油国株の下落は、原油高が必ずしも地域経済の追い風にならない局面を示す。",
+          "implications": "中東事業を持つ企業は国別リスクだけでなく、空港再開の実態、従業員移動、輸送保険、Bab el-Mandeb経由の迂回日数を点検すべきだ。金融市場では原油高と産油国株安の同時進行を前提にする必要がある。",
+          "sources": [
+            { "title": "Most Gulf shares close lower as Saudi-Houthi fighting rages on", "publisher": "Reuters", "url": "https://www.reuters.com/world/middle-east/gulf-bourses-slip-houthi-saudi-clashes-rattle-investors-2026-10-25/" }
+          ],
+          "tags": ["Saudi Arabia", "Houthis", "中東", "株式市場", "Aramco"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "openai-nask-safety",
+          "headline": "OpenAI、PolandのNASKと安全研究",
+          "dek": "能力評価、脆弱性、合成コンテンツ、複数言語の悪用を共同検討",
+          "importance": 2,
+          "facts": [
+            "OpenAIとPolandの国立研究機関NASKは、AIの安全性、セキュリティ、技術研究で協力を検討する合意を結んだ。NASKのAI Safety Research CenterはPolandのAI Safety Instituteを担う。",
+            "両者は高能力AIの評価、潜在的な脆弱性の特定、安全策の強化を共同研究する。NASKは合成コンテンツの検出、悪用、複数言語でのリスク、公共サービスの保護に知見を持つ。",
+            "OpenAIは米CAISSI、英国AI Security Instituteとも協力しており、能力評価、リスク評価、安全策の試験、インシデント報告に共通手法が必要だと説明した。"
+          ],
+          "why_it_matters": "AIの危険性は言語、行政システム、攻撃手法で変わる。開発企業の内部試験だけでなく、各国の実データと専門機関を組み合わせることで、英語中心の評価が見落とす弱点を探せる。",
+          "implications": "企業の調達では『安全性を検証済み』という一文ではなく、誰が、どの言語・業務・脅威モデルで試したかを求めるべきだ。共同研究が具体的なベンチマークや報告制度に移るかが次の確認点となる。",
+          "sources": [
+            { "title": "OpenAI and Poland’s NASK partner to advance AI safety and security", "publisher": "OpenAI", "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership/" },
+            { "title": "OpenAI and Poland's NASK collaborate on AI safety research", "publisher": "Reuters", "url": "https://www.reuters.com/legal/litigation/openai-polands-nask-collaborate-ai-safety-research-2026-10-23/" }
+          ],
+          "tags": ["OpenAI", "NASK", "AI安全", "評価", "Poland"]
+        },
+        {
+          "id": "encord-robot-training",
+          "headline": "Jenga動作を筋電でロボ学習",
+          "dek": "Encord、映像と手首の筋肉センサーを組み合わせた訓練データを提示",
+          "importance": 1,
+          "facts": [
+            "AIデータ企業Encordは10月20日、Jengaを操作する人のカメラ映像と手首の筋肉センサーを組み合わせ、ロボット学習用データを作るプログラムを公表した。",
+            "映像は物体の位置と動きを捉える一方、筋肉センサーは力の入れ方や接触の変化を補う。Reutersの映像記事でEncord共同CEOのUlrik Hansen氏が説明した。",
+            "公表内容は訓練データ収集手法の紹介であり、特定ロボットが未経験の作業を自律遂行できると示す比較試験や量産実績ではない。"
+          ],
+          "why_it_matters": "言語モデルは大量の文章を使えるが、ロボットは力、摩擦、失敗の感覚をWeb映像だけから学びにくい。複数センサーを同期したデータは、見た目が同じでも必要な力が違う作業を区別する手掛かりになる。",
+          "implications": "製造現場で評価する際はデータ量より、センサー同期、作業の多様性、失敗例、別環境への再現性を見る必要がある。デモ成功と稼働率・安全性の実績は分けて扱いたい。",
+          "sources": [
+            { "title": "AI company uses Jenga, cameras and muscle sensors to train robots", "publisher": "Reuters", "url": "https://www.reuters.com/video/watch/idRW263323102026RP1/" }
+          ],
+          "tags": ["ロボティクス", "Encord", "筋電", "訓練データ", "Physical AI"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "lseg-octus-deal",
+          "headline": "LSEG、Octusを35.4億ドルで買収",
+          "dek": "信用・非公開市場の独自データを獲得、外部借入で資金調達",
+          "importance": 2,
+          "facts": [
+            "London Stock Exchange Group（LSEG）は信用情報会社Octusを35億4,000万ドルで買収する。LSEGにとって7年ぶりの大型買収で、資金は外部借入で賄う。",
+            "Octusは記者、アナリスト、法律専門家を抱え、経営難企業を中心とする信用市場情報を提供する。2026年の売上寄与見込みは3億～3億2,000万ドルである。",
+            "LSEGは買収が完了後の初年度調整後利益に中立、その後は増益要因になると見込む。同時に、年間の既存事業収入成長率見通しを従来の7～7.5％から最低8％へ引き上げた。"
+          ],
+          "why_it_matters": "公開情報の要約が安くなるほど、契約、法的経緯、関係者取材を構造化した独自データの希少性が上がる。AIは情報端末を変えるが、検証済み一次データを保有する事業者の交渉力まで自動的に奪うわけではない。",
+          "implications": "情報サービス企業は生成AI機能の追加だけでなく、取得権、履歴、専門家による検証を持つデータへ投資する可能性が高い。ただし借入買収なので、統合後の顧客維持と金利負担を追う必要がある。",
+          "sources": [
+            { "title": "LSEG to buy Octus in $3.5 billion deal to shield from AI disruption", "publisher": "Reuters", "url": "https://www.reuters.com/business/finance/lseg-buy-octus-35-billion-data-analytics-push-2026-10-22/" }
+          ],
+          "tags": ["LSEG", "Octus", "M&A", "信用情報", "独自データ"]
+        },
+        {
+          "id": "apple-pro-tell-event",
+          "headline": "Apple、28日にProイベント",
+          "dek": "Los Angelesで開催。タッチ対応MacBook Pro観測は未確認",
+          "importance": 1,
+          "facts": [
+            "Appleは10月28日、Los Angelesで『Pro and tell』と題するイベントを開くと発表した。9月の折り畳みiPhone Duo、10月のスマートホーム端末HomeViewに続く製品イベントとなる。",
+            "Bloombergは初のタッチスクリーン対応MacBook Proが登場すると報じたが、Appleは10月25日時点で製品内容を公式に確認していない。",
+            "Reutersは、CEOのJohn Ternus氏が製品開発の迅速化と組織の簡素化を進めているとのアナリストの見方を伝えた。"
+          ],
+          "why_it_matters": "タッチ対応が事実なら、MacとiPadの役割分担やアプリ設計を変える可能性がある。ただし発表前の観測を製品仕様として扱わず、価格、出荷時期、入力方式を公式発表で確認する必要がある。",
+          "implications": "部品・ソフト企業は新筐体の有無より、実際の出荷台数、開発者向けAPI、既存iPad需要との食い合いを見るべきだ。イベント前の期待だけで需要を推定しないことが重要になる。",
+          "sources": [
+            { "title": "Apple to host 'Pro and tell' event on October 28 in LA", "publisher": "Reuters", "url": "https://www.reuters.com/business/retail-consumer/apple-host-pro-tell-event-oct-28-la-2026-10-19/" }
+          ],
+          "tags": ["Apple", "MacBook Pro", "製品発表", "ハードウェア"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "riyadh-airport-partial",
+          "headline": "Riyadh空港、2ターミナル再開",
+          "dek": "国内線とSaudi系国際線を部分再開、追跡データでは交通量なお限定",
+          "importance": 3,
+          "facts": [
+            "Saudi Arabiaは10月25日、RiyadhのKing Khalid国際空港でTerminal 1を国内線、Terminal 2をSaudi系航空会社の国際線向けに再開したと発表した。空港は10月10日の攻撃で13人が死亡した後、運航を停止していた。",
+            "Flightradar24の追跡データでは再開発表後も航空交通は少なかった。Houthisは空港を軍事目標と呼び、航空会社、職員、旅客に利用しないよう警告した。",
+            "Saudi主導連合は、Riyadh向けのドローン2機と弾道ミサイル1発、南部Khamis Mushait向けの巡航ミサイルを迎撃し、その後さらに南部向け弾道ミサイル10発を迎撃したと発表した。破片で2人が負傷し、建物と車両が損傷した。"
+          ],
+          "why_it_matters": "空港の『再開』と輸送能力の回復は同じではない。航空会社の安全判断、保険、乗員配置、迎撃の継続可能性がそろわなければ、名目上の再開でも人流と物流は戻らない。",
+          "implications": "出張・貨物計画では運航予定表だけでなく、実際の離着陸、振替便、保険適用、代替空港を確認したい。Saudi内の物流停滞が長引けば、石油以外の投資・観光計画にも波及する可能性がある。",
+          "sources": [
+            { "title": "Saudis say Riyadh airport partly reopens despite renewed Houthi threats", "publisher": "Reuters", "url": "https://www.reuters.com/world/middle-east/yemens-houthis-renew-warning-against-using-riyadh-airport-2026-10-24/" }
+          ],
+          "tags": ["Saudi Arabia", "Riyadh", "空港", "Houthis", "航空"]
+        },
+        {
+          "id": "china-fifth-plenum",
+          "headline": "中国五中全会、4日間の日程開始",
+          "dek": "約300人が北京で党統治と規律を協議、2027年党大会前の節目",
+          "importance": 2,
+          "facts": [
+            "中国共産党の中央委員会は10月26～29日、北京で第5回全体会議（五中全会）を開く。現中央委員会が2022年に発足してから5回目で、約300人の党幹部が参加する。",
+            "党が公表した議題は『全面的で厳格な党統治の持続的推進』に関する問題である。会議は非公開で、決定内容は閉会後のコミュニケで示される見通しだ。",
+            "Reutersが引用したAsia Societyの分析では、2022年の中央委員会構成員のうち出席可能とみられる割合は77.4％に低下している。専門家は大規模人事や後継指名を基本シナリオに置いていない。"
+          ],
+          "why_it_matters": "党内規律の強化は政治だけでなく、国有企業、地方政府、技術政策の意思決定速度とリスク許容度に影響する。非公開会議では観測報道より、閉会後の公式文言と人事名簿が重要になる。",
+          "implications": "中国関連企業は『重大人事』との速報に反応する前に公式コミュニケを確認すべきだ。規律、技術自立、内需、民間企業に関する表現が従来文書から変わるかを比較したい。",
+          "sources": [
+            { "title": "Tougher discipline, and Xi's authority, key at China's Communist Party's fifth plenum", "publisher": "Reuters", "url": "https://www.reuters.com/world/china/tougher-discipline-xis-authority-key-chinas-communist-partys-fifth-plenum-2026-10-23/" },
+            { "title": "How China's October 26 to 29 Communist Party plenum works", "publisher": "Reuters", "url": "https://www.reuters.com/world/china/how-chinas-october-26-29-communist-party-plenum-works-2026-10-23/" }
+          ],
+          "tags": ["中国", "五中全会", "共産党", "党統治", "人事"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "egypt-saudi-defense-vote",
+          "headline": "Egypt議会、Saudi支援を採決へ",
+          "dek": "国外戦闘任務には3分の2の賛成が必要。目的・期間・費用は未公表",
+          "importance": 3,
+          "facts": [
+            "Egypt議会は10月26日、Saudi Arabiaから要請があった場合に軍事支援を行う権限をAbdel Fattah al-Sisi大統領へ与えるか採決する予定である。議会は審議を26日まで延期していた。",
+            "Egypt憲法では、国防会議との協議後、国外での戦闘任務に軍を送るには議会の3分の2の賛成が必要となる。Sisi大統領は支援は防御目的で、Yemenへの攻撃は含まないと説明した。",
+            "Egypt社会民主党は、任務の目的、範囲、期間、費用、兵士への危険について十分な情報がないとして所属議員に棄権を指示した。Saudi ArabiaはEgypt中央銀行に今月期限を迎える53億ドルの預金を持つ。"
+          ],
+          "why_it_matters": "防空支援でも、迎撃範囲、指揮系統、交戦規則が曖昧なら紛争参加の境界は広がる。安全保障とSaudiからの金融支援が併存するため、採決の透明性と任務限定が重要になる。",
+          "implications": "可決・否決だけでなく、派遣兵力、装備、期間、Saudi域外活動の禁止、費用負担を確認すべきだ。Suez運河収入とRed Sea物流への影響もEgyptの財政余力を左右する。",
+          "sources": [
+            { "title": "Egypt delays vote on military support for Saudi Arabia until October 26", "publisher": "Reuters", "url": "https://www.reuters.com/world/middle-east/egypt-delays-vote-military-support-saudi-arabia-until-october-26-2026-10-19/" },
+            { "title": "Sisi says Egypt would defend Saudi territory but rules out attack on Yemen", "publisher": "Reuters", "url": "https://www.reuters.com/world/middle-east/egypts-sisi-says-saudi-defence-role-would-not-include-attack-yemen-2026-10-21/" }
+          ],
+          "tags": ["Egypt", "Saudi Arabia", "議会", "防衛", "Yemen"]
+        },
+        {
+          "id": "israel-crypto-sanctions",
+          "headline": "Israel中銀、暗号資産の制裁回避を批判",
+          "dek": "Netanyahu首相の提案に、経済的孤立と金融安定のリスクを指摘",
+          "importance": 2,
+          "facts": [
+            "IsraelのBenjamin Netanyahu首相は、将来の国際制裁から経済を守る手段として暗号資産の利用を提案した。10月27日の総選挙を前にした発言である。",
+            "Israel中央銀行はこの考えを批判し、経済学者や政敵も、制裁回避を政策化すれば国際金融からの孤立や信認低下を招くと警告した。",
+            "提案は構想段階で、具体的な制度、対象取引、法定通貨との交換、マネーロンダリング対策、中央銀行の承認は示されていない。"
+          ],
+          "why_it_matters": "暗号資産は送金経路を増やせても、輸入決済、銀行間清算、保険、ドル流動性を全面的に代替できない。制裁回避を明示すれば取引相手が二次制裁や規制違反を恐れ、かえって接続を切る可能性がある。",
+          "implications": "選挙公約と実施可能な金融政策を分けて読む必要がある。企業は価格変動だけでなく、取引所の本人確認、銀行口座への換金、会計・税務、相手国の制裁規則まで確認したい。",
+          "sources": [
+            { "title": "Netanyahu rebuked for plan to use crypto to bypass economic sanctions", "publisher": "Reuters", "url": "https://www.reuters.com/business/finance/netanyahu-rebuked-plan-use-crypto-bypass-economic-sanctions-2026-10-25/" }
+          ],
+          "tags": ["Israel", "暗号資産", "経済制裁", "中央銀行", "総選挙"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "開票率はなぜ勝敗の確度を示さないのか",
+    "dek": "Brazilの超接戦を材料に、途中得票、地域差、標本、確定手続きの違いを理解する",
+    "tags": ["選挙", "統計", "開票", "制度"],
+    "reading_minutes": 6,
+    "body_md": "## 14％開票は14％の無作為抽出ではない\n\nBrazil大統領選は、投票区の14％超を集計した時点で両候補の差が0.04ポイントだった。ここで『全体の14％も数えたなら、ほぼ五分五分だ』と考えたくなる。しかし、開票済みの票は全国から無作為に選んだ14％ではない。投票所が閉まり、電子記録を送信し、選挙当局の処理が終わった地域から順に集計へ入る。都市と地方、通信環境、時差、投票所の規模で報告速度は違う。\n\n世論調査は母集団を代表するよう標本を設計し、誤差を推定する。途中開票は最終的に全票を数える全数調査の途中段階であり、早い票が全体を代表する保証はない。開票率は作業の進捗を示すが、勝敗予測の誤差を直接示さない。重要なのは残票がどの地域にあり、その地域で候補者の支持がどれだけ偏っているかである。\n\n## 地理の偏りが数字を反転させる\n\n候補者の支持が全国で均一なら、途中得票率は比較的早く安定する。現実には所得、年齢、産業、宗教、都市化で支持が分かれる。ある候補が強い大都市の大型投票所は集計に時間がかかり、別の候補が強い小規模地域が先に入り得る。逆の順序もある。このため、先行候補が何度も入れ替わっても不正や異常を意味しない。\n\n分析に必要なのは、全国開票率だけでなく州別・自治体別の開票率、過去選挙の得票、残る有権者数である。例えば候補Aが10万票リードしていても、候補Bが70％を取る地域に100万票残っていれば安全な差ではない。逆に数字上は僅差でも、残票の大半が先行候補の強い地域なら逆転可能性は低い。差の大きさを残票の構成と組み合わせる必要がある。\n\n同じ開票率でも票数の意味は異なる。投票区は有権者数が均等とは限らず、小さな区が多数終わっても、人口の多い都市の票が大量に残る場合がある。『投票区の14％』と『有効票の14％』も同じではない。画面上の分母が投票区、集計票、有権者のどれかを確かめる必要がある。\n\n## 速報、当確、確定は別の状態\n\n速報はその時点で受信した票の合計である。当確は報道機関や分析機関が残票と地域特性を使い、逆転の可能性が極めて低いと判断した予測で、法的な決定ではない。確定は選挙当局が集計、異議、再集計など所定の手続きを終えて成立する。三つを混同すると、更新のたびに結論が揺れる。\n\n今回さらに難しいのは、一部投票所の2時間延長と集計停止である。延長対象、すでに閉まった投票所の扱い、交通障害で投票できなかった人への救済が争点になった。票数が100％に達しても、異議申立てや裁判が残れば政治的・法的な確定は別に続く。数字の確定と制度への納得は同時ではない。\n\n不正の主張を評価する際も、結果が動いたという事実だけでは足りない。通常の地域差で説明できるか、投票者数と投票用紙が整合するか、機器ログと監査記録が残るか、当事者が同じ規則で異議を申し立てられるかを確認する。意外な結果と不正の証拠は別物である。\n\n## ビジネスは結果より確定経路を見る\n\n選挙で政策が変わる国では、企業は早くシナリオを決めたくなる。だが、途中開票で為替や株が動いても、契約、投資、調達を一方向に固定するのは危険だ。まず最終集計、次に敗者の承認、法的異議、議会構成、閣僚人事を順に見る。大統領だけで税制や歳出を変えられない場合、議会との組み合わせが政策の実行力を決める。\n\n最も有用な速報の読み方は、数字を無視することでも、数字だけを信じることでもない。観測時刻、集計率、集計済み地域、残票、公式機関、法的な状態を一組で記録することである。『誰が何％か』ではなく、『どの票まで数え、何がまだ残り、いつ何によって確定するか』を問えば、速報を判断材料に変えられる。",
+    "sources": [
+      { "title": "Bolsonaro overtakes Lula in Brazil's presidential runoff vote", "publisher": "Reuters", "url": "https://www.reuters.com/world/americas/brazil-heads-polls-runoff-between-leftist-lula-bolsonaro-jr-2026-10-25/" },
+      { "title": "Brazil runoff election results", "publisher": "Reuters Graphics", "url": "https://www.reuters.com/graphics/BRAZIL-ELECTION/RESULTS/znpngxgarvl/runoff/" },
+      { "title": "Por Dentro das Eleições: totalização e proclamação dos resultados", "publisher": "Tribunal Superior Eleitoral", "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/por-dentro-das-eleicoes-saiba-como-a-justica-eleitoral-totaliza-e-proclama-os-resultados" }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "選挙速報は全国開票率だけでなく、集計済み地域と残票の地理を組み合わせて読む必要がある。",
+      "原油高でも産油国株が下がる局面では、輸出収入より安全保障、保険、物流停止の費用が重く見られている可能性がある。",
+      "今週の中銀会合と大手クラウド決算は、供給インフレとAI投資採算を同時に検証する機会になる。",
+      "AI時代の情報事業では、生成機能より取得権、履歴、検証を伴う独自データの価値が高まり得る。"
+    ],
+    "watchlist": [
+      { "item": "Brazil大統領選", "why": "最終集計、州別残票、敗者の結果承認、法的異議を確認する", "horizon": "10月26日以降" },
+      { "item": "Egypt議会のSaudi支援採決", "why": "可否、兵力・装備・期間・交戦規則・費用負担を確認する", "horizon": "10月26日" },
+      { "item": "Fed会合", "why": "原油高の二次波及、12月方針、金融環境への評価を確認する", "horizon": "10月28日" },
+      { "item": "Israel総選挙", "why": "議席配分、連立可能性、結果承認、Iran・Gaza政策を確認する", "horizon": "10月27日以降" },
+      { "item": "日銀会合・展望レポート", "why": "2027年度物価、原油・為替前提、追加利上げ条件を確認する", "horizon": "10月30日" }
+    ]
+  },
+  "glossary": [
+    { "term": "途中開票", "reading": "とちゅうかいひょう", "definition": "全票の集計が終わる前に公表される得票状況。開票済み地域が無作為標本とは限らないため、開票率だけで最終結果の確度は判断できない。" },
+    { "term": "当確", "reading": "とうかく", "definition": "残票や地域別傾向から報道機関などが逆転困難と判断する予測。選挙当局による法的な結果確定とは異なる。" },
+    { "term": "筋電", "reading": "きんでん", "definition": "筋肉が動くときに生じる微弱な電気信号。映像だけでは分かりにくい力の入れ方を捉え、ロボット学習用データを補える。" },
+    { "term": "独自データ", "reading": "どくじデータ", "definition": "契約、取材、計測、業務履歴などを通じて自社だけが継続的に取得・検証できる情報。公開Web情報より模倣されにくい。" }
+  ]
+}
