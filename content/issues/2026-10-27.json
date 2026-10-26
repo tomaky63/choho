@@ -1,0 +1,480 @@
+{
+  "date": "2026-10-27",
+  "edition": 70,
+  "generated_at": "2026-10-27T08:06:00+09:00",
+  "masthead_note": "選挙結果、株価、制度上の確定を分けて読む。AI投資は売上より資金調達と固定費へ焦点。",
+  "market_snapshot": {
+    "as_of": "10月26日東京・米国市場終値。日米10年金利と原油も26日観測",
+    "items": [
+      {
+        "label": "日経平均",
+        "value": "62,189.65円",
+        "change": "-0.80%",
+        "direction": "down",
+        "note": "3日続落"
+      },
+      {
+        "label": "TOPIX",
+        "value": "3,972.98",
+        "change": "+0.18%",
+        "direction": "up"
+      },
+      {
+        "label": "S&P500",
+        "value": "7,676.77",
+        "change": "+53.09（+0.70%）",
+        "direction": "up"
+      },
+      {
+        "label": "Nasdaq総合",
+        "value": "26,169.38",
+        "change": "+214.04（+0.83%）",
+        "direction": "up"
+      },
+      {
+        "label": "10年JGB利回り",
+        "value": "2.79%",
+        "change": "前日比-0.01pt",
+        "direction": "down"
+      },
+      {
+        "label": "米10年国債利回り",
+        "value": "4.99%",
+        "change": "前日比-0.01pt",
+        "direction": "down"
+      },
+      {
+        "label": "Brent原油",
+        "value": "110.74ドル/バレル",
+        "change": "-0.9%",
+        "direction": "down",
+        "note": "1月限"
+      }
+    ]
+  },
+  "focus_refs": [
+    "brazil-lula-win-market-rout",
+    "anthropic-ipo-filing",
+    "egypt-saudi-defense-approved"
+  ],
+  "executive_summary": [
+    {
+      "text": "ルラ氏が51.8％で再選、Ibovespaは13.9％安。敗者は結果承認を拒否",
+      "ref": "brazil-lula-win-market-rout"
+    },
+    {
+      "text": "AnthropicがIPO申請、上期売上急増も会計上の純損失807億ドル",
+      "ref": "anthropic-ipo-filing"
+    },
+    {
+      "text": "Egypt議会、Saudi防衛支援を3分の2以上で承認。任務内容は未公表",
+      "ref": "egypt-saudi-defense-approved"
+    },
+    {
+      "text": "Meta、AI投資へ最大950億ドルの株式調達。議決権希薄化は限定",
+      "ref": "meta-equity-raise"
+    },
+    {
+      "text": "日経0.80％安、TOPIX0.18％高。大型半導体株と市場全体が分岐",
+      "ref": "japan-index-divergence"
+    },
+    {
+      "text": "Israel総選挙きょう投票、いずれの陣営も61議席への明確な道なし",
+      "ref": "israel-election-day"
+    },
+    {
+      "text": "Oleshky人道停戦は本日開始予定、直前の攻撃主張は独立確認できず",
+      "ref": "oleshky-ceasefire-test"
+    }
+  ],
+  "top_story": {
+    "id": "brazil-lula-win-market-rout",
+    "headline": "ルラ再選、Ibovespa13.9％安",
+    "dek": "得票51.8％で4選。Bolsonaro氏は承認を拒み、株式と通貨が急落",
+    "importance": 3,
+    "facts": [
+      "Brazil選挙当局は10月25日、Luiz Inacio Lula da Silva大統領の再選を確定した。APが公式集計に基づき伝えた得票率はLula氏51.8％、Flavio Bolsonaro上院議員48.2％で、差は約440万票だった。",
+      "Bolsonaro氏は投票時間を2時間延長した司法判断を理由に結果の無効を求めると述べ、敗北を認めなかった。Reutersによると同陣営も南部の豪雨を理由に延長を求めており、専門家は逆転の可能性を低いとみている。",
+      "10月26日のIbovespaは前日比13.9％安と2020年3月以来の下落率となり、取引は10％下落時に30分停止された。Brazil realは対ドルで8％超下落し、長期国債も売られた。",
+      "Lula氏の支持勢力に対し、Bolsonaro氏の自由党と同盟勢力は下院280議席超、上院最大50議席を得る可能性があり、予算・法案・主要人事で議会との調整が必要になる。"
+    ],
+    "why_it_matters": "前号の論点は途中開票の読み方だったが、今回は選挙当局の勝者認定、敗者の承認、法的異議、市場の政策織り込みへ段階が移った。市場急落は選挙結果そのものより、投資家が期待していた財政再建シナリオを短時間で巻き戻した反応であり、実際の政策決定とは区別が必要である。",
+    "implications": "Brazil事業を持つ企業は、real安による現地売上の円換算減と輸出競争力の改善を別々に試算したい。金融市場ではサーキットブレーカーの発動を底打ちの合図とみなさず、新政権の財政方針、議会運営、異議申立ての根拠を順に確認する必要がある。",
+    "follow_up": {
+      "previous": {
+        "date": "2026-10-26",
+        "article_id": "brazil-runoff-live"
+      },
+      "assessment": "mixed",
+      "reassessment": "前号の14％超集計時点の0.04ポイント差は、最終的にLula氏51.8％対Bolsonaro氏48.2％へ拡大した。途中開票を全国の無作為標本とみなせないとの見立ては補強された一方、敗者の承認拒否で制度的な確定過程はなお残る。",
+      "next_check": "選挙裁判所への正式な異議申立てと判断、新政権の財政目標、議会指導部との予算協議を確認する。",
+      "reconsider_if": "選挙当局が集計手続きの重大な瑕疵を認定し、結果の再集計または無効化手続きに入る。"
+    },
+    "sources": [
+      {
+        "title": "Resultados — 2026 2º Turno",
+        "publisher": "Tribunal Superior Eleitoral",
+        "url": "https://resultados.tse.jus.br/oficial/app/index.html"
+      },
+      {
+        "title": "Brazil’s Lula wins historic fourth term, Flavio Bolsonaro refuses to concede",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/world/americas/brazil-heads-polls-runoff-between-leftist-lula-bolsonaro-jr-2026-10-25/"
+      },
+      {
+        "title": "Brazil stocks, real tumble as Lula win shifts investor focus",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/finance/investors-expect-markets-unwind-brazils-lula-reelected-2026-10-26/"
+      }
+    ],
+    "tags": ["Brazil", "大統領選", "Ibovespa", "為替", "財政"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "japan-index-divergence",
+          "headline": "日経0.80％安、TOPIX0.18％高",
+          "dek": "半導体株安の一方、東証プライムは値上がり149銘柄",
+          "importance": 2,
+          "facts": [
+            "10月26日の日経平均は前営業日比0.80％安の62,189.65円と3日続落し、7月30日以来の安値で終えた。TOPIXは0.18％高の3,972.98だった。",
+            "日経平均採用銘柄では149銘柄が上昇し、73銘柄が下落した。Screen Holdingsは4.34％安、Kokusai Electricは4.29％安となり、指数寄与度の大きい半導体関連が日経平均を押し下げた。",
+            "原油高を背景にInpexは4.90％高、三菱商事は4.14％高となった。GMOインターネットグループはサイバー攻撃後の補償負担への懸念から15.65％下落した。"
+          ],
+          "why_it_matters": "日経平均は値がさ株の影響が大きく、市場の多数銘柄が上がっていても下落し得る。AI・半導体株の調整と資源株の上昇が同居したため、一つの指数だけでは日本株全体の方向を読み違える。",
+          "implications": "日本株のリスク管理では日経平均、TOPIX、業種別指数、値上がり銘柄数を併用したい。輸入企業にとっては資源株高が業績改善を意味せず、原油高による原価負担を別に見る必要がある。",
+          "sources": [
+            {
+              "title": "Japan's Nikkei falls for a 3rd day as tech sector weighs, energy shares rise",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/asia-pacific/japans-nikkei-edges-lower-tech-sector-weighs-energy-shares-rise-2026-10-26/"
+            }
+          ],
+          "tags": ["日経平均", "TOPIX", "半導体", "原油"]
+        },
+        {
+          "id": "us-stocks-fed-eve",
+          "headline": "S&P500は0.70％高、Fed前に反発",
+          "dek": "Anthropic申請でAI株に買い、米10年金利は4.99％",
+          "importance": 2,
+          "facts": [
+            "10月26日のS&P500は前日比53.09ポイント、0.70％高の7,676.77、Nasdaq総合は214.04ポイント、0.83％高の26,169.38で終えた。Dowは0.28％高だった。",
+            "Philadelphia半導体指数は2.8％上昇したが、月初来では12.2％安である。Metaは最大950億ドルの株式調達計画を受け1.9％下落した。",
+            "米10年国債利回りは26日観測で4.99％と前日比0.01ポイント低下した。Fedは27～28日にFOMCを開き、Reuters集計では28日の利上げ確率は12.7％だった。"
+          ],
+          "why_it_matters": "一日のAI株反発は、資金調達コストと設備投資採算への懸念が解消したことを意味しない。金利据え置きが予想されても、原油高と価格圧力が続けば12月以降の政策経路が株価評価を左右する。",
+          "implications": "投資家は指数上昇より、今週の大手クラウド決算でAI売上、設備投資、減価償却、営業キャッシュフローが同じ方向に改善しているかを確認したい。",
+          "sources": [
+            {
+              "title": "Equities end higher as Anthropic's IPO filing buoys AI stocks",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/us-stock-futures-edge-up-oil-falls-heading-into-earnings-barrage-2026-10-26/"
+            },
+            {
+              "title": "US 10 Year Treasury Note Yield",
+              "publisher": "Trading Economics",
+              "url": "https://tradingeconomics.com/united-states/government-bond-yield"
+            }
+          ],
+          "tags": ["米国株", "Fed", "米国債", "AI投資"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "anthropic-ipo-filing",
+          "headline": "Anthropic、上期純損失807億ドル",
+          "dek": "IPO申請で売上急増と会計負担を開示、Nasdaq銘柄はANT",
+          "importance": 3,
+          "facts": [
+            "Anthropicは10月26日、米国での新規株式公開に向けた申請書を公開した。上場後のNasdaq銘柄コードはANTを予定し、発行株数と価格帯は未定である。",
+            "2026年上期の純損失は807億ドルだったが、主因は株式転換可能な債券などに伴う営業外の会計項目である。営業損失は6億9,300万ドル、調整後営業利益は16億2,000万ドルだった。",
+            "6月末までの3カ月の売上高は前年同期比1,368％増だった。同社は計算資源とインフラ費用が最大の営業費用であり、AmazonやGoogleなどへの計算契約は6000億ドル超に達すると開示した。"
+          ],
+          "why_it_matters": "純損失、営業損失、調整後利益は測っているものが違う。株式価値に連動する非現金費用を除けば基礎収益は改善しているが、将来の計算資源契約は実際の現金支出と需要の持続性を問う。",
+          "implications": "AI企業の比較では売上成長率だけでなく、推論原価、顧客集中、クラウド契約の最低支払額、株式報酬を同じ尺度で読む必要がある。IPO条件が出るまでは企業価値を確定値として扱えない。",
+          "sources": [
+            {
+              "title": "Anthropic's soaring sales, steep losses put AI frenzy to IPO test",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/legal/transactional/anthropic-opens-books-ais-explosive-growth-staggering-costs-2026-10-26/"
+            }
+          ],
+          "tags": ["Anthropic", "IPO", "AI", "会計", "計算資源"]
+        },
+        {
+          "id": "microsoft-buyouts-ai-costs",
+          "headline": "Microsoft、6万人に希望退職提示",
+          "dek": "世界従業員の4分の1超、AI投資1750億ドルと費用削減を両立",
+          "importance": 2,
+          "facts": [
+            "Microsoftは10月26日、約6万人の従業員を対象に期間限定の希望退職制度を提示した。対象は世界従業員22万3,000人の4分の1超に相当する。",
+            "AI experiences、Copilot、財務、人事、Xbox、Windows＋Devicesなどが対象となり、マーケティング、商用事業、セキュリティは除外されるとReutersが関係者情報を伝えた。",
+            "同社は2026年暦年の設備投資を1750億ドルと見込む。7月にはXbox事業の再編などで4,800人、世界従業員の2.1％を削減すると発表していた。"
+          ],
+          "why_it_matters": "AIへの大型投資が続く一方、既存組織の人件費と事業ポートフォリオには厳しい資本配分が及んでいる。希望退職は強制解雇と同じではないが、対象部門の再設計を示す。",
+          "implications": "法人顧客はAI製品の追加だけでなく、営業・サポート体制や既存製品ロードマップへの影響を確認したい。従業員数の減少をそのままAIによる生産性向上とみなさず、売上と費用の実績で検証すべきだ。",
+          "sources": [
+            {
+              "title": "Microsoft offers buyouts to around 60,000 employees to contain costs",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/technology/microsoft-is-offering-buyouts-around-60000-employees-business-insider-reports-2026-10-26/"
+            }
+          ],
+          "tags": ["Microsoft", "希望退職", "設備投資", "Copilot"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "meta-equity-raise",
+          "headline": "Meta、最大950億ドルを株式調達",
+          "dek": "350億ドルを先行、2027年に無議決権株で最大600億ドル",
+          "importance": 3,
+          "facts": [
+            "Meta Platformsは10月26日、AIインフラ投資のため最大950億ドルを株式で調達する計画を発表した。普通株と転換優先株で約350億ドルを先行調達する。",
+            "2027年第1四半期に無議決権のClass C株が取引を始めた後、市場で最大600億ドルを追加売却する計画だが、時期と条件は未確定である。",
+            "Nvidia、AMD、Broadcomは合計最大50億ドルのClass A株取得に関心を示した。Metaの9月末の現金・市場性証券は824億5,000万ドル、長期債務は809億2,000万ドルだった。"
+          ],
+          "why_it_matters": "広告事業の現金だけでAI投資を賄ってきた企業が株式調達へ移ると、投資リスクの一部を新旧株主が負う。チップ供給者が顧客へ出資する構図は需要の独立性を見えにくくする。",
+          "implications": "株主は調達総額だけでなく、発行価格、Class C株の希薄化、AI事業の自由キャッシュフローを追う必要がある。サプライヤー出資を製品需要の裏付けとせず、第三者顧客の支払い実績で評価したい。",
+          "sources": [
+            {
+              "title": "Meta eyes record $95 billion equity raise to fund AI expansion",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/legal/transactional/meta-launches-35-billion-stock-offering-fund-ai-expansion-2026-10-26/"
+            }
+          ],
+          "tags": ["Meta", "株式調達", "AIインフラ", "希薄化"]
+        },
+        {
+          "id": "gmo-cyber-compensation",
+          "headline": "GMO、FX不正取引の損失補償へ",
+          "dek": "全利用者へ5,000円、対応費用は特別損失計上の見通し",
+          "importance": 2,
+          "facts": [
+            "GMOインターネットグループは、外国為替取引サービスへの不正アクセスで生じた顧客損失を補償し、対象サービスの全利用者へ5,000円を支払うと発表した。",
+            "同社は攻撃者とみられる相手から金銭要求と、応じなければ企業・顧客情報を公開するとの脅迫を受けたと説明した。本人確認後は身分証画像を保管しない運用へ改める。",
+            "Reutersによると、同社は攻撃対応と補償で55億円の特別損失を見込む。10月26日の株価は15.65％下落し、4カ月ぶり安値となった。"
+          ],
+          "why_it_matters": "サイバー事故の費用は復旧費だけでなく、不正取引の補填、顧客見舞金、本人確認データの保管見直し、将来の信用低下へ広がる。金融サービスではクラウド基盤の侵害が顧客資産へ直接波及する。",
+          "implications": "企業は侵害件数だけでなく、補償範囲、保険適用、特別損失、削除可能な本人確認データを確認したい。取引システムではログ保全と顧客ごとの復旧手順を平時に決める必要がある。",
+          "sources": [
+            {
+              "title": "Japanese companies compensate users as cyberattacks buffet economy",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/finance/japan-companies-compensate-users-cyberattacks-buffet-economy-2026-10-26/"
+            }
+          ],
+          "tags": ["GMO", "サイバー攻撃", "FX", "補償", "個人情報"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "israel-election-day",
+          "headline": "Israel総選挙、連立過半数が焦点",
+          "dek": "Netanyahu氏とEisenkot氏が競り、単独陣営の61議席は見通せず",
+          "importance": 3,
+          "facts": [
+            "Israelは10月27日、120議席のKnessetを選ぶ総選挙の投票日を迎えた。2023年10月7日のHamas攻撃後で初の国政選挙である。",
+            "投票は政党名簿への比例代表で行われる。世論調査ではBenjamin Netanyahu首相のLikudとGadi Eisenkot元参謀総長のYasharが競る一方、どちらの陣営にも過半数61議席への明確な道はない。",
+            "争点には戦争の責任、生活費、超正統派への兵役免除、Gaza・Iran政策がある。Arab系政党RaamとJoint Listなど、両陣営に明確に属さない政党が連立形成を左右し得る。"
+          ],
+          "why_it_matters": "最多議席の政党が直ちに政権を得る制度ではなく、選挙後の連立交渉が首相と政策を決める。接戦ならNetanyahu氏が暫定首相として長期間残る可能性もある。",
+          "implications": "中東事業を持つ企業は出口調査だけで政策転換を織り込まず、最終議席、連立合意、国防・財務閣僚を確認したい。IranやGazaを巡る強硬発言は選挙戦と実際の軍事決定を分けて読む必要がある。",
+          "sources": [
+            {
+              "title": "Who are the leading candidates in Israel's election?",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/who-are-leading-candidates-israels-election-2026-10-26/"
+            },
+            {
+              "title": "The latest polls ahead of Israel's October election",
+              "publisher": "Reuters Graphics",
+              "url": "https://www.reuters.com/graphics/ISRAEL-ELECTION/POLLS/lgvdbwrakvo/"
+            }
+          ],
+          "tags": ["Israel", "総選挙", "連立", "Netanyahu"]
+        },
+        {
+          "id": "oleshky-ceasefire-test",
+          "headline": "Oleshky停戦、攻撃主張下で開始へ",
+          "dek": "27日から人道回廊、ロシア側の攻撃件数は独立確認できず",
+          "importance": 2,
+          "facts": [
+            "RussiaとUkraineは、Russia占領下の南部Oleshkyで10月27日から局地停戦を行い、人道支援の搬入と住民避難のための回廊を設けることで合意した。",
+            "Russia国防省は、10月19日以降にUkraineが市街地を砲撃18回、周辺道路をドローンで120回超攻撃したと主張した。Reutersは独立確認できず、Ukraineの即時回答もなかった。",
+            "Ukraineはこれまで、Russia側が支援物資の搬入と住民退出を妨げていると主張してきた。停戦の成否は合意文書より、実際の搬入量、避難人数、違反記録で確認する必要がある。"
+          ],
+          "why_it_matters": "局地停戦は戦争全体の和平ではなく、時間、場所、対象行為を限定した運用合意である。相互非難が直前まで続く場合、監視主体と違反時の連絡経路がなければ支援団体が安全を判断できない。",
+          "implications": "人道停戦を評価する際は開始宣言ではなく、回廊の地図、輸送車列の通過、支援物資の受領、避難者数を追いたい。未確認の攻撃件数を停戦違反の確定事実として扱わないことも重要である。",
+          "sources": [
+            {
+              "title": "Russia says Ukraine has repeatedly struck Oleshky with artillery and drones ahead of local ceasefire",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/europe/russia-says-ukraine-has-repeatedly-struck-oleshky-with-artillery-drones-ahead-2026-10-26/"
+            },
+            {
+              "title": "Russia, Ukraine agree on ceasefire in embattled town, to hold peace talks next month",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/europe/russia-ukraine-agree-ceasefire-embattled-town-hold-peace-talks-next-month-2026-10-23/"
+            }
+          ],
+          "tags": ["Ukraine", "Russia", "停戦", "人道支援"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "egypt-saudi-defense-approved",
+          "headline": "Egypt議会、Saudi防衛支援を承認",
+          "dek": "3分の2以上が賛成、派遣兵力・費用・期間は公表せず",
+          "importance": 3,
+          "facts": [
+            "Egypt議会は10月26日、Saudi Arabiaから要請があった場合にAbdel Fattah al-Sisi大統領が防衛支援のため『必要なあらゆる措置』を取る権限を承認した。議会声明によると3分の2以上が賛成した。",
+            "採決は非公開で、票数は公表されなかった。Saudiからの正式な派兵要請はなく、支援の種類、兵力、期間、費用も示されていない。",
+            "Egypt政府は支援をSaudi領土、国境、主権、聖地の防衛に限り、Yemen攻撃は含めないと説明した。Egyptは2015年のSaudi主導連合で主に海軍を派遣し、約800人の地上部隊も展開した。"
+          ],
+          "why_it_matters": "前号では採決予定だったが、今回は大統領への権限付与まで進んだ。ただし承認は即時派兵ではなく、要請、二国間調整、任務設計という次の条件が残る。",
+          "implications": "Red Sea物流に関わる企業は、Egypt軍の装備と配置、交戦規則、Bab el-Mandebの護衛範囲を確認したい。防御目的という説明が実際の作戦範囲で維持されるかが紛争拡大リスクを左右する。",
+          "follow_up": {
+            "previous": {
+              "date": "2026-10-26",
+              "article_id": "egypt-saudi-defense-vote"
+            },
+            "assessment": "strengthened",
+            "reassessment": "前号時点の採決予定は、3分の2以上の承認へ進んだためEgyptがSaudi防衛へ関与できる制度上の条件は強まった。一方、正式要請と任務の兵力・期間・費用は未公表で、実際の派遣規模はまだ判断できない。",
+            "next_check": "Saudiの正式要請、派遣部隊と装備、指揮系統、交戦規則、費用負担、Yemen域内活動の有無を確認する。",
+            "reconsider_if": "Saudiが要請を見送り、Egypt政府が承認権限を使わない方針を公式に示す。"
+          },
+          "sources": [
+            {
+              "title": "Egypt approves military support for Saudi Arabia after Houthi attacks escalate",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/egypt-approves-military-support-saudi-arabia-after-houthi-attacks-escalate-2026-10-26/"
+            }
+          ],
+          "tags": ["Egypt", "Saudi Arabia", "Yemen", "議会", "防衛"]
+        },
+        {
+          "id": "fomc-october-meeting",
+          "headline": "FOMC、27～28日に政策判断",
+          "dek": "据え置き予想でも、原油と価格転嫁が12月方針を左右",
+          "importance": 2,
+          "facts": [
+            "Federal Reserveの公式日程では、FOMCは10月27～28日に定例会合を開く。政策声明は28日に公表される予定で、今回は経済見通しの公表を伴わない会合である。",
+            "Reutersが10月26日に示したCME FedWatchでは、28日に利上げする確率は12.7％だった。市場の中心予想は政策金利据え置きである。",
+            "Brent原油1月限は26日に0.9％安の1バレル110.74ドルで清算した。米10年国債利回りは4.99％で、原油高による物価圧力とAI投資減速への懸念が併存している。"
+          ],
+          "why_it_matters": "据え置きでも声明のインフレ評価、金融環境、今後の利上げ条件が変われば市場への効果は大きい。供給要因の原油高を機械的に利上げで抑えると景気を傷める一方、賃金やサービス価格への二次波及を放置できない。",
+          "implications": "企業は28日の金利水準だけでなく、12月会合への示唆と期待インフレへの言及を比較したい。為替・借入費用の想定は据え置き一択ではなく、声明が追加利上げ余地を残す場合も含めて作る必要がある。",
+          "sources": [
+            {
+              "title": "Meeting calendars and information",
+              "publisher": "Federal Reserve Board",
+              "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+            },
+            {
+              "title": "Equities end higher as Anthropic's IPO filing buoys AI stocks",
+              "publisher": "Reuters",
+              "url": "https://www.reuters.com/business/us-stock-futures-edge-up-oil-falls-heading-into-earnings-barrage-2026-10-26/"
+            }
+          ],
+          "tags": ["Fed", "FOMC", "金利", "原油", "インフレ"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "サーキットブレーカーはなぜ暴落を止められないのか",
+    "dek": "Brazil市場の取引停止を材料に、価格発見、流動性、再開オークションの役割を理解する",
+    "tags": ["市場構造", "サーキットブレーカー", "流動性", "価格発見"],
+    "reading_minutes": 6,
+    "body_md": "## 取引を止めても価値判断は止まらない\n\nBrazilのIbovespaは10月26日、前営業日比10％安に達した時点で30分間取引を停止し、終値は13.9％安となった。サーキットブレーカーは暴落を食い止める装置に見えるが、狙いは価格を一定水準に固定することではない。注文が一方向へ殺到したときに、参加者へ情報整理と証拠金・資金の確認時間を与え、無秩序な約定を減らす市場運営の仕組みである。\n\nB3の公式ルールでは、Ibovespaが前日終値から10％下がると30分、再開後に15％下がると1時間停止する。20％下落ではB3が停止時間を決める。10％という数字は企業価値の下限ではなく、全市場を一時停止する運用上の閾値だ。選挙結果で財政政策への予想が変われば、停止中も投資家の価値判断、通貨取引、海外ETF、国債市場は動き続ける。\n\n## 価格発見には売り手だけでなく買い手が要る\n\n市場価格は最後の取引だけで決まるのではない。どの価格なら売りたいかという注文と、どの価格なら買いたいかという注文が重なることで成立する。急落時には売り注文が増えるだけでなく、買い手が値段を下げる、注文を取り消す、資金調達を待つという変化が起きる。売買の厚みを流動性という。流動性が薄ければ、同じ売却額でも価格は大きく動く。\n\n取引停止はこの薄さを直接解消しない。30分後に買い手が増えなければ、再開価格は停止前より低くなる。逆に新情報を確認した買い手が注文を出せば、値幅は縮まる。重要なのは停止の有無ではなく、再開時にどれだけ多くの独立した注文が集まり、価格の合意範囲を作れるかである。\n\n売りたい人が多い状態と、実際に安値で大量約定した状態も区別したい。停止中は取引がないため、画面上の最終価格は動かない。しかし売り気配と買い気配の隔たりは広がり、再開想定価格が下がることがある。価格が静止して見えてもリスクが消えたわけではなく、成立待ちの注文へ移っただけである。反対に注文を取り消す参加者が増えると、見かけの売却希望額が減っても流動性は改善しない。取引量、気配値、注文の厚みを一緒に見る理由である。\n\n## 再開オークションが注文を一度集める\n\n連続取引では注文が届くたびに順次約定する。停止後の再開では通常、一定時間注文をため、最も多くの売買を成立させる価格を探すオークションを使う。これにより、通信速度が速い一部参加者だけが再開直後の取引を独占しにくくなり、買いと売りの全体像を反映しやすい。\n\nただしオークションも妥当な価格を保証しない。参加者が同じニュースを悲観的に解釈すれば、均衡価格は大幅安になる。先物、ETF、通貨が現物株より先に動けば、その価格が再開注文の参考になる。サーキットブレーカーは損失を消す機能ではなく、価格発見をいったん連続方式から集合方式へ切り替える時間を作る。\n\n## 企業と投資家は停止後の経路を見る\n\n暴落時に『停止したから安全』『再開したから正常』とは判断できない。確認すべきなのは、停止理由、再開オークションの価格、出来高、売買気配の幅、通貨と国債の動き、翌日の証拠金条件である。現物株が止まっても、為替下落で海外投資家の円・ドル換算損失が広がる場合がある。\n\n企業側では株価急落と資金繰りを分ける必要がある。株価が下がっても直ちに現金が流出するわけではないが、担保価値の低下、増資条件の悪化、取引先の信用枠縮小を通じて後から資金調達へ波及する。投資家にとっても、10％の発動線は投資判断の底値ではない。制度が提供するのは考える時間であって、正しい答えではない。停止中に何が確認され、どの市場が動き、再開後に誰が買い手になったかを見ることが、暴落を構造として読む手掛かりになる。",
+    "sources": [
+      {
+        "title": "B3 informa — Circuit Breaker",
+        "publisher": "B3",
+        "url": "https://www.b3.com.br/pt_br/noticias/b3-informa.htm"
+      },
+      {
+        "title": "Circuit breaker",
+        "publisher": "B3",
+        "url": "https://www.b3.com.br/en_us/news/circuit-breaker.htm"
+      },
+      {
+        "title": "Brazil stocks, real tumble as Lula win shifts investor focus",
+        "publisher": "Reuters",
+        "url": "https://www.reuters.com/business/finance/investors-expect-markets-unwind-brazils-lula-reelected-2026-10-26/"
+      }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "選挙結果は当選者、敗者の承認、法的異議、議会構成、政策実行の順に確度を分けて読む必要がある。",
+      "AI企業の損益では純損失、営業損失、調整後利益、将来の計算契約を混ぜず、現金流出の時期を確認したい。",
+      "株式によるAI投資資金の調達が増えるほど、利用企業の成長期待だけでなく既存株主の希薄化が評価軸になる。",
+      "人道停戦や軍事支援承認は発表を実施とみなさず、搬入量、派遣規模、任務範囲の実績で追うべきである。"
+    ],
+    "watchlist": [
+      {
+        "item": "Brazil大統領選後の確定手続き",
+        "why": "Bolsonaro氏の正式な異議、選挙裁判所の判断、新政権の財政方針を確認する",
+        "horizon": "10月27日以降"
+      },
+      {
+        "item": "Israel総選挙",
+        "why": "投票率、最終議席、連立交渉、首相指名を確認する",
+        "horizon": "10月27日以降"
+      },
+      {
+        "item": "Fed政策声明",
+        "why": "原油、期待インフレ、12月の追加利上げ条件を確認する",
+        "horizon": "10月28日"
+      },
+      {
+        "item": "大手クラウド決算",
+        "why": "AI売上、設備投資、減価償却、営業キャッシュフローを比較する",
+        "horizon": "10月28～29日"
+      },
+      {
+        "item": "日銀会合・展望レポート",
+        "why": "2027年度物価、原油・為替前提、追加利上げ条件を確認する",
+        "horizon": "10月30日"
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "term": "サーキットブレーカー",
+      "reading": "さーきっとぶれーかー",
+      "definition": "株価指数が所定の下落率に達したとき、市場全体の取引を一時停止する制度。価格を保証せず、情報整理と注文形成の時間を作る。"
+    },
+    {
+      "term": "価格発見",
+      "reading": "かかくはっけん",
+      "definition": "多数の買い注文と売り注文を突き合わせ、取引が成立する価格を探る過程。新情報や流動性に応じて継続的に変わる。"
+    },
+    {
+      "term": "転換優先株",
+      "reading": "てんかんゆうせんかぶ",
+      "definition": "配当や残余財産で普通株より優先権を持ち、一定条件で普通株へ転換できる株式。資金調達条件と将来の希薄化を同時に確認する必要がある。"
+    },
+    {
+      "term": "調整後営業利益",
+      "reading": "ちょうせいごえいぎょうりえき",
+      "definition": "企業が一時的・非現金と判断した項目を除いて示す利益指標。除外基準は企業ごとに異なるため、会計基準上の営業利益と併読する。"
+    }
+  ]
+}
