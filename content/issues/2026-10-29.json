@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-29",
+  "edition": 72,
+  "generated_at": "2026-10-29T08:04:10+09:00",
+  "masthead_note": "金利据え置きの裏にある引き締め圧力と、AI投資を支える現金創出力を分けて読む。",
+  "market_snapshot": {
+    "as_of": "10月28日東京・米国市場終値。為替は28日東京15時、日米10年金利と原油は28日観測",
+    "items": [
+      { "label": "日経平均", "value": "63,954.19円", "change": "+685.82円（+1.08%）", "direction": "up", "note": "AI・半導体株が主導" },
+      { "label": "TOPIX", "value": "3,991.71", "change": "-5.66（-0.14%）", "direction": "down", "note": "値下がり銘柄が約7割" },
+      { "label": "S&P500", "value": "7,743.98", "change": "+0.28%", "direction": "up" },
+      { "label": "Nasdaq総合", "value": "26,549.85", "change": "+0.27%", "direction": "up" },
+      { "label": "USD/JPY", "value": "157.82～157.83円", "change": "NY前日終盤比約0.13円の円高", "direction": "down", "note": "28日15時" },
+      { "label": "10年JGB利回り", "value": "2.81%", "change": "前日比+0.025pt", "direction": "up", "note": "28日午前観測" },
+      { "label": "米10年国債利回り", "value": "5.04%", "change": "FOMC後に約+0.05pt", "direction": "up", "note": "28日NY市場" },
+      { "label": "Brent原油", "value": "115.43ドル/バレル", "change": "+1.4%", "direction": "up", "note": "28日13時46分EDT観測" }
+    ]
+  },
+  "focus_refs": ["fed-holds-two-dissenters", "microsoft-azure-cash-flow", "israel-count-deadlock"],
+  "executive_summary": [
+    { "text": "Fedは3.75～4.00％で据え置き。2人は0.25ポイント利上げを主張", "ref": "fed-holds-two-dissenters" },
+    { "text": "Microsoft、Azure売上331.7億ドル。FCFは予想を約100億ドル上回る", "ref": "microsoft-azure-cash-flow" },
+    { "text": "Israel開票48.4％でNetanyahu陣営55、Eisenkot陣営50議席予測", "ref": "israel-count-deadlock" },
+    { "text": "Alphabet、Cloud売上103％増もFCFは90.7億ドルの赤字", "ref": "alphabet-cloud-cash-burn" },
+    { "text": "英国、銀行上乗せ税率を15カ月だけ3％から6％へ引き上げ", "ref": "uk-budget-bank-tax" },
+    { "text": "CXMT、歩留まり20～30％でもHBM3Eの限定生産へ", "ref": "cxmt-hbm3e-low-yield" },
+    { "text": "JioはMumbai上場初日に21％高で寄り付き、終値は27％高", "ref": "jio-ipo-debut" }
+  ],
+  "top_story": {
+    "id": "fed-holds-two-dissenters",
+    "headline": "Fed据え置き、2人は利上げ主張",
+    "dek": "政策金利3.75～4.00％を維持。景気判断を『強い』へ引き上げ",
+    "importance": 3,
+    "facts": [
+      "米連邦公開市場委員会（FOMC）は10月28日、政策金利の誘導目標を3.75～4.00％で維持すると10対2で決めた。",
+      "Lisa Cook理事とCleveland連銀のBeth Hammack総裁は、0.25ポイントの利上げを主張して反対票を投じた。",
+      "声明は経済活動を前回の『堅調』から『強いペース』へ引き上げ、国内支出は底堅く、生産性の伸びは強く、設備投資は活発だと評価した。インフレについては『高止まりしている』との表現を維持した。",
+      "Kevin Warsh議長は2027年の8会合のうち1回、2028年は2回を政策金利の変更を議論しない戦略会合にすると発表した。緊急時の臨時変更は可能である。"
+    ],
+    "why_it_matters": "据え置きは引き締め終了を意味しない。景気判断を強めながら2人が利上げを求めたため、原油高や需要主導の物価圧力が続けば12月会合で再利上げする余地が残る。戦略専用会合の導入は、定例会合の一部が金利変更の場ではなくなるという制度変更でもある。",
+    "implications": "日本企業は米金利据え置きを資金調達環境の改善と即断せず、米10年金利がFOMC後に約5.04％へ上昇した点を確認したい。ドル建て借入やAIインフラ投資では、政策金利だけでなく長期金利と信用スプレッドを資金計画へ反映する必要がある。",
+    "follow_up": {
+      "previous": { "date": "2026-10-28", "article_id": "wall-street-ai-rebound" },
+      "assessment": "strengthened",
+      "reassessment": "前号はAI株反発の一方で米10年金利が4.99％まで上昇したとした。Fedは据え置いたが景気判断を強め、2人が利上げを主張し、10年金利も会見後に約5.04％へ上昇したため、資金調達コスト懸念は残るとの見立てが補強された。",
+      "next_check": "10月29日の9月PCE、12月会合前の雇用・物価指標、Fed高官発言で追加利上げ条件を確認する。",
+      "reconsider_if": "コア物価と需要指標が連続して鈍化し、Fed高官が追加利上げ不要との判断を広く示す。"
+    },
+    "sources": [
+      { "title": "Federal Reserve issues FOMC statement", "publisher": "Federal Reserve Board", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm" },
+      { "title": "Fed's Warsh announces changes in how future FOMC meetings will go", "publisher": "Reuters", "url": "https://www.reuters.com/business/finance/feds-warsh-announces-changes-how-future-fomc-meetings-will-go-2026-10-28/" }
+    ],
+    "tags": ["Fed", "FOMC", "政策金利", "米国債", "インフレ"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "japan-index-chip-divergence",
+          "headline": "日経1.08％高、TOPIXは0.14％安",
+          "dek": "半導体株に買い集中、東証プライムの約7割は下落",
+          "importance": 2,
+          "facts": [
+            "10月28日の日経平均は前日比685.82円、1.08％高の63,954.19円で終えた。TOPIXは5.66ポイント、0.14％安の3,991.71だった。",
+            "東証プライム市場では値下がりが1,096銘柄、値上がりが432銘柄となり、日経平均の上昇と市場全体の騰落が逆方向になった。",
+            "10年国債利回りは28日午前に2.81％と前日比0.025ポイント上昇した。日銀は29～30日に金融政策決定会合を開き、市場では9月利上げ後の据え置きが予想されている。"
+          ],
+          "why_it_matters": "日経平均は値がさの半導体株の影響を強く受けるため、指数上昇が多数銘柄の上昇を意味しない。株価の集中と長期金利上昇が同時に進む局面では、企業ごとの金利感応度と指数寄与度を分けて見る必要がある。",
+          "implications": "日本株の判断では日経平均だけでなくTOPIX、騰落銘柄数、業種別指数を併用したい。日銀会合では政策金利そのものに加え、2027年度物価見通しと原油・為替の前提が12月以降の利上げ時期にどう反映されるかが焦点となる。",
+          "sources": [
+            { "title": "日経平均は続伸、一時6万4000円回復　AI・半導体株が主導", "publisher": "Reuters／Newsweek Japan", "url": "https://www.newsweekjapan.jp/articles/-/338314" },
+            { "title": "JGB Yields Rise as AI Trade Regains Momentum", "publisher": "The Wall Street Journal", "url": "https://www.wsj.com/finance/jgb-yields-rise-as-ai-trade-regains-momentum-1a6b70cd" }
+          ],
+          "tags": ["日経平均", "TOPIX", "半導体", "日銀", "JGB"]
+        },
+        {
+          "id": "wall-street-fed-curve",
+          "headline": "S&P500は0.28％高、長期金利上昇",
+          "dek": "Fed据え置き後も株は小幅高、米金利曲線はスティープ化",
+          "importance": 2,
+          "facts": [
+            "10月28日のS&P500は0.28％高の7,743.98、Nasdaq総合は0.27％高の26,549.85、Dowは0.19％高の52,475.10で終えた。",
+            "FOMC後に米2年国債利回りは約0.038ポイント低下する一方、10年国債利回りは約0.05ポイント上昇して5.04％付近となり、長短金利差が拡大した。",
+            "通常取引終了後、決算を受けMicrosoft株は4％超上昇し、Alphabet株は7％超下落した。"
+          ],
+          "why_it_matters": "株価指数の小幅高は、金利低下やAI投資懸念の解消を示していない。短期金利が下がり長期金利が上がる動きは、当面の政策据え置きと中長期のインフレ・国債需給懸念が同居したことを映す。",
+          "implications": "AI関連株では指数より決算後の企業間格差が重要になる。売上成長だけでなく、設備投資後の現金、借入コスト、将来契約を同じ尺度で比較したい。",
+          "sources": [
+            { "title": "US stock indexes advance after Fed holds rates steady", "publisher": "Reuters／Charles Schwab", "url": "https://www.schwab.wallst.com/schwab/Prospect/research/stocks/news.asp?doc=3200-nL6N46E1B6-4&symbol=MSFT" },
+            { "title": "FOMC holds rates steady, markets rise modestly", "publisher": "Reuters／Yahoo News", "url": "https://malaysia.news.yahoo.com/fomc-holds-rates-steady-markets-182955276.html" }
+          ],
+          "tags": ["S&P500", "Nasdaq", "米国債", "イールドカーブ", "AI株"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "microsoft-azure-cash-flow",
+          "headline": "Azure売上331.7億ドル、48％増",
+          "dek": "MicrosoftのFCFは186億ドル、設備投資は計画を下回る",
+          "importance": 3,
+          "facts": [
+            "Microsoftの2027年度第1四半期売上高は前年同期比19％増の923億ドル、営業利益は21％増の459億ドルだった。",
+            "Azure売上高は48％増の331.7億ドルとなり、Visible Alpha予想の328.4億ドルを上回った。前四半期は294億ドルだった。",
+            "設備投資は前年同期の349億ドルから452億ドルへ増えたが、会社が示していた500億ドルを下回った。Microsoftは第三者からの計算容量の引き渡し遅延を理由に挙げた。",
+            "フリーキャッシュフローは186億ドルで、Visible Alpha予想85.4億ドルを約100億ドル上回った。"
+          ],
+          "why_it_matters": "AI設備投資が売上と現金創出へ結びついているかを同じ四半期で確認できる。設備投資の未実行分は節約ではなく納入遅延であるため、将来四半期へ支出が移る可能性も残る。",
+          "implications": "法人顧客はAzureの成長をAI需要の実績として見られる一方、供給制約が解消した後の設備投資とフリーキャッシュフローの両立を追う必要がある。Microsoftの現金余力は、外部融資への依存が大きいAI企業との差を広げる可能性がある。",
+          "sources": [
+            { "title": "Microsoft Announces First Quarter Results", "publisher": "Microsoft Investor Relations", "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast" },
+            { "title": "Microsoft cloud revenue beats estimates in sign that AI bet is paying off", "publisher": "Reuters／Charles Schwab", "url": "https://www.schwab.wallst.com/schwab/Prospect/research/stocks/news.asp?doc=3200-nL3N46E2B2-7&symbol=MSFT" }
+          ],
+          "tags": ["Microsoft", "Azure", "AI", "設備投資", "フリーキャッシュフロー"]
+        },
+        {
+          "id": "alphabet-cloud-cash-burn",
+          "headline": "Google Cloud103％増、FCFは赤字",
+          "dek": "売上307億ドルへ倍増する一方、フリーキャッシュフローは90.7億ドルのマイナス",
+          "importance": 3,
+          "facts": [
+            "Alphabetの2026年第3四半期売上高は前年同期比25％増の1,275.77億ドル、営業利益は30％増の405.76億ドルだった。",
+            "Google Cloud売上高は103％増の307.09億ドル、同部門の営業利益は35.94億ドルから111.21億ドルへ増えた。TPUシステム販売も増収に寄与した。",
+            "Google Searchなどの売上高は12％増の633.50億ドルだった。全社の純利益は261.70億ドルで前年同期の349.79億ドルを下回った。",
+            "Reutersによるとフリーキャッシュフローは90.7億ドルのマイナスで、前四半期の59億ドルのマイナスから赤字幅が拡大した。"
+          ],
+          "why_it_matters": "クラウド部門の売上と利益が急増しても、全社の設備投資やAI研究費を含む現金収支は別の方向へ動き得る。部門利益とフリーキャッシュフローを混同すると、AI投資を自己資金で続けられる期間を読み違える。",
+          "implications": "Google Cloudの成長はTPUと企業向けAI需要の強さを示すが、投資家は2027年の設備投資増、第三者クラウド費用、ATM増資と社債調達まで合わせて評価したい。",
+          "sources": [
+            { "title": "Alphabet Announces Third Quarter 2026 Results", "publisher": "Alphabet Investor Relations", "url": "https://abc.xyz/investor/" },
+            { "title": "Alphabet shares fall after revenue miss, cash burn worsens", "publisher": "Reuters／WNFL", "url": "https://wnflsports.com/2026/10/28/alphabets-heavy-cloud-spending-drives-bigger-than-expected-cash-burn/" }
+          ],
+          "tags": ["Alphabet", "Google Cloud", "TPU", "AI", "フリーキャッシュフロー"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "jio-ipo-debut",
+          "headline": "Jio、Mumbai上場初日27％高",
+          "dek": "過去最大32億ドルIPO、時価総額1370億ドルでIndia第2位",
+          "importance": 2,
+          "facts": [
+            "Reliance Jio Platformsは10月28日、Mumbai市場へ上場した。公開価格1,119ルピーに対し1,358ルピーで寄り付き、上昇率は約21％だった。",
+            "終値は公開価格比27％高となり、時価総額は約1,370億ドルに達してIndiaで2番目に大きい上場企業となった。",
+            "IPOは32億ドルを調達し、応募額は770億ドル、募集株数の22倍超だった。Reliance Industriesによる20年ぶりのグループ会社上場である。"
+          ],
+          "why_it_matters": "通信・デジタル事業を複合企業から切り出して上場することで、投資家はJioを直接保有し、事業価値を独立して評価できる。上場初日の上昇は需要の強さを示すが、将来利益を保証しない。",
+          "implications": "通信、決済、クラウド、AIを束ねるJioの評価は、Indiaのデジタル基盤企業に対する資本市場の基準となる可能性がある。Reliance本体とJioの資本配分や取引条件も分けて確認したい。",
+          "sources": [{ "title": "Ambani's Jio surges in Mumbai debut after record India IPO", "publisher": "Reuters", "url": "https://www.reuters.com/world/india/ambanis-jio-make-mumbai-trading-debut-after-record-32-billion-india-ipo-2026-10-28/" }],
+          "tags": ["Jio", "IPO", "India", "通信", "AI"]
+        },
+        {
+          "id": "cxmt-hbm3e-low-yield",
+          "headline": "CXMT、低歩留まりでもHBM3E生産",
+          "dek": "使用可能品20～30％、中国のAIメモリー不足が量産判断を促す",
+          "importance": 2,
+          "facts": [
+            "中国DRAM最大手のCXMTは、AI半導体向けHBM3Eの限定生産を2カ月以内に始める計画だとReutersが関係者情報として報じた。CXMTはコメントしていない。",
+            "製造したチップのうち仕様を満たす歩留まりは20～30％で、SK Hynixの約70％を下回ると関係者は説明した。",
+            "CXMTは中国の複数のAI半導体設計会社へ標準版と歩留まり改善版の試作品を送った。性能はSK Hynixの現行HBM3Eより前世代HBM3に近いという。",
+            "米国は2024年12月に先端HBMの対中輸出規制を強化した。中国のAI半導体各社はメモリー費用を理由の一つとして製品価格を20～50％引き上げている。"
+          ],
+          "why_it_matters": "通常なら採算が合いにくい歩留まりでも生産する判断は、中国でHBM不足が価格より深刻な供給制約になっていることを示す。量産開始と国際水準の性能・コスト到達は別問題である。",
+          "implications": "AI半導体の供給力は演算チップだけでなくHBMの歩留まりに制約される。日本の材料・製造装置企業は需要機会と輸出管理・最終用途確認を同時に評価する必要がある。",
+          "sources": [{ "title": "China's CXMT to start advanced AI memory production despite poor yields", "publisher": "Reuters", "url": "https://www.reuters.com/world/china/chinas-cxmt-start-advanced-ai-memory-production-despite-poor-yields-sources-say-2026-10-28/" }],
+          "tags": ["CXMT", "HBM3E", "DRAM", "歩留まり", "輸出管理"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "israel-count-deadlock",
+          "headline": "Israel開票48.4％、55対50議席",
+          "dek": "Netanyahu陣営が先行も過半数61に届かず、Arab系は15議席予測",
+          "importance": 3,
+          "facts": [
+            "Israel総選挙は10月28日時点で48.4％を開票し、現地報道に基づく予測はNetanyahu首相の陣営55議席、Gadi Eisenkot氏の陣営50議席、Arab系政党15議席だった。",
+            "120議席のKnessetで政権樹立に必要な61議席へ、いずれの陣営も届いていない。最終結果は29日までかかる見通しである。",
+            "投票率は77.7％と2022年を約7ポイント上回り、20年超で最高となった。Netanyahu氏とEisenkot氏はいずれも勝利宣言をしていない。",
+            "Netanyahu陣営はArab系政党との連立を否定し、Eisenkot氏も連立をほぼ否定しているため、最終議席が大きく変わらなければ組閣は難航する。"
+          ],
+          "why_it_matters": "前号の出口調査52対50から、途中開票ではNetanyahu陣営が55へ増えたが、過半数にはなお6議席足りない。途中集計の順位と組閣可能性は別であり、小政党の協力条件か再選挙の回避策が必要になる。",
+          "implications": "Israelの安全保障・財政・司法政策は最終集計だけでなく連立協議に左右される。市場や企業は首相の続投を既定路線とせず、組閣要請、Arab系政党の協力方針、再選挙の可能性を追いたい。",
+          "follow_up": {
+            "previous": { "date": "2026-10-28", "article_id": "israel-exit-poll-deadlock" },
+            "assessment": "unchanged",
+            "reassessment": "出口調査のNetanyahu陣営50議席予測は開票48.4％時点で55へ増えたが、過半数61には届かない。両主要陣営がArab系政党との連立を否定する構図も変わらず、組閣膠着との見立てを維持する。",
+            "next_check": "最終議席、Herzog大統領への各党推薦、組閣要請先、小政党とArab系政党の協力条件を確認する。",
+            "reconsider_if": "最終集計でいずれかの陣営が61議席へ到達するか、Arab系政党を含む協力合意が成立する。"
+          },
+          "sources": [{ "title": "Netanyahu, Eisenkot stake rival claims to lead Israel after deadlocked vote", "publisher": "Reuters", "url": "https://www.reuters.com/world/middle-east/netanyahu-eisenkot-stake-rival-claims-lead-israel-after-deadlocked-vote-2026-10-28/" }],
+          "tags": ["Israel", "総選挙", "Netanyahu", "Eisenkot", "連立"]
+        },
+        {
+          "id": "houthi-saudi-refinery-aden",
+          "headline": "Houthis、Saudi製油所攻撃を主張",
+          "dek": "Saudi側は未確認、Aden空港にも退避警告と攻撃報告",
+          "importance": 2,
+          "facts": [
+            "Houthisは10月27日、Saudi最大の製油所をミサイルで攻撃したと主張した。対象施設の処理能力は日量55万バレルだが、Saudi当局は28日時点で攻撃を確認していない。",
+            "Houthisは28日、Yemenの国際承認政府が拠点とするAden国際空港から直ちに退避するよう警告した。Yemen政府軍は同日、同空港が攻撃を受けたと述べた。",
+            "28日のBrent原油は米東部時間13時46分時点で1.4％高の1バレル115.43ドル、WTIは2.9％高の102.82ドルとなった。"
+          ],
+          "why_it_matters": "製油所への攻撃主張と実被害は未確認だが、Saudiの石油インフラとAden空港が同時に標的となれば、エネルギー供給とYemen政府の後方拠点へ圧力がかかる。市場は確認前から供給途絶確率を価格へ反映する。",
+          "implications": "企業はHouthisの主張を被害確定と扱わず、Saudi当局の発表、製油所稼働率、輸出量、空港閉鎖を確認したい。原油調達では現物供給と先物のリスクプレミアムを分けて管理する必要がある。",
+          "sources": [{ "title": "Oil prices rise on Yemen fighting, Saudi refinery attack", "publisher": "Reuters／Euronext", "url": "https://live.euronext.com/en/financial-news/oil-prices-rise-yemen-fighting-saudi-refinery-attack" }],
+          "tags": ["Houthis", "Saudi Arabia", "Yemen", "製油所", "原油"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "uk-budget-bank-tax",
+          "headline": "英国、銀行上乗せ税率を一時6％へ",
+          "dek": "15カ月で15億ポンド、家計・企業のエネルギー支援財源に",
+          "importance": 2,
+          "facts": [
+            "英国政府は10月28日の2026年予算で、銀行利益へのBank Corporation Tax Surchargeを2027年1月から2028年3月末まで3％から6％へ引き上げると発表した。15億ポンドの税収を見込む。",
+            "オンライン市場運営者は2027年10月から出店者が負う付加価値税の徴収責任を負う。政府は約7万事業者が現行制度の課税対象から外れるとしている。",
+            "British Business BankとNational Wealth Fundには約5年間でそれぞれ154億ポンド、50億ポンドを追加し、住宅では政府保証融資47億ポンドと低価格住宅15億ポンドを用意する。"
+          ],
+          "why_it_matters": "前号で予告段階だった204億ポンドの政策金融は配分が確定し、銀行課税も税率と期限が明らかになった。家計支援と投資促進の財源を金融機関へ一時的に負担させる構造である。",
+          "implications": "英国の金融・投資案件では、銀行の税負担増が融資条件へ及ぼす影響と、政策金融の新規供給を同時に見る必要がある。オンライン市場では2027年10月までに出店者の税務情報とVAT徴収システムの再設計が必要になる。",
+          "sources": [
+            { "title": "Budget 2026: Breathing space for today, hope for the future", "publisher": "HM Treasury", "url": "https://www.gov.uk/government/news/budget-2026-breathing-space-for-today-hope-for-the-future" },
+            { "title": "Budget 2026 document", "publisher": "HM Treasury", "url": "https://www.gov.uk/government/publications/budget-2026-document" }
+          ],
+          "tags": ["英国", "予算", "銀行課税", "政策金融", "VAT"]
+        },
+        {
+          "id": "uk-data-centre-covenant",
+          "headline": "英国、AI計算容量6GWを2030年目標",
+          "dek": "Data Centre Covenantで送電網・自家発電を優先、地域還元を条件化",
+          "importance": 2,
+          "facts": [
+            "英国政府は10月28日、2030年までにAIデータセンター容量6GWが必要との推計を示し、Data Centre Covenantを公表した。",
+            "戦略的データセンターが雇用創出、技能育成、地域社会への投資、水資源保護などの基準を満たす場合、政府は送電網接続と許認可の迅速化を支援する。",
+            "送電網制約が残る地域では、必要に応じて敷地内発電を認める方針を示した。参加企業には開発前の地域協議と便益の公表を求める。"
+          ],
+          "why_it_matters": "計算資源の確保を国の技術主権と位置づける一方、電力・水・地域負担を無条件に受け入れない交換条件を制度化した。設備容量の目標と実際の稼働・AI売上は別であり、接続と許認可がボトルネックとなる。",
+          "implications": "データセンター事業者は電力容量だけでなく、雇用、水使用、地域投資を事業計画へ組み込む必要がある。日本でも優先接続と地域便益を結びつける政策設計の参考になり得る。",
+          "sources": [{ "title": "The Data Centre Covenant", "publisher": "UK Government", "url": "https://www.gov.uk/government/publications/data-centre-covenant/the-data-centre-covenant" }],
+          "tags": ["英国", "データセンター", "AI", "送電網", "水資源"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "フリーキャッシュフローはなぜAI投資の耐久力を分けるのか",
+    "dek": "MicrosoftとAlphabetの決算を材料に、利益、設備投資、借入余力をつなげて読む",
+    "tags": ["フリーキャッシュフロー", "AI投資", "設備投資", "クラウド"],
+    "reading_minutes": 6,
+    "body_md": "## 売上成長だけでは投資の持久力が見えない\n\n10月28日の決算では、MicrosoftのAzure売上が48％増、AlphabetのGoogle Cloud売上が103％増となった。どちらもAI計算需要の強さを示す。しかし、同じ四半期のフリーキャッシュフロー（FCF）はMicrosoftが186億ドルの黒字、Alphabetは90.7億ドルの赤字だった。成長率だけを比べるとAlphabetが上だが、投資を自社の現金で続ける余力では逆の像が見える。\n\nFCFは一般に、事業から得た現金から設備投資を差し引いた残りを指す。会計上の純利益には、現金が動かない減価償却や評価損益、支払時期がずれる費用が含まれる。FCFは万能ではないが、データセンター、半導体、送電設備へ現金を投じた後に、配当、買収、借入返済へ回せる資金がどれだけ残るかを確かめる入口になる。\n\n## 設備投資は一度払って終わりではない\n\nAIインフラではGPUやサーバーの購入だけでなく、建物、電力契約、冷却、ネットワーク、保守が必要になる。設備は数年かけて減価償却されるため、購入時の現金流出と損益計算書の費用計上時期は一致しない。現金は先に出ても、利益への負担は後から分割して現れる。\n\nMicrosoftの今四半期の設備投資は452億ドルで、会社が示していた500億ドルを下回った。ただし理由は第三者からの計算容量の引き渡し遅延であり、需要消滅による削減とは限らない。今期のFCFが強くても、遅れた支出が次の四半期へ移れば現金余力は再び縮む。単一四半期の改善を恒久的な構造変化とみなさず、納入時期と将来契約を追う必要がある。\n\n## 部門利益と全社の現金は違う\n\nAlphabetではGoogle Cloudの営業利益が前年同期35.94億ドルから111.21億ドルへ増えた。クラウド単体の採算は大きく改善している。一方、全社FCFは赤字だった。AI研究、他部門の投資、運転資金、設備投資など、部門利益の外側で現金が動くためである。\n\nここから『Google Cloudが赤字』と結論づけるのは誤りである。反対に、部門利益が増えたから全社のAI投資が自己資金で完結しているとも言えない。部門の売上・営業利益、全社の営業キャッシュフロー、設備投資、FCFを階層別に読む必要がある。ATM増資や社債発行が増えているなら、成長投資の一部を株主や債権者が支えていることになる。\n\n## 借りられることと返せることを分ける\n\nFCFが赤字でも、現金残高が厚く、信用力が高ければ直ちに資金不足にはならない。社債、株式、リース、プロジェクト融資を使って投資を続けられる。ただし金利が高いほど、将来のAI売上が利払いと元本返済を上回る必要がある。資金調達できた事実は、投資採算が確定したことを意味しない。\n\n見るべき順序は、第一にクラウドやAI製品の実売上、第二に粗利と営業利益、第三に営業キャッシュフロー、第四に設備投資とFCF、第五に借入・増資・リースの増減である。さらに契約済み設備の最低支払額や納入遅延を加えると、現在の現金と将来の義務をつなげられる。\n\n## 四半期ごとの問いを固定する\n\nAI投資を評価する際は『設備投資はいくらか』だけで終わらせず、その投資がどの売上を生み、現金化まで何四半期かかり、外部資金へどれだけ依存したかを同じ表で追いたい。Microsoftの今期はAzure成長とFCFが同時に強かったが、支出の遅延が残る。AlphabetはCloudの利益が急増したが、全社FCFの赤字が拡大した。どちらも一つの数字で勝敗を決められない。\n\n耐久力がある企業とは、設備投資額が最大の企業ではない。需要が想定を下回っても現金を確保し、借換え条件が悪化しても投資速度を調整できる企業である。次の決算では、売上成長率よりも、設備の稼働、現金回収、外部調達、将来支払義務が同じ方向へ改善しているかを確かめることが重要になる。",
+    "sources": [
+      { "title": "Microsoft Announces First Quarter Results", "publisher": "Microsoft Investor Relations", "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast" },
+      { "title": "Alphabet Announces Third Quarter 2026 Results", "publisher": "Alphabet Investor Relations", "url": "https://abc.xyz/investor/" },
+      { "title": "Microsoft cloud revenue beats estimates in sign that AI bet is paying off", "publisher": "Reuters／Charles Schwab", "url": "https://www.schwab.wallst.com/schwab/Prospect/research/stocks/news.asp?doc=3200-nL3N46E2B2-7&symbol=MSFT" },
+      { "title": "Alphabet shares fall after revenue miss, cash burn worsens", "publisher": "Reuters／WNFL", "url": "https://wnflsports.com/2026/10/28/alphabets-heavy-cloud-spending-drives-bigger-than-expected-cash-burn/" }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "Fedの据え置きと長期金利上昇は両立する。企業の資金計画では政策金利、国債利回り、信用スプレッドを分けて見る必要がある。",
+      "AI投資の評価はクラウド売上だけでなく、部門利益、設備投資、FCF、外部調達、将来支払義務を同じ時間軸で比較したい。",
+      "途中開票や上場初日の価格は確定後の制度・業績を保証しない。Israelは組閣、Jioは独立上場後の収益と資本配分が次の確認点になる。",
+      "データセンターの優先接続は地域便益と対になり始めた。電力・水・雇用を含む許認可設計が投資速度を左右する。"
+    ],
+    "watchlist": [
+      { "item": "米9月PCE・GDP速報", "why": "Fedの12月利上げ条件と需要主導インフレを確認する", "horizon": "10月29日" },
+      { "item": "日銀会合・展望レポート", "why": "2027年度物価、原油・為替前提、次回利上げ条件を確認する", "horizon": "10月30日" },
+      { "item": "Amazon決算", "why": "AWS成長、設備投資、FCFをMicrosoft・Alphabetと比較する", "horizon": "10月29日" },
+      { "item": "Israel総選挙の最終集計", "why": "最終議席、組閣要請、小政党の協力条件を確認する", "horizon": "10月29日以降" },
+      { "item": "Oleshky支援回廊", "why": "搬入量、退避人数、違反記録を確認する", "horizon": "11月1日まで" }
+    ]
+  },
+  "glossary": [
+    { "term": "フリーキャッシュフロー", "reading": "フリーキャッシュフロー", "definition": "事業で得た現金から設備投資を差し引いた残り。配当、買収、返済などへ回せる余力の目安だが、リースや将来契約も併せて見る必要がある。" },
+    { "term": "歩留まり", "reading": "ぶどまり", "definition": "製造した製品のうち仕様を満たす良品の割合。半導体では歩留まりが低いほど廃棄・再加工が増え、1個当たりの製造コストが上がる。" },
+    { "term": "イールドカーブ", "reading": "イールドカーブ", "definition": "期間の異なる債券利回りを結んだ曲線。短期と長期の金利差から、政策金利、景気、インフレ、国債需給への市場の見方を読む。" },
+    { "term": "Data Centre Covenant", "reading": "データセンター・カヴナント", "definition": "英国政府が示したデータセンター開発の交換条件。地域雇用や水資源保護などを求める代わりに、送電網接続や許認可の迅速化を支援する。" }
+  ]
+}
