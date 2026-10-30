@@ -1,0 +1,340 @@
+{
+  "date": "2026-10-31",
+  "edition": 74,
+  "generated_at": "2026-10-31T07:59:48+09:00",
+  "masthead_note": "据え置きでも上がった物価の重心。金利、AI、原油を『次の確認点』まで読む。",
+  "market_snapshot": {
+    "as_of": "日経平均・TOPIXは10月30日東京市場終値、USD/JPYは10月30日米国市場午後、米国株・米10年債・原油は10月30日米国市場終値",
+    "items": [
+      { "label": "日経平均", "value": "63,290.11円", "change": "-1,369.36円（-2.12%）", "direction": "down" },
+      { "label": "TOPIX", "value": "3,965.07", "change": "-38.21（-0.95%）", "direction": "down" },
+      { "label": "USD/JPY", "value": "157.51円", "change": "円は対ドルで0.11%高", "direction": "down", "note": "10月30日米国市場午後" },
+      { "label": "S&P500", "value": "7,580.07", "change": "-1.82%", "direction": "down" },
+      { "label": "Nasdaq総合", "value": "25,437", "change": "-2.86%", "direction": "down" },
+      { "label": "米10年国債利回り", "value": "4.931%", "change": "前日比-0.058pt", "direction": "down" },
+      { "label": "WTI原油", "value": "104.12ドル/バレル", "change": "6カ月ぶり高値圏", "direction": "up" },
+      { "label": "Brent原油", "value": "117.63ドル/バレル", "change": "6カ月ぶり高値圏", "direction": "up" }
+    ]
+  },
+  "focus_refs": [
+    "boj-holds-inflation-up",
+    "binance-hot-wallet-breach",
+    "hormuz-tanker-attacks"
+  ],
+  "executive_summary": [
+    { "text": "日銀は1.25％で据え置き、2027年度コアCPI予測を2.6％へ上方修正", "ref": "boj-holds-inflation-up" },
+    { "text": "Binanceのホットウォレットから約63億ドル流出、約30億ドルを凍結", "ref": "binance-hot-wallet-breach" },
+    { "text": "Hormuz海峡でタンカー被弾・火災、Brentは117.63ドル", "ref": "hormuz-tanker-attacks" },
+    { "text": "ToyotaとWaymo、2027年に国内製bZ4Xのレベル4初期運行", "ref": "toyota-waymo-bz4x" },
+    { "text": "GPT-Rosalind-6、承認制で生命科学研究向けに提供開始", "ref": "gpt-rosalind-6" },
+    { "text": "Oleshkyへ物資到着、25台のバスと9台の救急車で住民退避", "ref": "oleshky-aid-evacuation" },
+    { "text": "日銀、ETF売却を2027年1月から簿価年8,600億円へ増額", "ref": "boj-etf-sales-pace" }
+  ],
+  "top_story": {
+    "id": "boj-holds-inflation-up",
+    "headline": "日銀1.25％維持、27年度物価2.6％",
+    "dek": "8対1で据え置き。基調インフレは2％整合、物価リスクは上方へ",
+    "importance": 3,
+    "facts": [
+      "日銀は10月30日の金融政策決定会合で、無担保コール翌日物金利を1.25％程度に誘導する方針を8対1で維持した。高田創委員は1.5％への引き上げを提案したが否決された。",
+      "10月展望レポートの政策委員見通し中央値は、実質GDPを2026年度0.7％、2027年度0.7％、2028年度0.8％とした。2027年度は前回の0.8％から0.1ポイント下方修正した。",
+      "生鮮食品を除くコアCPIの中央値は2026年度2.5％、2027年度2.6％、2028年度2.0％。2027年度は前回の2.4％から0.2ポイント上方修正され、物価リスクは上方に偏ると評価した。",
+      "日銀は基調的なCPI上昇率が2％の物価安定目標と概ね整合する水準にあると明記した。一方、見通しは国会審議中の食料品消費税減税を織り込まず、対象品目すべてに適用すれば2027年度コアCPIを約1.3ポイント押し下げるとの試算を示した。"
+    ],
+    "why_it_matters": "政策金利は動かなかったが、判断の土台は前回より引き締め寄りになった。基調インフレを目標と整合的と認定し、翌年度の物価予測を上げ、反対票が利上げ方向から出たためである。ただし、原油前提と未決の消費税措置が予測を大きく動かし得る。単に『据え置き』だけを見ると次回以降の政策反応を見誤る。",
+    "implications": "借入企業は12月利上げを確定扱いせず、短期金利が0.25ポイント上がる場合と、原油高で売上原価が上がる場合を分けて資金計画に置きたい。家計・小売は食料品減税の成立有無で見かけのCPIが大きく変わるため、賃金とサービス価格を含む基調指標も併読する必要がある。次の焦点は11月10日の意見要旨、春闘方針、原油・為替、12月会合である。",
+    "follow_up": {
+      "previous": { "date": "2026-10-29", "article_id": "japan-index-chip-divergence" },
+      "assessment": "strengthened",
+      "reassessment": "前号は2027年度物価と原油・為替前提を次回利上げ時期の焦点とした。実際に2027年度コアCPIは2.4％から2.6％へ上がり、基調インフレも2％整合とされたため、追加利上げ余地が残るとの見立ては補強された。ただし食料品減税は未反映で、表面CPIの経路は政策次第で大きく変わる。",
+      "next_check": "11月10日の意見要旨で利上げ条件を確認し、原油・円相場、サービス価格、2027年春闘要求を12月会合まで追う。",
+      "reconsider_if": "原油が想定より速く下落し、サービス価格と賃金の伸びが鈍化する、または消費税減税後も基調指標が2％を明確に下回る。"
+    },
+    "sources": [
+      { "title": "Statement on Monetary Policy", "publisher": "Bank of Japan", "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf" },
+      { "title": "Outlook for Economic Activity and Prices (October 2026)", "publisher": "Bank of Japan", "url": "https://www.boj.or.jp/en/mopo/outlook/gor2610a.pdf" }
+    ],
+    "tags": ["日銀", "金融政策", "CPI", "利上げ", "消費税"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "tokyo-stocks-boj-day",
+          "headline": "日経2.12％安、TOPIX0.95％安",
+          "dek": "値がさ株の下げが指数を増幅、日銀決定後も全面高には戻らず",
+          "importance": 2,
+          "facts": [
+            "10月30日の日経平均は前日比1,369.36円、2.12％安の63,290.11円で終了した。日中安値は62,711.42円、高値は64,589.04円だった。",
+            "TOPIXは38.21ポイント、0.95％安の3,965.07。日経平均の下落率はTOPIXの2倍を超え、値がさ株の影響が相対的に大きかった。",
+            "日経平均採用225銘柄のうち上昇105、下落120。前号の東京市場では日経平均が1.10％高、TOPIXが0.29％高だったため、一日で方向が反転した。"
+          ],
+          "why_it_matters": "日銀据え置きと株安が同日に起きても、金融政策だけを原因と断定できない。日経平均は少数の値がさ銘柄に左右され、AI投資への警戒や個別決算の影響を強く受ける。TOPIXとの下落率の差は、日本株全体の需要より指数構成の偏りを示す材料である。",
+          "implications": "週明けの判断では日経平均の反発幅だけでなく、TOPIX、騰落銘柄数、銀行・半導体・輸入型企業の業種別反応を比べたい。金利上昇観測が銀行に追い風でも、原油高と円安は運輸・小売の利益を同時に圧迫し得るため、指数一本で日本企業を括らないことが重要になる。",
+          "sources": [
+            { "title": "日次サマリー 2026年10月30日", "publisher": "日本経済新聞社 日経平均プロフィル", "url": "https://indexes.nikkei.co.jp/nkave/archives/summary?dt=10262026&idx=nk225" },
+            { "title": "Stock Price Index - Real Time Values", "publisher": "Japan Exchange Group", "url": "https://www.jpx.co.jp/english/markets/indices/realvalues/" }
+          ],
+          "tags": ["日経平均", "TOPIX", "日本株", "市場の広がり"]
+        },
+        {
+          "id": "wall-street-ai-oil-selloff",
+          "headline": "Nasdaq2.86％安、米10年債4.931％",
+          "dek": "AI投資採算への警戒で半導体指数7％安、Hormuz緊張で原油は上昇",
+          "importance": 2,
+          "facts": [
+            "10月30日のS&P500は1.82％安の7,580.07、Nasdaq総合は2.86％安の約25,437、Dow平均は1.09％安の51,770.31で終了した。",
+            "Intelは利益見通しと現金流出への懸念で28.6％下落し、フィラデルフィア半導体指数は7％超下げた。AmazonとAlphabetも下落し、AI設備投資の回収が改めて問われた。",
+            "安全資産需要で米10年国債利回りは前日比5.8ベーシスポイント低い4.931％へ低下した。一方、Hormuz海峡のタンカー攻撃を受け、WTIは104.12ドル、Brentは117.63ドルへ上昇した。"
+          ],
+          "why_it_matters": "株安、債券高、原油高が同時に進んだ。AI投資の採算懸念は成長株の割引率ではなく将来キャッシュフローへの疑問を強め、地政学的な原油高は物価を通じて金利低下の余地を狭める。『株が下がれば金利も下がって支える』という通常の調整が、エネルギー供給ショックで弱くなる局面である。",
+          "implications": "AI関連企業の評価では売上成長と設備投資、現金流出を同じ期間で比べたい。輸送・化学・小売は米金利低下だけで資金環境の改善を見込まず、原油が100ドル超で続く場合の粗利を試算する必要がある。短期の避難先となった国債も、原油高が物価へ波及すれば反転し得る。",
+          "sources": [
+            { "title": "Stocks fall on AI cash burn worries while bonds rally with oil", "publisher": "Reuters", "url": "https://www.reuters.com/legal/transactional/global-markets-global-markets-2026-10-30/" },
+            { "title": "How major US stock indexes fared Friday 10/30/2026", "publisher": "Associated Press", "url": "https://apnews.com/article/a01d3551e794fed1a0c317c20bc3f0a2" }
+          ],
+          "tags": ["米国株", "Nasdaq", "AI投資", "米国債", "原油"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "gpt-rosalind-6",
+          "headline": "GPT-Rosalind-6、承認制で提供",
+          "dek": "生命科学の多段研究向け。生物化学能力はHigh、CyberはCritical評価",
+          "importance": 2,
+          "facts": [
+            "OpenAIは10月30日、生命科学研究向けGPT-Rosalind-6 Researchを、審査を通過した研究機関・企業・政府組織の承認ユーザーにWork、Codex、APIで順次提供すると発表した。Chatタブでは利用できない。",
+            "モデルはGPT-6 Astraと同じ重みを使い、追加学習は行っていない。一般提供版より一部のデュアルユース生物学質問への拒否を減らす一方、生物兵器化を助ける依頼は拒否する設計だと説明した。",
+            "安全評価では生物・化学領域をHigh、サイバーセキュリティをCritical、AI自己改善をHigh未満と扱う。4つのCritical生物評価はいずれも目安の閾値に到達しなかった。",
+            "組織は用途、ガバナンス、本人確認、最小権限、内部者リスク対策を審査され、実験・論文・重要判断に使う前に有資格者の人間レビューを求められる。"
+          ],
+          "why_it_matters": "同じ基盤モデルでも、用途別の拒否境界とアクセス制御を変えることで、研究価値と悪用リスクを分けて管理する試みである。性能向上だけでなく、誰がどの環境で使い、出力を誰が検証するかが製品設計の一部になった。一般公開モデルのベンチマークだけでは、この運用上の安全性を評価できない。",
+          "implications": "製薬・研究機関はモデル採用を『利用可能か』で終えず、承認範囲、データ保持、監査記録、人間レビュー、API利用可否を研究フローごとに確認したい。高能力認定は危険性の確定ではなく評価枠上の管理区分であり、実験結果の再現性や専門家による検証を置き換えない。",
+          "sources": [
+            { "title": "GPT-Rosalind-6 System Card Addendum", "publisher": "OpenAI Deployment Safety Hub", "url": "https://deploymentsafety.openai.com/gpt-rosalind-6" },
+            { "title": "Model Release Notes", "publisher": "OpenAI Help Center", "url": "https://help.openai.com/en/articles/9624314-model-release-notes" }
+          ],
+          "tags": ["OpenAI", "生命科学", "AI安全", "アクセス制御", "デュアルユース"]
+        },
+        {
+          "id": "toyota-waymo-bz4x",
+          "headline": "Toyota・Waymo、27年に国内運行",
+          "dek": "高岡工場でbZ4Xと自動運転機器を一体生産、英国などへ順次展開",
+          "importance": 2,
+          "facts": [
+            "ToyotaとWaymoは10月30日、Waymoのレベル4自動運転システムを搭載したToyota bZ4Xの試験・検証を含む初期運行を、2027年に日本で始めると発表した。",
+            "車両はToyotaの高岡工場で生産し、ベース車両の組み立てからWaymoの自動運転用ハードウェア搭載まで同工場で行う。国内生産の量産車を使う完全自動運転タクシーを目指す。",
+            "日本で経験を積んだ後、英国をはじめWaymoがサービスを展開する市場へ順次導入する。初期台数、国内の運行地域、商用開始日は公表していない。",
+            "両社は個人保有車への技術展開も検討し、Woven by ToyotaとWaymoの運行データを道路安全に生かす追加施策を探る。"
+          ],
+          "why_it_matters": "自動運転の競争軸が、単発の実証から量産・組み付け・保守を含む供給体制へ移る。車両とセンサーを同じ工場で統合すれば品質管理を標準化しやすいが、レベル4は運行条件が限定されるため、製造開始と広範な無人運行は別の段階である。",
+          "implications": "部品・保険・運行事業者は台数発表より、運行設計領域、遠隔支援、事故責任、自治体許認可、整備拠点を確認したい。日本での右ハンドル運用が英国展開の基盤になる一方、都市ごとの道路環境と規制差が展開速度を左右する。",
+          "sources": [
+            { "title": "トヨタ自動車とWaymo、自動運転分野における協業を拡大", "publisher": "Toyota Motor Corporation", "url": "https://global.toyota/jp/newsroom/corporate/44960910.html" },
+            { "title": "Toyota and Waymo Advance Autonomous Driving Collaboration", "publisher": "Waymo", "url": "https://waymo.com/blog/2026/10/toyota-bz4x-partnership/" }
+          ],
+          "tags": ["Toyota", "Waymo", "自動運転", "レベル4", "bZ4X"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "binance-hot-wallet-breach",
+          "headline": "Binance、約63億ドル流出",
+          "dek": "ホットウォレット侵害、約30億ドル凍結。出金再開と残高証明が次の焦点",
+          "importance": 3,
+          "facts": [
+            "Binanceは10月29日20時05分（UTC）ごろホットウォレットが侵害され、約63億ドル相当の暗号資産が流出したと発表した。調査初期には侵害された端末が関係した可能性を示したが、追加の侵入口も見つかり、秘密鍵流出の証拠はないとしている。",
+            "同社は法執行機関、ブロックチェーン分析会社、発行体などと協力し、約30億ドルをオンチェーンで凍結した。出金を一時停止し、入金と影響を受けていないサービスは継続した。",
+            "SAFUと自己資金で損失を負担すると表明し、63.4億ドル超を用意した。このうち50億ドルは流出したものと同じトークンで、影響額の約80％を補ったとしている。",
+            "出金は安全確認後に段階再開し、準備金証明の初回スナップショットを12時間以内に取得、11月2日までに結果を公表する計画で、技術的な事後報告も予定する。"
+          ],
+          "why_it_matters": "暗号資産の価格だけでなく、中央集権型取引所の運用リスクが顕在化した。秘密鍵が漏れていなくても、承認・署名周辺のインフラが侵害されれば巨額移転は起こり得る。凍結額は回収済み額と同じではなく、会社の補填表明も実際の資産裏付けと出金再開で検証される必要がある。",
+          "implications": "利用企業・投資家は残高画面だけでなく、資産の保管主体、出金経路、取引所への集中額、代替口座を確認したい。次の判定材料は段階出金が予定どおり進むか、11月2日の準備金証明が顧客負債と資産を同時に示すか、凍結資産が法的に回収できるか、事後報告が承認経路を説明するかである。",
+          "sources": [
+            { "title": "Security Incident Update #2 (2026-10-30)", "publisher": "Binance", "url": "https://www.binance.com/en/support/announcement/detail/d3306d9dca5243548c813b605e1d1751" },
+            { "title": "FSRA Statement Regarding Security Incident Involving Binance", "publisher": "ADGM Financial Services Regulatory Authority", "url": "https://www.adgm.com/media/announcements/fsra-statement-regarding-security-incident-involving-binance" }
+          ],
+          "tags": ["Binance", "サイバーセキュリティ", "暗号資産", "準備金証明", "SAFU"]
+        },
+        {
+          "id": "belden-data-center-fiber",
+          "headline": "Belden、DC向け光部品1億ドル契約",
+          "dek": "2027年供給で合意、データセンター事業は翌年50％超成長を見込む",
+          "importance": 1,
+          "facts": [
+            "ネットワーク機器のBeldenは10月29日、米国の大手データセンター顧客へ2027年に1億ドル分の光ファイバー・アセンブリーを供給する契約を結んだと発表した。顧客名は公表していない。",
+            "2026年7～9月期売上高は前年同期比38％増の9.66億ドル、買収影響などを除く有機成長は11％だった。受注は46％増の10.17億ドル、受注売上比率は1.05倍。",
+            "Ruckus買収に伴う非現金費用を含むGAAP純損益は1,100万ドルの赤字だった一方、調整後EPSは15％増の2.26ドルだった。",
+            "会社は今回の契約を踏まえ、データセンター事業の2027年成長率が50％を超えると見込む。これは会社予想であり、供給実績ではない。"
+          ],
+          "why_it_matters": "AI設備投資はGPUだけでなく、ラック間を結ぶ光配線、スイッチ、電力、冷却へ波及する。契約額が開示されたことで需要の一部を数量化できるが、売上成長と利益成長は同じではない。買収費用や銅価格、顧客集中を除いて採算を見る必要がある。",
+          "implications": "AIインフラの周辺企業を見る際は、受注額、納入年、受注売上比率、顧客集中、GAAP利益を分けたい。2027年の50％超成長は予測なので、四半期ごとの納入、粗利、運転資金、Ruckus統合費用が契約を現金収入へ変えられるかが次の確認点になる。",
+          "sources": [
+            { "title": "Belden Reports Record Third Quarter 2026 Results and Announces $100 Million Data Center Agreement for 2027", "publisher": "Belden", "url": "https://investor.belden.com/news/news-details/2026/Belden-Reports-Record-Third-Quarter-2026-Results-and-Announces-100-Million-Data-Center-Agreement-for-2027/" }
+          ],
+          "tags": ["Belden", "データセンター", "光ファイバー", "AIインフラ", "受注"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "hormuz-tanker-attacks",
+          "headline": "Hormuz海峡でタンカー被弾・火災",
+          "dek": "機雷・飛翔体の複数報告、同一事案か未確認。原油は6カ月ぶり高値圏",
+          "importance": 3,
+          "facts": [
+            "英国海運貿易オペレーションは10月30日、Hormuz海峡を出る原油タンカーが不明な飛翔体を受けたと報告した。別のPanama船籍Louise 1は前日に小型艇から付着型機雷を取り付けられ、機関室で火災が発生したと海事関係者が説明した。",
+            "Louise 1の乗員は無事で、環境影響は報告されず、火災鎮火後に次の寄港地へ航行した。攻撃主体は確認されていない。",
+            "Iran革命防衛隊は4隻が無許可航路を通って機雷に触れ、うち1隻は200万バレル超を積んでいたと主張したが、ReutersとAPは独立確認できず、英国機関の報告と同じ船かも不明である。",
+            "報道後、WTIは1バレル104.12ドル、Brentは117.63ドルへ上昇し、いずれも6カ月ぶり高値圏で取引を終えた。"
+          ],
+          "why_it_matters": "Hormuz海峡は主要な原油輸送路で、低コストの機雷や小型艇でも保険料、航路、輸送日数を通じて世界の調達コストを押し上げる。複数の当事者発表が混在しており、隻数や攻撃手段を確定扱いすると供給途絶の規模を誤る。現時点で確認できるのは個別船の被害と原油価格反応である。",
+          "implications": "日本企業はスポット価格だけでなく、タンカー保険、迂回、在庫日数、Dubai原油との価格差を確認したい。原油高が続けば日銀の物価見通しと企業収益を同時に圧迫する。船舶数、航行制限、港湾稼働、米・Iran双方の追加措置が独立に確認されるまで、全面封鎖を前提にしない。",
+          "sources": [
+            { "title": "Iran's IRGC Navy says four tankers catch fire in Strait of Hormuz", "publisher": "Reuters", "url": "https://www.reuters.com/world/middle-east/irans-irgc-navy-says-two-tankers-stopped-south-hormuz-after-incidents-2026-10-30/" },
+            { "title": "Iran says 4 tankers strike mines and catch fire in Strait of Hormuz", "publisher": "Associated Press", "url": "https://apnews.com/article/7f7f34ceb62f294a450e48ace0bd56e0" }
+          ],
+          "tags": ["Hormuz海峡", "Iran", "タンカー", "原油", "海上輸送"]
+        },
+        {
+          "id": "oleshky-aid-evacuation",
+          "headline": "Oleshkyへ物資到着、住民退避",
+          "dek": "局地停戦下で25台のバスと9台の救急車、国連は要請を受けず監視",
+          "importance": 2,
+          "facts": [
+            "Russia占領下のUkraine南部Oleshkyで10月30日、食料・医薬品などを積んだ支援車列が到着し、退避を希望する住民の移送が始まった。道路の地雷除去は前日に完了したと両国が発表した。",
+            "移送には25台のバスと9台の救急車が使われ、住民はCrimeaを経由してRussiaまたはUkraineへ向かうグループに分かれた。Ukraine側へ向かう人はRussia南部とBelarusを回る経路を取る。人数と搬入物資量の確定値は公表されていない。",
+            "UkraineとRussiaの人権担当者が共同で調整し、10月27日からの局地停戦は継続した。ただし他地域への攻撃は続いた。",
+            "国連OCHAは公式な支援要請を受けておらず、状況を監視していると説明した。退避は安全かつ自発的であるべきだとし、停戦を前線両側への人道アクセス拡大につなげるよう求めた。"
+          ],
+          "why_it_matters": "前号まで未確認だった『支援が実際に届くか』が一段進んだ。停戦維持、地雷除去、車列到着、住民移送は人道成果だが、搬入量、退避人数、行き先の選択の自由はまだ検証が必要である。局地協力はUkraine全域の和平や攻撃停止を意味しない。",
+          "implications": "停戦の評価は式典や車両数で終えず、最終的な退避人数、残留者への配給、経路選択、11月1日の期限後もアクセスが続くかで判断したい。国連が当事者調整に参加していないため、独立監視と保護措置の有無も重要になる。",
+          "follow_up": {
+            "previous": { "date": "2026-10-28", "article_id": "oleshky-truce-holds" },
+            "assessment": "strengthened",
+            "reassessment": "前号では停戦初日の静穏を確認した一方、地雷除去、車列通過、物資搬入、退避は未確認だった。今回は地雷除去完了、支援物資の到着、バスと救急車による移送開始が確認され、人道成果へ進んだとの見立てが補強された。ただし人数・物資量と退避の自発性は未確定である。",
+            "next_check": "11月1日までの最終退避人数、残留者への配給量、行き先選択の記録、期限後の停戦と人道アクセスを確認する。",
+            "reconsider_if": "退避の強制や行き先制限が確認される、残留者へ物資が届かない、または期限直後に回廊が閉鎖される。"
+          },
+          "sources": [
+            { "title": "Residents leave Russian-occupied Oleshky by bus under truce", "publisher": "Reuters", "url": "https://www.reuters.com/world/europe/aid-convoy-sets-off-russian-held-town-oleshky-ukraine-izvestia-says-2026-10-30/" },
+            { "title": "UN Geneva Press Briefing: UNHCR, OCHA", "publisher": "United Nations", "url": "https://transcripts.un.org/en/briefing/geneva/2026-10-30" }
+          ],
+          "tags": ["Ukraine", "Russia", "Oleshky", "人道停戦", "住民退避"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "boj-etf-sales-pace",
+          "headline": "日銀、ETF売却を年8,600億円へ",
+          "dek": "2027年1月から簿価ベース2.6倍、市場売買代金の約0.1％",
+          "importance": 2,
+          "facts": [
+            "日銀は10月30日、ETFの売却ペースを簿価ベースで年約3,300億円から約8,600億円へ増やし、2027年1月に実施すると全員一致で決めた。",
+            "新ペースは東証プライム市場の2026年1～9月の売買代金と、日銀が売ったETFの時価・簿価倍率から算定した。市場売買代金の約0.1％に相当し、同倍率で時価換算すれば年約2兆4,600億円になる。",
+            "市場急変時は年次ペースの範囲で一時的な売却額調整や停止ができる。J-REITは簿価年約50億円を維持する。",
+            "日銀は2026年1月にETF売却を開始し、これまで大きな市場影響を避けて円滑に進んだことと、株式市場の売買代金増加を増額理由に挙げた。"
+          ],
+          "diagram": {
+            "type": "comparison",
+            "title": "日銀ETF売却ペース",
+            "unit": "簿価・億円／年",
+            "note": "日銀の2026年10月30日決定。旧ペースと2027年1月開始の新ペースはいずれも簿価ベースの年額。",
+            "items": [
+              { "label": "旧ペース", "value": 3300, "display_value": "3,300億円", "status": "actual" },
+              { "label": "新ペース", "value": 8600, "display_value": "8,600億円", "status": "forecast" }
+            ]
+          },
+          "why_it_matters": "中央銀行のETF処分は、金融緩和の出口と市場機能の回復を両立させる長期作業である。簿価と時価は異なるため、8,600億円をそのまま市場の売り注文額と読むのは誤りになる。市場売買代金に対する比率と、急変時の停止規定を併せて見る必要がある。",
+          "implications": "株式市場では日々の売却額より、銘柄配分、執行方法、市場流動性が価格影響を決める。企業・投資家は日銀売却を一律の株安材料とせず、2027年1月以降の実績、売買代金比率、ETF残高、停止・調整の発動条件を追いたい。",
+          "sources": [
+            { "title": "Statement on Monetary Policy", "publisher": "Bank of Japan", "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf" },
+            { "title": "Decisions regarding a Change in the Pace of Sales of ETFs", "publisher": "Bank of Japan", "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030c.pdf" }
+          ],
+          "tags": ["日銀", "ETF", "金融政策", "出口戦略", "市場流動性"]
+        },
+        {
+          "id": "ai-training-preference-signal",
+          "headline": "AI学習拒否、共通信号をrobots.txtへ",
+          "dek": "IETF草案は用途別トークンを提案、OpenAIは数カ月内の対応を表明",
+          "importance": 2,
+          "facts": [
+            "OpenAIは10月30日、ウェブ運営者が基盤生成AIの学習利用に関する希望を複数事業者へ共通に伝えるrobots.txt信号を尊重すると発表した。実装は今後数カ月を目指し、既存のGPTBot向け制御も維持する。",
+            "IETFのAI Preferences作業部会に提出された初版草案は、User-Agent欄へ用途別トークン「__usage_ai-training」を置き、パスごとにAllowまたはDisallowを指定する。新しい命令や文法は追加しない。",
+            "草案は2026年10月30日公開のInternet-Draftで、標準として確定しておらず、2027年5月3日に失効予定である。既存クローラーが未認識のトークンを無視する可能性もある。",
+            "Googleも共通信号への対応を2027年に目指すと表明し、明示的なGoogle-Extended設定がない場合は共通信号を同制御と同様に解釈する方針を示した。"
+          ],
+          "why_it_matters": "これまでサイト運営者はAI事業者ごとにクローラー名を管理する必要があった。共通信号は運用負担を下げるが、法的拘束力のある拒否装置ではなく、草案を事業者が解釈・遵守する仕組みである。学習、検索の接地、利用者が要求する取得は用途が異なり、一つの設定で全部を制御できるとは限らない。",
+          "implications": "出版社や企業サイトは直ちに旧設定を消さず、共通信号と事業者別ルールを併記し、アクセスログで実装状況を確認したい。契約・著作権・検索流入の判断はrobots.txtだけに委ねず、対象パス、用途、適用開始日、事業者の遵守表明を記録する必要がある。",
+          "sources": [
+            { "title": "Making it easier for websites to express AI training preferences", "publisher": "OpenAI", "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/" },
+            { "title": "Machine-Readable Training Preference Signal", "publisher": "Internet Engineering Task Force Datatracker", "url": "https://datatracker.ietf.org/doc/html/draft-kelley-aipref-training-preference-signal-00" },
+            { "title": "Supporting a shared AI training control for websites", "publisher": "Google Search Central", "url": "https://developers.google.cn/search/blog/2026/10/ai-training-control" }
+          ],
+          "tags": ["robots.txt", "AI学習", "IETF", "著作権", "ウェブ標準"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "中央銀行のETF売却はなぜ『売却額』だけでは読めないのか",
+    "dek": "簿価、時価、売買代金、執行速度を分けると、日銀の出口が市場へ伝わる経路が見える。",
+    "tags": ["日銀", "ETF", "中央銀行", "市場流動性"],
+    "reading_minutes": 5,
+    "body_md": "## まず簿価と時価を分ける\n\n日銀はETF売却ペースを、2027年1月から簿価ベースで年約3,300億円から約8,600億円へ増やすと決めた。ここで最初に注意したいのは、簿価が実際の売却代金ではないことだ。簿価は日銀が取得時に記録した価格を基準にする。保有ETFの市場価格が取得時より上がっていれば、同じ持ち分を売る際の時価は簿価より大きい。日銀は今回の8,600億円を、2026年1～9月に売ったETFの時価・簿価倍率で換算すると年約2兆4,600億円になると示した。二つの数字は矛盾ではなく、同じ資産を別の物差しで表している。\n\nしたがって『8,600億円の売りが出る』とも『2兆4,600億円が一度に市場へ出る』とも読めない。前者は会計上の取得価格、後者は過去の倍率を使った年額換算であり、実際の受取額は売却日の価格と銘柄構成で変わる。\n\n## 市場への圧力は分母で変わる\n\n価格への影響を考えるときは、売却額だけでなく市場全体の売買代金を分母に置く。日銀は新ペースを東証プライム市場の売買代金の約0.1％に相当すると説明した。旧ペースは約0.05％だった。絶対額は2.6倍になっても、日々の売買に対する比率は小さい。売買代金が増えれば同じ売却額を吸収しやすくなり、減れば逆になる。\n\nただし平均0.1％なら必ず影響が小さいとは限らない。ETFが連動する指数、構成銘柄の流動性、売却時刻、市場が弱い日の注文集中で価格反応は異なる。日経平均型とTOPIX型では構成比の偏りも違う。市場全体の平均値は、個別銘柄の需給を保証しない。さらに、売却を予想した民間投資家が先回りすれば、日銀自身の注文が出る前に価格が動く。実際の影響は執行額だけでなく期待を通じても表れる。\n\n## 速度より執行設計が重要になる\n\n中央銀行は利益最大化より、市場機能を損なわずに保有を減らすことを重視する。日銀は市場急変時に、年次ペースの範囲で一時的に売却額を調整したり停止したりできる。これは機械的に一定額を売り続ける設計ではない。急落時に売りを重ねない柔軟性がある一方、どの条件で調整するかは今後の執行実績から読む必要がある。\n\n重要なのは予告可能性でもある。市場参加者が年間ペースと開始時期を知れば、突然の大量売却より注文を吸収しやすい。しかし、予告が完全なら先回り取引が起きる。銘柄別、日別の詳細を明かしすぎると、日銀より先に売ろうとする参加者が価格を動かす。透明性と執行効率には緊張関係がある。J-REITを簿価年約50億円のまま据え置いた点も、資産ごとの市場規模と流動性に合わせて速度を変えていることを示す。\n\n## 出口は売り切る日ではなく残高の道筋\n\n日銀のETF保有は長年の金融緩和で積み上がった。新ペースにしても処分は短期で終わらない。だから単年の売却損益より、残高がどの速度で減り、市場の価格形成が民間取引へ戻るかを見る方が重要になる。時価上昇で含み益が増えても、保有数量が減らなければ市場への関与は残る。逆に価格が下がれば、同じ簿価ペースでも売る口数や時価が変わる。\n\n確認したい指標は四つある。第一に簿価ベースの年間売却実績、第二に時価換算額、第三に売買代金比率、第四に期末保有残高である。加えて、停止・調整が発動された日と市場環境を重ねる。四つの尺度を前年や計画と比べれば、会計上の残高減少と市場が実際に吸収した金額を混同せずに済む。これらを分ければ、『増額だから株安』という一方向の説明を避けられる。日銀の出口は一回の売却ではなく、会計尺度、流動性、執行規律を何年も両立させる工程なのである。",
+    "diagram": {
+      "type": "relationship",
+      "title": "ETF売却を読む四つの尺度",
+      "nodes": [
+        { "id": "book", "label": "簿価", "detail": "取得時の会計価格" },
+        { "id": "market", "label": "時価", "detail": "売却時の市場価格" },
+        { "id": "turnover", "label": "売買代金", "detail": "市場が吸収する分母" },
+        { "id": "balance", "label": "保有残高", "detail": "出口の進み具合" }
+      ],
+      "links": [
+        { "from": "book", "to": "market", "label": "時価・簿価倍率" },
+        { "from": "market", "to": "turnover", "label": "市場比率" },
+        { "from": "book", "to": "balance", "label": "残高減少" }
+      ],
+      "note": "金額の定義と市場への相対規模を分ける。矢印は価格因果ではなく換算・比較関係。"
+    },
+    "sources": [
+      { "title": "Statement on Monetary Policy", "publisher": "Bank of Japan", "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030a.pdf" },
+      { "title": "Decisions regarding a Change in the Pace of Sales of ETFs", "publisher": "Bank of Japan", "url": "https://www.boj.or.jp/en/mopo/mpmdeci/mpr_2026/k261030c.pdf" }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "日銀の据え置きは緩和方向ではない。翌年度物価予測、反対票、基調指標を合わせると、企業の金利ストレステストは続けるべきだと推論できる。",
+      "AI投資への市場警戒とデータセンター周辺の実受注は同居している。GPU銘柄全体ではなく、契約・納期・現金化を企業ごとに分ける必要がある。",
+      "Hormuzの個別攻撃が原油価格と日銀物価見通しを結んだ。海上輸送の確認情報が増えるまで、全面封鎖と単発事故の中間シナリオを持つ方が実務的である。",
+      "Oleshkyでは停戦から支援・退避へ進んだ。外交成果の評価は合意文書より、物資量、人数、自発性、期限後の継続で更新したい。"
+    ],
+    "watchlist": [
+      { "item": "Oleshky局地停戦の期限", "why": "支援・退避が始まった後も人道アクセスが続くかを確認", "horizon": "11月1日" },
+      { "item": "Binance準備金証明", "why": "損失補填、顧客負債との対応、出金再開を検証", "horizon": "11月2日" },
+      { "item": "Israel選挙結果認証", "why": "各党推薦と組閣要請で61議席の道筋が見える", "horizon": "11月4日まで" },
+      { "item": "Kimi K3.1 Pro重み公開", "why": "能力抑制の再現性と第三者評価を確認", "horizon": "11月4日" },
+      { "item": "日銀会合の意見要旨", "why": "1.5％提案以外の委員が追加利上げをどう条件付けたかを確認", "horizon": "11月10日" },
+      { "item": "米GDP改定値", "why": "民間固定投資・消費寄与とPCE修正を確認", "horizon": "11月25日" }
+    ]
+  },
+  "glossary": [
+    { "term": "基調的なインフレ", "reading": "きちょうてきないんふれ", "definition": "一時的なエネルギー・生鮮品変動をならし、賃金、需給、期待などから持続しやすい物価上昇を捉える考え方。単一指標ではなく複数の指標で評価される。" },
+    { "term": "ホットウォレット", "reading": "ホットウォレット", "definition": "インターネットに接続し、暗号資産の入出金へすぐ使える保管方式。利便性が高い一方、オフラインのコールドウォレットより侵害時の流出リスクが高い。" },
+    { "term": "付着型機雷", "reading": "ふちゃくがたきらい", "definition": "船体へ磁石などで取り付けて爆発させる機雷。小型艇や潜水員から設置でき、航路封鎖をしなくても海運の安全費用を押し上げる。" },
+    { "term": "policy token", "reading": "ポリシートークン", "definition": "robots.txtで通信制御対象のクローラー名ではなく、AI学習など利用目的を示すために提案された識別子。今回の草案はまだ確定標準ではない。" }
+  ]
+}
