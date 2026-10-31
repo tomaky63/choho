@@ -1,0 +1,299 @@
+{
+  "date": "2026-11-01",
+  "edition": 75,
+  "generated_at": "2026-11-01T08:07:31+09:00",
+  "masthead_note": "北朝鮮の暗号資産窃取、弱い中国景況、広がる軍事AI。資産の裏付けと動かせることを分けて読む。",
+  "market_snapshot": {
+    "as_of": "週末のため、日経平均・TOPIXは10月30日東京市場終値、USD/JPY・米国株・米10年債・原油は10月30日米国市場終値",
+    "items": [
+      { "label": "日経平均", "value": "63,290.11円", "change": "-1,369.36円（-2.12%）", "direction": "down" },
+      { "label": "TOPIX", "value": "3,965.07", "change": "-38.21（-0.95%）", "direction": "down" },
+      { "label": "USD/JPY", "value": "157.51円", "change": "円は対ドルで0.11%高", "direction": "down", "note": "10月30日米国市場午後" },
+      { "label": "S&P500", "value": "7,580.07", "change": "-1.82%", "direction": "down" },
+      { "label": "Nasdaq総合", "value": "25,437.00", "change": "-2.86%", "direction": "down" },
+      { "label": "米10年国債利回り", "value": "4.931%", "change": "前日比-0.058pt", "direction": "down" },
+      { "label": "WTI原油", "value": "104.12ドル/バレル", "change": "6カ月ぶり高値圏", "direction": "up" },
+      { "label": "Brent原油", "value": "117.63ドル/バレル", "change": "6カ月ぶり高値圏", "direction": "up" }
+    ]
+  },
+  "focus_refs": [
+    "fbi-north-korea-binance",
+    "china-october-pmi",
+    "oleshky-evacuees-return"
+  ],
+  "executive_summary": [
+    { "text": "FBI、Binanceの60億ドル超窃取を北朝鮮TraderTraitorの犯行と断定", "ref": "fbi-north-korea-binance" },
+    { "text": "中国10月製造業PMIは49.3、非製造業も49.7へ低下", "ref": "china-october-pmi" },
+    { "text": "Nasdaqは2.86％安、10月のAI投資採算への警戒が月末に集中", "ref": "us-stocks-october-selloff" },
+    { "text": "Oleshky退避者がUkraine側へ到着、停戦終了後は定期人道任務で合意", "ref": "oleshky-evacuees-return" },
+    { "text": "北朝鮮、戦術弾道弾向けクラスター弾頭を試験。年末までの部隊配備を表明", "ref": "north-korea-cluster-warhead" },
+    { "text": "Quad、半導体供給網の脆弱性調査と信頼できるAIへ8,500万ドル超", "ref": "quad-supply-chain-ai" },
+    { "text": "ExxonとChevron、戦争で上昇した精製マージンが利益を押し上げ", "ref": "oil-majors-refining-profit" }
+  ],
+  "top_story": {
+    "id": "fbi-north-korea-binance",
+    "headline": "FBI、Binance窃取は北朝鮮と断定",
+    "dek": "60億ドル超をTraderTraitorが窃取、Ethereumへ交換し追加洗浄へ。補填90％でも出金再開は未確認",
+    "importance": 3,
+    "facts": [
+      "米FBIは10月31日、10月29日ごろBinanceから60億ドル超の暗号資産を窃取したのは北朝鮮の悪性サイバー活動TraderTraitorだと発表した。",
+      "FBI、米大統領警護隊、内国歳入庁犯罪捜査部は、犯行主体が窃取資産を主にEthereumへ交換しているのを確認し、DeFiや即時交換サービスを使う追加の資金洗浄を予想している。",
+      "Binanceは10月31日、流出資産の補填率を前日の約80％から90％へ高め、BTC、ETH、USDTなど10資産を100％裏付けたと発表した。残る10％は流動性の低いトークンである。",
+      "同社は10月31日0時（UTC）時点の準備金スナップショットを取得し、完全なゼロ知識証明を11月3日までに生成する予定とした。出金は11月1日に再開する計画だが、11月1日8時07分（日本時間）時点で具体的な再開は確認できない。"
+    ],
+    "why_it_matters": "前号では侵入口と実際の資産裏付けが焦点だった。FBIの国家主体への帰属は、単発の取引所事故ではなく、資金洗浄阻止を含む継続的な安全保障対応が必要なことを示す。一方、90％補填や準備金スナップショットは、利用者が資産を引き出せることや全負債を含む支払能力と同義ではない。",
+    "implications": "取引所、発行体、DeFi事業者はFBI公表アドレスから派生する取引を追跡しつつ、誤凍結を防ぐ手順も必要になる。利用企業は出金再開後の処理時間、日次上限、失敗率を確認し、準備金比率だけで資金を集中させない方がよい。",
+    "follow_up": {
+      "previous": { "date": "2026-10-31", "article_id": "binance-hot-wallet-breach" },
+      "assessment": "mixed",
+      "reassessment": "前号で未確定だった犯行主体はFBIが北朝鮮と断定し、補填率も80％から90％へ上がった。回収・補填の見立ては補強されたが、出金再開と完全なゼロ知識証明はまだ確認できず、運用正常化の判断は保留する。",
+      "next_check": "11月1日の段階出金で処理量・遅延・上限を確認し、11月3日の完全証明で資産別の1対1裏付けと顧客残高の包含を確認する。",
+      "reconsider_if": "出金が予定どおり安定稼働し、完全証明と独立検証が全対象負債を裏付ける、または未補填資産や追加流出が判明する。"
+    },
+    "sources": [
+      { "title": "North Korea Responsible for $6 Billion+ Binance Attack", "publisher": "Federal Bureau of Investigation", "url": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack" },
+      { "title": "Security Incident Asset Replenishment Update", "publisher": "Binance", "url": "https://www.binance.com/en/square/post/383244799724069" }
+    ],
+    "tags": ["Binance", "北朝鮮", "TraderTraitor", "暗号資産", "サイバーセキュリティ"]
+  },
+  "sections": [
+    {
+      "id": "macro_markets",
+      "articles": [
+        {
+          "id": "china-october-pmi",
+          "headline": "中国製造業PMI、49.3へ低下",
+          "dek": "生産・新規受注とも50割れ、非製造業も49.7。大型企業とハイテクは拡大を維持",
+          "importance": 3,
+          "facts": [
+            "中国国家統計局が10月31日発表した10月の製造業PMIは49.3で、9月の50.1から0.8ポイント低下した。生産は49.8、新規受注は49.4だった。",
+            "非製造業の景況指数は49.7、総合PMI産出指数も49.7で、ともに前月比で低下した。50は前月比の拡大・縮小の境目である。",
+            "大型企業PMIは50.2だったが、中型は48.4、小型は47.5だった。ハイテク製造業は51.3、装備製造業は50.6を維持した。"
+          ],
+          "why_it_matters": "製造業だけでなく非製造業と総合指数も同時に50を下回り、需要の弱さが広がった。ただし大型・ハイテクは拡大しており、景気悪化は一様ではない。中国向け売上は総量より企業規模と業種で差が拡大し得る。",
+          "implications": "日本企業は中国売上計画を一本のGDP見通しで置かず、消費財、素材、設備で分けたい。新規受注と小型企業PMIが50へ戻らなければ、値下げ輸出と供給過剰への警戒が必要になる。",
+          "sources": [
+            { "title": "2026年10月中国采购经理指数运行情况", "publisher": "中国国家統計局", "url": "https://www.stats.gov.cn/sj/zxfbhjd/202610/t20261031_1965718.html" }
+          ],
+          "tags": ["中国", "PMI", "製造業", "非製造業", "景気"]
+        },
+        {
+          "id": "us-stocks-october-selloff",
+          "headline": "Nasdaq2.86％安、10月は5％超下落",
+          "dek": "AI投資採算への警戒で月末に売り、S&P500も1.82％安",
+          "importance": 2,
+          "facts": [
+            "10月30日のS&P500は前日比1.82％安の7,580.07、Nasdaq総合は2.86％安の25,437.00、Dow平均は1.09％安の51,770.31で終えた。",
+            "Nasdaq100は10月に5.8％超下落し、時価総額で2兆ドル超が失われる見通しとなった。大手クラウド各社のAI設備投資増加が回収速度への警戒を強めた。",
+            "Intelは利益見通しへの失望から約29％下落し、1974年以来の大幅安となった。"
+          ],
+          "why_it_matters": "前日の大型テック売りが一社の決算反応から指数全体へ広がった。AI需要そのものの消滅ではなく、売上成長と設備投資後の現金回収の時間差に市場が高い割引率を当て始めた動きである。",
+          "implications": "AI関連の投資判断では受注・売上に加え、設備稼働率、減価償却、フリーキャッシュフローを同じ期間で比較したい。日本株も半導体比重の高い指数と内需株を分けて見る必要がある。",
+          "sources": [
+            { "title": "How major US stock indexes fared Friday 10/30/2026", "publisher": "Associated Press", "url": "https://apnews.com/article/a01d3551e794fed1a0c317c20bc3f0a2" },
+            { "title": "Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen", "publisher": "Reuters", "url": "https://www.reuters.com/business/media-telecom/nasdaq-faces-2-trillion-wipeout-october-ai-spending-fears-deepen-2026-10-30/" }
+          ],
+          "tags": ["米国株", "Nasdaq", "AI投資", "Intel", "市場"]
+        }
+      ]
+    },
+    {
+      "id": "tech_ai",
+      "articles": [
+        {
+          "id": "maven-ai-war-oversight",
+          "headline": "米軍Maven、Iran戦で初の全面展開",
+          "dek": "分類計算資源を使い切る規模、誤判定と同盟国の依存が人間監督の論点に",
+          "importance": 2,
+          "facts": [
+            "米国防総省の最高デジタル・AI責任者は、IranへのOperation Epic Furyで標的分析システムMavenを初めて全面展開し、利用可能な米機密計算能力をほぼ使い切ったと説明した。",
+            "Mavenのデータ統合はPalantirが担い、Anthropic、OpenAI、Google、Microsoftなどのモデルが機密環境で使われていると複数の公式説明・報道が示した。",
+            "CNNが報じた中国商船に関する誤判定や、旧い地図・データを原因とする攻撃事故があり、入力品質と人間の最終判断が残る論点となっている。"
+          ],
+          "why_it_matters": "軍事AIの制約がモデル精度だけでなく、計算資源、入力データ、提供企業への依存へ移っている。分析を速めても戦略目標の妥当性や兵器在庫の持続性までは自動的に保証しない。",
+          "implications": "防衛・重要インフラでAIを使う組織は、誤判定率だけでなく、データ更新頻度、停止権限、代替モデル、計算容量の上限を契約と演習で確認すべきである。",
+          "sources": [
+            { "title": "AI's rewiring of US warfare may be only the beginning", "publisher": "Reuters", "url": "https://www.reuters.com/technology/artificial-intelligence/ais-rewiring-us-warfare-may-be-only-beginning-2026-10-30/" }
+          ],
+          "tags": ["Maven", "軍事AI", "Palantir", "人間監督", "計算資源"]
+        },
+        {
+          "id": "anthropic-ai-science-expansion",
+          "headline": "Anthropic、科学20組織へAI支援拡大",
+          "dek": "無料Claudeクレジットを提供、実験機器の共通仕様と公開データも支援",
+          "importance": 1,
+          "facts": [
+            "Anthropicは10月28日、科学向けAIプログラムを20の財団、研究機関、研究グループへ拡大し、高インパクト研究へ無料のClaudeクレジットを提供すると発表した。",
+            "参加先には米国立科学財団、Space Telescope Science Institute、Wellcome Sanger Institute、EMBLなどが含まれる。",
+            "同社はHHMI Janelia Research Campusと、AIエージェントが実験機器を安全に操作する共通仕様Model Hardware Standardを研究プレビューで開発している。"
+          ],
+          "why_it_matters": "科学AIの競争軸が論文要約から、実験機器、公開データ、組織横断の再現可能性へ広がっている。無料クレジットは利用を増やすが、研究成果や時間短縮を実証したものではない。",
+          "implications": "研究機関は利用量より、再現できた分析、公開されたデータ・コード、機器操作の安全記録を測りたい。日本の研究支援でもモデル利用料とデータ基盤整備を分けて評価する必要がある。",
+          "sources": [
+            { "title": "AI for Science expands to foundations and research institutions", "publisher": "Anthropic", "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions" }
+          ],
+          "tags": ["Anthropic", "AI for Science", "研究", "実験自動化", "オープンサイエンス"]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "articles": [
+        {
+          "id": "oil-majors-refining-profit",
+          "headline": "Exxon、調整後利益175億ドル",
+          "dek": "戦争で精製マージン上昇、Chevronも下流部門が6年で最高",
+          "importance": 2,
+          "facts": [
+            "ExxonMobilの2026年7～9月期利益は154億ドル、調整後利益は175億ドル、営業キャッシュフローは257億ドル、フリーキャッシュフローは191億ドルだった。",
+            "Reutersによると、Exxonは少なくとも6年で初めて精製利益が上流部門を上回り、Chevronの下流部門利益も同期間で最高となった。",
+            "Middle EastとRussia・Ukraineの戦争で製油能力が減り、ガソリン・軽油の精製マージンが上昇した。両社は米製油所を高稼働させた。"
+          ],
+          "why_it_matters": "原油高だけでなく、原油を燃料へ変える能力の不足が利益配分を上流から精製へ移した。エネルギー企業を原油価格だけで評価すると、製品別の供給制約を見落とす。",
+          "implications": "日本の運輸・化学企業は原油指標に加え、軽油・ガソリンのクラックスプレッドと製油所稼働を調達計画へ入れたい。戦争終結や設備復旧でマージンが正常化すれば、利益構成は再び変わり得る。",
+          "sources": [
+            { "title": "ExxonMobil Announces Third-Quarter 2026 Results", "publisher": "ExxonMobil", "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1213/exxonmobil-announces-third-quarter-2026-results" },
+            { "title": "Exxon, Chevron profits beat forecasts, refining margins surge during wars", "publisher": "Reuters", "url": "https://www.reuters.com/business/energy/wrapup-exxon-chevron-earnings-propelled-by-war-driven-refining-surge-2026-10-30/" }
+          ],
+          "tags": ["ExxonMobil", "Chevron", "精製", "原油", "エネルギー"]
+        },
+        {
+          "id": "adt-thrive-private-deal",
+          "headline": "ADT、153億ドルで非公開化へ",
+          "dek": "Thriveが1株10ドルで買収、30日間の買い手募集期間を設定",
+          "importance": 2,
+          "facts": [
+            "ADTとThrive Holdingsは10月29日、ThriveがADTを企業価値約153億ドル、株式価値約76億ドルで買収する最終契約を結んだ。",
+            "ADT株主への対価は1株10ドルの現金で、影響を受けていない10月27日終値に45.6％のプレミアムを付ける。完了後、ADTは非公開会社となる。",
+            "契約には11月28日まで30日間の買い手募集期間があり、取引は資金調達条件を付けず、規制・株主承認を前提とする。"
+          ],
+          "why_it_matters": "上場市場が短期利益を求めるなか、常設資本が家庭・中小企業向け安全サービスの長期的な製品投資を引き受ける構図である。高い買収プレミアムは顧客基盤と現場網の価値を示すが、負債を含む企業価値は株式価値の約2倍である。",
+          "implications": "サブスクリプション企業は売上倍率だけでなく、顧客維持率、現場サービス費、買収後の負債負担を見る必要がある。データ保護方針の維持表明は、非公開化後の実際の投資と監査で確認したい。",
+          "sources": [
+            { "title": "ADT to be Acquired by Thrive Holdings in $15.3 Billion Transaction", "publisher": "ADT", "url": "https://investor.adt.com/News--Events/news/news-details/2026/ADT-to-be-Acquired-by-Thrive-Holdings-in-15-3-Billion-Transaction/" }
+          ],
+          "tags": ["ADT", "Thrive Holdings", "M&A", "非公開化", "常設資本"]
+        }
+      ]
+    },
+    {
+      "id": "world_geopolitics",
+      "articles": [
+        {
+          "id": "oleshky-evacuees-return",
+          "headline": "Oleshky退避者、Ukraine側へ到着",
+          "dek": "6日間の局地停戦は11月1日終了、両国担当者は定期人道任務で合意",
+          "importance": 2,
+          "facts": [
+            "Russia占領下Oleshkyから退避した住民が10月31日、Crimea、Russia、Belarusを経由し、Ukraine北部Chernihiv州へ到着した。最年長は94歳、最年少は1歳余りだった。",
+            "局地停戦は道路の地雷除去、食料・医薬品搬入、住民退避を可能にし、10月27日から違反なく続いたと両国当局者が説明した。退避人数の確定値は公表されていない。",
+            "一部住民はRussia行きやOleshky残留を選んだ。Russia側人権担当者は任務終了後もUkraine側担当者と定期的な人道任務を行うことで合意したと述べた。"
+          ],
+          "why_it_matters": "前号で未確認だったUkraine側への到着が確認でき、停戦が実際の避難へつながった。ただし人数、選択の自発性、残留者への継続配給は未確定であり、6日間の成功を恒久的な人道アクセスと読み替えられない。",
+          "implications": "停戦終了後は定期任務の頻度、搬入量、独立監視、残留者の水・電気・ガスを追いたい。同様の局地合意を他地域へ広げられるかは、攻撃停止ではなく検証可能なアクセス実績で判断すべきである。",
+          "follow_up": {
+            "previous": { "date": "2026-10-31", "article_id": "oleshky-aid-evacuation" },
+            "assessment": "strengthened",
+            "reassessment": "前号では車列到着と移送開始までを確認した。今回は退避者のUkraine側到着と停戦の無違反継続、定期人道任務の合意が確認され、人道成果との見立てが補強された。人数と残留者支援はなお不明である。",
+            "next_check": "停戦終了後の次回任務日、搬入量、退避人数、残留者の生活基盤、国連など第三者の監視参加を確認する。",
+            "reconsider_if": "定期任務が実施されない、残留者への配給が止まる、または退避の強制・行き先制限が確認される。"
+          },
+          "sources": [
+            { "title": "Starved residents of Russian-occupied Oleshky return to Ukraine during a rare local ceasefire", "publisher": "Reuters", "url": "https://www.reuters.com/world/europe/three-planes-carrying-residents-evacuated-oleshky-arrive-belarus-news-agency-2026-10-31/" }
+          ],
+          "tags": ["Ukraine", "Russia", "Oleshky", "人道停戦", "住民退避"]
+        },
+        {
+          "id": "north-korea-cluster-warhead",
+          "headline": "北朝鮮、クラスター弾頭を試験",
+          "dek": "戦術弾道ミサイル向け、最高密度で12～13ヘクタールを破壊と主張",
+          "importance": 2,
+          "facts": [
+            "北朝鮮国営の朝鮮中央通信は11月1日、国防科学研究機関が戦術弾道ミサイルに搭載するクラスター弾頭の戦闘適応性と威力を試験したと報じた。",
+            "標準2型弾頭は最高密度で12～13ヘクタールの標的地域を破壊できると主張し、弾頭は4分類あると説明した。数値は北朝鮮発表で、独立検証されていない。",
+            "北朝鮮は2026年末までに全部隊が目的に応じて各種弾頭を使えるようにすると表明した。10月29日には日本海へ短距離弾道ミサイル約10発を発射した。"
+          ],
+          "why_it_matters": "多数の子弾を散布する弾頭は広い範囲の部隊・飛行場・施設を狙い、不発弾が長期の民間被害を残し得る。発射回数だけでなく、弾頭種類と部隊配備の段階を見る必要がある。",
+          "implications": "日本と韓国は迎撃能力に加え、基地分散、滑走路復旧、不発弾処理を備える必要がある。年末の配備完了は北朝鮮の計画であり、実戦配備数や命中精度が確認されるまでは能力を確定扱いしない。",
+          "sources": [
+            { "title": "North Korea says defence research institutes tested major weapon system", "publisher": "Reuters", "url": "https://www.reuters.com/business/aerospace-defense/north-korea-says-defence-research-institutes-tested-major-weapon-system-2026-10-31/" }
+          ],
+          "tags": ["北朝鮮", "弾道ミサイル", "クラスター弾", "安全保障", "朝鮮半島"]
+        }
+      ]
+    },
+    {
+      "id": "policy_regulation",
+      "articles": [
+        {
+          "id": "quad-supply-chain-ai",
+          "headline": "Quad、半導体供給網の弱点を共同調査",
+          "dek": "輸出制限と過剰生産へ懸念、信頼できるAIに8,500万ドル超",
+          "importance": 2,
+          "facts": [
+            "日本、米国、豪州、IndiaのQuad外相は10月31日、重要産業を乱す恣意的な輸出制限、経済的威圧、非市場的な過剰生産へ重大な懸念を表明した。共同声明は中国を名指ししなかった。",
+            "4カ国は半導体と関連供給網の脆弱性を混乱前に特定する新たな取り組みを始め、Indo-Pacificの信頼できるAI技術へ8,500万ドル超を支援するとした。",
+            "Hormuz海峡、紅海、Bab el-Mandeb海峡の航行権・自由の保護も強調し、Palauのデジタル基盤へ2,000万ドルを投じる計画を示した。"
+          ],
+          "why_it_matters": "重要鉱物・半導体・海上輸送・AIを一つの経済安全保障枠組みで扱い始めた。供給途絶後の補助金ではなく、依存度と代替能力を平時に共同把握する方向である。",
+          "implications": "日本企業はTier1の国籍だけでなく、鉱物、製造装置、設計IP、海運の単一障害点をQuadの調査項目と照らしたい。支援額は計画であり、案件、調達条件、実施地域の公表が次の確認点となる。",
+          "sources": [
+            { "title": "Indo-Pacific Quad ministers work on supply chains, denounce arbitrary export restrictions", "publisher": "Reuters", "url": "https://www.reuters.com/world/china/rubio-host-meeting-indo-pacific-quad-wrap-up-g20-gathering-2026-10-31/" }
+          ],
+          "tags": ["Quad", "半導体", "供給網", "AI", "経済安全保障"]
+        },
+        {
+          "id": "us-election-officials-order",
+          "headline": "米裁判所、選挙職員への訴追威嚇を禁止",
+          "dek": "中間選挙直前、Justice Departmentの有権者削除要求を一時差し止め",
+          "importance": 2,
+          "facts": [
+            "米連邦地裁のTrina Thompson判事は10月30日、非市民とされる有権者への対応要求に従わない州・地方選挙職員を訴追すると威嚇することをJustice Departmentへ禁じる一時的差止命令を出した。",
+            "命令は、政権作成リストに基づく有権者登録からの削除、特定票の拒否、票の分離を地方当局へ要求することを禁じた。",
+            "11月3日の中間選挙は下院と上院の支配を決める。Justice Departmentは判決直後にコメントしなかった。"
+          ],
+          "why_it_matters": "投票資格の執行権限を連邦政府と州・地方のどこに置くかが、開票前に司法判断へ持ち込まれた。一時命令は本案の最終判断ではないが、選挙当日の手続き変更を抑える。",
+          "implications": "市場や企業は選挙結果だけでなく、集計・認証をめぐる訴訟日程も政策不確実性へ織り込む必要がある。命令の継続、控訴、州ごとの運用差を確認したい。",
+          "sources": [
+            { "title": "Judge orders Trump administration to cease threats to prosecute election officials", "publisher": "Reuters", "url": "https://www.reuters.com/legal/government/judge-orders-trump-administration-cease-threats-prosecute-election-officials-2026-10-31/" }
+          ],
+          "tags": ["米国", "中間選挙", "司法", "選挙管理", "連邦制"]
+        }
+      ]
+    }
+  ],
+  "frontier": {
+    "title": "準備金証明はなぜ『すぐ出金できる』ことを保証しないのか",
+    "dek": "1対1の裏付け、債務、流動性、運用停止を分けると、暗号資産取引所の安全性を過不足なく読める。",
+    "tags": ["暗号資産", "準備金証明", "流動性", "zk-SNARKs"],
+    "reading_minutes": 5,
+    "body_md": "## 1対1の裏付けが示すもの\n\n準備金証明（Proof of Reserves、PoR）は、取引所が預かった顧客資産に対応する資産を保有しているかを確認する仕組みである。Binanceは1 BTCを預かれば少なくとも1 BTCを準備金として持つ考え方を示す。10月31日の更新ではBTC、ETH、USDTなど10資産を100％裏付けたと説明した。これは、対象時点・対象資産について、顧客残高に対応する資産があるという主張である。\n\nここで『対象時点』が重要だ。スナップショットは写真のようなもので、その後の入出金や価格変動、追加流出は写さない。対象資産以外や、帳簿に含まれない債務も自動的には分からない。PCAOBは従来、PoR報告が負債、顧客の法的権利、借り入れ資産の有無を扱わない場合があるとして注意を促してきた。1対1という数字は有用だが、会社全体の監査済み貸借対照表と同じではない。\n\n## Merkle木とゼロ知識証明の役割\n\n取引所は顧客全員の残高を公開できない。そこで、各口座の残高をハッシュ化し、枝をまとめて一つのMerkle rootへ圧縮するMerkle木を使う。利用者は自分の残高が集計に含まれたことを、他人の残高を見ずに確かめられる。どれか一つの記録が変わればrootも変わるため、後からの改ざんを検知しやすい。\n\nBinanceはさらにzk-SNARKsというゼロ知識証明を使う。これは個別残高を明かさずに、あらかじめ定めた計算が正しく成立したことを検証する暗号技術である。今回、完全な証明の生成に40～50時間かかり、11月3日までに提供する予定とした。証明が完成すれば、利用者は自分の残高が負債集計に含まれ、対象資産が1対1以上であるかを検証しやすくなる。ただし、証明の正しさは入力された口座・資産範囲が完全であることまで自動的に保証しない。暗号学的に正しい証明と、会計範囲が適切であることは別の審査対象である。\n\n## 裏付けと流動性は別の問い\n\n資産を持っていても、すぐ送れるとは限らない。ハッキング後は秘密鍵、承認経路、出金システムを止めて安全確認する。今回のBinanceも補填率を90％へ上げた一方、11月1日朝時点で具体的な出金再開は確認できなかった。資産の存在は『支払える量』を、出金システムは『支払える速さ』を左右する。\n\nさらに、残る10％は流動性の低いトークンだと同社は説明した。市場で大量に買えば価格が上がり、必要数量を揃えにくい。反対に顧客が一斉に引き出せば、オンチェーン資産があっても署名、ネットワーク混雑、一日上限がボトルネックになる。銀行の自己資本比率と窓口の現金が別物なのと同じで、ソルベンシーと流動性を分ける必要がある。加えて、資産がどの法人に帰属し、破綻時に顧客が他の債権者より先に返還を受けられるかは法制度の問題になる。\n\n## 利用者が見るべき四つの確認点\n\n第一はスナップショット日時と対象資産、第二は顧客負債が漏れなく集計されたか、第三は資産が借り物ではなく取引所の管理下にあるか、第四は実際の出金が通常速度で処理されるかである。これに外部監査、資産分離、破綻時の顧客請求権を重ねる。\n\n今回なら、11月3日の完全証明だけで終わらない。出金の処理量と失敗率、未補填の低流動性資産、凍結した30億ドルの法的回収、SAFU再積立を追う必要がある。PoRは『何も分からない』状態を改善する強力な道具だが、『全部安全』という一語へ圧縮してはいけない。裏付け、負債、流動性、運用統制を別々に確認して初めて、利用者が資産へアクセスできる確度を判断できる。定期的な証明が同じ手順と対象範囲で繰り返されれば、単発の復旧宣言よりも変化を比較しやすくなる。",
+    "sources": [
+      { "title": "Proof of Reserves", "publisher": "Binance", "url": "https://www.binance.com/en/proof-of-reserves" },
+      { "title": "Investor Advocate: Exercise Caution With Third-Party Verification/Proof of Reserve Reports", "publisher": "PCAOB", "url": "https://pcaobus.org/news-events/news-releases/news-release-detail/investor-advisory-exercise-caution-with-third-party-verification-proof-of-reserve-reports" },
+      { "title": "Security Incident Asset Replenishment Update", "publisher": "Binance", "url": "https://www.binance.com/en/square/post/383244799724069" }
+    ]
+  },
+  "insights": {
+    "implications": [
+      "北朝鮮への犯行帰属で、取引所障害は金融・サイバー・制裁の三領域をまたぐ。事業者は復旧速度だけでなく派生アドレスの遮断と誤凍結管理を同時に設計する必要がある。",
+      "中国PMIの弱さと米AI株の調整は別の要因だが、どちらも売上成長の総額より構成と回収を読む局面を示す。日本企業は地域・業種・現金化まで分けたい。",
+      "Oleshkyの局地停戦は実際の退避へ進んだ。合意の評価は期間の長さより、終了後の定期任務と残留者支援で更新すべきである。",
+      "軍事AIと北朝鮮の弾頭開発は、性能だけでなくデータ、計算資源、配備、停止権限が実戦能力を決めることを示す。"
+    ],
+    "watchlist": [
+      { "item": "Binance出金再開", "why": "処理量・遅延・上限と追加流出の有無を確認", "horizon": "11月1日" },
+      { "item": "Binance完全準備金証明", "why": "1対1裏付け、顧客残高の包含、対象外負債を確認", "horizon": "11月3日" },
+      { "item": "Oleshky次回人道任務", "why": "停戦終了後の搬入・退避・残留者支援を確認", "horizon": "日程未定" },
+      { "item": "米中間選挙", "why": "議会支配と選挙管理訴訟の政策影響を確認", "horizon": "11月3日" },
+      { "item": "Israel選挙結果認証", "why": "各党推薦と組閣要請で61議席の経路を確認", "horizon": "11月4日まで" },
+      { "item": "Kimi K3.1 Pro重み公開", "why": "能力抑制の再現性と第三者評価を確認", "horizon": "11月4日" }
+    ]
+  },
+  "glossary": [
+    { "term": "TraderTraitor", "reading": "トレーダートレイター", "definition": "FBIが北朝鮮による暗号資産企業への悪性サイバー活動を呼ぶ名称。今回のBinance窃取にも使われたとFBIが発表した。" },
+    { "term": "zk-SNARKs", "reading": "ジーケー・スナークス", "definition": "内容そのものを公開せず、ある計算や条件が正しいことを短い証明で検証するゼロ知識証明の一種。準備金証明では個別残高を隠したまま集計の妥当性を示す。" },
+    { "term": "クラックスプレッド", "reading": "クラックスプレッド", "definition": "原油価格と、そこから作るガソリン・軽油など石油製品価格の差。製油所の粗い精製採算を示し、供給障害で製品不足になると拡大しやすい。" },
+    { "term": "クラスター弾頭", "reading": "クラスターだんとう", "definition": "多数の子弾を広い範囲へ散布する弾頭。不発弾が残りやすく、戦闘後も民間人へ長期の危険を及ぼすため国際的な規制対象となっている。" }
+  ]
+}
